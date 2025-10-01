@@ -1,0 +1,161 @@
+{
+    "#hash_2c15e578281bda50": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": {
+                        "name": "playerasm",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameraanimation": "c_sat_mp_scorestreak_vtol",
+                            "#hash_b296b7b37154feec": true,
+                            "#deltaanimations": [],
+                            "#xcamfirstperson": false,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#disabled": true,
+                    "#animtree": {
+                        "name": "mp_vehicles_always_loaded",
+                        "id": 0
+                    },
+                    "#vehiclename": "veh_sat_vtol_warship_mp",
+                    "#name": "VTOL",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_sat_mp_scorestreak_vtol@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Vehicle"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_3346b00abe548906": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh_t10_mil_air_missile_mirv_warhead_rig",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_killstreak_nuke_warhead_1@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh_t10_mil_air_missile_mirv_warhead_rig",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_killstreak_nuke_warhead_2@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh_t10_mil_air_missile_mirv_warhead_rig",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 3",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_killstreak_nuke_warhead_3@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_66e170b4aea88741": "ScriptModelPlayAnimDeltaMotionFromPos",
+        "#aligntarget": "t10_nuke_scripted_node",
+        "#autocleanup": false,
+        "#bool_gameplay": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#gamemode": "MP",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    }
+}

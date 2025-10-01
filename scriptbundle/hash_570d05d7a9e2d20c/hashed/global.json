@@ -1,0 +1,992 @@
+{
+    "#hash_e5cf2aed1c4008": {
+        "#transitions": [
+            {
+                "#transition": "fe_op_crib_xcam_gunbundle_01_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -3072,
+            "#xcamoriginy": 3072,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 180
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "weapon_customize_small"
+    },
+    "#hash_37746d08075b0d8": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_loadout"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase_overview"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase_internal"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_streak_overview"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_streak_select"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_showcase"
+    },
+    "#hash_3ebd0c95dd282bf": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_loadout_streak"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_streak_select"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase_zm"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_streak_overview"
+    },
+    "#hash_4c218ce49e5ff10": {
+        "#transitions": [
+            {
+                "#transition": ""
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -5872.093,
+            "#xcamoriginy": -3436.26,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": -133
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "character_faction_select_l_clone"
+    },
+    "#hash_53cd62cbc543554": {
+        "#transitions": [
+            {
+                "#transition": "fe_op_crib_xcam_gunbundle_02_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -3072,
+            "#xcamoriginy": 3072,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 180
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "weapon_progression"
+    },
+    "#hash_ad075e14ac78b49": {
+        "#transitions": [
+            {
+                "#transition": "fe_lobby_plow_cam_01_idle_01_xcam"
+            },
+            {
+                "#transition": "fe_lobby_plow_cam_01_idle_squad_01_xcam"
+            },
+            {
+                "#transition": "fe_lobby_plow_cam_01_mm_01_xcam"
+            }
+        ],
+        "#callbacktype": "LUA_TRIGGERED_XCAM_MM",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            },
+            {
+                "#blendtime": 0,
+                "#sectionref": "lobby_member_increase"
+            },
+            {
+                "#blendtime": 0,
+                "#sectionref": "started_mm"
+            }
+        ],
+        "#entity": {
+            "#entityname": "lobby_dmz_charslot_01",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [
+            {
+                "#flagmessage": "lobby_member_increase"
+            },
+            {
+                "#flagmessage": "started_mm"
+            }
+        ],
+        "#sectionname": "squad_lobby_dmz"
+    },
+    "#hash_1343fab0bad4e3f4": {
+        "#transitions": [
+            {
+                "#transition": "fe_op_crib_xcam_gunbundle_02_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -3072,
+            "#xcamoriginy": 3072,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 180
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "weapon_customize"
+    },
+    "#hash_1d16f9aef8c9df40": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_loadout"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase_overview"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase_internal"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_streak_overview"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_streak_select"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_showcase_zm"
+    },
+    "#hash_277bf62b1ac2ffa8": {
+        "#transitions": [
+            {
+                "#transition": "fe_op_crib_xcam_gunbundle_01_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -3072,
+            "#xcamoriginy": 3072,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 180
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "weapon_progression_small"
+    },
+    "#hash_292a041047a30b14": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_augment_research"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0.25,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_augment_research"
+    },
+    "#hash_30d004345c03e160": {
+        "#transitions": [
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_03_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -3072,
+            "#xcamoriginy": 3072,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 180
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "weapon_customize_large"
+    },
+    "#hash_31e11fffa660a611": {
+        "#transitions": [
+            {
+                "#transition": "c_fe_char_sel_main_cam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [
+            {
+                "#flagmessage": "none"
+            }
+        ],
+        "#sectionname": "character_tango"
+    },
+    "#hash_36de0c317fb8f3ef": {
+        "#transitions": [
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_01_xcam"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_br_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_fg_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_gp_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_mg_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_mz_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_op_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_st_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_um_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_ammo_zoom"
+            }
+        ],
+        "#callbacktype": "LUA_TRIGGERED_ATTACHMENT_ZOOM",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "camera_mp_gunsmith_preview_secondary",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [
+            {
+                "#flagmessage": "zoom_triggered"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_small"
+    },
+    "#hash_45f94387f8ecdbe0": {
+        "#transitions": [
+            {
+                "#transition": "iw9_fe_op_select_east_edit_in_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -5910.259,
+            "#xcamoriginy": -3473.497,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": -139.143
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "character_faction_select_r_detail"
+    },
+    "#hash_4b45e5e2abd42d85": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_augment_select"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0.25,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_augment_perk"
+    },
+    "#hash_5212338abf673200": {
+        "#transitions": [
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_03_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -3072,
+            "#xcamoriginy": 3072,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 180
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "weapon_progression_large"
+    },
+    "#hash_564fac01a3ca7cf7": {
+        "#transitions": [],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "camera_mp_gunsmith_preview",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [
+            {
+                "#flagmessage": "zoom_triggered"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview"
+    },
+    "#hash_5915c103fc1434fc": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_augment_select"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0.25,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_augment_super"
+    },
+    "#hash_5c8f9231ae627907": {
+        "#transitions": [
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_03_xcam"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_br_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_fg_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_gp_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_mg_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_mz_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_op_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_st_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_um_zoom"
+            },
+            {
+                "#transition": "fe_op_crib_xcam_gunbench_ammo_zoom"
+            }
+        ],
+        "#callbacktype": "LUA_TRIGGERED_ATTACHMENT_ZOOM",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "camera_mp_gunsmith_preview_large",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [
+            {
+                "#flagmessage": "zoom_triggered"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_large"
+    },
+    "#hash_5f235a32694d2c8a": {
+        "#transitions": [
+            {
+                "#transition": "iw9_fe_op_select_west_edit_in_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -5910.259,
+            "#xcamoriginy": -3473.497,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": -139.143
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "character_faction_select_l_detail"
+    },
+    "#hash_64e67db1951886ba": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_loadout_overview"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase"
+            },
+            {
+                "#blendtime": 0,
+                "#sectionref": "loadout_showcase_overview"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase_internal"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_showcase_overview"
+    },
+    "#hash_6a0ae3717cacbc66": {
+        "#transitions": [
+            {
+                "#transition": "iw9_fe_op_select_generic_male_east_intro_01_xcam"
+            },
+            {
+                "#transition": "iw9_fe_op_select_idle_01_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -5910.259,
+            "#xcamoriginy": -3473.497,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": -133
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "character_faction_select_l"
+    },
+    "#hash_6a0afd717cace894": {
+        "#transitions": [
+            {
+                "#transition": "iw9_fe_op_select_generic_male_east_intro_01_xcam"
+            },
+            {
+                "#transition": "iw9_fe_op_select_idle_01_xcam"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": -5910.259,
+            "#xcamoriginy": -3473.497,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": -139.143
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "character_faction_select_r"
+    },
+    "#hash_6e5f7b76487e95d5": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_augment_select"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0.25,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_augment_ammomod"
+    },
+    "#hash_6f573ffc8032e7d2": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_augment_overview"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0.25,
+                "#sectionref": "default"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_augment_overview"
+    },
+    "#hash_6f85168ad11d6102": {
+        "#transitions": [
+            {
+                "#transition": "fe_lobby_plow_cam_01_idle_01_xcam"
+            },
+            {
+                "#transition": "fe_lobby_plow_cam_01_idle_squad_01_xcam"
+            },
+            {
+                "#transition": "fe_lobby_plow_cam_01_mm_01_xcam"
+            }
+        ],
+        "#callbacktype": "LUA_TRIGGERED_XCAM_MM",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            },
+            {
+                "#blendtime": 4,
+                "#sectionref": "lobby_member_increase"
+            },
+            {
+                "#blendtime": 2,
+                "#sectionref": "started_mm"
+            }
+        ],
+        "#entity": {
+            "#entityname": "lobby_br_charslot_01",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [
+            {
+                "#flagmessage": "lobby_member_increase"
+            },
+            {
+                "#flagmessage": "started_mm"
+            }
+        ],
+        "#sectionname": "squad_lobby_br"
+    },
+    "#hash_7a27439918a28ae5": {
+        "#transitions": [
+            {
+                "#transition": "jup_fe_lobby_plow_cam_01_idle_squad_01_xcam"
+            },
+            {
+                "#transition": "jup_fe_lobby_plow_cam_01_idle_squad_01_xcam"
+            },
+            {
+                "#transition": "jup_fe_lobby_plow_cam_01_idle_squad_01_xcam"
+            }
+        ],
+        "#callbacktype": "LUA_TRIGGERED_XCAM_MM",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0,
+                "#sectionref": "default"
+            },
+            {
+                "#blendtime": 4,
+                "#sectionref": "lobby_member_increase"
+            },
+            {
+                "#blendtime": 2,
+                "#sectionref": "started_mm"
+            }
+        ],
+        "#entity": {
+            "#entityname": "lobby_charslot_01",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [
+            {
+                "#flagmessage": "lobby_member_increase"
+            },
+            {
+                "#flagmessage": "started_mm"
+            }
+        ],
+        "#sectionname": "squad_lobby"
+    },
+    "#hash_7b97f8f4bfddecc4": {
+        "#transitions": [
+            {
+                "#transition": "sat_fe_xcam_loadout_streak_select"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_streak_overview"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase"
+            },
+            {
+                "#blendtime": 0.26,
+                "#sectionref": "loadout_showcase_zm"
+            }
+        ],
+        "#entity": {
+            "#entityname": "loadout_align",
+            "#hasentity": true
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [],
+        "#sectionname": "loadout_streak_select"
+    },
+    "#hash_7bfc3bcb4e27ce6f": {
+        "#transitions": [
+            {
+                "#transition": "c_fe_char_sel_main_cam_solo"
+            }
+        ],
+        "#callbacktype": "NONE",
+        "#looplast": false,
+        "#blendtimes": [],
+        "#entity": {
+            "#entityname": "",
+            "#hasentity": false
+        },
+        "#origindata": {
+            "#xcamoriginx": 0,
+            "#xcamoriginy": 0,
+            "#xcamoriginz": 0,
+            "#hash_b5087244b5865165": 0,
+            "#hash_b5087044b5864cff": 0,
+            "#hash_b5086f44b5864acc": 0
+        },
+        "#hash_eb7a1cb794e53a18": [
+            {
+                "#flagmessage": "none"
+            }
+        ],
+        "#sectionname": "character_solo"
+    }
+}

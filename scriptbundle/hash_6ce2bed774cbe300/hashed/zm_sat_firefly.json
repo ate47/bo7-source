@@ -1,0 +1,1959 @@
+{
+    "#hash_2fec5df116b59be9": {
+        "#hash_56b73c74b70a97f7": [
+            {
+                "#hash_8da6a00f836ce552": "zone_jplaza",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_jplaza_ramp",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_close_to_ts_tower",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_roundabout",
+                        "#hash_2c44ee86f425ed97": "doorbuy_janus_warehouse_bought",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_jplaza_close_to_monolith",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_monoliths_close_to_jplaza",
+                        "#hash_2c44ee86f425ed97": "door_from_jplaza_to_lakefront_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_ramp",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_jplaza_close_to_ts_tower",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_jplaza",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_tower_close_to_janus",
+                        "#hash_2c44ee86f425ed97": "door_from_jplaza_to_farm_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_roundabout",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_janus_warehouse",
+                        "#hash_2c44ee86f425ed97": "doorbuy_janus_warehouse_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_jplaza_roundabout",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_jplaza",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_close_to_ts_tower",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_ramp",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_janus_warehouse",
+                        "#hash_2c44ee86f425ed97": "doorbuy_janus_warehouse_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_jplaza_ramp",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_jplaza",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_roundabout",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_close_to_monolith",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_monoliths",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_monoliths_close_to_jplaza",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_monoliths_close_to_lakefront",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_monoliths_close_to_lakefront",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront_path_north",
+                        "#hash_2c44ee86f425ed97": "door_from_lakefront_to_jplaza_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_monoliths",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_monoliths_close_to_jplaza",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_jplaza_close_to_monolith",
+                        "#hash_2c44ee86f425ed97": "door_from_jplaza_to_lakefront_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_monoliths",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_tower_close_to_farm",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_tower",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_close_to_tower",
+                        "#hash_2c44ee86f425ed97": "door_from_farm_to_jplaza_enabled"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_tower_close_to_janus",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_tower",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_close_to_ts_tower",
+                        "#hash_2c44ee86f425ed97": "door_from_jplaza_to_farm_enabled"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_tower",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_tower",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_tower_close_to_janus",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_tower_close_to_farm",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_farm_gate",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_house",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_house_bought"
+                    },
+                    {
+                        "#targetzone": "zone_farm_barn",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_barn_bought"
+                    },
+                    {
+                        "#targetzone": "zone_farm_garage",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_garage_bought"
+                    },
+                    {
+                        "#targetzone": "zone_farm_rear",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm_close_to_sunken",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_boat_close_to_farm",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_farm_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_farm_road",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm_close_to_tower",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_tower_close_to_farm",
+                        "#hash_2c44ee86f425ed97": "door_from_farm_to_jplaza_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_farm_gate",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_road",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm_house",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_farm",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_house_bought"
+                    },
+                    {
+                        "#targetzone": "zone_farm_rear",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_house_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm_barn",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_farm",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_barn_bought"
+                    },
+                    {
+                        "#targetzone": "zone_farm_cellar",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_rear",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_barn_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm_garage",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_farm",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_garage_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm_cellar",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_farm_rear",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_barn_bought"
+                    },
+                    {
+                        "#targetzone": "zone_farm_barn",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm_road",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_farm_gate",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_close_to_tower",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_close_to_sunken",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm_gate",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_farm",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_road",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_close_to_tower",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_farm_rear",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_farm_house",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_house_bought"
+                    },
+                    {
+                        "#targetzone": "zone_farm",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_barn",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_barn_bought"
+                    },
+                    {
+                        "#targetzone": "zone_farm_cellar",
+                        "#hash_2c44ee86f425ed97": "doorbuy_farm_barn_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_lakefront",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront_cabin",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_north",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin_floor2",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_toolshed",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_lakefront_cabin",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_path_north",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_path_south",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin_floor2",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_north",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_south",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_toolshed",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_lakefront_cabin_floor2",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront_cabin",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_north",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_south",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_toolshed",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_lakefront_path_north",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_north",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_path_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_monoliths_close_to_lakefront",
+                        "#hash_2c44ee86f425ed97": "door_from_lakefront_to_jplaza_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_lakefront_path_south",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_path_north",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_w_lakefront_close_to_lakefront",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_lakefront_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_toolshed",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_north",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_lakefront_cliffs_north",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_path_north",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin_floor2",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_toolshed",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_path_south",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_lakefront_cliffs_south",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_north",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_path_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin_floor2",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_toolshed",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_lakefront_toolshed",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_north",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_path_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cabin_floor2",
+                        "#hash_2c44ee86f425ed97": "doorbuy_lakefront_cabin_bought"
+                    },
+                    {
+                        "#targetzone": "zone_lakefront_cliffs_south",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_boat",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_boat_close_to_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_boat_close_to_farm",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_boat_deck",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_boat_close_to_farm",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_boat",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_boat_deck",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_farm_close_to_sunken",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_farm_enabled"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_boat_close_to_sunken",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_north",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_farm_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_boat",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_boat_deck",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_boat_deck",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_boat_close_to_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_boat_close_to_farm",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_boat",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_w_lakefront_close_to_lakefront",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_lakefront_path_south",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_lakefront_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_w_lakefront",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_w_lakefront_close_to_sunken",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_north",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_lakefront_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_w_lakefront",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_w_lakefront",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_w_lakefront_close_to_lakefront",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_w_lakefront_close_to_sunken",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_north",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_sheriff_traversal",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_traversal",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_garage",
+                        "#hash_2c44ee86f425ed97": "garage_opened"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_north",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_boat_close_to_sunken",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_farm_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_w_lakefront_close_to_sunken",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_lakefront_enabled"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_south",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_rocket_close_to_sunken",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_launchpad_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_orda_close_to_sunken",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_115_enabled"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_sheriff_exterior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_sheriff_interior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_sheriff_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_sheriff_traversal",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_shops_interior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_shops_exterior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_shops_mercantile",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_sheriff_interior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_sheriff_exterior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_sheriff_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_shops_exterior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_sheriff_exterior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_platform",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_bridge_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_shops_zipline",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_shops_interior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_shops_mercantile",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_shops_interior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_shops_exterior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_sheriff_exterior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_shops_mercantile",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_shops_mercantile",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_shops_exterior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_sheriff_exterior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_shops_interior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_shops_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel_exterior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_brothel",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_brothel_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_platform_close_to_brothel",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_bridge_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_exterior_zipline",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_shops",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel_shops",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_brothel",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_brothel_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_platform_close_to_brothel",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_bridge_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_exterior_zipline",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_exterior",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_orda",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_orda_close_to_exit115",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_orda_close_to_sunken",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_orda_close_to_exit115",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_exit115_close_to_sunken",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_115_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_orda",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_orda_close_to_sunken",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_south",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_115_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_orda",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_plane",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_plane_close_to_exit115",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_plane_close_to_launchpad",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_plane_close_to_exit115",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_exit115_close_to_launchpad",
+                        "#hash_2c44ee86f425ed97": "ts_door_to_115_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_plane",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_plane_close_to_launchpad",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_plane",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_close_to_exit115",
+                        "#hash_2c44ee86f425ed97": "ts_door_to_launchpad_enabled"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_exit115",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_exit115_diner_roof",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_gas",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_gas_bought"
+                    },
+                    {
+                        "#targetzone": "zone_exit115_close_to_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_close_to_launchpad",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_pump_roof",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_gas_roof",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_diner_parking",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_exit115_close_to_sunken",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_orda_close_to_exit115",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_115_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_exit115",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_diner_roof",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_diner",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_diner_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_exit115_close_to_launchpad",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_plane_close_to_exit115",
+                        "#hash_2c44ee86f425ed97": "ts_door_to_115_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_exit115",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_gas",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_gas_bought"
+                    },
+                    {
+                        "#targetzone": "zone_exit115_diner_parking",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_gas_roof",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_exit115_gas",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_exit115",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_gas_bought"
+                    },
+                    {
+                        "#targetzone": "zone_exit115_close_to_launchpad",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_gas_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_exit115_diner",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_exit115_diner_roof",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_diner_bought"
+                    },
+                    {
+                        "#targetzone": "zone_exit115_diner_parking",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_diner_bought"
+                    },
+                    {
+                        "#targetzone": "zone_exit115_close_to_sunken",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_diner_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_exit115_diner_roof",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_exit115_diner",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_diner_bought"
+                    },
+                    {
+                        "#targetzone": "zone_exit115",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_close_to_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_diner_parking",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_exit115_pump_roof",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_exit115",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_gas_roof",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_exit115_diner_parking",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_exit115_diner",
+                        "#hash_2c44ee86f425ed97": "doorbuy_exit115_diner_bought"
+                    },
+                    {
+                        "#targetzone": "zone_exit115",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_close_to_launchpad",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_diner_roof",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_exit115_gas_roof",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_exit115",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_pump_roof",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_exit115_close_to_launchpad",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_rocket",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_rocket_close_to_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_rocket_close_to_launchpad",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_rocket_close_to_sunken",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_south",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_launchpad_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_rocket",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ts_rocket_close_to_launchpad",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad_close_to_sunken",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_launchpad_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_ts_rocket",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad_close_to_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_close_to_exit115",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_rocket",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_underground",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_maintenance_side",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_side",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_room",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad_close_to_sunken",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ts_rocket_close_to_launchpad",
+                        "#hash_2c44ee86f425ed97": "door_from_sunken_to_launchpad_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_underground",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad_close_to_exit115",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ts_plane_close_to_launchpad",
+                        "#hash_2c44ee86f425ed97": "ts_door_to_launchpad_enabled"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_underground",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_maintenance_side",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad_rocket",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_underground",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_bought",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad_underground",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad_close_to_sunken",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_close_to_exit115",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_underground_02",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_whole_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_rocket",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_rocket_bought",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad_underground_02",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad_underground",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_whole_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_maintenance_side",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_02_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_side",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_02_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_room",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_02_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad_maintenance_side",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad_maintenance",
+                        "#hash_2c44ee86f425ed97": "doorbuy_grom_lab_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_side",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_underground_02",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_02_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_room",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_close_to_exit115",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad_control_side",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_maintenance_side",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_underground_02",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_02_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_maintenance",
+                        "#hash_2c44ee86f425ed97": "doorbuy_grom_lab_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_room",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad_control_room",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_maintenance_side",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_underground_02",
+                        "#hash_2c44ee86f425ed97": "doorbuy_launchpad_underground_02_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_maintenance",
+                        "#hash_2c44ee86f425ed97": "doorbuy_grom_lab_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_side",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_garage",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_platform",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_shops_exterior",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_platform_close_to_brothel",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_janus_warehouse",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_jplaza_roundabout",
+                        "#hash_2c44ee86f425ed97": "doorbuy_janus_warehouse_bought"
+                    },
+                    {
+                        "#targetzone": "zone_jplaza_close_to_ts_tower",
+                        "#hash_2c44ee86f425ed97": "doorbuy_janus_warehouse_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_brothel_exterior",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_brothel_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_traversal",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_platform_close_to_brothel",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_bridge_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_shops",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_brothel_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_dempsey",
+                "#hash_f4c83a6e1ffe1e67": []
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_launchpad_maintenance",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_launchpad_maintenance_side",
+                        "#hash_2c44ee86f425ed97": "doorbuy_grom_lab_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_side",
+                        "#hash_2c44ee86f425ed97": "doorbuy_grom_lab_bought"
+                    },
+                    {
+                        "#targetzone": "zone_launchpad_control_room",
+                        "#hash_2c44ee86f425ed97": "doorbuy_grom_lab_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel_traversal",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_sheriff_traversal",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_sheriff_exterior",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_platform_close_to_brothel",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_platform",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_exterior",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_shops",
+                        "#hash_2c44ee86f425ed97": "doorbuy_sunken_bridge_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_shops_zipline",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_brothel_exterior_zipline",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_shops_exterior",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel_exterior_zipline",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sunken_shops_zipline",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_exterior",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sunken_brothel_shops",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_boss_arena",
+                "#hash_f4c83a6e1ffe1e67": []
+            }
+        ],
+        "#hash_f6c27ca245722ec4": [
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_janus",
+                "#zonedisplayname": "jplaza",
+                "#hash_8da6a00f836ce552": "zone_jplaza",
+                "#hash_af88b5fa375e40d1": true
+            },
+            {
+                "#zonedisplayname": "ts_monoliths",
+                "#hash_8da6a00f836ce552": "zone_ts_monoliths",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_tower",
+                "#hash_8da6a00f836ce552": "zone_ts_tower_close_to_farm",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_tower",
+                "#hash_8da6a00f836ce552": "zone_ts_tower_close_to_janus",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_tower",
+                "#hash_8da6a00f836ce552": "zone_ts_tower",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm",
+                "#hash_8da6a00f836ce552": "zone_farm"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_lakefront",
+                "#zonedisplayname": "lakefront",
+                "#hash_8da6a00f836ce552": "zone_lakefront"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_lakefront",
+                "#zonedisplayname": "lakefront_cabin",
+                "#hash_8da6a00f836ce552": "zone_lakefront_cabin"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_lakefront",
+                "#zonedisplayname": "lakefront",
+                "#hash_8da6a00f836ce552": "zone_lakefront_path_north"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_lakefront",
+                "#zonedisplayname": "lakefront",
+                "#hash_8da6a00f836ce552": "zone_lakefront_path_south"
+            },
+            {
+                "#zonedisplayname": "ts_boat",
+                "#hash_8da6a00f836ce552": "zone_ts_boat",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_w_lakefront",
+                "#hash_8da6a00f836ce552": "zone_ts_w_lakefront_close_to_sunken",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_w_lakefront",
+                "#hash_8da6a00f836ce552": "zone_ts_w_lakefront_close_to_lakefront",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_w_lakefront",
+                "#hash_8da6a00f836ce552": "zone_ts_w_lakefront",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken",
+                "#hash_8da6a00f836ce552": "zone_sunken"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken",
+                "#hash_8da6a00f836ce552": "zone_sunken_north"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken",
+                "#hash_8da6a00f836ce552": "zone_sunken_south"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_brothel_exterior",
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel_exterior"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_shops_exterior",
+                "#hash_8da6a00f836ce552": "zone_sunken_shops_exterior"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_shops_interior",
+                "#hash_8da6a00f836ce552": "zone_sunken_shops_interior"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_sheriff_interior",
+                "#hash_8da6a00f836ce552": "zone_sunken_sheriff_interior"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_sheriff_exterior",
+                "#hash_8da6a00f836ce552": "zone_sunken_sheriff_exterior"
+            },
+            {
+                "#zonedisplayname": "ts_orda",
+                "#hash_8da6a00f836ce552": "zone_ts_orda",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_orda",
+                "#hash_8da6a00f836ce552": "zone_ts_orda_close_to_exit115",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_orda",
+                "#hash_8da6a00f836ce552": "zone_ts_orda_close_to_sunken",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_plane",
+                "#hash_8da6a00f836ce552": "zone_ts_plane",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_exit115",
+                "#zonedisplayname": "exit115",
+                "#hash_8da6a00f836ce552": "zone_exit115"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_exit115",
+                "#zonedisplayname": "exit115_gas",
+                "#hash_8da6a00f836ce552": "zone_exit115_gas"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_exit115",
+                "#zonedisplayname": "exit115_diner",
+                "#hash_8da6a00f836ce552": "zone_exit115_diner"
+            },
+            {
+                "#zonedisplayname": "ts_rocket",
+                "#hash_8da6a00f836ce552": "zone_ts_rocket",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_rocket",
+                "#hash_8da6a00f836ce552": "zone_ts_rocket_close_to_sunken",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_rocket",
+                "#hash_8da6a00f836ce552": "zone_ts_rocket_close_to_launchpad",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm_house",
+                "#hash_8da6a00f836ce552": "zone_farm_house"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm_barn",
+                "#hash_8da6a00f836ce552": "zone_farm_barn"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm_garage",
+                "#hash_8da6a00f836ce552": "zone_farm_garage"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_janus",
+                "#zonedisplayname": "jplaza",
+                "#hash_8da6a00f836ce552": "zone_jplaza_close_to_monolith"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_janus",
+                "#zonedisplayname": "jplaza",
+                "#hash_8da6a00f836ce552": "zone_jplaza_close_to_ts_tower"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm",
+                "#hash_8da6a00f836ce552": "zone_farm_close_to_sunken"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm",
+                "#hash_8da6a00f836ce552": "zone_farm_close_to_tower"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm_cellar",
+                "#hash_8da6a00f836ce552": "zone_farm_cellar"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad",
+                "#hash_8da6a00f836ce552": "zone_launchpad"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad",
+                "#hash_8da6a00f836ce552": "zone_launchpad_close_to_sunken"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad",
+                "#hash_8da6a00f836ce552": "zone_launchpad_close_to_exit115"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad",
+                "#hash_8da6a00f836ce552": "zone_launchpad_rocket"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad_underground",
+                "#hash_8da6a00f836ce552": "zone_launchpad_underground"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad_underground2",
+                "#hash_8da6a00f836ce552": "zone_launchpad_underground_02"
+            },
+            {
+                "#zonedisplayname": "ts_plane",
+                "#hash_8da6a00f836ce552": "zone_ts_plane_close_to_launchpad",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_plane",
+                "#hash_8da6a00f836ce552": "zone_ts_plane_close_to_exit115",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_monoliths",
+                "#hash_8da6a00f836ce552": "zone_ts_monoliths_close_to_jplaza",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_monoliths",
+                "#hash_8da6a00f836ce552": "zone_ts_monoliths_close_to_lakefront",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_boat",
+                "#hash_8da6a00f836ce552": "zone_ts_boat_close_to_farm",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_boat",
+                "#hash_8da6a00f836ce552": "zone_ts_boat_close_to_sunken",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "ts_boat",
+                "#hash_8da6a00f836ce552": "zone_ts_boat_deck",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_bridge",
+                "#hash_8da6a00f836ce552": "zone_sunken_platform"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_brothel",
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel"
+            },
+            {
+                "#zonedisplayname": "dempsey_zone",
+                "#hash_8da6a00f836ce552": "zone_dempsey"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad_lab",
+                "#hash_8da6a00f836ce552": "zone_launchpad_maintenance"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken",
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel_traversal"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken",
+                "#hash_8da6a00f836ce552": "zone_sunken_sheriff_traversal"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_brothel_exterior",
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel_exterior_zipline"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_shops_exterior",
+                "#hash_8da6a00f836ce552": "zone_sunken_shops_zipline"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken_bridge",
+                "#hash_8da6a00f836ce552": "zone_sunken_platform_close_to_brothel"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_janus",
+                "#zonedisplayname": "jplaza",
+                "#hash_8da6a00f836ce552": "zone_jplaza_roundabout"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_janus",
+                "#zonedisplayname": "jplaza",
+                "#hash_8da6a00f836ce552": "zone_jplaza_ramp"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_janus",
+                "#zonedisplayname": "jplaza_server_room",
+                "#hash_8da6a00f836ce552": "zone_janus_warehouse"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm",
+                "#hash_8da6a00f836ce552": "zone_farm_road"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm",
+                "#hash_8da6a00f836ce552": "zone_farm_gate"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_farm",
+                "#zonedisplayname": "farm",
+                "#hash_8da6a00f836ce552": "zone_farm_rear"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_lakefront",
+                "#zonedisplayname": "lakefront_cabin",
+                "#hash_8da6a00f836ce552": "zone_lakefront_cabin_floor2"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_lakefront",
+                "#zonedisplayname": "lakefront",
+                "#hash_8da6a00f836ce552": "zone_lakefront_cliffs_north"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_lakefront",
+                "#zonedisplayname": "lakefront",
+                "#hash_8da6a00f836ce552": "zone_lakefront_cliffs_south"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_exit115",
+                "#zonedisplayname": "exit115",
+                "#hash_8da6a00f836ce552": "zone_exit115_close_to_sunken"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_exit115",
+                "#zonedisplayname": "exit115",
+                "#hash_8da6a00f836ce552": "zone_exit115_close_to_launchpad"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_exit115",
+                "#zonedisplayname": "exit115_diner_roof",
+                "#hash_8da6a00f836ce552": "zone_exit115_diner_roof"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_exit115",
+                "#zonedisplayname": "exit115",
+                "#hash_8da6a00f836ce552": "zone_exit115_pump_roof"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_exit115",
+                "#zonedisplayname": "exit115",
+                "#hash_8da6a00f836ce552": "zone_exit115_diner_parking"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_exit115",
+                "#zonedisplayname": "exit115_gas_roof",
+                "#hash_8da6a00f836ce552": "zone_exit115_gas_roof"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad",
+                "#hash_8da6a00f836ce552": "zone_launchpad_maintenance_side"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad",
+                "#hash_8da6a00f836ce552": "zone_launchpad_control_side"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "sunken",
+                "#hash_8da6a00f836ce552": "zone_sunken_garage"
+            },
+            {
+                "#zonedisplayname": "boss",
+                "#hash_8da6a00f836ce552": "zone_boss_arena"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "mercantile",
+                "#hash_8da6a00f836ce552": "zone_sunken_shops_mercantile"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_sunken",
+                "#zonedisplayname": "brothel_shops",
+                "#hash_8da6a00f836ce552": "zone_sunken_brothel_shops"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_facility",
+                "#zonedisplayname": "launchpad_control_room",
+                "#hash_8da6a00f836ce552": "zone_launchpad_control_room"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_firefly_lakefront",
+                "#zonedisplayname": "lakefront_toolshed",
+                "#hash_8da6a00f836ce552": "zone_lakefront_toolshed"
+            }
+        ],
+        "#hash_cf297ac0af07a28f": []
+    }
+}

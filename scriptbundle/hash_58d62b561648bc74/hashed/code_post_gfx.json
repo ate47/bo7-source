@@ -1,0 +1,4004 @@
+{
+    "#hash_dd6b46fdc33b2": {
+        "#id": "immerse_personalization",
+        "#description": "&#",
+        "#labels": [
+            {
+                "#reference": "&#hash_5189c3e42bb42a81"
+            },
+            {
+                "#reference": "&#hash_796a1b45fac12eca"
+            }
+        ],
+        "#profileoption": "soundImmersePersonalization",
+        "#lockedfavorite": true,
+        "#type": "Dropdown",
+        "#resetdisabled": true,
+        "#name": "&#hash_2848cdb3c319d5a"
+    },
+    "#hash_2befd8222efead8": {
+        "#defaultstep": 10,
+        "#id": "menu_custom_framerate_limit",
+        "#description": "&#hash_63aa2a635b15c848",
+        "#dvar": "@#hash_5e307c0610953be9",
+        "#hash_49121a30b14c768f": 300,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 5,
+        "#type": "SliderBarWithEditBox",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#hash_72ad668d00b2ed20",
+        "#hash_d7d0b605087a730c": "&#options/menu_custom_framerate_limit_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 30
+    },
+    "#hash_386b06471404e53": {
+        "#id": "input_method",
+        "#description": "&#platform/input_device_desc",
+        "#image": "%#hash_5c0b1c6eac6abf61",
+        "#labels": [
+            {
+                "#reference": "&#platform_ui/gamepad"
+            },
+            {
+                "#reference": "&#options/mouse"
+            }
+        ],
+        "#profileoption": "gpadEnabled",
+        "#hash_10fe964e2f98a6e7": true,
+        "#type": "Dropdown",
+        "#name": "&#lua_menu/input_method",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_386d67630fd71b1": {
+        "#id": "input_method",
+        "#description": "&#platform/input_device_desc",
+        "#image": "%#hash_71a5907ecfba8326",
+        "#labels": [
+            {
+                "#reference": "&#platform_ui/gamepad"
+            },
+            {
+                "#reference": "&#options/mouse"
+            }
+        ],
+        "#profileoption": "gpadEnabled",
+        "#hash_10fe964e2f98a6e7": true,
+        "#type": "Dropdown",
+        "#name": "&#lua_menu/input_method",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_3bedc6c2876189d": {
+        "#id": "codcaster_option_team_settings_acronym",
+        "#description": "&#codcaster/team_acronym_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButtonWithValue",
+        "#name": "&#codcaster/team_acronym_colon"
+    },
+    "#hash_3f3c8ec670ff816": {
+        "#id": "action_slot1_button_swap",
+        "#description": "&#menu/dpad_up_desc",
+        "#action": "+actionslot1",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#menu/layout_dpad_up"
+    },
+    "#hash_41468bb51fccc9c": {
+        "#id": "squad_1_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_squad_1_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 6,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationSquad1AdvancedColor"
+        },
+        "#profileoption": "colorCustomizationSquad1Index",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 23,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 23,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 23,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 23,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#options/color_customization_squad_member_1",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_459133baecb93e5": {
+        "#id": "birthday_day",
+        "#description": "&#",
+        "#type": "Dropdown",
+        "#name": "&#"
+    },
+    "#hash_52f71b5f4c8acd2": {
+        "#id": "global_player_splash_opacity",
+        "#description": "&#hash_4457ca62a67fa3ec",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "globalPlayerSplashOpacityPercent",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_1c7b30237120d7c4",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_54251ac2c3ca635": {
+        "#id": "floor_down_action",
+        "#description": "&#options/floor_down_desc",
+        "#type": "keyBinding",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/floor_down"
+    },
+    "#hash_5a500c7803e4bc6": {
+        "#id": "color_customization_custom_color_mode",
+        "#description": "&#options/color_customization_custom_color_mode_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#options/default"
+            },
+            {
+                "#reference": "&#options/protanopia"
+            },
+            {
+                "#reference": "&#options/deuteranopia"
+            },
+            {
+                "#reference": "&#options/tritanopia"
+            },
+            {
+                "#reference": "&#menu/custom"
+            }
+        ],
+        "#profileoption": "colorCustomizationPalette",
+        "#lockedfavorite": true,
+        "#type": "Dropdown",
+        "#name": "&#options/color_customization_custom_color_mode",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_60ff685605ca700": {
+        "#defaultstep": 1,
+        "#id": "fov",
+        "#description": "&#platform_ui/fov_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#image": "%#hash_4e7092301fe739d8",
+        "#profileoption": "TargetHorizontalFoV",
+        "#hash_49121a30b14c768f": 120,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#platform_ui/fov_caps",
+        "#dependencies": [
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_157afe180ce0fe9d"
+            },
+            {}
+        ],
+        "#hash_fd2c10859cd7d0a1": 60,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_6c27182d94532c4": {
+        "#id": "telescope_tou",
+        "#description": "&#options/tou_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#dvarname": "@#hash_f32115ce09b304e6",
+                "#type": "DVAR"
+            }
+        ],
+        "#name": "&#options/tou"
+    },
+    "#hash_877d4c646aec996": {
+        "#id": "microphone_test",
+        "#description": "&#options/microphone_desc",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#lua_menu/microphone_test"
+    },
+    "#hash_8c6fdf3bb6b0bbd": {
+        "#id": "stance_action_button_swap",
+        "#description": "&#options/gamepad_change_stance_desc",
+        "#action": "+stance",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/change_stance"
+    },
+    "#hash_ab37506368bd047": {
+        "#id": "audio_test_player_configuration",
+        "#description": "&#options/audio_test_desc",
+        "#labels": [
+            {
+                "#reference": "&#options/audio_stereo"
+            },
+            {
+                "#reference": "&#options/audio_5_1_surround"
+            },
+            {
+                "#reference": "&#options/audio_7_1_surround"
+            },
+            {
+                "#reference": "&#options/audio_7_1_4"
+            }
+        ],
+        "#hash_f2cdcae8e0ee8554": "#audiotestmenu",
+        "#relatedsettings": [
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_dea6256ed331a7e"
+            }
+        ],
+        "#type": "Dropdown",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/speaker_configuration",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc"
+    },
+    "#hash_aca9544a7e2e449": {
+        "#id": "invert_pitch_on_foot_gamepad",
+        "#description": "&#options/invert_vertical_look_on_foot_desc",
+        "#labels": [
+            {
+                "#reference": "&#options/standard"
+            },
+            {
+                "#reference": "&#options/inverted"
+            }
+        ],
+        "#profileoption": "invertPitchGamepad",
+        "#relatedsettings": [
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_1c64082b03c831c2"
+            },
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_20dd6fb976f94d2f"
+            },
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_66b1ec9ce1a618a3"
+            },
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_338fe2ab5ea093ce"
+            }
+        ],
+        "#type": "Dropdown",
+        "#name": "&#options/invert_vertical_look_on_foot"
+    },
+    "#hash_b25fd3c57613fb8": {
+        "#id": "adapter",
+        "#description": "&#options/adapter_desc",
+        "#dvar": "@#hash_87009cef9ab1d770",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#type": "CLOUD_BUILD",
+                "#hash_521eb47ac927e5a4": true
+            }
+        ],
+        "#name": "&#options/adapter",
+        "#hash_d7d0b605087a730c": "&#options/adapter_disabled_desc"
+    },
+    "#hash_cf6d82115d2b353": {
+        "#id": "codcaster_option_team_settings_name",
+        "#description": "&#codcaster/team_name_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButtonWithValue",
+        "#name": "&#codcaster/team_name_colon"
+    },
+    "#hash_d2247007badcbdf": {
+        "#defaultstep": 1,
+        "#id": "audio_test_top_front_right",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/top_front_right",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_e2a112d5d529a93": {
+        "#id": "codcaster_option_team_setting_primary_color",
+        "#description": "&#codcaster/team_primary_color_desc",
+        "#lockedfavorite": true,
+        "#type": "ColorSelection",
+        "#name": "&#codcaster/team_primary_color_colon"
+    },
+    "#hash_eb1be851d4a84a5": {
+        "#id": "hdr",
+        "#description": "&#options/hdr_desc",
+        "#dvar": "@#hash_ff5fff0a59c6ef38",
+        "#applyvalidation": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            },
+            {
+                "#reference": "&#options/automatic"
+            }
+        ],
+        "#type": "Dropdown",
+        "#name": "&#options/hdr",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_35c1e5b34291e0b2"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 2,
+                "#hash_3a567ae4a7f393cb": "%#hash_212cb5858d72590e"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_36432cef5fdbe061"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 2,
+                "#hash_3a567ae4a7f393cb": "%#hash_5a4cc0f93f2ee26b"
+            }
+        ],
+        "#hash_d7d0b605087a730c": "&#platform/hdr_locked_desc"
+    },
+    "#hash_f1d3cdbebc799df": {
+        "#id": "minimap_rotation",
+        "#description": "&#options/minimap_rotation_desc",
+        "#image": "%#hash_255654abb1d8a749",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "minimapStyle",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#dvarname": "@#hash_78f9dcc8626b8737",
+                "#type": "DVAR"
+            }
+        ],
+        "#name": "&#options/minimap_rotation"
+    },
+    "#hash_100efd41f617175e": {
+        "#id": "accessibility_advanced_settings",
+        "#description": "&#options/advanced_accessibility_settings_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {}
+        ],
+        "#name": "&#options/advanced_accessibility_settings"
+    },
+    "#hash_116445baae6fb860": {
+        "#id": "arachnophobia_mode",
+        "#description": "&#hash_16d4c9a6ea5a6650",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "arachnophobiaMode",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_24efd732062cfc48",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_1257a86c7fe615b0": {
+        "#defaultstep": 1,
+        "#id": "audio_test_top_back_left",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/top_back_left",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_13904e0d26441100": {
+        "#id": "platform_constrained_chat",
+        "#description": "&#options/crossplay_communication_desc",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "allowCrossplayChat",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#hash_67267c73e65171fb": true,
+                "#hash_67267b73e6516fc8": true,
+                "#type": "PLATFORM"
+            },
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/crossplay_communication"
+    },
+    "#hash_14bbd90e0a991ec6": {
+        "#id": "deferred_physics_quality",
+        "#description": "&#options/deferred_physics_quality_desc",
+        "#dvar": "@#hash_fec62a68fe6cf3d4",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/low"
+            },
+            {
+                "#reference": "&#lua_menu/high"
+            }
+        ],
+        "#hash_f7c37aedd2ad2255": "Medium",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#hash_837d235442b2881d": "Low",
+        "#name": "&#options/deferred_physics_quality",
+        "#cpueffect": "Low"
+    },
+    "#hash_157afe180ce0fe9d": {
+        "#id": "motion_reduction",
+        "#description": "&#options/motion_reduction_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#name": "&#options/motion_reduction",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_158de1d6ae573c9c": {
+        "#id": "party_privacy",
+        "#description": "&#options/party_privacy_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/party_privacy_public"
+            },
+            {
+                "#reference": "&#menu/party_privacy_friends_and_channels"
+            },
+            {
+                "#reference": "&#menu/party_privacy_friends_only"
+            },
+            {
+                "#reference": "&#menu/party_privacy_private"
+            },
+            {
+                "#reference": "&#menu/party_privacy_closed"
+            }
+        ],
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/party_privacy"
+    },
+    "#hash_162b923b1914eea8": {
+        "#id": "friend_request_privacy",
+        "#description": "&#options/friend_request_privacy_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/party_privacy_public"
+            },
+            {
+                "#reference": "&#menu/social_channels"
+            },
+            {
+                "#reference": "&#menu/party_privacy_closed"
+            }
+        ],
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/friend_request_privacy"
+    },
+    "#hash_17a8573ac3a0d4d1": {
+        "#defaultstep": 1,
+        "#id": "minimap_scale",
+        "#description": "&#hash_58a03f31cedea4e3",
+        "#profileoption": "minimapScalePercent",
+        "#hash_49121a30b14c768f": 150,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#name": "&#hash_4b204cc04db8e8e9",
+        "#hash_fd2c10859cd7d0a1": 75
+    },
+    "#hash_17ffcdcf21f8ad60": {
+        "#id": "safe_area",
+        "#description": "&#lua_menu/safe_area_desc",
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#hash_67267c73e65171fb": true,
+                "#hash_67267b73e6516fc8": true,
+                "#type": "PLATFORM",
+                "#hash_f477297392c1de29": true,
+                "#hash_f4772a7392c1e05c": true
+            },
+            {
+                "#type": "SPLIT_SCREEN",
+                "#hash_ef8ecc78f70098e7": true
+            }
+        ],
+        "#name": "&#lua_menu/safe_area"
+    },
+    "#hash_1806b00bc14bb28e": {
+        "#id": "constrain_mouse",
+        "#description": "&#hash_f73688860f60e36",
+        "#dvar": "@#hash_31cbd6df2c19a695",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#hash_32c9ee7d7e137446",
+        "#hash_d7d0b605087a730c": "&#options/constrainmouse_disabled_desc"
+    },
+    "#hash_18cc4db2662d0a23": {
+        "#id": "invert_pitch_kbm",
+        "#description": "&#options/invert_vertical_look_on_foot_desc",
+        "#labels": [
+            {
+                "#reference": "&#options/standard"
+            },
+            {
+                "#reference": "&#options/inverted"
+            }
+        ],
+        "#profileoption": "invertPitchKBM",
+        "#relatedsettings": [
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_62d18c650486558d"
+            },
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_4b1fe149984ee94c"
+            },
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_35794122f3119310"
+            },
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_19ead8c402edaee0"
+            }
+        ],
+        "#type": "Dropdown",
+        "#name": "&#options/invert_vertical_look_on_foot"
+    },
+    "#hash_18d5f6a8eaac0104": {
+        "#defaultstep": 1,
+        "#id": "audio_test_surround_right",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/surround_right",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_1acf5971ffd07c06": {
+        "#id": "squad_3_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_squad_3_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 8,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationSquad3AdvancedColor"
+        },
+        "#profileoption": "colorCustomizationSquad3Index",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 24,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 24,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 40,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 24,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#options/color_customization_squad_member_3",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_1b6c9900cea6cba9": {
+        "#id": "",
+        "#description": "&#hash_5974dc062419cebc",
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#dvarname": "@#hash_a257adeeda8b00c0",
+                "#type": "DVAR"
+            },
+            {
+                "#execdev": true,
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#hash_95c596eaf107cb4"
+    },
+    "#hash_1bc05e627881d0d8": {
+        "#id": "text_scaling",
+        "#description": "&#options/textsize_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#options/default"
+            },
+            {
+                "#reference": "&#options/textsize_bigger"
+            },
+            {
+                "#reference": "&#options/textsize_biggest"
+            }
+        ],
+        "#profileoption": "TextScaling",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#dvarname": "@#hash_6936f9de9c943c40",
+                "#type": "DVAR"
+            }
+        ],
+        "#name": "&#options/textsize",
+        "#dependencies": [
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_2f7a039d66127a8a"
+            }
+        ],
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_1c24160830c967c7": {
+        "#id": "smoke_action_button_swap",
+        "#description": "&#options/use_equipment_desc",
+        "#action": "+frag",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/use_equipment"
+    },
+    "#hash_1c9fd9deb4bb399f": {
+        "#id": "contested_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_contested_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 5,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationContestedAdvancedColor"
+        },
+        "#profileoption": "colorCustomizationContestedIndex",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 36,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 36,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 36,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 36,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#lua_menu/contested",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_1df5d042865bff61": {
+        "#id": "party_invites_notifications",
+        "#description": "&#options/snooze_party_desc",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/off"
+            },
+            {
+                "#reference": "&#lua_menu/on"
+            }
+        ],
+        "#profileoption": "notificationAlertPartyRequests",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_78dc8e948393086c"
+    },
+    "#hash_1ebf4a89de262ad7": {
+        "#id": "nameplate_display",
+        "#description": "&#options/nameplate_display_desc",
+        "#image": "%#hash_262be603c23bfda7",
+        "#labels": [
+            {
+                "#reference": "&#options/full_name"
+            },
+            {
+                "#reference": "&#options/abbreviated"
+            },
+            {
+                "#reference": "&#options/icon_only"
+            }
+        ],
+        "#profileoption": "nameplateDisplay",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/nameplate_display"
+    },
+    "#hash_1fe37d0dc1e1465b": {
+        "#defaultstep": 1,
+        "#id": "resolution",
+        "#description": "&#options/video_mode_desc",
+        "#dvar": "@#hash_ba9243ff7e168cf",
+        "#applyvalidation": true,
+        "#image": "%#hash_6ec89cbeeb4852ca",
+        "#hash_f7c37aedd2ad2255": "High",
+        "#hash_49121a30b14c768f": 200,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#buildconditions": [
+            {
+                "#type": "CLOUD_BUILD",
+                "#hash_521eb47ac927e5a4": true
+            }
+        ],
+        "#hash_837d235442b2881d": "High",
+        "#name": "&#options/video_mode",
+        "#hash_d7d0b605087a730c": "&#options/upscaling_disabled_desc",
+        "#cpueffect": "Low",
+        "#hash_fd2c10859cd7d0a1": 33
+    },
+    "#hash_212cb5858d72590e": {
+        "#defaultstep": 1,
+        "#id": "brightness",
+        "#description": "&#options/brightness_desc1",
+        "#profileoption": "BlackLevel",
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#name": "&#hash_21d98dfe7dbcf1d6"
+    },
+    "#hash_215229fca2c12a19": {
+        "#id": "texture_res",
+        "#description": "&#options/tex_res_desc",
+        "#dvar": "@#r_picmip",
+        "#image": "%#hash_8ed25bda0766419",
+        "#labels": [
+            {
+                "#reference": "&#options/quality_very_low"
+            },
+            {
+                "#reference": "&#options/quality_low"
+            },
+            {
+                "#reference": "&#options/quality_normal"
+            },
+            {
+                "#reference": "&#options/quality_high"
+            }
+        ],
+        "#type": "Dropdown",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#hash_837d235442b2881d": "High",
+        "#name": "&#options/tex_res",
+        "#cpueffect": "Medium"
+    },
+    "#hash_220596a0c1571fd8": {
+        "#id": "image_quality",
+        "#description": "&#options/image_quality_desc",
+        "#dvar": "@#r_mode",
+        "#applyvalidation": true,
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#options/image_quality",
+        "#dependencies": [
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_1fe37d0dc1e1465b"
+            }
+        ],
+        "#hash_d7d0b605087a730c": "&#options/image_quality_disabled_desc"
+    },
+    "#hash_22d529bc2a4ffdaa": {
+        "#id": "english_voice_overs",
+        "#description": "&#options/english_voice_overs_desc",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#options/english_voice_overs"
+    },
+    "#hash_23e49d24903816bc": {
+        "#id": "eco_mode",
+        "#description": "&#platform/eco_mode_description",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#lua_menu/eco_mode_efficiency"
+            },
+            {
+                "#reference": "&#lua_menu/eco_mode_low"
+            }
+        ],
+        "#profileoption": "SustainabilityMode",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#hash_67267c73e65171fb": true,
+                "#hash_67267b73e6516fc8": true,
+                "#type": "PLATFORM",
+                "#hash_f477297392c1de29": true,
+                "#hash_f4772a7392c1e05c": true
+            },
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodesp": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/eco_mode",
+        "#dependencies": [
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_2befd8222efead8"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_1f2d5a4e2352acd0"
+            }
+        ]
+    },
+    "#hash_24178bee03090f67": {
+        "#id": "telescope_privacy_policy",
+        "#description": "&#options/privacy_policy_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#dvarname": "@#hash_f32115ce09b304e6",
+                "#type": "DVAR"
+            }
+        ],
+        "#name": "&#options/privacy_policy"
+    },
+    "#hash_2479b10ddd8cf840": {
+        "#id": "low_motor_strain_controls",
+        "#description": "&#",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#hash_10fe964e2f98a6e7": true,
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/low_motor_strain_preset",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 2,
+                "#hash_3a567ae4a7f393cb": "%#hash_3a2764d3d4fe0aea"
+            }
+        ],
+        "#hash_d7d0b605087a730c": "&#options/low_motor_strain_disabled_desc",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_24bb460ef0f72e3e": {
+        "#defaultstep": 1,
+        "#id": "audio_test_front_left",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/front_left",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_24bc96eba792e192": {
+        "#id": "cross_play",
+        "#description": "&#options/crossplay_option_desc",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/crossplay_option"
+    },
+    "#hash_24d840e1f996d568": {
+        "#id": "reflection_probes_quality",
+        "#description": "&#options/reflection_probes_quality_desc",
+        "#dvar": "@#hash_e6aaf13953f7816d",
+        "#image": "%#hash_1cda07e74702c29c",
+        "#labels": [
+            {
+                "#reference": "&#options/quality_low"
+            },
+            {
+                "#reference": "&#options/quality_high"
+            }
+        ],
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#hash_837d235442b2881d": "Medium",
+        "#name": "&#options/reflection_probes_quality"
+    },
+    "#hash_2520204360cc966a": {
+        "#id": "party_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_party_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 3,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationPartyAdvancedColor"
+        },
+        "#profileoption": "colorCustomizationPartyIndex",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 22,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 22,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 22,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 22,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#lua_menu/party",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_255afc7266b40463": {
+        "#defaultstep": 2,
+        "#id": "volume",
+        "#description": "&#platform/options_game_volume_desc",
+        "#profileoption": "SoundMainVolume",
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 2,
+        "#relatedsettings": [
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_73eaa1731b3f6d3f"
+            }
+        ],
+        "#type": "SliderBarWithEditBox",
+        "#name": "&#options/master_volume",
+        "#hash_470dec9d89cb25f1": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_25d368ffb58ffb4c": {
+        "#id": "telescope_eula_beta",
+        "#description": "&#options/eula_beta_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#dvarname": "@#hash_f32115ce09b304e6",
+                "#type": "DVAR"
+            }
+        ],
+        "#name": "&#options/eula_beta"
+    },
+    "#hash_26457d5d613c7b16": {
+        "#id": "weap_next_action_button_swap",
+        "#description": "&#hash_70d308f57ed6e94e",
+        "#action": "+weapnext",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/switch_weapon"
+    },
+    "#hash_27243d6f325fa6e6": {
+        "#id": "killed_message_opacity",
+        "#description": "&#hash_2a44e3111d3bbc4e",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "killedMessageOpacityPercent",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_5e610c10860c01fe",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_284f41cbcabd0424": {
+        "#id": "score_feed_opacity",
+        "#description": "&#hash_711065c4130a5b24",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "scoreFeedOpacityPercent",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_64ef0660f6a30edc",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_294228f6bda9e621": {
+        "#id": "display_mode",
+        "#description": "&#options/display_mode_desc",
+        "#dvar": "@#r_fullscreen",
+        "#applyvalidation": true,
+        "#labels": [
+            {
+                "#reference": "&#options/mode_windowed"
+            },
+            {
+                "#reference": "&#options/mode_fullscreen"
+            },
+            {
+                "#reference": "&#options/mode_fullscreen_borderless"
+            },
+            {
+                "#reference": "&#options/mode_fullscreen_extended_window"
+            }
+        ],
+        "#relatedsettings": [
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_1806b00bc14bb28e"
+            }
+        ],
+        "#type": "Dropdown",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "CLOUD_BUILD",
+                "#hash_521eb47ac927e5a4": true
+            }
+        ],
+        "#name": "&#options/display_mode",
+        "#dependencies": [
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_220596a0c1571fd8"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_5b9170d4a1216a3d"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_2f94961be50af527"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_1fe37d0dc1e1465b"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_1806b00bc14bb28e"
+            }
+        ]
+    },
+    "#hash_29af22a7925f9e6e": {
+        "#defaultstep": 1,
+        "#id": "ammo_counter_opacity",
+        "#description": "&#hash_22803a5ee0398a76",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "ammoCounterOpacityPercent",
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_3014520ae9fca086",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_2b17edb06109b1dc": {
+        "#id": "hold_aim_action_button_swap",
+        "#description": "&#options/hold_aim_action_button_swap_desc",
+        "#action": "+speed_throw",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/keybind_aim_down_sight"
+    },
+    "#hash_2bc763a65e0ef305": {
+        "#defaultstep": 1,
+        "#id": "audio_test_top_back_right",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/top_back_right",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_2d048f36bdfa48fb": {
+        "#id": "privacy_expander",
+        "#description": "&#options/invites_expander_desc",
+        "#lockedfavorite": true,
+        "#type": "ParentlessExpander",
+        "#name": "&#options/invites_expander"
+    },
+    "#hash_2efb87b9a6cc768a": {
+        "#id": "go_stand_action_button_swap",
+        "#description": "&#options/gamepad_standjump_desc",
+        "#action": "+gostand",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/standjump"
+    },
+    "#hash_2f7a039d66127a8a": {
+        "#id": "audio_visual_support",
+        "#description": "&#options/audio_visual_support_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#name": "&#options/audio_visual_support",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_2f94961be50af527": {
+        "#id": "refresh_rate",
+        "#description": "&#options/refresh_rate_desc",
+        "#dvar": "@#r_refreshrate",
+        "#applyvalidation": true,
+        "#type": "Dropdown",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#options/screen_refresh_rate",
+        "#hash_d7d0b605087a730c": "&#options/refresh_rate_disabled_desc"
+    },
+    "#hash_314843090543d689": {
+        "#id": "voice_chat_output_device_pc",
+        "#description": "&#options/voice_chat_output_device_desc_pc",
+        "#dvar": "@#hash_20250308f4a394e9",
+        "#labels": [
+            {
+                "#reference": "&#options/default_system_device"
+            },
+            {
+                "#reference": "&#options/default_communication_device"
+            }
+        ],
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            },
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#type": "CLOUD_BUILD",
+                "#hash_521eb47ac927e5a4": true
+            }
+        ],
+        "#name": "&#options/voice_chat_output_device",
+        "#dependencies": [
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_3dced20a57da6408"
+            }
+        ],
+        "#hash_470dec9d89cb25f1": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_3416357957d5e495": {
+        "#id": "minimap_information",
+        "#description": "&#hash_377f02fc2beabc57",
+        "#labels": [
+            {
+                "#reference": "&#hash_50acd0f8d21eb9d5"
+            },
+            {
+                "#reference": "&#hash_67056d48b9d378db"
+            },
+            {
+                "#reference": "&#hash_58e0404ba9bfe20e"
+            }
+        ],
+        "#profileoption": "minimapInfoVisibility",
+        "#type": "Dropdown",
+        "#name": "&#hash_5f6f05e83efb0fed"
+    },
+    "#hash_3480beeeea2f5b51": {
+        "#id": "cod_account",
+        "#description": "&#options/cod_account_desc",
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/cod_account"
+    },
+    "#hash_35be45fd1bbdcd5d": {
+        "#id": "mix_preset",
+        "#description": "&#",
+        "#profileoption": "sndMixPreset",
+        "#type": "Dropdown",
+        "#name": "&#options/mix_preset"
+    },
+    "#hash_35c1e5b34291e0b2": {
+        "#id": "hdr_calibration",
+        "#description": "&#options/hdr_calibration_btn_desc",
+        "#type": "GenericButton",
+        "#name": "&#options/hdr_calibration",
+        "#hash_d7d0b605087a730c": "&#options/hdrcalibration_disabled_desc"
+    },
+    "#hash_36432cef5fdbe061": {
+        "#id": "sdr_color_space",
+        "#description": "&#options/sdrcolorspace_desc",
+        "#dvar": "@#hash_c2ec8dc30c02643",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#options/sdrcolorspace",
+        "#hash_d7d0b605087a730c": "&#options/sdrcolor_disabled_desc"
+    },
+    "#hash_374f9fcd9b9f77d5": {
+        "#id": "team_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_team_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 1,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationAllyAdvancedColor"
+        },
+        "#profileoption": "colorCustomizationAllyIndex",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 25,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 25,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 25,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 25,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#lua_menu/team",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_37628303107bb636": {
+        "#id": "voice_chat_recording_mode",
+        "#description": "&#options/voice_chat_recording_mode_desc",
+        "#dvar": "@#hash_b1a6c284007164e9",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/push_to_talk"
+            },
+            {
+                "#reference": "&#lua_menu/open_mic"
+            }
+        ],
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            },
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/voice_chat_recording_mode",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_52c9763e975ddd61"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 2,
+                "#hash_3a567ae4a7f393cb": "%#hash_3dced20a57da6408"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_54056ec78808be39"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_2be49c1df03f925f"
+            }
+        ],
+        "#hash_d7d0b605087a730c": "&#options/voicechat_disabled_desc",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_379b9a5a262926b3": {
+        "#id": "privacy_preset",
+        "#description": "&#hash_24f1c9c26521000d",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#hash_79b51dca9629855b",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_38deb4e686490745": {
+        "#id": "telescope_eula",
+        "#description": "&#options/eula_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#dvarname": "@#hash_f32115ce09b304e6",
+                "#type": "DVAR"
+            }
+        ],
+        "#name": "&#options/eula"
+    },
+    "#hash_3976e1fd72c3093f": {
+        "#id": "action_slot2_button_swap",
+        "#description": "&#menu/dpad_down_swap_desc",
+        "#action": "+actionslot2",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#hash_52f85a15c4392c30"
+    },
+    "#hash_3a2764d3d4fe0aea": {
+        "#id": "simplified_controls",
+        "#description": "&#",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/simplified_controls",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 2,
+                "#hash_3a567ae4a7f393cb": "%#hash_2479b10ddd8cf840"
+            }
+        ],
+        "#hash_d7d0b605087a730c": "&#options/simplified_control_disabled_desc",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_3a9ec38a0e1b50e8": {
+        "#id": "obit_feed_opacity",
+        "#description": "&#hash_53ec700b43a0f248",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "obitFeedOpacityPercent",
+        "#type": "ToggleButton",
+        "#name": "&#hash_8389cd15f22f9c0",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_3b42abb86f5f5178": {
+        "#id": "rumble",
+        "#description": "&#platform/gamepad_vibration_desc",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "rumble",
+        "#hash_10fe964e2f98a6e7": true,
+        "#type": "ToggleButton",
+        "#name": "&#platform/gamepad_vibration",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_43c01c90127f8c0c"
+            }
+        ],
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_3c57f5d3cbb81893": {
+        "#id": "shadow_quality",
+        "#description": "&#options/shadow_quality_desc",
+        "#dvar": "@#hash_874e1f1710e250d0",
+        "#image": "%#hash_3f5344e3af06bbd",
+        "#labels": [
+            {
+                "#reference": "&#options/quality_very_low"
+            },
+            {
+                "#reference": "&#options/quality_low"
+            },
+            {
+                "#reference": "&#options/quality_normal"
+            },
+            {
+                "#reference": "&#options/quality_high"
+            },
+            {
+                "#reference": "&#options/quality_ultra"
+            }
+        ],
+        "#hash_f7c37aedd2ad2255": "Medium",
+        "#type": "Dropdown",
+        "#hash_837d235442b2881d": "Medium",
+        "#name": "&#options/shadow_quality"
+    },
+    "#hash_3c87554f2b80ff73": {
+        "#id": "do_not_sell_my_data",
+        "#description": "&#options/privacy_choices_desc",
+        "#hash_f2cdcae8e0ee8554": "#privacychoices",
+        "#type": "GenericButton",
+        "#name": "&#options/privacy_choices_name"
+    },
+    "#hash_3ccea818631ba5a1": {
+        "#id": "neutral_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_neutral_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 4,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationNeutralAdvancedColor"
+        },
+        "#profileoption": "colorCustomizationNeutralIndex",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 1,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 1,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 1,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 1,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#options/neutral",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_3d0c4a85ce24357a": {
+        "#id": "whisper_privacy",
+        "#description": "&#options/whisper_privacy_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/party_privacy_public"
+            },
+            {
+                "#reference": "&#menu/party_privacy_friends_and_channels"
+            },
+            {
+                "#reference": "&#menu/party_privacy_friends_only"
+            },
+            {
+                "#reference": "&#menu/party_privacy_closed"
+            }
+        ],
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/whisper_privacy",
+        "#hash_f269089fabaf2490": true
+    },
+    "#hash_3d235ebfc634aa28": {
+        "#id": "language_select",
+        "#description": "&#hash_34cfdd1a842e2c58",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#hash_67267c73e65171fb": true,
+                "#hash_67267b73e6516fc8": true,
+                "#type": "PLATFORM",
+                "#hash_f477297392c1de29": true,
+                "#hash_f4772a7392c1e05c": true
+            },
+            {
+                "#type": "GAMEMODE"
+            },
+            {
+                "#type": "SPLIT_SCREEN",
+                "#hash_ef8ecc78f70098e7": true
+            }
+        ],
+        "#name": "&#hash_74cd6d56103fae9",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_3dced20a57da6408": {
+        "#id": "voice_chat",
+        "#description": "&#options/voice_chat_button_desc",
+        "#hash_10fe964e2f98a6e7": true,
+        "#relatedsettings": [
+            {
+                "#hash_705f013c3ae5adf3": "%#hash_37628303107bb636"
+            }
+        ],
+        "#type": "keyBinding",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            },
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/voice_chat_button",
+        "#hash_d7d0b605087a730c": "&#options/voice_chat_push_to_talk_disable_desc",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_3e80ada5b131af33": {
+        "#id": "use_voice_com",
+        "#description": "&#lua_menu/use_voice_communications_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "VoiceChatEnabled",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#lua_menu/use_voice_communications",
+        "#hash_f269089fabaf2490": true,
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_73eaa1731b3f6d3f"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_37628303107bb636"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_6bfd75d236e1e690"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_52c9763e975ddd61"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_3dced20a57da6408"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_45e8dd22b08812e4"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_50abc38f57c5783a"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_73eaa1731b3f6d3f"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_37628303107bb636"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_6bfd75d236e1e690"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_52c9763e975ddd61"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_3dced20a57da6408"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_45e8dd22b08812e4"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_124f77f8efe9bacb"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_5ad77aac8a2f598c"
+            }
+        ],
+        "#hash_470dec9d89cb25f1": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_3e80c42ce06f2ce0": {
+        "#id": "",
+        "#description": "&#hash_50371e462f8f36dd",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "twitchIdentityEnabled",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#dvarname": "@#hash_a257adeeda8b00c0",
+                "#type": "DVAR"
+            },
+            {
+                "#execdev": true,
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#hash_1c303d2b8530ddcb"
+    },
+    "#hash_3ebdeaddf4c21e17": {
+        "#id": "boot_quality_preset",
+        "#description": "&#options/graphic_presets_ftue_desc",
+        "#dvar": "@#hash_7cd753216ba4e393",
+        "#labels": [
+            {
+                "#reference": "&#options/quality"
+            },
+            {
+                "#reference": "&#options/performance"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#options/graphic_preset"
+    },
+    "#hash_40cbc45f437d3fce": {
+        "#id": "enemy_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_enemy_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 2,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationEnemyAdvancedColor"
+        },
+        "#profileoption": "colorCustomizationEnemyIndex",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 19,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 19,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 19,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 19,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#hash_81eafc3b005f05a3": [
+            {
+                "#disabledstring": "&#lua_menu/enemy"
+            }
+        ],
+        "#name": "&#lua_menu/enemy",
+        "#hash_d7d0b605087a730c": "&##vdv",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_42521ed9e7aa97f4": {
+        "#id": "bullet_impact",
+        "#description": "&#options/bullet_impact_desc",
+        "#dvar": "@#fx_marks",
+        "#image": "%#hash_4c5761f3ae910beb",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#hash_f7c37aedd2ad2255": "Low",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#options/bullet_impacts",
+        "#cpueffect": "Low"
+    },
+    "#hash_42f31fe7e0f82036": {
+        "#id": "minimap_style",
+        "#description": "&#hash_11f0a65bc5a27fc2",
+        "#image": "%#hash_12eef5d2fc0db2f0",
+        "#labels": [
+            {
+                "#reference": "&#options/minimap_circle"
+            },
+            {
+                "#reference": "&#options/minimap_square"
+            }
+        ],
+        "#profileoption": "minimapStyle",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#dvarname": "@#hash_78f9dcc8626b8737",
+                "#type": "DVAR"
+            }
+        ],
+        "#name": "&#hash_4999f16b1669c792"
+    },
+    "#hash_44088780740e6f6c": {
+        "#defaultstep": 1,
+        "#id": "audio_test_lfe",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/sub_woofer",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_4585ccbc9ca17e26": {
+        "#id": "use_reload_action_button_swap",
+        "#description": "&#options/use_reload_desc",
+        "#action": "+usereload",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#menu/use_reload"
+    },
+    "#hash_45933eef44b2b7fa": {
+        "#id": "notification_alerts_expander",
+        "#description": "&#hash_4e9d0c1c7d63f22",
+        "#lockedfavorite": true,
+        "#type": "ParentlessExpander",
+        "#name": "&#hash_51d16db7bf2eb6b2"
+    },
+    "#hash_485c16ec23070556": {
+        "#defaultstep": 1,
+        "#id": "color_customization_filter_ui_intensity",
+        "#description": "&#options/color_customization_filter_intensity_ui_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#name": "&#options/color_customization_filter_intensity_ui",
+        "#hash_d7d0b605087a730c": "&#options/filter_ui_intensity_disabled_desc",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_48703b2a287b4815": {
+        "#id": "blocked_player",
+        "#description": "&#options/blocked_players_desc",
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#lua_menu/blocked_player",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_4936079b868f245a": {
+        "#id": "codcaster_option_team_identity_cycling",
+        "#description": "&#codcaster/swap_teams_default",
+        "#labels": [
+            {
+                "#reference": "&#codcaster/swap_teams_default"
+            },
+            {
+                "#reference": "&#codcaster/team_identity_custom"
+            }
+        ],
+        "#profileoption": "codcaster_team_identity",
+        "#lockedfavorite": true,
+        "#type": "Dropdown",
+        "#name": "&#codcaster/team_identity",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_51ecad79fa86080f"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_51ecae79fa8609c2"
+            }
+        ]
+    },
+    "#hash_4983373dd02c03bb": {
+        "#defaultstep": 1,
+        "#id": "audio_test_surround_left",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/surround_left",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_4aa97dee81d82d88": {
+        "#id": "zm_damage_numbers_visible",
+        "#description": "&#hash_5ff618e4ca275128",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "zmDamageNumbersVisible",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_638c68cd99b23c60",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_4ade2e57829cfd33": {
+        "#defaultstep": 1,
+        "#id": "audio_test_front_right",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/front_right",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_4cd154c95c39f404": {
+        "#id": "compass_type",
+        "#description": "&#hash_4e2cc63fce93f72c",
+        "#image": "%#hash_2fd0e373a775a370",
+        "#labels": [
+            {
+                "#reference": "&#hash_4a3efccdbf3db9d"
+            },
+            {
+                "#reference": "&#hash_5c0bdfb37243695a"
+            },
+            {
+                "#reference": "&#lua_menu/disabled"
+            }
+        ],
+        "#profileoption": "directionalCompassType",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#dvarname": "@#hash_e1b3d90fc7948c9e",
+                "#type": "DVAR"
+            },
+            {
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodesp": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_654b2fb8ea5ceb04"
+    },
+    "#hash_4e85d73f8a53e528": {
+        "#id": "frag_action_button_swap",
+        "#description": "&#options/switch_equipment_desc",
+        "#action": "+smoke",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/switch_equipment"
+    },
+    "#hash_4ec8a5e813e82f9f": {
+        "#id": "aspect_ratio",
+        "#description": "&#hash_7f1c3f325c3bb087",
+        "#dvar": "@#r_aspectratio",
+        "#image": "%#hash_4de2c0095fd5f5e8",
+        "#labels": [
+            {
+                "#reference": "&#options/automatic"
+            },
+            {
+                "#reference": "&#options/wide_16_10"
+            },
+            {
+                "#reference": "&#options/wide_16_9"
+            },
+            {
+                "#reference": "&#options/wide_21_9"
+            },
+            {
+                "#reference": "&#options/wide_32_9"
+            }
+        ],
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#hash_3906adfb87dd4c3d"
+    },
+    "#hash_4efc4da8ade84b64": {
+        "#defaultstep": 1,
+        "#id": "audio_test_back_left",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/back_left",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_50d212abcae27731": {
+        "#defaultstep": 1,
+        "#id": "audio_test_back_right",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/back_right",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_51a2f9e6663efa8d": {
+        "#id": "zm_healthbar_visible",
+        "#description": "&#hash_4fbda7e977fbdb4f",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "zmHealthbarVisible",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_4b5ce2b7db32c365",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_51b01efe235ce9bb": {
+        "#id": "squad_4_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_squad_4_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 9,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationSquad4AdvancedColor"
+        },
+        "#profileoption": "colorCustomizationSquad4Index",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 30,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 30,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 30,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 30,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#options/color_customization_squad_member_4",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_51ecad79fa86080f": {
+        "#id": "codcaster_option_team_identity_team1",
+        "#description": "&#codcaster/team1_settings_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButton",
+        "#name": "&#codcaster/team1_settings"
+    },
+    "#hash_51ecae79fa8609c2": {
+        "#id": "codcaster_option_team_identity_team2",
+        "#description": "&#codcaster/team2_settings_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButton",
+        "#name": "&#codcaster/team2_settings"
+    },
+    "#hash_52c9763e975ddd61": {
+        "#defaultstep": 1,
+        "#id": "open_mic_recording_sensitivity",
+        "#description": "&#options/open_mic_recording_threshold_desc",
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#options/open_mic_recording_threshold",
+        "#hash_d7d0b605087a730c": "&#options/open_mic_rec_threshold_disable_desc"
+    },
+    "#hash_52d6ec7e8532d330": {
+        "#hash_8f8454662ba2b5d": true,
+        "#id": "do_not_sell_my_data_toggle",
+        "#description": "&#",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_f2cdcae8e0ee8554": "#privacychoices",
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#name": "&#hash_4f4ce9b2a845c291"
+    },
+    "#hash_52ef0f7c2f305438": {
+        "#id": "eco_mode_pc",
+        "#description": "&#platform/eco_mode_description",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/custom"
+            },
+            {
+                "#reference": "&#lua_menu/eco_mode_efficiency"
+            },
+            {
+                "#reference": "&#lua_menu/eco_mode_low"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#type": "Dropdown",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#name": "&#options/eco_mode",
+        "#dependencies": [
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_2befd8222efead8"
+            }
+        ]
+    },
+    "#hash_5450bcdcc3b1234a": {
+        "#id": "floor_up_action",
+        "#description": "&#options/floor_up_desc",
+        "#type": "keyBinding",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/floor_up"
+    },
+    "#hash_547ac6c915bb52f5": {
+        "#id": "theme_frame_visibility",
+        "#description": "&#",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "themeFrameVisibility",
+        "#type": "ToggleButton",
+        "#name": "&#hash_7268fbd8d5368ae0"
+    },
+    "#hash_555f8be61e6f1641": {
+        "#id": "voice_chat_output_device_xbox",
+        "#description": "&#options/voice_chat_output_device_desc_xbox",
+        "#labels": [
+            {
+                "#reference": "&#options/headset"
+            },
+            {
+                "#reference": "&#options/speakers"
+            }
+        ],
+        "#profileoption": "SoundVoiceChatDeviceType",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#type": "PLATFORM",
+                "#hash_f477297392c1de29": true,
+                "#hash_f4772a7392c1e05c": true
+            },
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/voice_chat_output_device",
+        "#dependencies": [
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_3dced20a57da6408"
+            }
+        ]
+    },
+    "#hash_55c2094e53c10805": {
+        "#id": "you_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_you_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 0,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationYouAdvancedColor"
+        },
+        "#profileoption": "colorCustomizationYouIndex",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 21,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 21,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 21,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 21,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#lua_menu/you",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_580fcb2be772c0f1": {
+        "#id": "minimap_radar_backing",
+        "#description": "&#hash_5373aa4554178273",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "minimapRadarBackingEnabled",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#dvarname": "@#hash_78f9dcc8626b8737",
+                "#type": "DVAR"
+            }
+        ],
+        "#name": "&#options/radar"
+    },
+    "#hash_586c833f35125ef2": {
+        "#id": "display_real_id",
+        "#description": "&#options/display_real_id_desc",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "displayRealID",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            },
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/display_real_id"
+    },
+    "#hash_58c1f568adbdb83c": {
+        "#id": "cross_play_ranked",
+        "#description": "&#hash_1c9e2d8e50c707f9",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_31564c75e0c84627",
+        "#hash_d7d0b605087a730c": "&#hash_3e86983e066ec75a"
+    },
+    "#hash_591b6514758e48e1": {
+        "#id": "squad_2_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_squad_2_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 7,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationSquad2AdvancedColor"
+        },
+        "#profileoption": "colorCustomizationSquad2Index",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 6,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 6,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 6,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 6,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#options/color_customization_squad_member_2",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_5a4cc0f93f2ee26b": {
+        "#id": "brightness_button",
+        "#description": "&#options/brightness_desc1",
+        "#hash_c05cbc7ee7946fee": true,
+        "#type": "GenericButton",
+        "#name": "&#hash_1a1b64885686c960",
+        "#hash_d7d0b605087a730c": "&#options/brightness_disabled_desc",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_5b61b069fe6d64a2": {
+        "#defaultstep": 0.05,
+        "#id": "mouse_horz_sens",
+        "#description": "&#platform/mouse_horz_sensitivity_desc",
+        "#profileoption": "ViewMouseHorzSensitivity",
+        "#hash_10fe964e2f98a6e7": true,
+        "#hash_49121a30b14c768f": 99,
+        "#hash_14edc16f5835bee": 0.05,
+        "#type": "SliderBarWithEditBox",
+        "#name": "&#options/mouse_horz_sensitivity",
+        "#hash_fd2c10859cd7d0a1": 0.01,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_5b9170d4a1216a3d": {
+        "#id": "monitor",
+        "#description": "&#hash_1abc8d475d308b7f",
+        "#dvar": "@#r_monitor",
+        "#applyvalidation": true,
+        "#labels": [
+            {
+                "#reference": "&#options/mode_windowed"
+            },
+            {
+                "#reference": "&#options/mode_fullscreen"
+            },
+            {
+                "#reference": "&#options/mode_fullscreen_borderless"
+            },
+            {
+                "#reference": "&#options/mode_fullscreen_extended_window"
+            }
+        ],
+        "#type": "Dropdown",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            },
+            {
+                "#type": "CLOUD_BUILD",
+                "#hash_521eb47ac927e5a4": true
+            }
+        ],
+        "#name": "&#options/monitor",
+        "#dependencies": [
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_1fe37d0dc1e1465b"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_220596a0c1571fd8"
+            },
+            {
+                "#hash_3a567ae4a7f393cb": "%#hash_2f94961be50af527"
+            }
+        ],
+        "#hash_d7d0b605087a730c": "&#options/monitor_disabled_desc"
+    },
+    "#hash_5bd984db3c28a83e": {
+        "#id": "screen_space_shadows",
+        "#description": "&#options/screen_space_shadows_desc",
+        "#dvar": "@#hash_b8c4ce378e61b803",
+        "#image": "%#hash_72609d858077eddb",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#options/quality_low"
+            },
+            {
+                "#reference": "&#options/quality_high"
+            }
+        ],
+        "#hash_f7c37aedd2ad2255": "Medium",
+        "#type": "Dropdown",
+        "#hash_837d235442b2881d": "Low",
+        "#name": "&#options/screen_space_shadows",
+        "#cpueffect": "Low"
+    },
+    "#hash_5cdf27844a2b4b6a": {
+        "#id": "breath_sprint_action_button_swap",
+        "#description": "&#options/gamepad_sprint_hold_breath_desc",
+        "#action": "+breath_sprint",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/sprint_hold_breath"
+    },
+    "#hash_5e023c281a850fc4": {
+        "#defaultstep": 0.05,
+        "#id": "look_horz_sens",
+        "#description": "&#platform/look_horz_sensitivity_desc",
+        "#profileoption": "viewHorzSensitivity",
+        "#hash_10fe964e2f98a6e7": true,
+        "#hash_49121a30b14c768f": 4,
+        "#hash_14edc16f5835bee": 0.05,
+        "#type": "SliderBarWithEditBox",
+        "#name": "&#platform/look_horz_sensitivity",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_DIFFERENT",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_541d45ee455f0ac2"
+            }
+        ],
+        "#hash_fd2c10859cd7d0a1": 0.1,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_5efb333f67e2521a": {
+        "#id": "color_customization",
+        "#description": "&#options/color_customization_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_f2cdcae8e0ee8554": "#hash_57778e8046287074",
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#hash_e0cb37b4be266931": true,
+                "#type": "SPLIT_SCREEN"
+            }
+        ],
+        "#name": "&#options/color_customization",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_621b861a89a0fc48": {
+        "#id": "squad_5_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_squad_5_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 10,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationSquad5AdvancedColor"
+        },
+        "#profileoption": "colorCustomizationSquad5Index",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 35,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 35,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 35,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 35,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#options/color_customization_squad_member_5",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_62a6b582c467a346": {
+        "#id": "telescope_pii",
+        "#description": "&#options/pii_desc",
+        "#lockedfavorite": true,
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#dvarname": "@#hash_f32115ce09b304e6",
+                "#type": "DVAR"
+            }
+        ],
+        "#name": "&#options/pii"
+    },
+    "#hash_62ebd77fd77c0b4d": {
+        "#id": "attack_action_button_swap",
+        "#description": "&#options/attack_action_button_swap_desc",
+        "#action": "+attack",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/fire_weapon"
+    },
+    "#hash_62fcb0600e31233a": {
+        "#defaultstep": 0.05,
+        "#id": "look_vert_sens",
+        "#description": "&#platform/look_vert_sensitivity_desc",
+        "#profileoption": "viewVertSensitivity",
+        "#hash_10fe964e2f98a6e7": true,
+        "#hash_49121a30b14c768f": 4,
+        "#hash_14edc16f5835bee": 0.05,
+        "#type": "SliderBarWithEditBox",
+        "#name": "&#platform/look_vert_sensitivity",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_DIFFERENT",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_459e9a764fb94b34"
+            }
+        ],
+        "#hash_fd2c10859cd7d0a1": 0.1,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_6375a1b9935fa502": {
+        "#id": "channel_invites_privacy",
+        "#description": "&#options/channel_invites_privacy_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/party_privacy_public"
+            },
+            {
+                "#reference": "&#menu/party_privacy_friends_and_channels"
+            },
+            {
+                "#reference": "&#menu/party_privacy_friends_only"
+            },
+            {
+                "#reference": "&#menu/party_privacy_closed"
+            }
+        ],
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/channel_invites_privacy"
+    },
+    "#hash_6474008e47c33db7": {
+        "#id": "melee_zoom_action_button_swap",
+        "#description": "&#options/melee_zoom_action_button_swap_desc",
+        "#action": "+melee_zoom",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/meleezoom"
+    },
+    "#hash_66036d915c94f8a4": {
+        "#defaultstep": 1,
+        "#id": "equipment_panel_opacity",
+        "#description": "&#hash_152cdb7e333325b4",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "equipmentPanelOpacityPercent",
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_151ee7379f98764c",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_6820c09cfb5003d1": {
+        "#id": "notification_feed_opacity",
+        "#description": "&#hash_4ebf12a34ce432f3",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "notificationFeedOpacityPercent",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_7ae48691ad32659",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_68a05fef6d83ee7d": {
+        "#id": "squad_6_color_selection",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#options/color_customization_squad_6_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_71ddc537d7c12642": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 11,
+            "#hash_e66cdc7c698d09c4": "colorCustomizationSquad6AdvancedColor"
+        },
+        "#profileoption": "colorCustomizationSquad6Index",
+        "#hash_8697b8f248b24cc2": [
+            {
+                "#colorindexpreset": 1,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 1,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 1,
+                "#hash_563fcedd2f080680": -1
+            },
+            {
+                "#colorindexpreset": 1,
+                "#hash_563fcedd2f080680": -1
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#name": "&#options/color_customization_squad_member_6",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_6a9a0096353eeec9": {
+        "#defaultstep": 1,
+        "#id": "minimap_icon_scale",
+        "#description": "&#hash_7b5a62a14bcfc72b",
+        "#profileoption": "minimapIconScalePercent",
+        "#hash_49121a30b14c768f": 125,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#name": "&#hash_725f8de86021e611",
+        "#hash_fd2c10859cd7d0a1": 75
+    },
+    "#hash_6afc4d6e65688131": {
+        "#id": "party_invites_privacy",
+        "#description": "&#options/party_invites_privacy_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/party_privacy_public"
+            },
+            {
+                "#reference": "&#menu/party_privacy_friends_and_channels"
+            },
+            {
+                "#reference": "&#menu/party_privacy_friends_only"
+            },
+            {
+                "#reference": "&#menu/party_privacy_closed"
+            }
+        ],
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/party_invites_privacy"
+    },
+    "#hash_6bc470ee9a1814d8": {
+        "#id": "action_slot3_button_swap",
+        "#description": "&#menu/dpad_left_swap_desc",
+        "#action": "+actionslot3",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#menu/layout_dpad_left"
+    },
+    "#hash_6bd5467192ef25e6": {
+        "#id": "minimap_opacity",
+        "#description": "&#hash_77a97e008591e0ee",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#profileoption": "minimapOpacityPercent",
+        "#type": "ToggleButton",
+        "#name": "&#hash_260e0c7b2e5cdbde",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_6bfd75d236e1e690": {
+        "#defaultstep": 2,
+        "#id": "microphone_volume",
+        "#description": "&#options/microphone_volume_desc",
+        "#profileoption": "MicrophoneVolume",
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 2,
+        "#type": "SliderBarWithEditBox",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/microphone_volume",
+        "#hash_d7d0b605087a730c": "&#options/microphone_volume_disable_desc",
+        "#hash_470dec9d89cb25f1": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_6da481393ac355cd": {
+        "#id": "particle_quality",
+        "#description": "&#options/particle_quality_desc",
+        "#dvar": "@#hash_75386e2ad496a07a",
+        "#image": "%#hash_25b7f59c3868231f",
+        "#labels": [
+            {
+                "#reference": "&#options/quality_very_low"
+            },
+            {
+                "#reference": "&#options/quality_low"
+            },
+            {
+                "#reference": "&#options/quality_normal"
+            },
+            {
+                "#reference": "&#options/quality_high"
+            }
+        ],
+        "#hash_f7c37aedd2ad2255": "Medium",
+        "#type": "Dropdown",
+        "#resetdisabled": true,
+        "#hash_837d235442b2881d": "Low",
+        "#name": "&#options/particle_quality"
+    },
+    "#hash_6dc4997b9f974c1a": {
+        "#id": "shader_quality",
+        "#description": "&#options/shader_quality_desc",
+        "#dvar": "@#hash_b96259c923b7ac85",
+        "#image": "%#hash_bb920d5cfc2573a",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/low"
+            },
+            {
+                "#reference": "&#lua_menu/medium"
+            },
+            {
+                "#reference": "&#lua_menu/high"
+            }
+        ],
+        "#hash_f7c37aedd2ad2255": "Medium",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#hash_837d235442b2881d": "Low",
+        "#name": "&#options/shader_quality"
+    },
+    "#hash_7010d80f401a05c1": {
+        "#hash_8f8454662ba2b5d": true,
+        "#id": "marketing_opt_in",
+        "#description": "&#",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#name": "&#"
+    },
+    "#hash_70907aa3f2810f06": {
+        "#defaultstep": 1,
+        "#id": "audio_test_center",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/center",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_7170f62f17102861": {
+        "#id": "action_slot4_button_swap",
+        "#description": "&#menu/dpad_right_swap_desc",
+        "#action": "+actionslot4",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#menu/dpad_right_desc"
+    },
+    "#hash_720da33edb271572": {
+        "#id": "water_quality",
+        "#description": "&#options/water_quality_desc",
+        "#dvar": "@#hash_44cef52455631ca5",
+        "#image": "%#hash_f9b8d003189945c",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#options/water_caustics"
+            },
+            {
+                "#reference": "&#options/wave_wetness"
+            },
+            {
+                "#reference": "&#options/all"
+            }
+        ],
+        "#hash_f7c37aedd2ad2255": "Medium",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#hash_837d235442b2881d": "Low",
+        "#name": "&#options/water_quality",
+        "#hash_d7d0b605087a730c": "&#options/water_quality_lock_desc"
+    },
+    "#hash_72571732a3e5e495": {
+        "#id": "frag_action_button_swap",
+        "#description": "&#options/use_lethal_desc",
+        "#action": "+frag",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/use_lethal"
+    },
+    "#hash_7368a6c9f16b3f12": {
+        "#defaultstep": 1,
+        "#id": "audio_test_top_front_left",
+        "#description": "&#options/speaker_direction_desc",
+        "#labels": [
+            {
+                "#reference": "&#menu/off"
+            },
+            {
+                "#reference": "&#options/testing"
+            }
+        ],
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#type": "EXEC"
+            }
+        ],
+        "#name": "&#options/top_front_left",
+        "#hash_d7d0b605087a730c": "&#options/audio_speaker_lock_desc",
+        "#hash_fd2c10859cd7d0a1": 5
+    },
+    "#hash_73d5b60133282b20": {
+        "#id": "color_customization_filter_targets",
+        "#description": "&#options/color_customization_filter_targets_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#options/world"
+            },
+            {
+                "#reference": "&#options/interface_cc"
+            },
+            {
+                "#reference": "&#options/both"
+            }
+        ],
+        "#profileoption": "colorCustomizationScreenFilterTargets",
+        "#lockedfavorite": true,
+        "#type": "Dropdown",
+        "#name": "&#options/color_customization_filter_targets",
+        "#hash_d7d0b605087a730c": "&#options/filter_targets_disabled_desc",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_73e53ca9ccb94918": {
+        "#id": "theme_hue_shift_mp",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 0
+        },
+        "#profileoption": "themeHueShift_mp",
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_27159dbba7a0a0dd",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_73eaa1731b3f6d3f": {
+        "#defaultstep": 2,
+        "#id": "voice_chat_volume",
+        "#description": "&#options/voice_chat_volume_desc",
+        "#profileoption": "VoiceChatVolume",
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 2,
+        "#type": "SliderBarWithEditBox",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/voice_chat_volume",
+        "#hash_d7d0b605087a730c": "&#options/voice_chat_volume_disable_desc",
+        "#hash_470dec9d89cb25f1": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_73ec56a9ccbf93f4": {
+        "#id": "theme_hue_shift_ob",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 0
+        },
+        "#profileoption": "themeHueShift_ob",
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#buildconditions": [
+            {
+                "#gamemodeob": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_27159dbba7a0a0dd",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_73edba8555dc967d": {
+        "#id": "dxr",
+        "#description": "&#hash_1e83349a06741d7e",
+        "#dvar": "@#hash_7e30d7c6aac2b680",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#hash_f7c37aedd2ad2255": "High",
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#hash_837d235442b2881d": "High",
+        "#name": "&#hash_7481f7801bc845ce",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_GREATER_THAN",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_8f77812ef9cf511"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_6a640ed9b1ffeb3"
+            }
+        ],
+        "#cpueffect": "High"
+    },
+    "#hash_74073ea9ccd632e4": {
+        "#id": "theme_hue_shift_wz",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 0
+        },
+        "#profileoption": "themeHueShift_wz",
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_27159dbba7a0a0dd",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_743429a9ccfcfd20": {
+        "#id": "theme_hue_shift_zm",
+        "#hash_de81cb7a2ea1e1": true,
+        "#description": "&#",
+        "#hash_c05cbc7ee7946fee": true,
+        "#hash_e68f1d9e411ab929": {
+            "#colortype": 0
+        },
+        "#profileoption": "themeHueShift_zm",
+        "#hash_9491d0a4eb656663": true,
+        "#type": "ColorSelection",
+        "#buildconditions": [
+            {
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_27159dbba7a0a0dd",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_756d26179e032620": {
+        "#id": "button_layout",
+        "#description": "&#menu/color_indicator_desc",
+        "#profileoption": "gpadButtonsConfig",
+        "#hash_10fe964e2f98a6e7": true,
+        "#type": "Dropdown",
+        "#name": "&#platform/button_layout",
+        "#hash_d7d0b605087a730c": "&#options/button_layout_disabled_desc",
+        "#hash_4eda445616350b02": true,
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_7670cd282320543b": {
+        "#id": "enable_2fa_popup",
+        "#description": "&#",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#resetdisabled": true,
+        "#name": "&#hash_167bb6a34d777ac9"
+    },
+    "#hash_7675607c1ece5b40": {
+        "#defaultstep": 1,
+        "#id": "color_customization_filter_world_intensity",
+        "#description": "&#options/color_customization_filter_intensity_world_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#lockedfavorite": true,
+        "#hash_49121a30b14c768f": 100,
+        "#hash_ac7d2da0d1e25b74": 0,
+        "#hash_14edc16f5835bee": 1,
+        "#type": "SliderBarWithEditBox",
+        "#name": "&#options/color_customization_filter_intensity_world",
+        "#hash_d7d0b605087a730c": "&#options/filter_world_intensity_disabled_desc",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_77419dabfa97124c": {
+        "#id": "volumetrics_quality",
+        "#description": "&#options/volumetric_quality_desc",
+        "#dvar": "@#hash_e2a59f0fde9284d8",
+        "#image": "%#hash_94b5a9c2555cb01",
+        "#labels": [
+            {
+                "#reference": "&#menu/low"
+            },
+            {
+                "#reference": "&#menu/medium"
+            },
+            {
+                "#reference": "&#menu/high"
+            }
+        ],
+        "#hash_f7c37aedd2ad2255": "Medium",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#hash_837d235442b2881d": "Medium",
+        "#name": "&#options/volumetric_quality",
+        "#cpueffect": "Low"
+    },
+    "#hash_777d4a31478826d7": {
+        "#id": "codcaster_option_team_setting_secondary_color",
+        "#description": "&#codcaster/team_secondary_color_desc",
+        "#lockedfavorite": true,
+        "#type": "ColorSelection",
+        "#name": "&#codcaster/team_secondary_color_colon"
+    },
+    "#hash_77b54facc02ea673": {
+        "#id": "friend_requests_notifications",
+        "#description": "&#options/snooze_friend_requests_desc",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/off"
+            },
+            {
+                "#reference": "&#lua_menu/on"
+            }
+        ],
+        "#profileoption": "notificationAlertFriendRequests",
+        "#type": "ToggleButton",
+        "#name": "&#hash_77f44cbc3349cadc"
+    },
+    "#hash_77e2acf0d91eed81": {
+        "#id": "edit_button_layout",
+        "#description": "&#platform/edit_button_layout_desc",
+        "#hash_f2cdcae8e0ee8554": "#hash_f00e6ccb68cd4e1f",
+        "#hash_10fe964e2f98a6e7": true,
+        "#type": "GenericButtonWithValue",
+        "#resetdisabled": true,
+        "#buildconditions": [
+            {
+                "#hash_e0cb37b4be266931": true,
+                "#type": "SPLIT_SCREEN"
+            }
+        ],
+        "#name": "&#platform/edit_button_layout",
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_7af1f54eba3332cb": {
+        "#id": "persistent_damage_layers",
+        "#description": "&#options/persistent_damage_layers_desc",
+        "#dvar": "@#hash_6c43e90d258dd0f5",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/disabled"
+            },
+            {
+                "#reference": "&#lua_menu/enabled"
+            }
+        ],
+        "#type": "ToggleButton",
+        "#buildconditions": [
+            {
+                "#platformpc": true,
+                "#type": "PLATFORM"
+            }
+        ],
+        "#hash_837d235442b2881d": "Medium",
+        "#name": "&#options/persistent_damage_layers"
+    },
+    "#hash_7b66f7159c044db9": {
+        "#id": "color_customization_filter_mode",
+        "#description": "&#options/color_customization_filter_mode_desc",
+        "#hash_c05cbc7ee7946fee": true,
+        "#labels": [
+            {
+                "#reference": "&#options/none"
+            },
+            {
+                "#reference": "&#options/filter_1"
+            },
+            {
+                "#reference": "&#options/filter_2"
+            },
+            {
+                "#reference": "&#options/filter_3"
+            }
+        ],
+        "#profileoption": "colorCustomizationScreenFilterPalette",
+        "#lockedfavorite": true,
+        "#type": "Dropdown",
+        "#name": "&#options/color_customization_filter_mode",
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_73d5b60133282b20"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_485c16ec23070556"
+            },
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 1,
+                "#hash_3a567ae4a7f393cb": "%#hash_7675607c1ece5b40"
+            }
+        ],
+        "#hash_29c1fb791fe8476": true
+    },
+    "#hash_7d515c1a8553ad44": {
+        "#id": "smoke_action_button_swap",
+        "#description": "&#options/smoke_action_button_swap_desc",
+        "#action": "+smoke",
+        "#lockedfavorite": true,
+        "#type": "GamepadSwapButton",
+        "#name": "&#options/use_tactical"
+    },
+    "#hash_7e33f54e7203c927": {
+        "#id": "text_chat_enabled",
+        "#description": "&#options/textchatenabled_desc",
+        "#labels": [
+            {
+                "#reference": "&#lua_menu/enabled"
+            },
+            {
+                "#reference": "&#hash_22dc59c1d75174c6"
+            },
+            {
+                "#reference": "&#lua_menu/disabled"
+            }
+        ],
+        "#profileoption": "textChatEnabled",
+        "#type": "Dropdown",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodezm": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#options/textchatenabled",
+        "#hash_f269089fabaf2490": true,
+        "#dependencies": [
+            {
+                "#lockcondition": "IS_EQUAL",
+                "#lockvalue": 3,
+                "#hash_3a567ae4a7f393cb": "%#hash_2108bf1efd8777c"
+            }
+        ]
+    },
+    "#hash_7e6271cc65c7eedb": {
+        "#id": "color_customization_squad_expander",
+        "#description": "&#options/color_customization_squad_expander_desc",
+        "#profileoption": "colorCustomizationYouIndex",
+        "#lockedfavorite": true,
+        "#type": "ParentlessExpander",
+        "#name": "&#options/color_customization_squad_expander"
+    },
+    "#hash_7e6ec999ee57df3f": {
+        "#id": "gameplay_hud",
+        "#description": "&#",
+        "#lockedfavorite": true,
+        "#hash_f2cdcae8e0ee8554": "#hash_62fef28ef5004504",
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#gamemodemp": true,
+                "#hash_71e7a4484d7ca002": true,
+                "#gamemodeingame": true,
+                "#type": "GAMEMODE"
+            }
+        ],
+        "#name": "&#hash_26710da44c0994ca"
+    },
+    "#hash_7eba41cb423a486b": {
+        "#id": "two_factor_authentification",
+        "#description": "&#",
+        "#type": "GenericButton",
+        "#buildconditions": [
+            {
+                "#gamemodebr": true,
+                "#gamemodemp": true,
+                "#gamemodeob": true,
+                "#gamemodesp": true,
+                "#gamemodezm": true,
+                "#type": "GAMEMODE"
+            },
+            {
+                "#hash_e0cb37b4be266931": true,
+                "#type": "SPLIT_SCREEN"
+            }
+        ],
+        "#name": "&#codaccount/tfa_heading"
+    },
+    "#hash_7f230359760daffd": {
+        "#id": "birthday_month",
+        "#description": "&#",
+        "#labels": [
+            {
+                "#reference": "&#hash_3ecc0a3114992a37"
+            },
+            {
+                "#reference": "&#hash_59bdf23b9fbdcd63"
+            },
+            {
+                "#reference": "&#hash_32d48419389bbfb9"
+            },
+            {
+                "#reference": "&#hash_6637d06628d48962"
+            },
+            {
+                "#reference": "&#hash_7b6ae3c0a5bd9165"
+            },
+            {
+                "#reference": "&#hash_6a5ae818e51f5f68"
+            },
+            {
+                "#reference": "&#hash_3bbe83235e142bab"
+            },
+            {
+                "#reference": "&#hash_3bc58b235e1a57f1"
+            },
+            {
+                "#reference": "&#hash_2b0f68ac9fed09ba"
+            },
+            {
+                "#reference": "&#hash_1563a1c6f227c4b6"
+            },
+            {
+                "#reference": "&#hash_3fa26fc88c610655"
+            },
+            {
+                "#reference": "&#hash_282b32d62211f7a1"
+            },
+            {
+                "#reference": "&#hash_6a386be463af5448"
+            }
+        ],
+        "#type": "Dropdown",
+        "#name": "&#"
+    },
+    "#hash_7f5573c95ed430f4": {
+        "#id": "birthday_year",
+        "#description": "&#",
+        "#type": "Dropdown",
+        "#name": "&#"
+    }
+}

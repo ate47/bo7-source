@@ -1,0 +1,192 @@
+#using scripts\common\vehicle;
+
+#namespace namespace_258c393149f2e837;
+
+// Namespace namespace_258c393149f2e837
+// Params 0, eflags: 0x1
+// Checksum 0xf6da2544, Offset: 0x80
+// Size: 0x2
+function autoexec main()
+{
+    
+}
+
+// Namespace namespace_258c393149f2e837
+// Params 1, eflags: 0x4
+// Checksum 0x83bec2c6, Offset: 0x8a
+// Size: 0x1a2
+function private init_radar_ping( data )
+{
+    vehicle = self;
+    
+    if ( data.enabled )
+    {
+        assert( isdefined( vehicle.mtx ) );
+        vehicle.mtx.radarping = spawnstruct();
+        vehicle.mtx.radarping.sweepradius = data.radarpingsweepradius;
+        vehicle.mtx.radarping.sweeptime = data.radarpingsweeptime;
+        vehicle.mtx.radarping.sweeptimedelay = data.var_2962c1bc94835e40;
+        vehicle.mtx.radarping.driveronly = data.var_28c00f2a5b9ec6e5;
+        
+        if ( isdefined( vehicle.occupants ) )
+        {
+            foreach ( occupant in vehicle.occupants )
+            {
+                function_5f1db248a7910ea6( vehicle, occupant );
+            }
+        }
+        
+        return;
+    }
+    
+    vehicle.mtx.radarping = undefined;
+}
+
+// Namespace namespace_258c393149f2e837
+// Params 2, eflags: 0x4
+// Checksum 0x44fc9a5c, Offset: 0x234
+// Size: 0xa7
+function private function_5f1db248a7910ea6( vehicle, player )
+{
+    if ( isdefined( vehicle.mtx.radarping ) && !player.var_64cf52105a48848b )
+    {
+        data = vehicle.mtx.radarping;
+        sweeptime = int( data.sweeptime * 1000 );
+        sweepdelay = int( data.sweeptimedelay * 1000 );
+        player.var_64cf52105a48848b = 1;
+    }
+}
+
+// Namespace namespace_258c393149f2e837
+// Params 2, eflags: 0x4
+// Checksum 0x3ca984d8, Offset: 0x2e3
+// Size: 0x48
+function private function_c47ba00ce1987f7e( vehicle, player )
+{
+    if ( isdefined( vehicle.mtx.radarping ) && player.var_64cf52105a48848b )
+    {
+        player.var_64cf52105a48848b = undefined;
+    }
+}
+
+// Namespace namespace_258c393149f2e837
+// Params 2
+// Checksum 0xb305630b, Offset: 0x333
+// Size: 0x1f
+function function_383a3536f3b70ef1( vehicle, player )
+{
+    function_5f1db248a7910ea6( vehicle, player );
+}
+
+// Namespace namespace_258c393149f2e837
+// Params 2
+// Checksum 0x9f6c9bbe, Offset: 0x35a
+// Size: 0x1f
+function function_76b0c3373e5be34f( vehicle, player )
+{
+    function_c47ba00ce1987f7e( vehicle, player );
+}
+
+// Namespace namespace_258c393149f2e837
+// Params 1
+// Checksum 0x9a680272, Offset: 0x381
+// Size: 0x85
+function function_c65ed663d13b2579( bundlename )
+{
+    vehicle = self;
+    
+    if ( !isdefined( bundlename ) )
+    {
+        bundlename = vehicle function_8722cd990f035753();
+        
+        if ( !isdefined( bundlename ) )
+        {
+            return;
+        }
+    }
+    
+    assert( isxhashasset( bundlename ) );
+    data = getscriptbundlefieldvalues( bundlename, [ #"radarping" ] );
+    
+    if ( isdefined( data ) )
+    {
+        if ( isdefined( data.radarping ) )
+        {
+            vehicle init_radar_ping( data.radarping );
+        }
+    }
+}
+
+// Namespace namespace_258c393149f2e837
+// Params 0
+// Checksum 0x55b2dec6, Offset: 0x40e
+// Size: 0x7e
+function function_6f973aa5086dcf35()
+{
+    vehicle = self;
+    bundlename = vehicle function_8722cd990f035753();
+    
+    if ( !isdefined( bundlename ) )
+    {
+        vehicle.var_429d5e520209434f = undefined;
+        return;
+    }
+    
+    assert( isxhashasset( bundlename ) );
+    bundledata = getscriptbundlefieldvalues( bundlename, [ #"collision" ] );
+    vehicle.var_429d5e520209434f = bundledata.collision;
+    vehicle function_10a8a9bbc1ad4a59();
+}
+
+// Namespace namespace_258c393149f2e837
+// Params 1, eflags: 0x4
+// Checksum 0xbcdeae1c, Offset: 0x494
+// Size: 0x63
+function private function_615b562c48bb83f8( newmaxhealth )
+{
+    if ( newmaxhealth == self.maxhealth )
+    {
+        return;
+    }
+    
+    currenthealthpercentage = self.health / self.maxhealth;
+    self.maxhealth = newmaxhealth;
+    self.health = int( ceil( currenthealthpercentage * self.maxhealth ) );
+}
+
+// Namespace namespace_258c393149f2e837
+// Params 0, eflags: 0x4
+// Checksum 0x86bbb761, Offset: 0x4ff
+// Size: 0xe2
+function private function_10a8a9bbc1ad4a59()
+{
+    var_e2135a579d15e713 = self.var_429d5e520209434f;
+    newmaxhealth = var_e2135a579d15e713.maxhealth;
+    
+    if ( newmaxhealth && newmaxhealth != 0 )
+    {
+        function_615b562c48bb83f8( newmaxhealth );
+        return;
+    }
+    
+    if ( !isdefined( var_e2135a579d15e713 ) )
+    {
+        bundledata = undefined;
+        ref = vehicle::get_ref();
+        
+        if ( vehicle::has_data( ref ) )
+        {
+            bundledata = vehicle::get_data( ref );
+        }
+        
+        if ( bundledata.damage.health && self.maxhealth != bundledata.damage.health )
+        {
+            function_615b562c48bb83f8( bundledata.damage.health );
+        }
+        
+        return;
+    }
+    
+    assert( newmaxhealth == 0 );
+}
+

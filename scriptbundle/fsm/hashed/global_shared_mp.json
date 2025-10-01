@@ -1,0 +1,806 @@
+{
+    "#hash_3bb9382fe5f9957c": {
+        "#graph": {
+            "#connection_list": [
+                {
+                    "#hash_1f7d4774da606629": "08KG&",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_HasTargetVisibility",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_HasTargetVisibility"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "<<Q{%",
+                    "#hash_494d280d4addea9d": ".o>!=",
+                    "#name": "corner_approach_to_corner_to_combat"
+                },
+                {
+                    "#hash_1f7d4774da606629": "T8vLd",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_HasTargetVisibility",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_HasTargetVisibility"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "<<Q{%",
+                    "#hash_494d280d4addea9d": "Cf9Uv",
+                    "#name": "corner_strafe_only_to_corner_to_combat"
+                },
+                {
+                    "#hash_1f7d4774da606629": "DFl5W",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_HasTargetVisibility",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_HasTargetVisibility"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "<<Q{%",
+                    "#hash_494d280d4addea9d": "*/T0]",
+                    "#name": "corner_rounding_1_to_corner_to_combat"
+                },
+                {
+                    "#hash_1f7d4774da606629": ">Q-zg",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_HasTargetVisibility",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_HasTargetVisibility"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "<<Q{%",
+                    "#hash_494d280d4addea9d": "b]B1L",
+                    "#name": "corner_rounding_2_to_corner_to_combat"
+                },
+                {
+                    "#hash_1f7d4774da606629": "8)-dl",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_HasTargetVisibility",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_HasTargetVisibility"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "<<Q{%",
+                    "#hash_494d280d4addea9d": "?A2w}",
+                    "#name": "corner_holding_to_corner_to_combat"
+                },
+                {
+                    "#hash_1f7d4774da606629": "]-<79",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_HasTargetVisibility",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_HasTargetVisibility"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "<<Q{%",
+                    "#hash_494d280d4addea9d": "xq5&Q",
+                    "#name": "corner_asm_to_corner_to_combat"
+                },
+                {
+                    "#hash_1f7d4774da606629": "lrw{z",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_FindCornerCheckPos",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_FindCornerCheckPos"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": ".o>!=",
+                    "#hash_494d280d4addea9d": "=iL^Y",
+                    "#name": "move_default_to_corner_approach"
+                },
+                {
+                    "#hash_1f7d4774da606629": "(nMya",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_ShouldStartApproachTraversal",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_ShouldStartApproachTraversal"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "V--/j",
+                    "#hash_494d280d4addea9d": "=iL^Y",
+                    "#name": "move_default_to_traversal_approach"
+                },
+                {
+                    "#hash_1f7d4774da606629": "1InzT",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_ShouldStartApproachTraversal",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_ShouldStartApproachTraversal"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "V--/j",
+                    "#hash_494d280d4addea9d": "Z0@>a",
+                    "#name": "strafe_engage_then_turn_to_traversal_approach"
+                },
+                {
+                    "#hash_1f7d4774da606629": "?3Fcr",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_FindCornerCheckPos",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_FindCornerCheckPos"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": ".o>!=",
+                    "#hash_494d280d4addea9d": "!?JHg",
+                    "#name": "corner_slowing_to_corner_approach"
+                },
+                {
+                    "#hash_1f7d4774da606629": "K6zPD",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_AbandonCornerCheck",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_AbandonCornerCheck"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": ".o>!=",
+                    "#name": "corner_approach_to_move_default"
+                },
+                {
+                    "#hash_1f7d4774da606629": "q1eAq",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_HasTargetVisibility",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_HasTargetVisibility"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "<<Q{%",
+                    "#hash_494d280d4addea9d": "5Q..V",
+                    "#name": "corner_aim_only_to_corner_to_combat"
+                },
+                {
+                    "#hash_1f7d4774da606629": "DB)FD",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_AbandonCornerCheck",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_AbandonCornerCheck"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "5Q..V",
+                    "#name": "corner_aim_only_to_move_default"
+                },
+                {
+                    "#hash_1f7d4774da606629": "qs*S}",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_AbandonCornerCheck",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_AbandonCornerCheck"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "Cf9Uv",
+                    "#name": "corner_strafe_only_to_move_default"
+                },
+                {
+                    "#hash_1f7d4774da606629": "[VW]2",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_AbandonCornerCheck",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_AbandonCornerCheck"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "*/T0]",
+                    "#name": "corner_rounding_1_to_move_default"
+                },
+                {
+                    "#hash_1f7d4774da606629": "^N-Q!",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_AbandonCornerCheck",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_AbandonCornerCheck"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "b]B1L",
+                    "#name": "corner_rounding_2_to_move_default"
+                },
+                {
+                    "#hash_1f7d4774da606629": "7/Ers",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_AbandonCornerCheck",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_AbandonCornerCheck"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "?A2w}",
+                    "#name": "corner_holding_to_move_default"
+                },
+                {
+                    "#hash_1f7d4774da606629": "n#D!A",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_AbandonApproachTraversal",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_AbandonApproachTraversal"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "V--/j",
+                    "#name": "traversal_approach_to_move_default"
+                },
+                {
+                    "#hash_1f7d4774da606629": "k]]52",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#m_eventname": "strafe_finished",
+                                "#typename": "AITransition_FSMEvent",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AITransition_FSMEvent"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "Q)?0]",
+                    "#name": "strafe_prepare_transition_to_move_default"
+                },
+                {
+                    "#hash_1f7d4774da606629": "jQG{B",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_ShouldStartApproachTraversal",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_ShouldStartApproachTraversal"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "V--/j",
+                    "#hash_494d280d4addea9d": "aYv1{",
+                    "#name": "strafe_moving_to_exposed_to_traversal_approach"
+                },
+                {
+                    "#hash_1f7d4774da606629": "l93EX",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AIMoveTransition_ShouldStartApproachTraversal",
+                                "#m_conditions": []
+                            },
+                            "#variant_type": "Types_AIMoveTransition_ShouldStartApproachTraversal"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "V--/j",
+                    "#hash_494d280d4addea9d": "94)S+",
+                    "#name": "strafe_near_target_to_traversal_approach"
+                }
+            ],
+            "#name": "",
+            "#hash_b49520f8124eb629": [
+                {
+                    "#variant_object": {
+                        "#typename": "AIActionFSM"
+                    },
+                    "#variant_type": "Types_AIActionFSM"
+                }
+            ],
+            "#node_list": [
+                {
+                    "#variant_object": {
+                        "#yoffset": -391.77756,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "move_default",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Default",
+                                    "#name": "",
+                                    "#createid": "lrw{z",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Default"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Default",
+                                    "#name": "",
+                                    "#createid": "(nMya",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Default"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Default",
+                                    "#name": "",
+                                    "#createid": "8HpL7",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Default"
+                            }
+                        ],
+                        "#xoffset": -316.78384,
+                        "#createid": "=iL^Y"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -352.9877,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "corner_approach",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_Approach",
+                                    "#name": "",
+                                    "#createid": "08KG&",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_Approach"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_Approach",
+                                    "#name": "",
+                                    "#createid": "K6zPD",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_Approach"
+                            }
+                        ],
+                        "#xoffset": -122.83455,
+                        "#createid": ".o>!="
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -226.77579,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "corner_aim_only",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_AimOnly",
+                                    "#name": "",
+                                    "#createid": "q1eAq",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_AimOnly"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Default",
+                                    "#name": "",
+                                    "#createid": "DB)FD",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Default"
+                            }
+                        ],
+                        "#xoffset": 151.28044,
+                        "#createid": "5Q..V"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -152.57344,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "corner_strafe_only",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_StrafeOnly",
+                                    "#name": "",
+                                    "#createid": "T8vLd",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_StrafeOnly"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Default",
+                                    "#name": "",
+                                    "#createid": "qs*S}",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Default"
+                            }
+                        ],
+                        "#xoffset": 157.09892,
+                        "#createid": "Cf9Uv"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -316.13733,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "corner_slowing",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_Slowing",
+                                    "#name": "",
+                                    "#createid": "?3Fcr",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_Slowing"
+                            }
+                        ],
+                        "#xoffset": 22.627417,
+                        "#createid": "!?JHg"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -190.80075,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "corner_rounding_1",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_Rounding_1",
+                                    "#name": "",
+                                    "#createid": "DFl5W",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_Rounding_1"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Default",
+                                    "#name": "",
+                                    "#createid": "[VW]2",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Default"
+                            }
+                        ],
+                        "#xoffset": 457.32095,
+                        "#createid": "*/T0]"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -135.05362,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "corner_rounding_2",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_Rounding_2",
+                                    "#name": "",
+                                    "#createid": ">Q-zg",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_Rounding_2"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Default",
+                                    "#name": "",
+                                    "#createid": "^N-Q!",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Default"
+                            }
+                        ],
+                        "#xoffset": 618.765,
+                        "#createid": "b]B1L"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -236.73386,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "corner_holding",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_Holding",
+                                    "#name": "",
+                                    "#createid": "8)-dl",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_Holding"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Default",
+                                    "#name": "",
+                                    "#createid": "7/Ers",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Default"
+                            }
+                        ],
+                        "#xoffset": 313.3659,
+                        "#createid": "?A2w}"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -295.2468,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "corner_asm",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_ASM",
+                                    "#name": "",
+                                    "#createid": "]-<79",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_ASM"
+                            }
+                        ],
+                        "#xoffset": 137.77075,
+                        "#createid": "xq5&Q"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -23.955725,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "corner_to_combat",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Corner_ToCombat",
+                                    "#name": "",
+                                    "#createid": ".:(zR",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Corner_ToCombat"
+                            }
+                        ],
+                        "#xoffset": 449.97897,
+                        "#createid": "<<Q{%"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": 320.99738,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "traversal_approach",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Traversal_Approach",
+                                    "#name": "",
+                                    "#createid": "n#D!A",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Traversal_Approach"
+                            }
+                        ],
+                        "#xoffset": -84.49314,
+                        "#createid": "V--/j"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -123.510666,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "strafe_engage_then_turn",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Strafe_EngageThenTurn",
+                                    "#name": "",
+                                    "#createid": "1InzT",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Strafe_EngageThenTurn"
+                            }
+                        ],
+                        "#xoffset": -90.631905,
+                        "#createid": "Z0@>a"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": 4.326571,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "strafe_short_path",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Strafe_ShortPath",
+                                    "#name": "",
+                                    "#createid": "KO#w4",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Strafe_ShortPath"
+                            }
+                        ],
+                        "#xoffset": -90.56414,
+                        "#createid": "FN.qP"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -58.111546,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "strafe_approach",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Strafe_Approach",
+                                    "#name": "",
+                                    "#createid": "lLAQ?",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Strafe_Approach"
+                            }
+                        ],
+                        "#xoffset": -96.62478,
+                        "#createid": "a7*.C"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": 39.034336,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "strafe_prepare_transition",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Strafe_PrepareTransition",
+                                    "#name": "",
+                                    "#createid": "k]]52",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Strafe_PrepareTransition"
+                            }
+                        ],
+                        "#xoffset": 133.95639,
+                        "#createid": "Q)?0]"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": 85.46783,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "strafe_forced",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Strafe_Forced",
+                                    "#name": "",
+                                    "#createid": "kx]@(",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Strafe_Forced"
+                            }
+                        ],
+                        "#xoffset": -78.21627,
+                        "#createid": "lnJ:0"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -518.5945,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "animscripted",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Animscripted",
+                                    "#name": "",
+                                    "#createid": "E>go]",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Animscripted"
+                            }
+                        ],
+                        "#xoffset": -144.09195,
+                        "#createid": "8.pW-"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": 144.32596,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "strafe_moving_to_exposed",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Strafe_MovingToExposed",
+                                    "#name": "",
+                                    "#createid": "jQG{B",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Strafe_MovingToExposed"
+                            }
+                        ],
+                        "#xoffset": 147.93929,
+                        "#createid": "aYv1{"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": 243.74033,
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "strafe_near_target",
+                        "#hash_463bc5312b4336f4": [
+                            {
+                                "#variant_object": {
+                                    "#typename": "AIMoveState_Strafe_NearTarget",
+                                    "#name": "",
+                                    "#createid": "l93EX",
+                                    "#m_conditions": []
+                                },
+                                "#variant_type": "Types_AIMoveState_Strafe_NearTarget"
+                            }
+                        ],
+                        "#xoffset": 93.99051,
+                        "#createid": "94)S+"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                }
+            ]
+        }
+    }
+}

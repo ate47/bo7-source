@@ -1,0 +1,206 @@
+#using script_26f456dbdf9aa216;
+#using scripts\anim\dialogue;
+
+#namespace clear_lkp_two_members;
+
+// Namespace clear_lkp_two_members
+// Params 1
+// Checksum 0x36a7ed0e, Offset: 0x4a2
+// Size: 0xb6
+function getfunction( funcid )
+{
+    switch ( funcid )
+    {
+        case #"hash_f4ef887f81fa60d9":
+            return &function_389783bac1e5cfce;
+        case #"hash_47b3d8e9cd6ccd4a":
+            return &function_323d874e6bdc218b;
+        case #"hash_871307852fe531bf":
+            return &function_f2b49cf03a71061e;
+        case #"hash_4bc3c13aae411fc":
+            return &function_77665c010b74bf65;
+        case #"hash_bf509799ad09e3fb":
+            return &function_b4c8cc8d02ad0b95;
+        case #"hash_cfc7861edb6bdc95":
+            return &function_dabb6663ba0a5177;
+        case #"hash_bb5cf3d8738e8519":
+            return &playdialog;
+        case #"hash_80804c8d4d60b774":
+            return &namespace_f9e15975f25db152::function_f5f982ce9e32c830;
+    }
+    
+    assertmsg( "<dev string:x24>" + funcid );
+}
+
+// Namespace clear_lkp_two_members
+// Params 1
+// Checksum 0xf183dfc4, Offset: 0x560
+// Size: 0x21
+function function_b4c8cc8d02ad0b95( interactionid )
+{
+    self.battlechatterallowed = 0;
+    self.var_21435b7177552b48 = 1;
+}
+
+// Namespace clear_lkp_two_members
+// Params 1
+// Checksum 0xebe5066a, Offset: 0x589
+// Size: 0x36
+function function_dabb6663ba0a5177( interactionid )
+{
+    self.battlechatterallowed = 1;
+    self.balwayscoverexposed = 1;
+    self.var_21435b7177552b48 = 0;
+    self.lastenemysightpos = undefined;
+}
+
+// Namespace clear_lkp_two_members
+// Params 1
+// Checksum 0x206f7b8f, Offset: 0x5c7
+// Size: 0x1b
+function function_389783bac1e5cfce( statename )
+{
+    thread function_79d562486b0c13e3( statename, randomfloat( 2 ) );
+}
+
+// Namespace clear_lkp_two_members
+// Params 1
+// Checksum 0xa3fe627, Offset: 0x5ea
+// Size: 0x16
+function function_323d874e6bdc218b( statename )
+{
+    self.balwayscoverexposed = 0;
+}
+
+// Namespace clear_lkp_two_members
+// Params 1
+// Checksum 0x8b89bcfe, Offset: 0x608
+// Size: 0x29
+function function_f2b49cf03a71061e( statename )
+{
+    assert( isdefined( self.stealth ) );
+    self.var_39f0918bb658b9f7 = 1;
+}
+
+// Namespace clear_lkp_two_members
+// Params 1
+// Checksum 0x7bef9bdd, Offset: 0x639
+// Size: 0x28
+function function_77665c010b74bf65( statename )
+{
+    assert( isdefined( self.stealth ) );
+    self.var_39f0918bb658b9f7 = 0;
+}
+
+// Namespace clear_lkp_two_members
+// Params 2
+// Checksum 0xb8529753, Offset: 0x669
+// Size: 0x3e
+function function_79d562486b0c13e3( statename, t )
+{
+    self endon( "death" );
+    self endon( "lkp_user_removed" );
+    self endon( statename + "_bseq_finished" );
+    wait t;
+    self.balwayscoverexposed = 1;
+}
+
+// Namespace clear_lkp_two_members
+// Params 2
+// Checksum 0x3c665128, Offset: 0x6af
+// Size: 0x1b5
+function playdialog( statename, params )
+{
+    assert( params.size == 1 );
+    dialog = params[ 0 ];
+    
+    if ( dialog == "hold_fire_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_hold_fire_order" );
+        return;
+    }
+    
+    if ( dialog == "where_is_he_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_target_location_ask" );
+        return;
+    }
+    
+    if ( dialog == "he_was_just_here_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_target_lost_generic" );
+        return;
+    }
+    
+    if ( dialog == "3_1_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_3_1_generic" );
+        return;
+    }
+    
+    if ( dialog == "move_in_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_check_last_known_order" );
+        return;
+    }
+    
+    if ( dialog == "hold_position_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_hold_position_order" );
+        return;
+    }
+    
+    if ( dialog == "checkin_it_out_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_checking_last_known_reply" );
+        return;
+    }
+    
+    if ( dialog == "area_is_clear_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_area_clear_inform" );
+        return;
+    }
+    
+    if ( dialog == "he_is_gone_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_enemy_gone_inform" );
+        return;
+    }
+    
+    if ( dialog == "he_is_close_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_target_near_inform" );
+        return;
+    }
+    
+    if ( dialog == "split_up_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_start_search_order" );
+        return;
+    }
+    
+    if ( dialog == "cover_me_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_order_ally_coverme" );
+        return;
+    }
+    
+    if ( dialog == "covering_fire_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_inform_self_covering_ally" );
+        return;
+    }
+    
+    if ( dialog == "harris_is_moving_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_inform_self_covering_ally_harris" );
+        return;
+    }
+    
+    if ( dialog == "i_will_cover_you_dialog" )
+    {
+        dialogue::say( "dx_cbc_usm1_inform_self_covering_you" );
+    }
+}
+

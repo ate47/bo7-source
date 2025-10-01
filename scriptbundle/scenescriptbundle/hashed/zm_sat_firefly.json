@@ -1,0 +1,1265 @@
+{
+    "#hash_137d3cf97027714b": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#name": "Actor 1",
+                    "#aisubclass": "zombie_mimic_emp",
+                    "#aitypename": "aitype_scene_stub",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_mimic_01_mimic@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_scene",
+                    "#name": "Actor 2",
+                    "#aisubclass": "zombie_base",
+                    "#aitypename": "sat_spawner_zombie_base_zm",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_mimic_01_zmb1@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_scene",
+                    "#name": "Actor 3",
+                    "#aisubclass": "zombie_base",
+                    "#aitypename": "sat_spawner_zombie_base_zm",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_mimic_01_zmb2@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_scene",
+                    "#name": "Actor 4",
+                    "#aisubclass": "zombie_base",
+                    "#aitypename": "sat_spawner_zombie_base_zm",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_mimic_01_zmb3@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "fb_c_t10_usa_pl_bravo_infiltration",
+                    "#aligntarget": "Actor 1",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#aligntargettag": "tag_tongue",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_423dc3e955f2bb2e": true,
+                            "#cameraanimation": "c_cin_sat_vig_player_dth_mimic_01_cam",
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_mimic_01_player@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#disablehud": true,
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": false
+    },
+    "#hash_14c82971f20248f4": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#strictmatching": true,
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#takedamage": true,
+                    "#firstframe": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_livingworld",
+                    "#name": "Actor 1",
+                    "#aisubclass": "zombie_base_waitress",
+                    "#aitypename": "sat_spawner_zombie_base_firefly_waitress",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deathanim": {
+                                "type": "anim",
+                                "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_idle_dth_01@sbundle"
+                            },
+                            "#hash_53f05d59f875d63d": -2,
+                            "#takedamage": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_idle_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#takedamage": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_idle_dth_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#hash_53f05d59f875d63d": -1,
+                            "#takedamage": true,
+                            "#nospawn": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_to_idle_f_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "looping_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "death"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "action_forward"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_2c649af7dda90d0f": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#name": "Prop 1",
+                    "#aitypename": "sat_spawner_zombie_shade_zm",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_shade_01_shade01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#name": "Prop 5",
+                    "#aitypename": "sat_spawner_zombie_shade_zm",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_shade_01_shade05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#name": "Prop 4",
+                    "#aitypename": "sat_spawner_zombie_shade_zm",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_shade_01_shade04@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#name": "Prop 3",
+                    "#aitypename": "sat_spawner_zombie_shade_zm",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_shade_01_shade03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#name": "Prop 2",
+                    "#aitypename": "sat_spawner_zombie_shade_zm",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_shade_01_shade02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "fb_c_t10_usa_pl_bravo_infiltration",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameraanimation": "c_cin_sat_zm_vig_player_dth_shade_01_cam",
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [
+                                        "#": {
+                                            "#animation": {
+                                                "type": "anim",
+                                                "name": "ch_cin_sat_zm_vig_player_dth_shade_01_player_fem@sbundle"
+                                            },
+                                            "#alternatetype": "Female"
+                                        }
+                                    ],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_shade_01_player@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_4676358ca8b96453": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "c_sat_zmb_callisto",
+                    "#deletetype": "DeleteSpawned",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_callisto@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteSpawned",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_scene",
+                    "#name": "Actor 1",
+                    "#aitypename": "sat_spawner_zombie_base_zm_firefly",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_callisto_zmb01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteSpawned",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_scene",
+                    "#name": "Actor 2",
+                    "#aitypename": "sat_spawner_zombie_base_zm_firefly",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_callisto_zmb02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteSpawned",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_scene",
+                    "#name": "Actor 3",
+                    "#aitypename": "sat_spawner_zombie_base_zm_firefly",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_callisto_zmb03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteSpawned",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_scene",
+                    "#name": "Actor 4",
+                    "#aitypename": "sat_spawner_zombie_base_zm_firefly",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_callisto_zmb04@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#charactername": "character_t10_gbr_pl_stone_sable",
+                    "#name": "Player 2",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameraanimation": "c_cin_sat_zm_vig_player_dth_callisto",
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [
+                                        "#": {
+                                            "#animation": {
+                                                "type": "anim",
+                                                "name": "ch_cin_sat_zm_vig_player_dth_callisto_player_fem@sbundle"
+                                            },
+                                            "#alternatetype": "Female"
+                                        }
+                                    ],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_sat_zm_vig_player_dth_callisto_player@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#aligntarget": "scripted_node",
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_504ea28c9a0c7a40": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#strictmatching": true,
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#takedamage": true,
+                    "#firstframe": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_livingworld",
+                    "#name": "Actor 1",
+                    "#aisubclass": "zombie_base_mechanic",
+                    "#aitypename": "sat_spawner_zombie_base_firefly_mechanic",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deathanim": {
+                                "type": "anim",
+                                "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_idle_dth_01@sbundle"
+                            },
+                            "#hash_53f05d59f875d63d": -2,
+                            "#takedamage": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_idle_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#takedamage": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_idle_dth_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#hash_53f05d59f875d63d": -1,
+                            "#takedamage": true,
+                            "#nospawn": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_to_idle_f_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "looping_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "death"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "action_forward"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_5276393e7e441ed2": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#name": "Actor 1",
+                    "#aisubclass": "zombie_base",
+                    "#aitypename": "sat_spawner_zombie_base_zm",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_05@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_07@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_08@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_09@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_10@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_11@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_12@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_13@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_14@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_15@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_16@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_17@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t10_zm_zombie_dance_18@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_0"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_1"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_2"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_3"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_4"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_5"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_6"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_7"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_8"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_9"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_10"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_11"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#aligntarget": "dancing_zombie_12",
+                    "#name": "shot_12"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_13"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_14"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_15"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_16"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_5e43403485adda66": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#strictmatching": true,
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#takedamage": true,
+                    "#firstframe": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_livingworld",
+                    "#name": "Actor 1",
+                    "#aisubclass": "zombie_base_trucker",
+                    "#aitypename": "sat_spawner_zombie_base_firefly_trucker",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deathanim": {
+                                "type": "anim",
+                                "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_idle_dth_01@sbundle"
+                            },
+                            "#hash_53f05d59f875d63d": -2,
+                            "#takedamage": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_idle_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#takedamage": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_idle_dth_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#hash_53f05d59f875d63d": -1,
+                            "#takedamage": true,
+                            "#nospawn": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_slumped_over_zmb_to_idle_f_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "looping_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "death"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "action_forward"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_67dbe8c0277ca6ab": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "t10_zm_mystery_box_plinth_bunny_fxanim",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_fxanim_zm_bunny_bowling@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_fxanim_zm_bunny_bowling_show@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "t10_zm_bowling_ball_green_fxanim",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_fxanim_zm_bunny_bowling_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#autocleanup": false,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#aligntarget": "tag_align_bolwing_openning_scene_bunny",
+                    "#name": "shot_bunny"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#aligntarget": "tag_align_bolwing_openning_scene",
+                    "#name": "shot_balls"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#aligntarget": "tag_align_bolwing_ending_scene_bunny",
+                    "#name": "shot_ending"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    }
+}

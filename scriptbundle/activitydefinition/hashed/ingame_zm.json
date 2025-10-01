@@ -1,0 +1,701 @@
+{
+    "#hash_462f43850105efe0": {
+        "#hash_310e111620b410d7": {
+            "#hash_afb82823e7216cae": [
+                {
+                    "#variant_object": {
+                        "#hash_69c0f72c44c30bba": true
+                    },
+                    "#variant_type": "Types_ActivityDoesNotUseThis"
+                }
+            ],
+            "#hash_c94cf930280d0a0f": true,
+            "#hash_aa9eae974909a0d2": [],
+            "#hash_67603b2aa73d722f": [],
+            "#hash_34859f69d60856fc": {
+                "#hash_a6cf6e2e0cc37ee5": 60,
+                "#hash_bd83beebb26f08d6": "ActivityBegin",
+                "#hash_5ba973ff6b5ff715": "ActivityEnd",
+                "#hash_45eaa8fc412d7398": []
+            },
+            "#playerbroadcasts": [
+                {
+                    "#variant_object": {
+                        "#broadcasttype": "StringReference",
+                        "#broadcastdata": [
+                            {
+                                "#variant_object": {
+                                    "#dynamicdata": [],
+                                    "#stringreference": "EXFIL_BOARD_VEHICLE_TITLE",
+                                    "#stylesettings": [
+                                        {
+                                            "#variant_object": {
+                                                "#hash_cb68fdf3172a5bb6": "Description",
+                                                "#broadcaststyle": "StringMessagingUtil_MinimapWidget"
+                                            },
+                                            "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_MinimapWidget"
+                                        }
+                                    ]
+                                },
+                                "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                            }
+                        ],
+                        "#activationmoment": [
+                            {
+                                "#variant_object": {
+                                    "#activationmoment": "ActivationName",
+                                    "#activationname": "exfil_board_vehicle"
+                                },
+                                "#variant_type": "Types_ActivationName"
+                            }
+                        ],
+                        "#destination": [
+                            {
+                                "#variant_object": {
+                                    "#broadcastdestination": "PlayerList"
+                                },
+                                "#variant_type": "Types_Individual"
+                            }
+                        ],
+                        "#deactivationmoment": [],
+                        "#hash_8efdce03c52f7421": true,
+                        "#priority": "Highest"
+                    },
+                    "#variant_type": "Types_ActivityBroadcastType_StringReference"
+                },
+                {
+                    "#variant_object": {
+                        "#broadcasttype": "StringReference",
+                        "#broadcastdata": [
+                            {
+                                "#variant_object": {
+                                    "#dynamicdata": [
+                                        {
+                                            "#variant_object": {
+                                                "#uniquename": "exfil_timer",
+                                                "#format": "XX_YY_Clock",
+                                                "#defaultvalue": {
+                                                    "#defaultstartingvalue": 0,
+                                                    "#defaultfinalvalue": 100
+                                                },
+                                                "#dynamicdatatype": "ProgressTracker"
+                                            },
+                                            "#variant_type": "Types_BroadcastDynamicData_ProgressTracker"
+                                        }
+                                    ],
+                                    "#stringreference": "EXFIL_TIMER_TRACKER",
+                                    "#stylesettings": [
+                                        {
+                                            "#variant_object": {
+                                                "#hash_cb68fdf3172a5bb6": "Description",
+                                                "#broadcaststyle": "StringMessagingUtil_MinimapWidget"
+                                            },
+                                            "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_MinimapWidget"
+                                        }
+                                    ]
+                                },
+                                "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                            }
+                        ],
+                        "#activationmoment": [
+                            {
+                                "#variant_object": {
+                                    "#activationmoment": "ActivationName",
+                                    "#activationname": "exfil_timer"
+                                },
+                                "#variant_type": "Types_ActivationName"
+                            }
+                        ],
+                        "#destination": [
+                            {
+                                "#variant_object": {
+                                    "#broadcastdestination": "PlayerList"
+                                },
+                                "#variant_type": "Types_Group"
+                            }
+                        ],
+                        "#deactivationmoment": [],
+                        "#priority": "Highest"
+                    },
+                    "#variant_type": "Types_ActivityBroadcastType_StringReference"
+                },
+                {
+                    "#variant_object": {
+                        "#broadcasttype": "StringReference",
+                        "#broadcastdata": [
+                            {
+                                "#variant_object": {
+                                    "#dynamicdata": [
+                                        {
+                                            "#variant_object": {
+                                                "#uniquename": "exfil_kills_remaining",
+                                                "#format": "X_Remaining",
+                                                "#defaultvalue": {
+                                                    "#defaultstartingvalue": 0,
+                                                    "#defaultfinalvalue": 100
+                                                },
+                                                "#dynamicdatatype": "ProgressTracker"
+                                            },
+                                            "#variant_type": "Types_BroadcastDynamicData_ProgressTracker"
+                                        }
+                                    ],
+                                    "#stringreference": "EXFIL_KILLS_REMAINING_TRACKER",
+                                    "#stylesettings": [
+                                        {
+                                            "#variant_object": {
+                                                "#hash_cb68fdf3172a5bb6": "Description",
+                                                "#broadcaststyle": "StringMessagingUtil_MinimapWidget"
+                                            },
+                                            "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_MinimapWidget"
+                                        }
+                                    ]
+                                },
+                                "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                            }
+                        ],
+                        "#activationmoment": [
+                            {
+                                "#variant_object": {
+                                    "#activationmoment": "ActivationName",
+                                    "#activationname": "exfil_kills_remaining"
+                                },
+                                "#variant_type": "Types_ActivationName"
+                            }
+                        ],
+                        "#destination": [
+                            {
+                                "#variant_object": {
+                                    "#broadcastdestination": "PlayerList"
+                                },
+                                "#variant_type": "Types_Group"
+                            }
+                        ],
+                        "#deactivationmoment": [],
+                        "#priority": "High"
+                    },
+                    "#variant_type": "Types_ActivityBroadcastType_StringReference"
+                },
+                {
+                    "#variant_object": {
+                        "#broadcasttype": "StringReference",
+                        "#broadcastdata": [
+                            {
+                                "#variant_object": {
+                                    "#dynamicdata": [],
+                                    "#stringreference": "EXFIL_GET_TO_VEHICLE_DESCRIPTION",
+                                    "#stylesettings": [
+                                        {
+                                            "#variant_object": {
+                                                "#hash_cb68fdf3172a5bb6": "Description",
+                                                "#broadcaststyle": "StringMessagingUtil_MinimapWidget"
+                                            },
+                                            "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_MinimapWidget"
+                                        }
+                                    ]
+                                },
+                                "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                            }
+                        ],
+                        "#activationmoment": [
+                            {
+                                "#variant_object": {
+                                    "#activationmoment": "ActivationName",
+                                    "#activationname": "exfil_get_to_vehicle"
+                                },
+                                "#variant_type": "Types_ActivationName"
+                            }
+                        ],
+                        "#destination": [
+                            {
+                                "#variant_object": {
+                                    "#broadcastdestination": "PlayerList"
+                                },
+                                "#variant_type": "Types_Individual"
+                            }
+                        ],
+                        "#deactivationmoment": [],
+                        "#hash_8efdce03c52f7421": true,
+                        "#priority": "Highest"
+                    },
+                    "#variant_type": "Types_ActivityBroadcastType_StringReference"
+                }
+            ],
+            "#hash_e379ec45c491c3b7": [],
+            "#errorspresent": true,
+            "#hibernationsettings": {
+                "#hibernationisenabled": true,
+                "#hash_1b70ca8d29ca863c": []
+            },
+            "#hash_ad6bc014d4703a82": {
+                "#hash_f3260707d02e2cd0": "GSCScript",
+                "#hash_cfc799fec790bd22": "ActivityEnd",
+                "#objectivemarkerscriptable": "default_activity_objective_marker_scriptable",
+                "#objectivemarkerscriptbundle": "%#hash_328d014ce13025cc",
+                "#hash_45c7ee998620b9b9": [],
+                "#hash_4bdbfe745477ce09": "ActivityBegin"
+            },
+            "#activityrewardcaches": [],
+            "#hash_4e346b4523fd5fb7": {
+                "#hash_aa9eae974909a0d2": []
+            },
+            "#hash_b6b515a8f1cc711c": [
+                {
+                    "#variant_object": {
+                        "#hash_838c9917a1723217": true,
+                        "#hash_a6cf6e2e0cc37ee5": 60,
+                        "#hash_bd83beebb26f08d6": [
+                            {
+                                "#variant_object": {
+                                    "#activitymoment": "ActivityBegin"
+                                },
+                                "#variant_type": "Types_ActivityMoment_ActivityBegin"
+                            }
+                        ],
+                        "#hash_5ba973ff6b5ff715": [
+                            {
+                                "#variant_object": {
+                                    "#activitymoment": "InstanceEnd"
+                                },
+                                "#variant_type": "Types_ActivityMoment_InstanceEnd"
+                            }
+                        ],
+                        "#hash_bf0099445a88df09": [
+                            {
+                                "#variant_object": {
+                                    "#ignoreheightvalue": false,
+                                    "#hash_b41d7a0bdbf73429": {
+                                        "#customdistance": 2500,
+                                        "#distancecategory": "Custom"
+                                    },
+                                    "#usecustomdistance": true
+                                },
+                                "#variant_type": "Types_SphereAroundActivityCenter"
+                            }
+                        ]
+                    },
+                    "#variant_type": "Types_StopSpawningAmbientAI"
+                }
+            ],
+            "#hash_d02a2bf2aec2c5be": [],
+            "#hash_390a857a39f72e01": {
+                "#hash_7089b64c87d90b69": {},
+                "#hash_84e9829da15875c3": []
+            },
+            "#hash_fb4dd0352a7b7099": {
+                "#hash_4f3c325e30518b69": {
+                    "#hash_284b29f91b257f2d": [],
+                    "#hash_f1ed5c4b2cbcfb6d": []
+                },
+                "#playerjoinsettings": {
+                    "#hash_dbf2d0633621105e": {
+                        "#hash_ffe003e0e00b3795": [],
+                        "#hash_a992a28c8f440e25": {},
+                        "#proximityjoinsettings": []
+                    },
+                    "#maxplayercount": 16,
+                    "#hash_c781cf9442a118d5": true,
+                    "#minplayercount": 1
+                },
+                "#playerfocussettings": {
+                    "#hash_c01a5323cc5fc8c0": 10
+                },
+                "#hash_88c627d953f82441": {
+                    "#hash_75ecd3e9f8da3e2e": {
+                        "#hash_79b007c16dba1689": false,
+                        "#broadcastenabled": true,
+                        "#isenabled": false
+                    },
+                    "#hash_f393956a4ef608b5": {
+                        "#hash_79b007c16dba1689": false,
+                        "#broadcastenabled": true,
+                        "#isenabled": false,
+                        "#hash_350ba18db76d6b42": false
+                    },
+                    "#hash_b66328fcefdc5a0a": {
+                        "#hash_79b007c16dba1689": true,
+                        "#broadcastenabled": true,
+                        "#isenabled": false
+                    },
+                    "#hash_5363846658bb4e31": {
+                        "#hash_79b007c16dba1689": true,
+                        "#broadcastenabled": true,
+                        "#isenabled": false
+                    },
+                    "#hash_a1d322feda017656": []
+                }
+            }
+        },
+        "#customproperties": {
+            "#activitytypegroup": [
+                {
+                    "#variant_object": {
+                        "#hash_2fdf266ead510f82": [
+                            {
+                                "#variant_object": {
+                                    "#activitytype": "REV_OB_EXFIL",
+                                    "#hash_edacb59cd3429ef": 60,
+                                    "#hash_ed5c559cd2df3e6": 47,
+                                    "#hash_ed1df59cd2a373d": 35,
+                                    "#hash_ebbc159cd11c210": 71,
+                                    "#hash_f816233d1a8c8545": "t10_zm_radio_pack_02",
+                                    "#hash_c0eca7db618f362e": 90,
+                                    "#hash_db562296b5d1b879": "zm_t10_exfil_aispawnlist_orange",
+                                    "#hash_1d1e956ec8c79112": "zm_t10_exfil_aispawnlist_orange",
+                                    "#hash_48ea3f48f1624ab3": "veh_t10_mil_us_heli_medium_trans",
+                                    "#hash_388a7349102a4a12": "zm_t10_exfil_aispawnlist_green",
+                                    "#hash_ef39e81d4e5da867": "zm_t10_exfil_aispawnlist_yellow"
+                                },
+                                "#variant_type": "Types_ZombieExfilActivity"
+                            }
+                        ]
+                    },
+                    "#variant_type": "Types_CER_RBZ_Activity_Group"
+                }
+            ]
+        }
+    },
+    "#hash_54522042585706ee": {
+        "#hash_310e111620b410d7": {
+            "#hash_afb82823e7216cae": [
+                {
+                    "#variant_object": {
+                        "#hash_69c0f72c44c30bba": true
+                    },
+                    "#variant_type": "Types_ActivityDoesNotUseThis"
+                }
+            ],
+            "#hash_c94cf930280d0a0f": true,
+            "#hash_aa9eae974909a0d2": [],
+            "#hash_67603b2aa73d722f": [],
+            "#hash_34859f69d60856fc": {
+                "#hash_a6cf6e2e0cc37ee5": 60,
+                "#hash_bd83beebb26f08d6": "ActivityBegin",
+                "#hash_5ba973ff6b5ff715": "ActivityEnd",
+                "#hash_45eaa8fc412d7398": []
+            },
+            "#playerbroadcasts": [
+                {
+                    "#variant_object": {
+                        "#broadcasttype": "StringReference",
+                        "#broadcastdata": [
+                            {
+                                "#variant_object": {
+                                    "#dynamicdata": [],
+                                    "#stringreference": "EXFIL_BOARD_VEHICLE_TITLE",
+                                    "#stylesettings": [
+                                        {
+                                            "#variant_object": {
+                                                "#hash_cb68fdf3172a5bb6": "Description",
+                                                "#broadcaststyle": "StringMessagingUtil_MinimapWidget"
+                                            },
+                                            "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_MinimapWidget"
+                                        }
+                                    ]
+                                },
+                                "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                            }
+                        ],
+                        "#activationmoment": [
+                            {
+                                "#variant_object": {
+                                    "#activationmoment": "ActivationName",
+                                    "#activationname": "exfil_board_vehicle"
+                                },
+                                "#variant_type": "Types_ActivationName"
+                            }
+                        ],
+                        "#destination": [
+                            {
+                                "#variant_object": {
+                                    "#broadcastdestination": "PlayerList"
+                                },
+                                "#variant_type": "Types_Individual"
+                            }
+                        ],
+                        "#deactivationmoment": [],
+                        "#hash_8efdce03c52f7421": true,
+                        "#priority": "Highest"
+                    },
+                    "#variant_type": "Types_ActivityBroadcastType_StringReference"
+                },
+                {
+                    "#variant_object": {
+                        "#broadcasttype": "StringReference",
+                        "#broadcastdata": [
+                            {
+                                "#variant_object": {
+                                    "#dynamicdata": [
+                                        {
+                                            "#variant_object": {
+                                                "#uniquename": "exfil_timer",
+                                                "#format": "XX_YY_Clock",
+                                                "#defaultvalue": {
+                                                    "#defaultstartingvalue": 0,
+                                                    "#defaultfinalvalue": 100
+                                                },
+                                                "#dynamicdatatype": "ProgressTracker"
+                                            },
+                                            "#variant_type": "Types_BroadcastDynamicData_ProgressTracker"
+                                        }
+                                    ],
+                                    "#stringreference": "EXFIL_TIMER_TRACKER",
+                                    "#stylesettings": [
+                                        {
+                                            "#variant_object": {
+                                                "#hash_cb68fdf3172a5bb6": "Description",
+                                                "#broadcaststyle": "StringMessagingUtil_MinimapWidget"
+                                            },
+                                            "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_MinimapWidget"
+                                        }
+                                    ]
+                                },
+                                "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                            }
+                        ],
+                        "#activationmoment": [
+                            {
+                                "#variant_object": {
+                                    "#activationmoment": "ActivationName",
+                                    "#activationname": "exfil_timer"
+                                },
+                                "#variant_type": "Types_ActivationName"
+                            }
+                        ],
+                        "#destination": [
+                            {
+                                "#variant_object": {
+                                    "#broadcastdestination": "PlayerList"
+                                },
+                                "#variant_type": "Types_Group"
+                            }
+                        ],
+                        "#deactivationmoment": [],
+                        "#priority": "Highest"
+                    },
+                    "#variant_type": "Types_ActivityBroadcastType_StringReference"
+                },
+                {
+                    "#variant_object": {
+                        "#broadcasttype": "StringReference",
+                        "#broadcastdata": [
+                            {
+                                "#variant_object": {
+                                    "#dynamicdata": [
+                                        {
+                                            "#variant_object": {
+                                                "#uniquename": "exfil_kills_remaining",
+                                                "#format": "X_Remaining",
+                                                "#defaultvalue": {
+                                                    "#defaultstartingvalue": 0,
+                                                    "#defaultfinalvalue": 100
+                                                },
+                                                "#dynamicdatatype": "ProgressTracker"
+                                            },
+                                            "#variant_type": "Types_BroadcastDynamicData_ProgressTracker"
+                                        }
+                                    ],
+                                    "#stringreference": "EXFIL_KILLS_REMAINING_TRACKER",
+                                    "#stylesettings": [
+                                        {
+                                            "#variant_object": {
+                                                "#hash_cb68fdf3172a5bb6": "Description",
+                                                "#broadcaststyle": "StringMessagingUtil_MinimapWidget"
+                                            },
+                                            "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_MinimapWidget"
+                                        }
+                                    ]
+                                },
+                                "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                            }
+                        ],
+                        "#activationmoment": [
+                            {
+                                "#variant_object": {
+                                    "#activationmoment": "ActivationName",
+                                    "#activationname": "exfil_kills_remaining"
+                                },
+                                "#variant_type": "Types_ActivationName"
+                            }
+                        ],
+                        "#destination": [
+                            {
+                                "#variant_object": {
+                                    "#broadcastdestination": "PlayerList"
+                                },
+                                "#variant_type": "Types_Group"
+                            }
+                        ],
+                        "#deactivationmoment": [],
+                        "#priority": "High"
+                    },
+                    "#variant_type": "Types_ActivityBroadcastType_StringReference"
+                },
+                {
+                    "#variant_object": {
+                        "#broadcasttype": "StringReference",
+                        "#broadcastdata": [
+                            {
+                                "#variant_object": {
+                                    "#dynamicdata": [],
+                                    "#stringreference": "EXFIL_GET_TO_VEHICLE_DESCRIPTION",
+                                    "#stylesettings": [
+                                        {
+                                            "#variant_object": {
+                                                "#hash_cb68fdf3172a5bb6": "Description",
+                                                "#broadcaststyle": "StringMessagingUtil_MinimapWidget"
+                                            },
+                                            "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_MinimapWidget"
+                                        }
+                                    ]
+                                },
+                                "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                            }
+                        ],
+                        "#activationmoment": [
+                            {
+                                "#variant_object": {
+                                    "#activationmoment": "ActivationName",
+                                    "#activationname": "exfil_get_to_vehicle"
+                                },
+                                "#variant_type": "Types_ActivationName"
+                            }
+                        ],
+                        "#destination": [
+                            {
+                                "#variant_object": {
+                                    "#broadcastdestination": "PlayerList"
+                                },
+                                "#variant_type": "Types_Individual"
+                            }
+                        ],
+                        "#deactivationmoment": [],
+                        "#hash_8efdce03c52f7421": true,
+                        "#priority": "Highest"
+                    },
+                    "#variant_type": "Types_ActivityBroadcastType_StringReference"
+                }
+            ],
+            "#hash_e379ec45c491c3b7": [],
+            "#errorspresent": true,
+            "#hibernationsettings": {
+                "#hibernationisenabled": true,
+                "#hash_1b70ca8d29ca863c": []
+            },
+            "#hash_ad6bc014d4703a82": {
+                "#hash_f3260707d02e2cd0": "GSCScript",
+                "#hash_cfc799fec790bd22": "ActivityEnd",
+                "#objectivemarkerscriptable": "default_activity_objective_marker_scriptable",
+                "#objectivemarkerscriptbundle": "%#hash_328d014ce13025cc",
+                "#hash_45c7ee998620b9b9": [],
+                "#hash_4bdbfe745477ce09": "ActivityBegin"
+            },
+            "#activityrewardcaches": [],
+            "#hash_4e346b4523fd5fb7": {
+                "#hash_aa9eae974909a0d2": []
+            },
+            "#hash_b6b515a8f1cc711c": [
+                {
+                    "#variant_object": {
+                        "#hash_838c9917a1723217": true,
+                        "#hash_a6cf6e2e0cc37ee5": 60,
+                        "#hash_bd83beebb26f08d6": [],
+                        "#hash_5ba973ff6b5ff715": [],
+                        "#hash_bf0099445a88df09": [
+                            {
+                                "#variant_object": {
+                                    "#ignoreheightvalue": false,
+                                    "#hash_b41d7a0bdbf73429": {
+                                        "#customdistance": 2500,
+                                        "#distancecategory": "Custom"
+                                    },
+                                    "#usecustomdistance": true
+                                },
+                                "#variant_type": "Types_SphereAroundActivityCenter"
+                            }
+                        ]
+                    },
+                    "#variant_type": "Types_StopSpawningAmbientAI"
+                }
+            ],
+            "#hash_d02a2bf2aec2c5be": [],
+            "#hash_390a857a39f72e01": {
+                "#hash_7089b64c87d90b69": {},
+                "#hash_84e9829da15875c3": []
+            },
+            "#hash_fb4dd0352a7b7099": {
+                "#hash_4f3c325e30518b69": {
+                    "#hash_284b29f91b257f2d": [],
+                    "#hash_f1ed5c4b2cbcfb6d": []
+                },
+                "#playerjoinsettings": {
+                    "#hash_dbf2d0633621105e": {
+                        "#hash_ffe003e0e00b3795": [],
+                        "#hash_a992a28c8f440e25": {},
+                        "#proximityjoinsettings": []
+                    },
+                    "#maxplayercount": 16,
+                    "#hash_c781cf9442a118d5": true,
+                    "#minplayercount": 1
+                },
+                "#playerfocussettings": {
+                    "#hash_c01a5323cc5fc8c0": 1
+                },
+                "#hash_88c627d953f82441": {
+                    "#hash_75ecd3e9f8da3e2e": {
+                        "#hash_79b007c16dba1689": false,
+                        "#broadcastenabled": true,
+                        "#isenabled": false
+                    },
+                    "#hash_f393956a4ef608b5": {
+                        "#hash_79b007c16dba1689": false,
+                        "#broadcastenabled": true,
+                        "#isenabled": false,
+                        "#hash_350ba18db76d6b42": false
+                    },
+                    "#hash_b66328fcefdc5a0a": {
+                        "#hash_79b007c16dba1689": true,
+                        "#broadcastenabled": true,
+                        "#isenabled": false
+                    },
+                    "#hash_5363846658bb4e31": {
+                        "#hash_79b007c16dba1689": true,
+                        "#broadcastenabled": true,
+                        "#isenabled": false
+                    },
+                    "#hash_a1d322feda017656": []
+                }
+            }
+        },
+        "#customproperties": {
+            "#activitytypegroup": [
+                {
+                    "#variant_object": {
+                        "#hash_2fdf266ead510f82": [
+                            {
+                                "#variant_object": {
+                                    "#activitytype": "REV_OB_EXFIL",
+                                    "#hash_f816233d1a8c8545": "t10_zm_radio_pack_01"
+                                },
+                                "#variant_type": "Types_ZombieExfilActivity"
+                            }
+                        ],
+                        "#hash_733d5dc436b56f2e": {
+                            "#hash_9d8e78acc49a185": false
+                        },
+                        "#hash_622af9ed9146813f": {
+                            "#hash_a378375361078de8": 100,
+                            "#hash_82f0a81c6ed90196": 100,
+                            "#hash_4ea88511f05a95a9": 100,
+                            "#activityresources": {},
+                            "#hash_19e7fc6c8d9b1706": 100,
+                            "#mindistinstances": 5000,
+                            "#hash_a45684d4dd42dab7": 100,
+                            "#instancecooldown": -1
+                        }
+                    },
+                    "#variant_type": "Types_JUP_OB_Activity_Group"
+                }
+            ]
+        }
+    }
+}
