@@ -1,0 +1,64 @@
+{
+    "name": "#enemy_sat_mp_training_course",
+    "species": "human",
+    "coverSelectorAsset": "#hash_2ae7a28616d5a87b",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_3df85558647ea7c9",
+    "animationStateMachineAsset": "#soldier",
+    "behaviorTreeAsset": "#soldier_agent_benchmark",
+    "footStepsFxTable": "#hash_9663747c07c6f02e",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_enemy_guild_bot"
+        }
+    ],
+    "weapons": [
+        {
+            "name": "#hash_842dfb283fec1a59",
+            "ammo": 0,
+            "weapon": "sat_ar_hawk_mp"
+        },
+        {
+            "name": "#hash_2da8c3bf7fb879e1",
+            "ammo": 2,
+            "weapon": "sat_pi_timir_mp"
+        }
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_803656a6025b3c4b": [],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_enemy_guild_bot"
+            }
+        ],
+        "#unittype": "soldier",
+        "#subclass": "regular",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 300,
+        "#healthbarsettings": "%#",
+        "#hash_8d4502f31fc3cc9d": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "frag_grenade_mp",
+        "#damagefiltering": false,
+        "#animationstatemachine": "soldier",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm",
+        "#behaviortreeasset": "soldier_agent_benchmark",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 2,
+        "#team": "axis"
+    }
+}
