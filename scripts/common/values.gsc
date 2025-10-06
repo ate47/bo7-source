@@ -1028,7 +1028,7 @@ function private function_bba57c2f7dfb0704()
 // Size: 0x34
 function private function_c24a1bd2d82db73d( b_value = undefined )
 {
-    self.deathShieldThreshold = isnumber( b_value ) && b_value >= 0 ? b_value : undefined;
+    self.deathshieldthreshold = isnumber( b_value ) && b_value >= 0 ? b_value : undefined;
 }
 
 // Namespace val

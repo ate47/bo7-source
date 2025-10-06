@@ -290,7 +290,7 @@ function private buildattachmentmaps()
         slotarray[ slotarray.size ] = slot;
     }
     
-    var_e5042059ee422f62 = [ #"lootid", #"category", #"hash_8aed63dfe5400760", #"hash_febd8701371cdffe" ];
+    var_e5042059ee422f62 = [ #"lootid", #"category", #"hideinui", #"hash_febd8701371cdffe" ];
     
     foreach ( weaponnamekey in level.weaponmapdata )
     {
@@ -576,7 +576,7 @@ function private buildweaponmap()
     
     if ( isdefined( weaponsscriptbundle ) )
     {
-        bundlevalues = [ #"ref", #"group", #"displayorder", #"asset", #"hash_c8d3a48b2f4175ff", #"name", #"perk", #"speedscale", #"hash_1469d2b702a6d5f8", #"lootid", #"botpersonality", #"isactivearmory", #"isknife", #"hash_dde08416ce76e9f9" ];
+        bundlevalues = [ #"ref", #"group", #"displayorder", #"asset", #"assetrefsp", #"name", #"perk", #"speedscale", #"hash_1469d2b702a6d5f8", #"lootid", #"botpersonality", #"isactivearmory", #"isknife", #"issharpmelee" ];
         
         foreach ( weaponname in weaponsscriptbundle )
         {

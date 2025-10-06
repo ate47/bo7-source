@@ -66,7 +66,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte equipmentvariantid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x48, bitSize: 0x1
         bool extracharge;
     };
@@ -76,7 +76,7 @@ version 1 {
         // offset: 0x0, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x8, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
         uint fieldupgradelootid;
     };
@@ -88,7 +88,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
     };
 
     // bitSize: 0x8, members: 1
@@ -232,13 +232,13 @@ version 1 {
         // offset: 0x0, bitSize: 0x40(0x8 Byte(s))
         hashres operatorref;
         // offset: 0x40, bitSize: 0x40(0x8 Byte(s))
-        hashres introRef;
+        hashres introref;
         // offset: 0x80, bitSize: 0x40(0x8 Byte(s))
         hashres skinref;
         // offset: 0xc0, bitSize: 0x40(0x8 Byte(s))
         hashres executionref;
         // offset: 0x100, bitSize: 0x40(0x8 Byte(s))
-        hashres tauntRef;
+        hashres tauntref;
     };
 
     // bitSize: 0x458, members: 4
@@ -462,7 +462,7 @@ version 1 {
     // bitSize: 0xe0, members: 4
     struct CustomizationSet {
         // offset: 0x0, bitSize: 0x10(0x2 Byte(s)), array:0x2(hti:0xffff)
-        uint:2 hash_7783297dcfa2b652[2];
+        uint:2 randomtype[2];
         // offset: 0x10, bitSize: 0x20(0x4 Byte(s)), array:0x2(hti:0xffff)
         SatOperator operatorref[2];
         // offset: 0x30, bitSize: 0x80(0x10 Byte(s)), array:0x2(hti:0xffff)

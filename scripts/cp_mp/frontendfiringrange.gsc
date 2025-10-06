@@ -209,7 +209,7 @@ function updateplayerweapon()
 // Params 0
 // Checksum 0xdeaba8e1, Offset: 0x127f
 // Size: 0x24b
-function updateWeaponSwitch()
+function updateweaponswitch()
 {
     self notify( "updateWeaponSwitch" );
     self endon( "updateWeaponSwitch" );
@@ -251,7 +251,7 @@ function updateWeaponSwitch()
                 recoil_panel.angles = ( 90, 0, 0 );
             }
             
-            thread initializePanelBehaviour( recoil_panel );
+            thread initializepanelbehaviour( recoil_panel );
         }
         
         var_24aa2d94cf545ca8 = 0;
@@ -546,7 +546,7 @@ function function_232489312b237c86()
     function_86a9f6833f670d0d();
     thread function_8f6b33a18012760e();
     thread infiniteammo();
-    thread updateWeaponSwitch();
+    thread updateweaponswitch();
     
     /#
         thread function_f01ff36db2e217b3();
@@ -557,7 +557,7 @@ function function_232489312b237c86()
     
     if ( isdefined( recoil_panel ) )
     {
-        thread initializePanelBehaviour( recoil_panel );
+        thread initializepanelbehaviour( recoil_panel );
     }
 }
 
@@ -791,7 +791,7 @@ function infiniteammo()
 // Params 1, eflags: 0x4
 // Checksum 0xcd779dcf, Offset: 0x244f
 // Size: 0x1a3
-function private initializePanelBehaviour( panel )
+function private initializepanelbehaviour( panel )
 {
     level endon( "exit_firing_range" );
     level notify( "initializePanelBehaviour" );
@@ -1255,7 +1255,7 @@ function function_dfac2d0f32995de9( ismodel )
                 print3d( var_ad6d693d882e5e9b.origin + ( 0, 0, 13 ), hitloc, ( 1, 1, 1 ), 1, 0.5, 75 );
             #/
             
-            victim thread processDamageThisFrame( data );
+            victim thread processdamagethisframe( data );
         }
     }
 }
@@ -1264,7 +1264,7 @@ function function_dfac2d0f32995de9( ismodel )
 // Params 1
 // Checksum 0xae336785, Offset: 0x34f4
 // Size: 0xc3b
-function processDamageThisFrame( instance )
+function processdamagethisframe( instance )
 {
     var_cf49049cfe11e067 = self.var_cf49049cfe11e067;
     

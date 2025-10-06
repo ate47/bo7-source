@@ -197,7 +197,7 @@ function function_b7a140fa61cb82fe( attacker, inflictor )
         if ( !inflictor.var_3642ac04db718b4d.var_ea0abd26665f4c64 )
         {
             inflictor.var_3642ac04db718b4d.var_ea0abd26665f4c64 = 1;
-            attacker thread points::function_4f713a46699e559d( #"hash_1a3f021e21caf186" );
+            attacker thread points::doscoreevent( #"hash_1a3f021e21caf186" );
         }
     }
     

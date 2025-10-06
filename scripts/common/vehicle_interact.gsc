@@ -240,9 +240,9 @@ function allow_use( vehicle, bool )
 // Params 2
 // Checksum 0xcaf2ee06, Offset: 0xc71
 // Size: 0x29
-function function_c9835ad3c3e5dab2( vehicle, var_6f86e1d1b8045bff )
+function function_c9835ad3c3e5dab2( vehicle, scriptable_part )
 {
-    vehicle.var_dcc4310e5380a5c9[ var_6f86e1d1b8045bff ] = "single";
+    vehicle.var_dcc4310e5380a5c9[ scriptable_part ] = "single";
 }
 
 // Namespace vehicle_interact

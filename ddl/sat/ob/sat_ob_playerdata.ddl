@@ -66,7 +66,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte equipmentvariantid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x48, bitSize: 0x1
         bool extracharge;
     };
@@ -76,7 +76,7 @@ version 1 {
         // offset: 0x0, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x8, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
         uint fieldupgradelootid;
     };
@@ -88,7 +88,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
     };
 
     // bitSize: 0x8, members: 1
@@ -306,7 +306,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x20(0x4 Byte(s))
         int majoraugment;
         // offset: 0x40, bitSize: 0x20(0x4 Byte(s))
-        int hash_f920cbe858356bb8;
+        int bonusminoraugment;
     };
 
     // bitSize: 0x1f90, members: 10
@@ -336,13 +336,13 @@ version 1 {
         // offset: 0x0, bitSize: 0x40(0x8 Byte(s))
         hashres operatorref;
         // offset: 0x40, bitSize: 0x40(0x8 Byte(s))
-        hashres introRef;
+        hashres introref;
         // offset: 0x80, bitSize: 0x40(0x8 Byte(s))
         hashres skinref;
         // offset: 0xc0, bitSize: 0x40(0x8 Byte(s))
         hashres executionref;
         // offset: 0x100, bitSize: 0x40(0x8 Byte(s))
-        hashres tauntRef;
+        hashres tauntref;
     };
 
     // bitSize: 0x390, members: 4
@@ -1400,13 +1400,13 @@ version 1 {
         // offset: 0xa0, bitSize: 0x20(0x4 Byte(s))
         int deaths;
         // offset: 0xc0, bitSize: 0x20(0x4 Byte(s))
-        int hash_5724a3da108ee8ad;
+        int flag_carrier_kill_count;
         // offset: 0xe0, bitSize: 0x20(0x4 Byte(s))
         int assists;
         // offset: 0x100, bitSize: 0x20(0x4 Byte(s))
         int gamesplayed;
         // offset: 0x120, bitSize: 0x20(0x4 Byte(s))
-        int hash_f73a3e185e207c5f;
+        int overcharge_count;
     };
 
     // bitSize: 0x160, members: 11
@@ -1642,7 +1642,7 @@ version 1 {
         // offset: 0x3020, bitSize: 0x100(0x20 Byte(s))
         ModeStats_DM fo_dm;
         // offset: 0x3120, bitSize: 0x100(0x20 Byte(s))
-        ModeStats_SD hash_4135ecaf5562b128;
+        ModeStats_SD fo_sd;
         // offset: 0x3220, bitSize: 0x100(0x20 Byte(s))
         ModeStats_Front front;
         // offset: 0x3320, bitSize: 0x100(0x20 Byte(s))
@@ -1746,7 +1746,7 @@ version 1 {
         // offset: 0x7c60, bitSize: 0x100(0x20 Byte(s))
         ModeStats_Conf fo_conf;
         // offset: 0x7d60, bitSize: 0x100(0x20 Byte(s))
-        ModeStats_KOTH hash_e27fb44e17720335;
+        ModeStats_KOTH fo_koth;
         // offset: 0x7e60, bitSize: 0x100(0x20 Byte(s))
         ModeStats_Conflict conflict;
         // offset: 0x7f60, bitSize: 0x140(0x28 Byte(s))
@@ -2580,7 +2580,7 @@ version 1 {
     // bitSize: 0x41a8, members: 5
     struct DMZSquadMember {
         // offset: 0x0, bitSize: 0x140(0x28 Byte(s)), array:0xa(hti:0xffff)
-        AcquisitionSetup hash_f2bf26f235ebfbea[10];
+        AcquisitionSetup ownedacquisitionsetup[10];
         // offset: 0x140, bitSize: 0x10(0x2 Byte(s)), array:0x2(hti:0xffff)
         SatSuper fieldupgrades[2];
         // offset: 0x150, bitSize: 0xd8(0x1b Byte(s)), array:0x3(hti:0xffff)
@@ -2588,7 +2588,7 @@ version 1 {
         // offset: 0x228, bitSize: 0x3f20(0x7e4 Byte(s)), array:0x2(hti:0xffff)
         LoadoutMP loadouts[2];
         // offset: 0x4148, bitSize: 0x60(0xc Byte(s)), array:0x3(hti:0xffff)
-        AcquisitionSetup hash_8fd446b482bfb800[3];
+        AcquisitionSetup equippedacquisitionsetup[3];
     };
 
     // bitSize: 0x2a8, members: 2
@@ -2716,7 +2716,7 @@ version 1 {
         // offset: 0x4ac58, bitSize: 0x20(0x4 Byte(s))
         int hash_1fc9634073f441e2;
         // offset: 0x4ac78, bitSize: 0x3c0(0x78 Byte(s)), array:0xa(hti:0xffff)
-        InventoryItem hash_83ed5eb11e56032e[10];
+        InventoryItem tombstonebackpack[10];
         // offset: 0x4b038, bitSize: 0xa0(0x14 Byte(s))
         ItemStats bestweapon;
         // offset: 0x4b0d8, bitSize: 0x20(0x4 Byte(s))
@@ -2732,7 +2732,7 @@ version 1 {
         // offset: 0x4b338, bitSize: 0x60(0xc Byte(s)), array:0x3(hti:0xffff)
         int dailychallengeid[3];
         // offset: 0x4b398, bitSize: 0x10(0x2 Byte(s))
-        short hash_22b6970a37c3b5b;
+        short currentsessionstreakcount;
         // offset: 0x4b3a8, bitSize: 0x20(0x4 Byte(s))
         int bestkills;
         // offset: 0x4b3c8, bitSize: 0x20(0x4 Byte(s))

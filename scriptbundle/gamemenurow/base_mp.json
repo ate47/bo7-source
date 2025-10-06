@@ -1,0 +1,41 @@
+{
+    "#displayconditions": [
+        {
+            "#isinverted": true,
+            "#condition": "IsMagmaGameMode"
+        },
+        {
+            "#isinverted": true,
+            "#condition": "IsClosedInternalAlphaBuild"
+        }
+    ],
+    "#name": "&#menu/multiplayer",
+    "#buttons": [
+        {
+            "#hash_7188e58c7b9eb6c8": "ob",
+            "#disableconditions": [],
+            "#expandcategory": false,
+            "#displayconditions": [],
+            "#buttonaction": "OBMenu"
+        },
+        {
+            "#hash_7188e58c7b9eb6c8": "benchmark",
+            "#disableconditions": [],
+            "#expandcategory": false,
+            "#displayconditions": [
+                {
+                    "#isinverted": true,
+                    "#condition": "IsClosedInternalAlphaBuild"
+                }
+            ],
+            "#buttonaction": "BenchmarkMenu"
+        },
+        {
+            "#hash_7188e58c7b9eb6c8": "trainingcourse",
+            "#disableconditions": [],
+            "#expandcategory": false,
+            "#displayconditions": [],
+            "#buttonaction": "TrainingCourse"
+        }
+    ]
+}

@@ -297,7 +297,7 @@ function function_704d402fd2e0b1d1( target )
     
     if ( isdefined( var_b0947f2c9c0c3701 ) )
     {
-        namespace_ac1cfbde1756873::function_e4d6a71507372662( var_b0947f2c9c0c3701, 0 );
+        objidpoolmanager::function_e4d6a71507372662( var_b0947f2c9c0c3701, 0 );
         targetteam = target.team;
         
         foreach ( assassin in level_info.assassins )
@@ -312,7 +312,7 @@ function function_704d402fd2e0b1d1( target )
                 continue;
             }
             
-            namespace_ac1cfbde1756873::objective_playermask_addshowplayer( var_b0947f2c9c0c3701, assassin );
+            objidpoolmanager::objective_playermask_addshowplayer( var_b0947f2c9c0c3701, assassin );
         }
     }
 }

@@ -3074,7 +3074,7 @@ function private error_message( player, errorref )
             errorstr = %"vehicles/cannot_exit";
             break;
         case 4:
-            errorstr = %"VEHICLES/SEAT_SWITCH_BLOCKED";
+            errorstr = %"vehicles/seat_switch_blocked";
             break;
     }
     

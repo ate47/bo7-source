@@ -47,10 +47,10 @@ function private autoexec main()
     utility::registersharedfunc( #"juggernaut", #"initconfig", &juggernaut_mp::jugg_initconfig );
     utility::registersharedfunc( #"juggernaut", #"leveldata", &juggernaut_mp::jugg_leveldata );
     utility::registersharedfunc( #"juggernaut", #"dropcratefromscriptedheli", &juggernaut_mp::jugg_dropcratefromscriptedheli );
-    utility::registersharedfunc( #"juggernaut", #"hash_85c2b54b16e302f3", &juggernaut_mp::jugg_makejuggernautcallback );
+    utility::registersharedfunc( #"juggernaut", #"makejuggernaut", &juggernaut_mp::jugg_makejuggernautcallback );
     utility::registersharedfunc( #"juggernaut", #"getMinigunWeapon", &function_226074f15c61b467 );
-    utility::registersharedfunc( #"juggernaut", #"hash_31d0dfcec67f3414", &function_e37fa457234c87b );
-    utility::registersharedfunc( #"juggernaut", #"hash_1b4bc8d3d3a59f75", &function_55d9471cef296b34 );
+    utility::registersharedfunc( #"juggernaut", #"activatejuggernaut", &function_e37fa457234c87b );
+    utility::registersharedfunc( #"juggernaut", #"removejuggernaut", &function_55d9471cef296b34 );
     utility::registersharedfunc( #"juggernaut", #"modifydamage", &function_6580bf9ba6e8ce2a );
     killstreak_shared::registerkillstreakinitfunction( getxhash( "remote_robot" ), &function_f73afa4f93891a9a );
     var_de4f97ad540a98f7 = utility::function_d0cb6b33aff40a94( #"remote_robot" );
@@ -144,7 +144,7 @@ function function_f71b4ae9d3d63954( streakinfo )
         return 0;
     }
     
-    thread killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, undefined, #"arrive", 1 );
+    thread killstreak_utility::playkillstreaktacomdialog( streakinfo, undefined, #"arrive", 1 );
     deployweaponobj = makeweapon( "sat_ks_remote_device_mp" );
     streakinfo.var_47d906c0c5d19d0a = self getcurrentweapon();
     streakinfo.var_ec96691f3a2c45c0 = 0;
@@ -530,7 +530,7 @@ function function_e37fa457234c87b( streakinfo )
     if ( utility::issharedfuncdefined( #"game", #"createobjective" ) )
     {
         self.minimapid = self [[ utility::getsharedfunc( #"game", #"createobjective" ) ]]( bundle.minimapicon, self.team, 0, 1, 1 );
-        namespace_ac1cfbde1756873::function_e4d6a71507372662( self.minimapid, 0 );
+        objidpoolmanager::function_e4d6a71507372662( self.minimapid, 0 );
     }
     
     if ( bundle.var_4731da2e1fa2575e )
@@ -810,7 +810,7 @@ function function_5bd122ed059fc1ab( streakinfo, var_3cef575f8a291961 )
 // Size: 0x39
 function private function_c5886af82b5f3df( data )
 {
-    data.attacker thread points::function_4f713a46699e559d( #"hash_105e8d0403353d48", data.objweapon );
+    data.attacker thread points::doscoreevent( #"hash_105e8d0403353d48", data.objweapon );
     juggernaut::jugg_removejuggernaut();
 }
 
@@ -883,7 +883,7 @@ function function_55d9471cef296b34( damagedata )
     
     if ( damagedata )
     {
-        player thread killstreak_utility::function_a0f06b65f4e1e23a( player.juggcontext.streakinfo, undefined, #"destroyed" );
+        player thread killstreak_utility::playkillstreaktacomdialog( player.juggcontext.streakinfo, undefined, #"destroyed" );
     }
     
     player playdeathfx( damagedata.var_bfdba4862ac6a877 );
@@ -906,7 +906,7 @@ function function_55d9471cef296b34( damagedata )
     
     if ( damagedata.attacker && damagedata.attacker != player )
     {
-        damagedata.attacker points::function_4f713a46699e559d( #"hash_105e8d0403353d48", damagedata.objweapon );
+        damagedata.attacker points::doscoreevent( #"hash_105e8d0403353d48", damagedata.objweapon );
     }
     
     var_9ee096ed5e2572d1 = 0;
@@ -1382,7 +1382,7 @@ function private function_136d64393bcef0e( duration, attacker )
     bundle = var_4def85334452c060.bundle;
     var_65cfd078ed606a6c = var_4def85334452c060.weaponref;
     data = damage_utility::packdamagedata( attacker, self, 1, var_65cfd078ed606a6c );
-    data.var_4f713a46699e559d = 0;
+    data.doscoreevent = 0;
     emp_debuff::apply_emp_struct( data, 0, 1 );
     gamescore::trackdebuffassist( attacker, self, var_65cfd078ed606a6c.basename );
     emp_debuff::play_emp_scramble( bundle.var_46cc13ca23ff97dd );
@@ -1453,7 +1453,7 @@ function private hack( hackeffect, attacker )
         return;
     }
     
-    self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"hash_bee0342dceb8fa9c" );
+    self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"hash_bee0342dceb8fa9c" );
     self setscriptablepartstate( "hack", "hack_shocked" );
     thread function_6fe699c5d9519c2e( hackeffect.var_135f82267fbeaa5b / 1000, hackeffect.speedscale );
     thread function_136d64393bcef0e( hackeffect.var_135f82267fbeaa5b / 1000, attacker );

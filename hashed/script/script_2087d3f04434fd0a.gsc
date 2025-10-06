@@ -47,7 +47,7 @@ function function_4c52fc048b2a533d( params )
         var_c08e832913e1c60f.var_fd9b39439920c808 = "uin_cer_splash_medal_small";
     }
     
-    level.var_c267f3cfc720a3be[ "specialty_tps_health_on_kill" ] = &"SAT_PERKS/TPS_HEALTH_ON_KILL";
+    level.var_c267f3cfc720a3be[ "specialty_tps_health_on_kill" ] = &"sat_perks/tps_health_on_kill";
 }
 
 // Namespace namespace_99b7917780e7e956
@@ -137,14 +137,14 @@ function function_eefb6c9f97f6e78( params )
     }
     
     self notify( "teamBuffHealthOnKill_applyBuff" );
-    teamBuffHealthOnKill_applyBuff();
+    teambuffhealthonkill_applybuff();
 }
 
 // Namespace namespace_99b7917780e7e956
 // Params 0
 // Checksum 0xabd27bfc, Offset: 0x416
 // Size: 0xb7
-function teamBuffHealthOnKill_applyBuff()
+function teambuffhealthonkill_applybuff()
 {
     if ( !isdefined( self.cranked ) )
     {

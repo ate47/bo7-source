@@ -47,7 +47,7 @@ function function_7cce4f5207876740( params )
         var_c08e832913e1c60f.var_fd9b39439920c808 = "uin_cer_dlgl_greenlight";
     }
     
-    level.var_c267f3cfc720a3be[ "specialty_tps_high_gain_antenna" ] = &"SAT_PERKS/TPS_HIGH_GAIN_ANTENNA";
+    level.var_c267f3cfc720a3be[ "specialty_tps_high_gain_antenna" ] = &"sat_perks/tps_high_gain_antenna";
 }
 
 // Namespace namespace_1817f023bb625c2d

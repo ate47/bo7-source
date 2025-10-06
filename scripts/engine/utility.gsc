@@ -4322,7 +4322,7 @@ function fileprint_launcher( string )
 function fileprint_launcher_end_file( var_5756f07f5c4d9982, var_390f5c13316351df = 0 )
 {
     /#
-        setdevdvarifuninitialized( @"hash_d84b138e7aa2f2df", "<dev string:x5de>" );
+        setdevdvarifuninitialized( @"launcher_print_fail", "<dev string:x5de>" );
         setdevdvarifuninitialized( @"hash_afbeda0efab5bd5e", "<dev string:x5de>" );
     #/
     
@@ -4337,7 +4337,7 @@ function fileprint_launcher_end_file( var_5756f07f5c4d9982, var_390f5c13316351df
     
     timeout = gettime() + 4000;
     
-    while ( getdvarint( @"hash_afbeda0efab5bd5e" ) == 0 && getdvar( @"hash_d84b138e7aa2f2df" ) == "0" && gettime() < timeout )
+    while ( getdvarint( @"hash_afbeda0efab5bd5e" ) == 0 && getdvar( @"launcher_print_fail" ) == "0" && gettime() < timeout )
     {
         wait 0.05;
     }
@@ -4347,21 +4347,21 @@ function fileprint_launcher_end_file( var_5756f07f5c4d9982, var_390f5c13316351df
         iprintlnbold( "LAUNCHER_PRINT_FAIL:( TIMEOUT ): launcherconflict? restart launcher and try again? " );
         
         /#
-            setdevdvar( @"hash_d84b138e7aa2f2df", "<dev string:x5de>" );
+            setdevdvar( @"launcher_print_fail", "<dev string:x5de>" );
         #/
         
         level.fileprint_launcher = undefined;
         return false;
     }
     
-    failvar = getdvar( @"hash_d84b138e7aa2f2df" );
+    failvar = getdvar( @"launcher_print_fail" );
     
     if ( failvar != "0" )
     {
         iprintlnbold( "LAUNCHER_PRINT_FAIL:( " + failvar + " ): launcherconflict? restart launcher and try again? " );
         
         /#
-            setdevdvar( @"hash_d84b138e7aa2f2df", "<dev string:x5de>" );
+            setdevdvar( @"launcher_print_fail", "<dev string:x5de>" );
         #/
         
         level.fileprint_launcher = undefined;
@@ -4369,7 +4369,7 @@ function fileprint_launcher_end_file( var_5756f07f5c4d9982, var_390f5c13316351df
     }
     
     /#
-        setdevdvar( @"hash_d84b138e7aa2f2df", "<dev string:x5de>" );
+        setdevdvar( @"launcher_print_fail", "<dev string:x5de>" );
         setdevdvar( @"hash_afbeda0efab5bd5e", "<dev string:x5de>" );
     #/
     

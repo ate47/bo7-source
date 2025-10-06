@@ -746,7 +746,7 @@ function private function_9dadf27bbe1eeff0()
     
     foreach ( entry in var_1d7f8430b91cca9c.itementries )
     {
-        itembundle = getscriptbundlefieldvalues( getxhashasset( entry.itemspawnentry ), [ #"ref", #"hash_146dd41e6d0c890c", #"hash_5511b336ca6d932e" ] );
+        itembundle = getscriptbundlefieldvalues( getxhashasset( entry.itemspawnentry ), [ #"ref", #"hash_146dd41e6d0c890c", #"isbasebackpack" ] );
         lootinfo = getLootItemInfoFromRef( itembundle.ref );
         
         if ( !lootinfo.itemid )

@@ -182,8 +182,8 @@ function setupexploders()
         ent.v[ "type" ] = "exploder";
         ent.v[ "dotraces" ] = exploder.script_trace;
         ent.v[ "envonly" ] = exploder.script_envonly;
-        ent.v[ "area_swap_index" ] = exploder.var_d178b8e9ff24fb7c;
-        ent.v[ "area_swap_state" ] = exploder.var_4cdc3bb53a78e615;
+        ent.v[ "area_swap_index" ] = exploder.script_area_swap_index;
+        ent.v[ "area_swap_state" ] = exploder.script_area_swap_state;
         
         if ( !isdefined( ent.v[ "angles" ] ) )
         {

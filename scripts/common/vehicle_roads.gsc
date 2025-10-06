@@ -11,7 +11,7 @@
 // Params 17
 // Checksum 0x8ee7c25, Offset: 0x2cc
 // Size: 0x194
-function function_b5bd79b51773c046( var_2a53549997639275 = 1, var_d2b2b98d77c9c0 = 0, checkstuck = 0, brakeatgoal = 1, autonormal = 1, brakeongoalgasbrake = 1, goalthreshold = 100, throttlespeedclose = 0, throttlespeedthreshold = 1, var_f04cadb28ee6016d = 1, throttlespeedfarbelow = 0, throttlespeedfarabove = 0, gastostopmovement = 0.9, steeringmultiplier = 1, stepradius, stepspeedfactor, usemanualspeed )
+function function_b5bd79b51773c046( usep2p = 1, var_d2b2b98d77c9c0 = 0, checkstuck = 0, brakeatgoal = 1, autonormal = 1, brakeongoalgasbrake = 1, goalthreshold = 100, throttlespeedclose = 0, throttlespeedthreshold = 1, var_f04cadb28ee6016d = 1, throttlespeedfarbelow = 0, throttlespeedfarabove = 0, gastostopmovement = 0.9, steeringmultiplier = 1, stepradius, stepspeedfactor, usemanualspeed )
 {
     if ( var_d2b2b98d77c9c0 )
     {
@@ -21,7 +21,7 @@ function function_b5bd79b51773c046( var_2a53549997639275 = 1, var_d2b2b98d77c9c0
         }
     }
     
-    if ( var_2a53549997639275 )
+    if ( usep2p )
     {
         vehicle_paths::function_53e592e2d38c05ca( checkstuck, brakeatgoal, autonormal, brakeongoalgasbrake, goalthreshold, throttlespeedclose, throttlespeedthreshold, var_f04cadb28ee6016d, throttlespeedfarbelow, throttlespeedfarabove, gastostopmovement, steeringmultiplier );
         self setconfigvalue( "p2p", "goalPoint", self.origin );

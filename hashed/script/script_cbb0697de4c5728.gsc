@@ -321,7 +321,7 @@ function function_f877fea1e7d31f31()
     function_ee3da014a4117632( #"thor", &function_354884b05ce1e6e7 );
     function_ee3da014a4117632( #"kd", &function_ead20b21fee118f5 );
     function_ee3da014a4117632( #"cdl", &function_4a737c26e8f2af7f );
-    function_ee3da014a4117632( #"soulEater", &function_8112584bc0f47cdc );
+    function_ee3da014a4117632( #"souleater", &function_8112584bc0f47cdc );
     function_ee3da014a4117632( #"crash", &function_aa162266a9f54b8d );
     function_ee3da014a4117632( #"akihabara", &function_4f239c5dd971f98c );
     function_ee3da014a4117632( #"magma", &function_6f112bc5b64c892b );
@@ -348,56 +348,56 @@ function function_f877fea1e7d31f31()
     function_ee3da014a4117632( #"traidermelee", &function_59f427e659e59656 );
     function_ee3da014a4117632( #"souleaterequip", &function_8112584bc0f47cdc );
     function_ee3da014a4117632( #"iceequip", &function_526ab8ba3e720951 );
-    function_ee3da014a4117632( #"40kMelee", &function_f93e3f01a1b7a791 );
-    function_ee3da014a4117632( #"blackcell_s5Melee", &function_101cbff94707b454 );
-    function_ee3da014a4117632( #"underworldMelee", &function_2b9bf1a3a1bfe13e );
-    function_ee3da014a4117632( #"wontonMelee", &function_5e11e3a4b3b78d7d );
-    function_ee3da014a4117632( #"manduMelee", &function_fe7e870e73d2d56b );
-    function_ee3da014a4117632( #"hash_a1bd012c1cd75a64", &function_58456461eb2687 );
-    function_ee3da014a4117632( #"gilmanMelee", &function_e64be728c0e9123c );
-    function_ee3da014a4117632( #"shapechangerMelee", &function_8480b4cc59c7eba5 );
-    function_ee3da014a4117632( #"bikeMelee", &function_9e7383d20f5bf879 );
+    function_ee3da014a4117632( #"40kmelee", &function_f93e3f01a1b7a791 );
+    function_ee3da014a4117632( #"blackcell_s5melee", &function_101cbff94707b454 );
+    function_ee3da014a4117632( #"underworldmelee", &function_2b9bf1a3a1bfe13e );
+    function_ee3da014a4117632( #"wontonmelee", &function_5e11e3a4b3b78d7d );
+    function_ee3da014a4117632( #"mandumelee", &function_fe7e870e73d2d56b );
+    function_ee3da014a4117632( #"blackcellmelee", &function_58456461eb2687 );
+    function_ee3da014a4117632( #"gilmanmelee", &function_e64be728c0e9123c );
+    function_ee3da014a4117632( #"shapechangermelee", &function_8480b4cc59c7eba5 );
+    function_ee3da014a4117632( #"bikemelee", &function_9e7383d20f5bf879 );
     function_ee3da014a4117632( #"pineapple", &function_ed03f0036ee25688 );
     function_ee3da014a4117632( #"tonfa", &function_d178c469de8d12f0 );
     function_ee3da014a4117632( #"vinyl", &function_7f3124192d315274 );
     function_ee3da014a4117632( #"voxel", &function_63c6b0a82b3a5e78 );
-    function_ee3da014a4117632( #"oreZincMelee", &function_d7bf9ede0b764fe );
+    function_ee3da014a4117632( #"orezincmelee", &function_d7bf9ede0b764fe );
     
     if ( level.var_6a98fcae23c2e606 )
     {
-        function_ee3da014a4117632( #"raygunRepair", &function_30f2d11294017281 );
+        function_ee3da014a4117632( #"raygunrepair", &function_30f2d11294017281 );
     }
     
     function_ee3da014a4117632( #"hash_849214ec850729a9", &function_a039e2941d94b1fa );
     function_ee3da014a4117632( #"cerannihilate", &function_f7bf5db7589592cd );
     function_ee3da014a4117632( #"vaultmelee", &function_c4bdf31f66b16d0c );
-    function_ee3da014a4117632( #"hash_c6179907363a1b01", &function_8a3e94642281db28 );
-    function_ee3da014a4117632( #"hash_d70c6db37656306d", &function_70c79427f7f7b046 );
-    function_ee3da014a4117632( #"hash_ff47a3144673db97", &function_e0d25276ba90ddd2 );
-    function_ee3da014a4117632( #"hash_39d975fcf1aa17f", &function_fdef5d3b5ebecefe );
+    function_ee3da014a4117632( #"steampunkmelee", &function_8a3e94642281db28 );
+    function_ee3da014a4117632( #"gvibesmelee", &function_70c79427f7f7b046 );
+    function_ee3da014a4117632( #"deadopsmelee", &function_e0d25276ba90ddd2 );
+    function_ee3da014a4117632( #"cartoonmelee", &function_fdef5d3b5ebecefe );
     function_ee3da014a4117632( #"hash_ef445cc36fc4f18c", &function_add52bc88c7f4b5f );
     function_ee3da014a4117632( #"hash_55b6eb9101b2e193", &function_679168476fe4e4e2 );
     function_ee3da014a4117632( #"hash_345b7545d4578762", &function_3233f38770168c37 );
     function_ee3da014a4117632( #"hash_d3b0705a5ff4f233", &function_8efa8b8c894fca98 );
     function_ee3da014a4117632( #"hash_b651841b688039e8", &function_8fcdcad357a21cb3 );
-    function_ee3da014a4117632( #"hash_7bd78173375f37b2", &function_9ba4703156f6a935 );
+    function_ee3da014a4117632( #"bigjokemelee", &function_9ba4703156f6a935 );
     function_ee3da014a4117632( #"hash_886a93f35e370183", &function_9cd1f18cc02aa1d4 );
     function_ee3da014a4117632( #"hash_94c407fb854900cc", &function_19221b97e8a0fc0d );
     function_ee3da014a4117632( #"hash_327eb4b61aed9b6", &function_a4b186b340f4951d );
-    function_ee3da014a4117632( #"hash_5104472de3088614", &function_b01b5c2c9d832343 );
-    function_ee3da014a4117632( #"hash_c7c4485060558d55", &function_f1c4db47cbe0c4da );
-    function_ee3da014a4117632( #"hash_5e573f0718ff691", &function_88ed32f74f3bde2e );
-    function_ee3da014a4117632( #"hash_df11ca7aaf7afc83", &function_5cd363f0519189cc );
-    function_ee3da014a4117632( #"hash_b3bb69094e0c98f5", &function_35bdc6f5345139d8 );
-    function_ee3da014a4117632( #"hash_4294cccf8fee7146", &function_3efb7c693ed2c9bf );
-    function_ee3da014a4117632( #"hash_d28901253a8ce414", &function_b2235b457eb3ba6d );
-    function_ee3da014a4117632( #"hash_477b55c8894cbc2c", &function_69aabe05bb1d9b65 );
-    function_ee3da014a4117632( #"hash_2591bd651b7893f2", &function_90969660ae379481 );
-    function_ee3da014a4117632( #"hash_3b2a7b7104b261f3", &function_c6cd4b6cb3f433dc );
-    function_ee3da014a4117632( #"hash_6b6e7ddaf1139e75", &function_a15233f558919f6a );
-    function_ee3da014a4117632( #"hash_617d3bc07f03ef6a", &function_ad81703b0dbdcfd7 );
-    function_ee3da014a4117632( #"hash_7ae7381252ce66d5", &function_26bd1f44452df27c );
-    function_ee3da014a4117632( #"hash_de0beab9040cd6e2", &function_721f1aa368179ac3 );
+    function_ee3da014a4117632( #"baconmelee", &function_b01b5c2c9d832343 );
+    function_ee3da014a4117632( #"tomatomelee", &function_f1c4db47cbe0c4da );
+    function_ee3da014a4117632( #"sswordmelee", &function_88ed32f74f3bde2e );
+    function_ee3da014a4117632( #"dinomelee", &function_5cd363f0519189cc );
+    function_ee3da014a4117632( #"corgimelee", &function_35bdc6f5345139d8 );
+    function_ee3da014a4117632( #"aqueenmelee", &function_3efb7c693ed2c9bf );
+    function_ee3da014a4117632( #"hobbyhorsemelee", &function_b2235b457eb3ba6d );
+    function_ee3da014a4117632( #"poodlemelee", &function_69aabe05bb1d9b65 );
+    function_ee3da014a4117632( #"ikwydlsmelee", &function_90969660ae379481 );
+    function_ee3da014a4117632( #"ahstormaremelee", &function_c6cd4b6cb3f433dc );
+    function_ee3da014a4117632( #"tsoldiermelee", &function_a15233f558919f6a );
+    function_ee3da014a4117632( #"wninjamelee", &function_ad81703b0dbdcfd7 );
+    function_ee3da014a4117632( #"bluntevmelee", &function_26bd1f44452df27c );
+    function_ee3da014a4117632( #"mskatemelee", &function_721f1aa368179ac3 );
     function_d4f0e25fa6f90008( #"ufosm", &function_afd4ef408179cc, &function_80325eed89fbbec6 );
     function_d4f0e25fa6f90008( #"ufolg", &function_c6229012d9ae2e31, &function_80325eed89fbbec6 );
     function_d4f0e25fa6f90008( #"goldengun", &function_58a3eb2b8522894f, &function_3d5471b0be7f573 );
@@ -1273,11 +1273,11 @@ function private function_25b556f1c287bea0( attacker, objweapon, meansofdeath, h
         
         if ( isdefined( blueprintdeathfx ) )
         {
-            if ( blueprintdeathfx == #"blackcell_s5Melee" )
+            if ( blueprintdeathfx == #"blackcell_s5melee" )
             {
                 return 0;
             }
-            else if ( blueprintdeathfx == #"gilmanMelee" )
+            else if ( blueprintdeathfx == #"gilmanmelee" )
             {
                 return 0;
             }
@@ -6097,7 +6097,7 @@ function private function_69c7f36d235265fe()
     {
         self waittill( "weapon_switch_started", weapon );
         
-        if ( function_765a22b52d7fbd68( weapon ) != #"soulEater" )
+        if ( function_765a22b52d7fbd68( weapon ) != #"souleater" )
         {
             self notify( "stop_soul_suck" );
         }
@@ -6117,10 +6117,10 @@ function private function_7a929edf3ec1ac4a( soulent )
     hovertime = function_bba71cb4a381e2bc( soulent, var_78ec8791b63f8c69, movetime );
     destinationtime = var_78ec8791b63f8c69 + movetime + hovertime;
     soulent.destinationtime = destinationtime;
-    soulent setscriptablepartstate( #"soulEater", "hover" );
+    soulent setscriptablepartstate( #"souleater", "hover" );
     soulent moveto( soulent.origin + ( 0, 0, 15 ), 0.7 );
     wait hovertime / 1000;
-    soulent setscriptablepartstate( #"soulEater", "suck" );
+    soulent setscriptablepartstate( #"souleater", "suck" );
     var_a40e01b01f05959d = gettime();
     zoffsetmax = undefined;
     yoffsetmax = undefined;
@@ -6279,7 +6279,7 @@ function private function_7c725f6703ab1e75()
 // Size: 0x21
 function private function_a841d2c24597b9b2( soulent )
 {
-    soulent setscriptablepartstate( #"soulEater", "vanish" );
+    soulent setscriptablepartstate( #"souleater", "vanish" );
 }
 
 // Namespace namespace_f6c441748a84c612

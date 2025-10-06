@@ -289,7 +289,7 @@ function function_fb85603965ac497a( streakinfo )
         var_65934120c2efeb81 = 2;
     }
     
-    thread killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, "airdrop_escort" + "_use", #"use", 1, var_65934120c2efeb81 );
+    thread killstreak_utility::playkillstreaktacomdialog( streakinfo, "airdrop_escort" + "_use", #"use", 1, var_65934120c2efeb81 );
     killstreak_utility::function_e4f54128963e182( "airdrop_escort_turret_ballistics_mp" );
     return useresult;
 }
@@ -443,9 +443,9 @@ function function_ddd3316e3a4a5b39( owner, team, position, escorttype, streakinf
     escortheli function_de7788e44e24a2c9( 1 );
     level thread killstreak_utility::function_6348c97b79ee8a08( escortheli, owner, &function_dd94d0f4352b76a );
     
-    if ( utility::issharedfuncdefined( #"airdrop_escort", #"hash_61c01470a30db5f9" ) )
+    if ( utility::issharedfuncdefined( #"airdrop_escort", #"attachxrays" ) )
     {
-        escortheli = [[ utility::getsharedfunc( #"airdrop_escort", #"hash_61c01470a30db5f9" ) ]]( escortheli );
+        escortheli = [[ utility::getsharedfunc( #"airdrop_escort", #"attachxrays" ) ]]( escortheli );
     }
     
     escortheli emp_debuff::set_start_emp_callback( &function_ace968b5e3bf77e2 );
@@ -504,7 +504,7 @@ function function_ddd3316e3a4a5b39( owner, team, position, escorttype, streakinf
         escortheli.turret settargetentity( escortheli.turret.groundtargetent );
     }
     
-    escortheli.killcament = spawn( "script_model", escortheli.turret gettagorigin( escortheli.turret tagexists( #"hash_7028b1bf25567f50" ) ? #"hash_7028b1bf25567f50" : #"tag_origin" ) );
+    escortheli.killcament = spawn( "script_model", escortheli.turret gettagorigin( escortheli.turret tagexists( #"bi_center" ) ? #"bi_center" : #"tag_origin" ) );
     escortheli.killcament linkto( escortheli, "tag_origin", ( -1000, 0, 700 ), ( 0, 0, 0 ) );
     escortheli.turret.killcament = escortheli.killcament;
     
@@ -517,7 +517,7 @@ function function_ddd3316e3a4a5b39( owner, team, position, escorttype, streakinf
         
         if ( team != "neutral" )
         {
-            escortheli namespace_ad759605acee2bf1::registersentient( "Killstreak_Air", owner );
+            escortheli sentientpoolmanager::registersentient( "Killstreak_Air", owner );
         }
     }
     
@@ -612,14 +612,14 @@ function function_adea8457e06fabfc( data )
     attacker = data.attacker;
     damage = data.damage;
     self.currenthealth -= damage;
-    killstreak_utility::function_f3a18a0f4352c1a6( self.currenthealth );
+    killstreak_utility::killstreak_updatedamagestate( self.currenthealth );
     
     if ( !isdefined( self.var_57b4f05eb0eb149 ) )
     {
         if ( self.currenthealth / self.maxhealth <= 0.5 )
         {
             self.var_57b4f05eb0eb149 = 1;
-            self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"taking_damage", 1 );
+            self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"taking_damage", 1 );
         }
     }
     
@@ -753,7 +753,7 @@ function function_3224a188389dc1f4( speed, weaponkilledby, var_efd6abd0ea217b3d 
     {
         self function_d2b8ee2e1275daaf( 0 );
         self vehphys_enablecollisioncallback( 1 );
-        thread traceForAnyCollision();
+        thread traceforanycollision();
         var_44aa5bb822b01ff0 = bundle.var_59c1f28fba40f5b5 ?? 5;
         utility::waittill_any_timeout( var_44aa5bb822b01ff0, "collision" );
         self notify( "stop_trace_for_any_collision" );
@@ -768,7 +768,7 @@ function function_3224a188389dc1f4( speed, weaponkilledby, var_efd6abd0ea217b3d 
 // Params 0, eflags: 0xc
 // Checksum 0xaf7d8fe6, Offset: 0x22d2
 // Size: 0x104
-function private traceForAnyCollision()
+function private traceforanycollision()
 {
     self notify( "c495872dcd71cfc9" );
     self endon( "c495872dcd71cfc9" );
@@ -855,7 +855,7 @@ function function_1043e04896114883( escorttype )
     {
         self.defaultaction = "heli_overwatch";
         self.defaultactionfunc = &function_bb606bfa60e0a703;
-        self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"arrive", 1 );
+        self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"arrive", 1 );
         thread function_bb606bfa60e0a703();
         
         if ( self.bundle.var_41a138042da8063f )
@@ -900,12 +900,12 @@ function private hack( hackeffect, attacker )
 {
     if ( hackeffect.var_135f82267fbeaa5b )
     {
-        self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"hash_bee0342dceb8fa9c" );
+        self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"hash_bee0342dceb8fa9c" );
         thread function_b1b3b8f7f5848ed5( hackeffect.var_135f82267fbeaa5b );
         return;
     }
     
-    self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"hash_412d5726f107927d" );
+    self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"hash_412d5726f107927d" );
     self.var_636fd0912ee154e4 = attacker;
 }
 
@@ -972,9 +972,9 @@ function function_ca694aba21d33bf7()
     self.var_1717a034842e3ec3 = int( self.lifetime * 1000 + gettime() );
     var_e9f790895ca80410 = self.lifetime * 0.5;
     wait var_e9f790895ca80410;
-    self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"time_check", 1 );
+    self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"time_check", 1 );
     wait var_e9f790895ca80410;
-    self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"time_out", 1 );
+    self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"time_out", 1 );
     thread function_72b3d294fc61b26c();
 }
 
@@ -1342,7 +1342,7 @@ function function_72b3d294fc61b26c()
     self notify( "leaving" );
     self.var_b8aae568e66b4bc7 = 1;
     bundle = self.bundle;
-    killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, "airdrop_escort" + "_leave", #"leave", 1 );
+    killstreak_utility::playkillstreaktacomdialog( self.streakinfo, "airdrop_escort" + "_leave", #"leave", 1 );
     var_afb8f3b781e97c77 = 3;
     flightheightoffset = ( 0, 0, 1000 );
     var_7de37a63fdf1b0f = self.origin + flightheightoffset;
@@ -1419,7 +1419,7 @@ function function_dd94d0f4352b76a()
     
     self notify( "explode" );
     self.isexploding = 1;
-    self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"destroyed", 1 );
+    self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"destroyed", 1 );
     function_c4e3922085f5dcae();
     wait 0.35;
     function_9591f030b71d0d4f( 1 );
@@ -1455,7 +1455,7 @@ function function_9591f030b71d0d4f( wasdestroyed )
     }
     
     self.var_4cddc943547d452d = 1;
-    level callback::callback( #"hash_34a592b0eae7cc8b", { #streakinfo:self.streakinfo } );
+    level callback::callback( #"killstreak_finish_use", { #streakinfo:self.streakinfo } );
     turret::function_2ef86cb867c53ac1( self.owner );
     
     /#
@@ -1631,7 +1631,7 @@ function function_f5fea8d2713ceb28( targetdata )
     
     if ( isdefined( self.owner ) && self.owner player::isreallyalive() && ( !isdefined( self.lastfiretime ) || self.lastfiretime + 15000 <= gettime() ) )
     {
-        killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, "airdrop_escort" + "_spotted_target", #"spotted_single", 1 );
+        killstreak_utility::playkillstreaktacomdialog( self.streakinfo, "airdrop_escort" + "_spotted_target", #"spotted_single", 1 );
         self.lastfiretime = gettime();
     }
     
@@ -1820,7 +1820,7 @@ function function_33e6f2d98471f57b()
     }
     
     dialogueref = self.killcount > 3 ? "kill_multiple" : "kill_" + self.killcount;
-    self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, getxhash( dialogueref ), 1 );
+    self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, getxhash( dialogueref ), 1 );
     self.killcount = undefined;
 }
 
@@ -1838,7 +1838,7 @@ function function_ae6edf60b5cc7eaa()
         return;
     }
     
-    self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"hit", 0 );
+    self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"hit", 0 );
 }
 
 // Namespace airdrop_escort
@@ -2302,7 +2302,7 @@ function private function_7c893d8f64799c54()
     self endon( "death", "explode", "crashing", "leaving" );
     thread function_f4d8732d48194a6c();
     var_b033b1ccf03ecb20 = 500;
-    killstreak_utility::function_92b58f17af03198f( self.streakinfo.streakname, self.owner, &"KILLSTREAKS_HINTS/AIRDROP_ESCORT_GUARD_LOCATION", #"guard_location", 1, undefined, var_b033b1ccf03ecb20 );
+    killstreak_utility::function_92b58f17af03198f( self.streakinfo.streakname, self.owner, &"killstreaks_hints/airdrop_escort_guard_location", #"guard_location", 1, undefined, var_b033b1ccf03ecb20 );
     self.useobj.var_b9a68085ae16a617 = #"guard_location";
     
     while ( true )
@@ -2314,7 +2314,7 @@ function private function_7c893d8f64799c54()
             if ( function_ddbedc549e4cd38f() )
             {
                 killstreak_utility::function_79acee879fb17c4a( self.owner, self.streakinfo.streakname );
-                killstreak_utility::function_92b58f17af03198f( self.streakinfo.streakname, self.owner, &"KILLSTREAKS_HINTS/AIRDROP_ESCORT_GUARD_OWNER", #"guard_owner", 1, undefined, var_b033b1ccf03ecb20 );
+                killstreak_utility::function_92b58f17af03198f( self.streakinfo.streakname, self.owner, &"killstreaks_hints/airdrop_escort_guard_owner", #"guard_owner", 1, undefined, var_b033b1ccf03ecb20 );
                 self.useobj.var_b9a68085ae16a617 = #"guard_owner";
             }
             
@@ -2325,7 +2325,7 @@ function private function_7c893d8f64799c54()
         {
             function_4cbce4ccb29e85ef();
             killstreak_utility::function_79acee879fb17c4a( self.owner, self.streakinfo.streakname );
-            killstreak_utility::function_92b58f17af03198f( self.streakinfo.streakname, self.owner, &"KILLSTREAKS_HINTS/AIRDROP_ESCORT_GUARD_LOCATION", #"guard_location", 1, undefined, var_b033b1ccf03ecb20 );
+            killstreak_utility::function_92b58f17af03198f( self.streakinfo.streakname, self.owner, &"killstreaks_hints/airdrop_escort_guard_location", #"guard_location", 1, undefined, var_b033b1ccf03ecb20 );
             self.useobj.var_b9a68085ae16a617 = #"guard_location";
         }
     }
@@ -2416,7 +2416,7 @@ function private function_3049cf4cb603f6d3()
 {
     if ( self && self.var_14e157060657afca )
     {
-        self.var_14e157060657afca namespace_ac1cfbde1756873::returnobjectiveid( self.var_14e157060657afca.objidnum );
+        self.var_14e157060657afca objidpoolmanager::returnobjectiveid( self.var_14e157060657afca.objidnum );
         self.var_14e157060657afca delete();
         self.var_14e157060657afca = undefined;
     }
@@ -2441,16 +2441,16 @@ function private function_f4d8732d48194a6c()
 function private function_a0c21c1357421b80()
 {
     self.icon = self.bundle.var_864af28e64550bfb ?? "hud_icon_killstreak_escort_airdrop";
-    namespace_ac1cfbde1756873::function_e4d6a71507372662( self.objidnum, 0 );
-    namespace_ac1cfbde1756873::objective_add_objective( self.objidnum, "current", undefined, self.icon, "icon_small" );
-    namespace_ac1cfbde1756873::update_objective_onentity( self.objidnum, self );
-    namespace_ac1cfbde1756873::objective_playermask_single( self.objidnum, self.owner );
-    namespace_ac1cfbde1756873::update_objective_setzoffset( self.objidnum, 50 );
-    namespace_ac1cfbde1756873::objective_set_play_intro( self.objidnum, 0 );
-    namespace_ac1cfbde1756873::objective_set_play_outro( self.objidnum, 0 );
-    namespace_ac1cfbde1756873::update_objective_setbackground( self.objidnum, 1 );
-    namespace_ac1cfbde1756873::function_79ca076cf9eccbd9( self.objidnum, 1 );
-    namespace_ac1cfbde1756873::update_objective_ownerclient( self.objidnum, self.owner );
+    objidpoolmanager::function_e4d6a71507372662( self.objidnum, 0 );
+    objidpoolmanager::objective_add_objective( self.objidnum, "current", undefined, self.icon, "icon_small" );
+    objidpoolmanager::update_objective_onentity( self.objidnum, self );
+    objidpoolmanager::objective_playermask_single( self.objidnum, self.owner );
+    objidpoolmanager::update_objective_setzoffset( self.objidnum, 50 );
+    objidpoolmanager::objective_set_play_intro( self.objidnum, 0 );
+    objidpoolmanager::objective_set_play_outro( self.objidnum, 0 );
+    objidpoolmanager::update_objective_setbackground( self.objidnum, 1 );
+    objidpoolmanager::function_79ca076cf9eccbd9( self.objidnum, 1 );
+    objidpoolmanager::update_objective_ownerclient( self.objidnum, self.owner );
 }
 
 /#

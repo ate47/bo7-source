@@ -1471,7 +1471,7 @@ function private hack( hackeffect, attacker )
     }
     
     self.owner thread equipment_utility::function_364a1a0e0c018518( self.equipmentref, #"hash_412d5726f107927d" );
-    attacker thread points::function_4f713a46699e559d( #"hash_32dfbbfece96181f" );
+    attacker thread points::doscoreevent( #"hash_32dfbbfece96181f" );
     thread function_e3e9b944bde1ba13( undefined, 1 );
 }
 

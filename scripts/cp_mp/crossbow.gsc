@@ -1317,7 +1317,7 @@ function function_6db52ce8e25a40a5( bolt, hitent, hitentpart )
         
         if ( bolt.ammotype == "bolt_fire" )
         {
-            hitent thread doCrossbowHitPlayerThermiteSounds();
+            hitent thread docrossbowhitplayerthermitesounds();
         }
     }
     
@@ -1762,7 +1762,7 @@ function function_c39894740165284f()
 // Params 0
 // Checksum 0x5ff293d6, Offset: 0x32a8
 // Size: 0x8e
-function doCrossbowHitPlayerThermiteSounds()
+function docrossbowhitplayerthermitesounds()
 {
     var_7e6c10641c1c235e = spawn( "script_origin", self.origin );
     var_7e6c10641c1c235e.targetname = "doCrossbowHitPlayerThermiteSounds";

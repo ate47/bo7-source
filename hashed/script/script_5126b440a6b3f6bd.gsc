@@ -145,7 +145,7 @@ function function_9e4e05d4a0277348( params )
     {
         if ( distancesquared( self.origin, var_6ffdd837c4fe2982.origin ) <= level.var_ef60871979b5dce1 )
         {
-            var_6ffdd837c4fe2982 points::function_4f713a46699e559d( #"hash_9af51e22b4237a27" );
+            var_6ffdd837c4fe2982 points::doscoreevent( #"hash_9af51e22b4237a27" );
         }
     }
 }

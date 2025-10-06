@@ -360,7 +360,7 @@ version 1 {
     // offset: 0x5ab8, bitSize: 0x26ac0(0x4d58 Byte(s)), array:0xc8(hti:0xffff)
     Player players[200];
     // offset: 0x2c578, bitSize: 0x100(0x20 Byte(s))
-    string(32) hash_9072f53832052deb;
+    string(32) gametypenamekey;
     // offset: 0x2c678, bitSize: 0x10(0x2 Byte(s))
     short deathcount;
     // offset: 0x2c688, bitSize: 0x1

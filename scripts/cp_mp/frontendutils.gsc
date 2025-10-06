@@ -1502,11 +1502,11 @@ function private execute_transition( requestedsection, sectionfrom )
     fadeouttime = undefined;
     fadeintime = undefined;
     cinematicname = undefined;
-    accelScalar = undefined;
-    decelScalar = undefined;
+    accelscalar = undefined;
+    decelscalar = undefined;
     movetime = undefined;
     use_bounce = undefined;
-    keepXCam = undefined;
+    keepxcam = undefined;
     
     if ( isdefined( transitionarray[ requestedsection.name ] ) )
     {
@@ -1521,11 +1521,11 @@ function private execute_transition( requestedsection, sectionfrom )
             fadeouttime = sectiontransition[ sectionfrom ][ "fadeOutTime" ];
             fadeintime = sectiontransition[ sectionfrom ][ "fadeInTime" ];
             cinematicname = sectiontransition[ sectionfrom ][ "cinematicName" ];
-            accelScalar = sectiontransition[ sectionfrom ][ "accelScalar" ];
-            decelScalar = sectiontransition[ sectionfrom ][ "decelScalar" ];
+            accelscalar = sectiontransition[ sectionfrom ][ "accelScalar" ];
+            decelscalar = sectiontransition[ sectionfrom ][ "decelScalar" ];
             movetime = sectiontransition[ sectionfrom ][ "moveTime" ];
             use_bounce = sectiontransition[ sectionfrom ][ "use_bounce" ];
-            keepXCam = sectiontransition[ sectionfrom ][ "keepXCam" ];
+            keepxcam = sectiontransition[ sectionfrom ][ "keepXCam" ];
             
             if ( isdefined( sectiontransition[ sectionfrom ][ "transition" ] ) )
             {
@@ -1567,14 +1567,14 @@ function private execute_transition( requestedsection, sectionfrom )
                 cinematicname = defaulttransition[ "cinematicName" ];
             }
             
-            if ( !isdefined( accelScalar ) )
+            if ( !isdefined( accelscalar ) )
             {
-                accelScalar = defaulttransition[ "accelScalar" ];
+                accelscalar = defaulttransition[ "accelScalar" ];
             }
             
-            if ( !isdefined( decelScalar ) )
+            if ( !isdefined( decelscalar ) )
             {
-                decelScalar = defaulttransition[ "decelScalar" ];
+                decelscalar = defaulttransition[ "decelScalar" ];
             }
             
             if ( !isdefined( movetime ) )
@@ -1587,9 +1587,9 @@ function private execute_transition( requestedsection, sectionfrom )
                 use_bounce = defaulttransition[ "use_bounce" ];
             }
             
-            if ( !isdefined( keepXCam ) )
+            if ( !isdefined( keepxcam ) )
             {
-                keepXCam = defaulttransition[ "keepXCam" ];
+                keepxcam = defaulttransition[ "keepXCam" ];
             }
         }
     }
@@ -1629,12 +1629,12 @@ function private execute_transition( requestedsection, sectionfrom )
             cinematicname = level.active_scene_data.cinematic;
         }
         
-        if ( !isdefined( keepXCam ) )
+        if ( !isdefined( keepxcam ) )
         {
-            keepXCam = 0;
+            keepxcam = 0;
         }
         
-        [[ transition ]]( level.active_camera, fov, cinematicname, fadeouttime, fadeintime, callback, keepXCam );
+        [[ transition ]]( level.active_camera, fov, cinematicname, fadeouttime, fadeintime, callback, keepxcam );
     }
     else if ( transition == &frontend_camera_move )
     {
@@ -1643,14 +1643,14 @@ function private execute_transition( requestedsection, sectionfrom )
             fov = level.active_scene_data.myfov;
         }
         
-        if ( !isdefined( accelScalar ) )
+        if ( !isdefined( accelscalar ) )
         {
-            accelScalar = 0.1;
+            accelscalar = 0.1;
         }
         
-        if ( !isdefined( decelScalar ) )
+        if ( !isdefined( decelscalar ) )
         {
-            decelScalar = 0.1;
+            decelscalar = 0.1;
         }
         
         if ( !isdefined( speed ) )
@@ -1676,7 +1676,7 @@ function private execute_transition( requestedsection, sectionfrom )
             callback = &update_camera_depth_of_field_slowly;
         }
         
-        [[ transition ]]( level.active_camera, speed, 0, 1, callback, accelScalar, decelScalar, use_bounce, movetime );
+        [[ transition ]]( level.active_camera, speed, 0, 1, callback, accelscalar, decelscalar, use_bounce, movetime );
     }
     else
     {
@@ -1698,7 +1698,7 @@ function private execute_transition( requestedsection, sectionfrom )
 // Params 6, eflags: 0x4
 // Checksum 0xc41be855, Offset: 0x7f2d
 // Size: 0x1ff
-function private camera_move_helper( moveto, movetime, var_1adb39a59259db47, accelScalar, decelScalar, use_bounce )
+function private camera_move_helper( moveto, movetime, var_1adb39a59259db47, accelscalar, decelscalar, use_bounce )
 {
     level.playerviewowner function_fa0ccd6d13222597( moveto.origin );
     
@@ -1712,8 +1712,8 @@ function private camera_move_helper( moveto, movetime, var_1adb39a59259db47, acc
     
     if ( var_1adb39a59259db47 )
     {
-        var_eb0caeeb90286a8d = movetime * accelScalar;
-        var_f7271cfc31d01b2c = movetime * decelScalar;
+        var_eb0caeeb90286a8d = movetime * accelscalar;
+        var_f7271cfc31d01b2c = movetime * decelscalar;
     }
     
     if ( use_bounce )
@@ -1746,7 +1746,7 @@ function private camera_move_helper( moveto, movetime, var_1adb39a59259db47, acc
 // Params 9, eflags: 0x4
 // Checksum 0x764b8244, Offset: 0x8134
 // Size: 0x45a
-function private frontend_camera_move( movetoorigin, speed, var_739d2e550cb0522d, var_1adb39a59259db47, var_5b95545ebb6a9e5d, accelScalar, decelScalar, use_bounce, movetime )
+function private frontend_camera_move( movetoorigin, speed, var_739d2e550cb0522d, var_1adb39a59259db47, var_5b95545ebb6a9e5d, accelscalar, decelscalar, use_bounce, movetime )
 {
     level endon( "game_ended" );
     self endon( "disconnect" );
@@ -1820,15 +1820,15 @@ function private frontend_camera_move( movetoorigin, speed, var_739d2e550cb0522d
     }
     else
     {
-        camera_move_helper( moveto_origin, movetime, var_1adb39a59259db47, accelScalar, decelScalar, use_bounce );
+        camera_move_helper( moveto_origin, movetime, var_1adb39a59259db47, accelscalar, decelscalar, use_bounce );
     }
     
-    var_4f75ec1e76510365 = accelScalar + decelScalar;
+    var_4f75ec1e76510365 = accelscalar + decelscalar;
     
     if ( var_4f75ec1e76510365 > 1 )
     {
-        accelScalar /= var_4f75ec1e76510365;
-        decelScalar /= var_4f75ec1e76510365;
+        accelscalar /= var_4f75ec1e76510365;
+        decelscalar /= var_4f75ec1e76510365;
     }
     
     while ( isdefined( moveto_origin.target ) && !var_ea049a95e9728e95 )
@@ -1839,7 +1839,7 @@ function private frontend_camera_move( movetoorigin, speed, var_739d2e550cb0522d
         }
         
         moveto_origin = getent( moveto_origin.target, #targetname );
-        camera_move_helper( moveto_origin, movetime, var_1adb39a59259db47, accelScalar, decelScalar, use_bounce );
+        camera_move_helper( moveto_origin, movetime, var_1adb39a59259db47, accelscalar, decelscalar, use_bounce );
     }
     
     level.camera_anchor.move_target = undefined;
@@ -1856,7 +1856,7 @@ function private frontend_camera_move( movetoorigin, speed, var_739d2e550cb0522d
 // Params 7, eflags: 0x4
 // Checksum 0x73e3ec90, Offset: 0x8596
 // Size: 0x35a
-function private frontend_camera_teleport( camera, fov, cinematicname, fadeouttime, fadeintime, var_d1ecabb6e179bdcf, keepXCam )
+function private frontend_camera_teleport( camera, fov, cinematicname, fadeouttime, fadeintime, var_d1ecabb6e179bdcf, keepxcam )
 {
     level endon( "game_ended" );
     self endon( "disconnect" );
@@ -1869,7 +1869,7 @@ function private frontend_camera_teleport( camera, fov, cinematicname, fadeoutti
     setomnvar( "frontend_screen_black", 1 );
     xcam = function_fcd62fd219292ac7();
     
-    if ( isdefined( xcam ) && !keepXCam )
+    if ( isdefined( xcam ) && !keepxcam )
     {
         end_current_xcam();
     }
@@ -3151,7 +3151,7 @@ function private function_3fad19a839960056( scenename, flagmsg, previousscene )
 // Params 3, eflags: 0x4
 // Checksum 0x762f1cf1, Offset: 0xb289
 // Size: 0x446
-function private function_1e7850979a3e84ab( scenename, flagmsg, previousscene )
+function private LUA_TRIGGERED_XCAM_MM( scenename, flagmsg, previousscene )
 {
     level endon( "game_ended" );
     self endon( "disconnect" );
@@ -3274,14 +3274,14 @@ function private function_8f61bece4244b228( scenename, flagmsg )
     level endon( "disconnect" );
     level endon( "xcam_transition" );
     utility::flag_wait( "zoom_clear" );
-    level thread function_ad5635b33a05128( scenename, flagmsg );
+    level thread LUA_TRIGGERED_ATTACHMENT_ZOOM( scenename, flagmsg );
 }
 
 // Namespace frontendutils
 // Params 3, eflags: 0x4
 // Checksum 0x555c6c29, Offset: 0xb7d5
 // Size: 0x410
-function private function_ad5635b33a05128( scenename, flagmsg, previousscene )
+function private LUA_TRIGGERED_ATTACHMENT_ZOOM( scenename, flagmsg, previousscene )
 {
     level endon( "game_ended" );
     self endon( "disconnect" );
@@ -3769,13 +3769,13 @@ function private function_966a53d8bb70bfed( var_69828e4c36ce3972 )
     switch ( var_69828e4c36ce3972.callbacktype )
     {
         case #"hash_83e910d043e7613a":
-            var_51f05b419fa744c7[ "callback" ] = &function_1e7850979a3e84ab;
+            var_51f05b419fa744c7[ "callback" ] = &LUA_TRIGGERED_XCAM_MM;
             break;
         case #"hash_daf4861dedb70c73":
             var_51f05b419fa744c7[ "callback" ] = &function_3fad19a839960056;
             break;
         case #"hash_be26b70a0de5b599":
-            var_51f05b419fa744c7[ "callback" ] = &function_ad5635b33a05128;
+            var_51f05b419fa744c7[ "callback" ] = &LUA_TRIGGERED_ATTACHMENT_ZOOM;
             break;
         case #"hash_9bdce31b93c9f5ca":
             var_51f05b419fa744c7[ "callback" ] = &function_2aa9003d1deb6e99;
@@ -3816,7 +3816,7 @@ function private function_86333647f10b7941()
     {
         var_1d22ece93818d778[ "squad_lobby" ][ "transitions" ][ 1 ] = "jup_fe_lobby_plow_cam_01_idle_squad_01_xcam";
         var_1d22ece93818d778[ "squad_lobby" ][ "transitions" ][ 2 ] = "jup_fe_lobby_plow_cam_01_idle_squad_01_xcam";
-        var_1d22ece93818d778[ "squad_lobby" ][ "callback" ] = &function_1e7850979a3e84ab;
+        var_1d22ece93818d778[ "squad_lobby" ][ "callback" ] = &LUA_TRIGGERED_XCAM_MM;
         var_1d22ece93818d778[ "squad_lobby" ][ "flag_msg" ] = [ "lobby_member_increase", "started_mm" ];
     }
     
@@ -3841,7 +3841,7 @@ function private function_86333647f10b7941()
     {
         var_1d22ece93818d778[ "squad_lobby_dmz" ][ "transitions" ][ 1 ] = "fe_lobby_plow_cam_01_idle_squad_01_xcam";
         var_1d22ece93818d778[ "squad_lobby_dmz" ][ "transitions" ][ 2 ] = "fe_lobby_plow_cam_01_mm_01_xcam";
-        var_1d22ece93818d778[ "squad_lobby_dmz" ][ "callback" ] = &function_1e7850979a3e84ab;
+        var_1d22ece93818d778[ "squad_lobby_dmz" ][ "callback" ] = &LUA_TRIGGERED_XCAM_MM;
         var_1d22ece93818d778[ "squad_lobby_dmz" ][ "flag_msg" ] = [ "lobby_member_increase", "started_mm" ];
     }
     
@@ -3866,7 +3866,7 @@ function private function_86333647f10b7941()
     {
         var_1d22ece93818d778[ "squad_lobby_br" ][ "transitions" ][ 1 ] = "fe_lobby_plow_cam_01_idle_squad_01_xcam";
         var_1d22ece93818d778[ "squad_lobby_br" ][ "transitions" ][ 2 ] = "fe_lobby_plow_cam_01_mm_01_xcam";
-        var_1d22ece93818d778[ "squad_lobby_br" ][ "callback" ] = &function_1e7850979a3e84ab;
+        var_1d22ece93818d778[ "squad_lobby_br" ][ "callback" ] = &LUA_TRIGGERED_XCAM_MM;
         var_1d22ece93818d778[ "squad_lobby_br" ][ "flag_msg" ] = [ "lobby_member_increase", "started_mm" ];
     }
     
@@ -4009,7 +4009,7 @@ function private function_86333647f10b7941()
         var_1d22ece93818d778[ "loadout_showcase_preview_small" ][ "transitions" ][ 10 ] = "mgl_fe_op_crib_xcam_gunbench_01_topright_xcam";
     }
     
-    var_1d22ece93818d778[ "loadout_showcase_preview_small" ][ "callback" ] = &function_ad5635b33a05128;
+    var_1d22ece93818d778[ "loadout_showcase_preview_small" ][ "callback" ] = &LUA_TRIGGERED_ATTACHMENT_ZOOM;
     var_1d22ece93818d778[ "loadout_showcase_preview_small" ][ "flag_msg" ] = "zoom_triggered";
     var_1d22ece93818d778[ "loadout_showcase_preview" ] = [];
     var_1d22ece93818d778[ "loadout_showcase_preview" ][ "xcam_data" ] = spawnstruct();
@@ -4032,7 +4032,7 @@ function private function_86333647f10b7941()
         var_1d22ece93818d778[ "loadout_showcase_preview" ][ "transitions" ][ 10 ] = "mgl_fe_op_crib_xcam_gunbench_02_topright_xcam";
     }
     
-    var_1d22ece93818d778[ "loadout_showcase_preview" ][ "callback" ] = &function_ad5635b33a05128;
+    var_1d22ece93818d778[ "loadout_showcase_preview" ][ "callback" ] = &LUA_TRIGGERED_ATTACHMENT_ZOOM;
     var_1d22ece93818d778[ "loadout_showcase_preview" ][ "flag_msg" ] = "zoom_triggered";
     var_1d22ece93818d778[ "loadout_showcase_preview_large" ] = [];
     var_1d22ece93818d778[ "loadout_showcase_preview_large" ][ "xcam_data" ] = spawnstruct();
@@ -4055,7 +4055,7 @@ function private function_86333647f10b7941()
         var_1d22ece93818d778[ "loadout_showcase_preview_large" ][ "transitions" ][ 10 ] = "mgl_fe_op_crib_xcam_gunbench_03_topright_xcam";
     }
     
-    var_1d22ece93818d778[ "loadout_showcase_preview_large" ][ "callback" ] = &function_ad5635b33a05128;
+    var_1d22ece93818d778[ "loadout_showcase_preview_large" ][ "callback" ] = &LUA_TRIGGERED_ATTACHMENT_ZOOM;
     var_1d22ece93818d778[ "loadout_showcase_preview_large" ][ "flag_msg" ] = "zoom_triggered";
     var_1d22ece93818d778[ "loadout_showcase_perks" ] = [];
     var_1d22ece93818d778[ "loadout_showcase_perks" ][ "xcam_data" ] = spawnstruct();
@@ -4880,10 +4880,10 @@ function function_8c25621b7e6287c6( var_2e54b8e3bc926c40 )
     var_1845ec84d9ab2f53[ "fov" ] = var_2e54b8e3bc926c40.var_9c69ca1ce3509372;
     var_1845ec84d9ab2f53[ "speed" ] = var_2e54b8e3bc926c40.speed;
     var_1845ec84d9ab2f53[ "moveTime" ] = var_2e54b8e3bc926c40.movetime;
-    var_1845ec84d9ab2f53[ "accelScalar" ] = var_2e54b8e3bc926c40.accelScalar;
-    var_1845ec84d9ab2f53[ "decelScalar" ] = var_2e54b8e3bc926c40.decelScalar;
+    var_1845ec84d9ab2f53[ "accelScalar" ] = var_2e54b8e3bc926c40.accelscalar;
+    var_1845ec84d9ab2f53[ "decelScalar" ] = var_2e54b8e3bc926c40.decelscalar;
     var_1845ec84d9ab2f53[ "use_bounce" ] = var_2e54b8e3bc926c40.usebounce;
-    var_1845ec84d9ab2f53[ "keepXCam" ] = var_2e54b8e3bc926c40.keepXCam;
+    var_1845ec84d9ab2f53[ "keepXCam" ] = var_2e54b8e3bc926c40.keepxcam;
     
     if ( isdefined( var_2e54b8e3bc926c40.transitiontype ) )
     {

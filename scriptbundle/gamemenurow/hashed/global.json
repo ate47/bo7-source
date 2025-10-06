@@ -1,0 +1,111 @@
+{
+    "#hash_105709d89712a6ac": {
+        "#displayconditions": [
+            {
+                "#isinverted": false,
+                "#condition": "IsDevRowEnabled"
+            },
+            {
+                "#isinverted": true,
+                "#condition": "IsClosedInternalAlphaBuild"
+            }
+        ],
+        "#name": "&#lua_menu/development",
+        "#buttons": [
+            {
+                "#hash_7188e58c7b9eb6c8": "playlistselect",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "PlaylistSelect"
+            },
+            {
+                "#hash_7188e58c7b9eb6c8": "cpprivatematch",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "CPPrivateMatch"
+            }
+        ]
+    },
+    "#hash_43ff434e2e1d6fb6": {
+        "#displayconditions": [
+            {
+                "#isinverted": true,
+                "#condition": "IsMagmaGameMode"
+            },
+            {
+                "#isinverted": false,
+                "#condition": "IsMPPrivateMatchEnabled"
+            },
+            {
+                "#isinverted": true,
+                "#condition": "IsClosedInternalAlphaBuild"
+            }
+        ],
+        "#name": "&#menu/private_match",
+        "#buttons": [
+            {
+                "#hash_7188e58c7b9eb6c8": "privatematch",
+                "#disableconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "DoesPartyContainNonPremiumPlayers"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "PrivateMatchMenu"
+            },
+            {
+                "#hash_7188e58c7b9eb6c8": "createPrivateMatch",
+                "#disableconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "DoesPartyContainNonPremiumPlayers"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "CreatePrivateMatch"
+            },
+            {
+                "#hash_7188e58c7b9eb6c8": "joinPrivateMatch",
+                "#disableconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "DoesPartyContainNonPremiumPlayers"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "JoinPrivateMatch"
+            },
+            {
+                "#hash_7188e58c7b9eb6c8": "campaign_missionselect",
+                "#disableconditions": [
+                    {
+                        "#isinverted": true,
+                        "#condition": "IsPremiumPlayer"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "CampaignMissionSelectMenu"
+            }
+        ]
+    },
+    "#hash_579481a08a7abfab": {
+        "#displayconditions": [],
+        "#name": "&#lua_menu_mp/featured",
+        "#buttons": [
+            {
+                "#categoryid": "A",
+                "#disableconditions": [],
+                "#expandcategory": true,
+                "#displayconditions": [],
+                "#buttonaction": "GoToPlaylist"
+            }
+        ]
+    }
+}

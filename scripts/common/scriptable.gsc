@@ -56,11 +56,11 @@ function event_handler[event_fab19dbfa32508bc] function_fab19dbfa32508bc( instan
     return function_1e33a4f0f19aa3a( instance, player );
 }
 
-// Namespace scriptable/event_f63dfc92994ac743
+// Namespace scriptable/scriptable_damage
 // Params 13, eflags: 0x20
 // Checksum 0xd9fbc304, Offset: 0x19b
 // Size: 0x8e
-function event_handler[event_f63dfc92994ac743] function_dc8eae0479686591( note, param, einflictor, eattacker, instance, idamage, idflags, smeansofdeath, objweapon, vdir, shitloc, modelindex, partname )
+function event_handler[scriptable_damage] function_dc8eae0479686591( note, param, einflictor, eattacker, instance, idamage, idflags, smeansofdeath, objweapon, vdir, shitloc, modelindex, partname )
 {
     scriptable_enginedamaged( einflictor, eattacker, instance, idamage, idflags, smeansofdeath, objweapon, vdir, shitloc, modelindex, partname );
 }
@@ -101,11 +101,11 @@ function event_handler[event_c26bb161f32a8f79] function_e238758bb6d06ce2( event,
     function_f9851d1984d0205c( event, scriptables );
 }
 
-// Namespace scriptable/event_db58123977476233
+// Namespace scriptable/scriptable_notify
 // Params 5, eflags: 0x20
 // Checksum 0x27a96ba3, Offset: 0x351
 // Size: 0x3e
-function event_handler[event_db58123977476233] scriptable_notify_callback( instance, note, param, ent, var_64ffacba090c91be )
+function event_handler[scriptable_notify] scriptable_notify_callback( instance, note, param, ent, var_64ffacba090c91be )
 {
     scriptable_enginenotifycallback( instance, note, param, ent, var_64ffacba090c91be );
 }

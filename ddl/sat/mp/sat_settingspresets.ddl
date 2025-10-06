@@ -76,7 +76,7 @@ version 1 {
     // offset: 0x5b0, bitSize: 0x2d8(0x5b Byte(s))
     SplashesUpdatesAlerts hash_41bb25dd9cbd20c4;
     // offset: 0x888, bitSize: 0x2d8(0x5b Byte(s))
-    SplashesUpdatesAlerts hash_41a717dd9cac5ff0;
+    SplashesUpdatesAlerts splashesupdatealertpreset_wz;
     // offset: 0xb60, bitSize: 0x170(0x2e Byte(s))
     SplashesAchievements hash_310b75f55f31ba8e;
     // offset: 0xcd0, bitSize: 0x170(0x2e Byte(s))
@@ -84,8 +84,8 @@ version 1 {
     // offset: 0xe40, bitSize: 0x710(0xe2 Byte(s))
     Quality qualitypreset;
     // offset: 0x1550, bitSize: 0x2d8(0x5b Byte(s))
-    SplashesCallouts hash_5c5a9304dca076eb;
+    SplashesCallouts splashescalloutpreset_mp;
     // offset: 0x1828, bitSize: 0x2d8(0x5b Byte(s))
-    SplashesCallouts hash_5ca48d04dcdea533;
+    SplashesCallouts splashescalloutpreset_wz;
 };
 

@@ -20,7 +20,7 @@ version 1 {
         // offset: 0x80, bitSize: 0x20(0x4 Byte(s))
         int shots;
         // offset: 0xa0, bitSize: 0x20(0x4 Byte(s))
-        int hash_b777b86f1ce2ec0;
+        int thrownkills;
         // offset: 0xc0, bitSize: 0x20(0x4 Byte(s))
         uint eliminations;
         // offset: 0xe0, bitSize: 0x20(0x4 Byte(s))
@@ -36,7 +36,7 @@ version 1 {
         // offset: 0x168, bitSize: 0x20(0x4 Byte(s))
         uint killedby;
         // offset: 0x188, bitSize: 0x20(0x4 Byte(s))
-        int hash_91227d8fd94fadea;
+        int furthestkill;
         // offset: 0x1a8, bitSize: 0x20(0x4 Byte(s))
         uint headshots;
         // offset: 0x1c8, bitSize: 0x1
@@ -62,13 +62,13 @@ version 1 {
         // offset: 0x68, bitSize: 0x20(0x4 Byte(s))
         uint debuffkills;
         // offset: 0x88, bitSize: 0x20(0x4 Byte(s))
-        int hash_39a68ac8ca2237e0;
+        int maxkillsperuse;
         // offset: 0xa8, bitSize: 0x20(0x4 Byte(s))
-        uint hash_4087ffe9ec4a9d86;
+        uint buffedkills;
         // offset: 0xc8, bitSize: 0x20(0x4 Byte(s))
         int destructions;
         // offset: 0xe8, bitSize: 0x20(0x4 Byte(s))
-        int hash_bb476466e7f4ffa2;
+        int specialhits;
         // offset: 0x108, bitSize: 0x20(0x4 Byte(s))
         uint assists;
         // offset: 0x128, bitSize: 0x20(0x4 Byte(s))
@@ -76,7 +76,7 @@ version 1 {
         // offset: 0x148, bitSize: 0x20(0x4 Byte(s))
         int hash_609a309bc7777769;
         // offset: 0x168, bitSize: 0x20(0x4 Byte(s))
-        int hash_91227d8fd94fadea;
+        int furthestkill;
         // offset: 0x188, bitSize: 0x1
         bool valid;
     };
@@ -98,11 +98,11 @@ version 1 {
         // offset: 0x60, bitSize: 0x8(0x1 Byte(s))
         SatSuper super;
         // offset: 0x68, bitSize: 0x20(0x4 Byte(s))
-        int hash_65f121b80caefe6b;
+        int objectivescaptured;
         // offset: 0x88, bitSize: 0x20(0x4 Byte(s))
-        int hash_f0b06b267c5b7cd9;
+        int gearstolen;
         // offset: 0xa8, bitSize: 0x20(0x4 Byte(s))
-        int hash_39a68ac8ca2237e0;
+        int maxkillsperuse;
         // offset: 0xc8, bitSize: 0x20(0x4 Byte(s))
         uint assists;
         // offset: 0xe8, bitSize: 0x20(0x4 Byte(s))
@@ -126,11 +126,11 @@ version 1 {
         // offset: 0x40, bitSize: 0x20(0x4 Byte(s))
         int hash_23ff37bd63f4566a;
         // offset: 0x60, bitSize: 0x20(0x4 Byte(s))
-        int hash_bfdc739b46eaef42;
+        int maxdestructionsperuse;
         // offset: 0x80, bitSize: 0x20(0x4 Byte(s))
-        int hash_35ceb4ca0eddc686;
+        int grenadekills;
         // offset: 0xa0, bitSize: 0x20(0x4 Byte(s))
-        int hash_39a68ac8ca2237e0;
+        int maxkillsperuse;
         // offset: 0xc0, bitSize: 0x20(0x4 Byte(s))
         int hash_cb91410ec9bed341;
         // offset: 0xe0, bitSize: 0x20(0x4 Byte(s))
@@ -180,7 +180,7 @@ version 1 {
         // offset: 0x160, bitSize: 0x40(0x8 Byte(s))
         uint64 matchid;
         // offset: 0x1a0, bitSize: 0x40(0x8 Byte(s))
-        uint64 hash_9cb1752e34def997;
+        uint64 matchtimestampepoch;
         // offset: 0x1e0, bitSize: 0x70(0xe Byte(s))
         DeadliestWeapon deadliestweapon;
         // offset: 0x250, bitSize: 0x20(0x4 Byte(s))
@@ -190,7 +190,7 @@ version 1 {
         // offset: 0x290, bitSize: 0x20(0x4 Byte(s))
         uint objectivescore;
         // offset: 0x2b0, bitSize: 0x20(0x4 Byte(s))
-        int hash_115eb134d86dfa76;
+        int srdelta;
         // offset: 0x2d0, bitSize: 0x100(0x20 Byte(s))
         string(32) gametype;
         // offset: 0x3d0, bitSize: 0x40(0x8 Byte(s)), array:0x2(hti:0xffff)
@@ -206,7 +206,7 @@ version 1 {
         // offset: 0x478, bitSize: 0x1
         bool valid;
         // offset: 0x479, bitSize: 0x1
-        bool hash_b5405619ad0bd908;
+        bool issrdeltavalid;
     };
 
     // bitSize: 0x208, members: 12

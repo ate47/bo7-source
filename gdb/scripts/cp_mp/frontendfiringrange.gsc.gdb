@@ -16,7 +16,7 @@ STRING "<dev string:x6a>" 0x2902
 STRING "<dev string:x7f>" 0x2940
 # namespace_98fc1f2179e42c26::function_f01ff36db2e217b3@48
 STRING "<dev string:x92>" 0x293b
-# namespace_98fc1f2179e42c26::processDamageThisFrame@816
+# namespace_98fc1f2179e42c26::processdamagethisframe@816
 STRING "<dev string:xad>" 0x3d0a
 # namespace_98fc1f2179e42c26::function_6d9fec4518f7c13a@be
 STRING "<dev string:xce>" 0x4948
@@ -41,7 +41,7 @@ DEVBLOCK 0x30f7
 DEVBLOCK 0x346b
 # namespace_98fc1f2179e42c26::function_dfac2d0f32995de9@377
 DEVBLOCK 0x34a2
-# namespace_98fc1f2179e42c26::processDamageThisFrame@811
+# namespace_98fc1f2179e42c26::processdamagethisframe@811
 DEVBLOCK 0x3d05
 # namespace_98fc1f2179e42c26::function_446d540a417a481c@69
 DEVBLOCK 0x478a

@@ -434,7 +434,7 @@ version 1 {
         // offset: 0x13238, bitSize: 0x20(0x4 Byte(s))
         int lastgamemodeplayed;
         // offset: 0x13258, bitSize: 0x290(0x52 Byte(s))
-        StoreData StoreData;
+        StoreData storedata;
         // offset: 0x134e8, bitSize: 0x20(0x4 Byte(s))
         int lastplayedplaylistid;
         // offset: 0x13508, bitSize: 0x20(0x4 Byte(s))

@@ -73,7 +73,7 @@ DEVBLOCK 0x16fd
 DEVBLOCK 0x1d8c
 # airdrop_escort::function_3224a188389dc1f4@146
 DEVBLOCK 0x21f3
-# airdrop_escort::traceForAnyCollision@a3
+# airdrop_escort::traceforanycollision@a3
 DEVBLOCK 0x2375
 # airdrop_escort::function_af545f278a825f59@ba
 DEVBLOCK 0x2d31

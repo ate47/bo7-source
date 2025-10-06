@@ -994,13 +994,13 @@ version 1 {
         // offset: 0xa0, bitSize: 0x20(0x4 Byte(s))
         int deaths;
         // offset: 0xc0, bitSize: 0x20(0x4 Byte(s))
-        int hash_5724a3da108ee8ad;
+        int flag_carrier_kill_count;
         // offset: 0xe0, bitSize: 0x20(0x4 Byte(s))
         int assists;
         // offset: 0x100, bitSize: 0x20(0x4 Byte(s))
         int gamesplayed;
         // offset: 0x120, bitSize: 0x20(0x4 Byte(s))
-        int hash_f73a3e185e207c5f;
+        int overcharge_count;
     };
 
     // bitSize: 0x160, members: 11
@@ -1236,7 +1236,7 @@ version 1 {
         // offset: 0x3020, bitSize: 0x100(0x20 Byte(s))
         ModeStats_DM fo_dm;
         // offset: 0x3120, bitSize: 0x100(0x20 Byte(s))
-        ModeStats_SD hash_4135ecaf5562b128;
+        ModeStats_SD fo_sd;
         // offset: 0x3220, bitSize: 0x100(0x20 Byte(s))
         ModeStats_Front front;
         // offset: 0x3320, bitSize: 0x100(0x20 Byte(s))
@@ -1340,7 +1340,7 @@ version 1 {
         // offset: 0x7c60, bitSize: 0x100(0x20 Byte(s))
         ModeStats_Conf fo_conf;
         // offset: 0x7d60, bitSize: 0x100(0x20 Byte(s))
-        ModeStats_KOTH hash_e27fb44e17720335;
+        ModeStats_KOTH fo_koth;
         // offset: 0x7e60, bitSize: 0x100(0x20 Byte(s))
         ModeStats_Conflict conflict;
         // offset: 0x7f60, bitSize: 0x140(0x28 Byte(s))
@@ -2062,7 +2062,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte equipmentvariantid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x48, bitSize: 0x1
         bool extracharge;
     };
@@ -2072,7 +2072,7 @@ version 1 {
         // offset: 0x0, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x8, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
         uint fieldupgradelootid;
     };
@@ -2084,7 +2084,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
     };
 
     // bitSize: 0x8, members: 1
@@ -2302,7 +2302,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x20(0x4 Byte(s))
         int majoraugment;
         // offset: 0x40, bitSize: 0x20(0x4 Byte(s))
-        int hash_f920cbe858356bb8;
+        int bonusminoraugment;
     };
 
     // bitSize: 0x1f90, members: 10
@@ -2332,13 +2332,13 @@ version 1 {
         // offset: 0x0, bitSize: 0x40(0x8 Byte(s))
         hashres operatorref;
         // offset: 0x40, bitSize: 0x40(0x8 Byte(s))
-        hashres introRef;
+        hashres introref;
         // offset: 0x80, bitSize: 0x40(0x8 Byte(s))
         hashres skinref;
         // offset: 0xc0, bitSize: 0x40(0x8 Byte(s))
         hashres executionref;
         // offset: 0x100, bitSize: 0x40(0x8 Byte(s))
-        hashres tauntRef;
+        hashres tauntref;
     };
 
     // bitSize: 0x390, members: 4
@@ -2566,7 +2566,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte clientnum;
         // offset: 0x28, bitSize: 0x1
-        bool hash_7c1c96af289fcacd;
+        bool hasnemesis;
     };
 
     // bitSize: 0xa0e8, members: 5

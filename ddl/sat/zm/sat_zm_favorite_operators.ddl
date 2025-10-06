@@ -18,7 +18,7 @@ version 1 {
     // bitSize: 0x2a0, members: 2
     struct FavoriteOperatorSkinsData {
         // offset: 0x0, bitSize: 0x280(0x50 Byte(s)), array:0xa(hti:0xffff)
-        hashres hash_b3bc43292b3ac7a2[10];
+        hashres skinrefs[10];
         // offset: 0x280, bitSize: 0x20(0x4 Byte(s))
         int hash_b6eb1605b3ccaf1b;
     };
@@ -294,8 +294,8 @@ version 1 {
     // root: bitSize: 0x2a800, members: 2
 
     // offset: 0x0, bitSize: 0x2a540(0x54a8 Byte(s))
-    FavoriteOperatorSkinsSet FavoriteOperatorSkinsSet;
+    FavoriteOperatorSkinsSet favoriteoperatorskinsset;
     // offset: 0x2a540, bitSize: 0x2c0(0x58 Byte(s)), array:0x2(hti:0xffff)
-    FavoriteOperatorsSet FavoriteOperatorsSet[2];
+    FavoriteOperatorsSet favoriteoperatorsset[2];
 };
 

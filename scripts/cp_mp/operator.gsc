@@ -1096,7 +1096,7 @@ function function_c203df33ce95f84c( skinref )
 // Size: 0x2c
 function function_cb12383888078591( skinref )
 {
-    return function_d1e10cddb12fbe17( skinref, [ #"hash_6474931f3a449b2a" ] ).var_a8d1b98ea8e4c341;
+    return function_d1e10cddb12fbe17( skinref, [ #"reactiveoperator" ] ).var_a8d1b98ea8e4c341;
 }
 
 // Namespace operator
@@ -1384,7 +1384,7 @@ function getoperatorcustomization()
     if ( isdefined( level.modegetforceoperatorcustomization ) )
     {
         operatorref = function_30f20ce375c4ee40( operatorSkinRef );
-        [ operatorIndex, operatorSkinRef ] = [[ level.modegetforceoperatorcustomization ]]( self, operatorref, operatorSkinRef );
+        [ operatorindex, operatorSkinRef ] = [[ level.modegetforceoperatorcustomization ]]( self, operatorref, operatorSkinRef );
     }
     
     models = function_fb2ad6ca3c6b708d( operatorSkinRef );

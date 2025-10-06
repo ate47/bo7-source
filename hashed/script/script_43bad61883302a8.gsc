@@ -114,7 +114,7 @@ function private function_52da1e5ada18296c()
     streakinfo = self.streakinfo;
     self.var_c9de5f7a664b2c9d = 0;
     self.var_e8d7f39a5478703 = 0;
-    self setscriptablepartstate( #"Booster", #"off" );
+    self setscriptablepartstate( #"booster", #"off" );
     self.owner notifyonplayercommand( "shoot_missile", "+frag" );
     self.owner setclientomnvar( "ui_killstreak_weapon_1_ammo", ( streakinfo.bundle.var_b3b977af67a42de3 ?? 6 ) - self.var_c9de5f7a664b2c9d );
     thread function_350c2122a9f7e22();
@@ -485,7 +485,7 @@ function private function_9f07f0f4e880604c( streakinfo )
         
         if ( self.var_e8d7f39a5478703 && !var_ac96d340eccdeba6 )
         {
-            self setscriptablepartstate( #"Booster", #"on" );
+            self setscriptablepartstate( #"booster", #"on" );
             var_32dbca3143d9c4a5 = level.sharedfuncs[ #"flare_system" ][ #"hash_1101719e6ff74ce" ];
             
             if ( isdefined( var_32dbca3143d9c4a5 ) )
@@ -495,7 +495,7 @@ function private function_9f07f0f4e880604c( streakinfo )
         }
         else if ( !self.var_e8d7f39a5478703 && var_ac96d340eccdeba6 )
         {
-            self setscriptablepartstate( #"Booster", #"off" );
+            self setscriptablepartstate( #"booster", #"off" );
         }
         
         boostcharge = self function_8219169c22f3c66d();
@@ -512,7 +512,7 @@ function private function_11f2dc1755b4907( params )
 {
     if ( params.attacker.streakinfo )
     {
-        self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( params.attacker.streakinfo, undefined, #"hash_9887046672b651ec" );
+        self.owner thread killstreak_utility::playkillstreaktacomdialog( params.attacker.streakinfo, undefined, #"hash_9887046672b651ec" );
     }
 }
 
@@ -668,17 +668,17 @@ function private function_c1d54a36b82eb87( streakinfo )
         self [[ utility::getsharedfunc( #"game", #"hash_8926b881f898ea61" ) ]]( 1 );
     }
     
-    vtolWarship = function_4d183c3b29dad60( self, streakinfo );
-    self prestreamasset( "entity", vtolWarship, 1000 );
+    vtolwarship = function_4d183c3b29dad60( self, streakinfo );
+    self prestreamasset( "entity", vtolwarship, 1000 );
     
     if ( level.var_3bdd479f506243d0 )
     {
-        vtolWarship.ksempapplycallback = &function_2e44af08a5496b9;
+        vtolwarship.ksempapplycallback = &function_2e44af08a5496b9;
     }
     
     vehicle_tracking::function_4f76f5b4541acef1();
     
-    if ( !isdefined( vtolWarship ) )
+    if ( !isdefined( vtolwarship ) )
     {
         if ( utility::issharedfuncdefined( #"vehicle", #"decrementfauxvehiclecount" ) )
         {
@@ -689,7 +689,7 @@ function private function_c1d54a36b82eb87( streakinfo )
         return false;
     }
     
-    thread utility::callsharedfunc( #"killstreak", #"hash_dd9f16672046c094", vtolWarship );
+    thread utility::callsharedfunc( #"killstreak", #"hash_dd9f16672046c094", vtolwarship );
     
     if ( utility::issharedfuncdefined( #"killstreak", #"logkillstreakevent" ) )
     {
@@ -711,15 +711,15 @@ function private function_c1d54a36b82eb87( streakinfo )
         var_65934120c2efeb81 = 2;
     }
     
-    thread killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, "vtol_warship" + "_use", #"use", 1, var_65934120c2efeb81 );
-    vtolWarship thread function_5b6d42d897321234( self );
+    thread killstreak_utility::playkillstreaktacomdialog( streakinfo, "vtol_warship" + "_use", #"use", 1, var_65934120c2efeb81 );
+    vtolwarship thread function_5b6d42d897321234( self );
     
     if ( utility::issharedfuncdefined( #"killstreak", #"hash_2a2fdd5408aca764" ) )
     {
-        vtolWarship [[ utility::getsharedfunc( #"killstreak", #"hash_2a2fdd5408aca764" ) ]]();
+        vtolwarship [[ utility::getsharedfunc( #"killstreak", #"hash_2a2fdd5408aca764" ) ]]();
     }
     
-    vtolWarship function_620ea4f7a46db56a();
+    vtolwarship function_620ea4f7a46db56a();
     return true;
 }
 
@@ -868,23 +868,23 @@ function private function_4d183c3b29dad60( owner, streakinfo )
         pathgoal *= ( 1, 1, 0 );
     }
     
-    vtolWarship = function_87c837c669e88625( streakinfo, pathgoal, angles );
-    vtolWarship setcandamage( 0 );
+    vtolwarship = function_87c837c669e88625( streakinfo, pathgoal, angles );
+    vtolwarship setcandamage( 0 );
     var_b6ba48086272dc92 = 40;
     turretindex = 0;
     shouldsnap = 1;
-    vtolWarship setturrettargetlocalangles( ( var_b6ba48086272dc92, 0, 0 ), turretindex, shouldsnap );
+    vtolwarship setturrettargetlocalangles( ( var_b6ba48086272dc92, 0, 0 ), turretindex, shouldsnap );
     owner namespace_9d8e359c3b1041e5::freezecontrolssharedfunc( 1 );
-    owner function_2d629b17d5984d1a( pathgoal, angles, bundle, vtolWarship );
+    owner function_2d629b17d5984d1a( pathgoal, angles, bundle, vtolwarship );
     
-    if ( !isdefined( vtolWarship ) )
+    if ( !isdefined( vtolwarship ) )
     {
         return;
     }
     
-    vtolWarship vehphys_forcekeyframedmotion();
-    vtolWarship function_d2b8ee2e1275daaf( 1 );
-    level thread killstreak_utility::function_6348c97b79ee8a08( vtolWarship, owner, &function_afd5c1049aabc96b );
+    vtolwarship vehphys_forcekeyframedmotion();
+    vtolwarship function_d2b8ee2e1275daaf( 1 );
+    level thread killstreak_utility::function_6348c97b79ee8a08( vtolwarship, owner, &function_afd5c1049aabc96b );
     modifiedlifetime = 60;
     
     /#
@@ -896,61 +896,61 @@ function private function_4d183c3b29dad60( owner, streakinfo )
         }
     #/
     
-    vtolWarship.ispiloted = 1;
-    vtolWarship.speed = 100;
-    vtolWarship.accel = 50;
-    vtolWarship.lifetime = modifiedlifetime;
-    vtolWarship.team = owner.team;
-    vtolWarship.teamfriendlyto = owner.team;
-    vtolWarship.owner = owner;
-    vtolWarship.owner.vehicle = vtolWarship;
-    vtolWarship.angles = angles;
-    vtolWarship.streakinfo = streakinfo;
-    vtolWarship.streakname = streakinfo.streakname;
-    vtolWarship.flaresreservecount = 1;
-    vtolWarship.pathgoal = pathgoal;
-    vtolWarship.missilesleft = getdvarint( @"hash_52bf6045193decbf", 8 );
-    vtolWarship.animname = "ks_chopper_gunner_vehicle_camera";
-    vtolWarship.infinite_chopper = istrue( owner.infinite_chopper );
-    vtolWarship.heightoffset = heightoffset;
-    vtolWarship.var_4d91de78824da316 = streakinfo.bundle.var_3d706f46064a05eb;
-    outofbounds::registerentforoob( vtolWarship, "killstreak" );
-    utility::registersharedfunc( vtolWarship vehicle::get_ref(), #"hash_5b74b0cc7bc13e5c", &function_572f5f09e092f7f7 );
-    utility::registersharedfunc( vtolWarship vehicle::get_ref(), #"hash_3365a912c11d2ba0", &function_d2c496ae44aad48b );
-    vtolWarship.var_bdc51be80cbeef82 = bundle.var_bdc51be80cbeef82;
+    vtolwarship.ispiloted = 1;
+    vtolwarship.speed = 100;
+    vtolwarship.accel = 50;
+    vtolwarship.lifetime = modifiedlifetime;
+    vtolwarship.team = owner.team;
+    vtolwarship.teamfriendlyto = owner.team;
+    vtolwarship.owner = owner;
+    vtolwarship.owner.vehicle = vtolwarship;
+    vtolwarship.angles = angles;
+    vtolwarship.streakinfo = streakinfo;
+    vtolwarship.streakname = streakinfo.streakname;
+    vtolwarship.flaresreservecount = 1;
+    vtolwarship.pathgoal = pathgoal;
+    vtolwarship.missilesleft = getdvarint( @"hash_52bf6045193decbf", 8 );
+    vtolwarship.animname = "ks_chopper_gunner_vehicle_camera";
+    vtolwarship.infinite_chopper = istrue( owner.infinite_chopper );
+    vtolwarship.heightoffset = heightoffset;
+    vtolwarship.var_4d91de78824da316 = streakinfo.bundle.var_3d706f46064a05eb;
+    outofbounds::registerentforoob( vtolwarship, "killstreak" );
+    utility::registersharedfunc( vtolwarship vehicle::get_ref(), #"hash_5b74b0cc7bc13e5c", &function_572f5f09e092f7f7 );
+    utility::registersharedfunc( vtolwarship vehicle::get_ref(), #"hash_3365a912c11d2ba0", &function_d2c496ae44aad48b );
+    vtolwarship.var_bdc51be80cbeef82 = bundle.var_bdc51be80cbeef82;
     killstreak_shared::function_28d986de72ce85f8( bundle.var_b9d390a05155bc2f );
-    vtolWarship.killcament = spawn( "script_model", vtolWarship gettagorigin( vtolWarship tagexists( #"hash_dae06203ee3f413e" ) ? #"hash_dae06203ee3f413e" : #"tag_origin" ) );
+    vtolwarship.killcament = spawn( "script_model", vtolwarship gettagorigin( vtolwarship tagexists( #"tag_camera_turret" ) ? #"tag_camera_turret" : #"tag_origin" ) );
     originoffset = ( bundle.var_15869b5e2c380579 ?? 0, bundle.var_15869a5e2c380346 ?? 0, bundle.var_1586995e2c380113 ?? 0 );
-    vtolWarship.killcament linkto( vtolWarship, "tag_origin", originoffset, ( 0, 0, 0 ) );
-    vtolWarship setvehicleteam( vtolWarship.team );
+    vtolwarship.killcament linkto( vtolwarship, "tag_origin", originoffset, ( 0, 0, 0 ) );
+    vtolwarship setvehicleteam( vtolwarship.team );
     
-    if ( utility::issharedfuncdefined( #"chopper_gunner", #"hash_61c01470a30db5f9" ) )
+    if ( utility::issharedfuncdefined( #"chopper_gunner", #"attachxrays" ) )
     {
-        vtolWarship = [[ utility::getsharedfunc( #"chopper_gunner", #"hash_61c01470a30db5f9" ) ]]( vtolWarship );
+        vtolwarship = [[ utility::getsharedfunc( #"chopper_gunner", #"attachxrays" ) ]]( vtolwarship );
     }
     
-    vtolWarship thread function_e402b58c1d031595( "disconnect", streakinfo );
-    vtolWarship thread function_e402b58c1d031595( "joined_team", streakinfo );
-    vtolWarship thread function_e402b58c1d031595( "joined_spectator", streakinfo );
-    vtolWarship thread function_e402b58c1d031595( "player_fatal_death", streakinfo );
-    maxhealth = vtolWarship.health;
-    vtolWarship.health = maxhealth;
-    vtolWarship.maxhealth = maxhealth;
-    vtolWarship.currenthealth = maxhealth;
-    vtolWarship namespace_ad759605acee2bf1::registersentient( "Killstreak_Air", owner );
-    vtolWarship function_ddb871232b119f6d( streakinfo.streakname );
+    vtolwarship thread function_e402b58c1d031595( "disconnect", streakinfo );
+    vtolwarship thread function_e402b58c1d031595( "joined_team", streakinfo );
+    vtolwarship thread function_e402b58c1d031595( "joined_spectator", streakinfo );
+    vtolwarship thread function_e402b58c1d031595( "player_fatal_death", streakinfo );
+    maxhealth = vtolwarship.health;
+    vtolwarship.health = maxhealth;
+    vtolwarship.maxhealth = maxhealth;
+    vtolwarship.currenthealth = maxhealth;
+    vtolwarship sentientpoolmanager::registersentient( "Killstreak_Air", owner );
+    vtolwarship function_ddb871232b119f6d( streakinfo.streakname );
     
     if ( utility::issharedfuncdefined( #"killstreak", #"addtoactivekillstreaklist" ) )
     {
-        vtolWarship [[ utility::getsharedfunc( #"killstreak", #"addtoactivekillstreaklist" ) ]]( streakinfo.streakname, "Killstreak_Air", owner, 0, 1, 100 );
+        vtolwarship [[ utility::getsharedfunc( #"killstreak", #"addtoactivekillstreaklist" ) ]]( streakinfo.streakname, "Killstreak_Air", owner, 0, 1, 100 );
     }
     
-    vtolWarship setotherent( owner );
-    vtolWarship setcandamage( 1 );
-    vtolWarship function_88c3b24439f8aa41( vtolWarship.speed );
-    vtolWarship setscriptablepartstate( #"thrusters", #"dynamic", 0 );
+    vtolwarship setotherent( owner );
+    vtolwarship setcandamage( 1 );
+    vtolwarship function_88c3b24439f8aa41( vtolwarship.speed );
+    vtolwarship setscriptablepartstate( #"thrusters", #"dynamic", 0 );
     var_8a9b17e7cd21a2e6 = "tag_origin";
-    level notify( "matchrecording_chopper", vtolWarship );
+    level notify( "matchrecording_chopper", vtolwarship );
     self notify( "chopper_gunner_used" );
     namespace_918c8599c7009cb0::_stopshellshock();
     self.restoreangles = self getplayerangles();
@@ -960,16 +960,16 @@ function private function_4d183c3b29dad60( owner, streakinfo )
     self setclientomnvar( "ui_apache_screens_state", 1 );
     self painvisionoff();
     killstreak_shared::killstreak_savenvgstate();
-    vtolWarship playsoundtoplayer( "mp_killstreak_apache_transition_lr", self );
-    killstreak_utility::function_a0f06b65f4e1e23a( vtolWarship.streakinfo, undefined, #"arrive" );
+    vtolwarship playsoundtoplayer( "mp_killstreak_apache_transition_lr", self );
+    killstreak_utility::playkillstreaktacomdialog( vtolwarship.streakinfo, undefined, #"arrive" );
     
-    if ( !isdefined( vtolWarship ) || vtolWarship.isexploding )
+    if ( !isdefined( vtolwarship ) || vtolwarship.isexploding )
     {
         return undefined;
     }
     
-    vtolWarship notify( "start_chopper_use" );
-    return vtolWarship;
+    vtolwarship notify( "start_chopper_use" );
+    return vtolwarship;
 }
 
 // Namespace vtol_warship
@@ -1246,9 +1246,9 @@ function private function_4c53dec33de9708e()
     vtol endon( "death", "explode", "leaving", "crashing", "game_ended" );
     var_b7d27de865b870d5 = vtol.lifetime * 0.5;
     wait var_b7d27de865b870d5;
-    vtol killstreak_utility::function_a0f06b65f4e1e23a( vtol.streakinfo, undefined, #"halfway" );
+    vtol killstreak_utility::playkillstreaktacomdialog( vtol.streakinfo, undefined, #"halfway" );
     wait var_b7d27de865b870d5;
-    vtol killstreak_utility::function_a0f06b65f4e1e23a( vtol.streakinfo, undefined, #"leave" );
+    vtol killstreak_utility::playkillstreaktacomdialog( vtol.streakinfo, undefined, #"leave" );
     vtol thread function_fc1ada72f4e5fde5();
 }
 
@@ -1315,38 +1315,38 @@ function private function_b3ccbf49a7ca14e3()
             {
                 if ( vtol.var_def1d41fdfcdaa7 == 1 )
                 {
-                    vtol killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, undefined, #"hash_aaf65ee5e704de51" );
+                    vtol killstreak_utility::playkillstreaktacomdialog( streakinfo, undefined, #"hash_aaf65ee5e704de51" );
                 }
                 else if ( vtol.var_def1d41fdfcdaa7 == 2 )
                 {
-                    vtol killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, undefined, #"hash_aaf65be5e704d938" );
+                    vtol killstreak_utility::playkillstreaktacomdialog( streakinfo, undefined, #"hash_aaf65be5e704d938" );
                 }
                 else if ( vtol.var_def1d41fdfcdaa7 == 3 )
                 {
-                    vtol killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, undefined, #"hash_aaf65ce5e704daeb" );
+                    vtol killstreak_utility::playkillstreaktacomdialog( streakinfo, undefined, #"hash_aaf65ce5e704daeb" );
                 }
                 else if ( vtol.var_def1d41fdfcdaa7 > 3 )
                 {
-                    vtol killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, undefined, #"hash_ac4dd1ce75452ee6" );
+                    vtol killstreak_utility::playkillstreaktacomdialog( streakinfo, undefined, #"hash_ac4dd1ce75452ee6" );
                 }
             }
             else if ( vtol.var_5b044033d5ec9a1a == "sat_vtol_warship_proj_mp" )
             {
                 if ( vtol.var_def1d41fdfcdaa7 == 1 )
                 {
-                    vtol killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, undefined, #"hash_7f843fe6333af730" );
+                    vtol killstreak_utility::playkillstreaktacomdialog( streakinfo, undefined, #"hash_7f843fe6333af730" );
                 }
                 else if ( vtol.var_def1d41fdfcdaa7 == 2 )
                 {
-                    vtol killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, undefined, #"hash_7f8442e6333afc49" );
+                    vtol killstreak_utility::playkillstreaktacomdialog( streakinfo, undefined, #"hash_7f8442e6333afc49" );
                 }
                 else if ( vtol.var_def1d41fdfcdaa7 == 3 )
                 {
-                    vtol killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, undefined, #"hash_7f8441e6333afa96" );
+                    vtol killstreak_utility::playkillstreaktacomdialog( streakinfo, undefined, #"hash_7f8441e6333afa96" );
                 }
                 else if ( vtol.var_def1d41fdfcdaa7 > 3 )
                 {
-                    vtol killstreak_utility::function_a0f06b65f4e1e23a( streakinfo, undefined, #"hash_c183e1a949590f7d" );
+                    vtol killstreak_utility::playkillstreaktacomdialog( streakinfo, undefined, #"hash_c183e1a949590f7d" );
                 }
             }
             
@@ -1424,7 +1424,7 @@ function private function_d48af4024c78dbfb()
 function function_fc1ada72f4e5fde5()
 {
     self endon( "death", "crashing" );
-    level callback::callback( #"hash_34a592b0eae7cc8b", { #streakinfo:self.streakinfo } );
+    level callback::callback( #"killstreak_finish_use", { #streakinfo:self.streakinfo } );
     
     if ( utility::issharedfuncdefined( #"vtol", #"hash_6a8f8f08a5f76ac" ) )
     {
@@ -1448,7 +1448,7 @@ function function_fc1ada72f4e5fde5()
     self notify( "leaving" );
     pathgoal = self.origin + anglestoforward( ( 0, self.angles[ 1 ], 0 ) ) * 100000;
     wait 1;
-    self.owner killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"timeout" );
+    self.owner killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"timeout" );
     self function_5a9a3101070af0ea( 250 );
     function_88c3b24439f8aa41( 250 );
     function_9e2dc3451d5a7f99( pathgoal, 0, 100, 1, 0 );
@@ -1517,7 +1517,7 @@ function private function_8c10f5118434ccf3( data )
     }
     
     self.currenthealth -= damage;
-    killstreak_utility::function_f3a18a0f4352c1a6( self.currenthealth );
+    killstreak_utility::killstreak_updatedamagestate( self.currenthealth );
     return true;
 }
 
@@ -1528,7 +1528,7 @@ function private function_8c10f5118434ccf3( data )
 function private function_1d7c593d0375d968()
 {
     self setscriptablepartstate( "body_damage_light", "on" );
-    self.owner killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"damage_light" );
+    self.owner killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"damage_light" );
 }
 
 // Namespace vtol_warship
@@ -1547,7 +1547,7 @@ function private function_6e7c227b5603c41d()
 function private function_6d08146f478e207d()
 {
     self setscriptablepartstate( "body_damage_heavy", "on" );
-    self.owner killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"damage_heavy" );
+    self.owner killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"damage_heavy" );
 }
 
 // Namespace vtol_warship
@@ -1670,13 +1670,13 @@ function private function_6886803dbdf02738()
 function private function_c019b1f2d6e3f0ea( speed, acceleration )
 {
     self endon( "death" );
-    var_988fa6e65ab84848 = 0;
+    yawspeed = 0;
     self function_eb88c4e66edbc855( "p2p", "turnYawDegrees", angleclamp( self.angles[ 1 ] - 90 ) );
     
     while ( true )
     {
-        var_988fa6e65ab84848 += acceleration * level.framedurationseconds;
-        self function_eb88c4e66edbc855( "p2p", "turnYawSpeed", var_988fa6e65ab84848 );
+        yawspeed += acceleration * level.framedurationseconds;
+        self function_eb88c4e66edbc855( "p2p", "turnYawSpeed", yawspeed );
         waitframe();
     }
 }
@@ -1781,10 +1781,10 @@ function private function_afd5c1049aabc96b()
         return;
     }
     
-    self.owner thread killstreak_utility::function_a0f06b65f4e1e23a( self.streakinfo, undefined, #"destroyed" );
+    self.owner thread killstreak_utility::playkillstreaktacomdialog( self.streakinfo, undefined, #"destroyed" );
     self notify( "explode" );
     self.isexploding = 1;
-    level callback::callback( #"hash_34a592b0eae7cc8b", { #streakinfo:self.streakinfo } );
+    level callback::callback( #"killstreak_finish_use", { #streakinfo:self.streakinfo } );
     self setscriptablepartstate( "explode", "on", 0 );
     self setscriptablepartstate( "explode_smoke", "on", 0 );
     wait 0.35;
@@ -1982,9 +1982,9 @@ function private function_87c837c669e88625( streakinfo, origin, angles )
 {
     vehicletype = self.team == "axis" ? streakinfo.bundle.var_f1ab087ef28afda5 : streakinfo.bundle.var_7bea6124daa9fa8a;
     spawndata = { #vehicletype:vehicletype, #targetname:streakinfo.streakname, #angles:angles, #origin:origin };
-    vtolWarship = vehicle_tracking::spawn_vehicle( spawndata );
-    vtolWarship addcomponent( "p2p" );
-    return vtolWarship;
+    vtolwarship = vehicle_tracking::spawn_vehicle( spawndata );
+    vtolwarship addcomponent( "p2p" );
+    return vtolwarship;
 }
 
 // Namespace vtol_warship

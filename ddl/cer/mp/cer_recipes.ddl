@@ -616,7 +616,7 @@ version 1 {
         // offset: 0xba8, bitSize: 0x20(0x4 Byte(s))
         float plunderinflation;
         // offset: 0xbc8, bitSize: 0x200(0x40 Byte(s))
-        string(64) hash_161473be7d7cb9bc;
+        string(64) firesalefreeitems;
         // offset: 0xdc8, bitSize: 0x20(0x4 Byte(s))
         float cratedroptimer;
         // offset: 0xde8, bitSize: 0x20(0x4 Byte(s))
@@ -888,7 +888,7 @@ version 1 {
         // offset: 0xa08, bitSize: 0x8(0x1 Byte(s))
         byte infilreserveplates;
         // offset: 0xa10, bitSize: 0x80(0x10 Byte(s))
-        string(16) hash_f68388f5e50177ce;
+        string(16) weatheroption;
         // offset: 0xa90, bitSize: 0x20(0x4 Byte(s))
         float radiationstartdamage;
         // offset: 0xab0, bitSize: 0x200(0x40 Byte(s))
@@ -1002,7 +1002,7 @@ version 1 {
         // offset: 0x1c30, bitSize: 0x20(0x4 Byte(s))
         int spectatemodeallowed;
         // offset: 0x1c50, bitSize: 0xd0(0x1a Byte(s))
-        string(26) hash_756db33fa0267e50;
+        string(26) backuppistolcamo;
         // offset: 0x1d20, bitSize: 0x20(0x4 Byte(s))
         float vehicleunmannedkillprotectiontimeout;
         // offset: 0x1d40, bitSize: 0x20(0x4 Byte(s))
@@ -1040,7 +1040,7 @@ version 1 {
         // offset: 0x21e8, bitSize: 0x20(0x4 Byte(s))
         float radiationspreadingdamage;
         // offset: 0x2208, bitSize: 0x180(0x30 Byte(s))
-        string(48) buyStationList;
+        string(48) buystationlist;
         // offset: 0x2388, bitSize: 0x400(0x80 Byte(s))
         string(128) buystationpool;
         // offset: 0x2788, bitSize: 0x20(0x4 Byte(s))
@@ -1600,7 +1600,7 @@ version 1 {
         // offset: 0xe8, bitSize: 0x8(0x1 Byte(s))
         byte ladderindex;
         // offset: 0xf0, bitSize: 0x8(0x1 Byte(s))
-        GunGameVictoryConditions GunGameVictoryConditions;
+        GunGameVictoryConditions gungamevictoryconditions;
         // offset: 0xf8, bitSize: 0xd0(0x1a Byte(s))
         string(26) gungamethrowingweapon;
         // offset: 0x1c8, bitSize: 0xd0(0x1a Byte(s))
@@ -23782,7 +23782,7 @@ version 1 {
     // offset: 0x5f08, bitSize: 0x30(0x6 Byte(s))
     CTFData ctfdata;
     // offset: 0x5f38, bitSize: 0x128(0x25 Byte(s))
-    PaybackData PaybackData;
+    PaybackData paybackdata;
     // offset: 0x6060, bitSize: 0x68(0xd Byte(s))
     HVTData hvtdata;
     // offset: 0x60c8, bitSize: 0x60(0xc Byte(s))
@@ -23846,7 +23846,7 @@ version 1 {
     // offset: 0x1fe18, bitSize: 0x78(0xf Byte(s))
     HstgData hstgdata;
     // offset: 0x1fe90, bitSize: 0x60(0xc Byte(s))
-    StatLimits StatLimits;
+    StatLimits statlimits;
     // offset: 0x1fef0, bitSize: 0x6a0(0xd4 Byte(s))
     HelmetData helmetdata;
     // offset: 0x20590, bitSize: 0x28(0x5 Byte(s))

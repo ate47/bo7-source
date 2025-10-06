@@ -66,7 +66,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte equipmentvariantid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x48, bitSize: 0x1
         bool extracharge;
     };
@@ -76,7 +76,7 @@ version 1 {
         // offset: 0x0, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x8, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
         uint fieldupgradelootid;
     };
@@ -88,7 +88,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
     };
 
     // bitSize: 0x8, members: 1
@@ -232,13 +232,13 @@ version 1 {
         // offset: 0x0, bitSize: 0x40(0x8 Byte(s))
         hashres operatorref;
         // offset: 0x40, bitSize: 0x40(0x8 Byte(s))
-        hashres introRef;
+        hashres introref;
         // offset: 0x80, bitSize: 0x40(0x8 Byte(s))
         hashres skinref;
         // offset: 0xc0, bitSize: 0x40(0x8 Byte(s))
         hashres executionref;
         // offset: 0x100, bitSize: 0x40(0x8 Byte(s))
-        hashres tauntRef;
+        hashres tauntref;
     };
 
     // bitSize: 0x458, members: 4
@@ -648,7 +648,7 @@ version 1 {
         // offset: 0xa28, bitSize: 0x20(0x4 Byte(s))
         float plunderinflation;
         // offset: 0xa48, bitSize: 0x200(0x40 Byte(s))
-        string(64) hash_161473be7d7cb9bc;
+        string(64) firesalefreeitems;
         // offset: 0xc48, bitSize: 0x20(0x4 Byte(s))
         float cratedroptimer;
         // offset: 0xc68, bitSize: 0x20(0x4 Byte(s))
@@ -918,7 +918,7 @@ version 1 {
         // offset: 0xa08, bitSize: 0x8(0x1 Byte(s))
         byte infilreserveplates;
         // offset: 0xa10, bitSize: 0x80(0x10 Byte(s))
-        string(16) hash_f68388f5e50177ce;
+        string(16) weatheroption;
         // offset: 0xa90, bitSize: 0x20(0x4 Byte(s))
         float radiationstartdamage;
         // offset: 0xab0, bitSize: 0x200(0x40 Byte(s))
@@ -1032,7 +1032,7 @@ version 1 {
         // offset: 0x1c30, bitSize: 0x20(0x4 Byte(s))
         int spectatemodeallowed;
         // offset: 0x1c50, bitSize: 0xd0(0x1a Byte(s))
-        string(26) hash_756db33fa0267e50;
+        string(26) backuppistolcamo;
         // offset: 0x1d20, bitSize: 0x20(0x4 Byte(s))
         float vehicleunmannedkillprotectiontimeout;
         // offset: 0x1d40, bitSize: 0x20(0x4 Byte(s))
@@ -1070,7 +1070,7 @@ version 1 {
         // offset: 0x21e8, bitSize: 0x20(0x4 Byte(s))
         float radiationspreadingdamage;
         // offset: 0x2208, bitSize: 0x180(0x30 Byte(s))
-        string(48) buyStationList;
+        string(48) buystationlist;
         // offset: 0x2388, bitSize: 0x400(0x80 Byte(s))
         string(128) buystationpool;
         // offset: 0x2788, bitSize: 0x20(0x4 Byte(s))
@@ -11938,7 +11938,7 @@ version 1 {
     // offset: 0x5018, bitSize: 0x30(0x6 Byte(s))
     CTFData ctfdata;
     // offset: 0x5048, bitSize: 0x128(0x25 Byte(s))
-    PaybackData PaybackData;
+    PaybackData paybackdata;
     // offset: 0x5170, bitSize: 0x68(0xd Byte(s))
     HVTData hvtdata;
     // offset: 0x51d8, bitSize: 0x60(0xc Byte(s))
@@ -12002,7 +12002,7 @@ version 1 {
     // offset: 0x1f6b0, bitSize: 0x78(0xf Byte(s))
     HstgData hstgdata;
     // offset: 0x1f728, bitSize: 0x60(0xc Byte(s))
-    StatLimits StatLimits;
+    StatLimits statlimits;
     // offset: 0x1f788, bitSize: 0x6a0(0xd4 Byte(s))
     HelmetData helmetdata;
     // offset: 0x1fe28, bitSize: 0x28(0x5 Byte(s))

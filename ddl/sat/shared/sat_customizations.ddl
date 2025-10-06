@@ -66,7 +66,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte equipmentvariantid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x48, bitSize: 0x1
         bool extracharge;
     };
@@ -76,7 +76,7 @@ version 1 {
         // offset: 0x0, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x8, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
         uint fieldupgradelootid;
     };
@@ -88,7 +88,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x8(0x1 Byte(s))
         byte blueprintindex;
         // offset: 0x28, bitSize: 0x20(0x4 Byte(s))
-        uint hash_2ba5a8ec12a39bb2;
+        uint procontentlootid;
     };
 
     // bitSize: 0x8, members: 1
@@ -306,7 +306,7 @@ version 1 {
         // offset: 0x20, bitSize: 0x20(0x4 Byte(s))
         int majoraugment;
         // offset: 0x40, bitSize: 0x20(0x4 Byte(s))
-        int hash_f920cbe858356bb8;
+        int bonusminoraugment;
     };
 
     // bitSize: 0x1f90, members: 10
@@ -336,13 +336,13 @@ version 1 {
         // offset: 0x0, bitSize: 0x40(0x8 Byte(s))
         hashres operatorref;
         // offset: 0x40, bitSize: 0x40(0x8 Byte(s))
-        hashres introRef;
+        hashres introref;
         // offset: 0x80, bitSize: 0x40(0x8 Byte(s))
         hashres skinref;
         // offset: 0xc0, bitSize: 0x40(0x8 Byte(s))
         hashres executionref;
         // offset: 0x100, bitSize: 0x40(0x8 Byte(s))
-        hashres tauntRef;
+        hashres tauntref;
     };
 
     // bitSize: 0x390, members: 4
@@ -9474,7 +9474,7 @@ version 1 {
     // offset: 0x1320, bitSize: 0xb40(0x168 Byte(s)), array:0x5(hti:0xffff)
     GobbleGumPack packs[5];
     // offset: 0x1e60, bitSize: 0x6a0(0xd4 Byte(s)), array:0x35(hti:0x11)
-    uint hash_b315dbe9864a7fde[SatKillstreak];
+    uint procontentsavedkillstreak[SatKillstreak];
     // offset: 0x2500, bitSize: 0xb80(0x170 Byte(s)), array:0x5c(hti:0x10)
     uint hash_523bfda324dfe10c[SatEquipment];
     // offset: 0x3080, bitSize: 0xe30(0x1c6 Byte(s))

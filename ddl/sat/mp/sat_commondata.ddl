@@ -448,7 +448,7 @@ version 1 {
         // offset: 0x4f40, bitSize: 0x400(0x80 Byte(s)), array:0x80(hti:0xffff)
         byte reserved[128];
         // offset: 0x5340, bitSize: 0x500(0xa0 Byte(s))
-        InGameSeasonalEventData InGameSeasonalEventData;
+        InGameSeasonalEventData ingameseasonaleventdata;
         // offset: 0x5840, bitSize: 0x20(0x4 Byte(s))
         int lastlootdropindex;
         // offset: 0x5860, bitSize: 0x20(0x4 Byte(s))

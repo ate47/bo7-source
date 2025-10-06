@@ -133,7 +133,7 @@ function function_20ef42964ba8bc11( params )
     {
         if ( distancesquared( self.origin, var_6ffdd837c4fe2982.origin ) <= level.var_ef60871979b5dce1 )
         {
-            var_6ffdd837c4fe2982 points::function_4f713a46699e559d( #"hash_d2f3704db358507c" );
+            var_6ffdd837c4fe2982 points::doscoreevent( #"hash_d2f3704db358507c" );
         }
     }
 }

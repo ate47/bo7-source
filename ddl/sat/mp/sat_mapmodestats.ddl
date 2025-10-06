@@ -866,13 +866,13 @@ version 1 {
         // offset: 0xa0, bitSize: 0x20(0x4 Byte(s))
         int deaths;
         // offset: 0xc0, bitSize: 0x20(0x4 Byte(s))
-        int hash_5724a3da108ee8ad;
+        int flag_carrier_kill_count;
         // offset: 0xe0, bitSize: 0x20(0x4 Byte(s))
         int assists;
         // offset: 0x100, bitSize: 0x20(0x4 Byte(s))
         int gamesplayed;
         // offset: 0x120, bitSize: 0x20(0x4 Byte(s))
-        int hash_f73a3e185e207c5f;
+        int overcharge_count;
     };
 
     // bitSize: 0x160, members: 11
@@ -1108,7 +1108,7 @@ version 1 {
         // offset: 0x3020, bitSize: 0x100(0x20 Byte(s))
         ModeStats_DM fo_dm;
         // offset: 0x3120, bitSize: 0x100(0x20 Byte(s))
-        ModeStats_SD hash_4135ecaf5562b128;
+        ModeStats_SD fo_sd;
         // offset: 0x3220, bitSize: 0x100(0x20 Byte(s))
         ModeStats_Front front;
         // offset: 0x3320, bitSize: 0x100(0x20 Byte(s))
@@ -1212,7 +1212,7 @@ version 1 {
         // offset: 0x7c60, bitSize: 0x100(0x20 Byte(s))
         ModeStats_Conf fo_conf;
         // offset: 0x7d60, bitSize: 0x100(0x20 Byte(s))
-        ModeStats_KOTH hash_e27fb44e17720335;
+        ModeStats_KOTH fo_koth;
         // offset: 0x7e60, bitSize: 0x100(0x20 Byte(s))
         ModeStats_Conflict conflict;
         // offset: 0x7f60, bitSize: 0x140(0x28 Byte(s))

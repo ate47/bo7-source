@@ -56,7 +56,7 @@ version 1 {
     // bitSize: 0x7a8, members: 6
     struct ZmPlayerStats {
         // offset: 0x0, bitSize: 0x80(0x10 Byte(s))
-        ZtronPlayerStats ZtronPlayerStats;
+        ZtronPlayerStats ztronplayerstats;
         // offset: 0x80, bitSize: 0x640(0xc8 Byte(s)), array:0x1(hti:0x5)
         ZmStatMap mapstats[MapList];
         // offset: 0x6c0, bitSize: 0xa0(0x14 Byte(s))
@@ -64,7 +64,7 @@ version 1 {
         // offset: 0x760, bitSize: 0x40(0x8 Byte(s))
         ZmGlobalMatchStats matchstats;
         // offset: 0x7a0, bitSize: 0x1
-        ZtronPlayerFTUEStats ZtronPlayerFTUEStats;
+        ZtronPlayerFTUEStats ztronplayerftuestats;
     };
 
     // bitSize: 0x1f8, members: 19
@@ -128,7 +128,7 @@ version 1 {
         // offset: 0x88, bitSize: 0x20(0x4 Byte(s))
         uint electrocutedandkilled;
         // offset: 0xa8, bitSize: 0x20(0x4 Byte(s))
-        int hash_34ab7a6dfe51499a;
+        int gasassists;
         // offset: 0xc8, bitSize: 0x20(0x4 Byte(s))
         uint distractedandkilled;
         // offset: 0xe8, bitSize: 0x20(0x4 Byte(s))
@@ -138,7 +138,7 @@ version 1 {
         // offset: 0x128, bitSize: 0x20(0x4 Byte(s))
         uint distractionassists;
         // offset: 0x148, bitSize: 0x20(0x4 Byte(s))
-        int hash_39a68ac8ca2237e0;
+        int maxkillsperuse;
         // offset: 0x168, bitSize: 0x20(0x4 Byte(s))
         uint stunnedandkilled;
         // offset: 0x188, bitSize: 0x20(0x4 Byte(s))
@@ -170,9 +170,9 @@ version 1 {
         // offset: 0xa8, bitSize: 0x20(0x4 Byte(s))
         uint killswhileactive;
         // offset: 0xc8, bitSize: 0x20(0x4 Byte(s))
-        int hash_2fbdb979e09fb62f;
+        int slowassist;
         // offset: 0xe8, bitSize: 0x20(0x4 Byte(s))
-        int hash_4c84f43359dca013;
+        int killswhileslowed;
         // offset: 0x108, bitSize: 0x20(0x4 Byte(s))
         uint reviveswhileshrouded;
         // offset: 0x128, bitSize: 0x20(0x4 Byte(s))
@@ -182,7 +182,7 @@ version 1 {
         // offset: 0x168, bitSize: 0x20(0x4 Byte(s))
         uint taunts;
         // offset: 0x188, bitSize: 0x20(0x4 Byte(s))
-        int hash_bc7aa0765b650d79;
+        int misterpeeks;
         // offset: 0x1a8, bitSize: 0x1
         bool valid;
     };
@@ -226,7 +226,7 @@ version 1 {
         // offset: 0x48, bitSize: 0x20(0x4 Byte(s))
         uint critical_kills;
         // offset: 0x68, bitSize: 0x20(0x4 Byte(s))
-        int hash_68981af29ca78a83;
+        int wispkills;
         // offset: 0x88, bitSize: 0x20(0x4 Byte(s))
         uint specialzombiekills;
         // offset: 0xa8, bitSize: 0x20(0x4 Byte(s))
@@ -258,7 +258,7 @@ version 1 {
         // offset: 0x0, bitSize: 0x20(0x4 Byte(s))
         uint kills;
         // offset: 0x20, bitSize: 0x20(0x4 Byte(s))
-        int hash_dc0ced9f19d86634;
+        int healthhealed;
         // offset: 0x40, bitSize: 0x20(0x4 Byte(s))
         uint zombieselectrocuted;
         // offset: 0x60, bitSize: 0x20(0x4 Byte(s))
@@ -288,13 +288,13 @@ version 1 {
     // bitSize: 0x70, members: 6
     struct ZMAugmentStats {
         // offset: 0x0, bitSize: 0x20(0x4 Byte(s))
-        int hash_e8552f092c94be43;
+        int majoraugmentsunlocked;
         // offset: 0x20, bitSize: 0x20(0x4 Byte(s))
         uint timeactiveseconds;
         // offset: 0x40, bitSize: 0x8(0x1 Byte(s))
         SatZMAugment augment;
         // offset: 0x48, bitSize: 0x20(0x4 Byte(s))
-        int hash_1c5e73235c68993f;
+        int minoraugmentsunlocked;
         // offset: 0x68, bitSize: 0x1
         bool valid;
     };
@@ -426,11 +426,11 @@ version 1 {
         // offset: 0x20, bitSize: 0x20(0x4 Byte(s))
         uint highestexfil;
         // offset: 0x40, bitSize: 0x20(0x4 Byte(s))
-        uint hash_73b86c50ac36cd44;
+        uint highestessenceearned;
         // offset: 0x60, bitSize: 0x40(0x8 Byte(s))
         uint64 hash_27ffb1b8dbc8d9ee;
         // offset: 0xa0, bitSize: 0x20(0x4 Byte(s))
-        float avgEliminations;
+        float avgeliminations;
         // offset: 0xc0, bitSize: 0x20(0x4 Byte(s))
         float avgexfil;
         // offset: 0xe0, bitSize: 0x20(0x4 Byte(s))

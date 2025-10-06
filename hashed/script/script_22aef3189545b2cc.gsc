@@ -47,7 +47,7 @@ function function_de888dc68fbc4240( params )
         var_c08e832913e1c60f.var_fd9b39439920c808 = "uin_friend_request_alert";
     }
     
-    level.var_c267f3cfc720a3be[ "specialty_tps_high_alert" ] = &"SAT_PERKS/TPS_HIGH_ALERT";
+    level.var_c267f3cfc720a3be[ "specialty_tps_high_alert" ] = &"sat_perks/tps_high_alert";
 }
 
 // Namespace namespace_8e8b310503e6c24

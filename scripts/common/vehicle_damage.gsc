@@ -1355,7 +1355,7 @@ function private function_fa412bafb43e1901( vehicle, tireindex, damagedata )
     {
         isenemy = vehicle::function_8266feb1ae1c46bd( vehicle, damagedata.attacker );
         damagedata.givepointsandxp = isenemy;
-        damagedata.attacker function_d060bb312634dea7( #"hash_5db50bf1147f0f52", undefined, damagedata, vehicle );
+        damagedata.attacker function_d060bb312634dea7( #"destroyed_vehicle_tire", undefined, damagedata, vehicle );
         callback::callback( "player_pop_enemy_tire", { #isenemy:isenemy, #vehicle:vehicle, #player:damagedata.attacker } );
     }
     
@@ -4062,16 +4062,16 @@ function function_6c7722241a521e9( oldstateref, data )
                     {
                         case #"hash_d2a55c7ac538641b":
                         case #"hash_d582c3286e5c390f":
-                            scoreevent = #"hash_f9162cf6b4695651";
+                            scoreevent = #"disabled_vehicle_light";
                             break;
                         case #"hash_21622ca3ad06efb5":
                         case #"hash_53e0b558455f04c6":
                         case #"hash_c71b112fe04823d6":
-                            scoreevent = #"hash_8d625b12eb84e958";
+                            scoreevent = #"disabled_vehicle_medium";
                             break;
                         case #"hash_2453c9ffec9f5c20":
                         case #"hash_e8ec392f4f2724e4":
-                            scoreevent = #"hash_cf6baa13dac1910a";
+                            scoreevent = #"disabled_vehicle_heavy";
                             break;
                     }
                 }
@@ -4153,16 +4153,16 @@ function function_7d082f909fac51a3( data )
                     {
                         case #"hash_d2a55c7ac538641b":
                         case #"hash_d582c3286e5c390f":
-                            scoreevent = #"hash_838cff6819237d00";
+                            scoreevent = #"destroyed_vehicle_light";
                             break;
                         case #"hash_21622ca3ad06efb5":
                         case #"hash_53e0b558455f04c6":
                         case #"hash_c71b112fe04823d6":
-                            scoreevent = #"hash_f82e57f24f4a4993";
+                            scoreevent = #"destroyed_vehicle_medium";
                             break;
                         case #"hash_2453c9ffec9f5c20":
                         case #"hash_e8ec392f4f2724e4":
-                            scoreevent = #"hash_d4032a806beebc83";
+                            scoreevent = #"destroyed_vehicle_heavy";
                             break;
                         default:
                             scoreevent = #"none";

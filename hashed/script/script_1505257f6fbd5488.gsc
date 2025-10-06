@@ -99,7 +99,7 @@ function function_60de08d6e4a6308f( grenade )
     grenade.health = level.var_246408e0d4906146.var_b81fa30540ab2837 ?? 25;
     grenade setcandamage( 1 );
     grenade thread damage::monitordamage( grenade.health, "hitequip", &function_e57bc3a05e301372, &function_c86d6d93256453b1 );
-    grenade namespace_ad759605acee2bf1::registersentient( "Tactical_Static", grenade.owner );
+    grenade sentientpoolmanager::registersentient( "Tactical_Static", grenade.owner );
     grenade setscriptablepartstate( #"plant_fx", #"plant" );
     grenade setscriptablepartstate( #"visual", #"visible" );
     
@@ -449,7 +449,7 @@ function private function_ee504ba42e8ad56e( grenade, targetent )
         ally playlocalsound( "eqp_sensor_grenade_tagged" );
     }
     
-    thread points::function_4f713a46699e559d( #"hash_e772e4d4e5c99c84", grenade.weapon_object );
+    thread points::doscoreevent( #"hash_e772e4d4e5c99c84", grenade.weapon_object );
     thread damagefeedback::updatedamagefeedback( "hitequip" );
     var_70066bca8cadbd68 = utility::callsharedfunc( #"hud", #"hash_785d65fc31ffd85", 0 );
     
@@ -611,7 +611,7 @@ function private function_bc1dac655511336a()
     
     if ( var_f8c5b357c370c3c )
     {
-        thread points::function_4f713a46699e559d( #"hash_5760954f61b40374" );
+        thread points::doscoreevent( #"hash_5760954f61b40374" );
         self playlocalsound( "eqp_sensor_grenade_remove" );
         wait 1;
         wait 0.5;
@@ -724,17 +724,17 @@ function function_6d7acbafb1f4d32d( params )
 {
     if ( self.modifiers[ "wasSpottedBySensorGrenade" ] )
     {
-        thread points::function_4f713a46699e559d( #"hash_22f58dfc42f76fff", self.modifiers[ "wasSpottedBySensorGrenadeTracker" ].weaponobj );
+        thread points::doscoreevent( #"hash_22f58dfc42f76fff", self.modifiers[ "wasSpottedBySensorGrenadeTracker" ].weaponobj );
         
         if ( self.modifiers[ "wasSecondSensorGrenadeKill" ] )
         {
-            thread points::function_4f713a46699e559d( #"double_prox_alarm" );
+            thread points::doscoreevent( #"double_prox_alarm" );
         }
     }
     
     foreach ( struct in self.modifiers[ "wasSpottedByAnotherSensorGrenadeList" ] )
     {
-        struct.player thread points::function_4f713a46699e559d( #"hash_e935d9231c8357cc", struct.var_dcf500678d35ab56 );
+        struct.player thread points::doscoreevent( #"hash_e935d9231c8357cc", struct.var_dcf500678d35ab56 );
     }
 }
 
@@ -810,7 +810,7 @@ function function_6296632a2be939ef( params )
         if ( !self.var_2695e71ddf32816c[ params.var_39a25939271f4d6a.owner getentitynumber() ] )
         {
             basepoints = rank::getscoreinfovalue( #"hash_8133aa87520f50f6" ) ?? 0;
-            params.var_39a25939271f4d6a.owner thread points::function_4f713a46699e559d( #"hash_8133aa87520f50f6", params.var_39a25939271f4d6a.weapon_object, basepoints * params.var_39a25939271f4d6a.var_352099d9d2836866 );
+            params.var_39a25939271f4d6a.owner thread points::doscoreevent( #"hash_8133aa87520f50f6", params.var_39a25939271f4d6a.weapon_object, basepoints * params.var_39a25939271f4d6a.var_352099d9d2836866 );
             
             if ( !isdefined( self.var_2695e71ddf32816c ) )
             {
@@ -822,7 +822,7 @@ function function_6296632a2be939ef( params )
         
         if ( params.var_39a25939271f4d6a.owner != self.owner && !self.var_2b2f786d6b12c032 )
         {
-            self.owner thread points::function_4f713a46699e559d( #"hash_25e1629f3588e56f", params.var_39a25939271f4d6a.weapon_object );
+            self.owner thread points::doscoreevent( #"hash_25e1629f3588e56f", params.var_39a25939271f4d6a.weapon_object );
             self.var_2b2f786d6b12c032 = 1;
         }
         
@@ -921,7 +921,7 @@ function function_e57bc3a05e301372( damagedata, isexpired )
             
             if ( isdefined( attackingplayer ) && attackingplayer != self.owner )
             {
-                attackingplayer thread points::function_4f713a46699e559d( #"hash_fc2bc69127096d9e", damagedata.objweapon );
+                attackingplayer thread points::doscoreevent( #"hash_fc2bc69127096d9e", damagedata.objweapon );
             }
         }
         
@@ -1167,7 +1167,7 @@ function private function_89ec89458bb0f955( var_87996cb8dd74f9ee )
         hintent = spawn( "script_origin", self.origin );
         hintent linkto( self, "tag_origin" );
         hintent makeusable();
-        hintent sethintstring( &"SAT_EQUIPMENT/SENSOR_GRENADE_REMOVE" );
+        hintent sethintstring( &"sat_equipment/sensor_grenade_remove" );
         hintent sethintonobstruction( "show" );
         hintent sethintdisplayfov( fov );
         hintent setusefov( fov );

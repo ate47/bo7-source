@@ -6195,7 +6195,7 @@ function function_969f9f5596dba07a( ent, callbackfunction )
 {
     if ( isdefined( level.var_ff28e0c14ba90179 ) )
     {
-        [[ getsharedfunc( #"game", #"hash_aafbf147e959bba4" ) ]]( ent );
+        [[ getsharedfunc( #"game", #"registerentincrushzones" ) ]]( ent );
         ent.var_a21f47f6f7811618 = callbackfunction;
     }
 }
@@ -6208,9 +6208,9 @@ function function_a605d1fb62b31e70( ent )
 {
     if ( isdefined( level.var_ff28e0c14ba90179 ) )
     {
-        if ( issharedfuncdefined( #"game", #"hash_a0f13120751608ca", 0 ) )
+        if ( issharedfuncdefined( #"game", #"unregisterentfromcrushzones", 0 ) )
         {
-            [[ getsharedfunc( #"game", #"hash_a0f13120751608ca" ) ]]( ent );
+            [[ getsharedfunc( #"game", #"unregisterentfromcrushzones" ) ]]( ent );
         }
         
         ent.var_a21f47f6f7811618 = undefined;
