@@ -5,62 +5,121 @@
 #namespace cap_use_armor_plate_solo;
 
 // Namespace cap_use_armor_plate_solo
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0xcbabf8e3, Offset: 0x16a
-// Size: 0x1
-function private autoexec function_63c8ae6b2d2e9970()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace cap_use_armor_plate_solo
 // Params 3
 // Checksum 0xee3b5804, Offset: 0x17c
-// Size: 0x1
-function function_dc4deb370b43479a()
+// Size: 0x10f
+function function_dc4deb370b43479a( asmname, statename, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    stance = asm_bb::bb_getrequestedstance();
+    coverstate = asm_bb::bb_getrequestedcoverstate();
+    animname = "default";
+    
+    if ( coverstate == "exposed" )
+    {
+        animname = "exposed_" + stance;
+    }
+    else
+    {
+        covernode = asm_bb::bb_getcovernode();
+        
+        if ( isdefined( covernode ) )
+        {
+            covertype = covernode.type;
+            
+            switch ( covertype )
+            {
+                case #"hash_cd3ffe799551db82":
+                    animname = "cover_right_" + stance;
+                    break;
+                case #"hash_e1d8e1adebed5a61":
+                    animname = "cover_left_" + stance;
+                    break;
+                case #"hash_c3b74422dec48736":
+                    animname = "cover_crouch";
+                    break;
+                case #"hash_78b110033ccb68b0":
+                    animname = "cover_stand";
+                    break;
+            }
+        }
+    }
+    
+    armoranim = asm_cap::cap_lookupanimfromalias( statename, animname );
+    return armoranim;
 }
 
 // Namespace cap_use_armor_plate_solo
 // Params 3
 // Checksum 0xf5202914, Offset: 0x294
-// Size: 0x1
-function function_936e13c95e00bf94()
+// Size: 0x55
+function function_936e13c95e00bf94( asmname, statename, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    /#
+        utility::issharedfuncdefined( #"ai", #"onusedarmorplate", 1 );
+    #/
+    
+    utility::callsharedfunc( #"ai", #"onusedarmorplate" );
 }
 
 // Namespace cap_use_armor_plate_solo
 // Params 1, eflags: 0x4
 // Checksum 0xaecc2554, Offset: 0x2f1
-// Size: 0x1
-function private isrighthand()
+// Size: 0x3c
+function private isrighthand( note )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    res = 1;
+    hand = getsubstr( note, 7 );
+    
+    if ( hand == "left" )
+    {
+        res = 0;
+    }
+    
+    return res;
 }
 
 // Namespace cap_use_armor_plate_solo
 // Params 2, eflags: 0x4
 // Checksum 0x67f0a7c2, Offset: 0x336
-// Size: 0x1
-function private notehandler_armorplate()
+// Size: 0x8d
+function private notehandler_armorplate( note, statename )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    self endon( statename + "_finished" );
+    scriptablepart = "armor_plate";
+    
+    if ( isstartstr( note, "attach" ) )
+    {
+        if ( isrighthand( note ) )
+        {
+            self setscriptablepartstate( scriptablepart, "active_right" );
+        }
+        else
+        {
+            self setscriptablepartstate( scriptablepart, "active_left" );
+        }
+        
+        return;
+    }
+    
+    if ( isstartstr( note, "detach" ) )
+    {
+        self setscriptablepartstate( scriptablepart, "default" );
+    }
 }
 
 // Namespace cap_use_armor_plate_solo
 // Params 2
 // Checksum 0x8f5ec30e, Offset: 0x3cb
-// Size: 0x1
-function armorplatenotehandler()
+// Size: 0x5b
+function armorplatenotehandler( note, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    scriptablepart = "armor_plate";
+    
+    if ( self isscriptable() && self getscriptablehaspart( scriptablepart ) )
+    {
+        statename = self asmgetcurrentstate( self.asmname );
+        notehandler_armorplate( note, statename );
+    }
 }
 

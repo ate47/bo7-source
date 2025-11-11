@@ -1,162 +1,150 @@
 #namespace frontend;
 
 // Namespace frontend
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x42f1988b, Offset: 0x6e
-// Size: 0x1
-function private autoexec function_63bbf8132ccaf0cd()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace frontend
 // Params 0
 // Checksum 0x5d3a1529, Offset: 0x80
-// Size: 0x1
+// Size: 0xc6
 function main()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level.callbackstartgametype = &callback_frontendstartgametype;
+    level.callbackplayerconnect = &callback_frontendplayeractive;
+    level.callbackplayerconnect = &callback_frontendplayerconnect;
+    level.callbackplayerdisconnect = &callback_frontendplayerdisconnect;
+    level.callbackplayerdamage = &callback_frontendplayerdamage;
+    level.callbackplayerimpaled = &callback_frontendplayerimpaled;
+    level.var_8f62eac141f8bdb6 = &callback_frontendplayerlaunched;
+    level.callbackplayerkilled = &callback_frontendplayerkilled;
+    level.callbackplayerlaststand = &callback_frontendplayerlaststand;
+    level.callbackplayermigrated = &callback_frontendplayermigrated;
+    level.callbackhostmigration = &callback_frontendhostmigration;
+    level.var_4524771918fe585f = &function_2c6a643803a34552;
+    level.var_880cfcfec57ca836 = &function_58b6508d68b59f3f;
+    level.var_16eab40d8f2ae445 = &function_b69d00f730747014;
 }
 
 // Namespace frontend
 // Params 0
 // Checksum 0x6ac7d6e5, Offset: 0x14e
-// Size: 0x1
+// Size: 0x2
 function callback_frontendstartgametype()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 0
 // Checksum 0xc3d5954c, Offset: 0x158
-// Size: 0x1
+// Size: 0x2
 function callback_frontendplayeractive()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 0
 // Checksum 0xb0a04aeb, Offset: 0x162
-// Size: 0x1
+// Size: 0x2
 function callback_frontendplayerconnect()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 1
 // Checksum 0xce9c8eea, Offset: 0x16c
-// Size: 0x1
-function callback_frontendplayerdisconnect()
+// Size: 0xc
+function callback_frontendplayerdisconnect( reason )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 15
 // Checksum 0x37700c79, Offset: 0x180
-// Size: 0x1
-function callback_frontendplayerdamage()
+// Size: 0x8a
+function callback_frontendplayerdamage( einflictor, eattacker, idamage, idflags, smeansofdeath, fdistance, objweapon, vpoint, vdir, shitloc, psoffsettime, modelindex, partname, var_2300d396e46c0fe7, var_cdd29ad5d1362c2 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 10
 // Checksum 0x8992c078, Offset: 0x212
-// Size: 0x1
-function callback_frontendplayerimpaled()
+// Size: 0x5d
+function callback_frontendplayerimpaled( eattacker, objweapon, vpointclient, vpoint, vdir, shitloc, spartname, var_56243ba4fafee4a5, var_ea333e2537a8fa73, var_2e6727b4a3db5100 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 5
 // Checksum 0x2e331011, Offset: 0x277
-// Size: 0x1
-function callback_frontendplayerlaunched()
+// Size: 0x30
+function callback_frontendplayerlaunched( eattacker, objweapon, vdir, magnitude, shitloc )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 10
 // Checksum 0xac0b2329, Offset: 0x2af
-// Size: 0x1
-function callback_frontendplayerkilled()
+// Size: 0x5d
+function callback_frontendplayerkilled( einflictor, attacker, idamage, idflags, smeansofdeath, objweapon, vdir, shitloc, psoffsettime, deathanimduration )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 10
 // Checksum 0xdf25445f, Offset: 0x314
-// Size: 0x1
-function callback_frontendplayerlaststand()
+// Size: 0x5d
+function callback_frontendplayerlaststand( einflictor, attacker, idamage, smeansofdeath, objweapon, vdir, shitloc, psoffsettime, deathanimduration, var_61e4f4a3c7e15e02 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 0
 // Checksum 0xfd439787, Offset: 0x379
-// Size: 0x1
+// Size: 0xf
 function callback_frontendplayermigrated()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    assertmsg( "<dev string:x24>" );
 }
 
 // Namespace frontend
 // Params 0
 // Checksum 0x65c72a28, Offset: 0x390
-// Size: 0x1
+// Size: 0xf
 function callback_frontendhostmigration()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    assertmsg( "<dev string:x24>" );
 }
 
 // Namespace frontend
 // Params 0
 // Checksum 0x82717db7, Offset: 0x3a7
-// Size: 0x1
+// Size: 0x2
 function function_2c6a643803a34552()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 1
 // Checksum 0x123183d0, Offset: 0x3b1
-// Size: 0x1
-function function_58b6508d68b59f3f()
+// Size: 0xc
+function function_58b6508d68b59f3f( reason )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
 // Namespace frontend
 // Params 2
 // Checksum 0x58d6f5e1, Offset: 0x3c5
-// Size: 0x1
-function function_b69d00f730747014()
+// Size: 0x15
+function function_b69d00f730747014( achievementid, progressdata )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 

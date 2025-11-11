@@ -3,102 +3,135 @@
 #namespace weaponlist;
 
 // Namespace weaponlist
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0xcff48a01, Offset: 0xa7
-// Size: 0x1
-function private autoexec function_df51fac0f16bb1c5()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace weaponlist
 // Params 0
 // Checksum 0x7f862567, Offset: 0xb9
-// Size: 0x1
+// Size: 0x33, Type: bool
 function usingautomaticweapon()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    return weaponisauto( self.weapon ) || weaponisbeam( self.weapon ) || weaponburstcount( self.weapon ) > 0;
 }
 
 // Namespace weaponlist
 // Params 0
 // Checksum 0xe1c3420f, Offset: 0xf5
-// Size: 0x1
+// Size: 0x23, Type: bool
 function usingsemiautoweapon()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    return weaponissemiauto( self.weapon ) || weaponburstcount( self.weapon ) == 1;
 }
 
 // Namespace weaponlist
 // Params 0
 // Checksum 0x9ca8eed9, Offset: 0x121
-// Size: 0x1
+// Size: 0x28
 function autoshootanimrate()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( usingautomaticweapon() )
+    {
+        return ( 0.1 / weaponfiretime( self.weapon ) );
+    }
+    
+    return 0.5;
 }
 
 // Namespace weaponlist
 // Params 0
 // Checksum 0x6f1cea2a, Offset: 0x151
-// Size: 0x1
+// Size: 0x40
 function burstshootanimrate()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( usingautomaticweapon() )
+    {
+        return ( 0.1 / weaponfiretime( self.weapon ) );
+    }
+    
+    if ( utility_common::ispistol( self.weapon ) )
+    {
+        return 1;
+    }
+    
+    return 0.2;
 }
 
 // Namespace weaponlist
 // Params 0
 // Checksum 0x48e62eb9, Offset: 0x199
-// Size: 0x1
+// Size: 0x7
 function waitaftershot()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    return 0.25;
 }
 
 // Namespace weaponlist
 // Params 1
 // Checksum 0x1a3f2d38, Offset: 0x1a9
-// Size: 0x1
-function shootanimtime()
+// Size: 0x59
+function shootanimtime( semiautofire )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !usingautomaticweapon() || semiautofire == 1 )
+    {
+        rand = 0.5 + randomfloat( 1 );
+        return ( weaponfiretime( self.weapon ) * rand );
+    }
+    
+    return weaponfiretime( self.weapon );
 }
 
 // Namespace weaponlist
 // Params 0
 // Checksum 0x5d7955d7, Offset: 0x20a
-// Size: 0x1
+// Size: 0x6d
 function refillclip()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    assert( isdefined( self.weapon ), "<dev string:x24>" + self.model );
+    
+    if ( isnullweapon( self.weapon ) )
+    {
+        self.bulletsinclip = 0;
+        return 0;
+    }
+    
+    self.bulletsinclip = weaponclipsize( self.weapon );
+    assert( self.bulletsinclip > 0, "<dev string:x47>" );
 }
 
 // Namespace weaponlist
 // Params 5
 // Checksum 0x695fdb4c, Offset: 0x27f
-// Size: 0x1
-function add_weapon()
+// Size: 0xc9
+function add_weapon( name, type, time, clipsize, anims )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( name ) );
+    assert( isdefined( type ) );
+    
+    if ( !isdefined( time ) )
+    {
+        time = 3;
+    }
+    
+    if ( !isdefined( clipsize ) )
+    {
+        time = 1;
+    }
+    
+    if ( !isdefined( anims ) )
+    {
+        anims = "rifle";
+    }
+    
+    name = tolower( name );
+    anim.aiweapon[ name ][ "type" ] = type;
+    anim.aiweapon[ name ][ "time" ] = time;
+    anim.aiweapon[ name ][ "clipsize" ] = clipsize;
+    anim.aiweapon[ name ][ "anims" ] = anims;
 }
 
 // Namespace weaponlist
 // Params 1
 // Checksum 0xf3b3ef56, Offset: 0x350
-// Size: 0x1
-function addturret()
+// Size: 0x28
+function addturret( turret )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    anim.aiweapon[ tolower( turret ) ][ "type" ] = "turret";
 }
 

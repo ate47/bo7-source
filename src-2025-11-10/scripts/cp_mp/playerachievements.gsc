@@ -1,82 +1,113 @@
 #namespace playerachievements;
 
 // Namespace playerachievements
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x4bab7d89, Offset: 0xa4
-// Size: 0x1
-function private autoexec function_c96675903bff57a5()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace playerachievements
 // Params 2, eflags: 0x4
 // Checksum 0x559705c, Offset: 0xb6
-// Size: 0x1
-function private initachievement()
+// Size: 0x65
+function private initachievement( player, achievementid )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( player.achievements ) )
+    {
+        player.achievements = [];
+    }
+    
+    if ( !isdefined( player.achievements[ achievementid ] ) )
+    {
+        player.achievements[ achievementid ] = { #progressvalues:[], #dataready:0 };
+    }
 }
 
 // Namespace playerachievements
 // Params 2
 // Checksum 0xdc8defb8, Offset: 0x123
-// Size: 0x1
-function getstate()
+// Size: 0x53
+function getstate( player, achievementid )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    println( "<dev string:x24>" + player.name + "<dev string:x45>" + achievementid );
+    
+    if ( player iscodcaster() )
+    {
+        return;
+    }
+    
+    initachievement( player, achievementid );
+    player function_fdf029c4be6546a3( achievementid );
 }
 
 // Namespace playerachievements
 // Params 1
 // Checksum 0xfbfd0e31, Offset: 0x17e
-// Size: 0x1
-function function_a550b9c75bcbee5e()
+// Size: 0x65
+function function_a550b9c75bcbee5e( progressname )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( level.var_ff13eadad931c15a ) )
+    {
+        level.var_ff13eadad931c15a = [];
+    }
+    
+    progressid = level.var_ff13eadad931c15a[ progressname ];
+    
+    if ( !isdefined( progressid ) )
+    {
+        progressid = int( tablelookup( "ae/ae_progress_target_ids.csv", 0, progressname, 1 ) );
+        level.var_ff13eadad931c15a[ progressname ] = progressid;
+    }
+    
+    return progressid;
 }
 
 // Namespace playerachievements
 // Params 1
 // Checksum 0x459a5215, Offset: 0x1ec
-// Size: 0x1
-function function_6c2806c796cd19b2()
+// Size: 0x1a
+function function_6c2806c796cd19b2( progressid )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    return tablelookup( "ae/ae_progress_target_ids.csv", 1, progressid, 0 );
 }
 
 // Namespace playerachievements
 // Params 4
 // Checksum 0x1146788f, Offset: 0x20f
-// Size: 0x1
-function function_ce48098d17912e1f()
+// Size: 0x47
+function function_ce48098d17912e1f( player, achievementid, progressname, defaultvalue )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    progressid = function_a550b9c75bcbee5e( progressname );
+    return function_1792b9eb4905bb29( player, achievementid, progressid, defaultvalue );
 }
 
 // Namespace playerachievements
 // Params 4
 // Checksum 0x6921acab, Offset: 0x25f
-// Size: 0x1
-function function_1792b9eb4905bb29()
+// Size: 0x7b
+function function_1792b9eb4905bb29( player, achievementid, progressid, defaultvalue )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    initachievement( player, achievementid );
+    progressvalue = defaultvalue;
+    
+    if ( isdefined( player.achievements[ achievementid ].progressvalues[ progressid ] ) )
+    {
+        progressvalue = player.achievements[ achievementid ].progressvalues[ progressid ];
+    }
+    
+    return progressvalue;
 }
 
 // Namespace playerachievements
 // Params 3
 // Checksum 0xd41061bf, Offset: 0x2e3
-// Size: 0x1
-function challenge_progress()
+// Size: 0xda
+function challenge_progress( player, achievementid, progression )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    println( "<dev string:x66>" + player.name + "<dev string:x91>" + achievementid );
+    initachievement( player, achievementid );
+    
+    for ( index = 0; index < progression.progress_values.size ; index++ )
+    {
+        progress_id = progression.progress_values[ index ].progress_id;
+        progress_value = progression.progress_values[ index ].progress;
+        player.achievements[ achievementid ].progressvalues[ progress_id ] = progress_value;
+    }
+    
+    player notify( "challengeProgress", achievementid );
 }
 

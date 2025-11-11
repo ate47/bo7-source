@@ -6,72 +6,142 @@
 #namespace call_reinforcements;
 
 // Namespace call_reinforcements
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x5b3cbcea, Offset: 0x26a
-// Size: 0x1
-function private autoexec function_b9856c092f172e0a()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace call_reinforcements
 // Params 1
 // Checksum 0xe4d1192c, Offset: 0x27c
-// Size: 0x1
-function getfunction()
+// Size: 0x5c
+function getfunction( funcid )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    switch ( funcid )
+    {
+        case #"hash_dab0d83df51da4d":
+            return &onuserinit;
+        case #"hash_722d767fd6d40f56":
+            return &onuserterminate;
+        case #"hash_256644959193a6c7":
+            return &callreinforcements;
+    }
+    
+    assertmsg( "<dev string:x24>" + funcid );
 }
 
 // Namespace call_reinforcements
 // Params 1
 // Checksum 0x440cda2d, Offset: 0x2e0
-// Size: 0x1
-function onuserinit()
+// Size: 0xc
+function onuserinit( interactionid )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
 // Namespace call_reinforcements
 // Params 1
 // Checksum 0x1a0eac76, Offset: 0x2f4
-// Size: 0x1
-function onuserterminate()
+// Size: 0x1c
+function onuserterminate( interactionid )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self clearbtgoal( 1 );
+    self notify( "endcallreinforcements" );
 }
 
 // Namespace call_reinforcements
 // Params 2
 // Checksum 0xc88b8336, Offset: 0x318
-// Size: 0x1
-function callreinforcements()
+// Size: 0xb2
+function callreinforcements( statename, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    self endon( "endcallreinforcements" );
+    callreinforcementsbundle = getscriptbundle( "ai_behavior_call_reinforcements:ai_behavior_call_reinforcements_default" );
+    
+    if ( !isdefined( callreinforcementsbundle ) )
+    {
+        assertmsg( "<dev string:x45>" );
+        return;
+    }
+    
+    self function_461dc0438f85cf1d( 1 );
+    self setbtgoalradius( 1, 12 );
+    capname = "cap_call_reinforcements";
+    
+    if ( self.asmname != capname )
+    {
+        cap::cap_start( capname, "caps/interactions/cap_call_reinforcements" );
+    }
+    
+    self playsound( "dx_br_dbos_dbli_dbtp_bitr" );
+    thread function_9bccbee61c4d560d( callreinforcementsbundle.var_45aca519a5278d6 );
+    self waittill( "cap_exit_completed" );
 }
 
 // Namespace call_reinforcements
 // Params 1
 // Checksum 0x455f6731, Offset: 0x3d2
-// Size: 0x1
-function function_9bccbee61c4d560d()
+// Size: 0x73
+function function_9bccbee61c4d560d( calllength )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    self endon( "endcallreinforcements" );
+    wait calllength;
+    
+    if ( isdefined( level.agent_funcs ) )
+    {
+        spawnreinforcementsfunc = level.agent_funcs[ "spawn_reinforcements" ];
+        
+        if ( isdefined( spawnreinforcementsfunc ) )
+        {
+            [[ spawnreinforcementsfunc ]]( self.origin, 0, 1 );
+        }
+    }
+    
+    asm::asm_fireevent( self.asmname, "call_reinforcements_loop_end" );
 }
 
 // Namespace call_reinforcements
 // Params 3
 // Checksum 0x9e3edade, Offset: 0x44d
-// Size: 0x1
-function callreinforcementschooseanim()
+// Size: 0x13c
+function callreinforcementschooseanim( asmname, statename, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    sectionname = params;
+    
+    if ( !isdefined( sectionname ) )
+    {
+        assertmsg( "<dev string:xba>" );
+        return;
+    }
+    
+    stance = asm_bb::bb_getrequestedstance();
+    coverstate = asm_bb::bb_getrequestedcoverstate();
+    animname = "call_reinforcements";
+    
+    if ( coverstate != "exposed" )
+    {
+        covernode = asm_bb::bb_getcovernode();
+        
+        if ( isdefined( covernode ) )
+        {
+            covertype = covernode.type;
+            
+            switch ( covertype )
+            {
+                case #"hash_cd3ffe799551db82":
+                    animname += "_cover_right_" + stance;
+                    break;
+                case #"hash_e1d8e1adebed5a61":
+                    animname += "_cover_left_" + stance;
+                    break;
+                case #"hash_c3b74422dec48736":
+                    animname += "_cover_crouch";
+                    break;
+                case #"hash_78b110033ccb68b0":
+                    animname += "_cover_stand";
+                    break;
+            }
+        }
+    }
+    
+    animname += "_" + sectionname;
+    alternativename = asm_cap::cap_lookupanimfromalias( statename, animname );
+    return alternativename;
 }
 

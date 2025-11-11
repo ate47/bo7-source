@@ -6,242 +6,786 @@
 #namespace cap;
 
 // Namespace cap
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x280308b8, Offset: 0x337
-// Size: 0x1
-function private autoexec function_b4172fa1d7bf0fe4()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace cap
 // Params 0
 // Checksum 0x762146db, Offset: 0x349
-// Size: 0x1
+// Size: 0x4f
 function init_cap()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isdefined( level.cap ) )
+    {
+        return;
+    }
+    
+    level.cap = spawnstruct();
+    level.cap.fnstart = &cap_start;
+    level.cap.fnexit = &cap_exit;
 }
 
 // Namespace cap
 // Params 3
 // Checksum 0x808a0f48, Offset: 0x3a0
-// Size: 0x1
-function cap_start()
+// Size: 0x177, Type: bool
+function cap_start( capname, animset, animscripted )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isai( self ) && self isinscriptedstate() )
+    {
+        msg1 = "AI $e" + self getentitynumber() + " attempting to start CAP '" + capname + "' with Arc '" + animset + "' ";
+        msg2 = "but is currently playing a scripted anim (ASM state: '" + asm::asm_getcurrentstate( self.asmname ) + "') ";
+        msg3 = "This is not supported - you either need to avoid starting";
+        msg4 = " a CAP when the AI is scripted, or first clear the scripted state using the normal method.";
+        assertmsg( msg1 + msg2 + msg3 + msg4 );
+        return false;
+    }
+    
+    self.caporigin = self.origin;
+    self.capangles = self.angles;
+    self notify( "cap_start" );
+    
+    if ( !isai( self ) )
+    {
+        self._blackboard = spawnstruct();
+        self._blackboard.bfire = 0;
+        function_64df1eb8fc59357a( capname, animset );
+        return true;
+    }
+    else
+    {
+        self._blackboard.bseqphase = undefined;
+    }
+    
+    assert( isalive( self ) && isdefined( self.asm ) );
+    self setoverridearchetype( "animscript", animset, 0 );
+    self function_d505f743c28f3545( capname );
+    cap_terminateandreplace( capname );
+    
+    if ( animscripted )
+    {
+        asm_bb::bb_setanimscripted();
+    }
+    
+    return true;
 }
 
 // Namespace cap
 // Params 2
 // Checksum 0x6891c3f3, Offset: 0x520
-// Size: 0x1
-function function_64df1eb8fc59357a()
+// Size: 0x11d
+function function_64df1eb8fc59357a( baseasmname, archetypename )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( archetypename == "hero_salter" || archetypename == "farah" || archetypename == "soldier_female" )
+    {
+        asm_bb::bb_setshort( 1 );
+    }
+    
+    self.asmname = baseasmname;
+    
+    if ( !isdefined( self.asm ) )
+    {
+        self.asm = spawnstruct();
+        self.asm.animoverrides = [];
+    }
+    
+    assert( isdefined( archetypename ) || isdefined( self.animsetname ) );
+    
+    if ( isdefined( archetypename ) )
+    {
+        self.animsetname = archetypename;
+        self.originalanimationarchetype = self.animationarchetype;
+        self.animationarchetype = undefined;
+    }
+    
+    self.scriptmodelcap = 1;
+    self asminstantiate( baseasmname );
+    
+    if ( !isdefined( level.capscriptmodels ) )
+    {
+        level.capscriptmodels = [];
+        level thread function_804046ad9cf64f5b();
+    }
+    
+    if ( !arraycontains( level.capscriptmodels, self ) )
+    {
+        level.capscriptmodels[ level.capscriptmodels.size ] = self;
+    }
 }
 
 // Namespace cap
 // Params 0
 // Checksum 0x580d6a8c, Offset: 0x645
-// Size: 0x1
+// Size: 0x59
 function function_804046ad9cf64f5b()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    while ( true )
+    {
+        for ( capindex = 0; capindex < level.capscriptmodels.size ; capindex++ )
+        {
+            capent = level.capscriptmodels[ capindex ];
+            
+            if ( isalive( capent ) )
+            {
+                capent asmtick();
+            }
+        }
+        
+        wait 0.05;
+    }
 }
 
 // Namespace cap
 // Params 2
 // Checksum 0xad036cf6, Offset: 0x6a6
-// Size: 0x1
-function cap_terminateandreplace()
+// Size: 0x54
+function cap_terminateandreplace( newasmname, newarchetype )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self asmterminate();
+    self notify( "asm_terminated" );
+    self.asmtrackasm = undefined;
+    
+    if ( !isdefined( newarchetype ) )
+    {
+        newarchetype = self.animsetname;
+    }
+    
+    self [[ self.fnasm_init ]]( tolower( newasmname ), newarchetype );
 }
 
 // Namespace cap
 // Params 0
 // Checksum 0x677430e6, Offset: 0x702
-// Size: 0x1
+// Size: 0x127
 function cap_exit()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !isai( self ) )
+    {
+        self.asmname = undefined;
+        self.animationarchetype = self.originalanimationarchetype;
+        self.originalanimationarchetype = undefined;
+        self.scriptmodelcap = undefined;
+        
+        if ( arraycontains( level.capscriptmodels, self ) )
+        {
+            level.capscriptmodels = arrayremove( level.capscriptmodels, self );
+        }
+        
+        return;
+    }
+    
+    assert( self function_51631ea7d587647d(), "<dev string:x24>" + self.asmname );
+    
+    if ( !self function_51631ea7d587647d() )
+    {
+        return;
+    }
+    
+    if ( asm_bb::bb_isanimscripted() )
+    {
+        asm_bb::bb_clearanimscripted();
+    }
+    
+    self.asmtrackasm = undefined;
+    self clearcap();
+    self.var_f6cf297cd6c37337 = undefined;
+    
+    if ( isdefined( self.capgroup ) )
+    {
+        function_1dc69bd8c64496fc();
+    }
+    
+    if ( !isdefined( self.script_pushable ) )
+    {
+        self.script_pushable = self.oldpushable;
+    }
+    
+    if ( !isdefined( self.script_pushable_by_ai ) )
+    {
+        self.script_pushable_by_ai = self.var_ba77a88b56abb64;
+    }
+    
+    self.oldpushable = undefined;
+    self.var_ba77a88b56abb64 = undefined;
+    function_82acad1b355efb61();
+    self notify( "cap_exit_completed" );
 }
 
 // Namespace cap
 // Params 0
 // Checksum 0x3acfc72f, Offset: 0x831
-// Size: 0x1
+// Size: 0x9c
 function function_4fe8a1b9dc2d0bbc()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "entitydeleted" );
+    self endon( "cap_exit_completed" );
+    
+    if ( self.team == "axis" )
+    {
+        utility::waittill_any( "death", utility::function_215bebaff8aa653c() );
+    }
+    else
+    {
+        self waittill( "death" );
+    }
+    
+    if ( asm_bb::bb_isanimscripted() )
+    {
+        asm_bb::bb_clearanimscripted();
+    }
+    
+    self stopanimscripted();
+    self clearoverridearchetype( "animscript" );
+    self function_d505f743c28f3545( undefined );
+    cap_terminateandreplace( self.defaultasm );
+    
+    if ( isdefined( self.capgroup ) )
+    {
+        function_1dc69bd8c64496fc();
+    }
+    
+    function_82acad1b355efb61();
+    self notify( "cap_exit_completed" );
 }
 
 // Namespace cap
 // Params 4
 // Checksum 0xb18f019e, Offset: 0x8d5
-// Size: 0x1
-function function_b26f782b6bed85d5()
+// Size: 0xb5
+function function_b26f782b6bed85d5( origin, capname, animset, var_b9018c9fc0176a5c )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    
+    if ( var_b9018c9fc0176a5c )
+    {
+        self.oldscriptgoalpos = self.scriptgoalpos;
+        self.oldgoalradius = self.goalradius;
+    }
+    
+    self setgoalpos( origin, 1 );
+    self waittill( "goal" );
+    cap_start( capname, animset );
+    self waittill( "cap_exit_completed" );
+    
+    if ( isdefined( self.oldscriptgoalpos ) )
+    {
+        self setgoalpos( self.oldscriptgoalpos, self.oldgoalradius );
+        self.oldscriptgoalpos = undefined;
+        self.oldgoalradius = undefined;
+    }
 }
 
 // Namespace cap
 // Params 0
 // Checksum 0xaa98fbd8, Offset: 0x992
-// Size: 0x1
+// Size: 0x91
 function function_7362fbe78a0a00b6()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    msg = utility::waittill_any_return( "cap_reach_and_arrive", "bseq_user_deleted" );
+    
+    if ( isdefined( self.scriptedarrivalent ) )
+    {
+        self.scriptedarrivalent delete();
+    }
+    
+    if ( isdefined( self.customarrivalhandler ) )
+    {
+        self.customarrivalhandler = undefined;
+    }
+    
+    if ( isdefined( msg ) )
+    {
+        self finishcoverarrival( "Custom" );
+        self clearbtgoal( 1 );
+        
+        if ( msg == "bseq_user_deleted" )
+        {
+            if ( self.defaultasm != self.asmname )
+            {
+                cap_exit();
+            }
+        }
+    }
 }
 
 // Namespace cap
 // Params 4
 // Checksum 0xcb3fd05b, Offset: 0xa2b
-// Size: 0x1
-function cap_reach_and_arrive()
+// Size: 0x34f
+function cap_reach_and_arrive( scriptednode, capname, animset, var_42619fd983f8ba36 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( scriptednode.origin ) );
+    self notify( "cap_reach_and_arrive" );
+    self endon( "cap_reach_and_arrive" );
+    thread function_7362fbe78a0a00b6();
+    self endon( "bseq_user_deleted" );
+    self endon( "death" );
+    
+    if ( !isdefined( self.scriptedarrivalent ) )
+    {
+        self.scriptedarrivalent = spawn( "script_origin", scriptednode.origin );
+        self.scriptedarrivalent.targetname = "cap_reach_and_arrive";
+    }
+    
+    self.scriptedarrivalent.angles = scriptednode.angles;
+    self.scriptedarrivalent.origin = scriptednode.origin;
+    self.scriptedarrivalent.type = "Custom";
+    arrival_state = "cap_arrival";
+    
+    if ( isdefined( var_42619fd983f8ba36 ) )
+    {
+        arrival_state = var_42619fd983f8ba36;
+    }
+    
+    self.oldpushable = self.script_pushable;
+    self.var_ba77a88b56abb64 = self.script_pushable_by_ai;
+    self.script_pushable = 0;
+    self.script_pushable_by_ai = 0;
+    
+    if ( !self.var_e0bc276499c18875 )
+    {
+        approachpos = function_82491e1bc74dd239( capname, arrival_state, scriptednode.origin, animset );
+        var_e3e28571d43b1f01 = 0;
+        
+        if ( isarray( approachpos ) )
+        {
+            var_e3e28571d43b1f01 = 1;
+            approachpos = approachpos[ 1 ];
+        }
+        
+        if ( isdefined( approachpos ) )
+        {
+            while ( distance2d( self.origin, approachpos ) > 40 )
+            {
+                waitframe();
+            }
+            
+            if ( var_e3e28571d43b1f01 )
+            {
+                self clearbtgoal( 1 );
+            }
+        }
+    }
+    
+    goalrad = 4;
+    self setbtgoalradius( 1, goalrad );
+    self setbtgoalpos( 1, scriptednode.origin );
+    asm::asm_fireephemeralevent( "path_chosen", "end" );
+    assert( archetypehasstate( animset, arrival_state ), "<dev string:x5e>" + animset + "<dev string:x6b>" + arrival_state + "<dev string:x87>" );
+    self.customarrivalstate = arrival_state;
+    self.customarrivalanimset = animset;
+    self.customarrivalangles = scriptednode.angles;
+    self.var_4568897d5b592329 = 1;
+    self.customarrivalhandler = &function_299e3a2ee5531551;
+    self.capdata = spawnstruct();
+    self.capdata.arrivalangles = scriptednode.angles;
+    self.capdata.asmname = capname;
+    self.capdata.var_ec117174c7bbdce6 = 0;
+    self waittill( "bt_goal" );
+    
+    while ( self.var_15c6e27c1acff47e != "not_set" )
+    {
+        waitframe();
+    }
+    
+    waitforalignment( scriptednode.angles );
+    
+    if ( self.capdata.var_ec117174c7bbdce6 )
+    {
+        self waittill( "custom_arrival_handler_done" );
+        self notify( "lerp_arrive_finished" );
+    }
+    else
+    {
+        self notify( "lerp_arrive_finished" );
+        cap_start( capname, animset );
+    }
+    
+    asm::asm_fireephemeralevent( "move", "end" );
+    self.capdata = undefined;
+    self notify( "cap_reach_and_arrive" );
 }
 
 // Namespace cap
 // Params 1
 // Checksum 0x31ae854d, Offset: 0xd82
-// Size: 0x1
-function waitforalignment()
+// Size: 0x58
+function waitforalignment( var_a8147e6a98a38f54 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    timeout = gettime() + 3000;
+    
+    while ( gettime() < timeout )
+    {
+        anglediff = var_a8147e6a98a38f54[ 1 ] - self.angles[ 1 ];
+        
+        if ( abs( anglediff ) < 2 )
+        {
+            break;
+        }
+        
+        waitframe();
+    }
 }
 
 // Namespace cap
 // Params 0, eflags: 0x4
 // Checksum 0xd73f2f0a, Offset: 0xde2
-// Size: 0x1
+// Size: 0x11a
 function private function_299e3a2ee5531551()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "death" );
+    self endon( "cap_exit_completed" );
+    assert( isdefined( self.capdata ) );
+    self.capdata.var_ec117174c7bbdce6 = 1;
+    cap_start( self.capdata.asmname, self.customarrivalanimset );
+    initstate = self asmgetcurrentstate( self.asmname );
+    self asmsetstate( self.asmname, self.customarrivalstate );
+    timeouttime = gettime() + 10000;
+    
+    while ( !asm::asm_eventfired( self.asmname, "end" ) && gettime() < timeouttime )
+    {
+        waitframe();
+    }
+    
+    if ( isdefined( self.capdata ) && isdefined( self.capdata.var_ec117174c7bbdce6 ) )
+    {
+        self.capdata.var_ec117174c7bbdce6 = 0;
+    }
+    
+    self asmsetstate( self.asmname, initstate );
+    self notify( "custom_arrival_handler_done" );
 }
 
 // Namespace cap
 // Params 1
 // Checksum 0x13d95677, Offset: 0xf04
-// Size: 0x1
-function function_f97b52e357e14785()
+// Size: 0xcb
+function function_f97b52e357e14785( group )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isarray( group ) );
+    
+    if ( !isdefined( level.capgroups ) )
+    {
+        level.capgroups = [];
+    }
+    
+    newcapgroup = level.capgroups.size;
+    level.capgroups[ newcapgroup ] = group;
+    
+    foreach ( ent in group )
+    {
+        ent.capgroup = newcapgroup;
+    }
 }
 
 // Namespace cap
 // Params 0
 // Checksum 0xfa7adf9c, Offset: 0xfd7
-// Size: 0x1
+// Size: 0x51
 function function_1dc69bd8c64496fc()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    assert( isdefined( level.capgroups ) && isdefined( self.capgroup ) && isdefined( level.capgroups[ self.capgroup ] ) );
+    
+    if ( level.capgroups[ self.capgroup ].size == 0 )
+    {
+    }
 }
 
 // Namespace cap
 // Params 0
 // Checksum 0x418e2571, Offset: 0x1030
-// Size: 0x1
+// Size: 0xda
 function function_82acad1b355efb61()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isdefined( level.sight_trace_queue ) && utility::function_9dac7ef683ed0e52( level.sight_trace_queue, self ) )
+    {
+        level notify( "player_look_at_process" );
+        
+        if ( isdefined( level.civreactdata.lookatlock ) )
+        {
+            level.civreactdata.lookatlock = 0;
+        }
+        
+        if ( isdefined( level.sight_trace_queue ) )
+        {
+            level.sight_trace_queue = undefined;
+        }
+    }
+    
+    if ( isdefined( level.var_795e84d9e048e019 ) && utility::function_9dac7ef683ed0e52( level.var_795e84d9e048e019, self ) )
+    {
+        level notify( "civilian_process_eye_look_at" );
+        
+        if ( isdefined( level.civreactdata.civilianlookatlock ) )
+        {
+            level.civreactdata.civilianlookatlock = 0;
+        }
+        
+        if ( isdefined( level.var_795e84d9e048e019 ) )
+        {
+            level.var_795e84d9e048e019 = undefined;
+        }
+    }
 }
 
 // Namespace cap
 // Params 2
 // Checksum 0x7eb71593, Offset: 0x1112
-// Size: 0x1
-function cap_prop()
+// Size: 0x65
+function cap_prop( capname, animset )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.asmname = capname;
+    
+    if ( !isdefined( self.asm ) )
+    {
+        self.asm = spawnstruct();
+        self.asm.animoverrides = [];
+    }
+    
+    self.animsetname = animset;
+    self.animationarchetype = undefined;
 }
 
 // Namespace cap
 // Params 2
 // Checksum 0xb0ea5a11, Offset: 0x117f
-// Size: 0x1
-function function_bb57e4c61b3b6dbd()
+// Size: 0xbe
+function function_bb57e4c61b3b6dbd( states, var_56f54d90816c4970 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.resumestatetime = [];
+    
+    if ( !isarray( states ) )
+    {
+        states = [ states ];
+    }
+    
+    foreach ( state in states )
+    {
+        self.resumestatetime[ state ] = 0;
+    }
+    
+    if ( isdefined( var_56f54d90816c4970 ) )
+    {
+        self.var_2fa91f90efb30033 = var_56f54d90816c4970;
+    }
 }
 
 // Namespace cap
 // Params 1
 // Checksum 0x15bd734f, Offset: 0x1245
-// Size: 0x1
-function function_61f1ed9cea162fab()
+// Size: 0x2a
+function function_61f1ed9cea162fab( states )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isarray( states ) )
+    {
+        states = [ states ];
+    }
+    
+    self.relativestates = states;
 }
 
 // Namespace cap
 // Params 4, eflags: 0x4
 // Checksum 0xb05622fd, Offset: 0x1277
-// Size: 0x1
-function private function_82491e1bc74dd239()
+// Size: 0x1ac
+function private function_82491e1bc74dd239( capasmname, arrivalstate, finalpos, animset )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    path = findpathcustom( self.origin, finalpos );
+    
+    if ( !isdefined( path ) || path.size < 2 )
+    {
+        assert( "<dev string:x8d>" );
+        return undefined;
+    }
+    
+    approachang = vectortoangles( finalpos - path[ path.size - 2 ] );
+    anglediff = angleclamp180( self.scriptedarrivalent.angles[ 1 ] - approachang[ 1 ] );
+    angleindex = getangleindex( anglediff, 22.5 );
+    
+    if ( angleindex == 8 )
+    {
+        angleindex = 0;
+    }
+    
+    nextindexsign = anglediff + getangleoffset( angleindex );
+    
+    if ( nextindexsign < 0 )
+    {
+        nextindexsign = -1;
+    }
+    else
+    {
+        nextindexsign = 1;
+    }
+    
+    nextindex = nextindexsign;
+    array = function_42a823c020248a21( angleindex, nextindexsign );
+    
+    for ( arrayindex = 0; arrayindex < array.size ; arrayindex++ )
+    {
+        caparrivalanim = function_845718f590c62817( arrivalstate, animset, array[ arrayindex ] );
+        
+        if ( isdefined( caparrivalanim ) )
+        {
+            pos = function_6de1b23288eb153f( finalpos, angleindex, array[ arrayindex ], nextindexsign, caparrivalanim );
+            
+            if ( isarray( pos ) )
+            {
+                self setgoalpath( [ pos[ 0 ], pos[ 1 ] ] );
+                return pos;
+            }
+            
+            if ( isdefined( pos ) )
+            {
+                self setbtgoalradius( 1, 10 );
+                self setbtgoalpos( 1, pos );
+                return pos;
+            }
+        }
+    }
+    
+    assert( isdefined( pos ), "<dev string:xbb>" );
+    return pos;
 }
 
 // Namespace cap
 // Params 5, eflags: 0x4
 // Checksum 0xa6d9316d, Offset: 0x142c
-// Size: 0x1
-function private function_6de1b23288eb153f()
+// Size: 0x17c
+function private function_6de1b23288eb153f( goalpos, angleindex, closestangleindex, nextindexsign, xanim )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    addangle = ( 0, getangleoffset( closestangleindex ), 0 );
+    newangle = combineangles( self.interaction_angles, addangle );
+    movedelta = getmovedelta( xanim, 0, 1 );
+    arrivalanimdis = distance2d( ( 0, 0, 0 ), movedelta );
+    adddistance = 40;
+    approachpos = goalpos - anglestoforward( newangle ) * ( arrivalanimdis + adddistance );
+    navtraceresult = navtrace( goalpos, approachpos, self, 0 );
+    
+    if ( navtraceresult )
+    {
+        return undefined;
+    }
+    
+    diff = angleindex - closestangleindex;
+    
+    if ( abs( diff ) == 4 )
+    {
+        detourindex = closestangleindex + nextindexsign * -1;
+        
+        if ( detourindex > 7 )
+        {
+            detourindex -= 8;
+        }
+        else if ( detourindex < 0 )
+        {
+            detourindex += 8;
+        }
+        
+        addangle = ( 0, getangleoffset( detourindex ), 0 );
+        newangle = combineangles( self.interaction_angles, addangle );
+        detourpos = goalpos - anglestoforward( newangle ) * ( arrivalanimdis + adddistance );
+        navtraceresult = navtrace( detourpos, approachpos, self, 0 );
+        
+        if ( !navtraceresult )
+        {
+            listpos = [ detourpos, approachpos ];
+            return listpos;
+        }
+    }
+    
+    return approachpos;
 }
 
 // Namespace cap
 // Params 1, eflags: 0x4
 // Checksum 0x6d13d1ed, Offset: 0x15b1
-// Size: 0x1
-function private getangleoffset()
+// Size: 0x65
+function private getangleoffset( index )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    anglearray = [ 180, 135, 90, 45, 0, -45, -90, -135 ];
+    return anglearray[ index ];
 }
 
 // Namespace cap
 // Params 3, eflags: 0x4
 // Checksum 0x35487fb4, Offset: 0x161f
-// Size: 0x1
-function private function_845718f590c62817()
+// Size: 0x171
+function private function_845718f590c62817( statename, animset, index )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    aliasesindex = [ 8, 9, 6, 3, 2, 1, 4, 7, 8 ];
+    angleindex = aliasesindex[ index ];
+    
+    if ( angleindex == 8 )
+    {
+        angleindex = "8l";
+        leftindex = "left" + angleindex;
+        leftalias = archetypegetalias( animset, statename, leftindex, 1 );
+        rightindex = "right" + angleindex;
+        rightalias = archetypegetalias( animset, statename, rightindex, 1 );
+        
+        if ( isdefined( leftalias ) && isdefined( rightalias ) )
+        {
+            return leftalias.anims;
+        }
+        
+        angleindex = "8r";
+    }
+    
+    leftindex = "left" + angleindex;
+    leftalias = archetypegetalias( animset, statename, leftindex, 1 );
+    rightindex = "right" + angleindex;
+    rightalias = archetypegetalias( animset, statename, rightindex, 1 );
+    
+    if ( isdefined( leftalias ) )
+    {
+        assert( isdefined( rightalias ), "<dev string:x119>" + leftindex + "<dev string:x12d>" + rightindex );
+    }
+    
+    if ( isdefined( rightalias ) )
+    {
+        assert( isdefined( leftalias ), "<dev string:x119>" + rightindex + "<dev string:x12d>" + leftindex );
+    }
+    
+    if ( isdefined( leftalias ) && isdefined( rightalias ) )
+    {
+        return leftalias.anims;
+    }
 }
 
 // Namespace cap
 // Params 2, eflags: 0x4
 // Checksum 0x3002f9ba, Offset: 0x1798
-// Size: 0x1
-function private function_42a823c020248a21()
+// Size: 0xc0
+function private function_42a823c020248a21( angleindex, nextindexsign )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    closestangleindex = angleindex;
+    nextindex = nextindexsign;
+    arrayindex = 0;
+    array[ arrayindex ] = closestangleindex;
+    
+    for ( nextangleindex = 1; nextangleindex < 5 ; nextangleindex++ )
+    {
+        for ( checkbothsides = 0; checkbothsides < 2 ; checkbothsides++ )
+        {
+            arrayindex++;
+            closestangleindex = angleindex + nextangleindex * nextindex;
+            
+            if ( closestangleindex < 0 )
+            {
+                closestangleindex += 8;
+            }
+            else if ( closestangleindex > 7 )
+            {
+                closestangleindex -= 8;
+            }
+            
+            array[ arrayindex ] = closestangleindex;
+            nextindex *= -1;
+            
+            if ( nextangleindex == 4 )
+            {
+                break;
+            }
+        }
+    }
+    
+    return array;
 }
 

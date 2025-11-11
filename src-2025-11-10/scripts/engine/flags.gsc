@@ -3,32 +3,30 @@
 #namespace flags;
 
 // Namespace flags
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0xa4f5f059, Offset: 0x88
-// Size: 0x1
-function private autoexec function_f6851364e333f143()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace flags
 // Params 0
 // Checksum 0x2d23dfac, Offset: 0x9a
-// Size: 0x1
+// Size: 0x52
 function init_flags()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !utility::add_init_script( "init_flags", &init_flags ) )
+    {
+        return;
+    }
+    
+    level.flag = [];
+    level.flags_lock = [];
+    level.generic_index = 0;
+    level.flag_struct = spawnstruct();
+    level.flag_struct assign_unique_id();
 }
 
 // Namespace flags
 // Params 0
 // Checksum 0x590191c6, Offset: 0xf4
-// Size: 0x1
+// Size: 0x24
 function assign_unique_id()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.unique_id = "generic" + level.generic_index;
+    level.generic_index++;
 }
 

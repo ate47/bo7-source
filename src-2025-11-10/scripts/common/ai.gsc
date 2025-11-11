@@ -8,842 +8,1730 @@
 #namespace ai;
 
 // Namespace ai
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x1b37356b, Offset: 0x3e5
-// Size: 0x1
-function private autoexec function_ac6c32d2b73a4b02()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace ai
 // Params 0
 // Checksum 0x51070566, Offset: 0x3f7
-// Size: 0x1
+// Size: 0xc1
 function ai_init()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    flag_name = self.animsetname + "_animsetname_init";
+    
+    if ( !utility::flag( flag_name ) )
+    {
+        utility::flag_set( flag_name );
+        callback::callback( "on_first_ai_init" );
+    }
+    
+    callback::function_99edd620ee45cd95( #"ai" );
+    callback::function_99edd620ee45cd95( self.type );
+    callback::function_99edd620ee45cd95( self.animsetname );
+    
+    if ( isdefined( self.subclass ) )
+    {
+        callback::function_99edd620ee45cd95( self.subclass );
+    }
+    
+    utility::ent_flag_set( "ai_init_complete" );
+    callback::callback( "on_ai_init" );
+    utility::registersharedfunc( #"ai", #"hash_c649178f35fe47cf", &function_f4bf821b19c5ec24 );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xc7ae5cf1, Offset: 0x4c0
-// Size: 0x1
+// Size: 0x44
 function function_6560fe052bc053d()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    for ( i = 0; i < level.players.size ; i++ )
+    {
+        player = level.players[ i ];
+        player function_9349715a3ded9d8();
+    }
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x2a75ff84, Offset: 0x50c
-// Size: 0x1
+// Size: 0x8
 function function_9349715a3ded9d8()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self function_533d1ea1bc485146();
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x90cb32f4, Offset: 0x51c
-// Size: 0x1
+// Size: 0x72
 function set_forcegoal()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isdefined( self.set_forcedgoal ) )
+    {
+        return;
+    }
+    
+    self.oldfightdist = self.pathenemyfightdist;
+    self.oldmaxdist = self.pathenemylookahead;
+    self.oldmaxsight = self.maxsightdistsqrd;
+    self.pathenemyfightdist = 8;
+    self.pathenemylookahead = 8;
+    self.maxsightdistsqrd = 1;
+    self.set_forcedgoal = 1;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xb856c1e6, Offset: 0x596
-// Size: 0x1
+// Size: 0x51
 function unset_forcegoal()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !isdefined( self.set_forcedgoal ) )
+    {
+        return;
+    }
+    
+    self.pathenemyfightdist = self.oldfightdist;
+    self.pathenemylookahead = self.oldmaxdist;
+    self.maxsightdistsqrd = self.oldmaxsight;
+    self.set_forcedgoal = undefined;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xa2f9e52a, Offset: 0x5ef
-// Size: 0x1
+// Size: 0xd
 function disable_exits()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.disableexits = 1;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x787a1143, Offset: 0x604
-// Size: 0x1
+// Size: 0xc
 function enable_exits()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.disableexits = 0;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xe746e265, Offset: 0x618
-// Size: 0x1
+// Size: 0xc
 function disable_turnanims()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.turnanimsenabled = 0;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xddb116c6, Offset: 0x62c
-// Size: 0x1
+// Size: 0xd
 function enable_turnanims()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.turnanimsenabled = 1;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xddebc03c, Offset: 0x641
-// Size: 0x1
+// Size: 0xd
 function disable_arrivals()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.disablearrivals = 1;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x7809799c, Offset: 0x656
-// Size: 0x1
+// Size: 0x15
 function enable_arrivals()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "death" );
+    waittillframeend();
+    self.disablearrivals = 0;
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x43b96ff9, Offset: 0x673
-// Size: 0x1
-function set_rebel()
+// Size: 0x22
+function set_rebel( var_ce2840db99be60d0 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self._blackboard.wildfireenabled = var_ce2840db99be60d0;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x47422c9e, Offset: 0x69d
-// Size: 0x1
+// Size: 0x1e
 function disable_long_death()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    assert( isalive( self ), "<dev string:x24>" );
+    self.allowlongdeath = 0;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x7fa019af, Offset: 0x6c3
-// Size: 0x1
+// Size: 0x1f
 function enable_long_death()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    assert( isalive( self ), "<dev string:x59>" );
+    self.allowlongdeath = 1;
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x165fa0f1, Offset: 0x6ea
-// Size: 0x1
-function enable_danger_react()
+// Size: 0x41
+function enable_danger_react( duration )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    duration *= 1000;
+    assert( isai( self ) );
+    self.dodangerreact = 1;
+    self.dangerreactduration = duration;
+    self.neversprintforvariation = undefined;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x4aa0763a, Offset: 0x733
-// Size: 0x1
+// Size: 0x24
 function disable_danger_react()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    assert( isai( self ) );
+    self.dodangerreact = 0;
+    self.neversprintforvariation = 1;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x21b31109, Offset: 0x75f
-// Size: 0x1
+// Size: 0xc
 function disable_surprise()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.newenemyreactiondistsq = 0;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xaed2cf19, Offset: 0x773
-// Size: 0x1
+// Size: 0xd
 function get_ignoreme()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    return val::get( "ignoreme" );
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x56b06de, Offset: 0x789
-// Size: 0x1
-function set_ignoreme()
+// Size: 0x4a
+function set_ignoreme( val )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( issentient( self ), "<dev string:x8d>" );
+    
+    if ( val )
+    {
+        val::set( "set_ignoreme", "ignoreme", 1 );
+        return;
+    }
+    
+    val::reset( "set_ignoreme", "ignoreme" );
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0x34f69ee3, Offset: 0x7db
-// Size: 0x1
-function function_924749876ac28aae()
+// Size: 0x4d
+function function_924749876ac28aae( contributor, val )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( issentient( self ), "<dev string:x8d>" );
+    
+    if ( val )
+    {
+        val::set( contributor, "ignoreme", 1 );
+        return;
+    }
+    
+    val::reset( contributor, "ignoreme" );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x64adc32b, Offset: 0x830
-// Size: 0x1
+// Size: 0x1f
 function get_ignoreall()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    assert( issentient( self ), "<dev string:xad>" );
+    return val::get( "ignoreall" );
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x69011d79, Offset: 0x858
-// Size: 0x1
-function set_ignoreall()
+// Size: 0x4a
+function set_ignoreall( val )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( issentient( self ), "<dev string:xce>" );
+    
+    if ( val )
+    {
+        val::set( "set_ignoreall", "ignoreall", 1 );
+        return;
+    }
+    
+    val::reset( "set_ignoreall", "ignoreall" );
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x2190c1cd, Offset: 0x8aa
-// Size: 0x1
-function spawn_failed()
+// Size: 0x53, Type: bool
+function spawn_failed( ent )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isalive( ent ) )
+    {
+        return true;
+    }
+    
+    if ( utility::issp() && !isdefined( ent.finished_spawning ) )
+    {
+        ent utility::waittill_any( "finished spawning", "death" );
+    }
+    
+    if ( isalive( ent ) )
+    {
+        return false;
+    }
+    
+    return true;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xd485eae7, Offset: 0x906
-// Size: 0x1
+// Size: 0x84
 function gun_remove()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isai( self ) )
+    {
+        utility::script_func( "anim_placeweaponon", self.weapon, "none" );
+        return;
+    }
+    
+    if ( isdefined( self.fake_weapon_models ) )
+    {
+        gun_remove_fake();
+        self.var_e39aa0eaeb58fa70 = 1;
+        return;
+    }
+    
+    if ( isweapon( self.weapon ) )
+    {
+        weaponmodel = getweaponmodel( self.weapon );
+        
+        if ( weaponmodel )
+        {
+            self detach( weaponmodel, "tag_weapon_right" );
+        }
+    }
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x6d55de7b, Offset: 0x992
-// Size: 0x1
+// Size: 0x72
 function gun_remove_fake()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isdefined( self.fake_weapon_models ) )
+    {
+        for ( i = self.fake_weapon_models.size - 1; i >= 0 ; i-- )
+        {
+            if ( i == 0 )
+            {
+                self detach( self.fake_weapon_models[ i ], "tag_weapon_right" );
+                continue;
+            }
+            
+            self detach( self.fake_weapon_models[ i ] );
+        }
+        
+        self.fake_weapon_models = undefined;
+    }
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0xb62288db, Offset: 0xa0c
-// Size: 0x1
-function gun_create_fake()
+// Size: 0xf5
+function gun_create_fake( models )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    foreach ( model in models )
+    {
+        if ( issubstr( model, "toprail" ) || issubstr( model, "railcust" ) )
+        {
+            if ( models.size > 1 )
+            {
+                models = arrayremove( models, model );
+                arrayinsert( models, model, 1 );
+            }
+        }
+    }
+    
+    for ( i = 0; i < models.size ; i++ )
+    {
+        if ( i == 0 )
+        {
+            self attach( models[ i ], "tag_weapon_right" );
+            continue;
+        }
+        
+        self attach( models[ i ] );
+    }
+    
+    self.fake_weapon_models = models;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x310888f4, Offset: 0xb09
-// Size: 0x1
+// Size: 0xb1
 function gun_recall()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isai( self ) )
+    {
+        utility::script_func( "anim_placeweaponon", self.weapon, "right" );
+        return;
+    }
+    
+    weaponobject = self.weapon;
+    
+    if ( isweapon( self.weapon_object ) && !isnullweapon( self.weapon_object ) && isnullweapon( self.weapon ) )
+    {
+        weaponobject = self.weapon_object;
+    }
+    
+    if ( self.var_e39aa0eaeb58fa70 )
+    {
+        gun_create_fake( getweaponattachmentworldmodels( weaponobject ) );
+        self.var_e39aa0eaeb58fa70 = undefined;
+        return;
+    }
+    
+    self attach( getweaponmodel( weaponobject ), "tag_weapon_right" );
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0x671c2b4b, Offset: 0xbc2
-// Size: 0x1
-function set_gunpose()
+// Size: 0x94
+function set_gunpose( type, gundiscipline )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    /#
+        validtypes[ "<dev string:xef>" ] = 1;
+        validtypes[ "<dev string:xfc>" ] = 1;
+        validtypes[ "<dev string:x108>" ] = 1;
+        validtypes[ "<dev string:x111>" ] = 1;
+        validtypes[ "<dev string:x118>" ] = 1;
+        assert( isdefined( validtypes[ type ] ), "<dev string:x123>" + type + "<dev string:x133>" );
+    #/
+    
+    if ( type == "automatic" )
+    {
+        type = undefined;
+    }
+    
+    self.gunposeoverride = type;
+    self.gundiscipline = istrue( gundiscipline );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xa86884f3, Offset: 0xc5e
-// Size: 0x1
+// Size: 0x17
 function reset_gunpose()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.gunposeoverride = undefined;
+    self.gundiscipline = 1;
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0x7cef3f70, Offset: 0xc7d
-// Size: 0x1
-function poi_enable()
+// Size: 0x1f
+function poi_enable( val, startstruct )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    utility::toggle_poi( val, startstruct );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x48a2b7e6, Offset: 0xca4
-// Size: 0x1
+// Size: 0x36
 function stop_use_turret()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self notify( "stop_use_turret" );
+    self unlink();
+    self._blackboard.requestedturret = undefined;
+    self._blackboard.requestedturretpose = undefined;
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x3e1837f1, Offset: 0xce2
-// Size: 0x1
-function magic_bullet_shield()
+// Size: 0x113
+function magic_bullet_shield( var_9f4fc29bebb432cc = 0 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isai( self ) )
+    {
+        assert( isalive( self ), "<dev string:x14d>" );
+        assert( !self.delayeddeath, "<dev string:x18c>" );
+        assert( !self.doinglongdeath, "<dev string:x1c6>" );
+        assert( !isdefined( self.syncedmeleetarget ) || !self.in_melee, "<dev string:x201>" );
+    }
+    else
+    {
+        self.health = 100000;
+    }
+    
+    assert( !isdefined( self.magic_bullet_shield ), "<dev string:x262>" );
+    
+    if ( isai( self ) )
+    {
+        val::set( "magic_bullet_shield", "attackeraccuracy", 0.1 );
+        self.var_bb9911e6ba53bdb3 = self.var_5609d8c260be3f0e;
+        self.var_5609d8c260be3f0e = 0;
+    }
+    
+    /#
+        if ( !var_9f4fc29bebb432cc )
+        {
+            thread magic_bullet_death_detection();
+        }
+    #/
+    
+    val::set( "magic_bullet_shield", "damageshield", 1 );
+    self.magic_bullet_shield = 1;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x106b44d1, Offset: 0xdfd
-// Size: 0x1
+// Size: 0x57
 function stop_magic_bullet_shield()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self notify( "stop_magic_bullet_shield" );
+    assert( self.magic_bullet_shield, "<dev string:x300>" );
+    val::reset_all( "magic_bullet_shield" );
+    self.var_5609d8c260be3f0e = self.var_bb9911e6ba53bdb3 ?? 1;
+    self.var_bb9911e6ba53bdb3 = undefined;
+    self.magic_bullet_shield = undefined;
 }
 
-// Namespace ai
-// Params 0
-// Checksum 0x973fd37e, Offset: 0xe5c
-// Size: 0x1
-function magic_bullet_death_detection()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
+/#
+
+    // Namespace ai
+    // Params 0
+    // Checksum 0x973fd37e, Offset: 0xe5c
+    // Size: 0x73, Type: dev
+    function magic_bullet_death_detection()
+    {
+        self endon( "<dev string:x349>" );
+        export = self.export;
+        entnum = self getentitynumber();
+        self waittill( "<dev string:x365>" );
+        
+        if ( isdefined( self ) )
+        {
+            assert( 0, "<dev string:x36e>" + export + "<dev string:x396>" );
+        }
+        else
+        {
+            assert( 0, "<dev string:x36e>" + export + "<dev string:x3a9>" );
+        }
+        
+        export = export;
+    }
+
+#/
 
 // Namespace ai
 // Params 0
 // Checksum 0x48791826, Offset: 0xed7
-// Size: 0x1
+// Size: 0x2f
 function function_f4bf821b19c5ec24()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( self.magic_bullet_shield )
+    {
+        stop_magic_bullet_shield();
+    }
+    
+    if ( val::get( "damageshield" ) )
+    {
+        val::nuke( "damageshield" );
+    }
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0xae7cee8c, Offset: 0xf0e
-// Size: 0x1
-function force_long_death_on_back_with_pistol()
+// Size: 0x3b
+function force_long_death_on_back_with_pistol( skipcrawl )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.forcelongdeath = 4;
+    
+    if ( skipcrawl )
+    {
+        self.skipdyingbackcrawl = 1;
+    }
+    
+    self asmsetstate( self.asmname, "choose_long_death" );
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0xe375423f, Offset: 0xf51
-// Size: 0x1
-function function_d3e4c703216f33e9()
+// Size: 0xbd
+function function_d3e4c703216f33e9( skipcrawl, skipintro )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( self asmhasstate( self.asmname, "<dev string:x3db>" ), "<dev string:x3f0>" + self.asmname + "<dev string:x404>" );
+    var_1152d8d3fdbd53eb = [ 29, 31, 33, 35 ];
+    randind = randomint( 4 );
+    self.forcelongdeath = var_1152d8d3fdbd53eb[ randind ];
+    
+    if ( isdefined( skipintro ) )
+    {
+        self.var_7733428de091931d = skipintro;
+    }
+    
+    if ( isdefined( skipcrawl ) )
+    {
+        self.skipdyingbackcrawl = skipcrawl;
+    }
+    
+    self asmsetstate( self.asmname, "choose_long_death" );
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0xa6f1cd8d, Offset: 0x1016
-// Size: 0x1
-function function_f87586c8c1aaa78d()
+// Size: 0x56
+function function_f87586c8c1aaa78d( skipcrawl, skipintro )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.forcelongdeath = 37;
+    
+    if ( isdefined( skipintro ) )
+    {
+        self.var_7733428de091931d = skipintro;
+    }
+    
+    if ( isdefined( skipcrawl ) )
+    {
+        self.skipdyingbackcrawl = skipcrawl;
+    }
+    
+    self asmsetstate( self.asmname, "choose_long_death" );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x34081070, Offset: 0x1074
-// Size: 0x1
+// Size: 0xd
 function force_long_death_crawling_away()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.forcelongdeath = 3;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x6befcdcb, Offset: 0x1089
-// Size: 0x1
+// Size: 0xd
 function force_long_death_stumbling()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.forcelongdeath = 2;
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x389725d2, Offset: 0x109e
-// Size: 0x1
-function find_and_teleport_to_cover()
+// Size: 0x149, Type: bool
+function find_and_teleport_to_cover( coverselector )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    var_2eeae21cc17eff42 = 0;
+    frompoint = undefined;
+    searchcentered = 1;
+    cover_node = self findbestcovernode( coverselector, var_2eeae21cc17eff42, frompoint, searchcentered );
+    
+    if ( isdefined( cover_node ) )
+    {
+        coverangles = cover_node.angles;
+        coverorigin = cover_node.origin;
+        
+        if ( !issubstr( cover_node.type, "Prone" ) )
+        {
+            if ( issubstr( cover_node.type, "Left" ) )
+            {
+                coverangles += ( 0, 90, 0 );
+            }
+            else if ( issubstr( cover_node.type, "Right" ) || issubstr( cover_node.type, "Cover Crouch" ) || issubstr( cover_node.type, "Conceal" ) || issubstr( cover_node.type, "Cover Stand" ) )
+            {
+                coverangles -= ( 0, 90, 0 );
+            }
+        }
+        
+        self forceteleport( coverorigin, coverangles );
+        self usecovernode( cover_node, 1 );
+        self setgoalnode( cover_node );
+        return true;
+    }
+    
+    return false;
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x5f73625, Offset: 0x11f0
-// Size: 0x1
-function aigroundturret_requestmount()
+// Size: 0x5b, Type: bool
+function aigroundturret_requestmount( turret )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( self._blackboard.aigroundturretstate == "none" )
+    {
+        self._blackboard.aigroundturretstate = "turret_mount_requested";
+        self._blackboard.aigroundturretref = turret;
+        return true;
+    }
+    
+    return false;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xdd8f7ebd, Offset: 0x1254
-// Size: 0x1
+// Size: 0x37
 function aigroundturret_mountcompleted()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( self._blackboard.aigroundturretstate == "turret_mount_requested" )
+    {
+        self._blackboard.aigroundturretstate = "turret_mounted";
+    }
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x9e0afa25, Offset: 0x1293
-// Size: 0x1
+// Size: 0xa5, Type: bool
 function aigroundturret_cancel()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( self._blackboard.aigroundturretstate != "none" )
+    {
+        if ( self._blackboard.aigroundturretstate == "turret_mount_requested" )
+        {
+            self._blackboard.aigroundturretstate = "none";
+            self._blackboard.aigroundturretref = undefined;
+            return true;
+        }
+        else if ( self._blackboard.aigroundturretstate == "turret_mounted" )
+        {
+            self._blackboard.aigroundturretstate = "turret_dismount_requested";
+            return true;
+        }
+    }
+    
+    return false;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x98252d6e, Offset: 0x1341
-// Size: 0x1
+// Size: 0x4a
 function aigroundturret_dismountcompleted()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( self._blackboard.aigroundturretstate == "turret_dismount_requested" )
+    {
+        self._blackboard.aigroundturretstate = "none";
+        self._blackboard.aigroundturretref = undefined;
+    }
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0xa14d17a5, Offset: 0x1393
-// Size: 0x1
-function ai_operate_turret()
+// Size: 0x56
+function ai_operate_turret( turret_operator, turret )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isalive( turret_operator ) )
+    {
+        return;
+    }
+    
+    var_21563db4c6325185 = turret_operator aigroundturret_requestmount( turret );
+    
+    if ( var_21563db4c6325185 )
+    {
+        turret_operator.ignoreall = 1;
+        turret_operator.ignoreme = 1;
+    }
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x50a75570, Offset: 0x13f1
-// Size: 0x1
-function ai_dismount_turret()
+// Size: 0x4a
+function ai_dismount_turret( turret_operator )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isalive( turret_operator ) )
+    {
+        return;
+    }
+    
+    canceled = turret_operator aigroundturret_cancel();
+    
+    if ( canceled )
+    {
+        turret_operator.ignoreall = 0;
+        turret_operator.ignoreme = 0;
+    }
 }
 
 // Namespace ai
 // Params 4
 // Checksum 0x36e16f2e, Offset: 0x1443
-// Size: 0x1
-function function_44db761e7499dbd()
+// Size: 0x73
+function function_44db761e7499dbd( minhide, maxhide, cooldown, usesuppression )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isai( self ) )
+    {
+        if ( isdefined( minhide ) )
+        {
+            self.vehicleminhide = minhide;
+        }
+        
+        if ( isdefined( maxhide ) )
+        {
+            self.vehiclemaxhide = maxhide;
+        }
+        
+        if ( isdefined( cooldown ) )
+        {
+            self.var_79f6979827ca5037 = cooldown;
+        }
+        
+        if ( isdefined( usesuppression ) )
+        {
+            self.vehicleusesuppression = usesuppression;
+        }
+    }
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xa2e23d54, Offset: 0x14be
-// Size: 0x1
+// Size: 0x32
 function function_abdc267a17a7f5e6()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isai( self ) )
+    {
+        self.vehicleminhide = undefined;
+        self.vehiclemaxhide = undefined;
+        self.var_79f6979827ca5037 = undefined;
+        self.vehicleusesuppression = 0;
+    }
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0xc66e7059, Offset: 0x14f8
-// Size: 0x1
-function function_ddafb76466c3a847()
+// Size: 0x37a
+function function_ddafb76466c3a847( strength )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    setdvarifuninitialized( @"hash_8483522c1e47a279", 0 );
+    level.currentwind = strength;
+    utility::flag_wait( "scriptables_ready" );
+    
+    while ( gettime() < 3000 )
+    {
+        wait 0.1;
+    }
+    
+    guys = getaiarray();
+    ents = getentarray();
+    
+    foreach ( ent in ents )
+    {
+        if ( ent.script_wind )
+        {
+            guys[ guys.size ] = ent;
+        }
+    }
+    
+    if ( getdvarint( @"hash_8483522c1e47a279" ) )
+    {
+        utility::array_thread( guys, &wind_debug );
+    }
+    
+    foreach ( guy in guys )
+    {
+        if ( !guy isscriptable() )
+        {
+            if ( getdvarint( @"hash_8483522c1e47a279" ) )
+            {
+                /#
+                    if ( isdefined( guy.model ) )
+                    {
+                        println( "<dev string:x428>" + guy.classname + "<dev string:x458>" + guy.model );
+                    }
+                    else
+                    {
+                        println( "<dev string:x428>" + guy.classname );
+                    }
+                #/
+            }
+            
+            continue;
+        }
+        
+        switch ( level.currentwind )
+        {
+            case 0:
+                guy setscriptablepartstate( "wind", "0", 0 );
+                break;
+            case 1:
+                guy setscriptablepartstate( "wind", "10", 0 );
+                break;
+            case 2:
+                guy setscriptablepartstate( "wind", "20", 0 );
+                break;
+            case 3:
+                guy setscriptablepartstate( "wind", "30", 0 );
+                break;
+            case 4:
+                guy setscriptablepartstate( "wind", "40", 0 );
+                break;
+            case 5:
+                guy setscriptablepartstate( "wind", "50", 0 );
+                break;
+            case 6:
+                guy setscriptablepartstate( "wind", "60", 0 );
+                break;
+            case 7:
+                guy setscriptablepartstate( "wind", "70", 0 );
+                break;
+            case 8:
+                guy setscriptablepartstate( "wind", "80", 0 );
+                break;
+            case 9:
+                guy setscriptablepartstate( "wind", "90", 0 );
+                break;
+            case 10:
+                guy setscriptablepartstate( "wind", "100", 0 );
+                break;
+            default:
+                assertmsg( "<dev string:x45d>" + level.currentwind + "<dev string:x46b>" );
+                break;
+        }
+    }
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xbbc76363, Offset: 0x187a
-// Size: 0x1
+// Size: 0x56
 function wind_debug()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "death" );
+    self notify( "stop_wind_debug" );
+    self endon( "stop_wind_debug" );
+    
+    while ( true )
+    {
+        /#
+            print3d( self.origin, "<dev string:x47d>", ( 1, 1, 1 ), 1, 0.25, 10, 1 );
+        #/
+        
+        wait 0.5;
+    }
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x5e508d49, Offset: 0x18d8
-// Size: 0x1
-function set_deathanim()
+// Size: 0x57
+function set_deathanim( deathanim )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    deathxanim = undefined;
+    
+    if ( isstring( deathanim ) )
+    {
+        deathxanim = utility::getanim( deathanim );
+    }
+    else
+    {
+        deathxanim = deathanim;
+    }
+    
+    assert( isanimation( deathxanim ) );
+    self.deathanim = deathxanim;
+    self.isdeathanimdefined = 1;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x6b253201, Offset: 0x1937
-// Size: 0x1
+// Size: 0x16
 function clear_deathanim()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.deathanim = undefined;
+    self.isdeathanimdefined = 0;
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x1f8d4ee2, Offset: 0x1955
-// Size: 0x1
-function function_95ca99d9c8bdf6e8()
+// Size: 0x35
+function function_95ca99d9c8bdf6e8( death_func )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.deathfunction = death_func;
+    
+    if ( isdefined( death_func ) )
+    {
+        self.isdeathfunctiondefined = 1;
+        return;
+    }
+    
+    self.isdeathfunctiondefined = 0;
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x28557913, Offset: 0x1992
-// Size: 0x1
-function remove_blackboard_isburning()
+// Size: 0x39
+function remove_blackboard_isburning( guy )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    waitframe();
+    
+    if ( !isdefined( guy ) )
+    {
+        return;
+    }
+    
+    if ( isdefined( guy._blackboard ) )
+    {
+        guy._blackboard.isburning = undefined;
+    }
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0x7efd4a31, Offset: 0x19d3
-// Size: 0x1
-function function_9b5d55d642edff87()
+// Size: 0x122
+function function_9b5d55d642edff87( grenade, target )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( target.asmname ) && !target.var_b73c033f1d73bd80 && target asmhaspainstate( target.asmname ) )
+    {
+        target._blackboard.isburning = 1;
+        target.burningtodeath = 0;
+        target.burningdirection = undefined;
+        target.semtexstuckto = 1;
+        enemyright = anglestoright( target.angles );
+        var_4ee847e684562943 = vectornormalize( grenade.origin - target.origin );
+        
+        if ( vectordot( enemyright, var_4ee847e684562943 ) > 0 )
+        {
+            target.burningdirection = "right";
+        }
+        else
+        {
+            target.burningdirection = "left";
+        }
+        
+        target asmevalpaintransition( target.asmname );
+        level thread remove_blackboard_isburning( target );
+        grenade.stucktoai = target;
+    }
 }
 
 // Namespace ai
 // Params 9
 // Checksum 0x106be4a9, Offset: 0x1afd
-// Size: 0x1
-function function_7bcb54b16c07d1ec()
+// Size: 0x11a
+function function_7bcb54b16c07d1ec( num_points, cylinder_origin, cylinder_height, outer_radius, inner_radius, use_throttle, begin_yaw, end_yaw, up_dist = 200 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    level endon( "game_ended" );
+    spawn_points = [];
+    
+    if ( !isdefined( use_throttle ) )
+    {
+        use_throttle = 1;
+    }
+    
+    throttle_count = 0;
+    
+    for ( i = 0; i < num_points ; i++ )
+    {
+        failed_attempts = 0;
+        
+        while ( failed_attempts < 5 )
+        {
+            disk_center = cylinder_origin + ( 0, 0, cylinder_height );
+            random_point = math::function_562709d61af16bd4( disk_center, outer_radius, inner_radius, begin_yaw, end_yaw );
+            ground_point = utility::function_5918594658d3ffba( random_point, up_dist );
+            
+            if ( isdefined( ground_point ) )
+            {
+                spawn_points[ spawn_points.size ] = ground_point;
+                break;
+            }
+            else
+            {
+                failed_attempts++;
+            }
+            
+            if ( use_throttle )
+            {
+                throttle_count++;
+                
+                if ( throttle_count % 3 == 0 )
+                {
+                    waitframe();
+                }
+            }
+        }
+    }
+    
+    return spawn_points;
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x239a769d, Offset: 0x1c20
-// Size: 0x1
-function function_38dbe69f03da5207()
+// Size: 0x4f
+function function_38dbe69f03da5207( max_health )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    old_maxhealth = self.maxhealth;
+    self.maxhealth = max_health;
+    callback::callback( "on_ai_set_max_health", { #var_2563ed186d749937:max_health, #old_maxhealth:old_maxhealth } );
 }
 
 // Namespace ai
 // Params 6
 // Checksum 0xd7a89a42, Offset: 0x1c77
-// Size: 0x1
-function function_7497ee33e6422649()
+// Size: 0x162
+function function_7497ee33e6422649( origin, team, species, subclass, max_dist, filter )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    all_ai = [];
+    
+    if ( isdefined( species ) )
+    {
+        all_ai = getaispeciesarray( team, species );
+    }
+    else if ( max_dist > 0 )
+    {
+        all_ai = getaiarrayinradius( origin, max_dist, team );
+    }
+    else
+    {
+        all_ai = getaiarray( team );
+    }
+    
+    closest_ai = undefined;
+    var_9306de61005fc497 = isdefined( max_dist ) ? squared( max_dist ) : undefined;
+    
+    foreach ( ai in all_ai )
+    {
+        if ( isdefined( subclass ) && ai.subclass != subclass )
+        {
+            continue;
+        }
+        
+        if ( isdefined( filter ) && ![[ filter ]]( ai ) )
+        {
+            continue;
+        }
+        
+        dist_sqr = distancesquared( ai.origin, origin );
+        
+        if ( !isdefined( var_9306de61005fc497 ) || dist_sqr < var_9306de61005fc497 )
+        {
+            closest_ai = ai;
+            var_9306de61005fc497 = dist_sqr;
+        }
+    }
+    
+    return closest_ai;
 }
 
 // Namespace ai
 // Params 5
 // Checksum 0xc4a64805, Offset: 0x1de2
-// Size: 0x1
-function function_5b4f66c4d86eea91()
+// Size: 0xa3
+function function_5b4f66c4d86eea91( smokeorigin, duration = 8.25, lightsmokeradius = 250, heavysmokeradius = 150, owner )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( lightsmokeradius < heavysmokeradius )
+    {
+        lightsmokeradius = heavysmokeradius;
+    }
+    
+    assert( !isdefined( owner ) || isplayer( owner ) || isagent( owner ) );
+    addActiveSmoke( smokeorigin, duration, lightsmokeradius, heavysmokeradius, isplayer( owner ) || isagent( owner ) ? owner : undefined );
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0xbbb0d9a8, Offset: 0x1e8d
-// Size: 0x1
-function mgladdactivesmoke()
+// Size: 0x1d2
+function mgladdactivesmoke( smokeorigin, smoketype )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    delay = 0;
+    duration = undefined;
+    lightradius = undefined;
+    heavyradius = undefined;
+    
+    switch ( smoketype )
+    {
+        case 0:
+            delay = getdvarfloat( @"hash_3fc2c1569ac6d8e", 1 );
+            duration = getdvarfloat( @"hash_1a91f99ed9835cab", 3.25 );
+            lightradius = getdvarint( @"hash_a29b7c7eac63a6b0", 220 );
+            heavyradius = getdvarint( @"hash_372e7fe80817d5e5", 135 );
+            break;
+        case 1:
+            delay = getdvarfloat( @"hash_f0dc25d5e4277d02", 0 );
+            duration = getdvarfloat( @"hash_314fdf30c2156f67", 7.5 );
+            lightradius = getdvarint( @"hash_85175f3fbfc3ccc4", 400 );
+            heavyradius = getdvarint( @"hash_ce8793c0e589ab81", 360 );
+            break;
+        case 2:
+            delay = getdvarfloat( @"hash_ff93be3566f3591f", 0.25 );
+            duration = getdvarfloat( @"hash_b322661c8cdd2910", 2.2 );
+            lightradius = getdvarint( @"hash_230d4f148436bcbf", 200 );
+            heavyradius = getdvarint( @"hash_25852663e024a0e6", 150 );
+            break;
+        case 3:
+            delay = getdvarfloat( @"hash_31266fe06e688a9", 0 );
+            duration = getdvarfloat( @"hash_48315e1f1bc3a24a", 18 );
+            lightradius = getdvarint( @"hash_7ad30cecc84cb4d", 300 );
+            heavyradius = getdvarint( @"hash_2a401f3b20b48474", 250 );
+            break;
+        default:
+            assertmsg( "<dev string:x487>" );
+            break;
+    }
+    
+    wait delay;
+    function_5b4f66c4d86eea91( smokeorigin, duration, lightradius, heavyradius );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x8ec106f9, Offset: 0x2067
-// Size: 0x1
+// Size: 0x8c
 function ai_deathflag()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level.deathflags[ self.script_deathflag ][ "ai" ][ self.unique_id ] = self;
+    ai_number = self.unique_id;
+    deathflag = self.script_deathflag;
+    
+    if ( isdefined( self.script_deathflag_longdeath ) )
+    {
+        function_68ee59bed92c0434();
+    }
+    else
+    {
+        self waittill( "death" );
+    }
+    
+    level.deathflags[ deathflag ][ "ai" ][ ai_number ] = undefined;
+    update_deathflag( deathflag );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0xd0906a76, Offset: 0x20fb
-// Size: 0x1
+// Size: 0x12
 function function_68ee59bed92c0434()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "death" );
+    self waittill( "long_death" );
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x47d7951a, Offset: 0x2115
-// Size: 0x1
-function update_deathflag()
+// Size: 0xac
+function update_deathflag( deathflag )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    level notify( "updating_deathflag_" + deathflag );
+    level endon( "updating_deathflag_" + deathflag );
+    waittillframeend();
+    
+    foreach ( array in level.deathflags[ deathflag ] )
+    {
+        if ( getarraykeys( array ).size > 0 )
+        {
+            return;
+        }
+    }
+    
+    utility::flag_set( deathflag );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x423d6b33, Offset: 0x21c9
-// Size: 0x1
+// Size: 0x38
 function function_b08f196bf9465448()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "entitydeleted" );
+    
+    if ( !isalive( self ) )
+    {
+        return;
+    }
+    
+    if ( self.health <= 1 )
+    {
+        return;
+    }
+    
+    self laserforceon();
+    self waittill( "death" );
+    self laserforceoff();
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x8efb57d3, Offset: 0x2209
-// Size: 0x1
+// Size: 0x25
 function get_cover_volume_forward()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isdefined( self.goalvolumecoveryaw ) )
+    {
+        return anglestoforward( ( 0, self.goalvolumecoveryaw, 0 ) );
+    }
+    
+    return undefined;
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x55b697a5, Offset: 0x2236
-// Size: 0x1
-function set_goal_volume()
+// Size: 0x1a9
+function set_goal_volume( volume )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( self.team == "allies" )
+    {
+        self.fixednode = 0;
+    }
+    
+    if ( !isdefined( volume ) )
+    {
+        volume = level.goalvolumes[ self.script_goalvolume ];
+        
+        if ( !isdefined( volume ) )
+        {
+            return;
+        }
+    }
+    
+    goal = undefined;
+    
+    if ( isdefined( volume.target ) )
+    {
+        node = getnode( volume.target, #targetname );
+        ent = getent( volume.target, #targetname );
+        struct = utility::getstruct( volume.target, "targetname" );
+        
+        if ( isdefined( node ) )
+        {
+            goal = node;
+            self setgoalnode( goal );
+        }
+        else if ( isdefined( ent ) )
+        {
+            goal = ent;
+            self setgoalpos( goal.origin );
+        }
+        else if ( isdefined( struct ) )
+        {
+            goal = struct;
+            self setgoalpos( goal.origin );
+        }
+        
+        if ( isdefined( goal ) )
+        {
+            if ( isdefined( goal.radius ) && goal.radius != 0 )
+            {
+                self.goalradius = goal.radius;
+            }
+            
+            if ( isdefined( goal.goalheight ) && goal.goalheight != 0 )
+            {
+                self.goalheight = goal.goalheight;
+            }
+        }
+    }
+    
+    if ( isdefined( goal ) )
+    {
+        self setgoalvolume( volume );
+        return;
+    }
+    
+    self setgoalvolumeauto( volume, volume get_cover_volume_forward() );
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x683b3e45, Offset: 0x23e7
-// Size: 0x1
-function set_grenadeweapon()
+// Size: 0x39
+function set_grenadeweapon( types )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    offhands = strtok( types, " " );
+    self.grenadeweapon = makeweapon( offhands[ randomint( offhands.size ) ] );
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0x30f030ef, Offset: 0x2428
-// Size: 0x1
-function function_b60d6069848011a2()
+// Size: 0x35
+function function_b60d6069848011a2( name, cooldown_ms )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isint( cooldown_ms ) );
+    self function_786bb6aa1b76c7ee( name, gettime() + cooldown_ms );
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0xcff60cfb, Offset: 0x2465
-// Size: 0x1
-function function_ac0938be41101ad6()
+// Size: 0x3b
+function function_ac0938be41101ad6( name )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    cooldown_timestamp = self getaiblackboarddynamic( name ) ?? 0;
+    cooldown = max( cooldown_timestamp - gettime(), 0 );
+    return cooldown;
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0xb9732568, Offset: 0x24a9
-// Size: 0x1
-function function_3972558ecac29bf2()
+// Size: 0x3d
+function function_3972558ecac29bf2( name, cooldown_ms )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isint( cooldown_ms ) );
+    function_b60d6069848011a2( name, max( function_ac0938be41101ad6( name ), cooldown_ms ) );
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0x81e42b1b, Offset: 0x24ee
-// Size: 0x1
-function function_e8e1e069df6dfd10()
+// Size: 0x3d
+function function_e8e1e069df6dfd10( name, cooldown_ms )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isint( cooldown_ms ) );
+    function_b60d6069848011a2( name, min( function_ac0938be41101ad6( name ), cooldown_ms ) );
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0x2802ff90, Offset: 0x2533
-// Size: 0x1
-function function_ee66f847eebf97cc()
+// Size: 0x3a
+function function_ee66f847eebf97cc( name, cooldown_ms )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isint( cooldown_ms ) );
+    function_b60d6069848011a2( name, function_ac0938be41101ad6( name ) - cooldown_ms );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x13eeba6a, Offset: 0x2575
-// Size: 0x1
+// Size: 0x22, Type: bool
 function is_warlord()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    return isdefined( self.subclass ) && issubstr( self.subclass, "warlord" );
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x68d1ba2b, Offset: 0x25a0
-// Size: 0x1
+// Size: 0x5b, Type: bool
 function function_9c67144145079cca()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( self.aicategory == "special" || self.aicategory == "elite" || self.aicategory == "hvt" || self.aicategory == "boss" || is_warlord() )
+    {
+        return true;
+    }
+    
+    return false;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x2e338ed0, Offset: 0x2604
-// Size: 0x1
+// Size: 0x18, Type: bool
 function is_boss()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( self.aicategory == "boss" )
+    {
+        return true;
+    }
+    
+    return false;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x648cf74f, Offset: 0x2625
-// Size: 0x1
+// Size: 0x2a
 function is_floating()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    is_floating = self.var_69623111d7e6b9a4 > 0 || self.var_ed3c19fec55b26cc > 0;
+    return is_floating;
 }
 
 // Namespace ai
 // Params 0
 // Checksum 0x87ebbb0d, Offset: 0x2658
-// Size: 0x1
+// Size: 0x3f, Type: bool
 function should_do_immediate_ragdoll()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( self.do_immediate_ragdoll )
+    {
+        return true;
+    }
+    
+    if ( self.forceragdollimmediate )
+    {
+        return true;
+    }
+    
+    if ( self.diedintransition && !isdefined( self.vehicledeathwait ) )
+    {
+        return true;
+    }
+    
+    return false;
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0xac6c9e0b, Offset: 0x26a0
-// Size: 0x1
-function function_dbf40f0be252461b()
+// Size: 0x2c3
+function function_dbf40f0be252461b( goto_func, node )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    
+    if ( !node.var_433da69892ae9b9f )
+    {
+        if ( isdefined( node.target ) )
+        {
+            node.interactionid = getinteractionidfortargetname( node.target );
+            node.interactionidarray = getinteractionidsfortargetname( node.target );
+        }
+        
+        node.var_433da69892ae9b9f = 1;
+    }
+    
+    var_630ad472236f172c = node.script_onlyidle && self.var_7a84781005a5b751;
+    
+    if ( isdefined( node.interaction ) && ( !isdefined( node.interactionid ) || !function_e0737745ca681ec7( node.interactionid ) ) && !var_630ad472236f172c )
+    {
+        angles = node.angles;
+        
+        if ( !isdefined( angles ) )
+        {
+            angles = ( 0, 0, 0 );
+        }
+        
+        interactiontoks = strtok( node.interaction, "+" );
+        interaction = utility::random( interactiontoks );
+        node.interactionid = spawninteraction( interaction, node.origin, angles );
+    }
+    
+    self [[ goto_func ]]( node );
+    self waittill( "goal" );
+    
+    if ( var_630ad472236f172c )
+    {
+        return;
+    }
+    
+    if ( isdefined( node.interactionidarray ) )
+    {
+        node.interactionid = utility::array_random( node.interactionidarray );
+    }
+    
+    if ( isdefined( node.interactionid ) )
+    {
+        self._blackboard.idlenode = node;
+        
+        /#
+            if ( getdvarint( @"hash_75d5a192711fbacb", 0 ) != 0 )
+            {
+                print3d( self.origin + ( 0, 0, randomintrange( 40, 150 ) ), "<dev string:x4c4>" + node.interactionid, ( 1, 1, 1 ), 1, 1, 1000 );
+            }
+        #/
+        
+        interactionid = self getinteractionid();
+        var_4aa98c5499f1d2c4 = self.var_e3720ab742ffee98;
+        
+        if ( !isdefined( interactionid ) )
+        {
+            self function_895b16b8fcd857ba( node.interactionid );
+            self.interactionplayed = 1;
+            self.var_e3720ab742ffee98 = 1;
+        }
+        
+        self waittill( "bseq_user_deleted" );
+        self._blackboard.idlenode = undefined;
+        self.var_e3720ab742ffee98 = var_4aa98c5499f1d2c4;
+        
+        if ( isdefined( node.interaction ) && isdefined( node.interactionid ) )
+        {
+            despawninteraction( node.interactionid );
+            node.interactionid = undefined;
+        }
+    }
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0x40e63603, Offset: 0x296b
-// Size: 0x1
-function function_29ab862ec4f51541()
+// Size: 0x116
+function function_29ab862ec4f51541( aitype_name )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( level.var_a706785ff83cb223 ) )
+    {
+        level.var_a706785ff83cb223 = [];
+    }
+    
+    if ( !isdefined( level.var_d85265655f6db38a ) )
+    {
+        level.var_d85265655f6db38a = [];
+    }
+    
+    if ( !isdefined( level.var_a706785ff83cb223[ aitype_name ] ) )
+    {
+        if ( isaitypenamevalid( aitype_name ) )
+        {
+            var_b46112bb06cbd8dc = aitype_name;
+            
+            if ( !isstartstr( var_b46112bb06cbd8dc, "actor_" ) )
+            {
+                var_b46112bb06cbd8dc = "actor_" + var_b46112bb06cbd8dc;
+            }
+            
+            aitypescriptbundle = getaitypescriptbundle( var_b46112bb06cbd8dc );
+            subclass = getscriptbundlefieldvalue( hashcat( %"hash_138dab78b1b28a0f", aitypescriptbundle.subclass ), "name" );
+            aisettingsbundlename = aitypescriptbundle.zombieaisetting;
+            aicategory = getscriptbundlefieldvalue( hashcat( %"zombieaisettings:", aisettingsbundlename ), "aicategory" );
+            level.var_d85265655f6db38a[ subclass ] = aicategory;
+            level.var_a706785ff83cb223[ aitype_name ] = subclass;
+            return subclass;
+        }
+    }
+    
+    return level.var_a706785ff83cb223[ aitype_name ];
 }
 
 // Namespace ai
 // Params 2
 // Checksum 0xd60b4a14, Offset: 0x2a8a
-// Size: 0x1
-function function_30edc8bae00fca30()
+// Size: 0x1df
+function function_30edc8bae00fca30( threatbias_id, threat_added )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isxhash( threatbias_id ) );
+    
+    if ( !isdefined( self.threatbias_stack ) )
+    {
+        self.threatbias_stack = [];
+    }
+    
+    initial_set = !isdefined( self.threatbias_stack[ threatbias_id ] ) && isdefined( threat_added );
+    
+    if ( initial_set || !( self.threatbias_stack[ threatbias_id ] === threat_added ) )
+    {
+        self.threatbias_stack[ threatbias_id ] = threat_added;
+        final_threatbias = 0;
+        
+        foreach ( threatbias in self.threatbias_stack )
+        {
+            if ( isdefined( threatbias ) )
+            {
+                final_threatbias += threatbias;
+            }
+        }
+        
+        self.threatbias = final_threatbias;
+        
+        /#
+            if ( getdvarint( @"hash_145a60966048ea54", 0 ) > 0 )
+            {
+                i = 0;
+                
+                foreach ( threatbias_id, threatbias_score in self.threatbias_stack )
+                {
+                    print3d( self.origin + ( 0, 0, 72 + i * 20 ), getxhashsourcename( threatbias_id ) + "<dev string:x4e0>" + threatbias_score, ( 1, 0, 0 ), 1, 0.6 );
+                    i += 1;
+                }
+            }
+        #/
+    }
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0xfde63a64, Offset: 0x2c71
-// Size: 0x1
-function function_dd7b3233e5b07718()
+// Size: 0xea
+function function_dd7b3233e5b07718( bnocorpse )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    /#
+        if ( !isdefined( self.group ) )
+        {
+            assert( self.birthtime < gettime(), "<dev string:x4e6>", "<dev string:x51a>", self.origin );
+        }
+        else
+        {
+            assert( self.birthtime < gettime(), "<dev string:x51f>" + self.group.group_name, "<dev string:x51a>", self.origin );
+        }
+    #/
+    
+    if ( self.birthtime >= gettime() )
+    {
+        waitframe();
+    }
+    
+    if ( bnocorpse )
+    {
+        self.nocorpse = 1;
+    }
+    
+    self.died_poorly = 1;
+    self.died_poorly_health = self.health;
+    self.var_70fbc1727d54c322 = 1;
+    
+    if ( isdefined( self.magic_bullet_shield ) )
+    {
+        stop_magic_bullet_shield();
+    }
+    
+    self kill();
 }
 
 // Namespace ai
 // Params 1
 // Checksum 0xbb8341f1, Offset: 0x2d63
-// Size: 0x1
-function function_4dfef669cb588e3f()
+// Size: 0x25, Type: bool
+function function_4dfef669cb588e3f( ai )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( ai isintraverse() )
+    {
+        return true;
+    }
+    
+    if ( ai function_d5dd650fd35ceafb() )
+    {
+        return true;
+    }
+    
+    return false;
 }
 

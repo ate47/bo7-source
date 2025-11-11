@@ -2,53 +2,113 @@
 
 #namespace struct;
 
-// Namespace struct
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0xfae78de8, Offset: 0x134
-// Size: 0x1
-function private autoexec function_1f760ffe98f217af()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
 // Namespace struct/bootstrap
 // Params 0, eflags: 0x24
 // Checksum 0x769edebe, Offset: 0x146
-// Size: 0x1
+// Size: 0x44
 function private event_handler[bootstrap] bootstrap()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level.struct_class_names = [ "script_agent_noteworthy":[], "variantname":[], "script_vehicleref":[], "script_linkname":[], "script_noteworthy":[], "targetname":[], "target":[] ];
+    init_global_scriptbundles();
 }
 
 // Namespace struct/spawnstruct
 // Params 1, eflags: 0x24
 // Checksum 0xccc0c4b7, Offset: 0x192
-// Size: 0x1
-function private event_handler[spawnstruct] spawn_struct()
+// Size: 0xb4
+function private event_handler[spawnstruct] spawn_struct( struct )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( struct.var_cadb121fd1be05b0 || struct.targetname == "delete_on_load" )
+    {
+        return;
+    }
+    
+    if ( level.create_script && struct.var_a55b0b7889573538 )
+    {
+        return;
+    }
+    
+    if ( level.var_e1654b94c5dba8ab && ![[ level.var_e1654b94c5dba8ab ]]( struct ) )
+    {
+        return;
+    }
+    else if ( level.struct_filter && ![[ level.struct_filter ]]( struct ) )
+    {
+        return;
+    }
+    
+    if ( struct.script_noteworthy == "vfx_ambientwar_node" )
+    {
+        utility::function_d25424f1ac9f1290( struct );
+        return;
+    }
+    
+    utility::addstruct( struct );
 }
 
 // Namespace struct
 // Params 0, eflags: 0x4
 // Checksum 0xee1333bd, Offset: 0x24e
-// Size: 0x1
+// Size: 0x265
 function private init_global_scriptbundles()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level.projectbundle = getprojectscriptbundle();
+    level.gamemodebundle = getgamemodescriptbundle();
+    level.gametypebundle = getgametypescriptbundle();
+    level.var_d2ad35d68057f138 = getmapscriptbundle();
+    
+    if ( isdefined( level.gametypebundle.additionalscriptbundles ) )
+    {
+        level.gametypebundle.var_ae100eea97c7fcc7 = [];
+        
+        foreach ( bundle in level.gametypebundle.additionalscriptbundles )
+        {
+            level.gametypebundle.var_ae100eea97c7fcc7[ bundle.var_48cc9bf9fa3db0a ] = getscriptbundle( bundle.var_33ebe182767e4f6e );
+        }
+    }
+    
+    if ( isdefined( level.gametypebundle.var_d7a7716503f85e45 ) )
+    {
+        var_fc18dbe439223a8b = [];
+        
+        foreach ( var_7d8c0c1bcea2afc9 in level.gametypebundle.var_d7a7716503f85e45 )
+        {
+            if ( !var_7d8c0c1bcea2afc9.var_48cc9bf9fa3db0a || !var_7d8c0c1bcea2afc9.var_33ebe182767e4f6e )
+            {
+                continue;
+            }
+            
+            scriptbundle = getscriptbundle( var_7d8c0c1bcea2afc9.var_33ebe182767e4f6e );
+            
+            if ( !scriptbundle )
+            {
+                continue;
+            }
+            
+            assert( !var_fc18dbe439223a8b[ var_7d8c0c1bcea2afc9.var_48cc9bf9fa3db0a ], "<dev string:x24>" );
+            var_fc18dbe439223a8b[ var_7d8c0c1bcea2afc9.var_48cc9bf9fa3db0a ] = scriptbundle;
+        }
+        
+        level.gametypebundle.var_fd3a1a6b45be175c = var_fc18dbe439223a8b;
+    }
+    
+    utility::flag_set( "init_global_scriptbundles" );
+    
+    /#
+        if ( !isinfrontend() )
+        {
+            assert( isdefined( level.projectbundle ) );
+            assert( isdefined( level.gamemodebundle ) );
+        }
+    #/
 }
 
 // Namespace struct
 // Params 0
 // Checksum 0x80da4a24, Offset: 0x4bb
-// Size: 0x1
+// Size: 0x2
 function dummy()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    
 }
 

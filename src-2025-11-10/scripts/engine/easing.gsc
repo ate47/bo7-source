@@ -1,172 +1,187 @@
 #namespace easing;
 
 // Namespace easing
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x73bc9417, Offset: 0xff
-// Size: 0x1
-function private autoexec function_20fef22e12a3b884()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace easing
 // Params 0
 // Checksum 0x5a766930, Offset: 0x111
-// Size: 0x1
+// Size: 0x108
 function ease_init()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level.ease_funcs = [];
+    level.ease_funcs[ "linear" ] = &ease_linear;
+    level.ease_funcs[ "power" ] = &ease_power;
+    level.ease_funcs[ "quadratic" ] = &ease_quadratic;
+    level.ease_funcs[ "cubic" ] = &ease_cubic;
+    level.ease_funcs[ "quartic" ] = &ease_quartic;
+    level.ease_funcs[ "quintic" ] = &ease_quintic;
+    level.ease_funcs[ "exponential" ] = &ease_exponential;
+    level.ease_funcs[ "logarithmic" ] = &ease_logarithmic;
+    level.ease_funcs[ "sine" ] = &ease_sine;
+    level.ease_funcs[ "back" ] = &ease_back;
+    level.ease_funcs[ "elastic" ] = &ease_elastic;
+    level.ease_funcs[ "bounce" ] = &ease_bounce;
 }
 
 // Namespace easing
 // Params 5
 // Checksum 0xbafd0fba, Offset: 0x221
-// Size: 0x1
-function ease_linear()
+// Size: 0x40
+function ease_linear( start, end, pct, ease_in, ease_out )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 6
 // Checksum 0xc8795d8f, Offset: 0x26a
-// Size: 0x1
-function ease_power()
+// Size: 0x55
+function ease_power( start, end, pct, ease_in, ease_out, power )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easepower( pct, power, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 5
 // Checksum 0x82d4b81c, Offset: 0x2c8
-// Size: 0x1
-function ease_quadratic()
+// Size: 0x4d
+function ease_quadratic( start, end, pct, ease_in, ease_out )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easepower( pct, 2, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 5
 // Checksum 0xc75090f, Offset: 0x31e
-// Size: 0x1
-function ease_cubic()
+// Size: 0x4d
+function ease_cubic( start, end, pct, ease_in, ease_out )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easepower( pct, 3, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 5
 // Checksum 0xa61e08dd, Offset: 0x374
-// Size: 0x1
-function ease_quartic()
+// Size: 0x4d
+function ease_quartic( start, end, pct, ease_in, ease_out )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easepower( pct, 4, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 5
 // Checksum 0x8ca1ab3a, Offset: 0x3ca
-// Size: 0x1
-function ease_quintic()
+// Size: 0x4d
+function ease_quintic( start, end, pct, ease_in, ease_out )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easepower( pct, 5, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 6
 // Checksum 0xa78526e5, Offset: 0x420
-// Size: 0x1
-function ease_exponential()
+// Size: 0x55
+function ease_exponential( start, end, pct, ease_in, ease_out, scale )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easeexponential( pct, scale, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 6
 // Checksum 0xa78526e5, Offset: 0x47e
-// Size: 0x1
-function ease_logarithmic()
+// Size: 0x55
+function ease_logarithmic( start, end, pct, ease_in, ease_out, log_base )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easelogarithmic( pct, log_base, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 5
 // Checksum 0xe763c9cb, Offset: 0x4dc
-// Size: 0x1
-function ease_sine()
+// Size: 0x4a
+function ease_sine( start, end, pct, ease_in, ease_out )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easesine( pct, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 7
 // Checksum 0xe763c9cb, Offset: 0x52f
-// Size: 0x1
-function ease_back()
+// Size: 0x5f
+function ease_back( start, end, pct, ease_in, ease_out, overshoot_scalar, power )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easeback( pct, overshoot_scalar, power, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 8
 // Checksum 0xc05f3e84, Offset: 0x597
-// Size: 0x1
-function ease_elastic()
+// Size: 0x69
+function ease_elastic( start, end, pct, ease_in, ease_out, amplitude, frequency, fade_scalar )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easeelastic( pct, amplitude, frequency, fade_scalar, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 7
 // Checksum 0xac3def86, Offset: 0x609
-// Size: 0x1
-function ease_bounce()
+// Size: 0x5f
+function ease_bounce( start, end, pct, ease_in, ease_out, bounces, decay_scalar )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    pct = easebounce( pct, bounces, decay_scalar, ease_in, ease_out );
+    return ( 1 - pct ) * start + pct * end;
 }
 
 // Namespace easing
 // Params 9
 // Checksum 0x916246f4, Offset: 0x671
-// Size: 0x1
-function ease_dvar()
+// Size: 0x6a
+function ease_dvar( dvar, value, time, ease_type, ease_in, ease_out, ease_param1, ease_param2, ease_param3 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    function_899e5e0cd171c8e7( &setdvar, dvar, value, time, ease_type, ease_in, ease_out, ease_param1, ease_param2, ease_param3 );
 }
 
 // Namespace easing
 // Params 8, eflags: 0x40 variadic
 // Checksum 0xe91f7910, Offset: 0x6e3
-// Size: 0x1
-function ease_saved_dvar()
+// Size: 0x61
+function ease_saved_dvar( dvar, value, time, ease_type, ease_in, ease_out, ... )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    function_899e5e0cd171c8e7( &setsaveddvar, dvar, value, time, ease_type, ease_in, ease_out, flat_args( vararg, varargcount ) );
 }
 
 // Namespace easing
 // Params 9, eflags: 0x44 variadic
 // Checksum 0xfaf55996, Offset: 0x74c
-// Size: 0x1
-function private function_899e5e0cd171c8e7()
+// Size: 0x122
+function private function_899e5e0cd171c8e7( dvar_func, dvar, value, time, ease_type, ease_in, ease_out, ... )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( level.ease_funcs ) );
+    assert( isdefined( level.ease_funcs[ ease_type ] ) );
+    dvar_name = getxhashhexname( dvar );
+    level notify( "ease_dvar_" + dvar_name );
+    level endon( "ease_dvar_" + dvar_name );
+    start_value = getdvarfloat( dvar );
+    cur_value = start_value;
+    cur_time = 0;
+    
+    while ( cur_time < time )
+    {
+        cur_time += level.framedurationseconds;
+        pct = min( 1, cur_time / time );
+        cur_value = [[ level.ease_funcs[ ease_type ] ]]( start_value, value, pct, ease_in, ease_out, flat_args( vararg, varargcount ) );
+        builtin [[ dvar_func ]]( dvar, cur_value );
+        waitframe();
+    }
+    
+    builtin [[ dvar_func ]]( dvar, value );
 }
 

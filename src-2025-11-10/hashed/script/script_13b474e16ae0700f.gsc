@@ -1,32 +1,38 @@
 #namespace struct;
 
-// Namespace struct
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x8c1df023, Offset: 0x100
-// Size: 0x1
-function private autoexec function_fdc25cfce8cb2a26()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
 // Namespace struct/bootstrap
 // Params 0, eflags: 0x24
 // Checksum 0x992194e6, Offset: 0x112
-// Size: 0x1
+// Size: 0x3d
 function private event_handler[bootstrap] bootstrap()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level.struct_class_names = [ "script_agent_noteworthy":[], "variantname":[], "script_vehicleref":[], "script_linkname":[], "script_noteworthy":[], "targetname":[], "target":[] ];
 }
 
 // Namespace struct/spawnstruct
 // Params 1, eflags: 0x24
 // Checksum 0x2b1ac6ba, Offset: 0x157
-// Size: 0x1
-function private event_handler[spawnstruct] spawn_struct()
+// Size: 0x8d
+function private event_handler[spawnstruct] spawn_struct( struct )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( struct.var_cadb121fd1be05b0 || struct.targetname == "delete_on_load" )
+    {
+        return;
+    }
+    
+    if ( level.create_script && struct.var_a55b0b7889573538 )
+    {
+        return;
+    }
+    
+    if ( level.var_e1654b94c5dba8ab && ![[ level.var_e1654b94c5dba8ab ]]( struct ) )
+    {
+        return;
+    }
+    
+    if ( level.struct_filter && ![[ level.struct_filter ]]( struct ) )
+    {
+        return;
+    }
 }
 

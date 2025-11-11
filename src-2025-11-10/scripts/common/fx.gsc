@@ -6,322 +6,946 @@
 #namespace fx;
 
 // Namespace fx
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x18cf931a, Offset: 0x2b4
-// Size: 0x1
-function private autoexec function_eccb208ca4bd6123()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace fx
 // Params 0
 // Checksum 0x57406afb, Offset: 0x2c6
-// Size: 0x1
+// Size: 0x4e
 function initfx()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !utility::add_init_script( "fx", &initfx ) )
+    {
+        return;
+    }
+    
+    utility::set_createfx_enabled();
+    
+    if ( havemapentseffects() )
+    {
+        level.createfxent = [];
+    }
+    
+    utility::create_func_ref( "create_triggerfx", &create_triggerfx );
+    thread init_fx_thread();
+    script_struct_fx_init();
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0x6f39ad9f, Offset: 0x31c
-// Size: 0x1
+// Size: 0x3a0
 function init_fx_thread()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !isdefined( level._fx ) )
+    {
+        level._fx = spawnstruct();
+    }
+    
+    utility::create_lock( "createfx_looper", 20 );
+    level._fx.fireloopmod = 1;
+    level._fx.exploderfunction = &exploder::exploder_before_load;
+    waittillframeend();
+    waittillframeend();
+    level._fx.exploderfunction = &exploder::exploder_after_load;
+    level._fx.server_culled_sounds = 0;
+    
+    if ( getdvarint( @"hash_7ebee7a942eed3c8" ) == 1 )
+    {
+        level._fx.server_culled_sounds = 1;
+    }
+    
+    if ( level.createfx_enabled )
+    {
+        level._fx.server_culled_sounds = 0;
+    }
+    
+    /#
+        setdevdvarifuninitialized( @"hash_85b139dc623fa880", 0 );
+        setdevdvarifuninitialized( @"hash_66ba26fa32261de", 0 );
+        setdevdvarifuninitialized( @"createfx_offset", "<dev string:x24>" );
+        
+        if ( getdvarint( @"hash_e6afce2cf5cf7515" ) == 1 )
+        {
+            level._fx.server_culled_sounds = 1;
+        }
+    #/
+    
+    if ( level.createfx_enabled )
+    {
+        level waittill( "createfx_common_done" );
+    }
+    
+    level.createfxexploders = [];
+    flaggedexploders = [];
+    
+    /#
+        remove_dupes();
+        offset_fix();
+    #/
+    
+    foreach ( ent in level.createfxent )
+    {
+        ent createfx::set_forward_and_up_vectors();
+        
+        switch ( ent.v[ "type" ] )
+        {
+            case #"hash_1ac9f75b98e637fd":
+                ent thread loopfxthread();
+                break;
+            case #"hash_16b43f355b98c009":
+                ent thread oneshotfxthread();
+                break;
+            case #"hash_fbc4edc91b6c146a":
+                ent thread create_loopsound();
+                break;
+            case #"hash_c9ec51ce0335258e":
+                ent thread create_interval_sound();
+                break;
+            case #"hash_46a741fcf24ab59":
+                ent add_reactive_fx();
+                break;
+        }
+        
+        if ( isdefined( ent.v[ "exploder" ] ) )
+        {
+            createfx::add_exploder( ent.v[ "exploder" ], ent );
+            
+            if ( isdefined( ent.v[ "flag" ] ) && ent.v[ "flag" ] != "nil" )
+            {
+                temp = flaggedexploders[ ent.v[ "flag" ] ];
+                
+                if ( !isdefined( temp ) )
+                {
+                    temp = [];
+                }
+                
+                temp[ temp.size ] = ent.v[ "exploder" ];
+                flaggedexploders[ ent.v[ "flag" ] ] = temp;
+            }
+        }
+    }
+    
+    foreach ( msg, exploderarray in flaggedexploders )
+    {
+        thread exploder::exploder_flag_wait( msg, exploderarray );
+    }
+    
+    check_createfx_limit();
 }
 
-// Namespace fx
-// Params 0
-// Checksum 0x2b216660, Offset: 0x6c4
-// Size: 0x1
-function remove_dupes()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
+/#
 
-// Namespace fx
-// Params 0
-// Checksum 0x37cace99, Offset: 0x809
-// Size: 0x1
-function offset_fix()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
+    // Namespace fx
+    // Params 0
+    // Checksum 0x2b216660, Offset: 0x6c4
+    // Size: 0x13d, Type: dev
+    function remove_dupes()
+    {
+        if ( getdvarint( @"hash_66ba26fa32261de" ) == 0 )
+        {
+            return;
+        }
+        
+        new_ents = [];
+        
+        for ( i = 0; i < level.createfxent.size ; i++ )
+        {
+            add_ent = 1;
+            i_ent = level.createfxent[ i ];
+            
+            for ( j = i + 1; j < level.createfxent.size ; j++ )
+            {
+                j_ent = level.createfxent[ j ];
+                
+                if ( j_ent.v[ "<dev string:x29>" ] == i_ent.v[ "<dev string:x29>" ] )
+                {
+                    if ( j_ent.v[ "<dev string:x31>" ] == i_ent.v[ "<dev string:x31>" ] )
+                    {
+                        println( "<dev string:x3b>" + j_ent.v[ "<dev string:x29>" ] + "<dev string:x53>" + j_ent.v[ "<dev string:x31>" ] );
+                        add_ent = 0;
+                    }
+                }
+            }
+            
+            if ( add_ent )
+            {
+                new_ents[ new_ents.size ] = i_ent;
+            }
+        }
+        
+        level.createfxent = new_ents;
+    }
+
+    // Namespace fx
+    // Params 0
+    // Checksum 0x37cace99, Offset: 0x809
+    // Size: 0x137, Type: dev
+    function offset_fix()
+    {
+        if ( getdvar( @"createfx_offset", "<dev string:x5b>" ) == "<dev string:x5b>" )
+        {
+            return;
+        }
+        
+        dvar = getdvar( @"createfx_offset" );
+        toks = strtok( dvar, "<dev string:x5f>" );
+        
+        if ( toks.size != 3 )
+        {
+            return;
+        }
+        
+        offset = ( int( toks[ 0 ] ), int( toks[ 1 ] ), int( toks[ 2 ] ) );
+        new_ents = [];
+        
+        foreach ( ent in level.createfxent )
+        {
+            ent.v[ "<dev string:x31>" ] = ent.v[ "<dev string:x31>" ] + offset;
+        }
+        
+        setdvar( @"createfx_offset", "<dev string:x5b>" );
+        iprintlnbold( "<dev string:x64>" );
+    }
+
+#/
 
 // Namespace fx
 // Params 0
 // Checksum 0x6795301d, Offset: 0x948
-// Size: 0x1
+// Size: 0xf5
 function check_createfx_limit()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    /#
+        if ( !utility::issp() )
+        {
+            return;
+        }
+        
+        fx_count = 0;
+        sound_count = 0;
+        
+        foreach ( ent in level.createfxent )
+        {
+            if ( createfx::is_createfx_type( ent, "<dev string:x93>" ) )
+            {
+                fx_count++;
+                continue;
+            }
+            
+            if ( createfx::is_createfx_type( ent, "<dev string:x99>" ) )
+            {
+                sound_count++;
+            }
+        }
+        
+        println( "<dev string:xa2>" + fx_count );
+        println( "<dev string:xc0>" + sound_count );
+        check_limit_type( "<dev string:x93>", fx_count );
+        check_limit_type( "<dev string:x99>", sound_count );
+    #/
 }
 
-// Namespace fx
-// Params 2
-// Checksum 0x8d860322, Offset: 0xa45
-// Size: 0x1
-function check_limit_type()
-{
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
-}
+/#
+
+    // Namespace fx
+    // Params 2
+    // Checksum 0x8d860322, Offset: 0xa45
+    // Size: 0x71, Type: dev
+    function check_limit_type( type, count )
+    {
+        limit = undefined;
+        
+        if ( type == "<dev string:x93>" )
+        {
+            limit = 1750;
+        }
+        else if ( type == "<dev string:x99>" )
+        {
+            limit = 384;
+        }
+        
+        if ( count > limit )
+        {
+            assertmsg( "<dev string:xe1>" + type + "<dev string:x101>" + count + "<dev string:x13d>" + limit );
+        }
+    }
+
+#/
 
 // Namespace fx
 // Params 4
 // Checksum 0x9e603f60, Offset: 0xabe
-// Size: 0x1
-function print_org()
+// Size: 0xc8
+function print_org( fxcommand, fxid, fxpos, waittime )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( getdvarint( @"debug" ) == 1 )
+    {
+        /#
+            println( "<dev string:x153>" );
+            println( "<dev string:x158>" + fxpos[ 0 ] + "<dev string:x5f>" + fxpos[ 1 ] + "<dev string:x5f>" + fxpos[ 2 ] + "<dev string:x166>" );
+            println( "<dev string:x16b>" );
+            println( "<dev string:x189>" );
+            println( "<dev string:x199>" + fxcommand + "<dev string:x166>" );
+            println( "<dev string:x1b1>" + fxid + "<dev string:x166>" );
+            println( "<dev string:x1c4>" + waittime + "<dev string:x166>" );
+            println( "<dev string:x1d8>" );
+        #/
+    }
 }
 
 // Namespace fx
 // Params 7
 // Checksum 0xa70be49c, Offset: 0xb8e
-// Size: 0x1
-function loopfx()
+// Size: 0xca
+function loopfx( fxid, fxpos, waittime, fxpos2, fxstart, fxstop, timeout )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    println( "<dev string:x1dd>" );
+    ent = utility::createloopeffect( fxid );
+    ent.v[ "origin" ] = fxpos;
+    ent.v[ "angles" ] = ( 0, 0, 0 );
+    
+    if ( isdefined( fxpos2 ) )
+    {
+        ent.v[ "angles" ] = vectortoangles( fxpos2 - fxpos );
+    }
+    
+    ent.v[ "delay" ] = waittime;
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0xf29213f8, Offset: 0xc60
-// Size: 0x1
+// Size: 0x6c
 function create_looper()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.looper = playloopedfx( level._effect[ self.v[ "fxid" ] ], self.v[ "delay" ], self.v[ "origin" ], 0, self.v[ "forward" ], self.v[ "up" ] );
+    create_loopsound();
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0x87ee38f, Offset: 0xcd4
-// Size: 0x1
+// Size: 0x14c
 function create_loopsound()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self notify( "stop_loop" );
+    
+    if ( !isdefined( self.v[ "soundalias" ] ) )
+    {
+        return;
+    }
+    
+    if ( self.v[ "soundalias" ] == "nil" )
+    {
+        return;
+    }
+    
+    /#
+        if ( getdvarint( @"hash_e6afce2cf5cf7515" ) == 1 )
+        {
+            return;
+        }
+    #/
+    
+    culled = 0;
+    end_on = undefined;
+    
+    if ( self.v[ "stopable" ] )
+    {
+        if ( isdefined( self.looper ) )
+        {
+            end_on = "death";
+        }
+        else
+        {
+            end_on = "stop_loop";
+        }
+    }
+    else if ( level._fx.server_culled_sounds && isdefined( self.v[ "server_culled" ] ) )
+    {
+        culled = self.v[ "server_culled" ];
+    }
+    
+    ent = self;
+    
+    if ( isdefined( self.looper ) )
+    {
+        ent = self.looper;
+    }
+    
+    createfx_ent = undefined;
+    
+    if ( level.createfx_enabled )
+    {
+        createfx_ent = self;
+    }
+    
+    ent utility::loop_fx_sound_with_angles( self.v[ "soundalias" ], self.v[ "origin" ], self.v[ "angles" ], culled, end_on, createfx_ent );
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0xe3aff8f6, Offset: 0xe28
-// Size: 0x1
+// Size: 0x106
 function create_interval_sound()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self notify( "stop_loop" );
+    
+    if ( !isdefined( self.v[ "soundalias" ] ) )
+    {
+        return;
+    }
+    
+    if ( self.v[ "soundalias" ] == "nil" )
+    {
+        return;
+    }
+    
+    ender = undefined;
+    runner = self;
+    
+    /#
+        if ( getdvarint( @"hash_e6afce2cf5cf7515" ) == 1 )
+        {
+            return;
+        }
+    #/
+    
+    if ( self.v[ "stopable" ] || level.createfx_enabled )
+    {
+        if ( isdefined( self.looper ) )
+        {
+            runner = self.looper;
+            ender = "death";
+        }
+        else
+        {
+            ender = "stop_loop";
+        }
+    }
+    
+    runner thread utility::loop_fx_sound_interval_with_angles( self.v[ "soundalias" ], self.v[ "origin" ], self.v[ "angles" ], ender, undefined, self.v[ "delay_min" ], self.v[ "delay_max" ] );
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0x60f39ce9, Offset: 0xf36
-// Size: 0x1
+// Size: 0xaf
 function loopfxthread()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    waitframe();
+    
+    if ( isdefined( self.fxstart ) )
+    {
+        level waittill( "start fx" + self.fxstart );
+    }
+    
+    while ( true )
+    {
+        create_looper();
+        
+        if ( isdefined( self.timeout ) )
+        {
+            thread loopfxstop( self.timeout );
+        }
+        
+        if ( isdefined( self.fxstop ) )
+        {
+            level waittill( "stop fx" + self.fxstop );
+        }
+        else
+        {
+            return;
+        }
+        
+        if ( isdefined( self.looper ) )
+        {
+            self.looper delete();
+        }
+        
+        if ( isdefined( self.fxstart ) )
+        {
+            level waittill( "start fx" + self.fxstart );
+            continue;
+        }
+        
+        return;
+    }
 }
 
 // Namespace fx
 // Params 1
 // Checksum 0xe43ef23a, Offset: 0xfed
-// Size: 0x1
-function loopfxstop()
+// Size: 0x25
+function loopfxstop( timeout )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    wait timeout;
+    self.looper delete();
 }
 
 // Namespace fx
 // Params 8
 // Checksum 0x2e5989cb, Offset: 0x101a
-// Size: 0x1
-function gunfireloopfx()
+// Size: 0x5d
+function gunfireloopfx( fxid, fxpos, shotsmin, shotsmax, shotdelaymin, shotdelaymax, betweensetsmin, betweensetsmax )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    thread gunfireloopfxthread( fxid, fxpos, shotsmin, shotsmax, shotdelaymin, shotdelaymax, betweensetsmin, betweensetsmax );
 }
 
 // Namespace fx
 // Params 8
 // Checksum 0xc89e0afc, Offset: 0x107f
-// Size: 0x1
-function gunfireloopfxthread()
+// Size: 0x15d
+function gunfireloopfxthread( fxid, fxpos, shotsmin, shotsmax, shotdelaymin, shotdelaymax, betweensetsmin, betweensetsmax )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    level endon( "stop all gunfireloopfx" );
+    waitframe();
+    
+    if ( betweensetsmax < betweensetsmin )
+    {
+        temp = betweensetsmax;
+        betweensetsmax = betweensetsmin;
+        betweensetsmin = temp;
+    }
+    
+    betweensetsbase = betweensetsmin;
+    betweensetsrange = betweensetsmax - betweensetsmin;
+    
+    if ( shotdelaymax < shotdelaymin )
+    {
+        temp = shotdelaymax;
+        shotdelaymax = shotdelaymin;
+        shotdelaymin = temp;
+    }
+    
+    shotdelaybase = shotdelaymin;
+    shotdelayrange = shotdelaymax - shotdelaymin;
+    
+    if ( shotsmax < shotsmin )
+    {
+        temp = shotsmax;
+        shotsmax = shotsmin;
+        shotsmin = temp;
+    }
+    
+    shotsbase = shotsmin;
+    shotsrange = shotsmax - shotsmin;
+    fxent = spawnfx( level._effect[ fxid ], fxpos );
+    
+    if ( !level.createfx_enabled )
+    {
+        fxent willneverchange();
+    }
+    
+    for ( ;; )
+    {
+        shotnum = shotsbase + randomint( shotsrange );
+        
+        for ( i = 0; i < shotnum ; i++ )
+        {
+            triggerfx( fxent );
+            wait shotdelaybase + randomfloat( shotdelayrange );
+        }
+        
+        wait betweensetsbase + randomfloat( betweensetsrange );
+    }
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0xac376ab5, Offset: 0x11e4
-// Size: 0x1
+// Size: 0xae
 function create_triggerfx()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !verify_effects_assignment( self.v[ "fxid" ] ) )
+    {
+        return;
+    }
+    
+    self.looper = spawnfx( level._effect[ self.v[ "fxid" ] ], self.v[ "origin" ], self.v[ "forward" ], self.v[ "up" ] );
+    triggerfx( self.looper, self.v[ "delay" ] );
+    
+    if ( !level.createfx_enabled )
+    {
+        self.looper willneverchange();
+    }
+    
+    create_loopsound();
 }
 
 // Namespace fx
 // Params 1
 // Checksum 0xb9604b82, Offset: 0x129a
-// Size: 0x1
-function verify_effects_assignment()
+// Size: 0x5d, Type: bool
+function verify_effects_assignment( effectid )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( level._effect[ effectid ] ) )
+    {
+        return true;
+    }
+    
+    if ( !isdefined( level._missing_fx ) )
+    {
+        level._missing_fx = [];
+    }
+    
+    level._missing_fx[ self.v[ "fxid" ] ] = effectid;
+    verify_effects_assignment_print( effectid );
+    return false;
 }
 
 // Namespace fx
 // Params 1
 // Checksum 0x9b2a9764, Offset: 0x1300
-// Size: 0x1
-function verify_effects_assignment_print()
+// Size: 0xd8
+function verify_effects_assignment_print( effectid )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    level notify( "verify_effects_assignment_print" );
+    level endon( "verify_effects_assignment_print" );
+    waitframe();
+    
+    /#
+        println( "<dev string:x1f6>" );
+        println( "<dev string:x200>" );
+        keys = getarraykeys( level._missing_fx );
+        
+        foreach ( key in keys )
+        {
+            println( "<dev string:x231>" + key );
+        }
+        
+        println( "<dev string:x1f6>" );
+    #/
+    
+    assertmsg( "<dev string:x25f>" );
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0x98338920, Offset: 0x13e0
-// Size: 0x1
+// Size: 0x39
 function oneshotfxthread()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    waitframe();
+    
+    if ( self.v[ "delay" ] > 0 )
+    {
+        wait self.v[ "delay" ];
+    }
+    
+    [[ level.func[ "create_triggerfx" ] ]]();
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0x15bcd2bc, Offset: 0x1421
-// Size: 0x1
+// Size: 0xc2
 function add_reactive_fx()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !utility::issp() && getdvar( @"createfx", "" ) == "" )
+    {
+        return;
+    }
+    
+    if ( !isdefined( level._fx.reactive_thread ) )
+    {
+        level._fx.reactive_thread = 1;
+        level thread reactive_fx_thread();
+    }
+    
+    if ( !isdefined( level._fx.reactive_fx_ents ) )
+    {
+        level._fx.reactive_fx_ents = [];
+    }
+    
+    level._fx.reactive_fx_ents[ level._fx.reactive_fx_ents.size ] = self;
+    self.next_reactive_time = 3000;
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0xd5c9b7e7, Offset: 0x14eb
-// Size: 0x1
+// Size: 0x111
 function reactive_fx_thread()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !utility::issp() )
+    {
+        if ( getdvar( @"createfx" ) == "on" )
+        {
+            utility::flag_wait( "createfx_started" );
+        }
+    }
+    
+    level._fx.reactive_sound_ents = [];
+    explosion_radius = 256;
+    
+    while ( true )
+    {
+        level waittill( "code_damageradius", attacker, explosion_radius, point, objweapon, delay );
+        ents = sort_reactive_ents( point, explosion_radius );
+        
+        foreach ( i, ent in ents )
+        {
+            ent thread play_reactive_fx( i, delay );
+        }
+    }
 }
 
 // Namespace fx
 // Params 1
 // Checksum 0x945da48b, Offset: 0x1604
-// Size: 0x1
-function vector2d()
+// Size: 0x15
+function vector2d( vec )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    return ( vec[ 0 ], vec[ 1 ], 0 );
 }
 
 // Namespace fx
 // Params 2
 // Checksum 0x9162d79, Offset: 0x1622
-// Size: 0x1
-function sort_reactive_ents()
+// Size: 0x2f5
+function sort_reactive_ents( point, explosion_radius )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    closest = [];
+    time = gettime();
+    
+    foreach ( ent in level._fx.reactive_fx_ents )
+    {
+        if ( ent.next_reactive_time > time )
+        {
+            continue;
+        }
+        
+        radius_squared = ent.v[ "reactive_radius" ] + explosion_radius;
+        radius_squared *= radius_squared;
+        
+        if ( distancesquared( point, ent.v[ "origin" ] ) < radius_squared )
+        {
+            closest[ closest.size ] = ent;
+        }
+    }
+    
+    foreach ( ent in closest )
+    {
+        var_7e9319e049f3a4bf = vector2d( ent.v[ "origin" ] - level.player.origin );
+        playertopoint = vector2d( point - level.player.origin );
+        vec1 = vectornormalize( var_7e9319e049f3a4bf );
+        vec2 = vectornormalize( playertopoint );
+        ent.dot = vectordot( vec1, vec2 );
+    }
+    
+    for ( i = 0; i < closest.size - 1 ; i++ )
+    {
+        for ( j = i + 1; j < closest.size ; j++ )
+        {
+            if ( closest[ i ].dot > closest[ j ].dot )
+            {
+                temp = closest[ i ];
+                closest[ i ] = closest[ j ];
+                closest[ j ] = temp;
+            }
+        }
+    }
+    
+    foreach ( ent in closest )
+    {
+        ent.origin = undefined;
+        ent.dot = undefined;
+    }
+    
+    for ( i = 4; i < closest.size ; i++ )
+    {
+        closest[ i ] = undefined;
+    }
+    
+    return closest;
 }
 
 // Namespace fx
 // Params 2
 // Checksum 0xa5220a1, Offset: 0x1920
-// Size: 0x1
-function play_reactive_fx()
+// Size: 0x1d3
+function play_reactive_fx( num, delay )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( self.v[ "<dev string:x291>" ] != "<dev string:x299>" || self.v[ "<dev string:x2a2>" ] != "<dev string:x2b0>", "<dev string:x2b7>" + self.v[ "<dev string:x31>" ] + "<dev string:x2ca>" );
+    
+    if ( self.v[ "fxid" ] != "No FX" )
+    {
+        playfx( level._effect[ self.v[ "fxid" ] ], self.v[ "origin" ], self.v[ "forward" ], self.v[ "up" ] );
+    }
+    
+    if ( self.v[ "soundalias" ] == "nil" )
+    {
+        return;
+    }
+    
+    sound_ent = get_reactive_sound_ent();
+    
+    if ( !isdefined( sound_ent ) )
+    {
+        return;
+    }
+    
+    /#
+        self.is_playing = 1;
+    #/
+    
+    self.next_reactive_time = gettime() + 3000;
+    sound_ent.origin = self.v[ "origin" ];
+    sound_ent.is_playing = 1;
+    
+    if ( !isdefined( delay ) )
+    {
+        delay = 0;
+    }
+    
+    wait num * randomfloatrange( 0.05, 0.1 ) + delay;
+    
+    if ( utility::issp() )
+    {
+        sound_ent playsound( self.v[ "soundalias" ], "sounddone" );
+        sound_ent waittill( "sounddone" );
+    }
+    else
+    {
+        sound_ent playsound( self.v[ "soundalias" ] );
+        wait 2;
+    }
+    
+    wait 0.1;
+    sound_ent.is_playing = 0;
+    
+    /#
+        self.is_playing = undefined;
+    #/
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0xed30144b, Offset: 0x1afb
-// Size: 0x1
+// Size: 0x10d
 function get_reactive_sound_ent()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    foreach ( ent in level._fx.reactive_sound_ents )
+    {
+        if ( !ent.is_playing )
+        {
+            return ent;
+        }
+    }
+    
+    if ( level._fx.reactive_sound_ents.size < 4 )
+    {
+        ent = spawn( "script_origin", ( 0, 0, 0 ) );
+        ent.targetname = "get_reactive_sound_ent";
+        ent.is_playing = 0;
+        level._fx.reactive_sound_ents[ level._fx.reactive_sound_ents.size ] = ent;
+        return ent;
+    }
+    
+    return undefined;
 }
 
 // Namespace fx
 // Params 4
 // Checksum 0x8f0d0ceb, Offset: 0x1c11
-// Size: 0x1
-function playfxnophase()
+// Size: 0x32
+function playfxnophase( fx, location, forwarddir, updir )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    playfx( fx, location, forwarddir, updir );
 }
 
 // Namespace fx
 // Params 0
 // Checksum 0x7a36baf4, Offset: 0x1c4b
-// Size: 0x1
+// Size: 0xaf
 function script_struct_fx_init()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level.struct_fx = utility::getstructarray( "struct_fx", "targetname" );
+    
+    foreach ( struct in level.struct_fx )
+    {
+        if ( !utility::issp() || !isdefined( struct.script_fxgroup ) )
+        {
+            play_struct_fx( struct );
+        }
+    }
 }
 
 // Namespace fx
 // Params 1
 // Checksum 0x12c68d9c, Offset: 0x1d02
-// Size: 0x1
-function play_struct_fx()
+// Size: 0x22c
+function play_struct_fx( struct )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( struct.script_fxid ) && isdefined( level._effect[ struct.script_fxid ] ) )
+    {
+        if ( !isdefined( struct.angles ) )
+        {
+            struct.angles = ( 0, 0, 0 );
+        }
+        
+        struct.fx = spawnfx( level._effect[ struct.script_fxid ], struct.origin, anglestoforward( struct.angles ), anglestoup( struct.angles ) );
+        
+        if ( isdefined( struct.script_delay_min ) && isdefined( struct.script_delay_max ) )
+        {
+            assert( struct.script_delay_min <= struct.script_delay_max, "<dev string:x301>" + struct.origin + "<dev string:x319>" );
+            triggerfx( struct.fx, randomfloat( struct.script_delay_min, struct.script_delay_max ) / 1000 );
+        }
+        else if ( isdefined( struct.script_delay ) )
+        {
+            triggerfx( struct.fx, struct.script_delay / 1000 );
+        }
+        else
+        {
+            triggerfx( struct.fx, -0.004 );
+        }
+    }
+    
+    if ( isdefined( struct.script_soundalias ) )
+    {
+        struct.sfx = spawn( "script_origin", struct.origin );
+        struct.sfx.targetname = "play_struct_fx";
+        struct.sfx.angles = struct.angles;
+        
+        if ( soundislooping( struct.script_soundalias ) )
+        {
+            struct.sfx playloopsound( struct.script_soundalias );
+            return;
+        }
+        
+        struct.sfx playsound( struct.script_soundalias );
+    }
 }
 
 // Namespace fx
 // Params 1
 // Checksum 0x3cb68af0, Offset: 0x1f36
-// Size: 0x1
-function stop_struct_fx()
+// Size: 0x3b
+function stop_struct_fx( struct )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    struct.fx delete();
+    
+    if ( isdefined( struct.sfx ) )
+    {
+        struct.sfx delete();
+    }
 }
 
 // Namespace fx
 // Params 1
 // Checksum 0x85ebfe, Offset: 0x1f79
-// Size: 0x1
-function struct_fx_active()
+// Size: 0x18, Type: bool
+function struct_fx_active( struct )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    return isdefined( struct.fx );
 }
 
 // Namespace fx
 // Params 1
 // Checksum 0xf860763d, Offset: 0x1f9a
-// Size: 0x1
-function struct_fx_inactive()
+// Size: 0x19, Type: bool
+function struct_fx_inactive( struct )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    return !isdefined( struct.fx );
 }
 

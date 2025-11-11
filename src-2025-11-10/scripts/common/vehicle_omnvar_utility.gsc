@@ -5,517 +5,1565 @@
 #using scripts\common\vehicle_occupancy;
 #using scripts\engine\utility;
 
-#namespace vehicle_omnvar_utility;
-
-// Namespace vehicle_omnvar_utility
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x1a6a20d2, Offset: 0x41f
-// Size: 0x1
-function private autoexec function_6dbc96553aa77887()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
 #namespace vehicle_omnvar;
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0xff8b5358, Offset: 0x431
-// Size: 0x1
-function set_vehicle()
+// Size: 0x188
+function set_vehicle( vehicleref, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    leveldataforvehicle = get_data( vehicleref );
+    id = undefined;
+    
+    if ( getdvarint( @"hash_dc6d2fe87aa001f", 0 ) == 0 )
+    {
+        id = leveldataforvehicle.id;
+    }
+    else if ( level.projectbundle.var_53c4124af039142e )
+    {
+        id = function_43b5ed5a14a56573( #"vehicle", vehicleref ) ?? leveldataforvehicle.id;
+    }
+    else
+    {
+        name = vehicle::function_451bd53633bae879( vehicleref );
+        id = function_43b5ed5a14a56573( #"scriptbundle_vehiclebundle", name ) ?? leveldataforvehicle.id;
+    }
+    
+    assert( isdefined( id ), "<dev string:x24>" + getxhashsourcename( vehicleref ) + "<dev string:x40>" );
+    
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( "ui_veh_vehicle", id );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( "ui_veh_vehicle", id );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0xb3535762, Offset: 0x5c1
-// Size: 0x1
-function function_ee70edd4b038cf14()
+// Size: 0xea
+function function_ee70edd4b038cf14( vehicle, seatref, client )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( client ) )
+    {
+        return;
+    }
+    
+    vehicleref = vehicle vehicle::get_ref();
+    id = -1;
+    
+    if ( isdefined( vehicleref ) )
+    {
+        leveldataforvehicle = get_data( vehicleref );
+        
+        if ( isdefined( seatref ) )
+        {
+            id = leveldataforvehicle.seatids[ seatref ];
+            
+            if ( ( leveldataforvehicle.hasdoors || leveldataforvehicle.canleanout ) && seatref != "gunner" && vehicle vehicle_damage::function_e8fd01c9b2bad245( seatref ) )
+            {
+                id |= 16;
+            }
+            
+            assert( isdefined( id ), "<dev string:x24>" + vehicle.vehiclename + "<dev string:x5c>" + seatref + "<dev string:x81>" );
+        }
+    }
+    
+    client setclientomnvar( "ui_veh_current_seat", id );
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0xba10121d, Offset: 0x6b3
-// Size: 0x1
-function function_4b83df64697b99ce()
+// Size: 0x92
+function function_4b83df64697b99ce( vehicleref, seatref, client )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( client ) )
+    {
+        return;
+    }
+    
+    id = -1;
+    
+    if ( isdefined( seatref ) )
+    {
+        leveldataforvehicle = get_data( vehicleref );
+        id = leveldataforvehicle.seatids[ seatref ];
+        assert( isdefined( id ), "<dev string:x24>" + getxhashsourcename( vehicleref ) + "<dev string:x5c>" + seatref + "<dev string:x81>" );
+    }
+    
+    client function_476aa03004b524d4( "ui_veh_next_seat", id );
 }
 
 // Namespace vehicle_omnvar
 // Params 4
 // Checksum 0x80ca57d1, Offset: 0x74d
-// Size: 0x1
-function function_c237260b420cba80()
+// Size: 0x203
+function function_c237260b420cba80( vehicleref, seatref, seatentity, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    id = -1;
+    
+    if ( isdefined( vehicleref ) )
+    {
+        leveldataforvehicle = get_data( vehicleref );
+        
+        if ( isdefined( seatref ) )
+        {
+            id = leveldataforvehicle.seatids[ seatref ];
+            assert( isdefined( id ), "<dev string:x24>" + getxhashsourcename( vehicleref ) + "<dev string:x5c>" + seatref + "<dev string:x81>" );
+        }
+    }
+    
+    omnvar = undefined;
+    
+    switch ( id )
+    {
+        case 0:
+            omnvar = "ui_veh_occupant_0";
+            break;
+        case 1:
+            omnvar = "ui_veh_occupant_1";
+            break;
+        case 2:
+            omnvar = "ui_veh_occupant_2";
+            break;
+        case 3:
+            omnvar = "ui_veh_occupant_3";
+            break;
+        case 4:
+            omnvar = "ui_veh_occupant_4";
+            break;
+        case 5:
+            omnvar = "ui_veh_occupant_5";
+            break;
+        case 6:
+            omnvar = "ui_veh_occupant_6";
+            break;
+    }
+    
+    assert( isdefined( omnvar ), "<dev string:x86>" );
+    seatentityid = -1;
+    
+    if ( isdefined( seatentity ) )
+    {
+        seatentityid = seatentity getentitynumber();
+    }
+    
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( omnvar, seatentityid );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( omnvar, seatentityid );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0x6fa7664b, Offset: 0x958
-// Size: 0x1
-function function_6fccbdc0754fe059()
+// Size: 0x2b
+function function_6fccbdc0754fe059( vehicleref, seatref, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    function_c237260b420cba80( vehicleref, seatref, undefined, clients );
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0x5c803d37, Offset: 0x98b
-// Size: 0x1
-function function_a6d51ef303bbcc4f()
+// Size: 0xd0
+function function_a6d51ef303bbcc4f( healthpercentvalue, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( healthpercentvalue ) )
+    {
+        healthpercentvalue = 0;
+    }
+    
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client setclientomnvar( "ui_veh_health_percent", int( healthpercentvalue ) );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients setclientomnvar( "ui_veh_health_percent", int( healthpercentvalue ) );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0x73361055, Offset: 0xa63
-// Size: 0x1
-function function_daae9fe4c46822c8()
+// Size: 0x16
+function function_daae9fe4c46822c8( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    function_a6d51ef303bbcc4f( undefined, clients );
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0xfcf1b1ad, Offset: 0xa81
-// Size: 0x1
-function show_health()
+// Size: 0xb9
+function show_health( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( "ui_veh_show_health", 1 );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( "ui_veh_show_health", 1 );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0x222f3197, Offset: 0xb42
-// Size: 0x1
-function hide_health()
+// Size: 0xb7
+function hide_health( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( "ui_veh_show_health", 0 );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( "ui_veh_show_health", 0 );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0xaed18463, Offset: 0xc01
-// Size: 0x1
-function function_f1953bc10eae6bd8()
+// Size: 0x25
+function function_f1953bc10eae6bd8( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( false )
+    {
+        show_health( clients );
+        return;
+    }
+    
+    hide_health( clients );
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0xfd699de0, Offset: 0xc2e
-// Size: 0x1
-function function_a7d2d06e335799fc()
+// Size: 0xd4
+function function_a7d2d06e335799fc( timepercentvalue, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( timepercentvalue ) )
+    {
+        timepercentvalue = 0;
+    }
+    
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( "ui_veh_time_percent", int( timepercentvalue ) );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( "ui_veh_time_percent", int( timepercentvalue ) );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0xb74e0a75, Offset: 0xd0a
-// Size: 0x1
-function function_8d88df6bc31d0783()
+// Size: 0x16
+function function_8d88df6bc31d0783( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    function_a7d2d06e335799fc( undefined, clients );
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0xe2ff3a3, Offset: 0xd28
-// Size: 0x1
-function show_time()
+// Size: 0xb9
+function show_time( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( "ui_veh_show_time", 1 );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( "ui_veh_show_time", 1 );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0xa009d8fb, Offset: 0xde9
-// Size: 0x1
-function hide_time()
+// Size: 0xb7
+function hide_time( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( "ui_veh_show_time", 0 );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( "ui_veh_show_time", 0 );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0x4e64bf14, Offset: 0xea8
-// Size: 0x1
-function function_d0914f4e1ffa63b3()
+// Size: 0x25
+function function_d0914f4e1ffa63b3( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( false )
+    {
+        show_time( clients );
+        return;
+    }
+    
+    hide_time( clients );
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0xf2fc0c00, Offset: 0xed5
-// Size: 0x1
-function function_9f4759fcb3acdc4()
+// Size: 0x45
+function function_9f4759fcb3acdc4( currentfuel, maxfuel )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    fuelpercentage = function_cf5f7fbcc73a8f0d( currentfuel, maxfuel );
+    occupants = vehicle_occupancy::function_8ed9bcd8e9ea74f5( self );
+    function_d6d4afa9f4865e61( fuelpercentage, occupants );
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0xc5137aaf, Offset: 0xf22
-// Size: 0x1
-function function_20347e94284fa3ed()
+// Size: 0x3d
+function function_20347e94284fa3ed( player, currentfuel, maxfuel )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    fuelpercentage = function_cf5f7fbcc73a8f0d( currentfuel, maxfuel );
+    function_d6d4afa9f4865e61( fuelpercentage, player );
 }
 
 // Namespace vehicle_omnvar
 // Params 2, eflags: 0x4
 // Checksum 0x8e9e3ef, Offset: 0xf67
-// Size: 0x1
-function private function_cf5f7fbcc73a8f0d()
+// Size: 0x5e
+function private function_cf5f7fbcc73a8f0d( currentfuel, maxfuel )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( currentfuel ) )
+    {
+        currentfuel = self.fuel;
+    }
+    
+    if ( !isdefined( maxfuel ) )
+    {
+        maxfuel = vehicle_interact::function_92f7f63d74bc91bc();
+    }
+    
+    if ( maxfuel == -1 )
+    {
+        return 100;
+    }
+    
+    assert( isdefined( currentfuel ) && isdefined( maxfuel ), "<dev string:xac>" );
+    return currentfuel / maxfuel * 100;
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0xd20e77cc, Offset: 0xfce
-// Size: 0x1
-function function_d6d4afa9f4865e61()
+// Size: 0xd5
+function function_d6d4afa9f4865e61( var_6779d30d1fcfe10, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( var_6779d30d1fcfe10 ) )
+    {
+        var_6779d30d1fcfe10 = 100;
+    }
+    
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( "ui_veh_fuel_percent", int( var_6779d30d1fcfe10 ) );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( "ui_veh_fuel_percent", int( var_6779d30d1fcfe10 ) );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 4
 // Checksum 0x43b5bcf8, Offset: 0x10ab
-// Size: 0x1
-function set_ammo()
+// Size: 0x1a8
+function set_ammo( vehicleref, ammoref, ammovalue, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    leveldataforvehicle = get_data( vehicleref );
+    id = leveldataforvehicle.ammoids[ ammoref ];
+    assert( isdefined( id ), "<dev string:x24>" + getxhashsourcename( vehicleref ) + "<dev string:x113>" + ammoref + "<dev string:x81>" );
+    omnvar = undefined;
+    
+    switch ( id )
+    {
+        case 0:
+            omnvar = "ui_veh_ammo_0";
+            break;
+        case 1:
+            omnvar = "ui_veh_ammo_1";
+            break;
+        case 2:
+            omnvar = "ui_veh_ammo_2";
+            break;
+    }
+    
+    assert( isdefined( omnvar ), "<dev string:x13b>" );
+    
+    if ( !isdefined( ammovalue ) )
+    {
+        ammovalue = -1;
+    }
+    else if ( isstring( ammovalue ) && ammovalue == "infinite" )
+    {
+        ammovalue = -2;
+    }
+    
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( omnvar, ammovalue );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( omnvar, ammovalue );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0x8ebb58d1, Offset: 0x125b
-// Size: 0x1
-function clear_ammo()
+// Size: 0x2b
+function clear_ammo( vehicleref, ammoref, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    set_ammo( vehicleref, ammoref, undefined, clients );
 }
 
 // Namespace vehicle_omnvar
 // Params 4
 // Checksum 0xb0f31b6e, Offset: 0x128e
-// Size: 0x1
-function show_ammo()
+// Size: 0x59
+function show_ammo( vehicleref, ammoref, ammovalue, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isstring( ammovalue ) || ammovalue != -1, "<dev string:x161>" + -1 + "<dev string:x81>" );
+    set_ammo( vehicleref, ammoref, ammovalue, clients );
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0x8bf3d2c, Offset: 0x12ef
-// Size: 0x1
-function hide_ammo()
+// Size: 0x2c
+function hide_ammo( vehicleref, ammoref, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    set_ammo( vehicleref, ammoref, -1, clients );
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0x67e79f0b, Offset: 0x1323
-// Size: 0x1
-function show_warning()
+// Size: 0x161
+function show_warning( warningref, clients, vehicleref )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    leveldataforvehicle = get_data( vehicleref, 1 );
+    id = leveldataforvehicle.warningbits[ warningref ];
+    assert( id < 12, "<dev string:x196>" + id + "<dev string:x1ca>" + 12 + "<dev string:x81>" );
+    
+    if ( isdefined( clients ) )
+    {
+        warningstartcallback = leveldataforvehicle.warningstartcallbacks[ warningref ];
+        
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client setclientomnvarbit( "ui_veh_warning", id, 1 );
+                    
+                    if ( isdefined( warningstartcallback ) )
+                    {
+                        thread [[ warningstartcallback ]]( client, "ui_veh_warning" + "_omnvar_modified" );
+                    }
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients setclientomnvarbit( "ui_veh_warning", id, 1 );
+            
+            if ( isdefined( warningstartcallback ) )
+            {
+                thread [[ warningstartcallback ]]( clients, "ui_veh_warning" + "_omnvar_modified" );
+            }
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0xdd11b9e2, Offset: 0x148c
-// Size: 0x1
-function hide_warning()
+// Size: 0x15f
+function hide_warning( warningref, clients, vehicleref )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    leveldataforvehicle = get_data( vehicleref, 1 );
+    id = leveldataforvehicle.warningbits[ warningref ];
+    assert( id < 12, "<dev string:x196>" + id + "<dev string:x1ca>" + 12 + "<dev string:x81>" );
+    
+    if ( isdefined( clients ) )
+    {
+        warningendcallback = leveldataforvehicle.warningendcallbacks[ warningref ];
+        
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client setclientomnvarbit( "ui_veh_warning", id, 0 );
+                    
+                    if ( isdefined( warningendcallback ) )
+                    {
+                        thread [[ warningendcallback ]]( client, "ui_veh_warning" + "_omnvar_modified" );
+                    }
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients setclientomnvarbit( "ui_veh_warning", id, 0 );
+            
+            if ( isdefined( warningendcallback ) )
+            {
+                thread [[ warningendcallback ]]( clients, "ui_veh_warning" + "_omnvar_modified" );
+            }
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0x6d1449b1, Offset: 0x15f3
-// Size: 0x1
-function clear_warnings()
+// Size: 0x1e8
+function clear_warnings( clients, vehicleref )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( clients ) )
+    {
+        leveldataforvehicle = undefined;
+        
+        if ( isdefined( vehicleref ) )
+        {
+            leveldataforvehicle = get_data( vehicleref, undefined, 1 );
+        }
+        
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client setclientomnvar( "ui_veh_warning", 0 );
+                    function_1a352107e1a26fb2( client );
+                    
+                    if ( isdefined( leveldataforvehicle ) )
+                    {
+                        foreach ( warningclearcallback in leveldataforvehicle.warningclearcallbacks )
+                        {
+                            if ( isdefined( warningclearcallback ) )
+                            {
+                                thread [[ warningclearcallback ]]( client );
+                            }
+                        }
+                    }
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients setclientomnvar( "ui_veh_warning", 0 );
+            function_1a352107e1a26fb2( clients );
+            
+            if ( isdefined( leveldataforvehicle ) )
+            {
+                foreach ( warningclearcallback in leveldataforvehicle.warningclearcallbacks )
+                {
+                    if ( isdefined( warningclearcallback ) )
+                    {
+                        thread [[ warningclearcallback ]]( clients );
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0xd33ae42, Offset: 0x17e3
-// Size: 0x1
-function function_1a352107e1a26fb2()
+// Size: 0x9c
+function function_1a352107e1a26fb2( client )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( soundexists( "uin_veh_warning_low_fuel" ) )
+    {
+        client stoplocalsound( "uin_veh_warning_low_fuel" );
+    }
+    
+    if ( soundexists( "uin_veh_warning_low_fuel_heli" ) )
+    {
+        client stoplocalsound( "uin_veh_warning_low_fuel_heli" );
+    }
+    
+    if ( soundexists( "uin_veh_warning_out_of_fuel" ) )
+    {
+        client stoplocalsound( "uin_veh_warning_out_of_fuel" );
+    }
+    
+    if ( soundexists( "uin_veh_warning_out_of_fuel_heli" ) )
+    {
+        client stoplocalsound( "uin_veh_warning_out_of_fuel_heli" );
+    }
+    
+    if ( soundexists( "veh_warning_missile_locking" ) )
+    {
+        client stoplocalsound( "veh_warning_missile_locking" );
+    }
+    
+    if ( soundexists( "veh_warning_missile_incoming" ) )
+    {
+        client stoplocalsound( "veh_warning_missile_incoming" );
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 4
 // Checksum 0x961cdff3, Offset: 0x1887
-// Size: 0x1
-function set_rotation()
+// Size: 0x1a6
+function set_rotation( vehicleref, rotationref, rotationvalue, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    leveldataforvehicle = get_data( vehicleref );
+    id = leveldataforvehicle.rotationids[ rotationref ];
+    assert( isdefined( id ), "<dev string:x24>" + getxhashsourcename( vehicleref ) + "<dev string:x1e0>" + rotationref + "<dev string:x81>" );
+    omnvar = undefined;
+    
+    switch ( id )
+    {
+        case 0:
+            omnvar = "ui_veh_degrees_0";
+            break;
+        case 1:
+            omnvar = "ui_veh_degrees_1";
+            break;
+    }
+    
+    assert( isdefined( omnvar ), "<dev string:x20c>" );
+    
+    if ( !isdefined( rotationvalue ) )
+    {
+        rotationvalue = 0;
+    }
+    
+    if ( isdefined( clients ) )
+    {
+        remainder = rotationvalue - floor( rotationvalue );
+        
+        if ( remainder >= 0.5 )
+        {
+            rotationvalue = ceil( rotationvalue );
+        }
+        else
+        {
+            rotationvalue = floor( rotationvalue );
+        }
+        
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client function_476aa03004b524d4( omnvar, rotationvalue );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients function_476aa03004b524d4( omnvar, rotationvalue );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0x802fe089, Offset: 0x1a35
-// Size: 0x1
-function clear_rotation()
+// Size: 0x2b
+function clear_rotation( vehicleref, rotationref, clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    set_rotation( vehicleref, rotationref, undefined, clients );
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0x7ec5d0f5, Offset: 0x1a68
-// Size: 0x1
-function show_controls()
+// Size: 0xe9
+function show_controls( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client notify( "vehOmn_modified_controls" );
+                    client.vehomncontrols = "show";
+                    client setclientomnvar( "ui_veh_controls", 1 );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients notify( "vehOmn_modified_controls" );
+            clients.vehomncontrols = "show";
+            clients setclientomnvar( "ui_veh_controls", 1 );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0xb6d45372, Offset: 0x1b59
-// Size: 0x1
-function hide_controls()
+// Size: 0xe7
+function hide_controls( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client notify( "vehOmn_modified_controls" );
+                    client.vehomncontrols = "hide";
+                    client setclientomnvar( "ui_veh_controls", 0 );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients notify( "vehOmn_modified_controls" );
+            clients.vehomncontrols = "hide";
+            clients setclientomnvar( "ui_veh_controls", 0 );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0xc1a866d3, Offset: 0x1c48
-// Size: 0x1
-function function_16f333f9d8797ee6()
+// Size: 0xab
+function function_16f333f9d8797ee6( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    thread function_96ae647221cfe804( client );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            thread function_96ae647221cfe804( clients );
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0x3fafc4b1, Offset: 0x1cfb
-// Size: 0x1
-function function_96ae647221cfe804()
+// Size: 0x83
+function function_96ae647221cfe804( client )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    client endon( "death_or_disconnect" );
+    client endon( "vehOmn_modified_controls" );
+    
+    if ( !isdefined( client.vehomncontrols ) || client.vehomncontrols != "hide" && client.vehomncontrols != "fadeOut" )
+    {
+        client.vehomncontrols = "fadeOut";
+        client setclientomnvar( "ui_veh_controls", 2 );
+        wait 3;
+        thread hide_controls( client );
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0x2ebdfd20, Offset: 0x1d86
-// Size: 0x1
-function clear_controls()
+// Size: 0xc9
+function clear_controls( clients )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( clients ) )
+    {
+        if ( isarray( clients ) )
+        {
+            foreach ( client in clients )
+            {
+                if ( isplayer( client ) )
+                {
+                    client.vehomncontrols = undefined;
+                    client setclientomnvar( "ui_veh_controls", 0 );
+                }
+            }
+            
+            return;
+        }
+        
+        if ( isplayer( clients ) )
+        {
+            clients setclientomnvar( "ui_veh_controls", 0 );
+            clients.vehomncontrols = undefined;
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0x9b3d3ba9, Offset: 0x1e57
-// Size: 0x1
-function function_3a46307fb9c3a02()
+// Size: 0x43, Type: bool
+function function_3a46307fb9c3a02( client )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    return !isdefined( client.vehomncontrols ) || client.vehomncontrols == "fadeOut" || client.vehomncontrols == "hide";
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0x19fa16b5, Offset: 0x1ea3
-// Size: 0x1
-function get_data()
+// Size: 0x2df
+function get_data( vehicleref, create, var_e6c819f806ce2c86 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( create && ( !vehicle::has_data( vehicleref ) || !isdefined( vehicle::get_data( vehicleref ).occupancy ) || !isdefined( vehicle::get_data( vehicleref ).occupancy.seatids ) ) )
+    {
+        data = undefined;
+        
+        if ( vehicle::has_data( vehicleref ) )
+        {
+            data = vehicle::get_data( vehicleref );
+        }
+        else
+        {
+            data = spawnstruct();
+        }
+        
+        if ( !isdefined( data.occupancy ) )
+        {
+            data.occupancy = spawnstruct();
+        }
+        
+        data.occupancy.seatids = [];
+        data.occupancy.ammoids = [];
+        data.occupancy.rotationids = [];
+        data.occupancy.warningbits = [];
+        data.occupancy.warningstartcallbacks = [];
+        data.occupancy.warningendcallbacks = [];
+        data.occupancy.warningclearcallbacks = [];
+        data.occupancy.rotationrefsbyseatandweapon = [];
+        data.occupancy.warningbits[ "burningDown" ] = 1;
+        data.occupancy.warningbits[ "missileLocking" ] = 2;
+        data.occupancy.warningbits[ "missileIncoming" ] = 4;
+        data.occupancy.warningbits[ "movementDisabled" ] = 3;
+        data.occupancy.warningbits[ "outOfFuel" ] = 6;
+        data.occupancy.warningbits[ "lowFuel" ] = 5;
+        data.occupancy.warningbits[ "BunkerBusterAttached" ] = 7;
+        data.occupancy.warningbits[ "shockStickAttached" ] = 8;
+        data.occupancy.warningbits[ "DDoSed" ] = 9;
+        data.occupancy.warningbits[ "locked" ] = 10;
+        data.occupancy.warningbits[ "broken" ] = 11;
+        vehicle::add_data( vehicleref, data );
+    }
+    
+    if ( vehicle::has_data( vehicleref ) )
+    {
+        return vehicle::get_data( vehicleref ).occupancy;
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 3
 // Checksum 0x9b600d07, Offset: 0x218a
-// Size: 0x1
-function clear_data()
+// Size: 0xa2
+function clear_data( vehicleref, create, var_e6c819f806ce2c86 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    leveldataforvehicle = get_data( vehicleref, create, var_e6c819f806ce2c86 );
+    
+    if ( isdefined( leveldataforvehicle ) )
+    {
+        leveldataforvehicle.seatids = [];
+        leveldataforvehicle.ammoids = [];
+        leveldataforvehicle.rotationids = [];
+        leveldataforvehicle.warningbits = [];
+        leveldataforvehicle.warningstartcallbacks = [];
+        leveldataforvehicle.warningendcallbacks = [];
+        leveldataforvehicle.warningclearcallbacks = [];
+        leveldataforvehicle.id = undefined;
+    }
+    
+    return leveldataforvehicle;
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0xae98b48f, Offset: 0x2235
-// Size: 0x1
-function clear_all()
+// Size: 0x9e
+function clear_all( clients, vehicleref )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isarray( clients ) )
+    {
+        foreach ( client in clients )
+        {
+            function_f35bd004e549426d( client, vehicleref );
+        }
+        
+        return;
+    }
+    
+    function_f35bd004e549426d( clients, vehicleref );
 }
 
 // Namespace vehicle_omnvar
 // Params 2, eflags: 0x4
 // Checksum 0xc39dd227, Offset: 0x22db
-// Size: 0x1
-function private function_f35bd004e549426d()
+// Size: 0x155
+function private function_f35bd004e549426d( client, vehicleref )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isplayer( client ) )
+    {
+        client setclientomnvar( "ui_veh_vehicle", -1 );
+        client setclientomnvar( "ui_veh_current_seat", -1 );
+        client function_476aa03004b524d4( "ui_veh_next_seat", -1 );
+        client function_476aa03004b524d4( "ui_veh_occupant_0", -1 );
+        client function_476aa03004b524d4( "ui_veh_occupant_1", -1 );
+        client function_476aa03004b524d4( "ui_veh_occupant_2", -1 );
+        client function_476aa03004b524d4( "ui_veh_occupant_3", -1 );
+        client function_476aa03004b524d4( "ui_veh_occupant_4", -1 );
+        client function_476aa03004b524d4( "ui_veh_occupant_5", -1 );
+        client function_476aa03004b524d4( "ui_veh_occupant_6", -1 );
+        client setclientomnvar( "ui_veh_health_percent", 0 );
+        client function_476aa03004b524d4( "ui_veh_show_health", 0 );
+        client function_476aa03004b524d4( "ui_veh_time_percent", 0 );
+        client function_476aa03004b524d4( "ui_veh_show_time", 0 );
+        client function_476aa03004b524d4( "ui_veh_fuel_percent", 100 );
+        client function_476aa03004b524d4( "ui_veh_ammo_0", -1 );
+        client function_476aa03004b524d4( "ui_veh_ammo_1", -1 );
+        clear_warnings( client, vehicleref );
+        client function_476aa03004b524d4( "ui_veh_degrees_0", 0 );
+        client function_476aa03004b524d4( "ui_veh_degrees_1", 0 );
+        clear_controls( client );
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 4
 // Checksum 0x2a2abdb5, Offset: 0x2438
-// Size: 0x1
-function function_e0aa0be8e3297e0d()
+// Size: 0x490
+function function_e0aa0be8e3297e0d( vehicle, oldseatid, newseatid, player )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    set_vehicle( vehicle vehicle::get_ref(), player );
+    function_ee70edd4b038cf14( vehicle, newseatid, player );
+    lowfuelsound = "uin_veh_warning_low_fuel";
+    outoffuelsound = "uin_veh_warning_out_of_fuel";
+    
+    if ( vehicle vehicle::ishelicopter() )
+    {
+        lowfuelsound = "uin_veh_warning_low_fuel_heli";
+        outoffuelsound = "uin_veh_warning_out_of_fuel_heli";
+    }
+    
+    occupants = vehicle_occupancy::function_6e6afd819ebbe705( vehicle );
+    
+    if ( isdefined( oldseatid ) )
+    {
+        function_6fccbdc0754fe059( vehicle vehicle::get_ref(), oldseatid, occupants );
+    }
+    else
+    {
+        foreach ( seatid, occupant in occupants )
+        {
+            if ( isdefined( occupant ) && occupant != player )
+            {
+                function_c237260b420cba80( vehicle vehicle::get_ref(), seatid, occupant, player );
+            }
+        }
+    }
+    
+    function_c237260b420cba80( vehicle vehicle::get_ref(), newseatid, player, occupants );
+    function_2c9ed144f176f7d8( vehicle );
+    
+    if ( vehicle.health < vehicle.maxhealth )
+    {
+        function_ca8a66bb3a611610( vehicle );
+    }
+    
+    if ( vehicle_interact::function_f014a0c998feb65d() && isdefined( vehicle.fuel ) )
+    {
+        vehicle function_20347e94284fa3ed( player );
+    }
+    
+    show_controls( player );
+    function_f5732979a745bce0( vehicle, player, newseatid );
+    leveldataforvehicle = get_data( vehicle vehicle::get_ref() );
+    
+    if ( vehicle.var_4c567014a63269e )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "BunkerBusterAttached" ] ) )
+        {
+            show_warning( "BunkerBusterAttached", player, vehicle vehicle::get_ref() );
+        }
+    }
+    
+    if ( utility::callsharedfunc( #"weapons", #"islockedonto", vehicle ) )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "missileLocking" ] ) )
+        {
+            show_warning( "missileLocking", player, vehicle vehicle::get_ref() );
+        }
+    }
+    
+    if ( utility::callsharedfunc( #"weapons", #"hasincoming", vehicle ) )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "missileIncoming" ] ) )
+        {
+            show_warning( "missileIncoming", player, vehicle vehicle::get_ref() );
+        }
+    }
+    
+    if ( !vehicle_occupancy::function_8e768221dfa2f8a9( vehicle ) )
+    {
+        if ( vehicle vehicle_occupancy::is_locked() )
+        {
+            if ( isdefined( leveldataforvehicle.warningbits[ "locked" ] ) )
+            {
+                show_warning( "locked", player, vehicle vehicle::get_ref() );
+            }
+        }
+        else if ( vehicle.isbroken )
+        {
+            if ( isdefined( leveldataforvehicle.warningbits[ "broken" ] ) )
+            {
+                show_warning( "broken", player, vehicle vehicle::get_ref() );
+            }
+        }
+        else if ( vehicle utility::callsharedfunc( #"emp", #"is_empd" ) && !isdefined( vehicle.ksempd ) )
+        {
+            show_warning( "DDoSed", player, vehicle vehicle::get_ref() );
+        }
+        else if ( vehicle.fuel <= 0 && isdefined( leveldataforvehicle.warningbits[ "outOfFuel" ] ) )
+        {
+            show_warning( "outOfFuel", player, vehicle vehicle::get_ref() );
+        }
+        else if ( isdefined( leveldataforvehicle.warningbits[ "movementDisabled" ] ) && !isdefined( vehicle.ksempd ) )
+        {
+            show_warning( "movementDisabled", player, vehicle vehicle::get_ref() );
+        }
+        
+        if ( soundexists( outoffuelsound ) && !isdefined( oldseatid ) )
+        {
+            player stoplocalsound( outoffuelsound );
+            player playlocalsound( outoffuelsound );
+        }
+    }
+    
+    if ( vehicle vehicle_damage::function_b06b0d26ac291477() )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "burningDown" ] ) )
+        {
+            show_warning( "burningDown", player, vehicle vehicle::get_ref() );
+        }
+    }
+    
+    if ( vehicle.fuel <= 25 && vehicle.fuel > 0 )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "lowFuel" ] ) )
+        {
+            show_warning( "lowFuel", player, vehicle vehicle::get_ref() );
+            
+            if ( soundexists( outoffuelsound ) && !isdefined( oldseatid ) )
+            {
+                player stoplocalsound( lowfuelsound );
+                player playlocalsound( lowfuelsound );
+            }
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0x21cca0bf, Offset: 0x28d0
-// Size: 0x1
-function function_fc8e70f33a941b3d()
+// Size: 0x2c0
+function function_fc8e70f33a941b3d( vehicle, player )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( getdvarint( @"mgl", 0 ) )
+    {
+        return;
+    }
+    
+    set_vehicle( vehicle vehicle::get_ref(), player );
+    lowfuelsound = "uin_veh_warning_low_fuel";
+    outoffuelsound = "uin_veh_warning_out_of_fuel";
+    
+    if ( vehicle::ishelicopter() )
+    {
+        lowfuelsound = "uin_veh_warning_low_fuel_heli";
+        outoffuelsound = "uin_veh_warning_out_of_fuel_heli";
+    }
+    
+    if ( vehicle.health < vehicle.maxhealth )
+    {
+        function_ca8a66bb3a611610( vehicle );
+    }
+    
+    if ( vehicle_interact::function_f014a0c998feb65d() && isdefined( vehicle.fuel ) )
+    {
+        vehicle function_20347e94284fa3ed( player );
+    }
+    
+    leveldataforvehicle = get_data( vehicle vehicle::get_ref() );
+    
+    if ( utility::callsharedfunc( #"weapons", #"hasBunkerBustersAttached", vehicle ) )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "missileLocking" ] ) )
+        {
+            show_warning( "missileLocking", player, vehicle vehicle::get_ref() );
+        }
+    }
+    
+    if ( utility::callsharedfunc( #"weapons", #"islockedonto", vehicle ) )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "missileLocking" ] ) )
+        {
+            show_warning( "missileLocking", player, vehicle vehicle::get_ref() );
+        }
+    }
+    
+    if ( utility::callsharedfunc( #"weapons", #"hasincoming", vehicle ) )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "missileIncoming" ] ) )
+        {
+            show_warning( "missileIncoming", player, vehicle vehicle::get_ref() );
+        }
+    }
+    
+    if ( !vehicle_occupancy::function_8e768221dfa2f8a9( vehicle ) )
+    {
+        if ( vehicle.fuel <= 0 && isdefined( leveldataforvehicle.warningbits[ "outOfFuel" ] ) )
+        {
+            show_warning( "outOfFuel", player, vehicle vehicle::get_ref() );
+            
+            if ( soundexists( outoffuelsound ) )
+            {
+                player playlocalsound( outoffuelsound );
+            }
+        }
+        else if ( isdefined( leveldataforvehicle.warningbits[ "movementDisabled" ] ) )
+        {
+            show_warning( "movementDisabled", player, vehicle vehicle::get_ref() );
+        }
+    }
+    
+    if ( vehicle vehicle_damage::function_b06b0d26ac291477() )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "burningDown" ] ) )
+        {
+            show_warning( "burningDown", player, vehicle vehicle::get_ref() );
+        }
+    }
+    
+    if ( vehicle.fuel <= 25 && vehicle.fuel > 0 )
+    {
+        if ( isdefined( leveldataforvehicle.warningbits[ "lowFuel" ] ) )
+        {
+            show_warning( "lowFuel", player, vehicle vehicle::get_ref() );
+            
+            if ( soundexists( lowfuelsound ) )
+            {
+                player playlocalsound( lowfuelsound );
+            }
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 4
 // Checksum 0xd125d4a6, Offset: 0x2b98
-// Size: 0x1
-function function_1f2d7e52383cc345()
+// Size: 0x7a
+function function_1f2d7e52383cc345( vehicle, oldseatid, newseatid, player )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( newseatid ) )
+    {
+        if ( isdefined( oldseatid ) )
+        {
+            clear_all( player, vehicle vehicle::get_ref() );
+            
+            if ( isdefined( vehicle ) )
+            {
+                occupants = vehicle_occupancy::function_6e6afd819ebbe705( vehicle );
+                function_6fccbdc0754fe059( vehicle vehicle::get_ref(), oldseatid, occupants );
+                function_2c9ed144f176f7d8( vehicle );
+            }
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0xf7a41073, Offset: 0x2c1a
-// Size: 0x1
-function function_a9e60d4916911fc6()
+// Size: 0x26
+function function_a9e60d4916911fc6( vehicle, player )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    clear_all( player, vehicle vehicle::get_ref() );
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0x964cfa36, Offset: 0x2c48
-// Size: 0x1
-function function_ca8a66bb3a611610()
+// Size: 0x119
+function function_ca8a66bb3a611610( vehicle, data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( vehicle.maxhealth ) )
+    {
+        assertmsg( "<dev string:x236>" );
+        return;
+    }
+    
+    occupants = vehicle_occupancy::function_8ed9bcd8e9ea74f5( vehicle, 0 );
+    
+    if ( vehicle.maxhealth == 0 )
+    {
+        healthpercent = 0;
+    }
+    else if ( !isdefined( data.damage ) )
+    {
+        healthpercent = int( clamp( vehicle.health / vehicle.maxhealth * 100, 0, 100 ) );
+    }
+    else if ( utility::issp() )
+    {
+        healthpercent = int( clamp( vehicle.health / vehicle.maxhealth * 100, 0, 100 ) );
+    }
+    else
+    {
+        healthpercent = int( clamp( ( vehicle.health - data.damage ) / vehicle.maxhealth * 100, 0, 100 ) );
+    }
+    
+    show_health( occupants );
+    function_a6d51ef303bbcc4f( healthpercent, occupants );
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0x5aa5db90, Offset: 0x2d69
-// Size: 0x1
-function function_b7e5944543c97cfa()
+// Size: 0x100
+function function_b7e5944543c97cfa( vehicle, data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( data ) )
+    {
+        data = spawnstruct();
+    }
+    
+    leveldataforvehicle = get_data( vehicle vehicle::get_ref(), undefined, 1 );
+    occupants = vehicle_occupancy::function_6e6afd819ebbe705( vehicle );
+    
+    if ( isdefined( occupants ) && isdefined( leveldataforvehicle ) )
+    {
+        if ( occupants.size > 0 )
+        {
+            foreach ( seatid, occupant in occupants )
+            {
+                if ( isplayer( occupant ) && occupant utility::callsharedfunc( #"player", #"playerisalive" ) )
+                {
+                    function_f5732979a745bce0( vehicle, occupant, seatid, data );
+                }
+            }
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 4
 // Checksum 0x6fa80ec6, Offset: 0x2e71
-// Size: 0x1
-function function_f5732979a745bce0()
+// Size: 0x63
+function function_f5732979a745bce0( vehicle, client, seatid, data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( seatid ) )
+    {
+        seatid = vehicle_occupancy::function_338f50d73ebf6fe4( vehicle, client );
+    }
+    
+    assert( isdefined( seatid ), "<dev string:x289>" + client getentitynumber() + "<dev string:x81>" );
+    function_ac478526d789c733( vehicle, client, seatid, data );
 }
 
 // Namespace vehicle_omnvar
 // Params 1
 // Checksum 0x90e8830f, Offset: 0x2edc
-// Size: 0x1
-function function_2c9ed144f176f7d8()
+// Size: 0xad
+function function_2c9ed144f176f7d8( vehicle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    occupants = vehicle_occupancy::function_6e6afd819ebbe705( vehicle );
+    
+    foreach ( seatid, occupant in occupants )
+    {
+        nextseatid = vehicle_occupancy::function_79f80964bb18e6c6( vehicle, occupant, seatid );
+        function_4b83df64697b99ce( vehicle vehicle::get_ref(), nextseatid, occupant );
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 4
 // Checksum 0x3cb759c0, Offset: 0x2f91
-// Size: 0x1
-function function_ac478526d789c733()
+// Size: 0x1c3
+function function_ac478526d789c733( vehicle, client, seatid, data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    leveldataforvehicle = get_data( vehicle vehicle::get_ref() );
+    
+    if ( leveldataforvehicle.rotationrefsbyseatandweapon.size > 0 && isdefined( leveldataforvehicle.rotationrefsbyseatandweapon[ seatid ] ) )
+    {
+        if ( vehicle_occupancy::function_d4f0603190ab379f( vehicle, seatid ) )
+        {
+            if ( isdefined( vehicle.objweapon ) )
+            {
+                rotationref = leveldataforvehicle.rotationrefsbyseatandweapon[ seatid ][ vehicle.objweapon.basename ];
+                
+                if ( isdefined( rotationref ) )
+                {
+                    invertedangles = invertangles( client getplayerangles() );
+                    angles = vehicle.angles;
+                    entangles = combineangles( invertedangles, angles );
+                    entrotation = angleclamp( entangles[ 1 ] );
+                    set_rotation( vehicle vehicle::get_ref(), rotationref, entrotation, client );
+                }
+            }
+        }
+        
+        anglesarr = function_958654161cd92cc8( vehicle, data );
+        
+        if ( isdefined( anglesarr ) )
+        {
+            foreach ( weaponname, rotationref in leveldataforvehicle.rotationrefsbyseatandweapon[ seatid ] )
+            {
+                entangles = anglesarr[ weaponname ];
+                
+                if ( isdefined( entangles ) )
+                {
+                    entrotation = angleclamp( entangles[ 1 ] );
+                    set_rotation( vehicle vehicle::get_ref(), rotationref, entrotation, client );
+                }
+            }
+        }
+    }
 }
 
 // Namespace vehicle_omnvar
 // Params 2
 // Checksum 0xde3d9bc9, Offset: 0x315c
-// Size: 0x1
-function function_958654161cd92cc8()
+// Size: 0x153
+function function_958654161cd92cc8( vehicle, data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( data ) && isdefined( data.localangles ) )
+    {
+        return data.rotationentangles;
+    }
+    
+    leveldataforvehicle = get_data( vehicle vehicle::get_ref(), 1 );
+    ents = vehicle::get_turrets( vehicle );
+    
+    if ( isdefined( leveldataforvehicle.mainturretweapon ) && isdefined( vehicle gettagorigin( "tag_flash" ) ) )
+    {
+        ents[ leveldataforvehicle.mainturretweapon ] = vehicle;
+    }
+    
+    if ( ents.size > 0 )
+    {
+        entangles = [];
+        vehicleanglesinverted = invertangles( vehicle.angles );
+        
+        foreach ( weaponname, ent in ents )
+        {
+            entangles[ weaponname ] = combineangles( vehicleanglesinverted, ent gettagangles( "tag_flash" ) );
+        }
+        
+        if ( isdefined( data ) )
+        {
+            data.rotationentangles = entangles;
+        }
+        
+        return entangles;
+    }
+    
+    return undefined;
 }
 
 // Namespace vehicle_omnvar
 // Params 2, eflags: 0x4
 // Checksum 0x4ed0371a, Offset: 0x32b8
-// Size: 0x1
-function private function_476aa03004b524d4()
+// Size: 0x28
+function private function_476aa03004b524d4( omnvar, value )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( self function_5c766d1d0140b86( omnvar ) )
+    {
+        self setclientomnvar( omnvar, value );
+    }
 }
 

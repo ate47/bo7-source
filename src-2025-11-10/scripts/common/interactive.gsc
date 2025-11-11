@@ -1,72 +1,108 @@
 #namespace interactive;
 
-// Namespace interactive
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x98e2a6c2, Offset: 0x6e
-// Size: 0x1
-function private autoexec function_9b517ad0c4748a11()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
 // Namespace interactive/entity_used
 // Params 2, eflags: 0x20
 // Checksum 0x326c6602, Offset: 0x80
-// Size: 0x1
-function event_handler[entity_used] entity_used()
+// Size: 0x70
+function event_handler[entity_used] entity_used( entity, player )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    profilestart();
+    
+    if ( !isdefined( entity.interactive_used_func_id ) )
+    {
+        profilestop();
+        return;
+    }
+    
+    if ( !isdefined( level.interactive_used_funcs ) )
+    {
+        profilestop();
+        return;
+    }
+    
+    if ( !isdefined( level.interactive_used_funcs[ entity.interactive_used_func_id ] ) )
+    {
+        profilestop();
+        return;
+    }
+    
+    thread [[ level.interactive_used_funcs[ entity.interactive_used_func_id ] ]]( entity, player );
+    profilestop();
 }
 
 // Namespace interactive
 // Params 2
 // Checksum 0xb6362b23, Offset: 0xf8
-// Size: 0x1
-function interactive_addusedcallback()
+// Size: 0x87
+function interactive_addusedcallback( usedcallback, id )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( level.interactive_used_funcs ) )
+    {
+        level.interactive_used_funcs = [];
+        level.interactive_used_funcs_unique_id = 0;
+    }
+    
+    if ( !isdefined( id ) )
+    {
+        while ( isdefined( level.interactive_used_funcs[ level.interactive_used_funcs_unique_id ] ) )
+        {
+            level.interactive_used_funcs_unique_id++;
+        }
+        
+        id = level.interactive_used_funcs_unique_id;
+        level.interactive_used_funcs_unique_id++;
+    }
+    
+    level.interactive_used_funcs[ id ] = usedcallback;
+    return id;
 }
 
 // Namespace interactive
 // Params 1
 // Checksum 0x83461e20, Offset: 0x188
-// Size: 0x1
-function interactive_addusedcallbacktoentity()
+// Size: 0x17
+function interactive_addusedcallbacktoentity( id )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.interactive_used_func_id = id;
 }
 
 // Namespace interactive
 // Params 0
 // Checksum 0x88e5780f, Offset: 0x1a7
-// Size: 0x1
+// Size: 0xc
 function interactive_removeusedcallbackfromentity()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.interactive_used_func_id = undefined;
 }
 
 // Namespace interactive
 // Params 2
 // Checksum 0xfe8e57f9, Offset: 0x1bb
-// Size: 0x1
-function function_bb62c739af2034bc()
+// Size: 0x87
+function function_bb62c739af2034bc( usable, player )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( usable.var_b67012ddb354bc5a ) )
+    {
+        result = [[ usable.var_b67012ddb354bc5a ]]( usable, player );
+        assert( isstruct( result ) && isdefined( result.type ) && ( isdefined( result.string ) || isdefined( result.title ) ), "<dev string:x24>" );
+        return result;
+    }
+    
+    return undefined;
 }
 
 // Namespace interactive
 // Params 2
 // Checksum 0xd2dc7bbf, Offset: 0x24b
-// Size: 0x1
-function function_c4873dab195cf2fb()
+// Size: 0x45
+function function_c4873dab195cf2fb( usable, player )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( usable.var_1e6940caec363c36 ) )
+    {
+        result = [[ usable.var_1e6940caec363c36 ]]( usable, player );
+        return result;
+    }
+    
+    return 1;
 }
 

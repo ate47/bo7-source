@@ -3,32 +3,36 @@
 #namespace LIGHTFOOT;
 
 // Namespace LIGHTFOOT
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x8b5b32ef, Offset: 0x85
-// Size: 0x1
-function private autoexec function_724d957d6dc87bcf()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace LIGHTFOOT
 // Params 0, eflags: 0x1
 // Checksum 0xe11f2470, Offset: 0x97
-// Size: 0x1
+// Size: 0x18
 function autoexec preinit()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level callback::add( #"register_perk", &function_cdd400da4e3e8cf1 );
 }
 
 // Namespace LIGHTFOOT
 // Params 1
 // Checksum 0x4f73353d, Offset: 0xb7
-// Size: 0x1
-function function_cdd400da4e3e8cf1()
+// Size: 0x6c
+function function_cdd400da4e3e8cf1( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    bundle = level.perkbundles[ "specialty_lightfoot" ];
+    
+    if ( !isdefined( bundle ) )
+    {
+        return;
+    }
+    
+    if ( !function_c28ff33f9f675615() )
+    {
+        function_79901b4637c83c86( #"hash_393f779ccdbb78d" );
+        return;
+    }
+    
+    if ( isdefined( params.var_bf34439fc0ca3cec ) )
+    {
+        level [[ params.var_bf34439fc0ca3cec ]]( "specialty_lightfoot" );
+    }
 }
 

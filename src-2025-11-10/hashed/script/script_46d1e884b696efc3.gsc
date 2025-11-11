@@ -1,112 +1,234 @@
 #namespace namespace_dce2b2614ee05427;
 
 // Namespace namespace_dce2b2614ee05427
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x4fef858e, Offset: 0x6f
-// Size: 0x1
-function private autoexec function_78034a0cf9351633()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace namespace_dce2b2614ee05427
 // Params 3
 // Checksum 0x26a8a8cc, Offset: 0x81
-// Size: 0x1
-function create_category()
+// Size: 0x164
+function create_category( var_7bdff97009197402, var_c64b7d522b7f4728 = 0, var_214e4112306fa828 = 0 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( level ) );
+    
+    if ( !isdefined( level.var_6265b35248049006 ) )
+    {
+        level.var_6265b35248049006 = spawnstruct();
+        level.var_6265b35248049006.categories = [];
+        level.var_6265b35248049006.var_6e5b98a5775cb1fd = 1;
+    }
+    
+    if ( isdefined( level.var_6265b35248049006.categories[ var_7bdff97009197402 ] ) )
+    {
+        assert( var_214e4112306fa828 );
+        return level.var_6265b35248049006.categories[ var_7bdff97009197402 ];
+    }
+    
+    level.var_6265b35248049006.categories[ var_7bdff97009197402 ] = spawnstruct();
+    category = level.var_6265b35248049006.categories[ var_7bdff97009197402 ];
+    category.objarray = [];
+    category.intid = level.var_6265b35248049006.var_6e5b98a5775cb1fd;
+    category.var_c64b7d522b7f4728 = var_c64b7d522b7f4728;
+    level.var_6265b35248049006.var_6e5b98a5775cb1fd++;
+    assert( level.var_6265b35248049006.var_6e5b98a5775cb1fd < 254 );
+    return category;
 }
 
 // Namespace namespace_dce2b2614ee05427
 // Params 1
 // Checksum 0x951c26ba, Offset: 0x1ee
-// Size: 0x1
-function function_9610dcc083b0f8c8()
+// Size: 0x23, Type: bool
+function function_9610dcc083b0f8c8( var_7bdff97009197402 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    return isdefined( level.var_6265b35248049006.categories[ var_7bdff97009197402 ] );
 }
 
 // Namespace namespace_dce2b2614ee05427
 // Params 2
 // Checksum 0x4bcbda94, Offset: 0x21a
-// Size: 0x1
-function add()
+// Size: 0x4d
+function add( var_7bdff97009197402, obj )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( obj ) );
+    assert( isstring( var_7bdff97009197402 ) );
+    category = level function_6038b7a51a411204( var_7bdff97009197402 );
+    add_helper( category, obj );
 }
 
 // Namespace namespace_dce2b2614ee05427
 // Params 2
 // Checksum 0xa17ed1fc, Offset: 0x26f
-// Size: 0x1
-function add_array()
+// Size: 0xb4
+function add_array( var_7bdff97009197402, objarray )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( objarray ) );
+    assert( isstring( var_7bdff97009197402 ) );
+    category = level function_6038b7a51a411204( var_7bdff97009197402 );
+    
+    foreach ( obj in objarray )
+    {
+        add_helper( category, obj );
+    }
 }
 
 // Namespace namespace_dce2b2614ee05427
 // Params 2, eflags: 0x4
 // Checksum 0xdb6c4c19, Offset: 0x32b
-// Size: 0x1
-function private add_helper()
+// Size: 0xcc
+function private add_helper( category, obj )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    idx = category.objarray.size;
+    
+    if ( category.var_c64b7d522b7f4728 )
+    {
+        category.objarray[ idx ] = spawnstruct();
+        objelement = category.objarray[ idx ];
+        objelement.obj = obj;
+        obj.var_93644fc0c12b68b2 = spatialgridadd( category.intid, idx, obj.origin );
+        return;
+    }
+    
+    category.objarray[ idx ] = obj;
+    spatialgridadd( category.intid, idx, obj.origin );
 }
 
 // Namespace namespace_dce2b2614ee05427
 // Params 2
 // Checksum 0x1b6ad623, Offset: 0x3ff
-// Size: 0x1
-function remove()
+// Size: 0xd3
+function remove( var_7bdff97009197402, obj )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( obj ) );
+    assert( isstring( var_7bdff97009197402 ) );
+    
+    if ( !isdefined( level.var_6265b35248049006 ) || !isdefined( level.var_6265b35248049006.categories[ var_7bdff97009197402 ] ) )
+    {
+        assertmsg( "<dev string:x24>" );
+        return;
+    }
+    
+    category = level.var_6265b35248049006.categories[ var_7bdff97009197402 ];
+    
+    if ( !category.var_c64b7d522b7f4728 )
+    {
+        assertmsg( "<dev string:x59>" );
+        return;
+    }
+    
+    if ( !isdefined( obj.var_93644fc0c12b68b2 ) )
+    {
+        assertmsg( "<dev string:x81>" );
+        return;
+    }
+    
+    spatialgridremove( obj.var_93644fc0c12b68b2 );
 }
 
 // Namespace namespace_dce2b2614ee05427
 // Params 1
 // Checksum 0xbcffc808, Offset: 0x4da
-// Size: 0x1
-function remove_all()
+// Size: 0x131
+function remove_all( var_7bdff97009197402 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isstring( var_7bdff97009197402 ) );
+    
+    if ( !isdefined( level.var_6265b35248049006 ) || !isdefined( level.var_6265b35248049006.categories[ var_7bdff97009197402 ] ) )
+    {
+        assertmsg( "<dev string:xb8>" );
+        return;
+    }
+    
+    category = level.var_6265b35248049006.categories[ var_7bdff97009197402 ];
+    
+    if ( !category.var_c64b7d522b7f4728 )
+    {
+        assertmsg( "<dev string:x59>" );
+        return;
+    }
+    
+    foreach ( obj in category.objarray )
+    {
+        spatialgridremove( obj.obj.var_93644fc0c12b68b2 );
+    }
+    
+    level.var_6265b35248049006.categories[ var_7bdff97009197402 ] = undefined;
 }
 
 // Namespace namespace_dce2b2614ee05427
 // Params 4
 // Checksum 0xd79cf244, Offset: 0x613
-// Size: 0x1
-function move()
+// Size: 0x106
+function move( var_7bdff97009197402, obj, movetoorigin, previousorigin )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( obj ) );
+    assert( isstring( var_7bdff97009197402 ) );
+    assert( isdefined( movetoorigin ) );
+    
+    if ( !isdefined( previousorigin ) )
+    {
+        previousorigin = obj.origin;
+    }
+    
+    if ( !isdefined( level.var_6265b35248049006 ) || !isdefined( level.var_6265b35248049006.categories[ var_7bdff97009197402 ] ) )
+    {
+        assertmsg( "<dev string:xf1>" );
+        return;
+    }
+    
+    category = level.var_6265b35248049006.categories[ var_7bdff97009197402 ];
+    
+    if ( !category.var_c64b7d522b7f4728 )
+    {
+        assertmsg( "<dev string:x124>" );
+        return;
+    }
+    
+    if ( !isdefined( obj.var_93644fc0c12b68b2 ) )
+    {
+        assertmsg( "<dev string:x14a>" );
+        return;
+    }
+    
+    spatialgridmove( obj.var_93644fc0c12b68b2, movetoorigin );
 }
 
 // Namespace namespace_dce2b2614ee05427
 // Params 3
 // Checksum 0x96e3baae, Offset: 0x721
-// Size: 0x1
-function query()
+// Size: 0x13f
+function query( var_7bdff97009197402, origin, radius )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( level.var_6265b35248049006 ) || !isdefined( level.var_6265b35248049006.categories[ var_7bdff97009197402 ] ) )
+    {
+        return [];
+    }
+    
+    category = level.var_6265b35248049006.categories[ var_7bdff97009197402 ];
+    queryarray = function_37c8b3d275041e4a( category.intid, origin, radius );
+    returnarray = [];
+    
+    foreach ( idx in queryarray )
+    {
+        if ( category.var_c64b7d522b7f4728 )
+        {
+            returnarray[ returnarray.size ] = category.objarray[ idx ].obj;
+            continue;
+        }
+        
+        returnarray[ returnarray.size ] = category.objarray[ idx ];
+    }
+    
+    return returnarray;
 }
 
 // Namespace namespace_dce2b2614ee05427
 // Params 1, eflags: 0x4
 // Checksum 0xf97cfe79, Offset: 0x869
-// Size: 0x1
-function private function_6038b7a51a411204()
+// Size: 0x55
+function private function_6038b7a51a411204( var_7bdff97009197402 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( level.var_6265b35248049006 ) || !isdefined( level.var_6265b35248049006.categories[ var_7bdff97009197402 ] ) )
+    {
+        return create_category( var_7bdff97009197402 );
+    }
+    
+    return level.var_6265b35248049006.categories[ var_7bdff97009197402 ];
 }
 

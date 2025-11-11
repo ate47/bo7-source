@@ -4,52 +4,107 @@
 #namespace scout;
 
 // Namespace scout
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x844bb91d, Offset: 0xe4
-// Size: 0x1
-function private autoexec function_b38ebe2969086395()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace scout
 // Params 0, eflags: 0x1
 // Checksum 0xfe80e423, Offset: 0xf6
-// Size: 0x1
+// Size: 0x18
 function autoexec preinit()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level callback::add( #"register_perk", &function_85564e6cae7d634b );
 }
 
 // Namespace scout
 // Params 1
 // Checksum 0xc0ba34a5, Offset: 0x116
-// Size: 0x1
-function function_85564e6cae7d634b()
+// Size: 0x8b
+function function_85564e6cae7d634b( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    bundle = level.perkbundles[ "specialty_scout" ];
+    
+    if ( !isdefined( bundle ) )
+    {
+        return;
+    }
+    
+    if ( function_64872fcef35cb56c( #"hash_a22bd5316362a38f" ) )
+    {
+        return;
+    }
+    
+    if ( isdefined( params.var_bf34439fc0ca3cec ) )
+    {
+        level [[ params.var_bf34439fc0ca3cec ]]( "specialty_scout" );
+    }
+    
+    if ( isdefined( params.var_5109b530c69d18a1 ) )
+    {
+        level [[ params.var_5109b530c69d18a1 ]]( "specialty_scout", &scoutonkillbuff );
+    }
 }
 
 // Namespace scout
 // Params 1
 // Checksum 0xf7a6c3de, Offset: 0x1a9
-// Size: 0x1
-function scoutonkillbuff()
+// Size: 0x18a
+function scoutonkillbuff( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    smeansofdeath = params.smeansofdeath ?? "";
+    
+    if ( smeansofdeath == "MOD_MELEE" )
+    {
+        return;
+    }
+    
+    if ( smeansofdeath == "MOD_MELEE_TAKEDOWN" )
+    {
+        return;
+    }
+    
+    if ( smeansofdeath == "MOD_EXECUTION" )
+    {
+        return;
+    }
+    
+    self notify( "scoutOnKillBuff" );
+    
+    if ( self.var_4a067337b84d8676 )
+    {
+        self.var_dfb4efc4c9e3d3ec = 1;
+    }
+    
+    self.var_4a067337b84d8676 = 1;
+    player::function_e4f77222086e66b( 1 );
+    self function_e5ab5088cc09b666( 1 );
+    bundle = level.perkbundles[ "specialty_scout" ];
+    buffduration = bundle.var_e472c78f440d7681 ?? 5;
+    self.var_da591267109e7023 = gettime() + buffduration * 1000;
+    thread function_9b50188e8f3ce2b5( buffduration );
+    var_2c124e2ccc1e8842 = level.sharedfuncs[ #"perk" ][ #"hash_5c931797494661ab" ];
+    
+    if ( isdefined( var_2c124e2ccc1e8842 ) )
+    {
+        foreach ( var_6769521a9cab5947 in bundle.var_ee1c92198ad66b2f )
+        {
+            self [[ var_2c124e2ccc1e8842 ]]( bundle, var_6769521a9cab5947.var_fbd59bd982c1fe7c );
+        }
+    }
 }
 
 // Namespace scout
 // Params 1
 // Checksum 0xb72f81c1, Offset: 0x33b
-// Size: 0x1
-function function_9b50188e8f3ce2b5()
+// Size: 0x47
+function function_9b50188e8f3ce2b5( buffduration )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( buffduration )
+    {
+        self endon( "scoutOnKillBuff" );
+        self endon( "death_or_disconnect" );
+        wait buffduration;
+    }
+    
+    self.var_4a067337b84d8676 = undefined;
+    self.var_dfb4efc4c9e3d3ec = undefined;
+    player::function_e4f77222086e66b( 0 );
+    self function_e5ab5088cc09b666( 0 );
 }
 

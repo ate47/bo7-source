@@ -11,262 +11,899 @@
 #namespace lightning_chain;
 
 // Namespace lightning_chain
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0xd8b99fcb, Offset: 0x564
-// Size: 0x1
-function private autoexec function_48f22899da41ee6()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace lightning_chain
 // Params 0, eflags: 0x5
 // Checksum 0x8166ebf, Offset: 0x576
-// Size: 0x1
+// Size: 0x19
 function private autoexec __init__system__()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    system::register( #"lightning_chain", undefined, undefined, &post_main );
 }
 
 // Namespace lightning_chain
 // Params 0, eflags: 0x4
 // Checksum 0x462c9de5, Offset: 0x597
-// Size: 0x1
+// Size: 0x22
 function private post_main()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    common_init();
+    utility::callsharedfunc( #"lightning_chain", #"init" );
 }
 
 // Namespace lightning_chain
 // Params 0, eflags: 0x4
 // Checksum 0x16d99898, Offset: 0x5c1
-// Size: 0x1
+// Size: 0x22b
 function private common_init()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level._effect[ "tesla_bolt" ] = loadfxasset( "vfx_t10_gameplay_zm_weapons_tesla_elec_bolt_01" );
+    level._effect[ "tesla_shock" ] = loadfxasset( "vfx_jup_ob_gameplay_zm_tesla_shock_zmb" );
+    level._effect[ "tesla_shock_eyes" ] = loadfxasset( "vfx_t10_gameplay_zm_weapons_tesla_shock_eye" );
+    level._effect[ "tesla_shock_mouth" ] = loadfxasset( "vfx_t10_gameplay_zm_weapons_tesla_shock_mouth" );
+    level._effect[ "tesla_shock_ground" ] = loadfxasset( "vfx_jup_ob_gameplay_zm_tesla_shock_ground" );
+    level._effect[ "tesla_bolt_pap" ] = loadfxasset( "vfx_t10_gameplay_zm_weapons_tesla_elec_bolt_pap_01" );
+    level._effect[ "tesla_shock_pap" ] = loadfxasset( "vfx_jup_ob_gameplay_zm_tesla_shock_ug_zmb" );
+    level._effect[ "tesla_shock_eyes_pap" ] = loadfxasset( "vfx_t10_gameplay_zm_weapons_tesla_shock_eye_pap" );
+    level._effect[ "tesla_shock_mouth_pap" ] = loadfxasset( "vfx_t10_gameplay_zm_weapons_tesla_shock_mouth_pap" );
+    level._effect[ "tesla_shock_ground_pap" ] = loadfxasset( "vfx_jup_ob_gameplay_zm_tesla_shock_ug_ground" );
+    level callback::add( "on_zombie_ai_damaged", &function_a68037a538d49c18 );
+    level callback::add( "on_soldier_ai_damaged", &function_a68037a538d49c18 );
+    level callback::add( #"player_laststand", &on_player_laststand );
+    level callback::add( #"player_death", &on_player_death );
+    level.var_cf7706e013c62841 = [];
+    level.var_cf7706e013c62841[ 0 ] = 5000;
+    level.var_cf7706e013c62841[ 1 ] = 10000;
+    level.var_cf7706e013c62841[ 2 ] = 20000;
+    level.var_cf7706e013c62841[ 3 ] = 40000;
+    utility::registersharedfunc( #"lightning_chain", #"hash_1722084e0b6f97fc", &create_lightning_chain_params );
+    utility::registersharedfunc( #"lightning_chain", #"lc_expand", &lc_expand );
+    utility::registersharedfunc( #"lightning_chain", #"lc_stun_and_damage", &lc_stun_and_damage );
+    utility::registersharedfunc( #"lightning_chain", #"lc_damage_calculation", &lc_damage_calculation );
+    utility::registersharedfunc( #"lightning_chain", #"lc_play_stun_fx", &lc_play_stun_fx );
 }
 
 // Namespace lightning_chain
 // Params 5
 // Checksum 0x1aacb407, Offset: 0x7f4
-// Size: 0x1
-function create_lightning_chain_params()
+// Size: 0x88
+function create_lightning_chain_params( max_enemies_killed, radius, head_gib_chance, arc_travel_time, var_dc97cf84d9220187 )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    lcp = spawnstruct();
+    lcp.max_enemies_killed = max_enemies_killed;
+    lcp.arc_radius = radius;
+    lcp.head_gib_chance = head_gib_chance;
+    lcp.arc_travel_time = arc_travel_time;
+    lcp.var_dc97cf84d9220187 = var_dc97cf84d9220187;
+    return lcp;
 }
 
 // Namespace lightning_chain
 // Params 3
 // Checksum 0x36734c16, Offset: 0x885
-// Size: 0x1
-function arc_damage()
+// Size: 0x160
+function arc_damage( source_enemy, player, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( params ) )
+    {
+        return;
+    }
+    
+    params.team = params.attacker.team ?? player.team;
+    params.attacker_origin = params.attacker.origin ?? player.origin;
+    var_f191c2408c95ef7 = !params.var_bca2b52118f73;
+    
+    if ( params.var_fb7eedda08f6ff3f )
+    {
+        if ( !isdefined( self.lc_records ) )
+        {
+            self.lc_records = [];
+        }
+        
+        self.lc_records = arraycombineunique( self.lc_records, [ params.lc_id ] );
+    }
+    else
+    {
+        thread utility::callsharedfunc( #"lightning_chain", #"lc_stun_and_damage", var_f191c2408c95ef7, params );
+    }
+    
+    if ( ai::function_9c67144145079cca() && !params.var_fff5dc5501f9e352 )
+    {
+        return;
+    }
+    
+    var_e1446099d4960a04 = level function_edaa39ee22ae128b( source_enemy );
+    level utility::callsharedfunc( #"lightning_chain", #"lc_expand", var_e1446099d4960a04, params.max_enemies_killed - 1, params );
 }
 
 // Namespace lightning_chain
 // Params 1
 // Checksum 0xb9a87424, Offset: 0x9ed
-// Size: 0x1
-function function_7060ea3387a52416()
+// Size: 0x82, Type: bool
+function function_7060ea3387a52416( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( self.lc_stunned || self.team == params.attacker.team || self.team == params.team || isdefined( self.lc_records ) && arraycontains( self.lc_records, params.lc_id ) )
+    {
+        return true;
+    }
+    
+    return false;
 }
 
 // Namespace lightning_chain
 // Params 3, eflags: 0x4
 // Checksum 0xae12f948, Offset: 0xa78
-// Size: 0x1
-function private lc_expand()
+// Size: 0x1ef
+function private lc_expand( start_point, count_left, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    var_d61135157d642a8f = int( min( params.var_dc97cf84d9220187, count_left ) );
+    filtered_targets = [];
+    targets = getplayersandaiarrayinradius( start_point, params.arc_radius );
+    
+    foreach ( target in targets )
+    {
+        if ( target function_7060ea3387a52416( params ) )
+        {
+            continue;
+        }
+        
+        if ( ( isplayer( target ) || params.var_9443c6eec8f8da85 ) && !trace::ray_trace_passed( start_point, target geteye(), targets ) )
+        {
+            continue;
+        }
+        
+        filtered_targets[ filtered_targets.size ] = target;
+    }
+    
+    var_d61135157d642a8f = int( min( filtered_targets.size, var_d61135157d642a8f ) );
+    
+    if ( var_d61135157d642a8f == 0 )
+    {
+        return 0;
+    }
+    
+    filtered_targets = sortbydistance( filtered_targets, start_point );
+    
+    for ( i = 0; i < var_d61135157d642a8f ; i++ )
+    {
+        level thread function_36f0e2930c537867( start_point, filtered_targets[ i ], params );
+    }
+    
+    if ( params.var_fff5dc5501f9e352 )
+    {
+        while ( i > 0 && filtered_targets[ i - 1 ] ai::is_boss() )
+        {
+            i--;
+        }
+    }
+    else
+    {
+        while ( i > 0 && filtered_targets[ i - 1 ] ai::function_9c67144145079cca() )
+        {
+            i--;
+        }
+    }
+    
+    if ( i == 0 )
+    {
+        return;
+    }
+    
+    var_4ed69111e0e3a6f5 = function_edaa39ee22ae128b( filtered_targets[ i - 1 ] );
+    count_left -= var_d61135157d642a8f;
+    
+    if ( count_left > 0 )
+    {
+        level thread function_dd36404d9835d6b2( params.arc_travel_time + 0.1, var_4ed69111e0e3a6f5, count_left, params );
+    }
 }
 
 // Namespace lightning_chain
 // Params 4
 // Checksum 0x42c8dd1c, Offset: 0xc6f
-// Size: 0x1
-function function_dd36404d9835d6b2()
+// Size: 0x48
+function function_dd36404d9835d6b2( waittime, start_point, count_left, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    wait waittime;
+    level utility::callsharedfunc( #"lightning_chain", #"lc_expand", start_point, count_left, params );
 }
 
 // Namespace lightning_chain
 // Params 1
 // Checksum 0x5427de4, Offset: 0xcbf
-// Size: 0x1
-function function_edaa39ee22ae128b()
+// Size: 0x3b
+function function_edaa39ee22ae128b( ai_target )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    end_point = ai_target gettagorigin( "J_SpineUpper", 1 );
+    
+    if ( !isdefined( end_point ) )
+    {
+        end_point = ai_target.origin;
+    }
+    
+    return end_point;
 }
 
 // Namespace lightning_chain
 // Params 3
 // Checksum 0x7f6dbf8b, Offset: 0xd03
-// Size: 0x1
-function function_36f0e2930c537867()
+// Size: 0x128
+function function_36f0e2930c537867( start_point, ai_target, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    end_point = function_edaa39ee22ae128b( ai_target );
+    
+    if ( !isdefined( end_point ) )
+    {
+        return;
+    }
+    
+    var_a542a8f69a73e0fa = utility::spawn_tag_origin( start_point );
+    var_a542a8f69a73e0fa show();
+    
+    if ( params.var_516d207140d59c2 > 0 )
+    {
+        bolt_fx = "tesla_bolt_pap";
+    }
+    else
+    {
+        bolt_fx = "tesla_bolt";
+    }
+    
+    fx_id = level._effect[ bolt_fx ];
+    
+    if ( isdefined( params.var_ff926fba88e29825 ) )
+    {
+        fx_id = params.var_ff926fba88e29825;
+    }
+    
+    fx = playfxontag( fx_id, var_a542a8f69a73e0fa, "tag_origin" );
+    
+    if ( params.play_sound )
+    {
+        playsoundatpos( start_point, "prj_dg2_bounce" );
+    }
+    
+    var_a542a8f69a73e0fa moveto( end_point, params.arc_travel_time );
+    var_a542a8f69a73e0fa waittill( "movedone" );
+    var_a542a8f69a73e0fa delete();
+    
+    if ( isalive( ai_target ) )
+    {
+        ai_target thread utility::callsharedfunc( #"lightning_chain", #"lc_stun_and_damage", 0, params );
+    }
 }
 
 // Namespace lightning_chain
 // Params 1
 // Checksum 0xf3e7fd34, Offset: 0xe33
-// Size: 0x1
-function function_3dcee24de3aa889a()
+// Size: 0xeb
+function function_3dcee24de3aa889a( duration )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    level endon( "game_ended" );
+    self endon( "death" );
+    
+    if ( self.health > 0 && !asm_bb::bb_isanimscripted() )
+    {
+        duration_ms = utility::function_4b74c15943231980( duration );
+        var_8dd8a39c00110f2b = gettime();
+        self._blackboard.var_ba9517cfc0287af8 = var_8dd8a39c00110f2b;
+        self._blackboard.shockedendtime = var_8dd8a39c00110f2b + int( duration_ms );
+        
+        if ( self asmhaspainstate( self.asmname ) )
+        {
+            self asmevalpaintransition( self.asmname );
+        }
+        
+        while ( true )
+        {
+            time_now = gettime();
+            
+            if ( time_now < var_8dd8a39c00110f2b + duration_ms )
+            {
+                self._blackboard.var_ba9517cfc0287af8 = time_now;
+            }
+            else
+            {
+                break;
+            }
+            
+            wait 0.1;
+        }
+    }
 }
 
 // Namespace lightning_chain
 // Params 1, eflags: 0x4
 // Checksum 0xd7ba1a7e, Offset: 0xf26
-// Size: 0x1
-function private function_f234d7ec3f10b141()
+// Size: 0x59, Type: bool
+function private function_f234d7ec3f10b141( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( params.var_d0449be91ab49769 ) )
+    {
+        if ( !self [[ params.var_d0449be91ab49769 ]]() )
+        {
+            return false;
+        }
+    }
+    
+    if ( ai::is_boss() )
+    {
+        return false;
+    }
+    
+    if ( isdefined( params.var_a4b06b7d5862ddea ) )
+    {
+        return true;
+    }
+    
+    if ( ai::function_9c67144145079cca() )
+    {
+        return false;
+    }
+    
+    return true;
 }
 
 // Namespace lightning_chain
 // Params 2, eflags: 0x4
 // Checksum 0x34ea863c, Offset: 0xf88
-// Size: 0x1
-function private function_769d253282332f9e()
+// Size: 0x11c
+function private function_769d253282332f9e( var_f191c2408c95ef7, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death_or_disconnect" );
+    self notify( "lc_stun_and_damage" );
+    self endon( "lc_stun_and_damage" );
+    
+    if ( !isalive( self ) )
+    {
+        lc_play_stun_fx( var_f191c2408c95ef7, params );
+        return;
+    }
+    
+    params.tdot = 0;
+    
+    if ( !self.lc_stunned )
+    {
+        lc_do_damage( params );
+    }
+    
+    self.lc_stunned = 1;
+    lc_play_stun_fx( var_f191c2408c95ef7, params );
+    shockdata = level function_1ec562064213fee9( params.attacker, params );
+    
+    if ( utility::callsharedfunc( #"shockstick", #"shockstick_canbehaywire", shockdata, 1 ) )
+    {
+        shockdata thread utility::callsharedfunc( #"shockstick", #"shockstick_applyhaywire", self, shockdata.weapon, 0 );
+    }
+    
+    if ( getdvarint( @"hash_68697a8f385d5617", 1 ) )
+    {
+        thread function_6fee1cc282e07e3b( params, params.duration );
+    }
+    
+    wait params.duration;
+    self.lc_stunned = undefined;
 }
 
 // Namespace lightning_chain
 // Params 2, eflags: 0x4
 // Checksum 0xaca4db7b, Offset: 0x10ac
-// Size: 0x1
-function private lc_stun_and_damage()
+// Size: 0x3c6
+function private lc_stun_and_damage( var_f191c2408c95ef7, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    
+    if ( self.lc_stunned && !isplayer( self ) )
+    {
+        return;
+    }
+    
+    if ( isdefined( params.var_53ad54fe8805dda3 ) )
+    {
+        if ( !self [[ params.var_53ad54fe8805dda3 ]]() )
+        {
+            return;
+        }
+    }
+    else if ( isagent( self ) && !function_f234d7ec3f10b141( params ) )
+    {
+        lc_do_damage( params );
+        
+        if ( !isdefined( self.lc_records ) )
+        {
+            self.lc_records = [];
+            return;
+        }
+        
+        self.lc_records = arraycombineunique( self.lc_records, [ params.lc_id ] );
+        return;
+    }
+    
+    base_duration = isplayer( self ) ? getdvarint( @"hash_76b59dd07a5d1f7c", 3 ) : params.stun_duration ?? 3;
+    variation = params.stun_variation ?? 0.5;
+    duration = base_duration + randomfloatrange( variation * -1, variation );
+    params.duration = duration;
+    
+    if ( isplayer( self ) )
+    {
+        function_769d253282332f9e( var_f191c2408c95ef7, params );
+        return;
+    }
+    
+    if ( self.type == "zombie" && isdefined( self.aicategory ) )
+    {
+        if ( self.aicategory == "normal" )
+        {
+            duration = params.var_a4b06b7d5862ddea ?? duration;
+        }
+        else if ( self.aicategory == "special" )
+        {
+            duration = params.var_ae23bfd4b4acd418 ?? duration;
+        }
+        else if ( self.aicategory == "elite" || self.aicategory == "hvt" )
+        {
+            duration = params.var_bf1f7231596f25bc ?? duration;
+        }
+    }
+    
+    if ( params.var_7a514800b212feb9 && self.aicategory == "normal" )
+    {
+        thread function_63083e0eb079e32d( params, duration );
+    }
+    
+    if ( self.type )
+    {
+        switch ( self.type )
+        {
+            case #"hash_f695947f7a9ce23f":
+                if ( utility::issharedfuncdefined( #"effect_stun", #"stun" ) )
+                {
+                    utility::callsharedfunc( #"effect_stun", #"stun", params.weapon.basename, duration, params.eattacker, undefined, undefined, "electrical" );
+                }
+                
+                break;
+            case #"hash_207629acc9a1e5a":
+                thread function_3dcee24de3aa889a( duration );
+                break;
+        }
+        
+        self.lc_stunned = 1;
+        self.var_230f79da4bf6cf4a = gettime() + utility::function_4b74c15943231980( duration );
+        self notify( "zombie_lc_stunned" );
+        utility::callsharedfunc( #"lightning_chain", #"lc_play_stun_fx", var_f191c2408c95ef7, params );
+    }
+    
+    if ( params.var_516d207140d59c2 > 0 )
+    {
+        self.var_4327ee31f4661835 = 1;
+        
+        if ( !utility::function_32b24db3127bff40( "shocked_lightning_chain", "shocked_on_paped" ) )
+        {
+            utility::function_32b24db3127bff40( "shocked_tesla_storm", "shocked_tesla_storm_on" );
+        }
+    }
+    else
+    {
+        self.var_4327ee31f4661835 = 0;
+        
+        if ( !utility::function_32b24db3127bff40( "shocked_lightning_chain", "shocked_on" ) )
+        {
+            utility::function_32b24db3127bff40( "shocked_tesla_storm", "shocked_tesla_storm_on" );
+        }
+    }
+    
+    self.lc_record = params.lc_id;
+    thread function_445c37fdb331e9f0( params, duration );
+    wait duration;
+    self.lc_stunned = 0;
+    self.var_4327ee31f4661835 = 0;
+    
+    if ( !utility::function_32b24db3127bff40( "shocked_lightning_chain", "shocked_off" ) )
+    {
+        utility::function_32b24db3127bff40( "shocked_tesla_storm", "shocked_tesla_storm_off" );
+    }
 }
 
 // Namespace lightning_chain
 // Params 2
 // Checksum 0xaae5962e, Offset: 0x147a
-// Size: 0x1
-function function_63083e0eb079e32d()
+// Size: 0xd0
+function function_63083e0eb079e32d( params, stun_duration )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    
+    while ( stun_duration > 0 )
+    {
+        wait 0.1;
+        closest_player = function_47c86977a18df38b( level.players, self.origin, 48 );
+        
+        if ( isdefined( closest_player ) )
+        {
+            break;
+        }
+        
+        stun_duration -= 0.1;
+    }
+    
+    inflictor = params.var_cf3d764fcbd3988 ? params.inflictor : params.attacker;
+    
+    if ( !val::get( "damageshield" ) )
+    {
+        self kill( self.origin, params.attacker, inflictor, "MOD_ELEMENTAL_ELEC", params.weapon );
+    }
 }
 
 // Namespace lightning_chain
 // Params 1
 // Checksum 0x922dccae, Offset: 0x1552
-// Size: 0x1
-function lc_do_damage()
+// Size: 0xbc
+function lc_do_damage( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    lc_damage = utility::callsharedfunc( #"lightning_chain", #"lc_damage_calculation", params );
+    self.var_6232d6ee94f13e0f = params.var_6232d6ee94f13e0f ?? 0;
+    inflictor = params.var_cf3d764fcbd3988 ? params.inflictor : params.attacker;
+    self dodamage( lc_damage, params.arc_origin ?? self.origin, params.attacker, inflictor, "MOD_ELEMENTAL_ELEC", params.weapon, "torso_upper" );
 }
 
 // Namespace lightning_chain
 // Params 1, eflags: 0x4
 // Checksum 0x8131b30, Offset: 0x1616
-// Size: 0x1
-function private lc_damage_calculation()
+// Size: 0x14b
+function private lc_damage_calculation( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isplayer( self ) )
+    {
+        if ( params.tdot )
+        {
+            return ( params.var_8953d5d1a11c5cfd ?? getdvarint( @"hash_e951b3efc51435d9", 25 ) );
+        }
+        
+        return ( params.player_damage ?? getdvarint( @"hash_49d1b75ff4c19854", 75 ) );
+    }
+    
+    if ( utility::issharedfuncdefined( #"lightning_chain", #"hash_d8c9695ff733902" ) )
+    {
+        n_damage = utility::callsharedfunc( #"lightning_chain", #"hash_d8c9695ff733902" );
+        
+        if ( isdefined( n_damage ) )
+        {
+            return n_damage;
+        }
+    }
+    
+    if ( isnumber( params.lc_damage ) )
+    {
+        return params.lc_damage;
+    }
+    
+    if ( ai::function_9c67144145079cca() && isdefined( params.var_7cae2e380e0347ab ) )
+    {
+        var_516d207140d59c2 = minint( params.var_516d207140d59c2 ?? 0, params.var_7cae2e380e0347ab.size - 1 );
+        return params.var_7cae2e380e0347ab[ var_516d207140d59c2 ];
+    }
+    
+    if ( ai::function_9c67144145079cca() )
+    {
+        return level.var_cf7706e013c62841[ params.var_516d207140d59c2 ?? 0 ];
+    }
+    
+    return self.health;
 }
 
 // Namespace lightning_chain
 // Params 2
 // Checksum 0xc8121d8a, Offset: 0x1769
-// Size: 0x1
-function function_6fee1cc282e07e3b()
+// Size: 0x14d
+function function_6fee1cc282e07e3b( params, duration )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death_or_disconnect" );
+    
+    if ( !getdvarint( @"hash_e0e2f2fc98337fb8", 1 ) )
+    {
+        self notify( "lc_do_tick_damage" );
+        self endon( "lc_do_tick_damage" );
+    }
+    
+    params.tdot = 1;
+    total_ticks = getdvarint( @"hash_1f72142683105b52", 5 );
+    tick_time = duration / total_ticks;
+    total_damage = 0;
+    lc_damage = lc_damage_calculation( params );
+    params.tdot = 0;
+    var_911ac5c9ec402167 = int( ceil( lc_damage / total_ticks ) );
+    
+    for ( tick = 0; tick < total_ticks ; tick++ )
+    {
+        if ( tick + 1 == total_ticks )
+        {
+            var_911ac5c9ec402167 = lc_damage - total_damage;
+        }
+        
+        total_damage += var_911ac5c9ec402167;
+        inflictor = params.var_cf3d764fcbd3988 ? params.inflictor : params.attacker;
+        self dodamage( var_911ac5c9ec402167, self.origin, params.attacker, inflictor, "MOD_ELEMENTAL_ELEC", params.weapon, "torso_upper" );
+        wait tick_time;
+    }
 }
 
 // Namespace lightning_chain
 // Params 2
 // Checksum 0xe7e5ace5, Offset: 0x18be
-// Size: 0x1
-function function_445c37fdb331e9f0()
+// Size: 0x198
+function function_445c37fdb331e9f0( params, duration )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    lc_damage = lc_damage_calculation( params );
+    
+    if ( !isdefined( var_911ac5c9ec402167 ) )
+    {
+        var_911ac5c9ec402167 = params.var_911ac5c9ec402167;
+    }
+    
+    if ( !isnumber( params.var_911ac5c9ec402167 ) )
+    {
+        var_911ac5c9ec402167 = int( ceil( lc_damage / duration * 2 ) );
+    }
+    
+    self.var_6232d6ee94f13e0f = params.var_6232d6ee94f13e0f ?? 0;
+    elementtype = "MOD_ELEMENTAL_ELEC";
+    
+    if ( isdefined( params.var_93c94c124f42e7c9 ) )
+    {
+        elementtype = params.var_93c94c124f42e7c9;
+    }
+    
+    inflictor = params.var_cf3d764fcbd3988 ? params.inflictor : params.attacker;
+    var_80eff23f65611a6a = 0;
+    var_fe088909b848f89b = 0;
+    var_bce806f4cd50d905 = params.num_ticks && var_fe088909b848f89b >= params.num_ticks;
+    
+    while ( var_80eff23f65611a6a < duration && !var_bce806f4cd50d905 )
+    {
+        self dodamage( var_911ac5c9ec402167, self.origin, params.attacker, inflictor, elementtype, params.weapon, "torso_upper", undefined, 268435456 );
+        var_fe088909b848f89b++;
+        var_bce806f4cd50d905 = params.num_ticks && var_fe088909b848f89b >= params.num_ticks;
+        wait 0.5;
+        var_80eff23f65611a6a += 0.5;
+    }
 }
 
 // Namespace lightning_chain
 // Params 2, eflags: 0x4
 // Checksum 0x77909e0e, Offset: 0x1a5e
-// Size: 0x1
-function private lc_play_stun_fx()
+// Size: 0x2b6
+function private lc_play_stun_fx( var_f191c2408c95ef7, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( params.var_516d207140d59c2 > 0 )
+    {
+        paped = 1;
+    }
+    else
+    {
+        paped = 0;
+    }
+    
+    tag = "J_SpineUpper";
+    
+    if ( paped )
+    {
+        shock_fx = "tesla_shock_pap";
+    }
+    else
+    {
+        shock_fx = "tesla_shock";
+    }
+    
+    if ( isplayer( self ) )
+    {
+        if ( paped )
+        {
+            ground_fx = "tesla_shock_ground_pap";
+        }
+        else
+        {
+            ground_fx = "tesla_shock_ground";
+        }
+        
+        playfxontag( level._effect[ ground_fx ], self, "tag_origin" );
+        
+        if ( isdefined( shock_fx ) && utility::hastag( self.model, tag ) )
+        {
+            playfxontag( level._effect[ shock_fx ], self, tag );
+        }
+        
+        return;
+    }
+    
+    if ( var_f191c2408c95ef7 )
+    {
+        if ( paped )
+        {
+            ground_fx = "tesla_shock_ground_pap";
+        }
+        else
+        {
+            ground_fx = "tesla_shock_ground";
+        }
+        
+        var_659e22eb1cfbe1a4 = level._effect[ ground_fx ];
+        
+        if ( isdefined( params.var_4ba65bb5d9255011 ) )
+        {
+            var_659e22eb1cfbe1a4 = params.var_4ba65bb5d9255011;
+        }
+        
+        playfxontag( var_659e22eb1cfbe1a4, self, "tag_origin" );
+    }
+    else
+    {
+        shock_fx = undefined;
+    }
+    
+    if ( isdefined( shock_fx ) && utility::hastag( self.model, tag ) )
+    {
+        var_ba4ef6ddfed92bdd = level._effect[ shock_fx ];
+        
+        if ( isdefined( params.var_9610c85754f48f86 ) )
+        {
+            var_ba4ef6ddfed92bdd = params.var_9610c85754f48f86;
+        }
+        
+        playfxontag( var_ba4ef6ddfed92bdd, self, tag );
+    }
+    
+    if ( params.should_gib_head && isdefined( self.aicategory ) && self.aicategory == "normal" && !self.head_gibbed )
+    {
+        if ( randomint( 100 ) < params.head_gib_chance )
+        {
+            self.var_6a6a43836cde0417 = 1;
+            return;
+        }
+        
+        if ( self tagexists( "J_EyeBall_LE" ) )
+        {
+            if ( paped )
+            {
+                eye_fx = "tesla_shock_eyes_pap";
+                mouth_fx = "tesla_shock_mouth_pap";
+            }
+            else
+            {
+                eye_fx = "tesla_shock_eyes";
+                mouth_fx = "tesla_shock_mouth";
+            }
+            
+            var_a707efc755e09db2 = level._effect[ eye_fx ];
+            
+            if ( isdefined( params.var_3ec5f4dcb4be2127 ) )
+            {
+                var_a707efc755e09db2 = params.var_3ec5f4dcb4be2127;
+            }
+            
+            var_ecc4a12e2a5cb710 = level._effect[ mouth_fx ];
+            
+            if ( isdefined( params.var_25163072dbc16af5 ) )
+            {
+                var_ecc4a12e2a5cb710 = params.var_25163072dbc16af5;
+            }
+            
+            playfxontag( var_a707efc755e09db2, self, "J_EyeBall_RI" );
+            playfxontag( var_a707efc755e09db2, self, "J_EyeBall_LE" );
+            playfxontag( var_ecc4a12e2a5cb710, self, "J_Head" );
+        }
+    }
 }
 
 // Namespace lightning_chain
 // Params 1, eflags: 0x4
 // Checksum 0xd06213fc, Offset: 0x1d1c
-// Size: 0x1
-function private function_a68037a538d49c18()
+// Size: 0x60
+function private function_a68037a538d49c18( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( params.idamage >= self.health && self.lc_stunned )
+    {
+        self.health = int( params.idamage ) + 2;
+        
+        if ( !self.var_a9c101367b31e643 )
+        {
+            thread lc_wait_till_stun_end();
+        }
+    }
 }
 
 // Namespace lightning_chain
 // Params 1, eflags: 0x4
 // Checksum 0xb91f8a4a, Offset: 0x1d84
-// Size: 0x1
-function private on_player_laststand()
+// Size: 0x22
+function private on_player_laststand( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( self.lc_stunned )
+    {
+        self.lc_stunned = undefined;
+    }
 }
 
 // Namespace lightning_chain
 // Params 1, eflags: 0x4
 // Checksum 0x514e5dbc, Offset: 0x1dae
-// Size: 0x1
-function private on_player_death()
+// Size: 0x22
+function private on_player_death( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( self.lc_stunned )
+    {
+        self.lc_stunned = undefined;
+    }
 }
 
 // Namespace lightning_chain
 // Params 0, eflags: 0x4
 // Checksum 0x9fe895e3, Offset: 0x1dd8
-// Size: 0x1
+// Size: 0x18e
 function private lc_wait_till_stun_end()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self notify( "lc_wait_till_stun_end" );
+    self endon( "lc_wait_till_stun_end" );
+    self endon( "death" );
+    self.var_a9c101367b31e643 = 1;
+    
+    while ( self.lc_stunned )
+    {
+        current_time = gettime();
+        
+        if ( self.var_6a6a43836cde0417 && !self.head_gibbed && isdefined( self.var_230f79da4bf6cf4a ) && self.var_230f79da4bf6cf4a - current_time <= 500 )
+        {
+            self.var_6a6a43836cde0417 = 0;
+            
+            if ( utility::issharedfuncdefined( #"zombie_dismemberment", #"dismemberhead" ) )
+            {
+                utility::callsharedfunc( #"zombie_dismemberment", #"dismemberhead", 1 );
+            }
+        }
+        
+        waitframe();
+    }
+    
+    if ( !isalive( self ) )
+    {
+        return;
+    }
+    
+    var_d85c6b92e2f088f0 = isdefined( self.var_e9337184e37620f ) ? self.var_e9337184e37620f.eattacker : undefined;
+    var_284de4bde8a5141b = isdefined( self.var_e9337184e37620f ) ? self.var_e9337184e37620f.objweapon : undefined;
+    var_f79b0bf2f35d23cc = !self.magic_bullet_shield && !self.damageshield;
+    
+    if ( var_f79b0bf2f35d23cc )
+    {
+        self kill( self.origin, var_d85c6b92e2f088f0, undefined, undefined, var_284de4bde8a5141b );
+    }
+    else
+    {
+        self dodamage( self.maxhealth, self.origin, var_d85c6b92e2f088f0, undefined, undefined, var_284de4bde8a5141b );
+    }
+    
+    self.var_a9c101367b31e643 = 0;
 }
 
 // Namespace lightning_chain
 // Params 2, eflags: 0x4
 // Checksum 0x47a1a907, Offset: 0x1f6e
-// Size: 0x1
-function private function_1ec562064213fee9()
+// Size: 0x21e
+function private function_1ec562064213fee9( attacker, params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    shockdata = spawnstruct();
+    shockdata.tableinfo = equipment::getequipmenttableinfo( "equip_shockstick" );
+    shockdata.owner = attacker;
+    shockdata.team = attacker.team ?? params.team;
+    shockdata.origin = attacker.origin ?? params.attacker_origin;
+    shockdata.weapon = params.weapon ?? shockdata.tableinfo.objweapon;
+    shockdata.tableinfo.var_f3447a3874df563f = 0;
+    shockdata.tableinfo.var_9891ed88bcd38fd2 = 1;
+    shockdata.tableinfo.var_c6920ebeb7833310 = 1;
+    shockdata.tableinfo.var_cd1e9f6afbf90d3a = 1;
+    shockdata.tableinfo.bundle.var_f232776b54e76cfa = 0.3;
+    shockdata.tableinfo.bundle.var_860545b754d7ecc0 = params.duration ?? 5;
+    shockdata.tableinfo.bundle.var_c8bb02c8c8cd0442 = params.duration ?? 5;
+    shockdata.tableinfo.bundle.var_2b2a3fde48397a39 = 0.2;
+    shockdata.tableinfo.bundle.var_bd94b71ffdfd39c = getdvarint( @"hash_63e354fa4bd6021c", 0 );
+    shockdata.tableinfo.bundle.var_4c6cc0f99efbb64f = 1;
+    return shockdata;
 }
 

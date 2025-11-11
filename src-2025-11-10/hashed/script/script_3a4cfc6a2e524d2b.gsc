@@ -4,62 +4,97 @@
 #namespace namespace_1817f023bb625c2d;
 
 // Namespace namespace_1817f023bb625c2d
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0xf9ee2bd, Offset: 0xf2
-// Size: 0x1
-function private autoexec function_e7d1f3464a47c099()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace namespace_1817f023bb625c2d
 // Params 0, eflags: 0x5
 // Checksum 0x67645430, Offset: 0x104
-// Size: 0x1
+// Size: 0x2e
 function private autoexec main()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level callback::add( #"register_perk", &function_7cce4f5207876740 );
+    level callback::add( #"register_perk", &function_794513c08263d74f );
 }
 
 // Namespace namespace_1817f023bb625c2d
 // Params 1
 // Checksum 0xaf7d461, Offset: 0x13a
-// Size: 0x1
-function function_7cce4f5207876740()
+// Size: 0xf5
+function function_7cce4f5207876740( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    perkbundle = level.perkbundles[ "specialty_tps_high_gain_antenna" ];
+    var_c08e832913e1c60f = level.perkbundles[ "specialty_tps_buff_high_gain_antenna" ];
+    
+    if ( !( isdefined( perkbundle ) && isdefined( var_c08e832913e1c60f ) ) )
+    {
+        return;
+    }
+    
+    if ( function_64872fcef35cb56c( #"hash_8babf7acabf26adb" ) )
+    {
+        return;
+    }
+    
+    if ( isdefined( params.var_bf34439fc0ca3cec ) )
+    {
+        level [[ params.var_bf34439fc0ca3cec ]]( "specialty_tps_high_gain_antenna", &function_58993cfa9d59afaf, &function_5ae63dffa4806f84, [ "specialty_tps_buff_high_gain_antenna" ] );
+        
+        if ( !isdefined( level.var_e8baaf9a6a5a10e0[ "specialty_tps_high_gain_antenna" ] ) )
+        {
+            level.var_e8baaf9a6a5a10e0[ "specialty_tps_high_gain_antenna" ] = "specialty_tps_buff_high_gain_antenna";
+        }
+    }
+    
+    if ( !isdefined( var_c08e832913e1c60f.var_fd9b39439920c808 ) )
+    {
+        var_c08e832913e1c60f.var_fd9b39439920c808 = "uin_cer_dlgl_greenlight";
+    }
+    
+    level.var_c267f3cfc720a3be[ "specialty_tps_high_gain_antenna" ] = &"sat_perks/tps_high_gain_antenna";
 }
 
 // Namespace namespace_1817f023bb625c2d
 // Params 0
 // Checksum 0x197e44e4, Offset: 0x237
-// Size: 0x1
+// Size: 0xe
 function function_58993cfa9d59afaf()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    namespace_6db61cded148a258::function_e01aea80d74c2f37( "specialty_tps_high_gain_antenna" );
 }
 
 // Namespace namespace_1817f023bb625c2d
 // Params 0
 // Checksum 0x1db260b1, Offset: 0x24d
-// Size: 0x1
+// Size: 0xe
 function function_5ae63dffa4806f84()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    namespace_6db61cded148a258::function_13d095e25c63ffc6( "specialty_tps_high_gain_antenna" );
 }
 
 // Namespace namespace_1817f023bb625c2d
 // Params 1
 // Checksum 0x3db68ea6, Offset: 0x263
-// Size: 0x1
-function function_794513c08263d74f()
+// Size: 0xb5
+function function_794513c08263d74f( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    perkbundle = level.perkbundles[ "specialty_tps_high_gain_antenna" ];
+    var_c08e832913e1c60f = level.perkbundles[ "specialty_tps_buff_high_gain_antenna" ];
+    
+    if ( !( isdefined( perkbundle ) && isdefined( var_c08e832913e1c60f ) ) )
+    {
+        return;
+    }
+    
+    if ( function_64872fcef35cb56c( #"hash_8babf7acabf26adb" ) )
+    {
+        return;
+    }
+    
+    if ( isdefined( params.var_bf34439fc0ca3cec ) )
+    {
+        level [[ params.var_bf34439fc0ca3cec ]]( "specialty_tps_buff_high_gain_antenna", undefined, undefined, [ "specialty_expanded_minimap" ] );
+        
+        if ( !isdefined( level.var_e8baaf9a6a5a10e0[ "specialty_tps_high_gain_antenna" ] ) )
+        {
+            level.var_e8baaf9a6a5a10e0[ "specialty_tps_high_gain_antenna" ] = "specialty_tps_buff_high_gain_antenna";
+        }
+    }
 }
 

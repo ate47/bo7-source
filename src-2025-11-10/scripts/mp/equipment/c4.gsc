@@ -35,432 +35,1175 @@
 #namespace c4;
 
 // Namespace c4
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0xb9be53c2, Offset: 0x409
-// Size: 0x1
-function private autoexec function_35aae5b39480a4a8()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace c4
 // Params 0, eflags: 0x1
 // Checksum 0xd851620, Offset: 0x41b
-// Size: 0x1
+// Size: 0xab
 function autoexec function_eba0b0486f25058()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    utility::flag_wait( "equipment_initialized" );
+    weapons::registerusedcallback( "c4", &c4_used );
+    equipment::registercallback( "equip_c4", "onGive", &c4_set );
+    equipment::registercallback( "equip_c4", "onOwnerChanged", &c4_onownerchanged );
+    equipment::registercallback( "equip_c4", "onDestroyedByTrophy", &c4_delete );
+    utility::registersharedfunc( #"c4", #"hack", &function_6fcefc080f7c7d28 );
+    level callback::add( #"player_damaged", &function_cf100b1a81ed8779 );
+    level callback::add( #"player_spawned", &function_675da12724587fe8 );
 }
 
 // Namespace c4
 // Params 4
 // Checksum 0xc105649c, Offset: 0x4ce
-// Size: 0x1
-function c4_set()
+// Size: 0x82
+function c4_set( equipmentref, slot, variantid, attachments )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    bundle = level.equipment.table[ equipmentref ].bundle;
+    
+    if ( isdefined( self.c4s ) && self.c4s.size > 0 )
+    {
+        thread c4_watchfordetonation( bundle );
+    }
+    
+    thread c4_watchforaltdetonation( bundle );
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xb2344e7d, Offset: 0x558
-// Size: 0x1
-function function_675da12724587fe8()
+// Size: 0x1c
+function function_675da12724587fe8( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    playerhealth::function_c690215778ca5c25( #"hash_f3c5c98cee87e45e" );
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xa98ea0da, Offset: 0x57c
-// Size: 0x1
-function function_cf100b1a81ed8779()
+// Size: 0x105
+function function_cf100b1a81ed8779( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    bundle = params.einflictor.bundle;
+    
+    if ( bundle.var_c7709714d768097c && bundle.var_669131f61dedb803 == #"hash_f3c5c98cee87e45e" )
+    {
+        if ( player_utility::playersareenemies( params.einflictor.owner, params.victim ) && params.einflictor.weapon_object && params.einflictor.weapon_object hasattachmenthash( bundle.var_c7709714d768097c ) )
+        {
+            delayms = playerhealth::function_77704251ecdece64();
+            var_e753e5c27413b83f = ( bundle.var_baa7dbbdae480da ?? 0.5 ) * 1000;
+            playerhealth::function_2e811cdf4da0ed04( #"hash_f3c5c98cee87e45e", var_e753e5c27413b83f, delayms + var_e753e5c27413b83f );
+        }
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xed568601, Offset: 0x689
-// Size: 0x1
-function c4_used()
+// Size: 0x59c
+function c4_used( grenade )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "disconnect" );
+    grenade endon( "death" );
+    grenade endon( "pre_detonate" );
+    
+    /#
+        print::printgameaction( "<dev string:x24>", grenade.owner );
+    #/
+    
+    if ( utility::issharedfuncdefined( #"hash_d8976e21a6adafba", #"hash_ca0042e3cac99672" ) )
+    {
+        grenade [[ utility::getsharedfunc( #"hash_d8976e21a6adafba", #"hash_ca0042e3cac99672" ) ]]( grenade );
+    }
+    
+    grenade.bundle = equipment_mp::getEquipmentBundleFromWeaponName( grenade.weapon_name );
+    grenade.var_4a4b0a500f4daecd = istrue( grenade.bundle.var_e2346de117149d8d );
+    grenade.throwtime = gettime();
+    grenade.var_30656af96b2ac2a4 = [];
+    grenade.var_6296632a2be939ef = &function_6296632a2be939ef;
+    grenade.var_836769537343f47e = &function_836769537343f47e;
+    grenade ent_manager::registerspawn( 1, &sweepc4 );
+    c4_addtoarray( grenade.owner, grenade );
+    thread c4_watchfordetonation( grenade.bundle );
+    thread c4_watchforaltdetonation( grenade.bundle );
+    thread function_6b7de875a3a6378f( grenade.bundle );
+    
+    if ( isdefined( self.perks[ "specialty_rugged_eqp" ] ) )
+    {
+        grenade.hasruggedeqp = 1;
+    }
+    
+    grenade thread weapons::minedamagemonitor();
+    grenade thread c4_explodeonnotify();
+    grenade thread c4_destroyongameend();
+    grenade thread equipment_interact::remoteinteractsetup( &c4_detonate, 1, 0 );
+    thread weapons::monitordisownedgrenade( self, grenade );
+    grenade thread delayshow( 0.05 );
+    grenade waittill( "missile_stuck", stuckto );
+    
+    if ( isdefined( grenade.bundle.var_71984c8fd9bc7bd0 ) )
+    {
+        grenade thread function_9e836670d3765c7d( grenade.bundle.var_71984c8fd9bc7bd0 );
+    }
+    
+    if ( isdefined( stuckto ) )
+    {
+        if ( isent( stuckto ) && utility::function_c88d082fda96f51b( stuckto ) )
+        {
+            grenade setmissileantilagged( 1 );
+        }
+    }
+    
+    if ( isdefined( level.var_59abd25eeb5b2fed ) )
+    {
+        canplant = grenade [[ level.var_59abd25eeb5b2fed ]]();
+        
+        if ( !canplant )
+        {
+            hud_message::showerrormessage( %"equipment/plant_failed" );
+            equipment_mp::incrementequipmentslotammo( "primary" );
+            grenade delete();
+            return;
+        }
+    }
+    
+    var_32dbca3143d9c4a5 = level.sharedfuncs[ #"hash_d8976e21a6adafba" ][ #"hash_ca0042e3cac99672" ];
+    
+    if ( isdefined( var_32dbca3143d9c4a5 ) )
+    {
+        grenade [[ var_32dbca3143d9c4a5 ]]( grenade );
+    }
+    
+    grenade setotherent( self );
+    grenade setnodeploy( 1 );
+    weapons::onequipmentplanted( grenade, "equip_c4", &c4_delete );
+    thread weapons::monitordisownedequipment( self, grenade );
+    grenade thread weapons::makeexplosiveusabletag( "tag_use", 1 );
+    grenade sentientpoolmanager::registersentient( "Lethal_Static", grenade.owner, 1 );
+    grenade.stucktime = gettime();
+    grenade.owner setclientomnvar( "ui_mgl_c4_state", 1 );
+    grenade namespace_9d8e359c3b1041e5::function_9b4fb0a03905926d( grenade, &c4_empapplied );
+    
+    if ( level.var_3bdd479f506243d0 )
+    {
+        grenade.ksempapplycallback = &c4_empapplied;
+    }
+    
+    if ( level.var_3bdd479f506243d0 )
+    {
+        grenade.ksempclearcallback = &function_bcbe6775f9073c1c;
+    }
+    
+    grenade haywire::function_7f69a1eb3d590f76( &function_e558c535904e4a56 );
+    
+    if ( level.var_36218e71baa7e689 )
+    {
+        grenade.var_c5ccf9dff3b5e393 = &c4_empapplied;
+    }
+    
+    grenade namespace_c82420bb4387ef3f::function_3860212a5ec36b56( &function_17c6bec0f2a8051 );
+    grenade namespace_c82420bb4387ef3f::function_324dd42a2703bc25( &function_d3ac1be6e41c2ab8 );
+    
+    if ( utility::issharedfuncdefined( #"chaff", #"add_ent_to_overlapping_chaff_triggers" ) )
+    {
+        grenade [[ utility::getsharedfunc( #"chaff", #"add_ent_to_overlapping_chaff_triggers" ) ]]( grenade );
+    }
+    
+    grenade function_a4ebfb83ec0621b9( &c4_destroy );
+    
+    if ( isdefined( level.elevators ) )
+    {
+        foreach ( elevators in level.elevators )
+        {
+            elevators thread elevators::isentitytouchingdoortrigger( grenade );
+        }
+    }
+    
+    utility::function_969f9f5596dba07a( grenade, &c4_destroy );
+    grenade thread perk_equipmentping::runequipmentping( undefined, undefined, 1 );
+    grenade setscriptablepartstate( "effects", "plant", 0 );
+    thread weapons::outlineequipmentforowner( grenade );
+    grenade missilethermal();
+    grenade missileoutline();
+    
+    if ( getdvarint( @"hash_3dab3c02bd05b6f1", 0 ) )
+    {
+        grenade.anchoredhint = anchoredhint::register();
+        grenade.anchoredhint anchoredhint::open( self );
+        grenade.anchoredhint anchoredhint::function_11e65c4d961cd3a5( self, grenade getentitynumber() );
+        grenade.anchoredhint anchoredhint::set_hintstring( self, &"equipment_hints/detonate" );
+        outlineid = outline::outlineenableforplayer( grenade, self, "outline_nodepth_cyan", "lowest" );
+        return;
+    }
+    
+    imageoverride = grenade.var_30656af96b2ac2a4.size > 0 ? grenade.bundle.var_171b9865909c4339 : undefined;
+    grenade.headiconid = entityheadicons::function_e2775272ceb208ca( grenade, imageoverride );
 }
 
 // Namespace c4
 // Params 1, eflags: 0x4
 // Checksum 0xfcb61a6c, Offset: 0xc2d
-// Size: 0x1
-function private delayshow()
+// Size: 0x25
+function private delayshow( delaytime )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    wait delaytime;
+    
+    if ( isdefined( self ) )
+    {
+        self setscriptablepartstate( "visibility", "show", 0 );
+    }
 }
 
 // Namespace c4
 // Params 1, eflags: 0x4
 // Checksum 0x915c3fa2, Offset: 0xc5a
-// Size: 0x1
-function private function_9e836670d3765c7d()
+// Size: 0x3d
+function private function_9e836670d3765c7d( model )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    delaytime = getdvarfloat( @"hash_3aec0b30a7367a98", 0 );
+    
+    if ( delaytime > 0 )
+    {
+        wait delaytime;
+    }
+    
+    if ( isdefined( self ) )
+    {
+        self setmodel( model );
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x29e1c885, Offset: 0xc9f
-// Size: 0x1
-function function_6b7de875a3a6378f()
+// Size: 0x1b
+function function_6b7de875a3a6378f( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self waittill( "equipment_pickup" );
+    thread c4_resetaltdetonpickup();
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x3c9adae2, Offset: 0xcc2
-// Size: 0x1
-function c4_detonate()
+// Size: 0xa3
+function c4_detonate( attacker )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    self.owner endon( "disconnect" );
+    self notify( "pre_detonate" );
+    
+    if ( isdefined( attacker ) )
+    {
+        attacker endon( "disconnect" );
+    }
+    else
+    {
+        attacker = self.owner;
+    }
+    
+    if ( self.bundle.var_7dc67182c78e532b )
+    {
+        self setscriptablepartstate( "effects", "warningTrigger", 0 );
+    }
+    
+    detonation_delay = self.bundle.c4_detonationdelay ?? 0.1;
+    wait detonation_delay;
+    thread c4_explode( attacker );
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xd98d3aa8, Offset: 0xd6d
-// Size: 0x1
-function c4_explode()
+// Size: 0x26a
+function c4_explode( attacker )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    /#
+        print::printgameaction( "<dev string:x30>", self.owner );
+    #/
+    
+    if ( self.owner != attacker )
+    {
+        self.var_4cd4660fa57c1be4 = { #var_627c342356748a3:attacker };
+        namespace_23c79201421792eb::function_80a95f340a7c8f67( attacker, attacker, self.weapon_object, self getentitynumber() );
+    }
+    
+    level notify( "explosion_extinguish", self.origin, 256, self.owner, self );
+    shoulddetonate = undefined;
+    deletiondelay = undefined;
+    statename = undefined;
+    caststart = self.origin;
+    contents = trace::create_contents( 0, 1, 1, 0, 1, 1, 0, 0, 0 );
+    updot = vectordot( ( 0, 0, 1 ), anglestoup( self.angles ) );
+    
+    if ( abs( updot ) <= 0.81915 )
+    {
+        castend = caststart - anglestoup( self.angles ) * 5;
+        castresults = physics_raycast( caststart, castend, contents, self, 0, "physicsquery_closest", 1 );
+        
+        if ( isdefined( castresults ) && castresults.size > 0 )
+        {
+            deletiondelay = 5;
+            statename = "explode";
+        }
+    }
+    else if ( updot <= -0.96592 )
+    {
+        castend = caststart - anglestoup( self.angles ) * 5;
+        castresults = physics_raycast( caststart, castend, contents, self, 0, "physicsquery_closest", 1 );
+        
+        if ( isdefined( castresults ) && castresults.size > 0 )
+        {
+            deletiondelay = 5;
+            statename = "explode";
+        }
+    }
+    
+    if ( !isdefined( deletiondelay ) )
+    {
+        castend = caststart - ( 0, 0, 1 ) * 20;
+        castresults = physics_raycast( caststart, castend, contents, self, 0, "physicsquery_closest", 1 );
+        
+        if ( !isdefined( castresults ) || castresults.size <= 0 )
+        {
+            deletiondelay = 5;
+            statename = "explodeAir";
+        }
+    }
+    
+    if ( !isdefined( deletiondelay ) )
+    {
+        deletiondelay = 5;
+        statename = "explode";
+    }
+    
+    if ( getdvarint( @"mgl", 0 ) )
+    {
+        thread ai::mgladdactivesmoke( self.origin, 2 );
+    }
+    
+    self setentityowner( attacker );
+    self clearscriptabledamageowner();
+    
+    if ( self.bundle.var_2e8dad4b95419b14 )
+    {
+        shoulddetonate = 1;
+    }
+    
+    self setscriptablepartstate( "effects", statename, 0 );
+    waitframe();
+    thread c4_delete( deletiondelay, shoulddetonate );
 }
 
 // Namespace c4
 // Params 0
 // Checksum 0x2bd39fe9, Offset: 0xfdf
-// Size: 0x1
+// Size: 0x9
 function sweepc4()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    thread c4_delete();
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x89a734d7, Offset: 0xff0
-// Size: 0x1
-function c4_destroy()
+// Size: 0x37
+function c4_destroy( attacker )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    thread c4_delete( 5 );
+    self setscriptablepartstate( "effects", "destroy", 0 );
+    self setscriptablepartstate( "hacked", "neutral", 0 );
 }
 
 // Namespace c4
 // Params 2
 // Checksum 0x4f7337d4, Offset: 0x102f
-// Size: 0x1
-function c4_delete()
+// Size: 0x1c7
+function c4_delete( deletiondelay, shoulddetonate )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( self ) || isdefined( self ) && self.isdestroyed )
+    {
+        return;
+    }
+    
+    if ( isdefined( self.var_4cd4660fa57c1be4 ) )
+    {
+        namespace_23c79201421792eb::function_c4080f7bf60d4131( self.var_4cd4660fa57c1be4.var_627c342356748a3, self.weapon_object, self getentitynumber() );
+        self.var_4cd4660fa57c1be4 = undefined;
+    }
+    
+    self.isdestroyed = 1;
+    self.exploding = 1;
+    self notify( "death" );
+    
+    if ( weapon::function_89d2d0588f2def25() )
+    {
+        weapon::function_4b531bff921831ff();
+    }
+    
+    self setscriptablepartstate( #"hack_usable", #"off", 0 );
+    self setcandamage( 0 );
+    weapons::makeexplosiveunusuabletag();
+    ent_manager::deregisterspawn();
+    entityheadicons::setheadicon_deleteicon( self.headiconid );
+    
+    if ( getdvarint( @"hash_3dab3c02bd05b6f1", 0 ) )
+    {
+        self.anchoredhint anchoredhint::close( self.owner );
+    }
+    
+    self.headiconid = undefined;
+    owner = self.owner;
+    
+    if ( isdefined( owner ) )
+    {
+        c4_removefromarray( owner, self, self getentitynumber() );
+        owner setclientomnvar( "ui_mgl_c4_state", 0 );
+        owner weapons::removeequip( self );
+        owner notify( "c4_update", 0 );
+    }
+    
+    thread c4_resetscriptableonunlink();
+    
+    if ( utility::issharedfuncdefined( #"hash_d8976e21a6adafba", #"hash_c33ceb91d0ca7a9d" ) )
+    {
+        self [[ utility::getsharedfunc( #"hash_d8976e21a6adafba", #"hash_c33ceb91d0ca7a9d" ) ]]( self );
+    }
+    
+    namespace_9d8e359c3b1041e5::function_7c5eb0e985e1d8c4( self );
+    
+    if ( shoulddetonate )
+    {
+        if ( isdefined( self ) )
+        {
+            self detonate();
+        }
+        
+        return;
+    }
+    
+    if ( isdefined( deletiondelay ) )
+    {
+        wait deletiondelay;
+    }
+    
+    if ( isdefined( self ) )
+    {
+        self delete();
+    }
 }
 
 // Namespace c4
 // Params 0
 // Checksum 0xf1635e93, Offset: 0x11fe
-// Size: 0x1
+// Size: 0x4d
 function c4_resetscriptableonunlink()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "death" );
+    wait 0.5;
+    
+    if ( !isdefined( self ) )
+    {
+        return;
+    }
+    
+    parent = self getlinkedparent();
+    
+    if ( isdefined( parent ) )
+    {
+        parent waittill( "death" );
+        
+        if ( isdefined( self ) )
+        {
+            self setscriptablepartstate( "effects", "neutral", 0 );
+        }
+    }
 }
 
 // Namespace c4
 // Params 0
 // Checksum 0xbac0c75d, Offset: 0x1253
-// Size: 0x1
+// Size: 0x54
 function c4_explodeonnotify()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "death" );
+    level endon( "game_ended" );
+    owner = self.owner;
+    self waittill( "detonateExplosive", attacker );
+    
+    if ( isdefined( attacker ) )
+    {
+        thread c4_explode( attacker );
+        return;
+    }
+    
+    thread c4_explode( owner );
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xba40432, Offset: 0x12af
-// Size: 0x1
-function c4_empapplied()
+// Size: 0xbf
+function c4_empapplied( data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    attacker = data.attacker;
+    self notify( "enemy_destroyed_equipment", attacker );
+    
+    if ( isdefined( attacker ) && player_utility::playersareenemies( self.owner, attacker ) )
+    {
+        attacker notify( "destroyed_equipment" );
+        attacker equipment::function_ada7da3083a6c593( self, data.objweapon );
+    }
+    
+    damagefeedback = "";
+    
+    if ( self.hasruggedeqp )
+    {
+        damagefeedback = "hitequip";
+    }
+    
+    if ( isplayer( attacker ) )
+    {
+        attacker damagefeedback::updatedamagefeedback( damagefeedback );
+    }
+    
+    if ( isdefined( data.ksemp ) )
+    {
+        thread c4_disable( attacker );
+        return;
+    }
+    
+    thread c4_destroy( attacker );
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x92117645, Offset: 0x1376
-// Size: 0x1
-function function_17c6bec0f2a8051()
+// Size: 0x74
+function function_17c6bec0f2a8051( data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    attacker = data.attacker;
+    damagefeedback = "";
+    
+    if ( self.hasruggedeqp )
+    {
+        damagefeedback = "hitequip";
+    }
+    
+    if ( isplayer( attacker ) )
+    {
+        attacker damagefeedback::updatedamagefeedback( damagefeedback );
+    }
+    
+    self.chaffstunned = 1;
+    self setscriptablepartstate( "emp", "on", 0 );
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x70ed13cd, Offset: 0x13f2
-// Size: 0x1
-function function_d3ac1be6e41c2ab8()
+// Size: 0x34
+function function_d3ac1be6e41c2ab8( data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.chaffstunned = 0;
+    
+    if ( !self.isdisabled )
+    {
+        self setscriptablepartstate( "emp", "off", 0 );
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x390d6277, Offset: 0x142e
-// Size: 0x1
-function function_e558c535904e4a56()
+// Size: 0x88
+function function_e558c535904e4a56( data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    attacker = data.attacker;
+    
+    if ( player_utility::playersareenemies( self.owner, attacker ) )
+    {
+        attacker notify( "destroyed_equipment" );
+        attacker equipment::function_ada7da3083a6c593( self );
+    }
+    
+    damagefeedback = "";
+    
+    if ( self.hasruggedeqp )
+    {
+        damagefeedback = "hitequip";
+    }
+    
+    if ( isplayer( attacker ) )
+    {
+        attacker damagefeedback::updatedamagefeedback( damagefeedback );
+    }
+    
+    c4_explode( attacker );
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x57c355a8, Offset: 0x14be
-// Size: 0x1
-function c4_disable()
+// Size: 0x7a
+function c4_disable( attacker )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    attacker thread points::doscoreevent( #"disabled_c4" );
+    self.isdisabled = 1;
+    self setscriptablepartstate( "emp", "on", 0 );
+    
+    if ( !self.owner.ksempd )
+    {
+        wait 6;
+        self setscriptablepartstate( "emp", "off", 0 );
+        self.isdisabled = 0;
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xd25a8aed, Offset: 0x1540
-// Size: 0x1
-function function_bcbe6775f9073c1c()
+// Size: 0x27
+function function_bcbe6775f9073c1c( data )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self setscriptablepartstate( "emp", "off", 0 );
+    self.isdisabled = 0;
 }
 
 // Namespace c4
 // Params 0
 // Checksum 0x669d307e, Offset: 0x156f
-// Size: 0x1
+// Size: 0x23
 function c4_destroyongameend()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "death" );
+    level utility::waittill_any( "game_ended", "bro_shot_start" );
+    thread c4_destroy();
 }
 
 // Namespace c4
 // Params 0
 // Checksum 0xdd090478, Offset: 0x159a
-// Size: 0x1
+// Size: 0x3c, Type: bool
 function c4_validdetonationstate()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !player::isreallyalive( self ) )
+    {
+        return false;
+    }
+    
+    if ( utility::isusingremote() )
+    {
+        return false;
+    }
+    
+    if ( !isdefined( self.c4s ) || self.c4s.size <= 0 )
+    {
+        return false;
+    }
+    
+    return true;
 }
 
 // Namespace c4
 // Params 0
 // Checksum 0xbe7b5e9d, Offset: 0x15df
-// Size: 0x1
+// Size: 0x9e, Type: bool
 function c4_candetonate()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( self.isdisabled || self.isjammed || self.chaffstunned )
+    {
+        return false;
+    }
+    
+    armtime = self.bundle.var_906b98dab240d0c5 ?? 0;
+    
+    if ( isdefined( self.stucktime ) && self.stucktime + armtime > gettime() )
+    {
+        self.owner hud_message::showerrormessage( "EQUIPMENT/C4_ARMING" );
+        return false;
+    }
+    
+    return ( gettime() - self.throwtime ) / 1000 > 0.3;
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x8a4b12ec, Offset: 0x1686
-// Size: 0x1
-function c4_watchfordetonation()
+// Size: 0x1eb
+function c4_watchfordetonation( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death_or_disconnect" );
+    var_ce86bbddf98563d2 = 0;
+    
+    if ( utility::issharedfuncdefined( #"game", #"isCommonItemEnabled" ) )
+    {
+        var_ce86bbddf98563d2 = [[ utility::getsharedfunc( #"game", #"isCommonItemEnabled" ) ]]();
+    }
+    
+    if ( !var_ce86bbddf98563d2 )
+    {
+        self endon( "equipment_taken_" + "equip_c4" );
+    }
+    
+    level endon( "game_ended" );
+    self notify( "watchForDetonation" );
+    self endon( "watchForDetonation" );
+    
+    if ( function_c78dec2190b10b97( bundle ) )
+    {
+        self notifyonplayercommand( "give_c4_clacker", "+frag" );
+        
+        while ( true )
+        {
+            self waittill( "give_c4_clacker" );
+            
+            if ( c4_validdetonationstate() )
+            {
+                var_7fbffea07efa864 = weapon_utility::giveandfireoffhandreliable( "iw9_detonator_mp" );
+                
+                if ( var_7fbffea07efa864 )
+                {
+                    self notifyonplayercommandremove( "give_c4_clacker", "+frag" );
+                    thread c4_detonateall();
+                }
+            }
+        }
+        
+        return;
+    }
+    
+    weaponname = bundle.c4_weapon ?? "c4_mp";
+    var_7daaa868d5ef8034 = bundle.var_4dcbc982a0d70f5f ?? "c4_empty_mp";
+    
+    while ( true )
+    {
+        self waittill( "detonate" );
+        weaponrootname = getweaponrootstring( self getheldoffhand() );
+        
+        if ( self getheldoffhand().basename == weaponname || self getheldoffhand().basename == var_7daaa868d5ef8034 || self getheldoffhand().basename == "none" && isdefined( self.isusingcamera ) && self.isusingcamera || weaponrootname == "c4" || self.c4s && weaponrootname == "" && getdvarint( @"hash_48b4dd239f3976b", isbrgamemode() ) )
+        {
+            thread c4_detonateall( bundle );
+        }
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x20a19741, Offset: 0x1879
-// Size: 0x1
-function function_c080e0b0ab2d9784()
+// Size: 0x2f, Type: bool
+function function_c080e0b0ab2d9784( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !getdvarint( @"scr_altdetonationenabled", 0 ) && !function_c78dec2190b10b97( bundle ) )
+    {
+        return false;
+    }
+    
+    return true;
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xf925298b, Offset: 0x18b1
-// Size: 0x1
-function c4_watchforaltdetonation()
+// Size: 0x166
+function c4_watchforaltdetonation( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death_or_disconnect" );
+    var_ce86bbddf98563d2 = 0;
+    
+    if ( utility::issharedfuncdefined( #"game", #"isCommonItemEnabled" ) )
+    {
+        var_ce86bbddf98563d2 = [[ utility::getsharedfunc( #"game", #"isCommonItemEnabled" ) ]]();
+    }
+    
+    if ( isdefined( level.itemsisenabled ) )
+    {
+        var_ce86bbddf98563d2 = [[ level.itemsisenabled ]]();
+    }
+    
+    if ( !var_ce86bbddf98563d2 )
+    {
+        self endon( "equipment_taken_" + "equip_c4" );
+    }
+    
+    level endon( "game_ended" );
+    
+    if ( !function_c080e0b0ab2d9784( bundle ) )
+    {
+        return;
+    }
+    
+    self notify( "watchForAltDetonation" );
+    self endon( "watchForAltDetonation" );
+    
+    while ( self usebuttonpressed() )
+    {
+        waitframe();
+    }
+    
+    buttontime = 0;
+    updaterate = level.framedurationseconds;
+    
+    while ( true )
+    {
+        if ( self usebuttonpressed() )
+        {
+            buttontime = 0;
+            
+            while ( self usebuttonpressed() )
+            {
+                buttontime += updaterate;
+                wait updaterate;
+            }
+            
+            if ( buttontime >= 0.5 )
+            {
+                continue;
+            }
+            
+            buttontime = 0;
+            
+            while ( !self usebuttonpressed() && buttontime < 0.25 )
+            {
+                buttontime += updaterate;
+                wait updaterate;
+            }
+            
+            if ( buttontime >= 0.25 )
+            {
+                continue;
+            }
+            
+            if ( c4_validdetonationstate() )
+            {
+                if ( function_c78dec2190b10b97( bundle ) )
+                {
+                    thread c4_detonateall( bundle );
+                }
+                else
+                {
+                    thread c4_animdetonate( bundle );
+                }
+            }
+        }
+        
+        waitframe();
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x24f3e508, Offset: 0x1a1f
-// Size: 0x1
-function c4_weaponname()
+// Size: 0x36
+function c4_weaponname( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( bundle ) && isdefined( bundle.var_4dcbc982a0d70f5f ) )
+    {
+        return bundle.var_4dcbc982a0d70f5f;
+    }
+    
+    return "c4_empty_mp";
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xb3ac3cdb, Offset: 0x1a5d
-// Size: 0x1
-function c4_animdetonate()
+// Size: 0x41
+function c4_animdetonate( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    var_7daaa868d5ef8034 = c4_weaponname( bundle );
+    objweapon = makeweapon( var_7daaa868d5ef8034 );
+    self giveandfireoffhand( objweapon );
+    thread c4_animdetonatecleanup( bundle );
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x364ef656, Offset: 0x1aa6
-// Size: 0x1
-function c4_animdetonatecleanup()
+// Size: 0x5d
+function c4_animdetonatecleanup( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death_or_disconnect" );
+    self notify( "c4_animDetonateCleanup()" );
+    self endon( "c4_animDetonateCleanup()" );
+    var_7daaa868d5ef8034 = c4_weaponname( bundle );
+    objweapon = makeweapon( var_7daaa868d5ef8034 );
+    wait 1;
+    
+    if ( self hasweapon( objweapon ) )
+    {
+        self takeweapon( objweapon );
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x8a40bc40, Offset: 0x1b0b
-// Size: 0x1
-function c4_detonateall()
+// Size: 0xb6
+function c4_detonateall( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    detonated = 0;
+    
+    if ( isdefined( self.c4s ) )
+    {
+        foreach ( c4 in self.c4s )
+        {
+            if ( c4 c4_candetonate() )
+            {
+                detonated = 1;
+                c4 thread c4_detonate();
+            }
+        }
+    }
+    
+    function_e70cef93d47168b3( bundle, detonated );
 }
 
 // Namespace c4
 // Params 2, eflags: 0x4
 // Checksum 0x69c5c838, Offset: 0x1bc9
-// Size: 0x1
-function private function_e70cef93d47168b3()
+// Size: 0xb3
+function private function_e70cef93d47168b3( bundle, detonated )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( detonated )
+    {
+        if ( isdefined( bundle.var_bbdb7c6eb6dfc012 ) )
+        {
+            self playlocalsound( bundle.var_bbdb7c6eb6dfc012 );
+        }
+        
+        if ( isdefined( bundle.var_bbd2706eb6d58700 ) )
+        {
+            self playsound( bundle.var_bbd2706eb6d58700, self );
+        }
+        
+        level thread battlechatter_mp::trysaylocalsound( self, bundle.var_7d1ec174c6f35ac3 );
+        return;
+    }
+    
+    if ( isdefined( bundle.var_94c56738cfe70eff ) )
+    {
+        self playlocalsound( bundle.var_94c56738cfe70eff );
+    }
+    
+    if ( isdefined( bundle.var_94bd7b38cfdf4f4d ) )
+    {
+        self playsound( bundle.var_94bd7b38cfdf4f4d, self );
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x576a5fbc, Offset: 0x1c84
-// Size: 0x1
-function c4_onownerchanged()
+// Size: 0x88
+function c4_onownerchanged( oldowner )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( self.exploding )
+    {
+        return;
+    }
+    
+    c4_removefromarray( oldowner, self, self getentitynumber() );
+    sentientpool = self.sentientpool;
+    sentientpoolmanager::unregistersentient( self.sentientpool, self.sentientpoolindex );
+    sentientpoolmanager::registersentient( sentientpool, self.owner, 1 );
+    
+    if ( self.bundle.var_8ba588493a24c48b )
+    {
+        return;
+    }
+    
+    thread c4_destroy();
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x3a986de1, Offset: 0x1d14
-// Size: 0x1
-function c4_resetaltdetonpickup()
+// Size: 0x23
+function c4_resetaltdetonpickup( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( equipment_mp::hasequipment( "equip_c4" ) )
+    {
+        thread c4_watchforaltdetonation( bundle );
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xe269cff3, Offset: 0x1d3f
-// Size: 0x1
-function function_a4ebfb83ec0621b9()
+// Size: 0x17
+function function_a4ebfb83ec0621b9( callbackfunction )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.elevatordoorsclosecallback = callbackfunction;
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xaaaf71bf, Offset: 0x1d5e
-// Size: 0x1
-function function_c78dec2190b10b97()
+// Size: 0x46, Type: bool
+function function_c78dec2190b10b97( bundle )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !bundle.var_73c1e67728a7b727 )
+    {
+        return false;
+    }
+    
+    if ( function_4042d2fbe6237835( #"hash_5f94731cce68431c" ) )
+    {
+        return false;
+    }
+    
+    if ( !getdvarint( @"hash_8bde38d1046f0599", 1 ) )
+    {
+        return false;
+    }
+    
+    return true;
 }
 
 // Namespace c4
 // Params 2
 // Checksum 0x5b11cb37, Offset: 0x1dad
-// Size: 0x1
-function c4_addtoarray()
+// Size: 0x90
+function c4_addtoarray( owner, grenade )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( owner.c4s ) )
+    {
+        owner.c4s = [];
+    }
+    
+    entnum = grenade getentitynumber();
+    owner.c4s[ entnum ] = grenade;
+    owner function_3d283528e5a23f67( 1 );
+    
+    if ( function_c78dec2190b10b97( grenade.bundle ) )
+    {
+        owner val::set( "individual_c4", "offhand_primary_weapons", 0 );
+    }
+    
+    thread c4_removefromarrayondeath( owner, grenade, entnum );
 }
 
 // Namespace c4
 // Params 3
 // Checksum 0xab81dfc4, Offset: 0x1e45
-// Size: 0x1
-function c4_removefromarray()
+// Size: 0xf8
+function c4_removefromarray( owner, grenade, entnum )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( grenade ) )
+    {
+        grenade notify( "c4_removeFromArray" );
+    }
+    
+    if ( isdefined( owner ) && isdefined( owner.c4s ) )
+    {
+        owner.c4s[ entnum ] = undefined;
+        
+        foreach ( c4 in owner.c4s )
+        {
+            if ( isdefined( c4 ) )
+            {
+                return;
+            }
+        }
+        
+        owner function_3d283528e5a23f67( 0 );
+        
+        if ( function_c78dec2190b10b97( grenade.bundle ) )
+        {
+            owner val::reset( "individual_c4", "offhand_primary_weapons" );
+        }
+    }
 }
 
 // Namespace c4
 // Params 3
 // Checksum 0x89ed66d7, Offset: 0x1f45
-// Size: 0x1
-function c4_removefromarrayondeath()
+// Size: 0x44
+function c4_removefromarrayondeath( owner, grenade, entnum )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    grenade endon( "c4_removeFromArray" );
+    owner endon( "disconnect" );
+    grenade waittill( "death" );
+    thread c4_removefromarray( owner, grenade, entnum );
 }
 
 // Namespace c4
 // Params 2, eflags: 0x4
 // Checksum 0x2d9299bd, Offset: 0x1f91
-// Size: 0x1
-function private function_6fcefc080f7c7d28()
+// Size: 0x83
+function private function_6fcefc080f7c7d28( hackeffect, attacker )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self notify( "equip_c4_hacked" );
+    
+    if ( !hackeffect.var_30e7de3d76d5a085 )
+    {
+        return;
+    }
+    
+    self.owner thread equipment_utility::function_364a1a0e0c018518( self.equipmentref, #"hash_baf1458ef81f3e1f" );
+    equipment_mp::hackequipment( attacker, hackeffect.var_fe6111ff085b2063 );
+    self setscriptablepartstate( #"hacked", #"stolen", 0 );
+    thread c4_detonate();
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0xc6054e9c, Offset: 0x201c
-// Size: 0x1
-function function_6296632a2be939ef()
+// Size: 0x1ce
+function function_6296632a2be939ef( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isarray( self.var_30656af96b2ac2a4 ) )
+    {
+        self.var_30656af96b2ac2a4[ self.var_30656af96b2ac2a4.size ] = params.var_39a25939271f4d6a;
+        
+        if ( !self.var_2695e71ddf32816c[ params.var_39a25939271f4d6a.owner getentitynumber() ] )
+        {
+            basepoints = rank::getscoreinfovalue( #"hash_2b0595941ae1563c" ) ?? 0;
+            params.var_39a25939271f4d6a.owner thread points::doscoreevent( #"hash_2b0595941ae1563c", params.var_39a25939271f4d6a.weapon_object, basepoints * params.var_39a25939271f4d6a.var_352099d9d2836866 );
+            
+            if ( !isdefined( self.var_2695e71ddf32816c ) )
+            {
+                self.var_2695e71ddf32816c = [];
+            }
+            
+            self.var_2695e71ddf32816c[ params.var_39a25939271f4d6a.owner getentitynumber() ] = 1;
+        }
+        
+        if ( params.var_39a25939271f4d6a.owner != self.owner && !self.var_2b2f786d6b12c032 )
+        {
+            self.owner thread points::doscoreevent( #"hash_25e1629f3588e56f", params.var_39a25939271f4d6a.weapon_object );
+            self.var_2b2f786d6b12c032 = 1;
+        }
+        
+        if ( self.var_30656af96b2ac2a4.size == 1 )
+        {
+            if ( isdefined( self.headiconid ) && isdefined( self.bundle.var_171b9865909c4339 ) )
+            {
+                setheadiconimage( self.headiconid, self.bundle.var_171b9865909c4339 );
+            }
+        }
+    }
 }
 
 // Namespace c4
 // Params 1
 // Checksum 0x34d6eee, Offset: 0x21f2
-// Size: 0x1
-function function_836769537343f47e()
+// Size: 0xac
+function function_836769537343f47e( params )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isarray( self.var_30656af96b2ac2a4 ) )
+    {
+        if ( arraycontains( self.var_30656af96b2ac2a4, params.var_39a25939271f4d6a ) )
+        {
+            self.var_30656af96b2ac2a4 = arrayremove( self.var_30656af96b2ac2a4, params.var_39a25939271f4d6a );
+            
+            if ( self.var_30656af96b2ac2a4.size <= 0 )
+            {
+                if ( isdefined( self.headiconid ) && isdefined( level.gamemodebundle.var_251a2102c50e4fb6 ) )
+                {
+                    setheadiconimage( self.headiconid, level.gamemodebundle.var_251a2102c50e4fb6 );
+                }
+            }
+        }
+    }
 }
 

@@ -7,62 +7,94 @@
 #namespace frag_grenade;
 
 // Namespace frag_grenade
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x1baa037a, Offset: 0x11d
-// Size: 0x1
-function private autoexec function_91ec7e039d921861()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace frag_grenade
 // Params 0, eflags: 0x1
 // Checksum 0xea4f6f36, Offset: 0x12f
-// Size: 0x1
+// Size: 0xa
 function autoexec main()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    level function_21b275046166016a();
 }
 
 // Namespace frag_grenade
 // Params 0, eflags: 0x4
 // Checksum 0x2bf3db10, Offset: 0x141
-// Size: 0x1
+// Size: 0x3a
 function private function_21b275046166016a()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    utility::flag_wait( "equipment_initialized" );
+    equipment::registercallback( "equip_frag", "onGive", &function_4d78a19fbe5b0383 );
+    equipment::registercallback( "equip_frag", "onTake", &frag_grenade_on_take );
 }
 
 // Namespace frag_grenade
 // Params 4
 // Checksum 0x380b7c4d, Offset: 0x183
-// Size: 0x1
-function function_4d78a19fbe5b0383()
+// Size: 0xf7
+function function_4d78a19fbe5b0383( equipmentref, equipmentslot, variantid, attachments )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    bundle = equipment::getequipmenttableinfo( equipmentref ).bundle;
+    
+    if ( !bundle.var_e36b84555e7df1d3 )
+    {
+        return;
+    }
+    
+    foreach ( attachment in attachments )
+    {
+        if ( getxhashasset( attachment ) == bundle.var_e36b84555e7df1d3 )
+        {
+            self.var_2e4d194d7a5f9d61 = bundle.var_41b002e948524c2f ?? 1.2;
+            thread function_8ce7d26f6d9cd28c();
+            break;
+        }
+    }
 }
 
 // Namespace frag_grenade
 // Params 2
 // Checksum 0x1e4ff3fc, Offset: 0x282
-// Size: 0x1
-function frag_grenade_on_take()
+// Size: 0x27
+function frag_grenade_on_take( equipmentref, slot )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self notify( "frag_grenade_on_take" );
+    self.var_2e4d194d7a5f9d61 = undefined;
 }
 
 // Namespace frag_grenade
 // Params 0, eflags: 0xc
 // Checksum 0x3ea21, Offset: 0x2b1
-// Size: 0x1
+// Size: 0x111
 function private function_8ce7d26f6d9cd28c()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self notify( "8b0a012a49405adc" );
+    self endon( "8b0a012a49405adc" );
+    self endon( "frag_grenade_on_take" );
+    self endon( "disconnect" );
+    level endon( "game_ended" );
+    bundle = equipment::getequipmenttableinfo( "equip_frag" ).bundle;
+    
+    while ( true )
+    {
+        if ( player::isreallyalive( self ) )
+        {
+            currentweapon = weapon::getgrenadeinpullback();
+            
+            if ( issubstr( currentweapon.basename, "frag_grenade" ) && currentweapon hasattachmenthash( bundle.var_e36b84555e7df1d3 ) && !isdefined( self.perks[ "specialty_grenade_expert" ] ) )
+            {
+                perk::giveperk( "specialty_grenade_expert" );
+                
+                if ( self.var_2e4d194d7a5f9d61 )
+                {
+                    self setgrenadethrowscale( self.var_2e4d194d7a5f9d61 );
+                }
+            }
+            else if ( !issubstr( currentweapon.basename, "frag_grenade" ) && isdefined( self.perks[ "specialty_grenade_expert" ] ) )
+            {
+                perk::removeperk( "specialty_grenade_expert" );
+            }
+        }
+        
+        waitframe();
+    }
 }
 

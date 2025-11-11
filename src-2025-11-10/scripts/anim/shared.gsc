@@ -13,542 +13,1819 @@
 #namespace shared;
 
 // Namespace shared
-// Params 0, eflags: 0x15 class_linked vtable
-// Checksum 0x67b8c008, Offset: 0x5b2
-// Size: 0x1
-function private autoexec function_440de7ba8ca247a7()
-{
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
-}
-
-// Namespace shared
 // Params 3
 // Checksum 0x3cee2188, Offset: 0x5c4
-// Size: 0x1
-function placeweaponon()
+// Size: 0x1c8
+function placeweaponon( weapon, position, activeweapon )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( weapon ) );
+    placeweaponobj = undefined;
+    placeweaponname = undefined;
+    
+    if ( isweapon( weapon ) )
+    {
+        placeweaponobj = weapon;
+        placeweaponname = getcompleteweaponname( weapon );
+    }
+    else
+    {
+        placeweaponobj = makeweaponfromstring( weapon );
+        placeweaponname = weapon;
+    }
+    
+    assert( utility::aihasweapon( placeweaponobj ) );
+    self notify( "weapon_position_change" );
+    curposition = self.weaponinfo[ placeweaponname ].position;
+    assert( curposition == "<dev string:x24>" || self.a.weaponpos[ curposition ] == placeweaponobj );
+    
+    if ( position != "none" && isdefined( self.a.weaponpos[ position ] ) && self.a.weaponpos[ position ] == placeweaponobj )
+    {
+        return;
+    }
+    
+    detachallweaponmodels();
+    
+    if ( curposition != "none" )
+    {
+        detachweapon( placeweaponobj );
+    }
+    
+    if ( position == "none" )
+    {
+        updateattachedweaponmodels();
+        return;
+    }
+    
+    if ( !isundefinedweapon( self.a.weaponpos[ position ] ) )
+    {
+        detachweapon( self.a.weaponpos[ position ] );
+    }
+    
+    if ( !isdefined( activeweapon ) )
+    {
+        activeweapon = 1;
+    }
+    
+    if ( activeweapon && ( position == "left" || position == "right" ) )
+    {
+        attachweapon( placeweaponobj, position );
+        self.weapon = placeweaponobj;
+    }
+    else
+    {
+        attachweapon( placeweaponobj, position );
+    }
+    
+    updateattachedweaponmodels();
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x638c5dcb, Offset: 0x794
-// Size: 0x1
-function detachweapon()
+// Size: 0x8c
+function detachweapon( objweapon )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isweapon( objweapon ) );
+    weaponname = getcompleteweaponname( objweapon );
+    
+    if ( isdefined( self.weaponinfo[ weaponname ].position ) )
+    {
+        self.a.weaponpos[ self.weaponinfo[ weaponname ].position ] = undefined;
+        self.weaponinfo[ weaponname ].position = "none";
+    }
 }
 
 // Namespace shared
 // Params 2
 // Checksum 0xf104943e, Offset: 0x828
-// Size: 0x1
-function attachweapon()
+// Size: 0xa4
+function attachweapon( objweapon, position )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isweapon( objweapon ) );
+    weaponname = getcompleteweaponname( objweapon );
+    self.weaponinfo[ weaponname ].position = position;
+    self.a.weaponpos[ position ] = objweapon;
+    
+    if ( !isundefinedweapon( self.a.weaponposdropping[ position ] ) )
+    {
+        self notify( "end_weapon_drop_" + position );
+        self.a.weaponposdropping[ position ] = undefined;
+    }
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0xccf5f2dc, Offset: 0x8d4
-// Size: 0x1
-function getweaponforpos()
+// Size: 0x9c
+function getweaponforpos( position )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( self.a ) )
+    {
+        return undefined;
+    }
+    
+    if ( !isdefined( self.a.weaponpos ) )
+    {
+        return undefined;
+    }
+    
+    weapon = self.a.weaponpos[ position ];
+    
+    if ( isundefinedweapon( weapon ) )
+    {
+        return self.a.weaponposdropping[ position ];
+    }
+    
+    assert( isundefinedweapon( self.a.weaponposdropping[ position ] ) );
+    return weapon;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xf4ee8793, Offset: 0x979
-// Size: 0x1
+// Size: 0x11f
 function detachallweaponmodels()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    positions = [ "right", "left", "chest", "back", "thigh", "inhand" ];
+    self laseroff();
+    
+    foreach ( position in positions )
+    {
+        weapon = getweaponforpos( position );
+        
+        if ( isundefinedweapon( weapon ) )
+        {
+            continue;
+        }
+        
+        if ( weapontype( weapon ) == "riotshield" && isdefined( self.shieldmodelvariant ) )
+        {
+            if ( self.shieldbroken )
+            {
+                playfxontag( utility::getfx( "riot_shield_dmg" ), self, "TAG_BRASS" );
+                self.shieldbroken = undefined;
+            }
+        }
+    }
+    
+    self updateentitywithweapons();
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x9247b6e, Offset: 0xaa0
-// Size: 0x1
+// Size: 0x1fb
 function updateattachedweaponmodels()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    weapons = [];
+    tags = [];
+    positions = [ "right", "left", "chest", "back", "thigh", "inhand" ];
+    
+    if ( !isdefined( self.a ) )
+    {
+        return;
+    }
+    
+    if ( !isdefined( self.a.weaponpos ) )
+    {
+        return;
+    }
+    
+    foreach ( position in positions )
+    {
+        iweapon = weapons.size;
+        weapon = getweaponforpos( position );
+        
+        if ( !isundefinedweapon( weapon ) && !isnullweapon( weapon ) )
+        {
+            weaponname = getcompleteweaponname( weapon );
+            
+            if ( self.weaponinfo[ weaponname ].useclip && !self.weaponinfo[ weaponname ].hasclip )
+            {
+                assert( isdefined( weapon.magazine ) );
+                weapon = weapon withoutattachment( weapon.magazine );
+            }
+        }
+        
+        if ( isdefined( weapon ) )
+        {
+            tagforpos = gettagforpos( position );
+            
+            if ( self tagexists( tagforpos ) )
+            {
+                weapons[ iweapon ] = weapon;
+                tags[ tags.size ] = tagforpos;
+            }
+        }
+    }
+    
+    /#
+        if ( weapons.size > 4 )
+        {
+            assertmsg( "<dev string:x2c>" );
+        }
+    #/
+    
+    self updateentitywithweapons( weapons[ 0 ], tags[ 0 ], weapons[ 1 ], tags[ 1 ], weapons[ 2 ], tags[ 2 ], weapons[ 3 ], tags[ 3 ] );
+    self updatelaserstatus();
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x8eaf1f7b, Offset: 0xca3
-// Size: 0x1
-function gettagforpos()
+// Size: 0xb3
+function gettagforpos( position )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    switch ( position )
+    {
+        case #"hash_fc2fdaa21f480e36":
+            return "tag_stowed_chest";
+        case #"hash_5163a22eb8c03302":
+            return "tag_stowed_back";
+        case #"hash_c9b3133a17a3b2d0":
+            return "tag_weapon_left";
+        case #"hash_96815ce4f2a3dbc5":
+            return "tag_weapon_right";
+        case #"hash_cc8437548a4a4480":
+            return "tag_accessory_right";
+        case #"hash_c274ab81bf2a0f8f":
+            return "tag_stowed_thigh";
+        case #"hash_40f6fb4e52241d83":
+            return "tag_inhand";
+        default:
+            assertmsg( "<dev string:x5a>" + position );
+            break;
+    }
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x2baa0af1, Offset: 0xd5e
-// Size: 0x1
-function dropaiweaponinternal()
+// Size: 0x141
+function dropaiweaponinternal( weapon )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( function_9b735f27e5cc1ed8() )
+    {
+        if ( weapon hasattachment( self.flashlight_attachment ) )
+        {
+            detachweapon( weapon );
+            weapon = weapon withoutattachment( self.flashlight_attachment );
+            forceuseweapon( weapon, self.flashlight_slot );
+        }
+    }
+    
+    weaponname = getcompleteweaponname( weapon );
+    position = self.weaponinfo[ weaponname ].position;
+    
+    if ( self.dropweapon && position != "none" )
+    {
+        thread dropweaponwrapper( weapon, position );
+    }
+    
+    detachweapon( weapon );
+    
+    if ( weapon == self.weapon )
+    {
+        self.weapon = nullweapon();
+    }
+    
+    if ( weapon == self.primaryweapon )
+    {
+        self.primaryweapon = nullweapon();
+    }
+    
+    if ( weapon == self.secondaryweapon )
+    {
+        self.secondaryweapon = nullweapon();
+    }
+    
+    if ( weapon == self.sidearm )
+    {
+        if ( !isnullweapon( self.primaryweapon ) )
+        {
+            dropaiweaponinternal( self.primaryweapon );
+        }
+        
+        self.sidearm = nullweapon();
+    }
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x45356690, Offset: 0xea7
-// Size: 0x1
-function dropaiweapon()
+// Size: 0xfd
+function dropaiweapon( weapon )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( weapon ) )
+    {
+        weapon = self.weapon;
+    }
+    
+    assert( isweapon( weapon ) );
+    
+    if ( isnullweapon( weapon ) )
+    {
+        return;
+    }
+    
+    if ( isdefined( self.nodrop ) )
+    {
+        return;
+    }
+    
+    detachallweaponmodels();
+    dropaiweaponinternal( weapon );
+    
+    if ( isnullweapon( self.primaryweapon ) )
+    {
+        if ( !isnullweapon( self.weapon ) )
+        {
+            self.primaryweapon = self.weapon;
+        }
+        else if ( !isnullweapon( self.secondaryweapon ) )
+        {
+            self.primaryweapon = self.secondaryweapon;
+        }
+        else if ( !isnullweapon( self.sidearm ) )
+        {
+            self.primaryweapon = self.sidearm;
+        }
+        
+        if ( self.primaryweapon == self.secondaryweapon )
+        {
+            self.secondaryweapon = nullweapon();
+        }
+    }
+    
+    updateattachedweaponmodels();
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xd4782a2b, Offset: 0xfac
-// Size: 0x1
+// Size: 0x1b0
 function dropallaiweapons()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isdefined( self.nodrop ) )
+    {
+        return "none";
+    }
+    
+    if ( !( isdefined( self.a ) && isdefined( self.a.weaponpos ) ) )
+    {
+        return;
+    }
+    
+    positions = [ "left", "right", "chest", "back", "thigh", "inhand" ];
+    detachallweaponmodels();
+    
+    foreach ( position in positions )
+    {
+        weapon = self.a.weaponpos[ position ];
+        
+        if ( isundefinedweapon( weapon ) )
+        {
+            continue;
+        }
+        
+        weaponname = getcompleteweaponname( weapon );
+        self.weaponinfo[ weaponname ].position = "none";
+        self.a.weaponpos[ position ] = undefined;
+        
+        if ( function_9b735f27e5cc1ed8() )
+        {
+            if ( weapon hasattachment( self.flashlight_attachment ) )
+            {
+                weapon = weapon withoutattachment( self.flashlight_attachment );
+            }
+        }
+        
+        if ( self.dropweapon )
+        {
+            thread dropweaponwrapper( weapon, position );
+        }
+    }
+    
+    self.weapon = nullweapon();
+    updateattachedweaponmodels();
 }
 
 // Namespace shared
 // Params 2
 // Checksum 0x2d058765, Offset: 0x1164
-// Size: 0x1
-function dropweaponwrapper()
+// Size: 0x466
+function dropweaponwrapper( weapon, position )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( self isragdoll() && !self.forceweapondrop )
+    {
+        return "none";
+    }
+    
+    assert( isundefinedweapon( self.a.weaponposdropping[ position ] ) );
+    self.a.weaponposdropping[ position ] = weapon;
+    actualdroppedweapon = weapon;
+    baseweaponname = weapon.basename;
+    
+    if ( issubstr( tolower( baseweaponname ), "_ai" ) )
+    {
+        baseweaponname = getsubstr( baseweaponname, 0, baseweaponname.size - 3 );
+        attachments = weapon.attachments;
+        
+        if ( self.var_c4f0a8627b548c6d )
+        {
+            attachments = getweapondefaultattachments( baseweaponname );
+        }
+        
+        actualdroppedweapon = makeweapon( baseweaponname, attachments );
+        assert( actualdroppedweapon.basename != "<dev string:x24>", "<dev string:x81>" + weapon.basename + "<dev string:xa0>" );
+    }
+    
+    thread setdroppedweaponammo( actualdroppedweapon );
+    
+    if ( isagent( self ) )
+    {
+        if ( isdefined( level.dropped_weapon_func ) )
+        {
+            self thread [[ level.dropped_weapon_func ]]( actualdroppedweapon, position );
+        }
+        else
+        {
+            self dropweaponnovelocity( actualdroppedweapon, position );
+        }
+        
+        if ( isalive( self ) )
+        {
+            waitframe();
+        }
+    }
+    else if ( canaiflingweapon( self ) )
+    {
+        if ( position == "back" || position == "thigh" )
+        {
+            tagname = "tag_stowed_" + position;
+        }
+        else
+        {
+            tagname = "tag_weapon_" + position;
+        }
+        
+        if ( !utility::hastag( self.model, tagname ) )
+        {
+            self dropweapon( actualdroppedweapon, position, 0 );
+            self endon( "end_weapon_drop_" + position );
+            waitframe();
+            return;
+        }
+        
+        previoustagorigin = self gettagorigin( tagname );
+        self endon( "end_weapon_drop_" + position );
+        waitframe();
+        
+        if ( !isdefined( self ) )
+        {
+            return;
+        }
+        
+        tagorigin = self gettagorigin( tagname );
+        tagangles = self gettagangles( tagname );
+        weaponcompletename = getcompleteweaponname( actualdroppedweapon );
+        droppedweaponentity = spawn( "weapon_" + weaponcompletename, tagorigin );
+        droppedweaponentity.angles = tagangles;
+        tagdelta = tagorigin - previoustagorigin;
+        normalizedtagdelta = vectornormalize( tagdelta );
+        tagvelocityscalar = 20;
+        maximumtagvelocity = 50;
+        tagvelocitymagnitude = min( length( tagdelta ) * tagvelocityscalar, maximumtagvelocity );
+        tagvelocity = normalizedtagdelta * tagvelocitymagnitude;
+        var_70527808f50923fa = ( 0, 0, 950 );
+        launchvelocity = tagvelocity + var_70527808f50923fa;
+        
+        if ( isdefined( self.weapondroppos.origin ) )
+        {
+            tagorigin = self.weapondroppos.origin;
+            tagangles = self.weapondroppos.angles ?? ( 0, 0, 0 );
+            launchvelocity = self.weapondroppos.velocity ?? launchvelocity;
+            
+            if ( self.weapondroppos.local )
+            {
+                tagorigin = coordtransform( tagorigin, self.origin, self.angles );
+                tagangles = combineangles( self.angles, tagangles );
+                
+                if ( isdefined( self.weapondroppos.velocity ) )
+                {
+                    launchvelocity = rotatevector( launchvelocity, self.angles );
+                }
+            }
+        }
+        
+        droppedweaponentity physicslaunchserveritem( tagorigin, launchvelocity );
+        
+        if ( weaponclass( actualdroppedweapon ) == "pistol" )
+        {
+            reductionamount = 0.2;
+            bodyid = droppedweaponentity physics_getbodyid( 0 );
+            bodyangvel = physics_getbodyangvel( bodyid ) * reductionamount;
+            physics_setbodyangvel( bodyid, bodyangvel[ 0 ], bodyangvel[ 1 ], bodyangvel[ 2 ] );
+        }
+        
+        level notify( "weapon_dropped_ai", droppedweaponentity );
+        self notify( "weapon_dropped", droppedweaponentity );
+    }
+    else
+    {
+        weaponent = self dropweapon( actualdroppedweapon, position, 0 );
+        self endon( "end_weapon_drop_" + position );
+        waitframe();
+    }
+    
+    if ( !isdefined( self ) )
+    {
+        return;
+    }
+    
+    if ( isagent( self ) && !isalive( self ) )
+    {
+        return;
+    }
+    
+    detachallweaponmodels();
+    self.a.weaponposdropping[ position ] = undefined;
+    updateattachedweaponmodels();
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x387f97ab, Offset: 0x15d2
-// Size: 0x1
+// Size: 0x13, Type: bool
 function function_9b735f27e5cc1ed8()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isdefined( self.flashlight_attachment ) )
+    {
+        return true;
+    }
+    
+    return false;
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0xc395a670, Offset: 0x15ee
-// Size: 0x1
-function canaiflingweapon()
+// Size: 0x56, Type: bool
+function canaiflingweapon( ai )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !utility::issp() )
+    {
+        return false;
+    }
+    
+    if ( !isdefined( ai.lastattacker ) )
+    {
+        return false;
+    }
+    
+    if ( !isplayer( ai.lastattacker ) )
+    {
+        return false;
+    }
+    
+    if ( isexplosivedamagemod( ai.damagemod ) )
+    {
+        return true;
+    }
+    
+    return true;
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x72655049, Offset: 0x164d
-// Size: 0x1
-function setdroppedweaponammo()
+// Size: 0x114
+function setdroppedweaponammo( actualdroppedweapon )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self waittill( "weapon_dropped", droppedweapon );
+    droppedweapon endon( "death" );
+    
+    if ( isvaliddroppedweapon( actualdroppedweapon ) )
+    {
+        if ( isdefined( droppedweapon ) )
+        {
+            droppedweapon physics_registerforcollisioncallback();
+            droppedweapon thread weapondrop_physics_callback_monitor( actualdroppedweapon );
+            weaponname = getsubstr( droppedweapon.classname, 7, droppedweapon.classname.size );
+            droppedweapon setscriptammo( weaponname, self );
+        }
+    }
+    
+    utility::callsharedfunc( #"loot", #"dropweapon", droppedweapon );
+    thread utility::callsharedfunc( #"loot", #"dropWeaponPost", droppedweapon );
+    basename = "";
+    
+    if ( isweapon( droppedweapon ) )
+    {
+        basename = getweaponbasename( droppedweapon );
+    }
+    else if ( isweapon( actualdroppedweapon ) )
+    {
+        basename = getweaponbasename( actualdroppedweapon );
+    }
+    
+    if ( isdefined( self.weaponlootitem[ basename ] ) && isent( droppedweapon ) )
+    {
+        droppedweapon function_e44c4b30d4be97f6( self.weaponlootitem[ basename ] );
+    }
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0xbf4ed7c2, Offset: 0x1769
-// Size: 0x1
-function isvaliddroppedweapon()
+// Size: 0x1e, Type: bool
+function isvaliddroppedweapon( weapon )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( weapon.ismelee )
+    {
+        return false;
+    }
+    
+    return true;
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x834225e6, Offset: 0x1790
-// Size: 0x1
-function weapondrop_physics_callback_monitor()
+// Size: 0xd4
+function weapondrop_physics_callback_monitor( droppedent )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "death" );
+    self endon( "timeout" );
+    thread weapondrop_physics_timeout( 2 );
+    self waittill( "collision", body0, body1, flag0, flag1, position, normal, impulse, ent );
+    surface = physics_getsurfacetypefromflags( flag1 );
+    surfacetype = getsubstr( surface[ "name" ], 9 );
+    
+    if ( surfacetype == "user_terrain1" )
+    {
+        surfacetype = "user_terrain_1";
+    }
+    
+    if ( isdefined( droppedent.classname ) && isdefined( self ) )
+    {
+        self playweapondropsound( surfacetype );
+    }
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x50312665, Offset: 0x186c
-// Size: 0x1
-function weapondrop_physics_timeout()
+// Size: 0x17
+function weapondrop_physics_timeout( time )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    wait time;
+    self notify( "timeout" );
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x55f44339, Offset: 0x188b
-// Size: 0x1
+// Size: 0x43
 function getaimyawtoshootentorpos()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !isdefined( self.shootent ) )
+    {
+        if ( !isdefined( self.shootpos ) )
+        {
+            return 0;
+        }
+        
+        return utility::getaimyawtopoint( self.shootpos );
+    }
+    
+    return utility::getaimyawtopoint( self.shootent getshootatpos() );
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xe8994217, Offset: 0x18d7
-// Size: 0x1
+// Size: 0x6b
 function getaimpitchtoshootentorpos()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    pitch = getpitchtoshootentorpos();
+    
+    if ( self.script == "cover_crouch" && isdefined( self.a.covermode ) && self.a.covermode == "lean" )
+    {
+        pitch -= anim.covercrouchleanpitch;
+    }
+    
+    return pitch;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x9633761c, Offset: 0x194b
-// Size: 0x1
+// Size: 0x43
 function getpitchtoshootentorpos()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( !isdefined( self.shootent ) )
+    {
+        if ( !isdefined( self.shootpos ) )
+        {
+            return 0;
+        }
+        
+        return combat_utility::getpitchtoshootspot( self.shootpos );
+    }
+    
+    return combat_utility::getpitchtoshootspot( self.shootent getshootatpos() );
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x24450620, Offset: 0x1997
-// Size: 0x1
-function ramboaim()
+// Size: 0x1d
+function ramboaim( baseyaw )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "killanimscript" );
+    ramboaiminternal( baseyaw );
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0xc32d315f, Offset: 0x19bc
-// Size: 0x1
-function ramboaiminternal()
+// Size: 0xc
+function ramboaiminternal( baseyaw )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x28290968, Offset: 0x19d0
-// Size: 0x1
+// Size: 0xe3
 function decidenumshotsforburst()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    numshots = 0;
+    fixedburstcount = weaponburstcount( self.weapon );
+    
+    if ( fixedburstcount )
+    {
+        numshots = fixedburstcount;
+    }
+    else if ( weaponlist::usingsemiautoweapon() )
+    {
+        numshots = anim.semifirenumshots[ randomint( anim.semifirenumshots.size ) ];
+    }
+    else if ( self.fastburst )
+    {
+        numshots = anim.fastburstfirenumshots[ randomint( anim.fastburstfirenumshots.size ) ];
+    }
+    else
+    {
+        numshots = anim.burstfirenumshots[ randomint( anim.burstfirenumshots.size ) ];
+    }
+    
+    if ( numshots <= self.bulletsinclip )
+    {
+        return numshots;
+    }
+    
+    assert( self.bulletsinclip >= 0, self.bulletsinclip );
+    
+    if ( self.bulletsinclip <= 0 )
+    {
+        return 1;
+    }
+    
+    return self.bulletsinclip;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x80f74ccf, Offset: 0x1abc
-// Size: 0x1
+// Size: 0x73
 function decidenumshotsforfull()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    numshots = self.bulletsinclip;
+    
+    if ( weaponclass( self.weapon ) == "mg" )
+    {
+        choice = randomfloat( 10 );
+        
+        if ( choice < 3 )
+        {
+            numshots = randomintrange( 2, 6 );
+        }
+        else if ( choice < 8 )
+        {
+            numshots = randomintrange( 6, 12 );
+        }
+        else
+        {
+            numshots = randomintrange( 12, 20 );
+        }
+    }
+    
+    return numshots;
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x6b7d8ba6, Offset: 0x1b38
-// Size: 0x1
-function hideweaponmagattachment()
+// Size: 0x2b
+function hideweaponmagattachment( weaponname )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.weaponinfo[ weaponname ].hasclip = 0;
+    updateattachedweaponmodels();
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x6b7d8ba7, Offset: 0x1b6b
-// Size: 0x1
-function showweaponmagattachment()
+// Size: 0x2c
+function showweaponmagattachment( weaponname )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self.weaponinfo[ weaponname ].hasclip = 1;
+    updateattachedweaponmodels();
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x320d1327, Offset: 0x1b9f
-// Size: 0x1
-function handledropclip()
+// Size: 0x31b
+function handledropclip( flagname )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "abort_reload" );
+    self endon( flagname + "_finished" );
+    
+    /#
+        self.var_ff4c8b05d3ce4627 = gettime();
+    #/
+    
+    clipweapon = self.weapon;
+    clipweaponname = getcompleteweaponname( clipweapon );
+    clipmodel = undefined;
+    
+    if ( self.weaponinfo[ clipweaponname ].useclip )
+    {
+        clipmodel = getweaponclipmodel( self.weapon );
+    }
+    
+    /#
+        if ( isdefined( clipmodel ) )
+        {
+            thread function_4c55a5c08debdb0c( 4, flagname, clipmodel );
+        }
+    #/
+    
+    if ( self.weaponinfo[ clipweaponname ].hasclip )
+    {
+        if ( utility_common::isusingsidearm() )
+        {
+            self playsound( "weap_reload_pistol_clipout_npc" );
+        }
+        else
+        {
+            self playsound( "weap_reload_smg_clipout_npc" );
+        }
+        
+        if ( isdefined( clipmodel ) )
+        {
+            hideweaponmagattachment( clipweaponname );
+            thread dropclipmodel( clipmodel, "tag_clip" );
+        }
+    }
+    
+    bdone = 0;
+    
+    while ( !bdone )
+    {
+        self waittill( flagname, notes );
+        
+        if ( !isarray( notes ) )
+        {
+            notes = [ notes ];
+        }
+        
+        foreach ( notetrack in notes )
+        {
+            switch ( notetrack )
+            {
+                case #"hash_5b5aa4b849bd2c6b":
+                    if ( isdefined( clipmodel ) )
+                    {
+                        self attach( clipmodel, "tag_accessory_left" );
+                    }
+                    
+                    break;
+                case #"hash_ae1cecd9e4889cf4":
+                    if ( isdefined( clipmodel ) )
+                    {
+                        self attach( clipmodel, "tag_accessory_right" );
+                    }
+                    
+                    break;
+                case #"hash_cd781db409868556":
+                    if ( isdefined( clipmodel ) )
+                    {
+                        self detach( clipmodel, "tag_accessory_right" );
+                    }
+                    
+                    break;
+                case #"hash_d4a17c4550fa75c2":
+                    if ( isdefined( clipmodel ) )
+                    {
+                        self detach( clipmodel, "tag_accessory_right" );
+                        
+                        if ( clipweapon == self.weapon )
+                        {
+                            showweaponmagattachment( clipweaponname );
+                        }
+                        else
+                        {
+                            self.weaponinfo[ getcompleteweaponname( self.weapon ) ].hasclip = 1;
+                            self.weaponinfo[ clipweaponname ].hasclip = 1;
+                        }
+                        
+                        self notify( "clip_detached" );
+                    }
+                    
+                    weaponlist::refillclip();
+                    bdone = 1;
+                    break;
+                case #"hash_5d086fcae9cf9da1":
+                    if ( isdefined( clipmodel ) )
+                    {
+                        self detach( clipmodel, "tag_accessory_left" );
+                        
+                        if ( clipweapon == self.weapon )
+                        {
+                            showweaponmagattachment( clipweaponname );
+                        }
+                        else
+                        {
+                            self.weaponinfo[ getcompleteweaponname( self.weapon ) ].hasclip = 1;
+                            self.weaponinfo[ clipweaponname ].hasclip = 1;
+                        }
+                        
+                        self notify( "clip_detached" );
+                    }
+                    
+                    weaponlist::refillclip();
+                    bdone = 1;
+                    break;
+            }
+        }
+    }
 }
 
 // Namespace shared
 // Params 2
 // Checksum 0x489f9ce9, Offset: 0x1ec2
-// Size: 0x1
-function dropclipmodel()
+// Size: 0x15
+function dropclipmodel( clipmodel, tagname )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    
 }
 
-// Namespace shared
-// Params 3
-// Checksum 0x8b270699, Offset: 0x1edf
-// Size: 0x1
-function function_4c55a5c08debdb0c()
-{
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
-}
+/#
+
+    // Namespace shared
+    // Params 3
+    // Checksum 0x8b270699, Offset: 0x1edf
+    // Size: 0xe0, Type: dev
+    function function_4c55a5c08debdb0c( waittime, statename, clipmodel )
+    {
+        self endon( "<dev string:xd8>" );
+        self endon( "<dev string:xe1>" );
+        self endon( "<dev string:xf1>" );
+        wait waittime;
+        msg1 = "<dev string:x102>" + self getentitynumber() + "<dev string:x109>" + waittime + "<dev string:x142>";
+        msg2 = "<dev string:x14f>" + statename + "<dev string:x15e>" + clipmodel + "<dev string:x171>" + self.weapon.basename + "<dev string:x185>";
+        msg3 = "<dev string:x18a>";
+        msg4 = "<dev string:x1db>";
+        assertmsg( msg1 + "<dev string:x232>" + msg2 + "<dev string:x232>" + msg3 + "<dev string:x232>" + msg4 );
+    }
+
+#/
 
 // Namespace shared
 // Params 2
 // Checksum 0x7305aa88, Offset: 0x1fc7
-// Size: 0x1
-function movetonodeovertime()
+// Size: 0x14c
+function movetonodeovertime( node, time )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "killanimscript" );
+    nodeorigin = node.origin;
+    distsq = distancesquared( self.origin, nodeorigin );
+    
+    if ( distsq < 1 )
+    {
+        self safeteleport( nodeorigin );
+        return;
+    }
+    
+    if ( distsq > 256 && !self maymovetopoint( nodeorigin, !utility::actor_is3d() ) )
+    {
+        println( "<dev string:x237>" + nodeorigin + "<dev string:x267>" );
+        return;
+    }
+    
+    self.keepclaimednodeifvalid = 1;
+    startdist = distance( self.origin, nodeorigin );
+    frames = int( time * 20 );
+    
+    for ( i = 0; i < frames ; i++ )
+    {
+        nodeorigin = node.origin;
+        nodetoself = self.origin - nodeorigin;
+        nodetoself = vectornormalize( nodetoself );
+        adjustedstartpos = nodeorigin + nodetoself * startdist;
+        lerppos = adjustedstartpos + ( nodeorigin - adjustedstartpos ) * ( i + 1 ) / frames;
+        self safeteleport( lerppos );
+        wait 0.05;
+    }
+    
+    self.keepclaimednodeifvalid = 0;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x2f039683, Offset: 0x211b
-// Size: 0x1
+// Size: 0x4, Type: bool
 function returntrue()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    return true;
 }
+
+#using_animtree( "generic_human" );
 
 // Namespace shared
 // Params 3
 // Checksum 0xe651ad75, Offset: 0x2128
-// Size: 0x1
-function playlookanimation()
+// Size: 0x9b
+function playlookanimation( lookanim, looktime, canstopcallback )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( canstopcallback ) )
+    {
+        canstopcallback = &returntrue;
+    }
+    
+    for ( i = 0; i < looktime * 10 ; i++ )
+    {
+        if ( isalive( self.enemy ) )
+        {
+            if ( utility_common::canseeenemy() && [[ canstopcallback ]]() )
+            {
+                return;
+            }
+        }
+        
+        if ( utility_common::issuppressedwrapper() && [[ canstopcallback ]]() )
+        {
+            return;
+        }
+        
+        self setanimknoball( lookanim, %body, 1, 0.1 );
+        wait 0.1;
+    }
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0x9843c286, Offset: 0x21cb
-// Size: 0x1
-function throwdownweapon()
+// Size: 0x30
+function throwdownweapon( swapanim )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    self endon( "killanimscript" );
+    placeweaponon( self.secondaryweapon, "right" );
+    gameskill::didsomethingotherthanshooting();
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xc3fbf377, Offset: 0x2203
-// Size: 0x1
+// Size: 0x71
 function rpgplayerrepulsor()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    misses_remaining = rpgplayerrepulsor_getnummisses();
+    
+    if ( misses_remaining == 0 )
+    {
+        return;
+    }
+    
+    self endon( "death" );
+    
+    for ( ;; )
+    {
+        self waittill( "shooting" );
+        
+        if ( isdefined( level.var_4dce2a16c34c05b8 ) )
+        {
+            self [[ level.var_4dce2a16c34c05b8 ]]();
+            continue;
+        }
+        
+        if ( function_74931e0d742238ab() )
+        {
+            level thread rpgplayerrepulsor_create( self.enemy );
+            misses_remaining--;
+            
+            if ( misses_remaining <= 0 )
+            {
+                return;
+            }
+        }
+    }
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xec5d0712, Offset: 0x227c
-// Size: 0x1
+// Size: 0x33, Type: bool
 function function_74931e0d742238ab()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( isdefined( level.createrpgrepulsors ) && !level.createrpgrepulsors )
+    {
+        return false;
+    }
+    
+    if ( isplayer( self.enemy ) )
+    {
+        return true;
+    }
+    
+    return false;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x111fcbaa, Offset: 0x22b8
-// Size: 0x1
+// Size: 0x70
 function rpgplayerrepulsor_getnummisses()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    skill = utility::getdifficulty();
+    
+    switch ( skill )
+    {
+        case #"hash_22ce4003c1e5227b":
+        case #"hash_ba826b0f31b00b60":
+            return 2;
+        case #"hash_420f6837f7efa409":
+        case #"hash_c71b112fe04823d6":
+        case #"hash_cc9157548a55043c":
+            return 1;
+        case #"hash_fa14cdf6bd53b8e4":
+            return 0;
+    }
+    
+    return 2;
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0xc1537f52, Offset: 0x2331
-// Size: 0x1
-function rpgplayerrepulsor_create()
+// Size: 0x7f
+function rpgplayerrepulsor_create( ent )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    ent notify( "stop_prev_repulsor" );
+    ent endon( "stop_prev_repulsor" );
+    
+    if ( !isdefined( ent.var_47894f862f7e492a ) )
+    {
+        ent.var_47894f862f7e492a = missile_createrepulsorent( ent, 5000, 800 );
+    }
+    
+    repulsor = ent.var_47894f862f7e492a;
+    ent utility::waittill_notify_or_timeout( "death", 4 );
+    missile_deleteattractor( repulsor );
+    ent.var_47894f862f7e492a = undefined;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x3687b88a, Offset: 0x23b8
-// Size: 0x1
+// Size: 0xe7
 function pickandsetforceweapon()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( self.weaponoverride )
+    {
+        return;
+    }
+    
+    if ( utility::within_fov( level.player.origin, level.player getplayerangles(), self.origin, 0.173648 ) )
+    {
+        return;
+    }
+    
+    objweapon = undefined;
+    
+    if ( distancesquared( self.origin, self.enemy.origin ) < self.closeweaponmaxdist * self.closeweaponmaxdist )
+    {
+        objweapon = self.forcedweaponclose;
+    }
+    else
+    {
+        objweapon = self.forcedweaponfar;
+    }
+    
+    if ( objweapon != self.weapon )
+    {
+        forceuseweapon( objweapon, "primary" );
+        self.weapon_stow setmodel( getweaponmodel( self.forcedweapon ) );
+        self.forcedweapon = objweapon;
+    }
 }
 
 // Namespace shared
 // Params 2
 // Checksum 0xf4fc3b77, Offset: 0x24a7
-// Size: 0x1
-function forceuseweapon()
+// Size: 0x22e
+function forceuseweapon( newweapon, targetslot )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    assert( isdefined( newweapon ) );
+    assert( isdefined( targetslot ) );
+    assert( targetslot == "<dev string:x28d>" || targetslot == "<dev string:x298>" || targetslot == "<dev string:x2a5>", "<dev string:x2b0>" );
+    newweaponobj = undefined;
+    
+    if ( isweapon( newweapon ) )
+    {
+        assert( !isnullweapon( newweapon ) );
+        newweaponobj = newweapon;
+    }
+    else
+    {
+        assert( newweapon != "<dev string:x24>" );
+        newweaponobj = [[ level.fnbuildweapon ]]( newweapon );
+    }
+    
+    if ( self.script_fakeactor || self.script_drone )
+    {
+        ai::gun_remove();
+        ai::gun_create_fake( getweaponattachmentworldmodels( newweaponobj ) );
+        return;
+    }
+    
+    if ( !utility::isweaponinitialized( newweaponobj ) )
+    {
+        utility::initweapon( newweaponobj );
+    }
+    
+    hasweapon = !isnullweapon( self.weapon );
+    iscurrentsidearm = utility_common::isusingsidearm();
+    isnewsidearm = targetslot == "sidearm";
+    isnewsecondary = targetslot == "secondary";
+    
+    if ( hasweapon && iscurrentsidearm != isnewsidearm )
+    {
+        assert( self.weapon != newweaponobj );
+        
+        if ( iscurrentsidearm )
+        {
+            holstertarget = "none";
+        }
+        else if ( isnewsecondary )
+        {
+            holstertarget = "back";
+        }
+        else
+        {
+            holstertarget = "chest";
+        }
+        
+        placeweaponon( self.weapon, holstertarget );
+        self.lastweapon = self.weapon;
+    }
+    else
+    {
+        self.lastweapon = newweaponobj;
+    }
+    
+    placeweaponon( newweaponobj, "right" );
+    
+    if ( isnewsidearm )
+    {
+        self.sidearm = newweaponobj;
+    }
+    else if ( isnewsecondary )
+    {
+        self.secondaryweapon = newweaponobj;
+    }
+    else
+    {
+        self.primaryweapon = newweaponobj;
+    }
+    
+    self.weapon = newweaponobj;
+    self.bulletsinclip = weaponclipsize( self.weapon );
+    self notify( "weapon_switch_done" );
+    updateweaponarchetype( weaponclass( self.weapon ) );
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0xc993bf89, Offset: 0x26dd
-// Size: 0x1
-function updateweaponarchetype()
+// Size: 0x1c2
+function updateweaponarchetype( weapclass )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( self._blackboard ) || asm_bb::bb_isanimscripted() || !( isdefined( self.asm ) && isdefined( self.animsetname ) ) )
+    {
+        return;
+    }
+    
+    if ( self ignoreweaponarchetypes() )
+    {
+        return;
+    }
+    
+    basearchetypename = self getbasearchetype();
+    
+    if ( weapclass == "pistol" && archetypeassetloaded( self.animsetname + "_pistol" ) )
+    {
+        self setoverridearchetype( "weapon", self.animsetname + "_pistol", 1 );
+        return;
+    }
+    
+    if ( weapclass == "pistol" && archetypeassetloaded( basearchetypename + "_pistol" ) )
+    {
+        self setoverridearchetype( "weapon", basearchetypename + "_pistol", 1 );
+        return;
+    }
+    
+    if ( weapclass == "mg" && archetypeassetloaded( self.animsetname + "_lmg" ) )
+    {
+        self setoverridearchetype( "weapon", self.animsetname + "_lmg", 1 );
+        return;
+    }
+    
+    if ( weapclass == "mg" && archetypeassetloaded( basearchetypename + "_lmg" ) )
+    {
+        self setoverridearchetype( "weapon", basearchetypename + "_lmg", 1 );
+        return;
+    }
+    
+    if ( weapclass == "rocketlauncher" && archetypeassetloaded( self.animsetname + "_rpg" ) )
+    {
+        self setoverridearchetype( "weapon", self.animsetname + "_rpg", 1 );
+        return;
+    }
+    
+    if ( weapclass == "rocketlauncher" && archetypeassetloaded( basearchetypename + "_rpg" ) )
+    {
+        self setoverridearchetype( "weapon", basearchetypename + "_rpg", 1 );
+        return;
+    }
+    
+    self clearoverridearchetype( "weapon" );
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xbdfc804a, Offset: 0x28a7
-// Size: 0x1
+// Size: 0x31, Type: bool
 function everusessecondaryweapon()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( utility_common::isshotgun( self.secondaryweapon ) )
+    {
+        return true;
+    }
+    
+    if ( weaponclass( self.primaryweapon ) == "rocketlauncher" )
+    {
+        return true;
+    }
+    
+    return false;
 }
 
 // Namespace shared
 // Params 1
 // Checksum 0xc22bad09, Offset: 0x28e1
-// Size: 0x1
-function default_weaponsetup()
+// Size: 0x428
+function default_weaponsetup( scriptedweaponassignment )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( !isdefined( self.stowsidearmposition ) )
+    {
+        if ( self.bhasthighholster )
+        {
+            self.stowsidearmposition = "thigh";
+        }
+        else
+        {
+            self.stowsidearmposition = anim.stowsidearmpositiondefault;
+        }
+    }
+    
+    if ( self.scriptedweaponfailed )
+    {
+        if ( isdefined( level.fnscriptedweaponassignment ) )
+        {
+            if ( isdefined( self.scriptedweaponfailed_primaryarray ) )
+            {
+                self.primaryweapon = [[ level.fnscriptedweaponassignment ]]( self.scriptedweaponfailed_primaryarray );
+                self.scriptedweaponfailed_primaryarray = undefined;
+            }
+            
+            if ( isdefined( self.scriptedweaponfailed_sidearmarray ) )
+            {
+                self.sidearm = [[ level.fnscriptedweaponassignment ]]( self.scriptedweaponfailed_sidearmarray, "sidearm" );
+                self.scriptedweaponfailed_sidearmarray = undefined;
+            }
+            
+            if ( isdefined( self.scriptedweaponfailed_secondaryarray ) )
+            {
+                self.secondaryweapon = [[ level.fnscriptedweaponassignment ]]( self.scriptedweaponfailed_secondaryarray );
+                self.scriptedweaponfailed_secondaryarray = undefined;
+            }
+        }
+    }
+    else if ( self.usescriptedweapon && isdefined( level.fnscriptedweaponassignment ) )
+    {
+        self.primaryweapon = [[ level.fnscriptedweaponassignment ]]( self.primaryweapon );
+        self.secondaryweapon = [[ level.fnscriptedweaponassignment ]]( self.secondaryweapon );
+        self.sidearm = [[ level.fnscriptedweaponassignment ]]( self.sidearm, "sidearm" );
+    }
+    else if ( !self.usescriptedweapon && !isdefined( self.agent_type ) )
+    {
+        if ( !utility::issp() )
+        {
+            if ( !isweapon( self.primaryweapon ) )
+            {
+                self.primaryweapon = [[ level.fnbuildweapon ]]( self.primaryweapon, [], "camo_none", "none" );
+            }
+            
+            if ( !isweapon( self.secondaryweapon ) )
+            {
+                self.secondaryweapon = [[ level.fnbuildweapon ]]( self.secondaryweapon, [], "camo_none", "none" );
+            }
+            
+            if ( !isweapon( self.sidearm ) )
+            {
+                self.sidearm = [[ level.fnbuildweapon ]]( self.sidearm, [], "camo_none", "none" );
+            }
+        }
+        else
+        {
+            self.primaryweapon = [[ level.fnbuildweapon ]]( self.primaryweapon, [] );
+            self.secondaryweapon = [[ level.fnbuildweapon ]]( self.secondaryweapon, [] );
+            self.sidearm = [[ level.fnbuildweapon ]]( self.sidearm, [] );
+        }
+    }
+    
+    utility::initweapon( nullweapon() );
+    
+    if ( !isnullweapon( self.primaryweapon ) )
+    {
+        utility::initweapon( self.primaryweapon );
+    }
+    
+    if ( !isnullweapon( self.secondaryweapon ) )
+    {
+        utility::initweapon( self.secondaryweapon );
+    }
+    
+    if ( !isnullweapon( self.sidearm ) )
+    {
+        utility::initweapon( self.sidearm );
+    }
+    
+    validatesidearm();
+    self setdefaultaimlimits();
+    self.a.weaponpos = [];
+    self.a.weaponposdropping = [];
+    self.lastweapon = self.weapon;
+    
+    if ( utility_common::usingrocketlauncher() )
+    {
+        thread rpgplayerrepulsor();
+    }
+    
+    self.rocketammo = 100;
+    
+    if ( !isnullweapon( self.primaryweapon ) )
+    {
+        placeweaponon( self.primaryweapon, "right" );
+    }
+    
+    if ( utility_common::isshotgun( self.secondaryweapon ) )
+    {
+        placeweaponon( self.secondaryweapon, "back" );
+    }
+    
+    if ( !isnullweapon( self.sidearm ) && isdefined( self.stowsidearmposition ) )
+    {
+        placeweaponon( self.sidearm, self.stowsidearmposition );
+    }
+    
+    if ( utility::issp() && self isbadguy() )
+    {
+        self.has_no_ir = 1;
+    }
+    
+    weaponlist::refillclip();
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x3d3c393, Offset: 0x2d11
-// Size: 0x1
+// Size: 0x13b
 function validatesidearm()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    /#
+        if ( self.primaryweapon == self.sidearm && !isnullweapon( self.primaryweapon ) )
+        {
+            exportstring = self.export ?? "<dev string:x2e8>";
+            classnamestring = isagent( self ) ? self.agent_type : self.classname;
+            assertmsg( "<dev string:x2ec>" + classnamestring + "<dev string:x2f4>" + exportstring + "<dev string:x307>" + getcompleteweaponname( self.primaryweapon ) + "<dev string:x336>" );
+        }
+        
+        if ( self.secondaryweapon == self.sidearm && !isnullweapon( self.secondaryweapon ) && everusessecondaryweapon() )
+        {
+            exportstring = self.export ?? "<dev string:x2e8>";
+            classnamestring = isagent( self ) ? self.agent_type : self.classname;
+            assertmsg( "<dev string:x2ec>" + classnamestring + "<dev string:x2f4>" + exportstring + "<dev string:x33c>" + getcompleteweaponname( self.primaryweapon ) + "<dev string:x336>" );
+        }
+    #/
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x518ec032, Offset: 0x2e54
-// Size: 0x1
+// Size: 0x9c
 function initmeleecharges()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    anim.meleechargetimers[ "c6" ] = 0;
+    anim.meleechargeintervals[ "c6" ] = 9000;
+    anim.meleechargeplayertimers[ "c6" ] = 0;
+    anim.meleechargeplayerintervals[ "c6" ] = 15000;
+    anim.meleechargetimers[ "seeker" ] = 0;
+    anim.meleechargeintervals[ "seeker" ] = 9000;
+    anim.meleechargeplayertimers[ "seeker" ] = 0;
+    anim.meleechargeplayerintervals[ "seeker" ] = 15000;
+    
+    /#
+        thread combat_utility::showgrenadetimers();
+    #/
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xdc3ce02e, Offset: 0x2ef8
-// Size: 0x1
+// Size: 0x4c
 function init_squadmanager()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( anim.squadinitialized )
+    {
+        return;
+    }
+    
+    anim.squadcreatefuncs = [];
+    anim.squadcreatestrings = [];
+    anim.squads = [];
+    anim.squadindex = [];
+    anim.squadrand = 0;
+    anim.squadinitialized = 1;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xfa76f2da, Offset: 0x2f4c
-// Size: 0x1
+// Size: 0x27b
 function initanimvars()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    anim.animflagnameindex = 0;
+    anim.combatmemorytimeconst = 10000;
+    anim.combatmemorytimerand = 6000;
+    anim.weaponsetupfuncs = [];
+    anim.weaponsetupfuncs[ "c12" ] = &c12_weaponsetup;
+    anim.dismemberheavyfx = [];
+    anim.weaponstowfunction = &pickandsetforceweapon;
+    
+    if ( !isdefined( anim.optionalstepeffects ) )
+    {
+        anim.optionalstepeffects = [];
+    }
+    
+    if ( !isdefined( anim.optionalstepeffectssmall ) )
+    {
+        anim.optionalstepeffectssmall = [];
+    }
+    
+    if ( !isdefined( anim.optionalfootprinteffects ) )
+    {
+        anim.optionalfootprinteffects = [];
+    }
+    
+    if ( !isdefined( anim.shootenemywrapper_func ) )
+    {
+        anim.shootenemywrapper_func = &utility::shootenemywrapper_shootnotify;
+    }
+    
+    if ( !isdefined( anim.shootposwrapper_func ) )
+    {
+        anim.shootposwrapper_func = &utility::shootposwrapper;
+    }
+    
+    setglobalaimsettings();
+    anim.fire_notetrack_functions = [];
+    anim.lastcarexplosiontime = -100000;
+    anim.burstfirenumshots = [ 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 5 ];
+    anim.fastburstfirenumshots = [ 2, 3, 3, 3, 4, 4, 4, 5, 5 ];
+    anim.semifirenumshots = [ 1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5 ];
+    anim.badplaces = [];
+    anim.badplaceint = 0;
+    anim.nodeyaws = [];
+    anim.grenadethrowanims = [];
+    anim.grenadethrowoffsets = [];
+    anim.var_50d4237318a10673 = [];
+    
+    if ( !isdefined( anim.var_7a467f51952fc7be ) )
+    {
+        anim.var_7a467f51952fc7be = &ai_lookat::enablelookatentity;
+        anim.var_89690e2f5b3c4893 = &ai_lookat::disablelookatentity;
+    }
+    
+    if ( !isdefined( anim.var_5458eb88a5c60307 ) )
+    {
+        anim.var_5458eb88a5c60307 = &detachallweaponmodels;
+        anim.var_a539877b0796cf31 = &updateattachedweaponmodels;
+    }
+    
+    initgestures();
+    initmaxspeedforpathlengthtable();
+    animselector::init();
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x2f3b45e3, Offset: 0x31cf
-// Size: 0x1
+// Size: 0xb4
 function initgestures()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    gestures = [];
+    gestures[ gestures.size ] = "point_casual";
+    gestures[ gestures.size ] = "point_military";
+    gestures[ gestures.size ] = "yes";
+    gestures[ gestures.size ] = "no";
+    gestures[ gestures.size ] = "hold";
+    gestures[ gestures.size ] = "talk";
+    gestures[ gestures.size ] = "shrug";
+    gestures[ gestures.size ] = "getdown";
+    gestures[ gestures.size ] = "nvg_on";
+    gestures[ gestures.size ] = "nvg_off";
+    gestures[ gestures.size ] = "beckon";
+    gestures[ gestures.size ] = "lookback_right";
+    gestures[ gestures.size ] = "wrist_com_lower";
+    gestures[ gestures.size ] = "wrist_com_raise";
+    anim.gestures = gestures;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xb6e07066, Offset: 0x328b
-// Size: 0x1
+// Size: 0x8a
 function setglobalaimsettings()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    anim.covercrouchleanpitch = 55;
+    anim.aimyawdifffartolerance = 10;
+    anim.aimyawdiffclosedistsq = 4096;
+    anim.aimyawdiffclosetolerance = 45;
+    anim.aimpitchdifftolerance = 20;
+    anim.painyawdifffartolerance = 25;
+    anim.painyawdiffclosedistsq = anim.aimyawdiffclosedistsq;
+    anim.painyawdiffclosetolerance = anim.aimyawdiffclosetolerance;
+    anim.painpitchdifftolerance = 30;
+    anim.maxanglecheckyawdelta = 65;
+    anim.maxanglecheckpitchdelta = 65;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x319bfe3f, Offset: 0x331d
-// Size: 0x1
+// Size: 0x2d
 function c12_getweapontypeforweapon()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    if ( utility_common::usingrocketlauncher() )
+    {
+        return "rocket";
+    }
+    else if ( utility_common::function_2fff89909fdbfbab( self.weapon ) )
+    {
+        return "minigun";
+    }
+    
+    return undefined;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x14a964f5, Offset: 0x3353
-// Size: 0x1
+// Size: 0x96
 function c12_weaponsetup()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self.weapons = [];
+    
+    if ( !isnullweapon( self.primaryweapon ) )
+    {
+        self.weapon = self.primaryweapon;
+        self.weapons[ "right" ] = c12_getweapontypeforweapon();
+    }
+    
+    if ( !isnullweapon( self.secondaryweapon ) )
+    {
+        self.weapon = self.secondaryweapon;
+        self.weapons[ "left" ] = c12_getweapontypeforweapon();
+    }
+    
+    self.weapon = nullweapon();
+    self.bulletsinclip = 1;
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0x3abecdeb, Offset: 0x33f1
-// Size: 0x1
+// Size: 0xb3
 function setuprandomtable()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    anim.randominttablesize = 60;
+    anim.randominttable = [];
+    
+    for ( i = 0; i < anim.randominttablesize ; i++ )
+    {
+        anim.randominttable[ i ] = i;
+    }
+    
+    for ( i = 0; i < anim.randominttablesize ; i++ )
+    {
+        switchwith = randomint( anim.randominttablesize );
+        temp = anim.randominttable[ i ];
+        anim.randominttable[ i ] = anim.randominttable[ switchwith ];
+        anim.randominttable[ switchwith ] = temp;
+    }
 }
 
 // Namespace shared
 // Params 0
 // Checksum 0xf2412563, Offset: 0x34ac
-// Size: 0x1
+// Size: 0x5b
 function setupweapons()
 {
-    InvalidOpCode( 0x71 );
-    // Unknown operator ( 0x71, t10, Black Ops 7 )
+    self endon( "death" );
+    utility::flag_wait( "load_finished" );
+    
+    if ( isdefined( anim.weaponsetupfuncs ) && isdefined( anim.weaponsetupfuncs[ self.unittype ] ) )
+    {
+        self [[ anim.weaponsetupfuncs[ self.unittype ] ]]();
+        return;
+    }
+    
+    default_weaponsetup();
 }
 
 // Namespace shared
 // Params 3
 // Checksum 0xccafe237, Offset: 0x350f
-// Size: 0x1
-function setscriptammo()
+// Size: 0x1fc
+function setscriptammo( weaponname, inherit_from, placedub )
 {
-    InvalidOpCode( 0x2e );
-    // Unknown operator ( 0x2e, t10, Black Ops 7 )
+    if ( isdefined( inherit_from.script_ammo_clip ) )
+    {
+        assert( isdefined( inherit_from.script_ammo_clip ), "<dev string:x36d>" );
+        assert( isdefined( inherit_from.script_ammo_extra ), "<dev string:x399>" );
+        self itemweaponsetammo( inherit_from.script_ammo_clip, inherit_from.script_ammo_extra );
+    }
+    else if ( isdefined( inherit_from.script_ammo_extra ) )
+    {
+        assert( isdefined( inherit_from.script_ammo_extra ), "<dev string:x3de>" );
+        assert( isdefined( inherit_from.script_ammo_clip ), "<dev string:x40b>" );
+        self itemweaponsetammo( inherit_from.script_ammo_clip, inherit_from.script_ammo_extra );
+    }
+    
+    if ( isdefined( inherit_from.script_ammo_alt_clip ) )
+    {
+        assert( isdefined( inherit_from.script_ammo_alt_clip ), "<dev string:x450>" );
+        assert( isdefined( inherit_from.script_ammo_extra ), "<dev string:x480>" );
+        self itemweaponsetammo( inherit_from.script_ammo_alt_clip, inherit_from.script_ammo_alt_extra, undefined, 1 );
+    }
+    else if ( isdefined( inherit_from.script_ammo_alt_extra ) )
+    {
+        assert( isdefined( inherit_from.script_ammo_alt_extra ), "<dev string:x4c9>" );
+        assert( isdefined( inherit_from.script_ammo_clip ), "<dev string:x4fa>" );
+        self itemweaponsetammo( inherit_from.script_ammo_alt_clip, inherit_from.script_ammo_alt_extra, undefined, 1 );
+    }
+    
+    if ( isdefined( inherit_from.script_ammo_max ) )
+    {
+        self itemweaponsetammo( weaponclipsize( self ), weaponmaxammo( self ) );
+    }
+    
+    if ( placedub )
+    {
+        self itemweaponsetammo( 1, 6, 0, 1 );
+        return;
+    }
+    
+    if ( issubstr( weaponname, "ub_golf25_sp" ) || issubstr( weaponname, "ub_mike203_sp" ) )
+    {
+        self itemweaponsetammo( 1, 1, 0, 1 );
+    }
 }
 
