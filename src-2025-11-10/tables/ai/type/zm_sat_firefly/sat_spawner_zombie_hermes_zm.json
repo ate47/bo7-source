@@ -1,0 +1,61 @@
+{
+    "name": "#sat_spawner_zombie_hermes_zm",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_hermes",
+    "behaviorTreeAsset": "#zombie_hermes",
+    "footStepsFxTable": "#hash_f461b9b842c8df30",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "aiImpactVFXTable": "#hash_b1a7e0a07e728969",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_zombie_hermes"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/aitypes/zombie_hermes/zombie_hermes.gsc",
+        "#scripts/zm/systems/aitypes/zm_zombie_hermes.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_803656a6025b3c4b": [
+            null,
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_hermes",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_hermes",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_hermes",
+        "#health": 600,
+        "#healthbarsettings": "%#hash_4747d9a79b6c7d29",
+        "#hash_8d4502f31fc3cc9d": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "",
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_hermes",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_hermes",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

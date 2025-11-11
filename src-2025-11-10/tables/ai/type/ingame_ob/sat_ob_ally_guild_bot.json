@@ -1,0 +1,68 @@
+{
+    "name": "#sat_ob_ally_guild_bot",
+    "species": "human",
+    "coverSelectorAsset": "#hash_65c18147414316dd",
+    "#hash_d1e3f54c868c90eb": "#hash_757b7bec2d18232e",
+    "enemySelectorAsset": "#hash_6d9af1edb3799185",
+    "animationStateMachineAsset": "#soldier",
+    "behaviorTreeAsset": "#juggernaut_agent_sat_ob",
+    "footStepsFxTable": "#hash_9415ba431c0caa27",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "scriptbundle": "#hash_df5def0b1dec1931",
+    "unitType": "juggernaut",
+    "team": "allies",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_enemy_guild_bot"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_875ce81c4e01adcc",
+            "weapontype": "primary",
+            "weapon": "sat_ar_eagle_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/wc/sat_guild_bot.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_959d9bf0d800e404": "#hash_a4c1db397d074ede",
+        "#hash_803656a6025b3c4b": [
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null
+        ],
+        "#unittype": "juggernaut",
+        "#subclass": "ob_schematic_soldier_buddy_1",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_soldier_base_ob_sat_guildbot",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 1000,
+        "#healthbarsettings": "%#",
+        "#hash_8d4502f31fc3cc9d": "aisettings_sat_guild_bot",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#hash_2a0bcfaae7400f6f": "#hash_6023a77f20031973",
+        "#grenadeweapon": "",
+        "#damagefiltering": false,
+        "#hash_aab5beb67c1704ec": true,
+        "#animationstatemachine": "soldier",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm_always_strafe",
+        "#behaviortreeasset": "juggernaut_agent_sat_ob",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "allies"
+    }
+}

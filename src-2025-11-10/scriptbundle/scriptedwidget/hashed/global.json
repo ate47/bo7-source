@@ -1,0 +1,826 @@
+{
+    "#hash_43cba95dff4fd4ca": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [
+            "#hash_8bbd9447aae1f181": {
+                "#properties": [
+                    "#height": {
+                        "#variant_object": {
+                            "#property": "#height",
+                            "#value": 10,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#image": {
+                        "#variant_object": {
+                            "#property": "#image",
+                            "#value": "%#hash_39a67c2433cf8ece",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#color": {
+                        "#variant_object": {
+                            "#property": "#color",
+                            "#value": "0.384314 0.835279 0.945098 1",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#width": {
+                        "#variant_object": {
+                            "#property": "#width",
+                            "#value": 12,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#image_backing": {
+                        "#variant_object": {
+                            "#property": "#image_backing",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#hash_8bbd9447aae1f181"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#height": {
+                "#variant_object": {
+                    "#property": "#height",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#image": {
+                "#variant_object": {
+                    "#property": "#image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#color": {
+                "#variant_object": {
+                    "#property": "#color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#width": {
+                "#variant_object": {
+                    "#property": "#width",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#image_backing": {
+                "#variant_object": {
+                    "#property": "#image_backing",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            }
+        ],
+        "#hash_4ca4ad40b0b3425": true,
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#hash_4e89386971a50a09": [],
+        "#requirepath": "ui.generated.widgets.ingame.shared.scriptedwidgetgenericicon",
+        "#luafile": "ui\\generated\\widgets\\ingame\\shared\\scriptedwidgetgenericicon.lua",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hash_9b178cad83dcc886": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#widget": "#scriptedwidgetgenericicon",
+        "#states": [
+            "#blink": {
+                "#animation": "#blink",
+                "#name": "#blink"
+            },
+            "#fadeout": {
+                "#animation": "#fadeout",
+                "#name": "#fadeout"
+            },
+            "#hide": {
+                "#animation": "#hide",
+                "#name": "#hide"
+            },
+            "#fadein": {
+                "#animation": "#fadein",
+                "#name": "#fadein"
+            },
+            "#default": {
+                "#animation": "#defaultsequence",
+                "#name": "#default"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_571c138f8ec95937": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [
+            "#ability_crate_hint": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#property": "#object_data",
+                            "#value": "hint_object_ability_crate.hintobject",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#ability_crate_hint"
+            },
+            "#skills_tut_hint": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#value": "0.529412 0.654902 0.709804 1",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#property": "#object_data",
+                            "#value": "hint_object_skills_tut.hintobject",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#skills_tut_hint"
+            },
+            "#hash_a89d56232bdb87ae": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#property": "#object_data",
+                            "#value": "hint_object_experience_bar.hintobject",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#hash_a89d56232bdb87ae"
+            },
+            "#jailbreak_hint": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#property": "#object_data",
+                            "#value": "hint_object_jailbreak.hintobject",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#jailbreak_hint"
+            },
+            "#zones_tut_hint": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#value": "0.529412 0.654902 0.709804 1",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#property": "#object_data",
+                            "#value": "hint_object_zones_tut.hintobject",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#zones_tut_hint"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#hint_background_alpha": {
+                "#variant_object": {
+                    "#property": "#hint_background_alpha",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#hint_background_color": {
+                "#variant_object": {
+                    "#property": "#hint_background_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#hint_hide_sfx_alias": {
+                "#variant_object": {
+                    "#property": "#hint_hide_sfx_alias",
+                    "#type": "RawStringProperty"
+                },
+                "#variant_type": "Types_RawStringPropertyTemplate"
+            },
+            "#object_data": {
+                "#variant_object": {
+                    "#property": "#object_data",
+                    "#type": "AssetProperty"
+                },
+                "#variant_type": "Types_AssetPropertyTemplate"
+            },
+            "#hint_separator_line": {
+                "#variant_object": {
+                    "#property": "#hint_separator_line",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#hint_highlight_alpha": {
+                "#variant_object": {
+                    "#property": "#hint_highlight_alpha",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#hint_background_image": {
+                "#variant_object": {
+                    "#property": "#hint_background_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#hint_separator_alpha": {
+                "#variant_object": {
+                    "#property": "#hint_separator_alpha",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#hint_highlight_color": {
+                "#variant_object": {
+                    "#property": "#hint_highlight_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#hint_show_sfx_alias": {
+                "#variant_object": {
+                    "#property": "#hint_show_sfx_alias",
+                    "#type": "RawStringProperty"
+                },
+                "#variant_type": "Types_RawStringPropertyTemplate"
+            },
+            "#hint_highlight_image1": {
+                "#variant_object": {
+                    "#property": "#hint_highlight_image1",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#hint_highlight_image2": {
+                "#variant_object": {
+                    "#property": "#hint_highlight_image2",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            }
+        ],
+        "#hash_b7ae79d01418b389": true,
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#hash_4e89386971a50a09": [
+            "#hash_1fafe9289295be21": {
+                "#name": "#hash_1fafe9289295be21",
+                "#script_notify": "hint_close_anim_complete"
+            },
+            "#hash_fcc24eecdc67d74c": {
+                "#name": "#hash_fcc24eecdc67d74c",
+                "#script_notify": "hint_close_request"
+            }
+        ],
+        "#requirepath": "ui.generated.widgets.ingame.sp.scriptedwidgethintcontainer",
+        "#luafile": "ui\\generated\\widgets\\ingame\\sp\\scriptedwidgethintcontainer.lua",
+        "#archetype": "%#hash_44286ee2bc975be",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hash_9b178cad83dcc886": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [
+            null
+        ],
+        "#widget": "#scriptedwidgethintcontainer",
+        "#states": [
+            "#show": {
+                "#animation": "#show",
+                "#name": "#show"
+            },
+            "#hide": {
+                "#animation": "#hide",
+                "#name": "#hide"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#assets": []
+    },
+    "#hash_7a69b4336d653799": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [],
+        "#hash_22a6c228fcbc25c9": [],
+        "#hash_4ca4ad40b0b3425": true,
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#hash_4e89386971a50a09": [],
+        "#requirepath": "ui.generated.widgets.ingame.mp.skirmish.skirmishrespawncontainer",
+        "#luafile": "ui\\generated\\widgets\\ingame\\mp\\skirmish\\skirmishrespawncontainer.lua",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hidehud": true,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hash_9b178cad83dcc886": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "#widget": "#skirmishrespawncontainer",
+        "#states": [],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": []
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "name": "#sat_spawner_zombie_mimic_ob_champion",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d486e164c97a28c",
+    "animationStateMachineAsset": "#zombie_mimic",
+    "behaviorTreeAsset": "#zombie_mimic",
+    "footStepsFxTable": "#hash_c75fcac3e46ae49c",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "aiImpactVFXTable": "#hash_eb6341e13effd7d7",
+    "unitType": "zombie",
+    "team": "team_190",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_mimic_ob"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_382c3af252183353",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_mimic_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/ob/systems/aitypes/ob_zombie_mimic.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_803656a6025b3c4b": [
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_mimic",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_mimic_ob_champion",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_mimic_ob_champion",
+        "#health": 900,
+        "#healthbarsettings": "%#hash_552798d8fd301e7b",
+        "#hash_8d4502f31fc3cc9d": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_mimic_ranged_attack_mp",
+        "#hash_61e44fac124dbd73": true,
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_mimic",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_mimic",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "TEAM_HUNDRED_NINETY"
+    }
+}

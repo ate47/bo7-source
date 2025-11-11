@@ -1,0 +1,67 @@
+{
+    "name": "#sat_spawner_europa",
+    "species": "human",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#enemyselector_europa",
+    "animationStateMachineAsset": "#soldier_europa",
+    "behaviorTreeAsset": "#europa",
+    "footStepsFxTable": "#hash_e35f9ba3a17755b9",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "scriptbundle": "#hash_80fde257bcab3875",
+    "unitType": "soldier",
+    "team": "allies",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_europa"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_842dfb283fec1a59",
+            "weapontype": "primary",
+            "weapon": "sat_ar_hawk_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/aitypes/europa/europa.gsc",
+        "#scripts/zm/systems/aitypes/zm_soldier_europa.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_803656a6025b3c4b": [
+            null,
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null
+        ],
+        "#unittype": "soldier",
+        "#subclass": "soldier_europa",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_soldier_europa",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 10000,
+        "#healthbarsettings": "%#hash_db3d887a22d1a82",
+        "#hash_8d4502f31fc3cc9d": "aisettings_sat_soldier_europa",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_blackhole_bomb_zm",
+        "#damagefiltering": false,
+        "#animationstatemachine": "soldier_europa",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm",
+        "#behaviortreeasset": "europa",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 2,
+        "#team": "allies"
+    }
+}

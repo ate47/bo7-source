@@ -1,0 +1,85 @@
+{
+    "name": "#sat_spawner_mannequin_base_ztron",
+    "typeSuffix": "_mann",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d8f91164cd3e0a8",
+    "animationStateMachineAsset": "#zombie_base",
+    "behaviorTreeAsset": "#zombie_base",
+    "footStepsFxTable": "#hash_e22a3ac94f23bcbf",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "aiImpactVFXTable": "#hash_96de59d13d8310de",
+    "dismemberment": "#hash_f4c0b9a7a6aa5bd8",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_base_nuketown_female_01_ztron"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_d475315fad97c80a",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_melee_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/aitypes/zombie_base/zombie_base.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_959d9bf0d800e404": "#hash_2c554eaf3ea3a489",
+        "#hash_803656a6025b3c4b": [
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_mannequin",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_base",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_base_mannequin_t10",
+        "#health": 100,
+        "#healthbarsettings": "%#hash_348992f1945d8f38",
+        "#hash_8d4502f31fc3cc9d": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#hash_2a0bcfaae7400f6f": "#hash_fdaece7fed47b728",
+        "#grenadeweapon": "",
+        "#damagefiltering": false,
+        "#hash_aab5beb67c1704ec": true,
+        "#animationstatemachine": "zombie_base",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_base",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

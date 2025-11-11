@@ -1,0 +1,64 @@
+{
+    "name": "#sat_spawner_zombie_callisto_zm",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_callisto",
+    "behaviorTreeAsset": "#zombie_callisto",
+    "footStepsFxTable": "#hash_b81ff75046cf1bda",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "aiImpactVFXTable": "#hash_e31104b1f0bf9747",
+    "particleSystem1": "#hash_e26eae23315a1d4a",
+    "particleSystem2": "#hash_e26eae23315a1d4a",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_zombie_callisto"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/asm/zombie_callisto/zombie_callisto_asm.gsc",
+        "#scripts/aitypes/zombie_callisto/zombie_callisto.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_803656a6025b3c4b": [
+            null,
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_callisto",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_callisto",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_callisto",
+        "#health": 600,
+        "#healthbarsettings": "%#hash_55760ecac84189b2",
+        "#hash_8d4502f31fc3cc9d": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_ranged_attack",
+        "#hash_61e44fac124dbd73": true,
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_callisto",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_callisto",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

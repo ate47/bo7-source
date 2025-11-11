@@ -1,0 +1,68 @@
+{
+    "name": "#sat_spawner_zombie_ghoul_ob_elite",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_ghoul",
+    "behaviorTreeAsset": "#zombie_ghoul",
+    "footStepsFxTable": "#hash_a2a0bce7f90edb60",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "aiImpactVFXTable": "#hash_eb6341e13effd7d7",
+    "particleSystem1": "#hash_98bfe66f0e9ad672",
+    "particleSystem2": "#hash_98bfe66f0e9ad672",
+    "unitType": "zombie",
+    "team": "team_190",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_ghoul_ob_elite"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_d475315fad97c80a",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_melee_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/aitypes/zombie_ghoul/zombie_ghoul.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_803656a6025b3c4b": [
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_ghoul",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_ghoul_ob",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_ghoul",
+        "#health": 100,
+        "#healthbarsettings": "%#hash_892f716822ecd90",
+        "#hash_8d4502f31fc3cc9d": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "",
+        "#grenadeweapon": "sat_zombie_ghoul_ranged_attack_mp",
+        "#hash_61e44fac124dbd73": true,
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_ghoul",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_ghoul",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "TEAM_HUNDRED_NINETY"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "name": "#sat_spawner_zombie_disciple_ob",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d486e164c97a28c",
+    "animationStateMachineAsset": "#zombie_disciple",
+    "behaviorTreeAsset": "#zombie_disciple",
+    "aiImpactVFXTable": "#hash_eb6341e13effd7d7",
+    "unitType": "zombie",
+    "team": "team_190",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_disciple_ob"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/aitypes/zombie_disciple/zombie_disciple.gsc",
+        "#scripts/ob/systems/aitypes/ob_zombie_disciple.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_803656a6025b3c4b": [
+            null,
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_disciple",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_disciple_ob",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_disciple",
+        "#health": 900,
+        "#healthbarsettings": "%#hash_68049b851d6d416",
+        "#hash_8d4502f31fc3cc9d": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "",
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_disciple",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_disciple",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "TEAM_HUNDRED_NINETY"
+    }
+}

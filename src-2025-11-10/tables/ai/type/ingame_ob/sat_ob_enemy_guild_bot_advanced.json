@@ -1,0 +1,68 @@
+{
+    "name": "#sat_ob_enemy_guild_bot_advanced",
+    "species": "human",
+    "coverSelectorAsset": "#hash_65c18147414316dd",
+    "#hash_d1e3f54c868c90eb": "#hash_757b7bec2d18232e",
+    "enemySelectorAsset": "#hash_3d64d788c66d09cc",
+    "animationStateMachineAsset": "#soldier",
+    "behaviorTreeAsset": "#juggernaut_agent_sat_ob",
+    "footStepsFxTable": "#hash_9415ba431c0caa27",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "scriptbundle": "#hash_df5def0b1dec1931",
+    "unitType": "juggernaut",
+    "team": "team_190",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_enemy_guild_bot_adv"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_61201229aa35a445",
+            "weapontype": "primary",
+            "weapon": "sat_ar_vulture_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/wc/sat_guild_bot.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_959d9bf0d800e404": "#hash_a4c1db397d074ede",
+        "#hash_803656a6025b3c4b": [
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null
+        ],
+        "#unittype": "juggernaut",
+        "#subclass": "ob_specop_bot",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_soldier_base_ob_sat_advancedguildbot",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 1000,
+        "#healthbarsettings": "%#hash_289eee7ba39c499a",
+        "#hash_8d4502f31fc3cc9d": "aisettings_sat_guild_bot",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_sat_default",
+        "#hash_2a0bcfaae7400f6f": "#hash_6023a77f20031973",
+        "#grenadeweapon": "",
+        "#damagefiltering": false,
+        "#hash_aab5beb67c1704ec": true,
+        "#animationstatemachine": "soldier",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm_always_strafe",
+        "#behaviortreeasset": "juggernaut_agent_sat_ob",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "TEAM_HUNDRED_NINETY"
+    }
+}

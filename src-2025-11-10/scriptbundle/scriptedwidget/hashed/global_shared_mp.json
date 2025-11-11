@@ -1,0 +1,306 @@
+{
+    "#hash_8f83532b15da99b": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [],
+        "#hash_22a6c228fcbc25c9": [],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#hash_4e89386971a50a09": [],
+        "#requirepath": "ui.generated.widgets.ingame.mp.sensorscannerbox",
+        "#luafile": "ui\\generated\\widgets\\ingame\\mp\\sensorscannerbox.lua",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hash_9b178cad83dcc886": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#widget": "#sensorscannerbox",
+        "#states": [
+            "#show": {
+                "#animation": "#show",
+                "#name": "#show"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_35120a0ed7d52e93": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [
+            "#default": {
+                "#properties": [
+                    "#directional_arrow_image": {
+                        "#variant_object": {
+                            "#property": "#directional_arrow_image",
+                            "#value": "%#hash_592eab25cce2beac",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#border_image": {
+                        "#variant_object": {
+                            "#property": "#border_image",
+                            "#value": "%#hash_14d9ebbf39decc0d",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#background_image": {
+                        "#variant_object": {
+                            "#property": "#background_image",
+                            "#value": "%#hash_6b7eda455a50edd6",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#shadow_image": {
+                        "#variant_object": {
+                            "#property": "#shadow_image",
+                            "#value": "%#hash_62249430c0aebf75",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#backing_image": {
+                        "#variant_object": {
+                            "#property": "#backing_image",
+                            "#value": "%#hash_1e649dfd31271a17",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#icon_image": {
+                        "#variant_object": {
+                            "#property": "#icon_image",
+                            "#value": "%#hash_73e5effe90d95224",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#base_asset_color": {
+                        "#variant_object": {
+                            "#property": "#base_asset_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#base_backing_color": {
+                        "#variant_object": {
+                            "#property": "#base_backing_color",
+                            "#value": "0.0627451 0.0627451 0.0627451 1",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#outline_image": {
+                        "#variant_object": {
+                            "#property": "#outline_image",
+                            "#value": "%#hash_14d9ebbf39decc0d",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#icon_warning_image": {
+                        "#variant_object": {
+                            "#property": "#icon_warning_image",
+                            "#value": "%#hash_2f3bd87c1d4a7680",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#default_icon_image": {
+                        "#variant_object": {
+                            "#property": "#default_icon_image",
+                            "#value": "%#hash_229b3f0923d657ae",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#progress_fill_mask_image": {
+                        "#variant_object": {
+                            "#property": "#progress_fill_mask_image",
+                            "#value": "%#default_mask",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#default"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#directional_arrow_image": {
+                "#variant_object": {
+                    "#property": "#directional_arrow_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#border_image": {
+                "#variant_object": {
+                    "#property": "#border_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#background_image": {
+                "#variant_object": {
+                    "#property": "#background_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#shadow_image": {
+                "#variant_object": {
+                    "#property": "#shadow_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#backing_image": {
+                "#variant_object": {
+                    "#property": "#backing_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#icon_image": {
+                "#variant_object": {
+                    "#property": "#icon_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#base_asset_color": {
+                "#variant_object": {
+                    "#property": "#base_asset_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#base_backing_color": {
+                "#variant_object": {
+                    "#property": "#base_backing_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#outline_image": {
+                "#variant_object": {
+                    "#property": "#outline_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#icon_warning_image": {
+                "#variant_object": {
+                    "#property": "#icon_warning_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#progress_fill_mask_image": {
+                "#variant_object": {
+                    "#property": "#progress_fill_mask_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            }
+        ],
+        "#hash_b7ae79d01418b389": true,
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#hash_4e89386971a50a09": [],
+        "#requirepath": "ui.generated.widgets.ingame.sp.scriptedwidgetstealthdisplay",
+        "#outofbounds": true,
+        "#luafile": "ui\\generated\\widgets\\ingame\\sp\\scriptedwidgetstealthdisplay.lua",
+        "#archetype": "%#hash_5f97da188cc7b7e5",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hash_9b178cad83dcc886": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#widget": "#scriptedwidgetstealthdisplay",
+        "#states": [
+            "#warning": {
+                "#animation": "#warning",
+                "#name": "#warning"
+            },
+            "#unaware": {
+                "#animation": "#unaware",
+                "#name": "#unaware"
+            },
+            "#entity_has_armor": {
+                "#name": "#entity_has_armor",
+                "#state": "#hash_dbe2a10252c69c03"
+            },
+            "#hide": {
+                "#animation": "#hide",
+                "#name": "#hide"
+            },
+            "#alerted": {
+                "#animation": "#alerted",
+                "#name": "#alerted"
+            },
+            "#hunting": {
+                "#animation": "#hunting",
+                "#name": "#hunting"
+            },
+            "#combat": {
+                "#animation": "#combat",
+                "#name": "#combat"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#hash_e2133bf3fca7fa5e": true,
+        "#hash_80a15cd2ffd8b2db": true,
+        "#normalgameplay": true,
+        "#assets": [
+            null
+        ]
+    }
+}

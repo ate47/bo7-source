@@ -1,0 +1,63 @@
+{
+    "name": "#sat_spawner_zombie_phobos_zm",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_26b30aacf0fd26ce",
+    "animationStateMachineAsset": "#zombie_phobos",
+    "behaviorTreeAsset": "#zombie_phobos",
+    "footStepsFxTable": "#hash_93c7a2c945940144",
+    "foliagesFXTable": "#hash_b466321fb9629f47",
+    "handPlantsFXTable": "#hash_af25ce2dc6059426",
+    "aiImpactVFXTable": "#hash_b1a7e0a07e728969",
+    "dismemberment": "#hash_87c788aae97ea8ff",
+    "scriptbundle": "#hash_b96d3c3493c9a95f",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_phobos"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/aitypes/zombie_phobos/zombie_phobos.gsc",
+        "#scripts/zm/systems/aitypes/zm_zombie_phobos.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_803656a6025b3c4b": [
+            null,
+            null
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            null
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_phobos",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_phobos",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_phobos",
+        "#health": 100,
+        "#healthbarsettings": "%#",
+        "#hash_8d4502f31fc3cc9d": "aitypesettings_zombie_phobos",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "",
+        "#grenadeweapon": "sat_zombie_phobos_spit_mp",
+        "#hash_61e44fac124dbd73": true,
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_phobos",
+        "#hash_c7f4e5ab04126a29": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_phobos",
+        "#characterlists": [],
+        "#hash_f2ca41d5a71a31fa": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}
