@@ -1,0 +1,63 @@
+css = [[
+    \#ScriptedWidgetBossHealthBar {
+        top: 0;
+    }
+    \#RoundNumber {
+        top: -170;
+        left: 45;
+        horizontal-anchors: left;
+        vertical-anchors: bottom;
+    }
+    \#ZMSquadInfoContainerWrapper {
+        top: -610;
+    }
+    \#ZMQuestTrackerWrapper {
+        top: 65;
+ 		hud-scale-x-offset-factor: 0;
+		hud-scale-y-offset-factor: 0;       
+    }
+    \#ZMTrialsTrackerWrapper {
+        top: 247;
+    }
+    \#MinimapWrapper {
+        horizontal-anchors: right;
+        left: -302;
+        hud-scale-x-offset-factor: -50;
+        hud-scale-y-offset-factor: 0;
+    }
+    \#GlobalPlayerSplashWrapper {
+        horizontal-anchors: right;
+        top: 266;
+    }
+    \#PerkContainerWrapper {
+        horizontal-anchors: left;
+        horizontal-pivot: left;
+        left: 216;
+        anim: LeftAlign;
+        onShowEvent: managed_widget_updated;
+    }
+    \#ProgressionUnlockSplashWrapper {
+        top: 180;
+    }
+    \#RadiationMeterWrapper {
+        top: -285;
+    }
+    \#ScriptedWidgetPowerupTimersContainer {
+        render-scale-offset: 0;
+        horizontal-anchors: center;
+        vertical-anchors: bottom;
+        top: -140;
+        left: -30;
+    }
+    \#ObituaryContainerWrapper {
+        vertical-anchors: bottom;
+		top: -599;
+		left: 64;
+    }
+    \#EventCollectionCountWrapper {
+        horizontal-anchors: right;
+        vertical-anchors: top;
+        left: -320;
+        top: 298;
+    }
+]],

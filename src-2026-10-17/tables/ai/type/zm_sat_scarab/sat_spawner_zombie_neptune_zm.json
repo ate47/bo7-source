@@ -1,0 +1,72 @@
+{
+    "name": "#sat_spawner_zombie_neptune_zm",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_neptune",
+    "behaviorTreeAsset": "#zombie_neptune",
+    "footStepsFxTable": "#hash_9663747c07c6f02e",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_d178c374e02b0fd0",
+    "dismemberment": "#defaultdismemberment_zm",
+    "weaponAccuracy": "#noweapon",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_zombie_neptune"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_neptune/zombie_neptune.gsc",
+        "#scripts/mp/zm/systems/aitypes/zm_zombie_neptune.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_neptune\\zombie_neptune.gsc"
+            },
+            {
+                "#scriptfile": "scripts\\mp\\zm\\systems\\aitypes\\zm_zombie_neptune.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_zombie_neptune"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_neptune",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_neptune",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_neptune",
+        "#health": 10000,
+        "#healthbarsettings": "%#hash_3e18a579fd3bd99c",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_rock_zm",
+        "#hash_61e44fac124dbd73": true,
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_neptune",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_neptune",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": false,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 1,
+        "#team": "axis"
+    }
+}

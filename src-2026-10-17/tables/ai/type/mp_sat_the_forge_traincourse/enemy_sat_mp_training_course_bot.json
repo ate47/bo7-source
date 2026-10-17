@@ -1,0 +1,69 @@
+{
+    "name": "#enemy_sat_mp_training_course_bot",
+    "species": "human",
+    "coverSelectorAsset": "#cover_default_cp",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#enemyselector_default",
+    "animationStateMachineAsset": "#soldier",
+    "behaviorTreeAsset": "#soldier_agent_benchmark",
+    "footStepsFxTable": "#hash_9415ba431c0caa27",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "unitType": "juggernaut",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_enemy_guild_bot"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_842dfb283fec1a59",
+            "weapontype": "primary",
+            "weapon": "sat_ar_hawk_mp"
+        },
+        {
+            "weaponhash": "#hash_2da8c3bf7fb879e1",
+            "weapontype": "sidearm",
+            "weapon": "sat_pi_timir_mp"
+        }
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_enemy_guild_bot"
+            }
+        ],
+        "#unittype": "juggernaut",
+        "#subclass": "regular",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 300,
+        "#healthbarsettings": "%#",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "frag_grenade_mp",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "soldier",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "soldier_agent_benchmark",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 2,
+        "#team": "axis"
+    }
+}

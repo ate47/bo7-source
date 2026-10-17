@@ -1,0 +1,66 @@
+{
+    "name": "#sat_aries_boss",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#aries_boss",
+    "behaviorTreeAsset": "#aries_boss",
+    "footStepsFxTable": "#hash_9663747c07c6f02e",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_f36dae17cdf1566d",
+    "dismemberment": "#defaultdismemberment",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_aries_boss"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/aries_boss/aries_boss.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\aries_boss\\aries_boss.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_aries_boss"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_aries_boss",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 10000,
+        "#healthbarsettings": "%#hash_5bbf319916493c1e",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "",
+        "#grenadeweapon": "",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "aries_boss",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "aries_boss",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

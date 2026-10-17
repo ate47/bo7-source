@@ -1,0 +1,2263 @@
+{
+    "#hash_2a3a79d0e15ca45": {
+        "#uri": "mp:war",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations:sum",
+                "#name": "&#combat_record/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations_to_deaths_ratio:sum",
+                "#name": "&#leaderboard/eliminations_to_deaths_ratio",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/war",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/war"
+    },
+    "#hash_6c7c8752c2194b0": {
+        "#uri": "wz:bongo:critical",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots",
+                "#name": "&#hash_10fccde911cf561e",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "headshots_to_shots_ratio:sum",
+                "#name": "&#hash_2b99d6f2d27a7da7",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots_per_game:sum",
+                "#name": "&#hash_71cff269e3e2e989",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "damage_per_game:sum",
+                "#name": "&#hash_429e343dadc3b0b3",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "one_shot_kills:sum",
+                "#name": "&#hash_4e081f1b271276d4",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_1385ffa65d590906",
+        "#hash_b509e6c705f55d0": "&#br_gametype_bongo/playlist_name",
+        "#icon": "%#hash_e714dcb451605a7"
+    },
+    "#hash_a1f7b1114ba6cbe": {
+        "#uri": "zm:mantis",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "essence",
+                "#name": "&#hash_72d4a94900cecacc",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "\neliminations:sum",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "exfil:sum",
+                "#name": "&#combat_record/exfils",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "qualified_rounds_completed:max",
+                "#name": "&#hash_25be7b51ac8a1e96",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "mq_complete_time_milli:min",
+                "#name": "&#hash_74877e8751eac41c",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_278c6ba98ace0a18",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob"
+    },
+    "#hash_a8e4b2924c60681": {
+        "#uri": "wz:resurgence",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:sum",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations_to_deaths_ratio:sum",
+                "#name": "&#hash_5b73ecf1613e9c38",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins:sum",
+                "#name": "&#lua_menu/wins",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/resurgence",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/resurgence_name"
+    },
+    "#hash_d7c0484672efb32": {
+        "#uri": "wz:plunder",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "Currency",
+                "#key": "total_cash:avg",
+                "#name": "&#hash_2fb7761b2e08c532",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Currency",
+                "#key": "total_cash:max",
+                "#name": "&#hash_3c8cf7c95345f019",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Currency",
+                "#key": "cash_contracts:sum",
+                "#name": "&#hash_7d6c0858b48f663f",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Currency",
+                "#key": "cash_spent:sum",
+                "#name": "&#leaderboard/cash_spent",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/plunder",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/plunder"
+    },
+    "#hash_eacd6ecb8dd7152": {
+        "#uri": "wz:plunder:objectives",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "contracts_completed",
+                "#name": "&#leaderboard/contracts_completed",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "cash_spent:sum",
+                "#name": "&#leaderboard/cash_spent",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/lfp_objectives",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/plunder",
+        "#icon": "%#hash_389a38f14b4119c8"
+    },
+    "#hash_f9d4f9ebf77b638": {
+        "#uri": "wz:plunder:eliminations",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "deaths:sum",
+                "#name": "&#lua_menu/deaths",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations_to_deaths_ratio:sum",
+                "#name": "&#hash_5b73ecf1613e9c38",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "longest_killstreak:max",
+                "#name": "&#lua_menu_mp/deadsilence_record_text",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations_per_game:sum",
+                "#name": "&#hash_19ec1f4bbb24c985",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/eliminations",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/plunder",
+        "#icon": "%#sat_ui_icon_global_eliminations"
+    },
+    "#hash_fa9379d5ea60646": {
+        "#uri": "mp:dom",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "\nscore",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": false
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "objective_score_per_minute:sum",
+                "#name": "&#leaderboard/objective_score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "captures_per_game:sum",
+                "#name": "&#leaderboard/captures_per_game",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_228b05eaf98835bd",
+        "#hash_b509e6c705f55d0": "&#hash_228b05eaf98835bd"
+    },
+    "#hash_11d5431fb932d6a7": {
+        "#uri": "wz:resurgence:career",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score",
+                "#name": "&#lua_menu/leaderboard_score",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "games_played:sum",
+                "#name": "&#lua_menu/games_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationDaysHoursMinutes",
+                "#key": "time_played:sum",
+                "#name": "&#lua_menu/time_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_194ef90fcd60e090",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/resurgence_name",
+        "#icon": "%#sat_ui_icon_global_career"
+    },
+    "#hash_1314c03e1cba66f0": {
+        "#uri": "mp:conf",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "objective_score_per_minute:sum",
+                "#name": "&#leaderboard/objective_score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "confirms_per_game:sum",
+                "#name": "&#hash_56024c66a21be0ae",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/conf",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/conf"
+    },
+    "#hash_13a981263fb4d781": {
+        "#uri": "wz:bongo:placements",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#lua_menu/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "top_10_placements:sum",
+                "#name": "&#hash_551ae1f624646b83",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "match_placement_ratio:sum",
+                "#name": "&#hash_1c154dd340d5e901",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "survival_time_ratio:sum",
+                "#name": "&#hash_36859dbe73f88438",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#leaderboard/placements",
+        "#hash_b509e6c705f55d0": "&#br_gametype_bongo/playlist_name",
+        "#icon": "%#sat_ui_icon_global_placements"
+    },
+    "#hash_140bbffdd062b037": {
+        "#uri": "wz:plunder:critical",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots",
+                "#name": "&#hash_10fccde911cf561e",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "headshots_to_shots_ratio:sum",
+                "#name": "&#hash_2b99d6f2d27a7da7",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots_per_game:sum",
+                "#name": "&#hash_71cff269e3e2e989",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "damage_per_game:sum",
+                "#name": "&#hash_429e343dadc3b0b3",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "one_shot_kills:sum",
+                "#name": "&#hash_4e081f1b271276d4",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_1385ffa65d590906",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/plunder",
+        "#icon": "%#hash_e714dcb451605a7"
+    },
+    "#hash_14d4abfe5aaec4bc": {
+        "#uri": "wz:br",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:sum",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations_to_deaths_ratio:sum",
+                "#name": "&#hash_5b73ecf1613e9c38",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins:sum",
+                "#name": "&#lua_menu/wins",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/br",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/br"
+    },
+    "#hash_15b6af50fc71e87d": {
+        "#uri": "mp:sd",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "objective_score_per_minute:sum",
+                "#name": "&#leaderboard/objective_score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "plants_per_game:sum",
+                "#name": "&#hash_46fb25c7bc0d652b",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/sd",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/sd"
+    },
+    "#hash_15fec650fcafc535": {
+        "#uri": "mp:dm",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "top_3_placements_ratio:sum",
+                "#name": "&#hash_6982ba37961277ea",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:sum",
+                "#name": "&#combat_record/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations_to_deaths_ratio:sum",
+                "#name": "&#leaderboard/eliminations_to_deaths_ratio",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/deathmatch",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/deathmatch"
+    },
+    "#hash_170807922f338c16": {
+        "#uri": "zm:ruby",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "essence",
+                "#name": "&#hash_72d4a94900cecacc",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "\neliminations:sum",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "exfil:sum",
+                "#name": "&#combat_record/exfils",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "qualified_rounds_completed:max",
+                "#name": "&#hash_25be7b51ac8a1e96",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "mq_complete_time_milli:min",
+                "#name": "&#hash_74877e8751eac41c",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_36597fee12148428",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob"
+    },
+    "#hash_1823ada9e61b5a18": {
+        "#uri": "doa:standard_fp",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "max_rounds_completed",
+                "#name": "&#hash_1723ca944ea2f09",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score:max",
+                "#name": "&#hash_7fab7e201c7fc01f",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "gems_earned:max",
+                "#name": "&#hash_35cd1c5878bba5fc",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:max",
+                "#name": "&#hash_6fdf75fb4e479310",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_217ba023405bf574",
+        "#hash_b509e6c705f55d0": "&#lua_menu_zm/zm_ztron",
+        "#icon": "%#hash_37513e88dba6c613"
+    },
+    "#hash_190b6758f0375a1f": {
+        "#uri": "mp:control",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "objective_score_per_minute:sum",
+                "#name": "&#leaderboard/objective_score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "segments_per_game:sum",
+                "#name": "&#hash_5d7f2227ebd1b19",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/control",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/control"
+    },
+    "#hash_1de49b394d266305": {
+        "#uri": "wz:bongo:objectives",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "activities_completed",
+                "#name": "&#hash_28551662ea376ceb",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "mystery_boxes_opened",
+                "#name": "&#hash_44d2eb70f3a8a7a9",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "teamates_redeployed",
+                "#name": "&#hash_14c6597872cfda99",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/lfp_objectives",
+        "#hash_b509e6c705f55d0": "&#br_gametype_bongo/playlist_name",
+        "#icon": "%#hash_389a38f14b4119c8"
+    },
+    "#hash_1e21a1fbb9cb9da8": {
+        "#uri": "mp:koth",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "objective_score_per_minute:sum",
+                "#name": "&#leaderboard/objective_score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "total_hardpoint_time_per_game:sum",
+                "#name": "&#hash_50387cb010910749",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/hardpoint",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/hardpoint"
+    },
+    "#hash_1ec50a127ac2d2bc": {
+        "#uri": "zm:career",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "essence",
+                "#name": "&#hash_72d4a94900cecacc",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "essence_per_minute:sum",
+                "#name": "&#leaderboard/essence_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "games_played:sum",
+                "#name": "&#lua_menu/games_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationDaysHoursMinutes",
+                "#key": "time_played:sum",
+                "#name": "&#lua_menu/time_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_194ef90fcd60e090",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob",
+        "#icon": "%#sat_ui_icon_global_career"
+    },
+    "#hash_1f6fce1edb32f40f": {
+        "#uri": "wz:br:critical",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots",
+                "#name": "&#hash_10fccde911cf561e",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "headshots_to_shots_ratio:sum",
+                "#name": "&#hash_2b99d6f2d27a7da7",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots_per_game:sum",
+                "#name": "&#hash_71cff269e3e2e989",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "damage_per_game:sum",
+                "#name": "&#hash_429e343dadc3b0b3",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "one_shot_kills:sum",
+                "#name": "&#hash_4e081f1b271276d4",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_1385ffa65d590906",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/br",
+        "#icon": "%#hash_e714dcb451605a7"
+    },
+    "#hash_20687b142038facb": {
+        "#uri": "wz:bongo:career",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score",
+                "#name": "&#lua_menu/leaderboard_score",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "games_played:sum",
+                "#name": "&#lua_menu/games_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "time_played:sum",
+                "#name": "&#lua_menu/time_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_194ef90fcd60e090",
+        "#hash_b509e6c705f55d0": "&#br_gametype_bongo/playlist_name",
+        "#icon": "%#sat_ui_icon_global_career"
+    },
+    "#hash_26a44e9d22dc6e5c": {
+        "#uri": "mp:hvt",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "objective_score_per_minute:sum",
+                "#name": "&#leaderboard/objective_score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "hvt_eliminations_per_game:sum",
+                "#name": "&#leaderboard/hvt_eliminations_per_game",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/hvt",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/hvt"
+    },
+    "#hash_2841f5624df75ecc": {
+        "#uri": "wz:plunder:career",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score",
+                "#name": "&#lua_menu/leaderboard_score",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "games_played:sum",
+                "#name": "&#lua_menu/games_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "time_played:sum",
+                "#name": "&#lua_menu/time_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_194ef90fcd60e090",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/plunder",
+        "#icon": "%#sat_ui_icon_global_career"
+    },
+    "#hash_2ea5c123a4c2b98a": {
+        "#uri": "doa:casual_fp",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "gems_earned",
+                "#name": "&#hash_6baf7323326ab179",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "coins_earned:sum",
+                "#name": "&#hash_866bd590a159a50",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "rounds_completed:sum",
+                "#name": "&#hash_588ff77df6cb13c8",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:sum",
+                "#name": "&#hash_1cb97703a0218c18",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_6d9ca9d8c4a14088",
+        "#hash_b509e6c705f55d0": "&#lua_menu_zm/zm_ztron",
+        "#icon": "%#hash_2d4442197c0a4847"
+    },
+    "#hash_2f33e786c0d58d53": {
+        "#uri": "wz:resurgence:eliminations",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "deaths:sum",
+                "#name": "&#lua_menu/deaths",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations_to_deaths_ratio:sum",
+                "#name": "&#hash_5b73ecf1613e9c38",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "longest_killstreak:max",
+                "#name": "&#lua_menu_mp/deadsilence_record_text",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations_per_game:sum",
+                "#name": "&#hash_19ec1f4bbb24c985",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/eliminations",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/resurgence_name",
+        "#icon": "%#sat_ui_icon_global_eliminations"
+    },
+    "#hash_3091b5a92d4e5d60": {
+        "#uri": "mp:sabattack",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "objective_score_per_minute:sum",
+                "#name": "&#leaderboard/objective_score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "extra_score_1:sum",
+                "#name": "&#hash_45138a8527ddd8a9",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/overload",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/overload"
+    },
+    "#hash_30ac4ed56a2fde5c": {
+        "#uri": "wz:br:objectives",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "contracts_completed",
+                "#name": "&#leaderboard/contracts_completed",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "loadouts_acquired:sum",
+                "#name": "&#leaderboard/loadouts_acquired",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "gulag_wins:sum",
+                "#name": "&#leaderboard/gulag_wins",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "bought_others_back:sum",
+                "#name": "&#hash_14c6597872cfda99",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Currency",
+                "#key": "cash_spent:sum",
+                "#name": "&#leaderboard/cash_spent",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/lfp_objectives",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/br",
+        "#icon": "%#hash_389a38f14b4119c8"
+    },
+    "#hash_31c1e842a57afcec": {
+        "#uri": "zm:eliminations",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "special_eliminations:sum",
+                "#name": "&#hash_4c365a5a013c725e",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "elite_eliminations:sum",
+                "#name": "&#hash_314c8d53e74678fe",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "boss_eliminations:sum",
+                "#name": "&#hash_cdb53f2f78e3244",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "qualified_eliminations:max",
+                "#name": "&#hash_4d5156986552f9c0",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/eliminations",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob",
+        "#icon": "%#sat_ui_icon_global_eliminations"
+    },
+    "#hash_36eb98a3541a0976": {
+        "#uri": "wz:br:eliminations",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "deaths:sum",
+                "#name": "&#lua_menu/deaths",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations_to_deaths_ratio:sum",
+                "#name": "&#hash_5b73ecf1613e9c38",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "longest_killstreak:max",
+                "#name": "&#lua_menu_mp/deadsilence_record_text",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations_per_game:sum",
+                "#name": "&#hash_19ec1f4bbb24c985",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/eliminations",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/br",
+        "#icon": "%#sat_ui_icon_global_eliminations"
+    },
+    "#hash_398666497b5cb123": {
+        "#uri": "zm:firefly",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "essence",
+                "#name": "&#hash_72d4a94900cecacc",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "\neliminations:sum",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "exfil:sum",
+                "#name": "&#combat_record/exfils",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "qualified_rounds_completed:max",
+                "#name": "&#hash_25be7b51ac8a1e96",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "mq_complete_time_milli:min",
+                "#name": "&#hash_74877e8751eac41c",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_260f31fc3cc91ca5",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob"
+    },
+    "#hash_40e0a7909d5535c0": {
+        "#uri": "zm:lofoten",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "essence",
+                "#name": "&#hash_72d4a94900cecacc",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "\neliminations:sum",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "exfil:sum",
+                "#name": "&#combat_record/exfils",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "qualified_rounds_completed:max",
+                "#name": "&#hash_25be7b51ac8a1e96",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "mq_complete_time_milli:min",
+                "#name": "&#hash_74877e8751eac41c",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_5ea327063bae959e",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob"
+    },
+    "#hash_479456fd50efdea6": {
+        "#uri": "wz:plunder:placements",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#lua_menu/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "top_10_placements:sum",
+                "#name": "&#hash_551ae1f624646b83",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "match_placement_ratio:sum",
+                "#name": "&#hash_1c154dd340d5e901",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "survival_time_ratio:sum",
+                "#name": "&#hash_36859dbe73f88438",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#leaderboard/placements",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/plunder",
+        "#icon": "%#sat_ui_icon_global_placements"
+    },
+    "#hash_4be17fe77163c790": {
+        "#uri": "wz:br:placements",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#lua_menu/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "top_10_placements:sum",
+                "#name": "&#hash_551ae1f624646b83",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "match_placement_ratio:sum",
+                "#name": "&#hash_1c154dd340d5e901",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "survival_time_ratio:sum",
+                "#name": "&#hash_36859dbe73f88438",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#leaderboard/placements",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/br",
+        "#icon": "%#sat_ui_icon_global_placements"
+    },
+    "#hash_4d6ff548af4aafb5": {
+        "#uri": "mp:wins",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "win_to_loss_ratio",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins:sum",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "losses:sum",
+                "#name": "&#hash_4d1ec1e022b6d10",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "win_streak",
+                "#name": "&#leaderboard/win_streak",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#combat_record/wins",
+        "#hash_b509e6c705f55d0": "&#lua_menu/multiplayer_caps",
+        "#icon": "%#sat_ui_icon_global_wins"
+    },
+    "#hash_4f7694acc714872d": {
+        "#uri": "mp:arena",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:sum",
+                "#name": "&#combat_record/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "captures_per_game:sum",
+                "#name": "&#leaderboard/captures_per_game",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/arena",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/arena"
+    },
+    "#hash_4fa147c09722508d": {
+        "#uri": "mp:free_run_evo",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "DurationTenthSecond",
+                "#key": "best_time",
+                "#name": "&#leaderboard/best_time",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score:max",
+                "#name": "&#hash_7fab7e201c7fc01f",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score:sum",
+                "#name": "&#hash_61babe2a0ef5e23c",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_5d664f14f7ae4a45",
+        "#hash_b509e6c705f55d0": "&#hash_5d664f14f7ae4a45"
+    },
+    "#hash_5455dec0d9cd0113": {
+        "#uri": "mp:prop",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "objective_score_per_minute:sum",
+                "#name": "&#leaderboard/objective_score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "prop_time_per_game:sum",
+                "#name": "&#leaderboard/prop_time_per_game",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu_mp/prop",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/prop"
+    },
+    "#hash_57d11bb9e815c28f": {
+        "#uri": "mp:critical",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots",
+                "#name": "&#hash_10fccde911cf561e",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "headshots_to_shots_ratio:sum",
+                "#name": "&#hash_2b99d6f2d27a7da7",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots_per_game:sum",
+                "#name": "&#hash_71cff269e3e2e989",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "damage_per_game:sum",
+                "#name": "&#hash_429e343dadc3b0b3",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "one_shot_kills:sum",
+                "#name": "&#hash_4e081f1b271276d4",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_1385ffa65d590906",
+        "#hash_b509e6c705f55d0": "&#lua_menu/multiplayer_caps",
+        "#icon": "%#hash_e714dcb451605a7"
+    },
+    "#hash_5f8c150c57c0ec76": {
+        "#uri": "wz:resurgence:critical",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots",
+                "#name": "&#hash_10fccde911cf561e",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "headshots_to_shots_ratio:sum",
+                "#name": "&#hash_2b99d6f2d27a7da7",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "headshots_per_game:sum",
+                "#name": "&#hash_71cff269e3e2e989",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "damage_per_game:sum",
+                "#name": "&#hash_429e343dadc3b0b3",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "one_shot_kills:sum",
+                "#name": "&#hash_4e081f1b271276d4",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_1385ffa65d590906",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/resurgence_name",
+        "#icon": "%#hash_e714dcb451605a7"
+    },
+    "#hash_5fb3e71593fbd79f": {
+        "#uri": "wz:bongo:eliminations",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "deaths:sum",
+                "#name": "&#lua_menu/deaths",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations_to_deaths_ratio:sum",
+                "#name": "&#hash_5b73ecf1613e9c38",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "longest_killstreak:max",
+                "#name": "&#lua_menu_mp/deadsilence_record_text",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations_per_game:sum",
+                "#name": "&#hash_19ec1f4bbb24c985",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/eliminations",
+        "#hash_b509e6c705f55d0": "&#br_gametype_bongo/playlist_name",
+        "#icon": "%#sat_ui_icon_global_eliminations"
+    },
+    "#hash_63175e0ae151b90a": {
+        "#uri": "mp:skirmish",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#combat_record/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "win_to_loss_ratio:sum",
+                "#name": "&#hash_4dc870f63794dbb",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "OneDecimal",
+                "#key": "objective_score_per_minute:sum",
+                "#name": "&#hash_2d19885de0262acd",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:sum",
+                "#name": "&#combat_record/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_435e63134b480b85",
+        "#hash_b509e6c705f55d0": "&#hash_435e63134b480b85"
+    },
+    "#hash_67def9f906fcdb43": {
+        "#uri": "doa:casual",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "gems_earned",
+                "#name": "&#hash_6baf7323326ab179",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "coins_earned:sum",
+                "#name": "&#hash_866bd590a159a50",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "rounds_completed:sum",
+                "#name": "&#hash_588ff77df6cb13c8",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:sum",
+                "#name": "&#hash_1cb97703a0218c18",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_64d638df1c9184e1",
+        "#hash_b509e6c705f55d0": "&#lua_menu_zm/zm_ztron",
+        "#icon": "%#hash_2a8a9caa6500d43c"
+    },
+    "#hash_683434e8efad7a0a": {
+        "#uri": "zm:volcano",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "essence",
+                "#name": "&#hash_72d4a94900cecacc",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "\neliminations:sum",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "exfil:sum",
+                "#name": "&#combat_record/exfils",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "qualified_rounds_completed:max",
+                "#name": "&#hash_25be7b51ac8a1e96",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "mq_complete_time_milli:min",
+                "#name": "&#hash_74877e8751eac41c",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_7e928ccbed4706b8",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob"
+    },
+    "#hash_684ee280ac03adb8": {
+        "#uri": "mp:career",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "\nscore",
+                "#name": "&#lua_menu/leaderboard_score",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "games_played:sum",
+                "#name": "&#lua_menu/games_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationDaysHoursMinutes",
+                "#key": "time_played:sum",
+                "#name": "&#lua_menu/time_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_194ef90fcd60e090",
+        "#hash_b509e6c705f55d0": "&#lua_menu/multiplayer_caps",
+        "#icon": "%#sat_ui_icon_global_career"
+    },
+    "#hash_68ef2d1f589702a0": {
+        "#uri": "zm:scarab",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "essence",
+                "#name": "&#hash_72d4a94900cecacc",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "\neliminations:sum",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "exfil:sum",
+                "#name": "&#combat_record/exfils",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "qualified_rounds_completed:max",
+                "#name": "&#hash_25be7b51ac8a1e96",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "mq_complete_time_milli:min",
+                "#name": "&#hash_74877e8751eac41c",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_2bafe07b6bf3a532",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob"
+    },
+    "#hash_6addfd7b9e903c21": {
+        "#uri": "wz:resurgence:objectives",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "contracts_completed",
+                "#name": "&#leaderboard/contracts_completed",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "loadouts_acquired:sum",
+                "#name": "&#leaderboard/loadouts_acquired",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "bought_others_back:sum",
+                "#name": "&#hash_14c6597872cfda99",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "cash_spent:sum",
+                "#name": "&#leaderboard/cash_spent",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/lfp_objectives",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/resurgence_name",
+        "#icon": "%#hash_389a38f14b4119c8"
+    },
+    "#hash_6b26f27fe941bf03": {
+        "#uri": "zm:critical",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "critical_kills",
+                "#name": "&#combat_record/critical_kills",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "Percentage",
+                "#key": "critical_kills_to_eliminations_ratio:sum",
+                "#name": "&#hash_38de24b2baa6a77f",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "pap_weapon_eliminations:sum",
+                "#name": "&#leaderboard/pap_weapon_eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "legendary_weapon_eliminations:sum",
+                "#name": "&#leaderboard/legendary_weapon_eliminations",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "one_shot_kills:sum",
+                "#name": "&#hash_4e081f1b271276d4",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_1385ffa65d590906",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob",
+        "#icon": "%#hash_e714dcb451605a7"
+    },
+    "#hash_6e443924d4456702": {
+        "#uri": "mp:free_run",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "DurationTenthSecond",
+                "#key": "best_time",
+                "#name": "&#leaderboard/best_time",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score:max",
+                "#name": "&#hash_7fab7e201c7fc01f",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score:sum",
+                "#name": "&#hash_61babe2a0ef5e23c",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_704d3b5c32eb22c8",
+        "#hash_b509e6c705f55d0": "&#hash_704d3b5c32eb22c8"
+    },
+    "#hash_755bb105c21d6c17": {
+        "#uri": "zm:rounds",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "rounds_completed",
+                "#name": "&#leaderboard/rounds_completed",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "exfil:sum",
+                "#name": "&#combat_record/exfils",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "exfil_ratio:sum",
+                "#name": "&#combat_record/exfil_ratio",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "qualified_rounds_completed:max",
+                "#name": "&#hash_25be7b51ac8a1e96",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "qualified_exfil:max",
+                "#name": "&#hash_5be569ec6bbf3f62",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_70cbbe319ac2060d",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/ob",
+        "#icon": "%#sat_ui_icon_global_rounds"
+    },
+    "#hash_7967dc62616b4e03": {
+        "#uri": "doa:standard",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "max_rounds_completed",
+                "#name": "&#hash_1723ca944ea2f09",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score:max",
+                "#name": "&#hash_7fab7e201c7fc01f",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "gems_earned:max",
+                "#name": "&#hash_35cd1c5878bba5fc",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:max",
+                "#name": "&#hash_6fdf75fb4e479310",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_7811370a5bbbe635",
+        "#hash_b509e6c705f55d0": "&#lua_menu_zm/zm_ztron",
+        "#icon": "%#hash_49f556ab049e07e0"
+    },
+    "#hash_79e8d9edf81d97f8": {
+        "#uri": "doa:career",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score:sum",
+                "#name": "&#hash_496610703d0277f3",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "rounds_completed",
+                "#name": "&#hash_588ff77df6cb13c8",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "silverback_eliminations:sum",
+                "#name": "&#hash_3f3aa7006564deb7",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:sum",
+                "#name": "&#hash_1cb97703a0218c18",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "gems_earned:sum",
+                "#name": "&#hash_6baf7323326ab179",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationDaysHoursMinutes",
+                "#key": "time_played:sum",
+                "#name": "&#lua_menu/time_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "games_played:sum",
+                "#name": "&#hash_22173e0820e4cdef",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_194ef90fcd60e090",
+        "#hash_b509e6c705f55d0": "&#lua_menu_zm/zm_ztron",
+        "#icon": "%#sat_ui_icon_global_career"
+    },
+    "#hash_7a32c79f1a6f7ab7": {
+        "#hash_46cacda13d108c04": true,
+        "#uri": "doa:hc",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "max_rounds_completed",
+                "#name": "&#hash_1723ca944ea2f09",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score:max",
+                "#name": "&#hash_7fab7e201c7fc01f",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "gems_earned:max",
+                "#name": "&#hash_35cd1c5878bba5fc",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations:max",
+                "#name": "&#hash_6fdf75fb4e479310",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/hardcore_caps",
+        "#hash_b509e6c705f55d0": "&#lua_menu_zm/zm_ztron",
+        "#icon": "%#hash_389a38f14b4119c8"
+    },
+    "#hash_7b1aa387cec268ea": {
+        "#uri": "wz:br:career",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score",
+                "#name": "&#lua_menu/leaderboard_score",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "score_per_minute:sum",
+                "#name": "&#leaderboard/score_per_minute",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "games_played:sum",
+                "#name": "&#lua_menu/games_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "time_played:sum",
+                "#name": "&#lua_menu/time_played",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_194ef90fcd60e090",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/br",
+        "#icon": "%#sat_ui_icon_global_career"
+    },
+    "#hash_7e44124c75d4b3e5": {
+        "#uri": "wz:bongo:squads",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "weapon_upgrades_used",
+                "#name": "&#hash_65f6ebd43a699b24",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "special_enemies_killed",
+                "#name": "&#hash_3bf8af2abecccc90",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#hash_6a7eeb1ce07839c8",
+        "#hash_b509e6c705f55d0": "&#br_gametype_bongo/playlist_name"
+    },
+    "#hash_7f6ac94523d6a540": {
+        "#uri": "mp:eliminations",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations",
+                "#name": "&#lua_menu/eliminations",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "deaths:sum",
+                "#name": "&#lua_menu/deaths",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "TwoDecimals",
+                "#key": "eliminations_to_deaths_ratio:sum",
+                "#name": "&#hash_5b73ecf1613e9c38",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "longest_killstreak:max",
+                "#name": "&#lua_menu_mp/deadsilence_record_text",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "eliminations_per_game:sum",
+                "#name": "&#hash_19ec1f4bbb24c985",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#lua_menu/eliminations",
+        "#hash_b509e6c705f55d0": "&#lua_menu/multiplayer_caps",
+        "#icon": "%#sat_ui_icon_global_eliminations"
+    },
+    "#hash_7fb77d8f62ea66f5": {
+        "#uri": "wz:resurgence:placements",
+        "#columns": [
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "wins",
+                "#name": "&#lua_menu/wins",
+                "#hash_cffb44b8f500b410": true,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "top_10_placements:sum",
+                "#name": "&#hash_551ae1f624646b83",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "WholeNumber",
+                "#key": "match_placement_ratio:sum",
+                "#name": "&#hash_1c154dd340d5e901",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            },
+            {
+                "#hash_b1dc55fa47bb0295": "DurationHoursMinutesSeconds",
+                "#key": "survival_time_ratio:sum",
+                "#name": "&#hash_36859dbe73f88438",
+                "#hash_cffb44b8f500b410": false,
+                "#hash_dc1bff86f1885aa1": true
+            }
+        ],
+        "#name": "&#leaderboard/placements",
+        "#hash_b509e6c705f55d0": "&#lua_menu_mp/resurgence_name",
+        "#icon": "%#sat_ui_icon_global_placements"
+    }
+}

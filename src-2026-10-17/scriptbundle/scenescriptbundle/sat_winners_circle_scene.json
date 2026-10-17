@@ -1,0 +1,723 @@
+{
+    "#objects": [
+        {
+            "#variant_object": {
+                "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                "#name": "XCam 1",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#cameraanimation": "c_cin_sat_mp_wnrs_circl_intro_cam",
+                        "#deltaanimations": []
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#cameraanimation": "c_cin_sat_mp_wnrs_circl_idle_cam",
+                        "#deltaanimations": []
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#cameraanimation": "c_cin_sat_mp_wnrs_circl_outro_cam",
+                        "#deltaanimations": []
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": []
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": []
+                    }
+                ]
+            },
+            "#variant_type": "Types_XCam"
+        },
+        {
+            "#variant_object": {
+                "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                "#hash_53f05a59f875cfa4": -0.3,
+                "#deletetype": "DeleteAlways",
+                "#animtree": {
+                    "name": "client_character",
+                    "id": 0
+                },
+                "#clientcharacterindex": 1,
+                "#name": "ClientChar0",
+                "#hash_d1335435398e3292": false,
+                "#hash_d80380fae060f057": -6,
+                "#hash_da1c2996594b92b9": false,
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_intro_player1_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_intro_player1_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_intro_player1_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_intro_player1@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_idle_player1_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_idle_player1_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_idle_player1_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_idle_player1@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_player1_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_player1_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_player1_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_outro_player1@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player1_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player1_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player1_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player1@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player1_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player1_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player1_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player1@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    }
+                ]
+            },
+            "#variant_type": "Types_Prop"
+        },
+        {
+            "#variant_object": {
+                "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                "#hash_53f05d59f875d63d": -41,
+                "#hash_53f05c59f875d40a": -59,
+                "#hash_53f05a59f875cfa4": -0.3,
+                "#deletetype": "DeleteAlways",
+                "#animtree": {
+                    "name": "client_character",
+                    "id": 0
+                },
+                "#clientcharacterindex": 2,
+                "#name": "ClientChar1",
+                "#hash_d1335435398e3292": false,
+                "#hash_d80380fae060f057": -5,
+                "#hash_da1c2996594b92b9": false,
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_intro_player2_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_intro_player2_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_intro_player2_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_intro_player2@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_idle_player2_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_idle_player2_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_idle_player2_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_idle_player2@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_player2_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_player2_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_player2_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_outro_player2@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player2_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player2_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player2_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player2@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player2_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player2_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player2_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player2@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    }
+                ]
+            },
+            "#variant_type": "Types_Prop"
+        },
+        {
+            "#variant_object": {
+                "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                "#hash_53f05d59f875d63d": 48,
+                "#hash_53f05c59f875d40a": -22,
+                "#deletetype": "DeleteAlways",
+                "#animtree": {
+                    "name": "client_character",
+                    "id": 0
+                },
+                "#clientcharacterindex": 3,
+                "#name": "ClientChar2",
+                "#hash_d1335435398e3292": false,
+                "#hash_d80380fae060f057": 37,
+                "#hash_da1c2996594b92b9": false,
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_intro_player3_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_intro_player3_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_intro_player3_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_intro_player3@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_idle_player3_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_idle_player3_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_idle_player3_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_idle_player3@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_player3_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_player3_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_player3_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_outro_player3@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player3_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player3_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player3_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_into_emote_player3@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.2,
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player3_fem@sbundle"
+                                        },
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player3_fem_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#female"
+                                    },
+                                    {
+                                        "#animation": {
+                                            "type": "anim",
+                                            "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player3_p@sbundle"
+                                        },
+                                        "#weapon": "#pistol",
+                                        "#gender": "#male"
+                                    }
+                                ],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_cin_sat_mp_wnrs_circl_outro_emote_player3@sbundle"
+                                }
+                            }
+                        ],
+                        "#hash_6e57c6d49560b8ee": true
+                    }
+                ]
+            },
+            "#variant_type": "Types_Prop"
+        }
+    ],
+    "#hash_f5afe1a75546822c": "stream_profile_winners_circle_sods",
+    "#hash_6f8870069a3470b8": true,
+    "#aligntarget": "camera_winners_circle_sat",
+    "#hash_d80380fae060f057": -8,
+    "#hash_2f4981e3dd60abe4": "None",
+    "#gamemode": "MP",
+    "#shots": [
+        {
+            "#variant_object": {
+                "#hash_f4c776d49172271e": "%#auto_asc_scenescriptbundle_sat_winners_circle_scene_anims",
+                "#prepareshow": "winner_circle_sun_shadowcaster",
+                "#name": "intro_walk_in"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#hash_f4c776d49172271e": "%#auto_asc_scenescriptbundle_sat_winners_circle_scene_anims",
+                "#name": "idle"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#hash_f4c776d49172271e": "%#auto_asc_scenescriptbundle_sat_winners_circle_scene_anims",
+                "#name": "outro"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#hash_f4c776d49172271e": "%#auto_asc_scenescriptbundle_sat_winners_circle_scene_anims",
+                "#completehide": "winner_circle_sun_shadowcaster",
+                "#name": "into_emote"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#hash_f4c776d49172271e": "%#auto_asc_scenescriptbundle_sat_winners_circle_scene_anims",
+                "#name": "outro_emote"
+            },
+            "#variant_type": "Types_Shot"
+        }
+    ]
+}

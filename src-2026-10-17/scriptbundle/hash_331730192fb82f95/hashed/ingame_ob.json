@@ -1,0 +1,417 @@
+{
+    "#hash_a0bcdca10b0c72e": {
+        "#hash_4bdf1911e7acc210": [
+            {
+                "#height": 125.16216,
+                "#xposition": -260.2027,
+                "#comment": "This graph finds nav points near the target and moves to them",
+                "#width": 534.4054,
+                "#yposition": -192.9955
+            }
+        ],
+        "#root": {
+            "#yoffset": -3.1711712,
+            "#methods": [
+                {
+                    "#yoffset": 118.89639,
+                    "#conditions": [],
+                    "#subtasks": [
+                        {
+                            "#variant_object": {
+                                "#queryname": "nav_near_target",
+                                "#yoffset": 193.3964,
+                                "#conditions": [],
+                                "#hash_771e39f6486fa52b": "Backward",
+                                "#hash_a15a059fe0becc68": 0,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#maxsearchradius": 500,
+                                "#hash_9d7d4fbf6c033c0f": 90,
+                                "#debugcolor": "1 1 1 1",
+                                "#locationtype": "Target",
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_f08d5e61bbb5abb",
+                                "#xoffset": -216.43243,
+                                "#minsearchradius": 50,
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_QueryNavPosTask"
+                        },
+                        {
+                            "#variant_object": {
+                                "#queryname": "nav_near_target",
+                                "#yoffset": 267.8964,
+                                "#conditions": [],
+                                "#hash_a15a059fe0becc68": 0,
+                                "#squadindex": -1,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#debugcolor": "1 1 1 1",
+                                "#hash_67ff8be1209d0676": 16,
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_96ad1c6156895425",
+                                "#xoffset": -216.43243,
+                                "#hash_32d9bbc6142239bb": "MoveTo",
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_UseQueryTask"
+                        }
+                    ],
+                    "#name": "#hash_853d63c457aa9bce",
+                    "#xoffset": -216.43243
+                },
+                {
+                    "#yoffset": 120.48198,
+                    "#conditions": [],
+                    "#subtasks": [
+                        {
+                            "#variant_object": {
+                                "#queryname": "nav_near_target",
+                                "#yoffset": 199.98198,
+                                "#conditions": [],
+                                "#hash_771e39f6486fa52b": "Left",
+                                "#hash_a15a059fe0becc68": 0,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#maxsearchradius": 500,
+                                "#hash_9d7d4fbf6c033c0f": 90,
+                                "#debugcolor": "1 1 1 1",
+                                "#locationtype": "Target",
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_f08d5e61bbb5abb",
+                                "#xoffset": 0,
+                                "#minsearchradius": 50,
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_QueryNavPosTask"
+                        },
+                        {
+                            "#variant_object": {
+                                "#queryname": "nav_near_target",
+                                "#yoffset": 274.482,
+                                "#conditions": [],
+                                "#hash_a15a059fe0becc68": 0,
+                                "#squadindex": -1,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#debugcolor": "1 1 1 1",
+                                "#hash_67ff8be1209d0676": 16,
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_96ad1c6156895425",
+                                "#xoffset": 0,
+                                "#hash_32d9bbc6142239bb": "MoveTo",
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_UseQueryTask"
+                        }
+                    ],
+                    "#name": "#hash_2862235becfd0ea6",
+                    "#xoffset": 0
+                },
+                {
+                    "#yoffset": 121.27477,
+                    "#conditions": [],
+                    "#subtasks": [
+                        {
+                            "#variant_object": {
+                                "#queryname": "nav_near_target",
+                                "#yoffset": 200.77478,
+                                "#conditions": [],
+                                "#hash_771e39f6486fa52b": "Right",
+                                "#hash_a15a059fe0becc68": 0,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#maxsearchradius": 500,
+                                "#hash_9d7d4fbf6c033c0f": 90,
+                                "#debugcolor": "1 1 1 1",
+                                "#locationtype": "Target",
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_f08d5e61bbb5abb",
+                                "#xoffset": 205,
+                                "#minsearchradius": 50,
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_QueryNavPosTask"
+                        },
+                        {
+                            "#variant_object": {
+                                "#queryname": "nav_near_target",
+                                "#yoffset": 275.27478,
+                                "#conditions": [],
+                                "#hash_a15a059fe0becc68": 0,
+                                "#squadindex": -1,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#debugcolor": "1 1 1 1",
+                                "#hash_67ff8be1209d0676": 16,
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_96ad1c6156895425",
+                                "#xoffset": 205,
+                                "#hash_32d9bbc6142239bb": "MoveTo",
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_UseQueryTask"
+                        }
+                    ],
+                    "#name": "#hash_4400af86b0c3ded7",
+                    "#xoffset": 205
+                }
+            ],
+            "#name": "#hash_1832efad7275cec8",
+            "#xoffset": -2.1316282e-14
+        }
+    },
+    "#hash_311e424e1a447acc": {
+        "#hash_4bdf1911e7acc210": [
+            {
+                "#height": 147.36037,
+                "#xposition": -223.22072,
+                "#comment": "This graph finds cover nodes near the target, but not in front of the target",
+                "#width": 510.0991,
+                "#yposition": -214.1687
+            }
+        ],
+        "#root": {
+            "#yoffset": -10.074102,
+            "#methods": [
+                {
+                    "#yoffset": 141.21011,
+                    "#conditions": [],
+                    "#subtasks": [
+                        {
+                            "#variant_object": {
+                                "#queryname": "cover_near_target",
+                                "#yoffset": 213.6001,
+                                "#conditions": [],
+                                "#hash_771e39f6486fa52b": "Backward",
+                                "#hash_a15a059fe0becc68": 0,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#maxsearchradius": 500,
+                                "#hash_9d7d4fbf6c033c0f": 90,
+                                "#debugcolor": "1 1 1 1",
+                                "#hash_51a053956fde6f07": 0,
+                                "#locationtype": "Target",
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_e2b1da8a704806fb",
+                                "#xoffset": -252.93997,
+                                "#minsearchradius": 50,
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_QueryCoverNodeTask"
+                        },
+                        {
+                            "#variant_object": {
+                                "#queryname": "cover_near_target",
+                                "#yoffset": 288.55392,
+                                "#conditions": [],
+                                "#hash_a15a059fe0becc68": 0,
+                                "#squadindex": -1,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#debugcolor": "1 1 1 1",
+                                "#hash_67ff8be1209d0676": 16,
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_96ad1c6156895425",
+                                "#xoffset": -256.16367,
+                                "#hash_32d9bbc6142239bb": "EnterCover",
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_UseQueryTask"
+                        }
+                    ],
+                    "#name": "#hash_77335b2ba338ea4b",
+                    "#xoffset": -254.50748
+                },
+                {
+                    "#yoffset": 135.6042,
+                    "#conditions": [],
+                    "#subtasks": [
+                        {
+                            "#variant_object": {
+                                "#queryname": "cover_near_target",
+                                "#yoffset": 213.75082,
+                                "#conditions": [],
+                                "#hash_771e39f6486fa52b": "Left",
+                                "#hash_a15a059fe0becc68": 0,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#maxsearchradius": 500,
+                                "#hash_9d7d4fbf6c033c0f": 90,
+                                "#debugcolor": "1 1 1 1",
+                                "#hash_51a053956fde6f07": 0,
+                                "#locationtype": "Target",
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_e2b1da8a704806fb",
+                                "#xoffset": -5.934277,
+                                "#minsearchradius": 50,
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_QueryCoverNodeTask"
+                        },
+                        {
+                            "#variant_object": {
+                                "#queryname": "cover_near_target",
+                                "#yoffset": 289.0432,
+                                "#conditions": [],
+                                "#hash_a15a059fe0becc68": 0,
+                                "#squadindex": -1,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#debugcolor": "1 1 1 1",
+                                "#hash_67ff8be1209d0676": 16,
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_96ad1c6156895425",
+                                "#xoffset": -7.287663,
+                                "#hash_32d9bbc6142239bb": "EnterCover",
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_UseQueryTask"
+                        }
+                    ],
+                    "#name": "#hash_2862235becfd0ea6",
+                    "#xoffset": -6.72707
+                },
+                {
+                    "#yoffset": 134.38684,
+                    "#conditions": [],
+                    "#subtasks": [
+                        {
+                            "#variant_object": {
+                                "#queryname": "cover_near_target",
+                                "#yoffset": 218.32625,
+                                "#conditions": [],
+                                "#hash_771e39f6486fa52b": "Right",
+                                "#hash_a15a059fe0becc68": 0,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#maxsearchradius": 500,
+                                "#hash_9d7d4fbf6c033c0f": 90,
+                                "#debugcolor": "1 1 1 1",
+                                "#hash_51a053956fde6f07": 0,
+                                "#locationtype": "Target",
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_e2b1da8a704806fb",
+                                "#xoffset": 220.19908,
+                                "#minsearchradius": 50,
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_QueryCoverNodeTask"
+                        },
+                        {
+                            "#variant_object": {
+                                "#queryname": "cover_near_target",
+                                "#yoffset": 287.82584,
+                                "#conditions": [],
+                                "#hash_a15a059fe0becc68": 0,
+                                "#squadindex": -1,
+                                "#debugtext": "",
+                                "#hash_2b01adb1290bb4b8": false,
+                                "#hash_dac71d9b10a263ca": "Sphere",
+                                "#hash_3785a1fa8e7e166": -1,
+                                "#debugcolor": "1 1 1 1",
+                                "#hash_67ff8be1209d0676": 16,
+                                "#hash_405fe949d2defda9": false,
+                                "#name": "#hash_96ad1c6156895425",
+                                "#xoffset": 219.63849,
+                                "#hash_32d9bbc6142239bb": "EnterCover",
+                                "#hash_94b49bf0ec165d92": "Continue",
+                                "#effects": []
+                            },
+                            "#variant_type": "Types_UseQueryTask"
+                        }
+                    ],
+                    "#name": "#hash_4400af86b0c3ded7",
+                    "#xoffset": 220.19908
+                }
+            ],
+            "#name": "#hash_6651a537456944a",
+            "#xoffset": -3.1711712
+        }
+    },
+    "#hash_4116192ba0ddf21e": {
+        "#hash_4bdf1911e7acc210": [
+            {
+                "#height": 157.30127,
+                "#xposition": -692.6036,
+                "#comment": "This graph moves AI near a target, either using cover or without. It does not move AI in front of the target. PLEASE READ:: To use the target variable within eqs, you need to pass in a QueryPos vec",
+                "#width": 1325,
+                "#yposition": -240.56306
+            }
+        ],
+        "#root": {
+            "#yoffset": 21.405405,
+            "#methods": [
+                {
+                    "#yoffset": 156.55405,
+                    "#conditions": [],
+                    "#subtasks": [
+                        {
+                            "#variant_object": {
+                                "#yoffset": 260.76526,
+                                "#name": "#hash_d44887a13bb4e389",
+                                "#asset": "plan_find_cover_near_target",
+                                "#xoffset": -161.66173
+                            },
+                            "#variant_type": "Types_CompoundTask"
+                        }
+                    ],
+                    "#name": "#hash_396878d068ed73e0",
+                    "#xoffset": -160.54054
+                },
+                {
+                    "#yoffset": 158.13963,
+                    "#conditions": [],
+                    "#subtasks": [
+                        {
+                            "#variant_object": {
+                                "#yoffset": 257.9925,
+                                "#name": "#hash_d44887a13bb4e389",
+                                "#asset": "plan_find_nav_near_target",
+                                "#xoffset": 152.26772
+                            },
+                            "#variant_type": "Types_CompoundTask"
+                        }
+                    ],
+                    "#name": "#hash_1e714b3371431cf4",
+                    "#xoffset": 154.1982
+                }
+            ],
+            "#name": "#hash_3b253cfce61a0f3e",
+            "#xoffset": -7.927928
+        }
+    }
+}

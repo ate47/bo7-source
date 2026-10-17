@@ -1,0 +1,1069 @@
+{
+    "#hash_6315ea588d51bb4e": {
+        "#hash_56b73c74b70a97f7": [
+            {
+                "#hash_8da6a00f836ce552": "zone_safehouse_interior_lower",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_safehouse_interior_upper",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_safehouse_exterior",
+                        "#hash_2c44ee86f425ed97": "safehouse_exterior_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_safehouse_interior_upper",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_safehouse_interior_lower",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_safehouse_interior_upper_bedroom_1",
+                        "#hash_2c44ee86f425ed97": "safehouse_bedroom_1_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_safehouse_interior_upper_bedroom_2",
+                        "#hash_2c44ee86f425ed97": "safehouse_bedroom_2_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_safehouse_exterior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_safehouse_interior_lower",
+                        "#hash_2c44ee86f425ed97": "safehouse_exterior_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_safehouse_interior_upper_bedroom_1",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_safehouse_interior_upper",
+                        "#hash_2c44ee86f425ed97": "safehouse_bedroom_1_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_safehouse_interior_upper_bedroom_2",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_safehouse_interior_upper",
+                        "#hash_2c44ee86f425ed97": "safehouse_bedroom_2_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nexus_exterior_ring",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nexus_exterior_center",
+                        "#hash_2c44ee86f425ed97": "has_forge_lowering_sequence_started"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_exterior",
+                        "#hash_2c44ee86f425ed97": "southwest_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_exterior_bridge",
+                        "#hash_2c44ee86f425ed97": "southeast_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_exterior",
+                        "#hash_2c44ee86f425ed97": "northwest_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_exterior",
+                        "#hash_2c44ee86f425ed97": "northeast_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nexus_exterior_center",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nexus_exterior_ring",
+                        "#hash_2c44ee86f425ed97": "has_forge_lowering_sequence_started"
+                    },
+                    {
+                        "#targetzone": "zone_nexus_interior_core",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nexus_interior_core",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nexus_exterior_center",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_exterior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nexus_exterior_ring",
+                        "#hash_2c44ee86f425ed97": "southwest_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_exterior_bridges",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_exterior_bridges",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_exterior",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_exterior_steps",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_exterior_steps",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_exterior_bridges",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_entrance",
+                        "#hash_2c44ee86f425ed97": "southwest_temple_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_entrance",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_exterior_steps",
+                        "#hash_2c44ee86f425ed97": "southwest_temple_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_mainhall",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_mainhall",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_entrance",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_finalroom",
+                        "#hash_2c44ee86f425ed97": "southwest_temple_finalroom_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_sideroom_landing",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_finalroom",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_mainhall",
+                        "#hash_2c44ee86f425ed97": "southwest_temple_finalroom_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_backhall",
+                        "#hash_2c44ee86f425ed97": "southwest_temple_finalroom_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_sideroom_upper",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_19_opened"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_backhall",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_finalroom",
+                        "#hash_2c44ee86f425ed97": "southwest_temple_finalroom_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_w_transition_island",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_secret_space",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_sideroom_landing",
+                        "#hash_2c44ee86f425ed97": "southwest_nyxara_sideroom_door_opened"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_sideroom",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_19_opened"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_sideroom_landing",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_secret_space",
+                        "#hash_2c44ee86f425ed97": "southwest_nyxara_sideroom_door_opened"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_mainhall",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_sideroom",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_sideroom_upper",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_19_opened"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_secret_space",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_19_opened"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_sw_temple_sideroom_upper",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_sideroom",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_19_opened"
+                    },
+                    {
+                        "#targetzone": "zone_sw_temple_finalroom",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_19_opened"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_w_transition_island",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_sw_temple_backhall",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_westwing",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_se_temple_exterior_bridge",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nexus_exterior_ring",
+                        "#hash_2c44ee86f425ed97": "southeast_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_exterior_steps",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_se_temple_exterior_steps",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_se_temple_exterior_bridge",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_entrance",
+                        "#hash_2c44ee86f425ed97": "southeast_temple_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_se_temple_entrance",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_se_temple_exterior_steps",
+                        "#hash_2c44ee86f425ed97": "southeast_temple_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_finalroom",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_mainhall_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_mainhall_north",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_se_temple_finalroom",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_se_temple_entrance",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_mainhall_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_mainhall_north",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_se_temple_mainhall_south",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_se_temple_finalroom",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_entrance",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_mainhall_north",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_se_temple_mainhall_north",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_se_temple_mainhall_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_finalroom",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_entrance",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_se_temple_transition",
+                        "#hash_2c44ee86f425ed97": "southeast_temple_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_se_temple_transition",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_se_temple_mainhall_north",
+                        "#hash_2c44ee86f425ed97": "southeast_temple_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_e_transition_island",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_e_transition_island",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_se_temple_transition",
+                        "#hash_2c44ee86f425ed97": "southeast_temple_door_bought",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard_balcony_east",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nw_temple_exterior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nexus_exterior_ring",
+                        "#hash_2c44ee86f425ed97": "northwest_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_exterior_steps",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nw_temple_exterior_steps",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nw_temple_exterior",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_exterior_gate",
+                        "#hash_2c44ee86f425ed97": "northwest_temple_door_bought",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_n_transition_island_south",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nw_temple_entrance",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nw_temple_interior_steps",
+                        "#hash_2c44ee86f425ed97": "northwest_temple_door_bought",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_mainhall",
+                        "#hash_2c44ee86f425ed97": "to_nw_temple_transition_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nw_temple_mainhall",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nw_temple_entrance",
+                        "#hash_2c44ee86f425ed97": "to_nw_temple_transition_bought"
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_westwing",
+                        "#hash_2c44ee86f425ed97": "to_nw_temple_transition_bought"
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_finalroom",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nw_temple_westwing",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nw_temple_mainhall",
+                        "#hash_2c44ee86f425ed97": "to_nw_temple_transition_bought"
+                    },
+                    {
+                        "#targetzone": "zone_w_transition_island",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nw_temple_finalroom",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nw_temple_mainhall",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_13_opened",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_transition",
+                        "#hash_2c44ee86f425ed97": "to_nw_temple_transition_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nw_temple_exterior_gate",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nw_temple_interior_steps",
+                        "#hash_2c44ee86f425ed97": "northwest_temple_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_exterior_steps",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nw_temple_interior_steps",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nw_temple_exterior_gate",
+                        "#hash_2c44ee86f425ed97": "northwest_temple_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_entrance",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_nw_temple_transition",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nw_temple_finalroom",
+                        "#hash_2c44ee86f425ed97": "to_nw_temple_transition_bought"
+                    },
+                    {
+                        "#targetzone": "zone_n_transition_island_north",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_exterior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_nexus_exterior_ring",
+                        "#hash_2c44ee86f425ed97": "northeast_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_exterior_gate",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_exterior_gate",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_exterior",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_exterior_steps",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_exterior_steps",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_exterior_gate",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_courtyard",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_exterior_steps",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_mainhall",
+                        "#hash_2c44ee86f425ed97": "zm_sat_scarab_doorbuy_westwing_to_ext_opened"
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_eastwing_exterior",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_westwing_exterior",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard_balcony_west",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard_balcony_east",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_mainhall",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard",
+                        "#hash_2c44ee86f425ed97": "zm_sat_scarab_doorbuy_westwing_to_ext_opened"
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_finalroom",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_13_opened",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_finalroom",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_mainhall",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_13_opened",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_eastwing",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_westwing",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_sideroom",
+                        "#hash_2c44ee86f425ed97": "southwest_nyxara_sideroom_door_opened"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_eastwing",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_finalroom",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_eastwing_exterior",
+                        "#hash_2c44ee86f425ed97": "zm_sat_scarab_doorbuy_westwing_to_ext_opened"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_eastwing_exterior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_eastwing",
+                        "#hash_2c44ee86f425ed97": "zm_sat_scarab_doorbuy_westwing_to_ext_opened"
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_westwing",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_finalroom",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_westwing_exterior",
+                        "#hash_2c44ee86f425ed97": "zm_sat_scarab_doorbuy_westwing_to_ext_opened"
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_transition",
+                        "#hash_2c44ee86f425ed97": "zm_sat_scarab_doorbuy_westwing_to_ext_opened"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_westwing_exterior",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_westwing",
+                        "#hash_2c44ee86f425ed97": "zm_sat_scarab_doorbuy_westwing_to_ext_opened"
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_transition",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_westwing",
+                        "#hash_2c44ee86f425ed97": "zm_sat_scarab_doorbuy_westwing_to_ext_opened"
+                    },
+                    {
+                        "#targetzone": "zone_n_transition_island_north",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_sideroom",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_finalroom",
+                        "#hash_2c44ee86f425ed97": "doorbuy_door_17_opened"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_n_transition_island_north",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_n_transition_island_south",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_transition",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_transition",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_n_transition_island_south",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_n_transition_island_north",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard_balcony_west",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_nw_temple_exterior_steps",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ee_ashwoods",
+                "#hash_f4c83a6e1ffe1e67": []
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_boss_arena",
+                "#hash_f4c83a6e1ffe1e67": []
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_boss_arena_ff",
+                "#hash_f4c83a6e1ffe1e67": []
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_blackroom",
+                "#hash_f4c83a6e1ffe1e67": []
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_boss_arena_oubliette_1",
+                "#hash_f4c83a6e1ffe1e67": []
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_boss_arena_oubliette_2",
+                "#hash_f4c83a6e1ffe1e67": []
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_boss_arena_oubliette_3",
+                "#hash_f4c83a6e1ffe1e67": []
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_boss_arena_oubliette_4",
+                "#hash_f4c83a6e1ffe1e67": []
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_courtyard_balcony_west",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_n_transition_island_south",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_ne_temple_courtyard_balcony_east",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_ne_temple_courtyard",
+                        "#hash_2c44ee86f425ed97": "northeast_temple_door_bought"
+                    },
+                    {
+                        "#targetzone": "zone_e_transition_island",
+                        "#autoenable": true
+                    }
+                ]
+            }
+        ],
+        "#hash_f6c27ca245722ec4": [
+            {
+                "#zonedisplayname": "safehouse_interior_lower",
+                "#hash_8da6a00f836ce552": "zone_safehouse_interior_lower"
+            },
+            {
+                "#zonedisplayname": "safehouse_interior_upper",
+                "#hash_8da6a00f836ce552": "zone_safehouse_interior_upper"
+            },
+            {
+                "#zonedisplayname": "safehouse_exterior",
+                "#hash_8da6a00f836ce552": "zone_safehouse_exterior"
+            },
+            {
+                "#zonedisplayname": "safehouse_interior_lower",
+                "#hash_8da6a00f836ce552": "zone_safehouse_interior_upper_bedroom_1",
+                "#hash_af88b5fa375e40d1": true
+            },
+            {
+                "#zonedisplayname": "safehouse_interior_lower",
+                "#hash_8da6a00f836ce552": "zone_safehouse_interior_upper_bedroom_2",
+                "#hash_af88b5fa375e40d1": true
+            },
+            {
+                "#zonedisplayname": "nexus_exterior_ring",
+                "#hash_8da6a00f836ce552": "zone_nexus_exterior_ring",
+                "#hash_96b821aed30d95de": "safehouse_exterior_door_bought"
+            },
+            {
+                "#zonedisplayname": "nexus_exterior_center",
+                "#hash_8da6a00f836ce552": "zone_nexus_exterior_center"
+            },
+            {
+                "#zonedisplayname": "nexus_interior_core",
+                "#hash_8da6a00f836ce552": "zone_nexus_interior_core"
+            },
+            {
+                "#zonedisplayname": "sw_temple_exterior",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_exterior"
+            },
+            {
+                "#zonedisplayname": "sw_temple_exterior",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_exterior_bridges"
+            },
+            {
+                "#zonedisplayname": "sw_temple_entrance",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_exterior_steps"
+            },
+            {
+                "#zonedisplayname": "sw_temple_entrance",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_entrance"
+            },
+            {
+                "#zonedisplayname": "sw_temple_mainhall",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_mainhall"
+            },
+            {
+                "#zonedisplayname": "sw_temple_finalroom",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_finalroom"
+            },
+            {
+                "#zonedisplayname": "sw_temple_secret",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_secret_space"
+            },
+            {
+                "#zonedisplayname": "sw_temple_mainhall",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_sideroom_landing"
+            },
+            {
+                "#zonedisplayname": "sw_temple_sideroom",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_sideroom"
+            },
+            {
+                "#zonedisplayname": "sw_temple_sideroom",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_sideroom_upper"
+            },
+            {
+                "#zonedisplayname": "sw_temple_backhall",
+                "#hash_8da6a00f836ce552": "zone_sw_temple_backhall"
+            },
+            {
+                "#zonedisplayname": "w_transition_island",
+                "#hash_8da6a00f836ce552": "zone_w_transition_island"
+            },
+            {
+                "#zonedisplayname": "se_temple_exterior_bridge",
+                "#hash_8da6a00f836ce552": "zone_se_temple_exterior_bridge"
+            },
+            {
+                "#zonedisplayname": "se_temple_entrance",
+                "#hash_8da6a00f836ce552": "zone_se_temple_exterior_steps"
+            },
+            {
+                "#zonedisplayname": "se_temple_entrance",
+                "#hash_8da6a00f836ce552": "zone_se_temple_entrance"
+            },
+            {
+                "#zonedisplayname": "se_temple_finalroom",
+                "#hash_8da6a00f836ce552": "zone_se_temple_finalroom"
+            },
+            {
+                "#zonedisplayname": "se_temple_mainhall",
+                "#hash_8da6a00f836ce552": "zone_se_temple_mainhall_south"
+            },
+            {
+                "#zonedisplayname": "se_temple_mainhall",
+                "#hash_8da6a00f836ce552": "zone_se_temple_mainhall_north"
+            },
+            {
+                "#zonedisplayname": "se_temple_mainhall",
+                "#hash_8da6a00f836ce552": "zone_se_temple_transition"
+            },
+            {
+                "#zonedisplayname": "e_transition_island",
+                "#hash_8da6a00f836ce552": "zone_e_transition_island"
+            },
+            {
+                "#zonedisplayname": "nw_temple_exterior",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_exterior"
+            },
+            {
+                "#zonedisplayname": "nw_temple_exterior_steps",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_exterior_steps"
+            },
+            {
+                "#zonedisplayname": "nw_temple_entrance",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_entrance"
+            },
+            {
+                "#zonedisplayname": "nw_temple_appendix",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_appendix"
+            },
+            {
+                "#zonedisplayname": "nw_temple_mainhall",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_mainhall"
+            },
+            {
+                "#zonedisplayname": "nw_temple_westwing",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_westwing"
+            },
+            {
+                "#zonedisplayname": "nw_temple_finalroom",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_finalroom"
+            },
+            {
+                "#zonedisplayname": "nw_temple_transition",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_transition"
+            },
+            {
+                "#zonedisplayname": "nw_temple_steps",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_interior_steps"
+            },
+            {
+                "#zonedisplayname": "nw_temple_steps",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_exterior_gate"
+            },
+            {
+                "#zonedisplayname": "nw_temple_eastwing",
+                "#hash_8da6a00f836ce552": "zone_nw_temple_eastwing"
+            },
+            {
+                "#zonedisplayname": "ne_temple_exterior",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_exterior"
+            },
+            {
+                "#zonedisplayname": "ne_temple_exterior_steps",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_exterior_gate"
+            },
+            {
+                "#zonedisplayname": "ne_temple_exterior_steps",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_exterior_steps"
+            },
+            {
+                "#zonedisplayname": "ne_temple_courtyard",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_courtyard"
+            },
+            {
+                "#zonedisplayname": "ne_temple_mainhall",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_mainhall"
+            },
+            {
+                "#zonedisplayname": "ne_temple_finalroom",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_finalroom"
+            },
+            {
+                "#zonedisplayname": "ne_temple_eastwing",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_eastwing"
+            },
+            {
+                "#zonedisplayname": "ne_temple_courtyard",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_eastwing_exterior"
+            },
+            {
+                "#zonedisplayname": "ne_temple_westwing",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_westwing"
+            },
+            {
+                "#zonedisplayname": "ne_temple_courtyard",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_westwing_exterior"
+            },
+            {
+                "#zonedisplayname": "ne_temple_transition",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_transition"
+            },
+            {
+                "#zonedisplayname": "ne_temple_secret_room",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_sideroom"
+            },
+            {
+                "#zonedisplayname": "n_transition_island",
+                "#hash_8da6a00f836ce552": "zone_n_transition_island_north"
+            },
+            {
+                "#zonedisplayname": "n_transition_island",
+                "#hash_8da6a00f836ce552": "zone_n_transition_island_south"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_scarab_ee_sunken",
+                "#zonedisplayname": "ee_ashwoods",
+                "#hash_8da6a00f836ce552": "zone_ee_ashwoods",
+                "#hash_d253951b18f2e60b": true
+            },
+            {
+                "#zonedisplayname": "boss_arena_area",
+                "#hash_8da6a00f836ce552": "zone_boss_arena"
+            },
+            {
+                "#zonedisplayname": "br_firefly_arena",
+                "#hash_8da6a00f836ce552": "zone_boss_arena_ff"
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_blackroom"
+            },
+            {
+                "#zonedisplayname": "boss_arena_oubliette",
+                "#hash_8da6a00f836ce552": "zone_boss_arena_oubliette_1"
+            },
+            {
+                "#zonedisplayname": "boss_arena_oubliette",
+                "#hash_8da6a00f836ce552": "zone_boss_arena_oubliette_2"
+            },
+            {
+                "#zonedisplayname": "boss_arena_oubliette",
+                "#hash_8da6a00f836ce552": "zone_boss_arena_oubliette_3"
+            },
+            {
+                "#zonedisplayname": "boss_arena_oubliette",
+                "#hash_8da6a00f836ce552": "zone_boss_arena_oubliette_4"
+            },
+            {
+                "#zonedisplayname": "ne_temple_courtyard",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_courtyard_balcony_west"
+            },
+            {
+                "#zonedisplayname": "ne_temple_courtyard",
+                "#hash_8da6a00f836ce552": "zone_ne_temple_courtyard_balcony_east"
+            }
+        ],
+        "#hash_cf297ac0af07a28f": []
+    }
+}

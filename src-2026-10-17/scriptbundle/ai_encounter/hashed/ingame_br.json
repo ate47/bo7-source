@@ -1,0 +1,137 @@
+{
+    "#hash_bed5dd3624c373b": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#heightlimit": 500,
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#hunt",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#rusher",
+                                    "#spawncount": 2
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#shield",
+                                    "#spawncount": 1
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#heavy",
+                                    "#spawncount": 1
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sniper",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#smokebomb",
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_juggerbot_bongo",
+                "#name": "#heavy"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_juggerbot_bongo",
+                "#name": "#rusher"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_juggerbot_bongo",
+                "#name": "#shield"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_juggerbot_bongo",
+                "#name": "#sniper"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_juggerbot_bongo",
+                "#name": "#boss"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 300,
+            "#hash_7d1df658638c76e2": "#random"
+        },
+        "#hash_7d5ea43c26d0856e": true,
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100
+        },
+        "#hash_4252efb37214c5c1": false
+    }
+}

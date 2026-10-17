@@ -1,0 +1,40 @@
+NAME script_4f2ec5e36fe18c11
+VERSION 0
+CHECKSUM 0xdd9b0201
+######################################################
+####################  DEV BLOCKS  ####################
+######################################################
+# ftue_bots::function_b39cb5d858a58b2e@1d
+DEVBLOCK 0x60c
+# ftue_bots::function_b39cb5d858a58b2e@31
+DEVBLOCK 0x620
+# ftue_bots::function_b39cb5d858a58b2e@45
+DEVBLOCK 0x634
+# ftue_bots::function_b39cb5d858a58b2e@59
+DEVBLOCK 0x648
+# ftue_bots::function_68fd705b84420ca5@1
+DEVBLOCK 0x8fd
+# ftue_bots::ftue_bots_movetoposition@2f
+DEVBLOCK 0xd48
+# ftue_bots::function_bd1861389f0e47bb@2f
+DEVBLOCK 0xec2
+# ftue_bots::function_8342ae7e10b8cd76@26
+DEVBLOCK 0x105c
+# ftue_bots::function_38b1e65d4ed5865b@2f
+DEVBLOCK 0x11aa
+# ftue_bots::function_cd9ecf8448850ea6@1
+DEVBLOCK 0x1203
+# ftue_bots::function_d4f87a47d7c484ed@14
+DEVBLOCK 0x1325
+# ftue_bots::function_eb6fe1576dac4d2d@b
+DEVBLOCK 0x1504
+# ftue_bots::function_c421bf5788432550@b
+DEVBLOCK 0x16e8
+# ftue_bots::function_857b920d685fb871@26
+DEVBLOCK 0x1859
+# ftue_bots::function_cfa27b5899fe0eec@1d
+DEVBLOCK 0x199e
+# ftue_bots::function_c33b4bed76e2434d@14
+DEVBLOCK 0x1af4
+# ftue_bots::function_d5f02df1ab458e1b@b
+DEVBLOCK 0x1b1e

@@ -1,0 +1,644 @@
+{
+    "#hash_1e5a2f4a7cb01bf5": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#hash_b1188d6a6c31ca63": true,
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_f6d9e11e9b6ac243": "scene_actor_scene_sat_cancer_confront_falkner_downed_0",
+                    "#name": "falkner_downed",
+                    "#aitypename": "sat_ob_enemy_hvt_heavytactician_falkner",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#nospawn": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_cancer_confront_laststand_transition@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#nospawn": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_cancer_confront_laststand_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "transition"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_4c49b392a770ff2c": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "body_c_sat_ind_pl_azure_proto_prop",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "confront_hvt",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "deadbody_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "head_c_sat_ind_pl_azure_proto_prop",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "head_hvt",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "deadbody_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_59363471bb9de3a5": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#hash_b1188d6a6c31ca63": true,
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#hash_f6d9e11e9b6ac243": "scene_actor_sat_ai_guildbot_idle_transitions_0",
+                    "#name": "Actor 1",
+                    "#aitypename": "sat_ob_enemy_guild_bot",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_01_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_exposed_idle_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#demeanorend": "combat",
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#demeanorend": "patrol",
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_combat_to_patrol@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_02_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_03_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_04_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_05_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_05@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_06_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_06@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_07_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_07@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_08_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_activation_08@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#gamemode": "MP",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "patrol_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "combat_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "patrol_to_combat"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "combat_to_patrol"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "idle_02"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_02"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "idle_03"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_03"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "idle_04"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_04"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "idle_05"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_05"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "idle_06"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_06"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "idle_07"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_07"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "idle_08"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_08"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_688b0f5d7364c3ea": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#hash_b1188d6a6c31ca63": true,
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#hash_f6d9e11e9b6ac243": "scene_actor_sat_ai_guildbot_folded_0",
+                    "#name": "Actor 1",
+                    "#aitypename": "sat_ob_enemy_guild_bot",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_folded_idle@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#demeanorend": "combat",
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_ground_spawn_01@sbundle"
+                                    }
+                                }
+                            ],
+                            "#demeanorstart": "combat"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#demeanorend": "combat",
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_ground_spawn_02@sbundle"
+                                    }
+                                }
+                            ],
+                            "#demeanorstart": "combat"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#demeanorend": "combat",
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_ground_spawn_03@sbundle"
+                                    }
+                                }
+                            ],
+                            "#demeanorstart": "combat"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#demeanorend": "combat",
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_ai_guild_bot_ground_spawn_04@sbundle"
+                                    }
+                                }
+                            ],
+                            "#demeanorstart": "combat"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#gamemode": "MP",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_01"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_02"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_03"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "exit_04"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    }
+}

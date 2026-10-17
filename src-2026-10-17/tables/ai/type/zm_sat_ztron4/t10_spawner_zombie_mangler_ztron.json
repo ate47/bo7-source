@@ -1,0 +1,67 @@
+{
+    "name": "#t10_spawner_zombie_mangler_ztron",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_5eda0b7fdd10c293",
+    "animationStateMachineAsset": "#zombie_mangler",
+    "behaviorTreeAsset": "#zombie_mangler",
+    "footStepsFxTable": "#hash_c2120c4edf2eb929",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#aiimpactvfxtable_zombie_base",
+    "dismemberment": "#defaultdismemberment",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_mangler"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_mangler/zombie_mangler.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_mangler\\zombie_mangler.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_t10_zombie_mangler"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_mangler",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_mangler",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_mangler_ztron",
+        "#health": 1000,
+        "#healthbarsettings": "%#hash_1e9e9b3965183b4b",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_mangler",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_mangler",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

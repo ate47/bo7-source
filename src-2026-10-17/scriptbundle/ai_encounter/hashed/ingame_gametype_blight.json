@@ -1,0 +1,384 @@
+{
+    "#hash_2004441604fcfb5b": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#heightlimit": 1,
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#spawnrandom",
+        "#potentialbuckets": [
+            {
+                "#label": "#base",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#base",
+                                    "#spawncount": 5
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#axis"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_spawner_zombie_base_bongo",
+                "#name": "#base"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#high",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 10,
+            "#hash_944d8554f77028d3": 100,
+            "#hash_1066c6dd8c8d58b6": 10
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_49398a93766a9705": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#heightlimit": 1,
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#spawnrandom",
+        "#potentialbuckets": [
+            {
+                "#label": "#base",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#time",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 10,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 20,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": []
+                    },
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#time",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 40,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": []
+                    }
+                ],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#base",
+                                    "#spawncount": 20
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#axis"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_spawner_zombie_base_bongo",
+                "#name": "#base"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#high",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 30
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_797de4047ae04b34": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#heightlimit": 1,
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#spawnrandom",
+        "#potentialbuckets": [
+            {
+                "#label": "#large",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_8238455279f54346"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#base",
+                                    "#spawncount": 5
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#axis"
+            },
+            {
+                "#label": "#small",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_7932e2d31a36014a"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#base",
+                                    "#spawncount": 2
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#axis"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_spawner_zombie_base_bongo",
+                "#name": "#base"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#high",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#spawnlocation",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": false,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_944d8554f77028d3": 100,
+            "#hash_1066c6dd8c8d58b6": 30,
+            "#hash_1b6af29158f4b5d9": true
+        },
+        "#hash_4252efb37214c5c1": false
+    }
+}

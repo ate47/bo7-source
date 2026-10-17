@@ -1,0 +1,317 @@
+{
+    "#rendertarget": "None",
+    "#hash_62820937ae750e29": false,
+    "#parameters": [],
+    "#hash_22a6c228fcbc25c9": [],
+    "#hash_6b42aa47be02e9f6": [
+        {
+            "#data": "#backingstandard"
+        }
+    ],
+    "#hash_2687e4f2cbcf1393": [
+        "#backingstandard": {
+            "#template": "#backing",
+            "#hash_47e384bb4d49c4ec": false,
+            "#data": [
+                "#backingcolor": {
+                    "#variant_object": {
+                        "#property": "#backingcolor",
+                        "#category": "#common",
+                        "#color": "#technicalwhite",
+                        "#type": "SwatchProperty",
+                        "#project": "DEFAULT",
+                        "#game_mode": ""
+                    },
+                    "#variant_type": "Types_SwatchProperty"
+                },
+                "#horizontalpadding": {
+                    "#variant_object": {
+                        "#property": "#horizontalpadding",
+                        "#type": "Vec2Property",
+                        "#y": 5,
+                        "#x": 5
+                    },
+                    "#variant_type": "Types_Vec2Property"
+                },
+                "#backingimage": {
+                    "#variant_object": {
+                        "#property": "#backingimage",
+                        "#value": "%#hash_1935933f39ac92fb",
+                        "#type": "ImageProperty"
+                    },
+                    "#variant_type": "Types_ImageProperty"
+                },
+                "#backingalpha": {
+                    "#variant_object": {
+                        "#property": "#backingalpha",
+                        "#value": 1,
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                },
+                "#verticalpadding": {
+                    "#variant_object": {
+                        "#property": "#verticalpadding",
+                        "#type": "Vec2Property",
+                        "#y": 5,
+                        "#x": 5
+                    },
+                    "#variant_type": "Types_Vec2Property"
+                }
+            ],
+            "#name": "#backingstandard",
+            "#tags": []
+        }
+    ],
+    "#hash_78b34127ab1edf37": false,
+    "#servermessages": [],
+    "#requirepath": "ui.generated.widgets.ingame.shared.scriptedwidgetinputprompts",
+    "#luafile": "ui/generated/widgets/ingame/shared/scriptedwidgetinputprompts.lua",
+    "#children": [],
+    "#rendertargetheight": 1024,
+    "#presetsettings": {
+        "#gamemodepresets": [],
+        "#gametypepresets": [],
+        "#presetsettings": {
+            "#hudeditor": {
+                "#verticalanchor": "Middle",
+                "#horizontalanchor": "Center",
+                "#y": 0,
+                "#x": 0
+            },
+            "#position": {
+                "#verticalanchor": "Bottom",
+                "#horizontalanchor": "Center",
+                "#hash_37bd97753e68a0f1": true,
+                "#enabled": false,
+                "#y": -123,
+                "#x": 0
+            }
+        },
+        "#projectpresets": []
+    },
+    "#hash_284455460b77b7fe": [
+        {
+            "#template": "#text",
+            "#data": [
+                "#verticalalignment": {
+                    "#variant_object": {
+                        "#key": "CENTER",
+                        "#property": "#verticalalignment",
+                        "#enum": "LUIVerticalAlignment",
+                        "#type": "LuaEnumProperty"
+                    },
+                    "#variant_type": "Types_LuaEnumProperty"
+                },
+                "#horizontalalignment": {
+                    "#variant_object": {
+                        "#key": "CENTER",
+                        "#property": "#horizontalalignment",
+                        "#enum": "LUIHorizontalAlignment",
+                        "#type": "LuaEnumProperty"
+                    },
+                    "#variant_type": "Types_LuaEnumProperty"
+                },
+                "#minfontheight": {
+                    "#variant_object": {
+                        "#property": "#minfontheight",
+                        "#value": 20,
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                },
+                "#textcolor": {
+                    "#variant_object": {
+                        "#property": "#textcolor",
+                        "#category": "#palette_neutrals",
+                        "#color": "#white",
+                        "#type": "SwatchProperty",
+                        "#project": "Current",
+                        "#game_mode": ""
+                    },
+                    "#variant_type": "Types_SwatchProperty"
+                },
+                "#font": {
+                    "#variant_object": {
+                        "#property": "#font",
+                        "#value": "SecondaryBold",
+                        "#type": "FontProperty"
+                    },
+                    "#variant_type": "Types_FontProperty"
+                },
+                "#fontheight": {
+                    "#variant_object": {
+                        "#property": "#fontheight",
+                        "#value": 24,
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                }
+            ]
+        },
+        {
+            "#template": "#backing",
+            "#data": [
+                "#backingcolor": {
+                    "#variant_object": {
+                        "#property": "#backingcolor",
+                        "#category": "#palette_neutrals",
+                        "#color": "#white",
+                        "#type": "SwatchProperty",
+                        "#project": "Current",
+                        "#game_mode": ""
+                    },
+                    "#variant_type": "Types_SwatchProperty"
+                },
+                "#horizontalpadding": {
+                    "#variant_object": {
+                        "#property": "#horizontalpadding",
+                        "#type": "Vec2Property"
+                    },
+                    "#variant_type": "Types_Vec2Property"
+                },
+                "#backingimage": {
+                    "#variant_object": {
+                        "#property": "#backingimage",
+                        "#value": "%#ui_default_white",
+                        "#type": "ImageProperty"
+                    },
+                    "#variant_type": "Types_ImageProperty"
+                },
+                "#backingalpha": {
+                    "#variant_object": {
+                        "#property": "#backingalpha",
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                },
+                "#verticalpadding": {
+                    "#variant_object": {
+                        "#property": "#verticalpadding",
+                        "#type": "Vec2Property"
+                    },
+                    "#variant_type": "Types_Vec2Property"
+                }
+            ]
+        },
+        {
+            "#template": "#animations",
+            "#data": [
+                "#hash_11060028f7ca5863": {
+                    "#variant_object": {
+                        "#property": "#hash_11060028f7ca5863",
+                        "#value": "Disabled",
+                        "#type": "RawStringProperty"
+                    },
+                    "#variant_type": "Types_RawStringProperty"
+                },
+                "#hash_976df5f6620c9344": {
+                    "#variant_object": {
+                        "#property": "#hash_976df5f6620c9344",
+                        "#value": "DefaultState",
+                        "#type": "RawStringProperty"
+                    },
+                    "#variant_type": "Types_RawStringProperty"
+                },
+                "#hash_a59f552300d41602": {
+                    "#variant_object": {
+                        "#property": "#hash_a59f552300d41602",
+                        "#value": "DefaultSequence",
+                        "#type": "RawStringProperty"
+                    },
+                    "#variant_type": "Types_RawStringProperty"
+                },
+                "#hash_ec4bcbcf52eb522f": {
+                    "#variant_object": {
+                        "#property": "#hash_ec4bcbcf52eb522f",
+                        "#value": "Disabled",
+                        "#type": "RawStringProperty"
+                    },
+                    "#variant_type": "Types_RawStringProperty"
+                }
+            ]
+        },
+        {
+            "#template": "#animations"
+        }
+    ],
+    "#hash_5c4d4c8a712b02d1": 1024,
+    "#interactionswidget": "ui/generated/widgets/ingame/shared/basicinputprompt.lua",
+    "#datasets": [],
+    "#hash_d195d4ddcd19301f": false,
+    "#interactions": [
+        {
+            "#consumeinput": false,
+            "#hash_5c65c388c8aedd79": true,
+            "#ui_bindings": [],
+            "#hash_21e776937ed3cbf3": false,
+            "#gamepad_buttons": [
+                {
+                    "#button": "#leftstick",
+                    "#down": true
+                }
+            ],
+            "#interaction": "&#hash_2d4a574edb3cfc3",
+            "#bindings": [],
+            "#kbm_buttons": []
+        },
+        {
+            "#consumeinput": true,
+            "#hash_5c65c388c8aedd79": true,
+            "#ui_bindings": [],
+            "#hash_21e776937ed3cbf3": false,
+            "#gamepad_buttons": [],
+            "#interaction": "&#hash_20236d33512c8915",
+            "#bindings": [
+                {
+                    "#hash_f9900555ae6e6995": "None",
+                    "#bind": "+attack"
+                }
+            ],
+            "#script_notify": "machete_attack_target_confirm",
+            "#kbm_buttons": []
+        },
+        {
+            "#consumeinput": true,
+            "#hash_5c65c388c8aedd79": true,
+            "#ui_bindings": [],
+            "#hash_21e776937ed3cbf3": false,
+            "#gamepad_buttons": [
+                {
+                    "#button": "#secondary",
+                    "#down": true
+                }
+            ],
+            "#interaction": "&#hash_6d5c8251923765ce",
+            "#bindings": [
+                {
+                    "#hash_f9900555ae6e6995": "None",
+                    "#bind": "+activate"
+                }
+            ],
+            "#script_notify": "machete_attack_target_cancel",
+            "#kbm_buttons": []
+        }
+    ],
+    "#hash_4b1a5b31df97c7a8": false,
+    "#widget": "#hash_6bc06cc41664bebc",
+    "#states": [],
+    "#hash_b53f419bce569890": false,
+    "#normalgameplay": true,
+    "#assets": [
+        {
+            "#variant_object": {
+                "#value": "ui/generated/widgets/ingame/sp/hint/hintinteraction.lua",
+                "#type": "LuaFileProperty"
+            },
+            "#variant_type": "Types_LuaFileProperty"
+        },
+        {
+            "#variant_object": {
+                "#value": "scripts/common/input_prompts.gsc",
+                "#type": "GscObjProperty"
+            },
+            "#variant_type": "Types_GscObjProperty"
+        }
+    ]
+}

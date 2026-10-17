@@ -1,0 +1,67 @@
+{
+    "name": "#sat_spawner_zombie_methone_fire_zm",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_6c0922d01d87d556",
+    "animationStateMachineAsset": "#zombie_hellhound",
+    "behaviorTreeAsset": "#zombie_hellhound",
+    "footStepsFxTable": "#hash_982527336700e5ee",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_ed0ac3fe03368c47",
+    "dismemberment": "#defaultdismemberment_zm",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_zombie_methone_fire"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_d475315fad97c80a",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_melee_mp"
+        }
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_zombie_methone_fire"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_hellhound",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_hellhound",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_mehone_fire",
+        "#health": 67,
+        "#healthbarsettings": "%#hash_14f10bc0501d591c",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_hellhound_ranged_attack_mp",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_hellhound",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_hellhound",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

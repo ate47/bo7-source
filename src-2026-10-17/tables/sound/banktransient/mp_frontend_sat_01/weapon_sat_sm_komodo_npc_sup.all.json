@@ -1,0 +1,1856 @@
+{
+    "name": "#weapon_sat_sm_komodo_npc_sup.all",
+    "unk8": "#hash_d91eb3ec42976580",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_sm_komodo_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_drop_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_drop_quick_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_tilt1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_bullets.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_tilt2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_boltclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_tilt1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_bullets.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_tilt2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_boltclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_inspect_empty_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_raise_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_raise_quick_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_boltclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_boltclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_fast_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c03f0162c1d09abb",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c03f0262c1d09c6e",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c03f0362c1d09e21",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c03f0462c1d09fd4",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c03f0562c1d0a187",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c03f0662c1d0a33a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_arm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c03f0762c1d0a4ed",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c03ef862c1d08b70",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c03ef962c1d08d23",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c0428662c1d3b291",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_boltcloed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c0428562c1d3b0de",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_arm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c0428462c1d3af2b",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_lrg_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_boltclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_short_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_short_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_boltclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_empty_xlrg_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_empty_xlrg_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_fast_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_fast_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_fast_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_fast_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_fast_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_fast_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_fast_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_fast_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_fast_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_fast_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_fast_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_fast_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_fast_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6818d6fdb44e4869",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_lrg_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6818d3fdb44e4350",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_lrg_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6818d4fdb44e4503",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_lrg_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6818d9fdb44e4d82",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_lrg_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6818dafdb44e4f35",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_lrg_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6818d7fdb44e4a1c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_lrg_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6818d8fdb44e4bcf",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_lrg_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6818ddfdb44e544e",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_lrg_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6818defdb44e5601",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_lrg_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_short_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_short_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_short_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_short_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_short_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_short_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_short_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_short_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_short_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_short_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_short_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_short_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_short_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_short_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_short_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_short_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_short_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_short_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_reload_xlrg_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_reload_xlrg_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_selectsemi_off_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_selectsemi_off_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_selectsemi_off_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_selectsemi_off_switch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_selectsemi_on_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_selectsemi_on_switch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_komodo_selectsemi_on_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/reloads/fly_plr_sm_komodo_selectsemi_on_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sm_komodo_sup_npc",
+            "aliases": [
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sm/komodo/plr/sup/wpn_sm_komodo_sup_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sm/komodo/plr/sup/wpn_sm_komodo_sup_plr_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sm/komodo/plr/sup/wpn_sm_komodo_sup_plr_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sm/komodo/plr/sup/wpn_sm_komodo_sup_plr_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sm/komodo/plr/sup/wpn_sm_komodo_sup_plr_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sm/komodo/plr/sup/wpn_sm_komodo_sup_plr_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sm_komodo_sup_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_38a5ec2fab4e3898",
+                    "sndAsset": "#hash_f76d59a422fee5ba",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dae83c4a15"
+                },
+                {
+                    "name": "#hash_38a5ec2fab4e3898",
+                    "sndAsset": "#hash_f0edbbbcae98b8df",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dae83c4a15"
+                },
+                {
+                    "name": "#hash_38a5ec2fab4e3898",
+                    "sndAsset": "#hash_a721313b92275ba0",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dae83c4a15"
+                }
+            ]
+        },
+        {
+            "name": "#hash_38a5ec2fab4e3898",
+            "aliases": [
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_med_atmo",
+                    "sndAsset": "#hash_c9b1fd0cc6c0d5ef",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dae83c4cfd"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_med_atmo",
+                    "sndAsset": "#hash_83f6c984ae7c824a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dae83c4cfd"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_med_atmo",
+                    "sndAsset": "#hash_c884f8d95e77efad",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dae83c4cfd"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sm_komodo_sup_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/komodo/lfe/wpn_sm_komodo_sup_plr_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dae8478241"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sm_komodo_sup_npc_mech",
+            "aliases": [
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_lfe",
+                    "sndAsset": "#sat/wpn/sm/komodo/plr/mech/wpn_sm_komodo_fire_plr_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_lfe",
+                    "sndAsset": "#sat/wpn/sm/komodo/plr/mech/wpn_sm_komodo_fire_plr_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_lfe",
+                    "sndAsset": "#sat/wpn/sm/komodo/plr/mech/wpn_sm_komodo_fire_plr_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sm_komodo_sup_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_med_atmo_int",
+                    "sndAsset": "#hash_f570f0397ab834e4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dae83c4a15"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_med_atmo_int",
+                    "sndAsset": "#hash_bb7f850fde5006a3",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dae83c4a15"
+                },
+                {
+                    "name": "#wpn_sm_komodo_sup_npc_med_atmo_int",
+                    "sndAsset": "#hash_adf094f2744d98ce",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dae83c4a15"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sm_komodo_sup_npc_med_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_a461b72abec25d54",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dae83c4cfd"
+                },
+                {
+                    "sndAsset": "#hash_dcb9e839904faee1",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dae83c4cfd"
+                },
+                {
+                    "sndAsset": "#hash_e1c46868e8309d7e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dae83c4cfd"
+                }
+            ]
+        }
+    ]
+}

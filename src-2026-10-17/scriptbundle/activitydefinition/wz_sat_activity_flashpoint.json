@@ -1,0 +1,182 @@
+{
+    "#hash_310e111620b410d7": {
+        "#hash_afb82823e7216cae": [],
+        "#hash_c94cf930280d0a0f": true,
+        "#hash_aa9eae974909a0d2": [],
+        "#activitycenterobjectivemarker": [],
+        "#hash_34859f69d60856fc": {
+            "#hash_a6cf6e2e0cc37ee5": 60,
+            "#hash_bd83beebb26f08d6": "ActivityBegin",
+            "#hash_5ba973ff6b5ff715": "ActivityEnd",
+            "#hash_45eaa8fc412d7398": []
+        },
+        "#playerbroadcasts": [],
+        "#hash_e379ec45c491c3b7": [],
+        "#errorspresent": true,
+        "#hibernationsettings": {
+            "#hibernationisenabled": true,
+            "#hash_1b70ca8d29ca863c": []
+        },
+        "#activitycenterobjectivemarkersettings": {
+            "#hash_f3260707d02e2cd0": "GSCScript",
+            "#hash_cfc799fec790bd22": "ActivityEnd",
+            "#objectivemarkerscriptable": "default_activity_objective_marker_scriptable",
+            "#objectivemarkerscriptbundle": "%#hash_328d014ce13025cc",
+            "#hash_45c7ee998620b9b9": [],
+            "#hash_4bdbfe745477ce09": "ActivityBegin"
+        },
+        "#activityrewardcaches": [],
+        "#hash_4e346b4523fd5fb7": {
+            "#hash_aa9eae974909a0d2": []
+        },
+        "#hash_b6b515a8f1cc711c": [],
+        "#activityplayerbroadcasts": [
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Multiple",
+                    "#uniquename": "flashpoint_launch",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#broadcasttype": "TitleSplash",
+                                "#dynamicdata": [],
+                                "#splashlistoverride": "splash_list_sat_mp",
+                                "#splashreference": "br_pe_flashpoint_start"
+                            },
+                            "#variant_type": "Types_Splash"
+                        },
+                        {
+                            "#variant_object": {
+                                "#broadcasttype": "Omnvar",
+                                "#hash_2b485668a319993b": true,
+                                "#omnvarvalue": "1",
+                                "#dynamicdata": [],
+                                "#omnvartype": "int",
+                                "#omnvarname": "ui_minimap_pulse"
+                            },
+                            "#variant_type": "Types_Omnvar"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activitymoment": "ActivationName",
+                                "#activationname": "br_pe_flashpoint_launch_start"
+                            },
+                            "#variant_type": "Types_ActivityMoment_ActivationName"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Server"
+                            },
+                            "#variant_type": "Types_Server"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#priority": "High"
+                },
+                "#variant_type": "Types_ActivityPlayerBroadcast"
+            }
+        ],
+        "#hash_390a857a39f72e01": {
+            "#hash_7089b64c87d90b69": {},
+            "#hash_84e9829da15875c3": []
+        },
+        "#hash_fb4dd0352a7b7099": {
+            "#playerabandonsettings": {
+                "#hash_284b29f91b257f2d": [],
+                "#hash_f1ed5c4b2cbcfb6d": []
+            },
+            "#playerjoinsettings": {
+                "#playerjointriggers": {
+                    "#hash_548dde7885bac469": {
+                        "#interactscriptable": "nexus_activity_joiner_template"
+                    },
+                    "#hash_ffe003e0e00b3795": [],
+                    "#hash_d8054272153fa68": {
+                        "#hash_bb2544ec4d4533fb": [],
+                        "#hash_7a83b47b605323f1": "None",
+                        "#hash_5eb824f196400190": "None"
+                    },
+                    "#hash_a992a28c8f440e25": {},
+                    "#proximityjoinsettings": []
+                },
+                "#maxplayercount": 100,
+                "#hash_c781cf9442a118d5": true,
+                "#minplayercount": 1
+            },
+            "#playerfocussettings": {
+                "#hash_c01a5323cc5fc8c0": 3
+            },
+            "#playerabandontriggers": {
+                "#hash_75ecd3e9f8da3e2e": {
+                    "#hash_79b007c16dba1689": false,
+                    "#broadcastenabled": true,
+                    "#isenabled": false
+                },
+                "#hash_f393956a4ef608b5": {
+                    "#hash_79b007c16dba1689": false,
+                    "#broadcastenabled": true,
+                    "#isenabled": false,
+                    "#hash_350ba18db76d6b42": false
+                },
+                "#hash_b66328fcefdc5a0a": {
+                    "#hash_79b007c16dba1689": true,
+                    "#broadcastenabled": true,
+                    "#isenabled": false
+                },
+                "#hash_5363846658bb4e31": {
+                    "#hash_79b007c16dba1689": true,
+                    "#broadcastenabled": true,
+                    "#isenabled": false
+                },
+                "#hash_a1d322feda017656": []
+            }
+        }
+    },
+    "#customproperties": {
+        "#activitytypegroup": [
+            {
+                "#variant_object": {
+                    "#hash_2fdf266ead510f82": [
+                        {
+                            "#variant_object": {
+                                "#hash_d400e1720cab9fe": 1,
+                                "#activitytype": "BR_PUBLIC_EVENT_FLASHPOINT",
+                                "#hash_eee681d9591bb1a1": 0,
+                                "#hash_f1870dc957c9f687": 0.25,
+                                "#hash_b5f2e845e3e8a348": 0.75,
+                                "#outrodelay": 5,
+                                "#hash_304ba272faf2a8bd": 0.5,
+                                "#hash_d7136839e1ebcde3": 15,
+                                "#hash_2a4d64608995e225": 60,
+                                "#hash_afa9a6c22dbde525": 500,
+                                "#hash_532aef113041e7fa": 10,
+                                "#hash_4bb9a819dd61aff": 1,
+                                "#hash_e2d8a86df27eafd8": "wz_sat_flashpoint_missile_drop",
+                                "#hash_bb77a7a911ee49c9": 1000,
+                                "#hash_ea1160f2cde53747": false,
+                                "#hash_137f41684759547c": 0.125,
+                                "#hash_5ce296a1ce7d70af": 1,
+                                "#hash_b51c02ec19457300": 5,
+                                "#hash_54f756320f1349fb": false,
+                                "#hash_31fe81fca001e407": "",
+                                "#hash_6fcce75f56c12": 30,
+                                "#hash_1e199aa341779d6d": 5,
+                                "#hash_517021076b34d299": 200,
+                                "#hash_2818f36234a8dd7d": 8500,
+                                "#syncsetup": false,
+                                "#hash_d101b7f0890cafea": 9000
+                            },
+                            "#variant_type": "Types_BRFlashpointPublicEventActivity"
+                        }
+                    ],
+                    "#activitycategory": "PublicEvent"
+                },
+                "#variant_type": "Types_WZ_BR_Activity_Group"
+            }
+        ]
+    }
+}

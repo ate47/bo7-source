@@ -1,0 +1,71 @@
+{
+    "name": "#sat_spawner_zombie_vermin_ob_sm",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d486e164c97a28c",
+    "animationStateMachineAsset": "#zombie_vermin",
+    "behaviorTreeAsset": "#zombie_vermin",
+    "footStepsFxTable": "#hash_9663747c07c6f02e",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#aiimpactvfxtable_zombie_base",
+    "dismemberment": "#defaultdismemberment_zm",
+    "unitType": "zombie",
+    "team": "team_190",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_vermin"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_vermin/zombie_vermin.gsc",
+        "#"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_vermin\\zombie_vermin.gsc"
+            },
+            {
+                "#scriptfile": ""
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_t10_zombie_vermin"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_vermin",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_vermin_ob",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_vermin_ob_sm",
+        "#health": 100,
+        "#healthbarsettings": "%#hash_fcaa997f0eef008",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_vermin_ranged_attack_ob_sm",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_vermin",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_vermin",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "TEAM_HUNDRED_NINETY"
+    }
+}

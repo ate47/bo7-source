@@ -1,0 +1,615 @@
+{
+    "#mtx": [],
+    "#ai": {
+        "#templateclass": "default",
+        "#hash_5be63482164b9d30": false,
+        "#hash_4a9335cc7639e739": 10
+    },
+    "#id": 36,
+    "#hudinfo": {
+        "#seatorder": [],
+        "#promptvis": {
+            "#drivertactical": false,
+            "#steerinstruction": false,
+            "#missileinstruction": false,
+            "#hash_2c11fa142ee2cb63": false,
+            "#hasflare": false,
+            "#popsmoke": false,
+            "#fireinstruction": false,
+            "#hash_e7fa9e4a25dc69ac": false,
+            "#exitinstruction": false,
+            "#hashorn": false,
+            "#ammocounter": false,
+            "#hashandbrake": false,
+            "#resetinstruction": false,
+            "#speedboost": false
+        },
+        "#type": "ATV",
+        "#reticleimage": "",
+        "#animname": "#"
+    },
+    "#nudgethreshold": 7.5,
+    "#occupancy": {
+        "#exittopcastoffset": 40,
+        "#threatbiasgroup": "Level_Vehicle",
+        "#damagefeedbackgroupheavy": "all",
+        "#centeroffset": {
+            "#y": 0,
+            "#x": 0,
+            "#z": 0
+        },
+        "#roofexittype": "stand_up",
+        "#damagefeedbackgrouplight": "driver",
+        "#canleanout": false
+    },
+    "#aianimations": [],
+    "#horns": [],
+    "#aifastrope": [],
+    "#lights": [
+        {
+            "#tag": "tag_light_brake_center_d0",
+            "#type": "script_controlled_only",
+            "#group": "taillights"
+        },
+        {
+            "#tag": "tag_light_back_left_d0",
+            "#type": "engine_is_on_day_and_night",
+            "#group": "taillights"
+        },
+        {
+            "#tag": "tag_light_back_right_d0",
+            "#type": "engine_is_on_day_and_night",
+            "#group": "taillights"
+        },
+        {
+            "#tag": "tag_light_front_center_d0",
+            "#type": "engine_is_on_day_and_night",
+            "#group": "headlights"
+        },
+        {
+            "#tag": "tag_light_front_left_d0",
+            "#type": "engine_is_on_day_and_night",
+            "#group": "headlights"
+        },
+        {
+            "#tag": "tag_light_front_right_d0",
+            "#type": "engine_is_on_day_and_night",
+            "#group": "headlights"
+        },
+        {
+            "#tag": "tag_exhaust",
+            "#type": "engine_is_on_day_and_night",
+            "#group": "none"
+        }
+    ],
+    "#upgrades": {
+        "#hash_54324f91ef43fb3d": []
+    },
+    "#spawn": {
+        "#maxinstancecount": 4,
+        "#clearancecheckradius": 55,
+        "#hash_33390c2e78b276d9": "",
+        "#clearancecheckheight": 45,
+        "#hash_2a99601c04eec8f0": true,
+        "#priority": 75
+    },
+    "#airdrop": {
+        "#earthquakeradius": 800,
+        "#planeanim": {
+            "#animname": {
+                "type": "anim",
+                "name": ""
+            }
+        },
+        "#physicsscale": 0.5,
+        "#realvehicleanim": {
+            "#animname": {
+                "type": "anim",
+                "name": ""
+            }
+        },
+        "#planesound": "",
+        "#vfx": "",
+        "#earthquakeduration": 0.7,
+        "#vehiclemodelanim": {
+            "#animname": {
+                "type": "anim",
+                "name": ""
+            }
+        },
+        "#hash_4ec2c10aa7105d86": "",
+        "#hash_e7e6ef68d34906e3": false,
+        "#earthquakescale": 0.3,
+        "#hash_51c964b5d5b988b1": "",
+        "#physicsinnerradius": 400,
+        "#physicsouterradius": 800,
+        "#planeparts": [],
+        "#parachuteanim": {
+            "#animname": {
+                "type": "anim",
+                "name": ""
+            }
+        }
+    },
+    "#externalturrets": [],
+    "#weakpoints": [],
+    "#huskexplosion": {
+        "#earthquakeradius": 385,
+        "#physicsscale": 1,
+        "#maxdamage": 140,
+        "#tag": "tag_body_animate",
+        "#vfx": "vfx_t10_core_vehicle_atv_destroy_explo_husk",
+        "#earthquakeduration": 1.5,
+        "#sfx": "veh_cer_dmg_lnd_engine_explode",
+        "#damageoffset": {
+            "#y": 0,
+            "#x": 0,
+            "#z": 0
+        },
+        "#radius": 256,
+        "#earthquakescale": 0.8,
+        "#mindamage": 70,
+        "#physicsinnerradius": 200,
+        "#physicsouterradius": 500
+    },
+    "#tricks": [],
+    "#damage": {
+        "#hash_67ee6478ec16e55d": 2.223,
+        "#hash_89b49f9b3f108f02": 0.75,
+        "#falldamagemultiplier": 0.5,
+        "#hash_ad08183ba8a73943": 5,
+        "#hash_7a15d6c1c7bad2fa": false,
+        "#hash_7745fa28bf3b3008": 1,
+        "#huskforcemultiplier": 1,
+        "#hash_64b24ab0b2b62645": 2.223,
+        "#collisiondamagemin": 15,
+        "#collisiondamagemax": 100,
+        "#hash_fb358cd27991fb1b": 10,
+        "#mineextents": {
+            "#left": 28,
+            "#front": 45,
+            "#top": 25,
+            "#right": 28,
+            "#back": 55,
+            "#bottom": 50
+        },
+        "#hash_ad602bc6bbdfe1da": 10,
+        "#hash_6a25913f7904e611": 4,
+        "#hash_cffbd34cff4dc198": 35,
+        "#hash_d01fc94cff762652": 0,
+        "#hash_945abf22c89f5ff5": 10,
+        "#hash_11d8ddc514740b08": 0.75,
+        "#hash_df106d0e92fab581": 1,
+        "#hash_efa813d230db5cdc": 1,
+        "#hash_355567a737d64f72": 200,
+        "#hash_762b2aba7d1c5ce9": 2304,
+        "#hash_fa48302c37050304": 2.223,
+        "#hash_ce5bc1e61b41099b": 30,
+        "#hash_86cdcfef9a17b4d3": 60,
+        "#hash_1b02007c36f7701e": 0.5,
+        "#hash_68716a6eeae524a0": 0.1,
+        "#hash_9a083e0f55accd4c": 90,
+        "#agentdamagemultiplier": 0.5,
+        "#hash_af36bc914d8bf94e": 55,
+        "#hash_912e17053cb5355b": 1,
+        "#hash_328f66d67049c4d7": 5,
+        "#health": 800,
+        "#hash_63e605add1ac73ba": 2.223,
+        "#hash_c628f12f50dc18e1": 2.223,
+        "#hash_5254b9916c90d7b1": 0,
+        "#hash_fa778571b5999562": 45,
+        "#hash_629984d018f37877": 2.223,
+        "#explosionextents": {
+            "#left": 50,
+            "#front": 125,
+            "#top": 50,
+            "#right": 50,
+            "#back": 130,
+            "#bottom": 50
+        },
+        "#hash_af8ae3f7d8956fe": 2,
+        "#hash_998a69fa223f881a": 1,
+        "#hash_42b2ee361864a2b0": 0.25,
+        "#hash_d56ea4bb15e41b9a": 1,
+        "#hash_5ff053fe35a3561c": 325,
+        "#hash_77d9a7d02100c5fb": 55,
+        "#explosivehitsperattack": 2,
+        "#hash_5fd015e4443da02f": 8,
+        "#hash_38e56640caa6c9ee": 15,
+        "#scrapassist": true,
+        "#hash_f6c04b91087b481a": 0.2,
+        "#deathanims": true,
+        "#hash_6f32bbd2d85d8a16": {
+            "#y": 0,
+            "#x": 0,
+            "#z": 25
+        },
+        "#class": "light",
+        "#hash_64c36f110db1c196": false,
+        "#hash_5eeb3e9d4656cc4f": 2.223,
+        "#heavystatehealthadd": 150,
+        "#hash_51958896b0e42223": 2.223,
+        "#hash_ba4f5726e822c571": 20,
+        "#hash_25ebd0140787bffc": 0.9,
+        "#hash_a7bd60167008f054": 1e-05,
+        "#maxhits": 7,
+        "#hash_958f909d4b6330ea": 0.8,
+        "#hash_fdc8e808c3b0a55e": 0.1
+    },
+    "#seats": [
+        {
+            "#animtag": "tag_seat_0",
+            "#showcashbag": true,
+            "#exitids": [
+                {
+                    "#exitdirection": "left"
+                },
+                {
+                    "#exitdirection": "right"
+                },
+                {
+                    "#exitdirection": "back"
+                },
+                {
+                    "#exitdirection": "front"
+                }
+            ],
+            "#hidestowedweapon": true,
+            "#hash_da8576f70fc157dd": true,
+            "#ref": "driver",
+            "#restrictions": "driver",
+            "#hash_45486078f1fde9bc": 0,
+            "#damagemodifier": -1,
+            "#spawnpriority": 10,
+            "#hash_b009ee59cc7f2d56": 60,
+            "#hash_86386389c0f70b5d": 0,
+            "#hash_2a812fb731a0e4cf": 12
+        },
+        {
+            "#animtag": "tag_seat_1",
+            "#showcashbag": true,
+            "#exitids": [
+                {
+                    "#exitdirection": "back"
+                },
+                {
+                    "#exitdirection": "right"
+                },
+                {
+                    "#exitdirection": "left"
+                },
+                {
+                    "#exitdirection": "front"
+                }
+            ],
+            "#allowmelee": true,
+            "#ref": "back",
+            "#requireclearance": true,
+            "#restrictions": "combat_passenger",
+            "#hash_45486078f1fde9bc": 0,
+            "#damagemodifier": -1,
+            "#hash_b009ee59cc7f2d56": 60,
+            "#hash_86386389c0f70b5d": 0,
+            "#omnvarid": 1,
+            "#hash_2a812fb731a0e4cf": 12
+        },
+        {
+            "#animtag": "tag_seat_2",
+            "#showcashbag": true,
+            "#exitids": [
+                {
+                    "#exitdirection": "front"
+                },
+                {
+                    "#exitdirection": "right"
+                },
+                {
+                    "#exitdirection": "left"
+                },
+                {
+                    "#exitdirection": "back"
+                }
+            ],
+            "#allowmelee": true,
+            "#ref": "front",
+            "#requireclearance": true,
+            "#restrictions": "combat_passenger",
+            "#hash_45486078f1fde9bc": 0,
+            "#damagemodifier": -1,
+            "#hash_b009ee59cc7f2d56": 60,
+            "#hash_86386389c0f70b5d": 0,
+            "#omnvarid": 2,
+            "#hash_2a812fb731a0e4cf": 12
+        }
+    ],
+    "#husk": {
+        "#abovevelocityscale": 1,
+        "#timeout": 60,
+        "#ref": "veh_atv_hsk",
+        "#model": "veh_t10_civ_polaris_atv_sportsman_dst",
+        "#belowvelocityscale": 1.5,
+        "#momentumthreshold": 20,
+        "#hashusk": true
+    },
+    "#ref": "veh_sat_atv_mp",
+    "#damageableparts": [
+        {
+            "#scriptablepartname": "tag_bumper_guard",
+            "#explosivedamagehealthvalue": 20,
+            "#hash_f0bb6cc5e876fad5": true,
+            "#enabled": true,
+            "#ref": "generic",
+            "#inactive": false,
+            "#blockbulletdamage": false,
+            "#damagereduction": 10,
+            "#isonpristine": true,
+            "#healthvalue": 50
+        },
+        {
+            "#scriptablepartname": "tag_heel_plate_left",
+            "#isonhusk": true,
+            "#explosivedamagehealthvalue": 20,
+            "#hash_f0bb6cc5e876fad5": true,
+            "#enabled": true,
+            "#ref": "generic",
+            "#inactive": false,
+            "#blockbulletdamage": false,
+            "#damagereduction": 0,
+            "#isonpristine": true,
+            "#healthvalue": 50
+        },
+        {
+            "#scriptablepartname": "tag_heel_plate_right",
+            "#isonhusk": true,
+            "#explosivedamagehealthvalue": 20,
+            "#hash_f0bb6cc5e876fad5": true,
+            "#enabled": true,
+            "#ref": "generic",
+            "#inactive": false,
+            "#blockbulletdamage": false,
+            "#damagereduction": 0,
+            "#isonpristine": true,
+            "#healthvalue": 50
+        },
+        {
+            "#scriptablepartname": "tag_trunk_panel",
+            "#isonhusk": true,
+            "#explosivedamagehealthvalue": 20,
+            "#hash_f0bb6cc5e876fad5": true,
+            "#enabled": true,
+            "#ref": "generic",
+            "#inactive": false,
+            "#blockbulletdamage": false,
+            "#damagereduction": 0,
+            "#isonpristine": true,
+            "#healthvalue": 50
+        },
+        {
+            "#scriptablepartname": "tag_wheel_front_left_spin",
+            "#isonhusk": true,
+            "#explosivedamagehealthvalue": 20,
+            "#hash_67ef11b9f2bef4cf": 65,
+            "#ref": "row1_left_wheel",
+            "#inactive": false,
+            "#blockbulletdamage": false,
+            "#damagereduction": 5,
+            "#isonpristine": true,
+            "#healthvalue": 50
+        },
+        {
+            "#scriptablepartname": "tag_wheel_front_right_spin",
+            "#isonhusk": true,
+            "#explosivedamagehealthvalue": 20,
+            "#hash_67ef11b9f2bef4cf": 65,
+            "#ref": "row1_right_wheel",
+            "#inactive": false,
+            "#blockbulletdamage": false,
+            "#damagereduction": 5,
+            "#isonpristine": true,
+            "#healthvalue": 50
+        },
+        {
+            "#scriptablepartname": "tag_wheel_back_left_spin",
+            "#isonhusk": true,
+            "#explosivedamagehealthvalue": 20,
+            "#hash_67ef11b9f2bef4cf": 65,
+            "#ref": "row2_left_wheel",
+            "#inactive": false,
+            "#blockbulletdamage": false,
+            "#damagereduction": 5,
+            "#isonpristine": true,
+            "#healthvalue": 50
+        },
+        {
+            "#scriptablepartname": "tag_wheel_back_right_spin",
+            "#isonhusk": true,
+            "#explosivedamagehealthvalue": 20,
+            "#hash_67ef11b9f2bef4cf": 65,
+            "#ref": "row2_right_wheel",
+            "#inactive": false,
+            "#blockbulletdamage": false,
+            "#damagereduction": 5,
+            "#isonpristine": true,
+            "#healthvalue": 50
+        },
+        {
+            "#scriptablepartname": "tag_bumper_guard_damaged",
+            "#isonhusk": true,
+            "#explosivedamagehealthvalue": 20,
+            "#hash_f0bb6cc5e876fad5": true,
+            "#enabled": true,
+            "#ref": "generic",
+            "#inactive": false,
+            "#blockbulletdamage": false,
+            "#damagereduction": 10,
+            "#isonpristine": true,
+            "#healthvalue": 50
+        }
+    ],
+    "#compositemodel": "xcomp_veh_sat_civ_polaris_atv_sportsman_bo7_vehphys",
+    "#weapon": "atv_mp",
+    "#pristineexplosion": {
+        "#earthquakeradius": 385,
+        "#physicsscale": 1,
+        "#maxdamage": 140,
+        "#tag": "tag_body_animate",
+        "#vfx": "vfx_t10_core_vehicle_atv_destroy_explo_husk",
+        "#earthquakeduration": 1.5,
+        "#sfx": "veh_cer_dmg_lnd_engine_explode",
+        "#damageoffset": {
+            "#y": 0,
+            "#x": 0,
+            "#z": 0
+        },
+        "#radius": 256,
+        "#earthquakescale": 0.8,
+        "#mindamage": 70,
+        "#physicsinnerradius": 200,
+        "#physicsouterradius": 500
+    },
+    "#hash_98e937e655b0c2dd": false,
+    "#name": "&#vehicles/atv_polaris",
+    "#extraexits": [
+        {
+            "#offset": {
+                "#y": 28,
+                "#x": 0,
+                "#z": 55
+            },
+            "#ref": "left",
+            "#direction": "left"
+        },
+        {
+            "#offset": {
+                "#y": -28,
+                "#x": 0,
+                "#z": 55
+            },
+            "#ref": "right",
+            "#direction": "right"
+        },
+        {
+            "#offset": {
+                "#y": 0,
+                "#x": 29,
+                "#z": 55
+            },
+            "#ref": "front",
+            "#direction": "front"
+        },
+        {
+            "#offset": {
+                "#y": 0,
+                "#x": -35,
+                "#z": 45
+            },
+            "#ref": "back",
+            "#direction": "back"
+        },
+        {
+            "#offset": {
+                "#y": 0,
+                "#x": 0,
+                "#z": 10
+            },
+            "#ref": "driver_to_roof",
+            "#direction": "roof"
+        },
+        {
+            "#offset": {
+                "#y": 0,
+                "#x": 25,
+                "#z": 10
+            },
+            "#ref": "front_to_roof",
+            "#direction": "roof"
+        },
+        {
+            "#offset": {
+                "#y": 0,
+                "#x": -25,
+                "#z": 10
+            },
+            "#ref": "back_to_roof",
+            "#direction": "roof"
+        }
+    ],
+    "#wondervehicle": {},
+    "#haswartracks": true,
+    "#hash_b6b22387bf32be77": {
+        "#deathdelay": 0.1,
+        "#tag": "tag_body_animate",
+        "#vfx": "vfx_t10_core_wz2_vehicle_atv_destroy_smokeout_husk"
+    },
+    "#tank": {},
+    "#aiseats": [],
+    "#canexplode": true,
+    "#damageknockback": {
+        "#hash_62b13ee648fd7ba4": 1,
+        "#hash_834463582355514d": 1,
+        "#hash_53d3481c22156866": 100,
+        "#hash_73080944f8087da5": 5,
+        "#hash_2a748c4ee31cc1fc": 220,
+        "#hash_514ba586d40dfce4": 350,
+        "#hash_e09d2a9f1a91ea6a": 750,
+        "#hash_f4ca450e4481d219": 160,
+        "#hash_48d2e287b3893e1a": 12,
+        "#hash_366046c646e23f7b": 1,
+        "#hash_16f1e0129aabafd9": 1,
+        "#hash_10bbbefa82858738": 8,
+        "#hash_56f933d5cdad385c": 0.25,
+        "#hash_292f5cff38e96f56": 0.08,
+        "#hash_377aef654c7ac8b5": 0.3,
+        "#hash_4752892bd8d9257e": 1
+    },
+    "#unloadgroups": [],
+    "#interact": {
+        "#hash_f42d7e1b3668107b": 0.4,
+        "#hash_b5a941fe80597833": false,
+        "#burndowntimerangle": 120,
+        "#maxfuel": 180,
+        "#hash_a78f9bf5290a6ef2": true,
+        "#depththreshold": 36,
+        "#hash_a5b1ad5fd2654e9a": 130,
+        "#hash_a5d4975fd28b65f0": 170,
+        "#hash_95ff2dace48e5986": 130,
+        "#hash_4a629c5bb2c02ef": true,
+        "#enginetag": "tag_engine_fx",
+        "#hash_decd8eab2bb412": false,
+        "#bctypename": "atv",
+        "#hash_2ddf21ea17462be4": true,
+        "#flippedmaxspeed": 50,
+        "#hash_5e2e5c5c203808ab": 90,
+        "#trunktag": "tag_bumper_back",
+        "#engineoffset": {
+            "#y": 0,
+            "#x": 0,
+            "#z": 0
+        },
+        "#floattime": 4,
+        "#hash_b1b3d98efa01c5a5": 30,
+        "#trunkoffset": {
+            "#y": 0,
+            "#x": 0,
+            "#z": 0
+        },
+        "#flippedtime": 2
+    },
+    "#transitionparts": [
+        {
+            "#hash_bfed29f09b275d4b": "floor_fire"
+        },
+        {
+            "#hash_bfed29f09b275d4b": "damage_transition"
+        }
+    ],
+    "#exitextents": {
+        "#left": 30,
+        "#front": 45,
+        "#top": 22,
+        "#right": 30,
+        "#back": 45,
+        "#bottom": 26
+    },
+    "#vehicle": "veh_sat_derived_port_mil_lnd_atv"
+}

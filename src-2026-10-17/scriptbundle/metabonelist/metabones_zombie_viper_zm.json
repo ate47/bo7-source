@@ -1,0 +1,356 @@
+{
+    "#hash_90ed8916f56ef56d": "zombie_viper",
+    "#hash_dc4ad1cfb00a5dac": "scripts/common/ai/aitypes/zombie_viper/zombie_viper_metabones.gsc",
+    "#metabones": [
+        {
+            "#parts": [
+                {
+                    "#partname": "#j_attachment_2_le"
+                }
+            ],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [],
+            "#name": "tesla_coil_left",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": 8750,
+                                "#health": 0.03,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        }
+                    ],
+                    "#name": "on"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        },
+        {
+            "#parts": [
+                {
+                    "#partname": "#j_attachment_2_ri"
+                }
+            ],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [],
+            "#name": "tesla_coil_right",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": 8750,
+                                "#health": 0.03,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        }
+                    ],
+                    "#name": "on"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        },
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [
+                {
+                    "#maxangle": 180,
+                    "#hitlocation": "head"
+                }
+            ],
+            "#name": "helmet",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.1,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        },
+                        {
+                            "#variant_object": {
+                                "#damagemod": 0.8,
+                                "#explosivedamagemod": 0.8
+                            },
+                            "#variant_type": "Types_Armor"
+                        }
+                    ],
+                    "#name": "on"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        },
+        {
+            "#parts": [],
+            "#metadata": [
+                {
+                    "#variant_object": {
+                        "#additionaldamagemod": 0
+                    },
+                    "#variant_type": "Types_Weakspot"
+                }
+            ],
+            "#hitlocations": [],
+            "#name": "head_bot",
+            "#states": [],
+            "#tags": [
+                {
+                    "#penetrationdist": 12,
+                    "#tagname": "j_head_pilot",
+                    "#radius": 6
+                }
+            ]
+        },
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [
+                {
+                    "#hitlocation": "left_arm_lower"
+                }
+            ],
+            "#name": "forearm_le",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.1,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        },
+                        {
+                            "#variant_object": {
+                                "#damagemod": 0.8,
+                                "#explosivedamagemod": 0.8
+                            },
+                            "#variant_type": "Types_Armor"
+                        }
+                    ],
+                    "#name": "on"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        },
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [
+                {
+                    "#hitlocation": "right_arm_lower"
+                }
+            ],
+            "#name": "forearm_ri",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.1,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        },
+                        {
+                            "#variant_object": {
+                                "#damagemod": 0.8,
+                                "#explosivedamagemod": 0.8
+                            },
+                            "#variant_type": "Types_Armor"
+                        }
+                    ],
+                    "#name": "on"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        },
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [
+                {
+                    "#hitlocation": "left_arm_upper"
+                }
+            ],
+            "#name": "shoulder_le",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.1,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        },
+                        {
+                            "#variant_object": {
+                                "#damagemod": 0.8,
+                                "#explosivedamagemod": 0.8
+                            },
+                            "#variant_type": "Types_Armor"
+                        }
+                    ],
+                    "#name": "on"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        },
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [
+                {
+                    "#hitlocation": "right_arm_upper"
+                }
+            ],
+            "#name": "shoulder_ri",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.1,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        },
+                        {
+                            "#variant_object": {
+                                "#damagemod": 0.8,
+                                "#explosivedamagemod": 0.8
+                            },
+                            "#variant_type": "Types_Armor"
+                        }
+                    ],
+                    "#name": "on"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        },
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [
+                {
+                    "#hitlocation": "left_leg_upper"
+                }
+            ],
+            "#name": "thigh_le",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.1,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        },
+                        {
+                            "#variant_object": {
+                                "#damagemod": 0.8,
+                                "#explosivedamagemod": 0.8
+                            },
+                            "#variant_type": "Types_Armor"
+                        }
+                    ],
+                    "#name": "on"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        },
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [
+                {
+                    "#hitlocation": "right_leg_upper"
+                }
+            ],
+            "#name": "thigh_ri",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.1,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        },
+                        {
+                            "#variant_object": {
+                                "#damagemod": 0.8,
+                                "#explosivedamagemod": 0.8
+                            },
+                            "#variant_type": "Types_Armor"
+                        }
+                    ],
+                    "#name": "on"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        }
+    ]
+}

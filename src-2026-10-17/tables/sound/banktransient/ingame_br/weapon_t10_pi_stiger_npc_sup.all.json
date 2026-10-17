@@ -1,0 +1,3064 @@
+{
+    "name": "#weapon_t10_pi_stiger_npc_sup.all",
+    "unk8": "#hash_3b1c1e2719ebdc6b",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_pi_stiger_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_drop_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_drop_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_drop_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_drop_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_rattle3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_slidegrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_slideopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_slideclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_slidesmack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_magrattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_magrattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_magrattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_magrattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_inspect_empty_ext03_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_inspect_empty_ext03_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_raise_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_raise_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_raise_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_raise_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f1fcd20a56ad0e5d",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_raise_quick_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_magour.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_magsmack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_magsmack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_ext03_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_ext03_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_empty_fast01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c97dc3e5ca248ebe",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_empty_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_magsmack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_magsmack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_ext03_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_ext03_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_stiger_reload_fast01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pi_stiger_reload_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_888f55b14808a015",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_drop_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_drop_akimbo_frm7",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_drop_akimbo_frm7.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_597432373da9555a",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_drop_quick_akimbo_frm0.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_inspect_akimbo_frm100",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_inspect_akimbo_frm100.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_inspect_akimbo_frm134",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_inspect_akimbo_frm134.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_inspect_akimbo_frm3",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_inspect_akimbo_frm3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_inspect_akimbo_frm42",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_inspect_akimbo_frm42.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_inspect_akimbo_frm82",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_inspect_akimbo_frm82.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ee3c6219db3ba7ae",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_raise_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c424eef865dcfc7",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_raise_akimbo_frm13.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_raise_first_akimbo_frm10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_raise_first_akimbo_frm10.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_raise_first_akimbo_frm16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_raise_first_akimbo_frm16.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_raise_first_akimbo_frm2",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_raise_first_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_raise_first_akimbo_frm25",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_raise_first_akimbo_frm25.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_1dfa7d37a2471124",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_raise_quick_akimbo_frm3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_akimbo_frm19",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_akimbo_frm19.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_akimbo_frm30",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_akimbo_frm30.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_akimbo_frm5",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_akimbo_frm5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_akimbo_frm51",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_akimbo_frm51.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_akimbo_frm62",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_akimbo_frm62.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_akimbo_frm74",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_akimbo_frm74.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_empty_akimbo_frm19",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_empty_akimbo_frm19.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_empty_akimbo_frm29",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_empty_akimbo_frm29.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_empty_akimbo_frm4",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_empty_akimbo_frm4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_empty_akimbo_frm45",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_empty_akimbo_frm45.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_empty_akimbo_frm56",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_empty_akimbo_frm56.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_empty_akimbo_frm61",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_empty_akimbo_frm61.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_empty_akimbo_frm77",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_empty_akimbo_frm77.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_reload_empty_akimbo_frm88",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_reload_empty_akimbo_frm88.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_l_transition_reload_empty_01_akimbo_frm2",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_transition_reload_empty_01_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2e1eb83b87161552",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_l_transition_reload_empty_02_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d87eba969722c4bd",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_drop_akimbo_frm10.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_drop_akimbo_frm3",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_drop_akimbo_frm3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f3d103955bb76c3",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_drop_quick_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_inspect_akimbo_frm105",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_inspect_akimbo_frm105.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_inspect_akimbo_frm136",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_inspect_akimbo_frm136.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_inspect_akimbo_frm2",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_inspect_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_inspect_akimbo_frm42",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_inspect_akimbo_frm42.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_inspect_akimbo_frm84",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_inspect_akimbo_frm84.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_11dc14a65d1c81c4",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_raise_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_75790db03770d6b5",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_raise_akimbo_frm13.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_raise_first_akimbo_frm14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_raise_first_akimbo_frm14.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_raise_first_akimbo_frm23",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_raise_first_akimbo_frm23.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_raise_first_akimbo_frm4",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_raise_first_akimbo_frm4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b6337b5add59a472",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_raise_quick_akimbo_frm3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_akimbo_frm13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_akimbo_frm13.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_akimbo_frm25",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_akimbo_frm25.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_akimbo_frm34",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_akimbo_frm34.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_akimbo_frm43",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_akimbo_frm43.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_akimbo_frm58",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_akimbo_frm58.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_akimbo_frm6",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_akimbo_frm6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_akimbo_frm63",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_akimbo_frm63.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_akimbo_frm74",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_akimbo_frm74.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm16.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm28",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm28.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm33",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm33.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm46",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm46.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm49",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm49.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm62",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm62.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm74",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm74.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm79",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm79.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm8",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm8.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pistol_stiger_r_reload_empty_akimbo_frm88",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_reload_empty_akimbo_frm88.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_1a670eb4593e9cc9",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_transition_reload_empty_01_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_528e1ecdf67cd130",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/reloads/fly_plr_pistol_stiger_r_transition_reload_empty_02_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f311e4372df45f24",
+            "aliases": [
+                {
+                    "name": "#hash_ae1e63124b57d168",
+                    "sndAsset": "#hash_e256f9659e538bfc",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_ae1e63124b57d168",
+                    "sndAsset": "#hash_99eeeb78cd9f081b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_ae1e63124b57d168",
+                    "sndAsset": "#hash_8961a6ca390bfc46",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_ae1e63124b57d168",
+                    "sndAsset": "#iw9/wpn/pi_golf17/weap_golf17_sup_npc_shot_uwt_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_ae1e63124b57d168",
+                    "sndAsset": "#iw9/wpn/pi_golf17/weap_golf17_sup_npc_shot_uwt_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_ae1e63124b57d168",
+                    "sndAsset": "#iw9/wpn/pi_golf17/weap_golf17_sup_npc_shot_uwt_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cbf7b0ad784c7724",
+            "aliases": [
+                {
+                    "name": "#hash_f9bd136b53336ea2",
+                    "sndAsset": "#hash_c5e0c3bc9646ae55",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_f9bd136b53336ea2",
+                    "sndAsset": "#hash_eb4fc30e328781b2",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_f9bd136b53336ea2",
+                    "sndAsset": "#hash_8bbf61a65d233ab7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f9bd136b53336ea2",
+            "aliases": [
+                {
+                    "name": "#hash_7e3fb426fa881437",
+                    "sndAsset": "#hash_b8bc0c2844a6b8a9",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "name": "#hash_7e3fb426fa881437",
+                    "sndAsset": "#hash_e35e6922336169bc",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "name": "#hash_7e3fb426fa881437",
+                    "sndAsset": "#hash_8eaeb88c6b2014db",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#hash_84576785a62a2672",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/stiger/lfe/wpn_pi_stiger_lfe_00.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ae1e63124b57d168",
+            "aliases": [
+                {
+                    "name": "#hash_84576785a62a2672",
+                    "sndAsset": "#t10/wpn/pistol/stiger/plr/mech/wpn_pi_stiger_mech_00.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_84576785a62a2672",
+                    "sndAsset": "#t10/wpn/pistol/stiger/plr/mech/wpn_pi_stiger_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_84576785a62a2672",
+                    "sndAsset": "#t10/wpn/pistol/stiger/plr/mech/wpn_pi_stiger_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_84576785a62a2672",
+                    "sndAsset": "#iw9/wpn/pi_golf17/weap_golf17_fire_npc_mech_uwt_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_84576785a62a2672",
+                    "sndAsset": "#iw9/wpn/pi_golf17/weap_golf17_fire_npc_mech_uwt_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_84576785a62a2672",
+                    "sndAsset": "#iw9/wpn/pi_golf17/weap_golf17_fire_npc_mech_uwt_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7e3fb426fa881437",
+            "aliases": [
+                {
+                    "name": "#hash_4f3f4d577ab8b9f9",
+                    "sndAsset": "#hash_c6f845ee12ca362c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_4f3f4d577ab8b9f9",
+                    "sndAsset": "#hash_bc1dbe540e28180b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_4f3f4d577ab8b9f9",
+                    "sndAsset": "#hash_dec394d76c3ee0f6",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4f3f4d577ab8b9f9",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_87cc7cea53028dea",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_dc2591609327778f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_fbea3d55ebe08990",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        }
+    ]
+}

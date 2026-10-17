@@ -1,0 +1,483 @@
+{
+    "name": "#weapon_jup_la_dromeo_npc.all",
+    "unk8": "#hash_c97b6ddd90ecfbb4",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#hash_5ae68ab38869eac",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_raise_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_1a8ac760d4ff2e3",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_chargeup_npc_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_chargeup_npc_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_chargeup_npc_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_dromeo_fire_npc",
+            "aliases": [
+                {
+                    "name": "#wpn_la_dromeo_fire_npc_mech",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_la_dromeo_fire_npc_mech",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_la_dromeo_fire_npc_mech",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_la_dromeo_fire_npc_mech",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_dromeo_fire_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_64a68181652b0dd0",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_cls_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_64a68181652b0dd0",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_cls_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_64a68181652b0dd0",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_cls_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_64a68181652b0dd0",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_cls_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_64a68181652b0dd0",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_cls_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_cls_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_cls_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_cls_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_dromeo_fire_npc_dist",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_dist_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_dist_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_dist_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_dromeo_fire_npc_dist_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_95b706572d868c53",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_95b706572d868c53",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_dist_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_95b706572d868c53",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_dist_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_95b706572d868c53",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_dist_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_95b706572d868c53",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_dist_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_dist_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_dist_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_dromeo_fire_npc_far",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_far_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_far_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_far_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_far_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_dromeo_fire_npc_far_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_87ca4d1b04ea01f6",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_far_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_87ca4d1b04ea01f6",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_far_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_87ca4d1b04ea01f6",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_far_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_87ca4d1b04ea01f6",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_far_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_87ca4d1b04ea01f6",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_far_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_far_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_far_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_far_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_dromeo_fire_npc_mech",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_mech_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_dromeo_fire_npc_med",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_shot_med_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_dromeo_fire_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_65c499a6a262aacb",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_65c499a6a262aacb",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_65c499a6a262aacb",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_65c499a6a262aacb",
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_ext_med_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_65c499a6a262aacb",
+            "aliases": [
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#jup/eqp/dronegun/eqp_dronegun_fire_npc_atmo_int_med_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        }
+    ]
+}

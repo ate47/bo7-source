@@ -1,0 +1,813 @@
+{
+    "name": "#weapon_iw9_la_gromeo_npc.all",
+    "unk8": "#hash_d1a9769aec04cb3",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#hash_57b6235b298c17b0",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/iw8_ak/weap_akilo47_deadtrigger_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_ak/weap_akilo47_deadtrigger_plr_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_ak/weap_akilo47_deadtrigger_plr_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_ak/weap_akilo47_deadtrigger_plr_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_ak/weap_akilo47_deadtrigger_plr_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_ak/weap_akilo47_deadtrigger_plr_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc",
+            "aliases": [
+                {
+                    "name": "#weap_gromeo_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_shot_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_shot_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_shot_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_shot_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_gromeo_fire_npc_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_atmo_ext_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_atmo_ext_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_atmo_ext_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_dist",
+            "aliases": [
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_dist_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_gromeo_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_atmo_ext_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_atmo_ext_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_atmo_ext_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_atmo_ext_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_dist_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_dist_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_far",
+            "aliases": [
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_far_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_gromeo_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_atmo_ext_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_atmo_ext_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_atmo_ext_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_atmo_ext_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_far_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_far_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_lfe",
+            "aliases": [
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_aac81aa292e96d79",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_mech",
+            "aliases": [
+                {
+                    "name": "#weap_gromeo_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_mech_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_med",
+            "aliases": [
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "name": "#hash_3e023e911e92f170",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_gromeo_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_atmo_ext_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_atmo_ext_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_atmo_ext_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_gromeo_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_atmo_ext_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_gromeo_fire_npc_med_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_fire_npc_med_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_3e023e911e92f170",
+            "aliases": [
+                {
+                    "name": "#hash_638a948f1add7c8e",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_638a948f1add7c8e",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_638a948f1add7c8e",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_638a948f1add7c8e",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#explosion"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fabd5c84b65ff788",
+            "aliases": [
+                {
+                    "name": "#hash_b6ac5bf1d434d46e",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_atmo_ext_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#explosion",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_b6ac5bf1d434d46e",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_atmo_ext_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#explosion",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_b6ac5bf1d434d46e",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_atmo_ext_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#explosion",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_b6ac5bf1d434d46e",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_atmo_ext_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#explosion",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b6ac5bf1d434d46e",
+            "aliases": [
+                {
+                    "name": "#hash_a181586d21346331",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#explosion",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_a181586d21346331",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#explosion",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_a181586d21346331",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#explosion",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_a181586d21346331",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#explosion",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a181586d21346331",
+            "aliases": [
+                {
+                    "name": "#hash_8985499f51c595db",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_8985499f51c595db",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_8985499f51c595db",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_8985499f51c595db",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8985499f51c595db",
+            "aliases": [
+                {
+                    "name": "#hash_851f408bf72dedf5",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_atmo_ext_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_851f408bf72dedf5",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_atmo_ext_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_851f408bf72dedf5",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_atmo_ext_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_851f408bf72dedf5",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_atmo_ext_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_851f408bf72dedf5",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_dist_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_638a948f1add7c8e",
+            "aliases": [
+                {
+                    "name": "#hash_fabd5c84b65ff788",
+                    "sndAsset": "#iw9/wpn/la_gromeo/weap_gromeo_proj_ignite_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_aac81aa292e96d79",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4d59ccf5036ab6f0",
+            "aliases": [
+                {
+                    "name": "#hash_fe9a75799fa65bd8",
+                    "sndAsset": "#core/fly/mount/mount_exit_side_falpha_vestlight_plr.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "name": "#hash_fe9a75799fa65bd8",
+                    "sndAsset": "#core/fly/mount/mount_exit_side_mike4_vestlight_plr.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fe9a75799fa65bd8",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_gromeo/npc/vm_p28_la_gromeo_reload_shoulder_mech_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_gromeo/npc/vm_p28_la_gromeo_reload_shoulder_mech_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4807bd6b4c3c33ba",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_gromeo/npc/vm_p28_la_gromeo_reload_lower_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4807bc6b4c3c3207",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_gromeo/npc/vm_p28_la_gromeo_reload_handle_shell_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4807bb6b4c3c3054",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_gromeo/npc/vm_p28_la_gromeo_reload_shell_insert_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4807ba6b4c3c2ea1",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_gromeo/npc/vm_p28_la_gromeo_reload_shell_in_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4807b96b4c3c2cee",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_gromeo/npc/vm_p28_la_gromeo_reload_shoulder_mech_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        }
+    ]
+}

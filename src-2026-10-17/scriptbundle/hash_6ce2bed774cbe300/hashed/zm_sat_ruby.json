@@ -1,0 +1,713 @@
+{
+    "#hash_345cdd736a059b8c": {
+        "#hash_56b73c74b70a97f7": [
+            {
+                "#hash_8da6a00f836ce552": "zone_landing",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_landing_upper",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_landing_upper",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_planetarium_outside",
+                        "#hash_2c44ee86f425ed97": "doorbuy_landing_to_planetarium_bought"
+                    },
+                    {
+                        "#targetzone": "zone_mainhall",
+                        "#hash_2c44ee86f425ed97": "doorbuy_landing_to_mainhall_bought"
+                    },
+                    {
+                        "#targetzone": "zone_landing",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_planetarium",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_planetarium_outside",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium_hallway_01",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium_hallway_02",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium_hallway_03",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_planetarium_outside",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_landing_upper",
+                        "#hash_2c44ee86f425ed97": "doorbuy_landing_to_planetarium_bought"
+                    },
+                    {
+                        "#targetzone": "zone_planetarium_hallway_01",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_planetarium_hallway_01",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_planetarium",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium_outside",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium_hallway_02",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_planetarium_hallway_02",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_planetarium_hallway_01",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium_hallway_03",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_courtyard_lower",
+                        "#hash_2c44ee86f425ed97": "doorbuy_to_courtyard_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_planetarium_hallway_03",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_planetarium_hallway_02",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_cliffside_close_to_planetarium",
+                        "#hash_2c44ee86f425ed97": "doorbuy_planetarium_to_cliff_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_mainhall",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_landing_upper",
+                        "#hash_2c44ee86f425ed97": "doorbuy_landing_to_mainhall_bought"
+                    },
+                    {
+                        "#targetzone": "zone_mainhall_airlock",
+                        "#hash_2c44ee86f425ed97": "doorbuy_mainhall_to_orrery_bought"
+                    },
+                    {
+                        "#targetzone": "zone_courtyard_lower",
+                        "#hash_2c44ee86f425ed97": "doorbuy_to_courtyard_bought"
+                    },
+                    {
+                        "#targetzone": "zone_mainhall_left",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_mainhall_left",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_mainhall",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_mainhall_airlock",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_mainhall",
+                        "#hash_2c44ee86f425ed97": "doorbuy_mainhall_to_orrery_bought"
+                    },
+                    {
+                        "#targetzone": "zone_orrery_close_to_mainhall",
+                        "#hash_2c44ee86f425ed97": "doorbuy_mainhall_to_orrery_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_orrery",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_orrery_close_to_mainhall",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_close_to_courtyard",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_upper_floor",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_lower",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_orrery_lower",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_orrery_close_to_courtyard",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_airlock",
+                        "#hash_2c44ee86f425ed97": "zone_telescope_enabled_right"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_orrery_airlock",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_orrery_lower",
+                        "#hash_2c44ee86f425ed97": "zone_telescope_enabled_right"
+                    },
+                    {
+                        "#targetzone": "zone_telescope_pathway_lower",
+                        "#hash_2c44ee86f425ed97": "zone_telescope_enabled_right"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_orrery_close_to_courtyard",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_orrery",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_courtyard_close_to_orrery",
+                        "#hash_2c44ee86f425ed97": "doorbuy_to_courtyard_bought"
+                    },
+                    {
+                        "#targetzone": "zone_orrery_upper_floor",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_close_to_mainhall",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_orrery_close_to_mainhall",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_orrery",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_close_to_mainhall",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_upper_floor",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_mainhall_airlock",
+                        "#hash_2c44ee86f425ed97": "doorbuy_mainhall_to_orrery_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_orrery_upper_floor",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_orrery",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_close_to_mainhall",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_close_to_courtyard",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_cliffside",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_cliffside_close_to_planetarium",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_cliffside_close_to_telescope",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_cliffside_close_to_telescope",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_cliffside",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_telescope",
+                        "#hash_2c44ee86f425ed97": "zone_telescope_enabled_left"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_cliffside_close_to_planetarium",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_cliffside",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium_hallway_03",
+                        "#hash_2c44ee86f425ed97": "doorbuy_planetarium_to_cliff_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_courtyard",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_courtyard_lower",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_courtyard_close_to_orrery",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_courtyard_2",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_courtyard_2",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_courtyard",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_courtyard_upper",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_courtyard_lower",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_mainhall",
+                        "#hash_2c44ee86f425ed97": "doorbuy_to_courtyard_bought"
+                    },
+                    {
+                        "#targetzone": "zone_courtyard",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_courtyard_close_to_orrery",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_planetarium_hallway_02",
+                        "#hash_2c44ee86f425ed97": "doorbuy_to_courtyard_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_courtyard_close_to_orrery",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_courtyard_lower",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_courtyard",
+                        "#hash_2c44ee86f425ed97": "zone_courtyard_enabled",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_close_to_courtyard",
+                        "#hash_2c44ee86f425ed97": "doorbuy_to_courtyard_bought"
+                    },
+                    {
+                        "#targetzone": "zone_courtyard_upper",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_courtyard_upper",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_courtyard_close_to_orrery",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_courtyard",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_telescope",
+                        "#hash_2c44ee86f425ed97": "doorbuy_to_courtyard_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_telescope",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_cliffside_close_to_telescope",
+                        "#hash_2c44ee86f425ed97": "zone_telescope_enabled_left"
+                    },
+                    {
+                        "#targetzone": "zone_telescope_close_to_pathway",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_courtyard_upper",
+                        "#hash_2c44ee86f425ed97": "doorbuy_to_courtyard_bought"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_telescope_close_to_pathway",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_telescope",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_telescope_pathway_upper",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_telescope_pathway_upper",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_telescope_close_to_pathway",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_telescope_pathway_lower",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_telescope_pathway_lower",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_telescope_pathway_upper",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_orrery_airlock",
+                        "#hash_2c44ee86f425ed97": "zone_telescope_enabled_right"
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_temple",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_temple_center",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_left",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_right",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_temple_center",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_temple",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_left",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_right",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_tech",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_displays",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_temple_left",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_temple",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_tech",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_center",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_temple_right",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_temple",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_displays",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_center",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_temple_tech",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_temple_center",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_left",
+                        "#autoenable": true
+                    }
+                ]
+            },
+            {
+                "#hash_8da6a00f836ce552": "zone_temple_displays",
+                "#hash_f4c83a6e1ffe1e67": [
+                    {
+                        "#targetzone": "zone_temple_center",
+                        "#autoenable": true
+                    },
+                    {
+                        "#targetzone": "zone_temple_right",
+                        "#autoenable": true
+                    }
+                ]
+            }
+        ],
+        "#hash_f6c27ca245722ec4": [
+            {
+                "#zonedisplayname": "landing",
+                "#hash_8da6a00f836ce552": "zone_landing",
+                "#hash_af88b5fa375e40d1": true
+            },
+            {
+                "#zonedisplayname": "landing",
+                "#hash_8da6a00f836ce552": "zone_landing_upper"
+            },
+            {
+                "#zonedisplayname": "mainhall",
+                "#hash_8da6a00f836ce552": "zone_mainhall"
+            },
+            {
+                "#zonedisplayname": "mainhall",
+                "#hash_8da6a00f836ce552": "zone_mainhall_left"
+            },
+            {
+                "#zonedisplayname": "mainhall_airlock",
+                "#hash_8da6a00f836ce552": "zone_mainhall_airlock"
+            },
+            {
+                "#zonedisplayname": "planetarium",
+                "#hash_8da6a00f836ce552": "zone_planetarium"
+            },
+            {
+                "#zonedisplayname": "planetarium",
+                "#hash_8da6a00f836ce552": "zone_planetarium_outside"
+            },
+            {
+                "#zonedisplayname": "planetarium",
+                "#hash_8da6a00f836ce552": "zone_planetarium_hallway_01"
+            },
+            {
+                "#zonedisplayname": "planetarium",
+                "#hash_8da6a00f836ce552": "zone_planetarium_hallway_02"
+            },
+            {
+                "#zonedisplayname": "planetarium",
+                "#hash_8da6a00f836ce552": "zone_planetarium_hallway_03"
+            },
+            {
+                "#zonedisplayname": "orrery",
+                "#hash_8da6a00f836ce552": "zone_orrery"
+            },
+            {
+                "#zonedisplayname": "orrery",
+                "#hash_8da6a00f836ce552": "zone_orrery_lower"
+            },
+            {
+                "#zonedisplayname": "orrery_airlock",
+                "#hash_8da6a00f836ce552": "zone_orrery_airlock"
+            },
+            {
+                "#zonedisplayname": "orrery",
+                "#hash_8da6a00f836ce552": "zone_orrery_close_to_courtyard"
+            },
+            {
+                "#zonedisplayname": "orrery",
+                "#hash_8da6a00f836ce552": "zone_orrery_close_to_mainhall"
+            },
+            {
+                "#zonedisplayname": "orrery",
+                "#hash_8da6a00f836ce552": "zone_orrery_upper_floor"
+            },
+            {
+                "#zonedisplayname": "cliffside",
+                "#hash_8da6a00f836ce552": "zone_cliffside"
+            },
+            {
+                "#zonedisplayname": "cliffside",
+                "#hash_8da6a00f836ce552": "zone_cliffside_close_to_telescope"
+            },
+            {
+                "#zonedisplayname": "cliffside",
+                "#hash_8da6a00f836ce552": "zone_cliffside_close_to_planetarium"
+            },
+            {
+                "#zonedisplayname": "telescope",
+                "#hash_8da6a00f836ce552": "zone_telescope"
+            },
+            {
+                "#zonedisplayname": "telescope",
+                "#hash_8da6a00f836ce552": "zone_telescope_close_to_pathway"
+            },
+            {
+                "#zonedisplayname": "gazebo",
+                "#hash_8da6a00f836ce552": "zone_telescope_pathway_upper"
+            },
+            {
+                "#zonedisplayname": "gazebo",
+                "#hash_8da6a00f836ce552": "zone_telescope_pathway_lower"
+            },
+            {
+                "#zonedisplayname": "courtyard",
+                "#hash_8da6a00f836ce552": "zone_courtyard"
+            },
+            {
+                "#zonedisplayname": "courtyard",
+                "#hash_8da6a00f836ce552": "zone_courtyard_2"
+            },
+            {
+                "#zonedisplayname": "courtyard",
+                "#hash_8da6a00f836ce552": "zone_courtyard_lower"
+            },
+            {
+                "#zonedisplayname": "courtyard",
+                "#hash_8da6a00f836ce552": "zone_courtyard_close_to_orrery"
+            },
+            {
+                "#zonedisplayname": "courtyard",
+                "#hash_8da6a00f836ce552": "zone_courtyard_upper"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_ruby_temple",
+                "#zonedisplayname": "temple",
+                "#hash_8da6a00f836ce552": "zone_temple",
+                "#hash_96b821aed30d95de": "enable_mars_zones"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_ruby_temple",
+                "#zonedisplayname": "temple",
+                "#hash_8da6a00f836ce552": "zone_temple_center",
+                "#hash_96b821aed30d95de": "enable_mars_zones"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_ruby_temple",
+                "#zonedisplayname": "temple",
+                "#hash_8da6a00f836ce552": "zone_temple_left",
+                "#hash_96b821aed30d95de": "enable_mars_zones"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_ruby_temple",
+                "#zonedisplayname": "temple",
+                "#hash_8da6a00f836ce552": "zone_temple_right",
+                "#hash_96b821aed30d95de": "enable_mars_zones"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_ruby_temple",
+                "#zonedisplayname": "temple",
+                "#hash_8da6a00f836ce552": "zone_temple_tech",
+                "#hash_96b821aed30d95de": "enable_mars_zones"
+            },
+            {
+                "#subclass_to_aitype_map": "stam_zm_sat_ruby_temple",
+                "#zonedisplayname": "temple",
+                "#hash_8da6a00f836ce552": "zone_temple_displays",
+                "#hash_96b821aed30d95de": "enable_mars_zones"
+            }
+        ],
+        "#hash_cf297ac0af07a28f": []
+    }
+}

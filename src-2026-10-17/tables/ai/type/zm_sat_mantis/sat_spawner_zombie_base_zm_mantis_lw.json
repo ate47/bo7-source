@@ -1,0 +1,193 @@
+{
+    "name": "#sat_spawner_zombie_base_zm_mantis_lw",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d8f91164cd3e0a8",
+    "animationStateMachineAsset": "#zombie_base",
+    "behaviorTreeAsset": "#zombie_base",
+    "footStepsFxTable": "#hash_db66910927dc262f",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#aiimpactvfxtable_zombie_base",
+    "dismemberment": "#hash_d81cc250f407388b",
+    "particleSystem1": "#hash_8462c4128bfe943a",
+    "particleSystem2": "#hash_8462c4128bfe943a",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_hazmat_1"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_hazmat_2"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_hazmat_shirtless"
+        },
+        {
+            "character": "#c_sat_zmb_zombie_charred_shorts"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_hazmat_shirtless_green"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_fem_apron_elderly"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_male_hawaiian"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_male_bowling_open"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_letterman"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_letterman_green"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_male_longsleeve"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_male_longsleeve_blue"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_male_longsleeve_brown"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_male_longsleeve_yellow"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_male_bowling_open_brown"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_male_bowler_closed"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_zombie_male_bowler_closed_red"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_d475315fad97c80a",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_melee_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_base/zombie_base.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_base\\zombie_base.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_hazmat_1"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_hazmat_2"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_hazmat_shirtless"
+            },
+            {
+                "#character": "c_sat_zmb_zombie_charred_shorts"
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_hazmat_shirtless_green"
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_fem_apron_elderly"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_male_hawaiian"
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_male_bowling_open"
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_letterman"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_letterman_green"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_male_longsleeve"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_male_longsleeve_blue"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_male_longsleeve_brown"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_male_longsleeve_yellow"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_male_bowling_open_brown"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_male_bowler_closed"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_zombie_male_bowler_closed_red"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_base",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_base",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_base_sat",
+        "#health": 100,
+        "#healthbarsettings": "%#hash_348992f1945d8f38",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_ranged_attack_mp",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_base",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_base",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

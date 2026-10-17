@@ -1,0 +1,76 @@
+{
+    "name": "#sat_spawner_europa",
+    "species": "human",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#enemyselector_europa",
+    "animationStateMachineAsset": "#soldier_europa",
+    "behaviorTreeAsset": "#europa",
+    "footStepsFxTable": "#hash_e35f9ba3a17755b9",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "scriptbundle": "#hash_80fde257bcab3875",
+    "unitType": "soldier",
+    "team": "allies",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_europa"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_842dfb283fec1a59",
+            "weapontype": "primary",
+            "weapon": "sat_ar_hawk_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/europa/europa.gsc",
+        "#scripts/mp/zm/systems/aitypes/zm_soldier_europa.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\europa\\europa.gsc"
+            },
+            {
+                "#scriptfile": "scripts\\mp\\zm\\systems\\aitypes\\zm_soldier_europa.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_europa"
+            }
+        ],
+        "#unittype": "soldier",
+        "#subclass": "soldier_europa",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_soldier_europa",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 10000,
+        "#healthbarsettings": "%#hash_db3d887a22d1a82",
+        "#aitypesettingsbundle": "aisettings_sat_soldier_europa",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_blackhole_bomb_zm",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "soldier_europa",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "europa",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 2,
+        "#team": "allies"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "name": "#sat_ally_hero_dlc2_npc_sister_skeletal_zm",
+    "species": "human",
+    "coverSelectorAsset": "#hash_529f0a4e02abb330",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#enemyselector_default",
+    "animationStateMachineAsset": "#soldier",
+    "behaviorTreeAsset": "#soldier_agent_zm",
+    "footStepsFxTable": "#hash_9b4a52537e1f3d45",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "unitType": "soldier",
+    "team": "allies",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#c_sat_zmb_dlc2_npc_sister_skeletal"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_npc_sister_skeletal"
+        },
+        {
+            "character": "#c_sat_zmb_dlc2_npc_sister_skeletal"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/mp/zm/systems/aitypes/zm_soldier.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts/mp/zm/systems/aitypes/zm_soldier.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "c_sat_zmb_dlc2_npc_sister_skeletal"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_npc_sister_skeletal"
+            },
+            {
+                "#character": "c_sat_zmb_dlc2_npc_sister_skeletal"
+            }
+        ],
+        "#unittype": "soldier",
+        "#subclass": "soldier",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_soldier_base_zm",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 240,
+        "#healthbarsettings": "%#",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "soldier",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "soldier_agent_zm",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "allies"
+    }
+}

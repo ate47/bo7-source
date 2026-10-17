@@ -1,0 +1,1357 @@
+{
+    "name": "#vehicle_lbravo_physics.all",
+    "unk8": "#hash_444b8622131eba2a",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#br_exfil_lbravo_engine_temp",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/lbravo/iw8_lbravo_move_lp.snl.85.48000.all",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_engine_donut",
+            "aliases": [
+                {
+                    "name": "#lbravo_engine_donut_dist",
+                    "sndAsset": "#hash_d5ab86f81d2fb8bc",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_engine_donut_dist",
+            "aliases": [
+                {
+                    "name": "#lbravo_mainrotor_rpm_high_effort",
+                    "sndAsset": "#hash_e972d4cd92c09bb4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_engine_failure_alarm_lp",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_dfe7f2ff6a147994",
+                    "soundSpeakerMap": "#sfx_center",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_engine_high",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/lbravo/iw8_lbravo_mainrotor_rpmhigh_effort.snl.85.48000.all",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_engine_high_fallback",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/lbravo/iw8_lbravo_move_lp.snl.85.48000.all",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_engine_low",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/lbravo/iw8_lbravo_mainrotor_rpmhigh_effort.snl.85.48000.all",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_engine_low_fallback",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/lbravo/iw8_lbravo_move_lp.snl.85.48000.all",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_helicopter_crash",
+            "aliases": [
+                {
+                    "sndAsset": "#defaultsndasset",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_helicopter_dying_layer",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/veh_helicopter_damaged3_str.snl.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_helicopter_dying_loop",
+            "aliases": [
+                {
+                    "name": "#lbravo_helicopter_dying_layer",
+                    "sndAsset": "#iw9/exp/helicopter_spindown_mp1.snl.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_helicopter_hit",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/exp/expl_heli_hit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "sndAsset": "#iw9/exp/expl_heli_hit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_helicopter_secondary_exp",
+            "aliases": [
+                {
+                    "sndAsset": "#defaultsndasset",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_idle_high",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_9b31d10fa49eaa93",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_idle_high_fallback",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_aa1d550fe4f6133f",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_idle_low",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_9b31d10fa49eaa93",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_idle_low_fallback",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_aa1d550fe4f6133f",
+                    "soundSpeakerMap": "#hash_9c64e5d5897e9aab",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#hash_20ff720771430f4e",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f9b308b84482781a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_fffb803f18dd7b1f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_f8f437532ff841c4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e78eb01fb51ffe49",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f9b308b84482781a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_fffb803f18dd7b1f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_f8f437532ff841c4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fbc00545717356ce",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f9b308b84482781a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_fffb803f18dd7b1f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_f8f437532ff841c4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5c3843b7e6ace9c9",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f9b308b84482781a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_fffb803f18dd7b1f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_f8f437532ff841c4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4bebe4022c71d95c",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_23db425670018f1f",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_3fb8135abd130d2c",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_976c158e1f40af8f",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_3e7bf935c544c999",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d01c0211fe610b6e",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fe3c3ee8d4671d70",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f8e34f7590f89ddb",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5143e730c656ffc7",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f9b308b84482781a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_fffb803f18dd7b1f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_f8f437532ff841c4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                }
+            ]
+        },
+        {
+            "name": "#hash_eb6219c21dd51edc",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f9b308b84482781a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_fffb803f18dd7b1f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_f8f437532ff841c4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c85803dadd2486e7",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f9b308b84482781a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_fffb803f18dd7b1f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_f8f437532ff841c4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                }
+            ]
+        },
+        {
+            "name": "#hash_87ffef73f89f2ebc",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f9b308b84482781a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_fffb803f18dd7b1f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                },
+                {
+                    "sndAsset": "#hash_f8f437532ff841c4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle"
+                }
+            ]
+        },
+        {
+            "name": "#hash_bacfe38474aef63b",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_25d653efe41ef4b8",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5f5f4db9aef36b5d",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_789bb5526894a62a",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0ff8d332321ae96",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2a1c6b5de8800d01",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5535f3f1f0d74f",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7172e86b6804c1f4",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_mainrotor_rpm_high",
+            "aliases": [
+                {
+                    "name": "#lbravo_engine_donut",
+                    "sndAsset": "#hash_f9ce73987abdd9ee",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air",
+                    "sndModifier": "#hash_1dad10ad875"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_mainrotor_rpm_high_effort",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_e4fdf8aa45e2e72f",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air",
+                    "sndModifier": "#hash_1dad10ad9dd"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_mainrotor_rpm_low",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_8629bd7754881544",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_noflares_warning",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/lbravo/iw8_lbravo_noflares_warning.tnn.75.48000.all",
+                    "soundSpeakerMap": "#hash_d00462646e69f064",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_physics_shutdown",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/lbravo/iw8_lbravo_shutdown_sfx.pnn.85.48000.all",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_physics_startup",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/lbravo/iw8_lbravo_startup_sfx.tnn.85.48000.all",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_rotor_impact_heavy",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_rotor_impact_light",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                },
+                {
+                    "sndAsset": "#iw9/veh/impacts/iw8_lbravo_rotor_impact3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#physics"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_tailrotor_rpm_high",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_e54f86730b137245",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air",
+                    "sndModifier": "#hash_1dad10ae505"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_tailrotor_rpm_left_effort",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_9686ae715e302042",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air",
+                    "sndModifier": "#hash_1dad10ae66d"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_tailrotor_rpm_low",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_92e0028e1826d1bb",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_tailrotor_rpm_right_effort",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_8d36aefb6c76ea1d",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air",
+                    "sndModifier": "#hash_1dad10ae925"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_turbine_high",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f99009b6475a620e",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air",
+                    "sndModifier": "#hash_1dad10aea8d"
+                }
+            ]
+        },
+        {
+            "name": "#lbravo_turbine_low",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_b38649a83559a66a",
+                    "soundSpeakerMap": "#sfx_front",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_air"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a8260969cc838ecc",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_fe2e565e291a4c1a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#ambient_emitters"
+                },
+                {
+                    "sndAsset": "#hash_db7b4af5f6a2f1bf",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#ambient_emitters"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7c01753f61e8fda2",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_c3569493e0203241",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#ambient_emitters"
+                }
+            ]
+        },
+        {
+            "name": "#veh_horn_lbravo_01",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/veh/horns/lbird_klaxon_05b.tnn.50.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#vehicle_horn"
+                }
+            ]
+        },
+        {
+            "name": "#veh_lbravo_explode",
+            "aliases": [
+                {
+                    "name": "#veh_lbravo_explode_distant",
+                    "sndAsset": "#iw9/exp/helicopter/chopper_support_explo_close_01.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#veh_lbravo_explode_distant",
+                    "sndAsset": "#iw9/exp/helicopter/chopper_support_explo_close_02.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#veh_lbravo_explode_distant",
+                    "sndAsset": "#iw9/exp/helicopter/chopper_support_explo_close_03.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#veh_lbravo_explode_distant",
+                    "sndAsset": "#iw9/exp/helicopter/chopper_support_explo_close_01.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#veh_lbravo_explode_distant",
+                    "sndAsset": "#iw9/exp/helicopter/chopper_support_explo_close_02.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#veh_lbravo_explode_distant",
+                    "sndAsset": "#iw9/exp/helicopter/chopper_support_explo_close_03.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                }
+            ]
+        },
+        {
+            "name": "#veh_lbravo_explode_distant",
+            "aliases": [
+                {
+                    "name": "#lbravo_helicopter_hit",
+                    "sndAsset": "#iw9/exp/helicopter/hind_heli_explo_distant_01.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#lbravo_helicopter_hit",
+                    "sndAsset": "#iw9/exp/helicopter/hind_heli_explo_distant_02.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#lbravo_helicopter_hit",
+                    "sndAsset": "#iw9/exp/helicopter/hind_heli_explo_distant_03.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#lbravo_helicopter_hit",
+                    "sndAsset": "#iw9/exp/helicopter/hind_heli_explo_distant_01.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#lbravo_helicopter_hit",
+                    "sndAsset": "#iw9/exp/helicopter/hind_heli_explo_distant_02.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#lbravo_helicopter_hit",
+                    "sndAsset": "#iw9/exp/helicopter/hind_heli_explo_distant_03.tnn.75.48000.all",
+                    "soundSubmix": "#heli_explode",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9e96e3cf45728af4",
+            "aliases": [
+                {
+                    "name": "#hash_dc540ce99cdffab6",
+                    "sndAsset": "#iw9/exp/car/explo_car_blast_01.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_dc540ce99cdffab6",
+                    "sndAsset": "#iw9/exp/car/explo_car_blast_02.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_dc540ce99cdffab6",
+                    "sndAsset": "#iw9/exp/car/explo_car_blast_03.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_dc540ce99cdffab6",
+                    "sndAsset": "#iw9/exp/car/explo_car_blast_04.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_dc540ce99cdffab6",
+                    "sndAsset": "#iw9/exp/car/explo_car_blast_05.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a2aec20c8fe6378a",
+            "aliases": [
+                {
+                    "name": "#hash_d4e3b70cabd64822",
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_far_dist_01.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#hash_d4e3b70cabd64822",
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_far_dist_02.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#hash_d4e3b70cabd64822",
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_far_dist_03.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#hash_d4e3b70cabd64822",
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_far_dist_04.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#hash_d4e3b70cabd64822",
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_far_dist_05.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                },
+                {
+                    "name": "#hash_d4e3b70cabd64822",
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_far_dist_06.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion_far"
+                }
+            ]
+        },
+        {
+            "name": "#hash_dc540ce99cdffab6",
+            "aliases": [
+                {
+                    "name": "#hash_a2aec20c8fe6378a",
+                    "sndAsset": "#iw9/exp/fire_vehicle_flame_up_medbig1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_a2aec20c8fe6378a",
+                    "sndAsset": "#iw9/exp/fire_vehicle_flame_up_medbig2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_a2aec20c8fe6378a",
+                    "sndAsset": "#iw9/exp/fire_vehicle_flame_up_medbig3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_a2aec20c8fe6378a",
+                    "sndAsset": "#iw9/exp/fire_vehicle_flame_up_medbig4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_a2aec20c8fe6378a",
+                    "sndAsset": "#iw9/exp/fire_vehicle_flame_up_medbig5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "name": "#hash_a2aec20c8fe6378a",
+                    "sndAsset": "#iw9/exp/fire_vehicle_flame_up_medbig6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d4e3b70cabd64822",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_lfe_01.tnn.75.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_lfe_02.tnn.75.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_lfe_03.tnn.75.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_lfe_04.tnn.75.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                },
+                {
+                    "sndAsset": "#iw9/exp/frag/iw9/iw9_frag_expl_lfe_05.tnn.75.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#explosion"
+                }
+            ]
+        },
+        {
+            "name": "#hash_801207fc9d8b7305",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_823099791b9eb934",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#ambient_emitters"
+                }
+            ]
+        },
+        {
+            "name": "#hash_caf406c28f034e2d",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_a8f94e138198ff3d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#ambient_emitters"
+                }
+            ]
+        },
+        {
+            "name": "#hash_57f7fc3a03e427be",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_8efd6ddd2bd1f70d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_f48fc3f8d57eb1ca",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_c3d90e84bf10842f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_65df97aed8f8d57a",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_8efd6ddd2bd1f70d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_f48fc3f8d57eb1ca",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_c3d90e84bf10842f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_98dd1011a209ebeb",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f02f6caaa70a00c4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b24d4c25c12359e6",
+            "aliases": [
+                {
+                    "sndAsset": "#mp/iw9_smoke_airdrop/iw9_smoke_airdrop_smoke_start_02.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#mp/iw9_smoke_airdrop/iw9_smoke_airdrop_smoke_start_04.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#mp/iw9_smoke_airdrop/iw9_smoke_airdrop_smoke_start_05.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        }
+    ]
+}

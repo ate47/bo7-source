@@ -1,0 +1,2933 @@
+{
+    "name": "#weapon_sat_sh_husky_npc_sup.all",
+    "unk8": "#hash_39c4ea14b440eb44",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_sh_husky_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_drop_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_drop_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_drop_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_drop_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_rattle3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_spin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_magspin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_rattle4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_magrotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_magrotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_21",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_magtoss.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_22",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_magcatch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_23",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_24",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_25",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_26",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_27",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_28",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_29",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_30",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_magrelease1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_rechamber.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_maglock.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_rattle3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_rattle4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_rattle5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_magrelease2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_spin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_magspin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_rattle6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_maggrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_21",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_22",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_magrotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_23",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_magrotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_24",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_magtoss.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_25",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_magcatch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_26",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_27",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_28",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_29",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_30",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_31",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_32",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_33",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_rechamber.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_maglock.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_rattle3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_rattle4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_magrelease2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_rattle5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_spin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_magspin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_rattle6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_maggrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_21",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_22",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_magrotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_23",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_magrotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_24",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_magtoss.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_25",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_magcatch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_26",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_27",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_28",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_29",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_30",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_31",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_empty_smag_32",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_empty_smag_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_rattle3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_rattle4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_rattle5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_spin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_magspin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_rattle6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_21",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_magrotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_22",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_magrotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_23",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_magtoss.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_24",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_magcatch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_25",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_26",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_27",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_28",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_29",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_30",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_31",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_inspect_smag_32",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_inspect_smag_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_raise_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_raise_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_raise_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_raise_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_raise_quick_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_raise_quick_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_rechamber_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_rechamber_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_rechamber_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_turn.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_rechamber_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_618f653e7c5bc378",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_smag_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_618f683e7c5bc891",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_smag_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_618f673e7c5bc6de",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_smag_turn.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_618f6a3e7c5bcbf7",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_smag_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_314558d7afa71ea5",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_xmag_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_314555d7afa7198c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_xmag_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_314556d7afa71b3f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_xmag_turn.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_314553d7afa71626",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_rechamber_xmag_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_maghti1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_19982cfac0f0a229",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_smag_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_smag_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_maggrabend.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_rattle3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_empty_xmag_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_empty_xmag_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_smag_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_smag_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_foregrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_tllt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sh_husky_reload_xmag_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/reloads/wfoly_plr_sh_husky_reload_xmag_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#weap_kilo53_fcg_deadtrig_npc",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/ar_kilo53/weap_kilo53_fcg_deadtrig_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#weap_kilo53_fcg_dryfire_npc",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/weap_dryfire_rifle.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sh_husky_sup_npc",
+            "aliases": [
+                {
+                    "name": "#wpn_sh_husky_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sh/husky/plr/sup/wpn_sh_husky_sup_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sh/husky/plr/sup/wpn_sh_husky_sup_plr_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sh/husky/plr/sup/wpn_sh_husky_sup_plr_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sh/husky/plr/sup/wpn_sh_husky_sup_plr_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sh/husky/plr/sup/wpn_sh_husky_sup_plr_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/sh/husky/plr/sup/wpn_sh_husky_sup_plr_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sh_husky_sup_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_420bb0861fc58f50",
+                    "sndAsset": "#hash_b0e903e6a838cd40",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#hash_420bb0861fc58f50",
+                    "sndAsset": "#hash_dd9eb3fd11c4313d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#hash_420bb0861fc58f50",
+                    "sndAsset": "#hash_9a66476360e2f25a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#hash_420bb0861fc58f50",
+            "aliases": [
+                {
+                    "name": "#wpn_sh_husky_sup_npc_med_atmo",
+                    "sndAsset": "#hash_ac9d6c04ba067248",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_med_atmo",
+                    "sndAsset": "#hash_e94bf646335d1945",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_med_atmo",
+                    "sndAsset": "#hash_b492f001764c9562",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sh_husky_sup_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sh/husky/lfe/wpn_sh_husky_lfe_01.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sh_husky_sup_npc_mech",
+            "aliases": [
+                {
+                    "name": "#wpn_sh_husky_sup_npc_lfe",
+                    "sndAsset": "#sat/wpn/sh/husky/plr/mech/wpn_sh_husky_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_lfe",
+                    "sndAsset": "#sat/wpn/sh/husky/plr/mech/wpn_sh_husky_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_lfe",
+                    "sndAsset": "#sat/wpn/sh/husky/plr/mech/wpn_sh_husky_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sh_husky_sup_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#wpn_sh_husky_sup_npc_med_atmo_int",
+                    "sndAsset": "#hash_8319d11c1f489811",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_med_atmo_int",
+                    "sndAsset": "#hash_b59d07557b78ac04",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_sh_husky_sup_npc_med_atmo_int",
+                    "sndAsset": "#hash_bc5e522368a72fc3",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sh_husky_sup_npc_med_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_ed6b362b2f90c3d1",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_8711d1812d231ec4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_e0941f4b9dce6c83",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        }
+    ]
+}

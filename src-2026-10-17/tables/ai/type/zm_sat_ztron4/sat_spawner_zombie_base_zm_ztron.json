@@ -1,0 +1,292 @@
+{
+    "name": "#sat_spawner_zombie_base_zm_ztron",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d8f91164cd3e0a8",
+    "animationStateMachineAsset": "#zombie_base",
+    "behaviorTreeAsset": "#zombie_base",
+    "footStepsFxTable": "#hash_db66910927dc262f",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_c50103a093fdce55",
+    "dismemberment": "#hash_aec54ab97a10ca29",
+    "particleSystem1": "#hash_8462c4128bfe943a",
+    "particleSystem2": "#hash_8462c4128bfe943a",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#c_sat_zmb_farm_zombie_flannel_fem"
+        },
+        {
+            "character": "#c_sat_zmb_cosmo_zombie_technician_vest"
+        },
+        {
+            "character": "#c_sat_zmb_cosmo_zombie_female_labcoat"
+        },
+        {
+            "character": "#c_sat_zmb_cabin_zombie_hunter_male_binoculars"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_fem_hoodie"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_shirtless_male_3"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_fem_hoodie_blue"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_fem_heavy_flannel"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_shirtless_male"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_flannel_fem"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_overall_male_flannel"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_overall_male_shirtless"
+        },
+        {
+            "character": "#c_sat_zmb_zombie_male_mechanic_belt"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_overall_male_flannel_green"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_flannel_fem_orange"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_male_cook"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_fem_waitress_1"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_fem_waitress_2"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_male_cook_2"
+        },
+        {
+            "character": "#c_sat_zmb_cosmo_zombie_spacesuit_male_tan"
+        },
+        {
+            "character": "#c_sat_zmb_cosmo_zombie_spacesuit_male_red"
+        },
+        {
+            "character": "#c_sat_zmb_janus_zombie_guard_blue"
+        },
+        {
+            "character": "#c_sat_zmb_janus_zombie_guard_shortsleeve_tan"
+        },
+        {
+            "character": "#c_sat_zmb_cosmo_zombie_technician_tan"
+        },
+        {
+            "character": "#c_sat_zmb_cosmo_zombie_technician_blue"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_suspenders_male"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_overalls_male_heavy"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_overalls_male_heavy_beanie"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_overalls_male_heavy_beard"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_overalls_male_heavy_nose"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_overalls_male_heavy_noseless"
+        },
+        {
+            "character": "#c_sat_zmb_cosmo_zombie_male_labcoat"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_male_cook"
+        },
+        {
+            "character": "#c_sat_zmb_zombie_charred_shorts"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_patron_flannel"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_patron_trucker"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_patron_flannel_blue"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_d475315fad97c80a",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_melee_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_base/zombie_base.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_base\\zombie_base.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "c_sat_zmb_farm_zombie_flannel_fem"
+            },
+            {
+                "#character": "c_sat_zmb_cosmo_zombie_technician_vest"
+            },
+            {
+                "#character": "c_sat_zmb_cosmo_zombie_female_labcoat"
+            },
+            {
+                "#character": "c_sat_zmb_cabin_zombie_hunter_male_binoculars"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_fem_hoodie"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_shirtless_male_3"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_fem_hoodie_blue"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_fem_heavy_flannel"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_shirtless_male"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_flannel_fem"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_overall_male_flannel"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_overall_male_shirtless"
+            },
+            {
+                "#character": "c_sat_zmb_zombie_male_mechanic_belt"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_overall_male_flannel_green"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_flannel_fem_orange"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_male_cook"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_fem_waitress_1"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_fem_waitress_2"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_male_cook_2"
+            },
+            {
+                "#character": "c_sat_zmb_cosmo_zombie_spacesuit_male_tan"
+            },
+            {
+                "#character": "c_sat_zmb_cosmo_zombie_spacesuit_male_red"
+            },
+            {
+                "#character": "c_sat_zmb_janus_zombie_guard_blue"
+            },
+            {
+                "#character": "c_sat_zmb_janus_zombie_guard_shortsleeve_tan"
+            },
+            {
+                "#character": "c_sat_zmb_cosmo_zombie_technician_tan"
+            },
+            {
+                "#character": "c_sat_zmb_cosmo_zombie_technician_blue"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_suspenders_male"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_overalls_male_heavy"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_overalls_male_heavy_beanie"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_overalls_male_heavy_beard"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_overalls_male_heavy_nose"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_overalls_male_heavy_noseless"
+            },
+            {
+                "#character": "c_sat_zmb_cosmo_zombie_male_labcoat"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_male_cook"
+            },
+            {
+                "#character": "c_sat_zmb_zombie_charred_shorts"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_patron_flannel"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_patron_trucker"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_patron_flannel_blue"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_base",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_base",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_base_sat_ztron",
+        "#health": 100,
+        "#healthbarsettings": "%#hash_348992f1945d8f38",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_base",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_base",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

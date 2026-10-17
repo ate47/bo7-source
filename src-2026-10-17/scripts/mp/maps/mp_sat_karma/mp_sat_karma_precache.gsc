@@ -1,0 +1,11 @@
+#namespace mp_sat_karma_precache;
+
+// Namespace mp_sat_karma_precache
+// Params 0
+// Checksum 0xd3cdbcd1, Offset: 0x76
+// Size: 0x2
+function main()
+{
+    
+}
+

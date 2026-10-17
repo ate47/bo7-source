@@ -1,0 +1,77 @@
+{
+    "name": "#sat_spawner_zombie_viper_mini_ob",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_viper_mini",
+    "behaviorTreeAsset": "#zombie_viper_mini",
+    "footStepsFxTable": "#hash_9663747c07c6f02e",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_8c2e50443298f0f6",
+    "dismemberment": "#defaultdismemberment_zm",
+    "particleSystem1": "#vfx_sat_gameplay_zm_ai_shade_atk_veh",
+    "particleSystem2": "#hash_9b3a11d7ba0b0076",
+    "unitType": "zombie",
+    "team": "team_190",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_viper_mini"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_d475315fad97c80a",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_melee_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_viper_mini/zombie_viper_mini.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_viper_mini\\zombie_viper_mini.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_t10_zombie_viper_mini"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_viper_mini",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_viper_mini_hvt",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_viper_mini_ob",
+        "#health": 900,
+        "#healthbarsettings": "%#hash_1412e4facfe47df7",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_ranged_attack_mp",
+        "#hash_61e44fac124dbd73": true,
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_viper_mini",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_viper_mini",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "TEAM_HUNDRED_NINETY"
+    }
+}

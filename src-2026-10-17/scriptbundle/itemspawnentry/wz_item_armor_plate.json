@@ -1,0 +1,70 @@
+{
+    "#lootcardprompts": [
+        {
+            "#promptasset": "%#hash_afdf8102243696d",
+            "#promptcategory": "primary",
+            "#conditionkey": "#default"
+        },
+        {
+            "#promptasset": "%#hash_5128b62df468d97e",
+            "#promptcategory": "secondary",
+            "#conditionkey": "#ping"
+        }
+    ],
+    "#resources": [],
+    "#camoref": "",
+    "#pingvo": "%#ping_loot_armor",
+    "#lootitemtype": "%#hash_5eca0c3c047abb55",
+    "#hash_2db3c77ed10a87aa": true,
+    "#maxcount": 5,
+    "#hash_c048a47fe4e742cd": "%#ping_loot_confirm_armor",
+    "#hash_14f5e5b99be6fc2f": true,
+    "#titlestring": "&#equipment/armor_plate_br",
+    "#hash_b7386e49348ae6a3": 0,
+    "#hash_b30083978786aac7": true,
+    "#autopickupenabled": true,
+    "#hash_f96b9b6aff0b335f": 0,
+    "#hash_aac2785c34c750bd": true,
+    "#ref": "equip_armorplate",
+    "#inventoryslot": "Generic",
+    "#dropsfx": "#fly_drop_armor",
+    "#armorupgrade": {
+        "#hash_160bb77f70ce8c44": true,
+        "#hash_60e53495c3091af9": true,
+        "#hash_2110816f22f3360c": false,
+        "#damagetakenscale": 1
+    },
+    "#gamemoderestrictions": {
+        "#br": true
+    },
+    "#subtype": "",
+    "#backpacksize": 6,
+    "#lootcardalerts": [
+        {
+            "#datasource": "alert_armor_full",
+            "#lootcardalert": "%#hash_61d91444930579d1"
+        },
+        {
+            "#datasource": "alert_is_zombie",
+            "#lootcardalert": "%#hash_3dc1dbc8f25ec5bb"
+        }
+    ],
+    "#hash_b22f7855894dc6a0": "common_unrestricted",
+    "#pickupsfx": "#fly_pickup_armor",
+    "#inventorytype": "Stored",
+    "#hash_8725c0955f9aadd": {
+        "#rewardtype": "ItemSpawnList"
+    },
+    "#tags": [
+        {
+            "#tag": "#armor"
+        }
+    ],
+    "#icon": "hud_icon_loot_armor_plate",
+    "#spawncount": 1,
+    "#hash_2d4a8aa1a1c36b31": 0,
+    "#ispingable": true,
+    "#scriptable": "%#brloot_armor_plate",
+    "#pingasset": "%#loot",
+    "#typestring": "&#hash_76a3cb74f506d037"
+}

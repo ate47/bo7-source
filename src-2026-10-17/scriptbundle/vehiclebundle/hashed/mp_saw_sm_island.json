@@ -1,0 +1,1390 @@
+{
+    "#hash_264ecce44bf826f8": {
+        "#mtx": [
+            {
+                "#hash_d461a71290fd3dcd": "",
+                "#hash_f5884b4bde250931": [],
+                "#ref": "ltv_armored_noturret",
+                "#hash_d786b578bbbeb03e": 1,
+                "#vehicletrail": "",
+                "#vehiclehorn": ""
+            },
+            {
+                "#hash_d461a71290fd3dcd": "",
+                "#hash_f5884b4bde250931": [],
+                "#ref": "ltv_canvas_closed",
+                "#hash_d786b578bbbeb03e": 1,
+                "#vehicletrail": "",
+                "#vehiclehorn": ""
+            },
+            {
+                "#hash_d461a71290fd3dcd": "",
+                "#hash_f5884b4bde250931": [],
+                "#ref": "ltv_canvas_cargo_open",
+                "#hash_d786b578bbbeb03e": 1,
+                "#vehicletrail": "",
+                "#vehiclehorn": ""
+            },
+            {
+                "#hash_d461a71290fd3dcd": "",
+                "#hash_f5884b4bde250931": [],
+                "#ref": "ltv_no_extra",
+                "#hash_d786b578bbbeb03e": 1,
+                "#vehicletrail": "",
+                "#vehiclehorn": ""
+            },
+            {
+                "#hash_d461a71290fd3dcd": "",
+                "#hash_f5884b4bde250931": [],
+                "#ref": "ltv_canvas_troop",
+                "#hash_d786b578bbbeb03e": 1,
+                "#vehicletrail": "",
+                "#vehiclehorn": ""
+            },
+            {
+                "#hash_d461a71290fd3dcd": "",
+                "#hash_f5884b4bde250931": [],
+                "#ref": "ltv_armored",
+                "#hash_d786b578bbbeb03e": 1,
+                "#vehicletrail": "",
+                "#vehiclehorn": ""
+            },
+            {
+                "#hash_d461a71290fd3dcd": "",
+                "#hash_f5884b4bde250931": [],
+                "#ref": "ltv_armored_closed",
+                "#hash_d786b578bbbeb03e": 1,
+                "#vehicletrail": "",
+                "#vehiclehorn": ""
+            }
+        ],
+        "#ai": {
+            "#templateclass": "truck",
+            "#hash_5be63482164b9d30": false,
+            "#supportsai": true,
+            "#hash_4a9335cc7639e739": 10,
+            "#vehicleanimalias": "veh_sat_medium_truck"
+        },
+        "#id": 5,
+        "#scriptfilename": "scripts/quaked/script_vehicle_wz_hp_police.gsc",
+        "#hudinfo": {
+            "#seatorder": [],
+            "#promptvis": {
+                "#drivertactical": false,
+                "#steerinstruction": false,
+                "#missileinstruction": false,
+                "#hash_2c11fa142ee2cb63": false,
+                "#hasflare": false,
+                "#popsmoke": false,
+                "#fireinstruction": false,
+                "#hash_e7fa9e4a25dc69ac": false,
+                "#exitinstruction": false,
+                "#hashorn": false,
+                "#ammocounter": false,
+                "#hashandbrake": false,
+                "#resetinstruction": false,
+                "#speedboost": false
+            },
+            "#type": "ATV",
+            "#reticleimage": "",
+            "#animname": "#"
+        },
+        "#nudgethreshold": 7.5,
+        "#occupancy": {
+            "#exittopcastoffset": 10,
+            "#threatbiasgroup": "Level_Vehicle",
+            "#damagefeedbackgroupheavy": "all",
+            "#centeroffset": {
+                "#y": 0,
+                "#x": 0,
+                "#z": 25
+            },
+            "#roofexittype": "animated",
+            "#damagefeedbackgrouplight": "driver",
+            "#canleanout": true
+        },
+        "#aianimations": [],
+        "#horns": [],
+        "#aifastrope": [],
+        "#lights": [
+            {
+                "#tag": "TAG_LIGHT_FRONT_RIGHT",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "headlights"
+            },
+            {
+                "#tag": "TAG_LIGHT_FRONT_LEFT",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "headlights"
+            },
+            {
+                "#tag": "TAG_LIGHT_BACK_RIGHT",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "taillights"
+            },
+            {
+                "#tag": "TAG_LIGHT_BACK_LEFT",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "taillights"
+            },
+            {
+                "#tag": "TAG_LIGHT_FRONT_CENTER",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "headlights"
+            },
+            {
+                "#tag": "tag_light_lightbar",
+                "#type": "script_controlled_only",
+                "#group": "toplights"
+            },
+            {
+                "#tag": "tag_light_lightbar_right",
+                "#type": "script_controlled_only",
+                "#group": "toplights"
+            },
+            {
+                "#tag": "tag_light_lightbar_left",
+                "#type": "script_controlled_only",
+                "#group": "toplights"
+            },
+            {
+                "#tag": "tag_light_roof_front_right",
+                "#type": "script_controlled_only",
+                "#group": "toplights"
+            },
+            {
+                "#tag": "tag_light_roof_front_left",
+                "#type": "script_controlled_only",
+                "#group": "toplights"
+            },
+            {
+                "#tag": "tag_light_parking_front_right",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "headlights"
+            },
+            {
+                "#tag": "tag_light_parking_front_left",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "headlights"
+            },
+            {
+                "#tag": "tag_light_hatch_right",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "taillights"
+            },
+            {
+                "#tag": "tag_light_hatch_left",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "taillights"
+            },
+            {
+                "#tag": "tag_light_parking_back_left",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "taillights"
+            },
+            {
+                "#tag": "tag_light_parking_back_right",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "taillights"
+            },
+            {
+                "#tag": "tag_body",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "headlights"
+            },
+            {
+                "#tag": "tag_mirror_right",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "headlights"
+            },
+            {
+                "#tag": "tag_mirror_left",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "headlights"
+            },
+            {
+                "#tag": "tag_light_accessory1",
+                "#type": "engine_is_on_day_and_night",
+                "#group": "headlights"
+            }
+        ],
+        "#upgrades": {
+            "#hash_54324f91ef43fb3d": [
+                {
+                    "#upgradeentries": [
+                        {
+                            "#button": "Passive",
+                            "#hash_2b026b68f8df54c0": 10,
+                            "#hash_ca76aac85a35c443": {
+                                "#y": 0,
+                                "#x": 0,
+                                "#z": 0
+                            },
+                            "#type": "Engineer_Perk"
+                        },
+                        {
+                            "#button": "Horn",
+                            "#hash_ca76aac85a35c443": {
+                                "#y": 0,
+                                "#x": 0,
+                                "#z": 0
+                            },
+                            "#type": "Sweep_Radar"
+                        },
+                        {
+                            "#button": "Passive",
+                            "#hash_45a93a3dbe74e624": 100,
+                            "#hash_ca76aac85a35c443": {
+                                "#y": 0,
+                                "#x": 0,
+                                "#z": 0
+                            },
+                            "#type": "Trophy_System",
+                            "#trophy_laser_fx": "vfx_sat_equip_sensor_laser_mp",
+                            "#hash_58cc53397845b782": "trophy_system_mp_explode_t10"
+                        },
+                        {
+                            "#button": "Horn",
+                            "#hash_2b026b68f8df54c0": 10,
+                            "#hash_ca76aac85a35c443": {
+                                "#y": 0,
+                                "#x": 0,
+                                "#z": 0
+                            },
+                            "#type": "Perception"
+                        }
+                    ]
+                }
+            ],
+            "#hash_ef90568e6118ac66": true
+        },
+        "#spawn": {
+            "#maxinstancecount": 2,
+            "#clearancecheckradius": 120,
+            "#hash_33390c2e78b276d9": "",
+            "#clearancecheckheight": 90,
+            "#hash_2a99601c04eec8f0": true,
+            "#priority": 75
+        },
+        "#airdrop": {
+            "#earthquakeradius": 800,
+            "#planeanim": {
+                "#animtree": {
+                    "name": "script_model",
+                    "id": 0
+                },
+                "#animname": {
+                    "type": "anim",
+                    "name": "iw9_mp_bromeo_drop_acharlie130@sbundle"
+                }
+            },
+            "#physicsscale": 0.5,
+            "#realvehicleanim": {
+                "#animtree": {
+                    "name": "mp_vehicles_always_loaded",
+                    "id": 0
+                },
+                "#animname": {
+                    "type": "anim",
+                    "name": "iw9_mp_bromeo_drop_bromeo_drop@sbundle"
+                }
+            },
+            "#planesound": "iw8_bradley_drop_c130",
+            "#vfx": "vfx_iw8_mp_strk_tank_dropoff_dust",
+            "#earthquakeduration": 0.7,
+            "#vehiclemodelanim": {
+                "#animtree": {
+                    "name": "mp_vehicles_always_loaded",
+                    "id": 0
+                },
+                "#animname": {
+                    "type": "anim",
+                    "name": "iw9_mp_bromeo_drop_bromeo_fly_in@sbundle"
+                }
+            },
+            "#hash_4ec2c10aa7105d86": "iw9_tact_veh_land",
+            "#parachutemodel": "veh8_mil_lnd_bromeo_parachute_green",
+            "#planemodel": "veh9_mil_air_cargo_plane_wm",
+            "#hash_e7e6ef68d34906e3": true,
+            "#earthquakescale": 0.3,
+            "#hash_51c964b5d5b988b1": "iw9_drop_chute_release_whoosh",
+            "#physicsinnerradius": 400,
+            "#physicsouterradius": 800,
+            "#planeparts": [],
+            "#parachuteanim": {
+                "#animtree": {
+                    "name": "script_model",
+                    "id": 0
+                },
+                "#animname": {
+                    "type": "anim",
+                    "name": "iw9_mp_jltv_drop_parachute@sbundle"
+                }
+            }
+        },
+        "#externalturrets": [],
+        "#weakpoints": [],
+        "#huskexplosion": {
+            "#earthquakeradius": 385,
+            "#physicsscale": 1,
+            "#maxdamage": 60,
+            "#tag": "tag_body_animate",
+            "#vfx": "vfx_t10_core_vehicle_jltv_explo_husk",
+            "#earthquakeduration": 1.5,
+            "#sfx": "veh_cer_dmg_lnd_engine_explode",
+            "#damageoffset": {
+                "#y": 0,
+                "#x": 0,
+                "#z": 0
+            },
+            "#radius": 256,
+            "#earthquakescale": 0.8,
+            "#mindamage": 30,
+            "#physicsinnerradius": 200,
+            "#physicsouterradius": 500
+        },
+        "#tricks": [],
+        "#damage": {
+            "#hash_67ee6478ec16e55d": 2.223,
+            "#hash_89b49f9b3f108f02": 0.75,
+            "#falldamagemultiplier": 1,
+            "#hash_ad08183ba8a73943": 5,
+            "#hash_7a15d6c1c7bad2fa": false,
+            "#hash_7745fa28bf3b3008": 1,
+            "#huskforcemultiplier": 1,
+            "#hash_64b24ab0b2b62645": 2.223,
+            "#collisiondamagemin": 15,
+            "#collisiondamagemax": 100,
+            "#hash_fb358cd27991fb1b": 10,
+            "#mineextents": {
+                "#left": 35,
+                "#front": 70,
+                "#top": 30,
+                "#right": 35,
+                "#back": 70,
+                "#bottom": 70
+            },
+            "#hash_ad602bc6bbdfe1da": 10,
+            "#hash_6a25913f7904e611": 4,
+            "#hash_cffbd34cff4dc198": 45,
+            "#hash_d01fc94cff762652": 0,
+            "#hash_945abf22c89f5ff5": 10,
+            "#hash_11d8ddc514740b08": 0.75,
+            "#hash_df106d0e92fab581": 1,
+            "#hash_efa813d230db5cdc": 1,
+            "#hash_355567a737d64f72": 200,
+            "#hash_762b2aba7d1c5ce9": 2304,
+            "#hash_fa48302c37050304": 2.223,
+            "#hash_ce5bc1e61b41099b": 30,
+            "#hash_86cdcfef9a17b4d3": 60,
+            "#hash_1b02007c36f7701e": 0.5,
+            "#hash_68716a6eeae524a0": 0.1,
+            "#hash_9a083e0f55accd4c": 90,
+            "#agentdamagemultiplier": 0.9,
+            "#hash_af36bc914d8bf94e": 55,
+            "#hash_912e17053cb5355b": 1,
+            "#hash_328f66d67049c4d7": 5,
+            "#health": 4500,
+            "#hash_63e605add1ac73ba": 2.223,
+            "#hash_c628f12f50dc18e1": 2.223,
+            "#hash_5254b9916c90d7b1": 0,
+            "#hash_fa778571b5999562": 45,
+            "#hash_629984d018f37877": 2.223,
+            "#explosionextents": {
+                "#left": 50,
+                "#front": 125,
+                "#top": 50,
+                "#right": 50,
+                "#back": 130,
+                "#bottom": 50
+            },
+            "#hash_af8ae3f7d8956fe": 2,
+            "#hash_998a69fa223f881a": 1,
+            "#hash_42b2ee361864a2b0": 0.25,
+            "#hash_d56ea4bb15e41b9a": 1,
+            "#hash_5ff053fe35a3561c": 225,
+            "#hash_77d9a7d02100c5fb": 55,
+            "#explosivehitsperattack": 2,
+            "#hash_5fd015e4443da02f": 8,
+            "#hash_38e56640caa6c9ee": 15,
+            "#scrapassist": true,
+            "#hash_f6c04b91087b481a": 0.2,
+            "#deathanims": true,
+            "#hash_6f32bbd2d85d8a16": {
+                "#y": 0,
+                "#x": 0,
+                "#z": 30
+            },
+            "#class": "super_heavy",
+            "#hash_64c36f110db1c196": false,
+            "#hash_5eeb3e9d4656cc4f": 2.223,
+            "#heavystatehealthadd": 500,
+            "#hash_51958896b0e42223": 2.223,
+            "#hash_ba4f5726e822c571": 20,
+            "#hash_25ebd0140787bffc": 0.9,
+            "#hash_a7bd60167008f054": 1,
+            "#maxhits": 12,
+            "#hash_958f909d4b6330ea": 0.8,
+            "#hash_fdc8e808c3b0a55e": 0.1
+        },
+        "#seats": [
+            {
+                "#animtag": "tag_seat_0",
+                "#exitids": [
+                    {
+                        "#exitdirection": "driver"
+                    },
+                    {
+                        "#exitdirection": "back_left"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "front_right"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    },
+                    {
+                        "#exitdirection": "driver_to_roof"
+                    },
+                    {
+                        "#exitdirection": "driver_to_dive"
+                    }
+                ],
+                "#allowmelee": true,
+                "#hidestowedweapon": true,
+                "#hash_23cd7ca8ecaa955b": "sat_mp_veh_att_seat_0_seated_to_roof_crouch",
+                "#hash_da8576f70fc157dd": true,
+                "#hash_87848775eb85dccd": "sat_mp_veh_att_seat_0_getin_door",
+                "#ref": "driver",
+                "#restrictions": "driver_has_scripted_attack",
+                "#hash_45486078f1fde9bc": 0,
+                "#damagemodifier": -1,
+                "#spawnpriority": 10,
+                "#hash_b009ee59cc7f2d56": 60,
+                "#hash_86386389c0f70b5d": -1,
+                "#hash_2a812fb731a0e4cf": 12
+            },
+            {
+                "#animtag": "tag_seat_1",
+                "#exitids": [
+                    {
+                        "#exitdirection": "front_right"
+                    },
+                    {
+                        "#exitdirection": "back_right"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "driver"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    },
+                    {
+                        "#exitdirection": "front_right_to_roof"
+                    },
+                    {
+                        "#exitdirection": "front_right_to_dive"
+                    }
+                ],
+                "#allowmelee": true,
+                "#hidestowedweapon": true,
+                "#hash_23cd7ca8ecaa955b": "sat_mp_veh_att_seat_1_seated_to_roof_crouch",
+                "#hash_87848775eb85dccd": "sat_mp_veh_att_seat_1_getin",
+                "#ref": "front_right",
+                "#restrictions": "combat_passenger",
+                "#hash_45486078f1fde9bc": 0,
+                "#damagemodifier": -1,
+                "#hash_b009ee59cc7f2d56": 60,
+                "#hash_86386389c0f70b5d": -1,
+                "#omnvarid": 1,
+                "#hash_2a812fb731a0e4cf": 12
+            },
+            {
+                "#animtag": "tag_seat_3",
+                "#exitids": [
+                    {
+                        "#exitdirection": "back_right"
+                    },
+                    {
+                        "#exitdirection": "front_right"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "back_left"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    },
+                    {
+                        "#exitdirection": "back_right_to_roof"
+                    },
+                    {
+                        "#exitdirection": "back_right_to_dive"
+                    }
+                ],
+                "#allowmelee": true,
+                "#hidestowedweapon": true,
+                "#hash_23cd7ca8ecaa955b": "sat_mp_veh_att_seat_3_seated_to_roof_crouch",
+                "#hash_87848775eb85dccd": "sat_mp_veh_att_seat_3_getin",
+                "#ref": "back_right",
+                "#restrictions": "combat_passenger",
+                "#hash_45486078f1fde9bc": 0,
+                "#damagemodifier": -1,
+                "#hash_b009ee59cc7f2d56": 60,
+                "#hash_86386389c0f70b5d": -1,
+                "#omnvarid": 3,
+                "#hash_2a812fb731a0e4cf": 12
+            },
+            {
+                "#animtag": "tag_seat_2",
+                "#exitids": [
+                    {
+                        "#exitdirection": "back_left"
+                    },
+                    {
+                        "#exitdirection": "driver"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "back_right"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    },
+                    {
+                        "#exitdirection": "back_left_to_roof"
+                    },
+                    {
+                        "#exitdirection": "back_left_to_dive"
+                    }
+                ],
+                "#allowmelee": true,
+                "#hidestowedweapon": true,
+                "#hash_23cd7ca8ecaa955b": "sat_mp_veh_att_seat_2_seated_to_roof_crouch",
+                "#hash_87848775eb85dccd": "sat_mp_veh_att_seat_2_getin",
+                "#ref": "back_left",
+                "#restrictions": "combat_passenger",
+                "#hash_45486078f1fde9bc": 0,
+                "#damagemodifier": -1,
+                "#hash_b009ee59cc7f2d56": 60,
+                "#hash_86386389c0f70b5d": -1,
+                "#omnvarid": 2,
+                "#hash_2a812fb731a0e4cf": 12
+            }
+        ],
+        "#husk": {
+            "#abovevelocityscale": 1,
+            "#hash_e8c8c03b5a4897c0": true,
+            "#timeout": 60,
+            "#ref": "veh_jltv_hsk",
+            "#compositemodel": "xcomp_veh_sat_mil_truck_att_pmc_wz_hp_dst",
+            "#belowvelocityscale": 1.5,
+            "#momentumthreshold": 20,
+            "#hashusk": true
+        },
+        "#ref": "veh_sat_wz_hp_pol_ltv",
+        "#damageableparts": [
+            {
+                "#scriptablepartname": "tag_door_front_left",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#ref": "driver_door",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 500,
+                "#isonpristine": true,
+                "#healthvalue": 200
+            },
+            {
+                "#scriptablepartname": "tag_door_front_right",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#ref": "front_right_door",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 500,
+                "#isonpristine": true,
+                "#healthvalue": 200
+            },
+            {
+                "#scriptablepartname": "tag_door_rear_left",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#ref": "back_left_door",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 500,
+                "#isonpristine": true,
+                "#healthvalue": 200
+            },
+            {
+                "#scriptablepartname": "tag_door_rear_right",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#ref": "back_right_door",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 500,
+                "#isonpristine": true,
+                "#healthvalue": 200
+            },
+            {
+                "#scriptablepartname": "tag_wheel_center_front_left",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_67ef11b9f2bef4cf": 65,
+                "#ref": "row1_left_wheel",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 12,
+                "#isonpristine": true,
+                "#healthvalue": 180
+            },
+            {
+                "#scriptablepartname": "tag_wheel_center_front_right",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_67ef11b9f2bef4cf": 65,
+                "#ref": "row1_right_wheel",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 12,
+                "#isonpristine": true,
+                "#healthvalue": 180
+            },
+            {
+                "#scriptablepartname": "tag_wheel_center_back_left",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_67ef11b9f2bef4cf": 65,
+                "#ref": "row2_left_wheel",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 12,
+                "#isonpristine": true,
+                "#healthvalue": 180
+            },
+            {
+                "#scriptablepartname": "tag_wheel_center_back_right",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_67ef11b9f2bef4cf": 65,
+                "#ref": "row2_right_wheel",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 12,
+                "#isonpristine": true,
+                "#healthvalue": 180
+            },
+            {
+                "#scriptablepartname": "tag_mirror_left",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#hash_67ef11b9f2bef4cf": 100,
+                "#ref": "generic",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 100
+            },
+            {
+                "#scriptablepartname": "tag_mirror_right",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#hash_67ef11b9f2bef4cf": 100,
+                "#ref": "generic",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 100
+            },
+            {
+                "#scriptablepartname": "tag_light_top_left",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#hash_67ef11b9f2bef4cf": 100,
+                "#ref": "generic",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 100
+            },
+            {
+                "#scriptablepartname": "tag_light_top_right",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#hash_67ef11b9f2bef4cf": 100,
+                "#ref": "generic",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 100
+            },
+            {
+                "#scriptablepartname": "tag_bumper_front",
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#ref": "generic",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 15,
+                "#isonpristine": true,
+                "#healthvalue": 75
+            },
+            {
+                "#scriptablepartname": "tag_bumper_back",
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#ref": "generic",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 15,
+                "#isonpristine": true,
+                "#healthvalue": 75
+            },
+            {
+                "#scriptablepartname": "tag_glass_windshield_d0",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#enabled": true,
+                "#ref": "generic_window",
+                "#hash_aab34cb56f293c25": true,
+                "#inactive": false,
+                "#blockbulletdamage": true,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 400
+            },
+            {
+                "#scriptablepartname": "tag_windshield_back",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#enabled": true,
+                "#ref": "generic_window",
+                "#hash_aab34cb56f293c25": true,
+                "#inactive": false,
+                "#blockbulletdamage": true,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 300
+            },
+            {
+                "#scriptablepartname": "tag_antenna",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#ref": "generic",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 10,
+                "#isonpristine": true,
+                "#healthvalue": 200
+            },
+            {
+                "#scriptablepartname": "tag_bumper_front_damaged",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#ref": "generic",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 15,
+                "#isonpristine": true,
+                "#healthvalue": 75
+            },
+            {
+                "#scriptablepartname": "tag_bumper_back_damaged",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#ref": "generic",
+                "#inactive": false,
+                "#blockbulletdamage": false,
+                "#damagereduction": 15,
+                "#isonpristine": true,
+                "#healthvalue": 75
+            },
+            {
+                "#scriptablepartname": "tag_glass_front_left_d0",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#enabled": true,
+                "#ref": "driver_window",
+                "#hash_aab34cb56f293c25": true,
+                "#inactive": false,
+                "#blockbulletdamage": true,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 400
+            },
+            {
+                "#scriptablepartname": "tag_glass_front_right_d0",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#enabled": true,
+                "#ref": "front_right_window",
+                "#hash_aab34cb56f293c25": true,
+                "#inactive": false,
+                "#blockbulletdamage": true,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 300
+            },
+            {
+                "#scriptablepartname": "tag_glass_rear_left_d0",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#enabled": true,
+                "#ref": "back_left_window",
+                "#hash_aab34cb56f293c25": true,
+                "#inactive": false,
+                "#blockbulletdamage": true,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 300
+            },
+            {
+                "#scriptablepartname": "tag_glass_rear_right_d0",
+                "#isonhusk": true,
+                "#explosivedamagehealthvalue": 20,
+                "#hash_f0bb6cc5e876fad5": true,
+                "#enabled": true,
+                "#ref": "back_right_window",
+                "#hash_aab34cb56f293c25": true,
+                "#inactive": false,
+                "#blockbulletdamage": true,
+                "#damagereduction": 0,
+                "#isonpristine": true,
+                "#healthvalue": 300
+            }
+        ],
+        "#compositemodel": "xcomp_veh_sat_mil_truck_wz_hp_vehphys",
+        "#weapon": "jltv_mp",
+        "#pristineexplosion": {
+            "#earthquakeradius": 385,
+            "#physicsscale": 1,
+            "#maxdamage": 140,
+            "#tag": "tag_body_animate",
+            "#vfx": "vfx_t10_core_vehicle_jltv_explo_husk",
+            "#earthquakeduration": 1.5,
+            "#sfx": "veh_cer_dmg_lnd_engine_explode",
+            "#damageoffset": {
+                "#y": 0,
+                "#x": 0,
+                "#z": 0
+            },
+            "#radius": 256,
+            "#earthquakescale": 0.8,
+            "#mindamage": 70,
+            "#physicsinnerradius": 200,
+            "#physicsouterradius": 500
+        },
+        "#hash_98e937e655b0c2dd": false,
+        "#name": "&#vehicles/ltv",
+        "#extraexits": [
+            {
+                "#offset": {
+                    "#y": 0,
+                    "#x": 75,
+                    "#z": 65
+                },
+                "#ref": "front",
+                "#direction": "front"
+            },
+            {
+                "#offset": {
+                    "#y": 0,
+                    "#x": -90,
+                    "#z": 65
+                },
+                "#ref": "back",
+                "#direction": "back"
+            },
+            {
+                "#offset": {
+                    "#y": 19,
+                    "#x": 17,
+                    "#z": 65
+                },
+                "#ref": "driver",
+                "#direction": "left"
+            },
+            {
+                "#offset": {
+                    "#y": -19,
+                    "#x": 17,
+                    "#z": 65
+                },
+                "#ref": "front_right",
+                "#direction": "right"
+            },
+            {
+                "#offset": {
+                    "#y": 19,
+                    "#x": -24,
+                    "#z": 65
+                },
+                "#ref": "back_left",
+                "#direction": "left"
+            },
+            {
+                "#offset": {
+                    "#y": -19,
+                    "#x": -24,
+                    "#z": 65
+                },
+                "#ref": "back_right",
+                "#direction": "right"
+            },
+            {
+                "#offset": {
+                    "#y": 20,
+                    "#x": 10,
+                    "#z": 42
+                },
+                "#ref": "driver_to_roof",
+                "#direction": "roof"
+            },
+            {
+                "#offset": {
+                    "#y": -20,
+                    "#x": 10,
+                    "#z": 42
+                },
+                "#ref": "front_right_to_roof",
+                "#direction": "roof"
+            },
+            {
+                "#offset": {
+                    "#y": -20,
+                    "#x": -38,
+                    "#z": 42
+                },
+                "#ref": "back_right_to_roof",
+                "#direction": "roof"
+            },
+            {
+                "#offset": {
+                    "#y": 20,
+                    "#x": -38,
+                    "#z": 42
+                },
+                "#ref": "back_left_to_roof",
+                "#direction": "roof"
+            },
+            {
+                "#offset": {
+                    "#y": 75,
+                    "#x": 15,
+                    "#z": -35
+                },
+                "#ref": "driver_to_dive",
+                "#direction": "dive"
+            },
+            {
+                "#offset": {
+                    "#y": -75,
+                    "#x": 15,
+                    "#z": -35
+                },
+                "#ref": "front_right_to_dive",
+                "#direction": "dive"
+            },
+            {
+                "#offset": {
+                    "#y": -75,
+                    "#x": -25,
+                    "#z": -35
+                },
+                "#ref": "back_right_to_dive",
+                "#direction": "dive"
+            },
+            {
+                "#offset": {
+                    "#y": 75,
+                    "#x": -25,
+                    "#z": -35
+                },
+                "#ref": "back_left_to_dive",
+                "#direction": "dive"
+            }
+        ],
+        "#wondervehicle": {},
+        "#haswartracks": false,
+        "#hash_b6b22387bf32be77": {
+            "#tag": "tag_origin"
+        },
+        "#tank": {},
+        "#aiseats": [
+            {
+                "#vehicle_getinanim": {
+                    "type": "anim",
+                    "name": "reb_com_veh8_techo_fl_door_close@sbundle"
+                },
+                "#vehicle_getoutanim": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_0_exit_geo_door@sbundle"
+                },
+                "#seataliasoverride": "",
+                "#vehicle_getoutanim_combat_run": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_0_exit_geo_door@sbundle"
+                },
+                "#playerseatref": "driver",
+                "#hash_9398f3113dced1d0": false,
+                "#animtree": {
+                    "name": "mp_vehicles_always_loaded",
+                    "id": 0
+                },
+                "#death_impulse": true,
+                "#hash_14f441f730dc229d": false,
+                "#linkangle": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#hash_60b6d3b20648a38f": true,
+                "#vehicleturretindex": 1,
+                "#sittag": "tag_seat_0",
+                "#vehicle_getoutanim_combat": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_0_exit_geo_door@sbundle"
+                },
+                "#canmeleeinvehicle": false,
+                "#linkoffset": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#bhasgunwhileriding": false
+            },
+            {
+                "#vehicle_getinanim": {
+                    "type": "anim",
+                    "name": "reb_com_veh8_techo_fr_door_close@sbundle"
+                },
+                "#vehicle_getoutanim": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_1_exit_geo_door@sbundle"
+                },
+                "#seataliasoverride": "",
+                "#vehicle_getoutanim_combat_run": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_1_exit_geo_door@sbundle"
+                },
+                "#playerseatref": "front_right",
+                "#hash_9398f3113dced1d0": true,
+                "#animtree": {
+                    "name": "mp_vehicles_always_loaded",
+                    "id": 0
+                },
+                "#death_impulse": true,
+                "#hash_14f441f730dc229d": false,
+                "#linkangle": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#hash_60b6d3b20648a38f": true,
+                "#vehicleturretindex": 1,
+                "#sittag": "tag_seat_1",
+                "#vehicle_getoutanim_combat": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_1_exit_geo_door@sbundle"
+                },
+                "#canmeleeinvehicle": false,
+                "#linkoffset": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                }
+            },
+            {
+                "#vehicle_getinanim": {
+                    "type": "anim",
+                    "name": "reb_com_veh8_techo_bl_door_close@sbundle"
+                },
+                "#vehicle_getoutanim": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_2_exit_geo_door@sbundle"
+                },
+                "#seataliasoverride": "",
+                "#vehicle_getoutanim_combat_run": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_2_exit_geo_door@sbundle"
+                },
+                "#playerseatref": "back_left",
+                "#hash_9398f3113dced1d0": true,
+                "#animtree": {
+                    "name": "mp_vehicles_always_loaded",
+                    "id": 0
+                },
+                "#death_impulse": true,
+                "#hash_14f441f730dc229d": false,
+                "#linkangle": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#hash_60b6d3b20648a38f": true,
+                "#vehicleturretindex": 1,
+                "#sittag": "tag_seat_2",
+                "#vehicle_getoutanim_combat": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_2_exit_geo_door@sbundle"
+                },
+                "#canmeleeinvehicle": false,
+                "#linkoffset": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                }
+            },
+            {
+                "#vehicle_getinanim": {
+                    "type": "anim",
+                    "name": "reb_com_veh8_techo_br_door_close@sbundle"
+                },
+                "#vehicle_getoutanim": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_3_exit_geo_door@sbundle"
+                },
+                "#seataliasoverride": "",
+                "#vehicle_getoutanim_combat_run": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_3_exit_geo_door@sbundle"
+                },
+                "#playerseatref": "back_right",
+                "#hash_9398f3113dced1d0": true,
+                "#animtree": {
+                    "name": "mp_vehicles_always_loaded",
+                    "id": 0
+                },
+                "#death_impulse": true,
+                "#hash_14f441f730dc229d": false,
+                "#linkangle": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#hash_60b6d3b20648a38f": true,
+                "#vehicleturretindex": 1,
+                "#sittag": "tag_seat_3",
+                "#vehicle_getoutanim_combat": {
+                    "type": "anim",
+                    "name": "mp_sat_veh_ob_enemy_technical_truck_seat_3_exit_geo_door@sbundle"
+                },
+                "#canmeleeinvehicle": false,
+                "#linkoffset": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                }
+            },
+            {
+                "#seataliasoverride": "",
+                "#vehicle_getoutanim_combat_run": {
+                    "type": "anim",
+                    "name": ""
+                },
+                "#hash_9398f3113dced1d0": true,
+                "#death_impulse": true,
+                "#hash_14f441f730dc229d": true,
+                "#linkangle": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#hash_60b6d3b20648a38f": false,
+                "#vehicleturretindex": 1,
+                "#sittag": "tag_seat_1",
+                "#do_not_unload": true,
+                "#vehicle_getoutanim_combat": {
+                    "type": "anim",
+                    "name": ""
+                },
+                "#canmeleeinvehicle": false,
+                "#linkoffset": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#canshootinvehicle": true
+            },
+            {
+                "#seataliasoverride": "",
+                "#vehicle_getoutanim_combat_run": {
+                    "type": "anim",
+                    "name": ""
+                },
+                "#hash_9398f3113dced1d0": true,
+                "#death_impulse": true,
+                "#hash_14f441f730dc229d": true,
+                "#linkangle": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#hash_60b6d3b20648a38f": false,
+                "#vehicleturretindex": 1,
+                "#sittag": "tag_seat_2",
+                "#do_not_unload": true,
+                "#vehicle_getoutanim_combat": {
+                    "type": "anim",
+                    "name": ""
+                },
+                "#canmeleeinvehicle": false,
+                "#linkoffset": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#canshootinvehicle": true
+            },
+            {
+                "#seataliasoverride": "",
+                "#vehicle_getoutanim_combat_run": {
+                    "type": "anim",
+                    "name": ""
+                },
+                "#hash_9398f3113dced1d0": true,
+                "#death_impulse": true,
+                "#hash_14f441f730dc229d": true,
+                "#linkangle": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#hash_60b6d3b20648a38f": false,
+                "#vehicleturretindex": 1,
+                "#sittag": "tag_seat_3",
+                "#do_not_unload": true,
+                "#vehicle_getoutanim_combat": {
+                    "type": "anim",
+                    "name": ""
+                },
+                "#canmeleeinvehicle": false,
+                "#linkoffset": {
+                    "#y": 0,
+                    "#x": 0,
+                    "#z": 0
+                },
+                "#canshootinvehicle": true
+            }
+        ],
+        "#canexplode": true,
+        "#damageknockback": {
+            "#hash_62b13ee648fd7ba4": 2,
+            "#hash_834463582355514d": 1.25,
+            "#hash_53d3481c22156866": 1000,
+            "#hash_73080944f8087da5": 15,
+            "#hash_2a748c4ee31cc1fc": 400,
+            "#hash_514ba586d40dfce4": 240,
+            "#hash_e09d2a9f1a91ea6a": 800,
+            "#hash_f4ca450e4481d219": 160,
+            "#hash_48d2e287b3893e1a": 25,
+            "#hash_366046c646e23f7b": 10,
+            "#hash_16f1e0129aabafd9": 1,
+            "#hash_10bbbefa82858738": 20,
+            "#hash_56f933d5cdad385c": 0.2,
+            "#hash_292f5cff38e96f56": 0.08,
+            "#hash_377aef654c7ac8b5": 1,
+            "#hash_4752892bd8d9257e": 0.8
+        },
+        "#unloadgroups": [
+            {
+                "#seats": [
+                    {}
+                ],
+                "#name": "driver"
+            },
+            {
+                "#seats": [
+                    {
+                        "#seatindex": 1
+                    },
+                    {
+                        "#seatindex": 2
+                    },
+                    {
+                        "#seatindex": 3
+                    }
+                ],
+                "#name": "passengers"
+            }
+        ],
+        "#interact": {
+            "#hash_b5a941fe80597833": false,
+            "#burndowntimerangle": 90,
+            "#maxfuel": 240,
+            "#hash_a78f9bf5290a6ef2": true,
+            "#depththreshold": 36,
+            "#hash_a5b1ad5fd2654e9a": 180,
+            "#hash_a5d4975fd28b65f0": 220,
+            "#hash_95ff2dace48e5986": 0,
+            "#enginetag": "tag_engine_fx",
+            "#hash_decd8eab2bb412": true,
+            "#bctypename": "jltv",
+            "#flippedmaxspeed": 3,
+            "#hash_5e2e5c5c203808ab": 90,
+            "#trunktag": "tag_bumper_back",
+            "#engineoffset": {
+                "#y": 0,
+                "#x": 0,
+                "#z": 0
+            },
+            "#floattime": 8,
+            "#hash_b1b3d98efa01c5a5": 30,
+            "#trunkoffset": {
+                "#y": 0,
+                "#x": 0,
+                "#z": 0
+            },
+            "#flippedtime": 3
+        },
+        "#transitionparts": [
+            {
+                "#hash_bfed29f09b275d4b": "floor_fire"
+            },
+            {
+                "#hash_bfed29f09b275d4b": "damage_transition"
+            }
+        ],
+        "#exitextents": {
+            "#left": 60,
+            "#front": 130,
+            "#top": 40,
+            "#right": 60,
+            "#back": 125,
+            "#bottom": 50
+        },
+        "#vehicle": "veh_sat_wz_hp_pol_ltv"
+    }
+}

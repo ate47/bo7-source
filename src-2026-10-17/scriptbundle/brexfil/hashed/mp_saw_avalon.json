@@ -1,0 +1,748 @@
+{
+    "#hash_77a95b4e19d17a90": {
+        "#hash_47494e59d134059b": "sat_s1",
+        "#devname": "#hash_b6d394b0c287b9d9",
+        "#submixfadetime": 3,
+        "#soundsubmix": "mp_br_exfil_fade",
+        "#hash_fe301641d3ba2a57": [
+            {
+                "#name": "mx_br_bongo_exfil_intro_1player"
+            },
+            {
+                "#name": "mx_br_bongo_exfil_intro_2player"
+            },
+            {
+                "#name": "mx_br_bongo_exfil_intro_3player"
+            },
+            {
+                "#name": "mx_br_bongo_exfil_intro_4player"
+            }
+        ],
+        "#transientsoundbank": "mp_sat_br_igc_sat_s1_exfil",
+        "#startsounds": [
+            {
+                "#soundalias": "scn_wz_exfil_sat_s1_lr"
+            },
+            {
+                "#soundalias": "evt_saw_bongo_exfil_s010_flare_pfx_frm0"
+            }
+        ],
+        "#clienttriggeraudiozone": "default",
+        "#hash_667288a1a0c7aaaa": 3,
+        "#hash_d42dcd32f0b93c45": [
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_010",
+                "#sceneobject": "VTOL",
+                "#hash_b2788c2a45e6d1a9": [
+                    {
+                        "#part": "#interior_ambient_lights",
+                        "#state": "#on"
+                    },
+                    {
+                        "#part": "#interior_white_lights",
+                        "#state": "#on"
+                    },
+                    {
+                        "#part": "#interior_lights",
+                        "#state": "#red_lights"
+                    }
+                ],
+                "#functiontype": "SetScriptablePartState"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_050",
+                "#hash_a02f2557b12d6926": 2,
+                "#hash_fb17cf243c577a5a": 1,
+                "#functiontype": "PbgScriptIndexBlend"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_060",
+                "#hash_a02f2557b12d6926": 2,
+                "#functiontype": "PbgScriptIndexBlend"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_070",
+                "#hash_a02f2557b12d6926": 3,
+                "#hash_fb17cf243c577a5a": 1,
+                "#functiontype": "PbgScriptIndexBlend"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_070",
+                "#sceneobject": "VTOL",
+                "#functiontype": "ActivateLightingRig"
+            },
+            {
+                "#hwconfig": "%#hw_saw_avalon_bongo_infil_cine",
+                "#shot": "shot_070",
+                "#functiontype": "SetHWConfig"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_030",
+                "#sceneobject": "VTOL",
+                "#soundname": "#hash_a4d92b99ca205de6",
+                "#functiontype": "PlayLoopSound"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_80",
+                "#omnvarvalue": 13,
+                "#omnvarname": "o#ui_br_end_game_splash_type",
+                "#functiontype": "SetOmnvar"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_090",
+                "#omnvarvalue": 14,
+                "#omnvarname": "o#ui_br_end_game_splash_type",
+                "#functiontype": "SetOmnvar"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_100",
+                "#omnvarvalue": 15,
+                "#omnvarname": "o#ui_br_end_game_splash_type",
+                "#functiontype": "SetOmnvar"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_110",
+                "#omnvarvalue": 16,
+                "#omnvarname": "o#ui_br_end_game_splash_type",
+                "#functiontype": "SetOmnvar"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "-2",
+                "#soundname": "#hash_f349c72a46e632cd",
+                "#leadtime": 2,
+                "#functiontype": "PlayLocalSoundForPlayers"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "-1",
+                "#sceneobject": "VTOL",
+                "#soundname": "#hash_a4d92b99ca205de6",
+                "#functiontype": "StopLoopSound"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "-1",
+                "#hash_a02f2557b12d6926": 3,
+                "#functiontype": "PbgScriptIndexBlend"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "-1",
+                "#functiontype": "ResetLightingRigDefault"
+            },
+            {
+                "#hwconfig": "%#hw_saw_avalon_bongo_exfil_cine",
+                "#shot": "-1",
+                "#functiontype": "SetHWConfig"
+            }
+        ],
+        "#collision": {
+            "#vehicleradius": 350,
+            "#guyradius": 30,
+            "#vehiclemodel": "xcomp_veh_sat_mil_air_vtol_buzzard_wz_igc",
+            "#hash_2bedbf52db2fadc4": [
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s040_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s050_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s060_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s070_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s080_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s090_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0.99,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s090_vtol@sbundle"
+                    }
+                }
+            ],
+            "#animtree": {
+                "name": "script_model",
+                "id": 0
+            },
+            "#vehiclepatharray": [
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s040_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s050_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s060_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s070_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s080_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s090_vtol@sbundle"
+                    }
+                }
+            ],
+            "#vehiclesegments": 10,
+            "#playeranimarray": [
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s010_plyr01@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s010_plyr02@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s010_plyr03@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s010_plyr04@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_plyr01@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_plyr02@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_plyr03@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_plyr04@sbundle"
+                    }
+                }
+            ],
+            "#guyheight": 68
+        },
+        "#hash_98287e55cd6511d1": [
+            {
+                "#sfxalias": "br_exfil_part1_1person_lr",
+                "#musicalias": ""
+            },
+            {
+                "#sfxalias": "br_exfil_part1_2person_lr",
+                "#musicalias": ""
+            },
+            {
+                "#sfxalias": "br_exfil_part1_3person_lr",
+                "#musicalias": ""
+            },
+            {
+                "#sfxalias": "br_exfil_part1_4person_lr",
+                "#musicalias": ""
+            }
+        ],
+        "#hash_f83a34bd1d31761e": 4,
+        "#submix": "solo_cin_igc_music_voiceover",
+        "#exfiltype": "brexfil",
+        "#hash_9eb393c138006336": [
+            {
+                "#scene": "%#hash_2b175a63296b2b93"
+            },
+            {
+                "#scene": "%#hash_22d5437ad0593058"
+            },
+            {
+                "#scene": "%#hash_3037652c6d1ad06e"
+            },
+            {
+                "#scene": "%#hash_12b0efbe46f512cb"
+            }
+        ],
+        "#incomingsound": {
+            "#hash_df451061686a64b": 0,
+            "#hash_df450061686a418": 0,
+            "#hash_df453061686aab1": 360,
+            "#soundname": "sce_sat_exfil_s1_incoming_vtol",
+            "#hash_2a703ef93dac74e3": 7200,
+            "#hash_2a703df93dac72b0": -7200,
+            "#hash_2a703ff93dac7716": 2160,
+            "#movetime": 7
+        },
+        "#hash_be5201e010b03e23": 1.5
+    },
+    "#hash_77a95d4e19d17df6": {
+        "#hash_47494e59d134059b": "sat_s1",
+        "#devname": "#hash_61809b3111fbc87e",
+        "#submixfadetime": 3,
+        "#soundsubmix": "mp_br_exfil_fade",
+        "#hash_fe301641d3ba2a57": [
+            {
+                "#name": "mx_br_bongo_exfil_intro_1player"
+            },
+            {
+                "#name": "mx_br_bongo_exfil_intro_2player"
+            },
+            {
+                "#name": "mx_br_bongo_exfil_intro_3player"
+            },
+            {
+                "#name": "mx_br_bongo_exfil_intro_4player"
+            }
+        ],
+        "#transientsoundbank": "mp_sat_br_igc_sat_s1_exfil",
+        "#startsounds": [
+            {
+                "#soundalias": "scn_wz_exfil_sat_s1_lr"
+            },
+            {
+                "#soundalias": "evt_saw_bongo_exfil_s010_flare_pfx_frm0"
+            }
+        ],
+        "#clienttriggeraudiozone": "default",
+        "#hash_667288a1a0c7aaaa": 3,
+        "#hash_d42dcd32f0b93c45": [
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_010",
+                "#sceneobject": "VTOL",
+                "#hash_b2788c2a45e6d1a9": [
+                    {
+                        "#part": "#interior_ambient_lights",
+                        "#state": "#on"
+                    },
+                    {
+                        "#part": "#interior_white_lights",
+                        "#state": "#on"
+                    },
+                    {
+                        "#part": "#interior_lights",
+                        "#state": "#red_lights"
+                    }
+                ],
+                "#functiontype": "SetScriptablePartState"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_050",
+                "#hash_a02f2557b12d6926": 2,
+                "#hash_fb17cf243c577a5a": 1,
+                "#functiontype": "PbgScriptIndexBlend"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_060",
+                "#hash_a02f2557b12d6926": 2,
+                "#functiontype": "PbgScriptIndexBlend"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_070",
+                "#hash_a02f2557b12d6926": 3,
+                "#hash_fb17cf243c577a5a": 1,
+                "#functiontype": "PbgScriptIndexBlend"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_070",
+                "#sceneobject": "VTOL",
+                "#functiontype": "ActivateLightingRig"
+            },
+            {
+                "#hwconfig": "%#hw_saw_avalon_bongo_infil_cine",
+                "#shot": "shot_070",
+                "#functiontype": "SetHWConfig"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_030",
+                "#sceneobject": "VTOL",
+                "#soundname": "#hash_a4d92b99ca205de6",
+                "#functiontype": "PlayLoopSound"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_80",
+                "#omnvarvalue": 13,
+                "#omnvarname": "o#ui_br_end_game_splash_type",
+                "#functiontype": "SetOmnvar"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_090",
+                "#omnvarvalue": 14,
+                "#omnvarname": "o#ui_br_end_game_splash_type",
+                "#functiontype": "SetOmnvar"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_100",
+                "#omnvarvalue": 15,
+                "#omnvarname": "o#ui_br_end_game_splash_type",
+                "#functiontype": "SetOmnvar"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "shot_110",
+                "#omnvarvalue": 16,
+                "#omnvarname": "o#ui_br_end_game_splash_type",
+                "#functiontype": "SetOmnvar"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "-2",
+                "#soundname": "#hash_f349c72a46e632cd",
+                "#leadtime": 2,
+                "#functiontype": "PlayLocalSoundForPlayers"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "-1",
+                "#sceneobject": "VTOL",
+                "#soundname": "#hash_a4d92b99ca205de6",
+                "#functiontype": "StopLoopSound"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "-1",
+                "#hash_a02f2557b12d6926": 3,
+                "#functiontype": "PbgScriptIndexBlend"
+            },
+            {
+                "#hwconfig": "%#",
+                "#shot": "-1",
+                "#functiontype": "ResetLightingRigDefault"
+            },
+            {
+                "#hwconfig": "%#hw_saw_avalon_bongo_exfil_cine",
+                "#shot": "-1",
+                "#functiontype": "SetHWConfig"
+            }
+        ],
+        "#collision": {
+            "#vehicleradius": 350,
+            "#guyradius": 30,
+            "#vehiclemodel": "xcomp_veh_sat_mil_air_vtol_buzzard_wz_igc",
+            "#hash_2bedbf52db2fadc4": [
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s040_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s050_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s060_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s070_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s080_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s090_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0.99,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s090_vtol@sbundle"
+                    }
+                }
+            ],
+            "#animtree": {
+                "name": "script_model",
+                "id": 0
+            },
+            "#vehiclepatharray": [
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s040_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s050_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s060_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s070_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s080_vtol@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s090_vtol@sbundle"
+                    }
+                }
+            ],
+            "#vehiclesegments": 10,
+            "#playeranimarray": [
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s010_plyr01@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s010_plyr02@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s010_plyr03@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s010_plyr04@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_plyr01@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_plyr02@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_plyr03@sbundle"
+                    }
+                },
+                {
+                    "#percentage": 0,
+                    "#animname": {
+                        "type": "anim",
+                        "name": "saw_bongo_exfil_s25_s030_plyr04@sbundle"
+                    }
+                }
+            ],
+            "#guyheight": 68
+        },
+        "#hash_98287e55cd6511d1": [
+            {
+                "#sfxalias": "br_exfil_part1_1person_lr",
+                "#musicalias": ""
+            },
+            {
+                "#sfxalias": "br_exfil_part1_2person_lr",
+                "#musicalias": ""
+            },
+            {
+                "#sfxalias": "br_exfil_part1_3person_lr",
+                "#musicalias": ""
+            },
+            {
+                "#sfxalias": "br_exfil_part1_4person_lr",
+                "#musicalias": ""
+            }
+        ],
+        "#hash_f83a34bd1d31761e": 4,
+        "#submix": "solo_cin_igc_music_voiceover",
+        "#exfiltype": "brexfil",
+        "#hash_9eb393c138006336": [
+            {
+                "#scene": "%#hash_2fc3f8abcd5227a4"
+            },
+            {
+                "#scene": "%#hash_32bed3e3da59f969"
+            },
+            {
+                "#scene": "%#hash_4b1789e389f1af17"
+            },
+            {
+                "#scene": "%#hash_7483a0da4231e9bc"
+            }
+        ],
+        "#incomingsound": {
+            "#hash_df451061686a64b": 0,
+            "#hash_df450061686a418": 0,
+            "#hash_df453061686aab1": 360,
+            "#soundname": "sce_sat_exfil_s1_incoming_vtol",
+            "#hash_2a703ef93dac74e3": 7200,
+            "#hash_2a703df93dac72b0": -7200,
+            "#hash_2a703ff93dac7716": 2160,
+            "#movetime": 7
+        },
+        "#hash_be5201e010b03e23": 1.5
+    }
+}

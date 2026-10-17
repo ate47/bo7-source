@@ -1,0 +1,454 @@
+[[
+    \#CompassWrapper{
+        render-scale-offset: 0.25;
+    }
+    \#MinimapWrapper {
+        render-scale-offset: 0.25;
+        horizontal-anchors: left;
+        left: 50;
+        vertical-anchors:top;
+        top: 40;
+    }
+    \#MPPerceptiveIndicatorWrapper {
+        horizontal-anchors: left;
+        vertical-anchors: top;
+        opacity:1;
+        render-scale-offset:0.25;
+        left:350;
+        top:300;
+    }
+    \#MatchStatusScoresWrapper {
+        render-scale-offset:0.25;
+        horizontal-anchors: left;
+        vertical-anchors: top;
+        left:-10;
+        top:383;
+    }
+    \#ScoreFeedWrapper {
+        render-scale-offset:0;
+    }
+    \#BRSquadInfoContainerWrapper {
+        render-scale-offset: 0.25;
+        left: 70;
+        top: -440;
+    }
+    .Prim-Weapon {
+        render-scale-offset: 0.25;
+    }
+    .Sec-Weapon {
+        render-scale-offset: 0.25;
+    }
+    .Pri-Equipment {
+        render-scale-offset: 0.25;
+    }
+    .Sec-Equipment {
+        render-scale-offset: 0.25;
+    }
+    \#WeaponStatusInfoWrapper {
+        render-scale-offset: 0.25;
+        left: -530;
+    }
+    \#BRAltimeterDisplayWrapper {
+        render-scale-offset: 0.25;
+        horizontal-anchors: right;
+        right: -50;
+    }
+    \#BRRedeploymentMessageWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: top;
+        top: 332;
+        horizontal-anchors: left;
+        left: 200;
+    }
+    \#ObituaryContainerWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: top;
+        top: 420;
+        horizontal-anchors: left;
+        left: 125;
+    }
+    \#MatchStatusInfoBrWrapper {
+        render-scale-offset: 0.25;
+        horizontal-anchors: right;
+        right: -100
+    }
+    \#BRLoadoutFlyOutWrapper {
+        render-scale-offset: 0.25;
+        horizontal-anchors: right;
+        right: -118;
+        vertical-anchors: top;
+        top: 180;
+    }
+    \#HUDNotification {
+        render-scale-offset: 0.25;
+        horizontal-anchors: left;
+        right: 650;
+    }
+    \#BRRoundCountTimerMemContainerWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: top;
+        top: 335;
+    }
+    \#PublicEventGameplayTimerMemContainerWrapper {
+        render-scale-offset: 0.25;
+        horizontal-anchors: left;
+        left:400;
+        vertical-anchors: top;
+        top: 335;
+    }
+    \#BRMissionTrackerMemContainerWrapper {
+        render-scale-offset: 0.25;
+        horizontal-anchors: right;
+        left: -300;
+        anim: MoveTacMapPromptBelow;
+        onShowEvent: managed_widget_updated;
+    }
+    \#NetGraphIconContainerWrapper {
+        render-scale-offset: 0.25;
+        horizontal-anchors: left;
+        vertical-anchors: top;
+        top: 40;
+        left: 450;
+    }
+    \#SplashGlobalPlayerWrapper {
+        render-scale-offset: 0.25;
+    }
+    .Player-Status {
+        render-scale-offset: 0.25;
+        horizontal-anchors: left;
+        left: 30;
+        vertical-anchors: top;
+        top: 30;
+    }
+    .Up-Next {
+        render-scale-offset: 0.25;
+        horizontal-anchors: left;
+        right: 500;
+    }
+    .Match-Status {
+        render-scale-offset: 0.25;
+    }
+    .Gulag-Loadout-Flyout {
+        render-scale-offset: 0.25;
+        horizontal-anchors: right;
+        right: -50;
+    }
+    \#CalloutSplashContainer {
+        render-scale-offset: 0.25;
+        horizontal-anchors: right;
+        right: 0;
+        vertical-anchors: top;
+        top: 140;
+    }
+    \#CombatDetailsWrapperWrapper {
+        render-scale-offset: 0.25;
+        horizontal-anchors: right;
+        right: -360;
+        vertical-anchors: top;
+        top: 287;
+    }
+    \#ScoreFeed {
+        render-scale-offset: 0.25;
+        vertical-anchors: center;
+        bottom: -10;
+    }
+    \#InterrogationSquadMarked {
+        render-scale-offset: 0.25;
+    }
+    \#GeigerCounterHintWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#ResurgenceRespawnCountdown {
+        render-scale-offset: 0.25;
+    }
+    \#BRLastStandDownedContainer {
+        render-scale-offset: 0.25;
+        vertical-anchors: top;
+        bottom: -300;
+    }
+    \#BRInflationRedeployCloseTimer {
+        render-scale-offset: 0.25;
+    }
+    \#MatchStartWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#PublicEventSplashWrapper {
+        render-scale-offset: 0.25;
+    }
+    .Wingsuit_Controls {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -350;
+    }
+    .Object-Icon {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -343;
+    }
+    .Free-Look {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -318;
+    }
+    .Parachute-Text {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -318;
+    }
+    .Mantle-Hint {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -313;
+    }
+    .Killstreak-Hint {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -334;
+    }
+    .Message-Text {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -350;
+    }
+    .Hint-BG {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -316;
+    }
+    \#KilledMessageWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        bottom: -35;
+    }
+    \#InteractiveObjectPopupWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#LootCardContainerWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#GenericSplashWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: top;
+        top: 200;
+    }
+    \#BRHUDPlayerInfilControllerDisplayWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -270;
+    }
+    \#StreakDangerWarningWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -350;
+    }
+    \#AmmoWarningWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: center;
+        top: 100;
+    }
+    \#InteractiveObjectPopupWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        top: -350;
+    }
+    \#InventoryHintMemContainerWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        bottom: -150;
+    }
+    \#InteractiveObjectButtonsWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#CalloutMarkerPingsWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#CalloutSplashContainer{
+        render-scale-offset: 0.25;
+    }
+    \#MPErrorMessageWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        bottom: -529;
+    }
+    .Controller-Scheme {
+        render-scale-offset: 0.25;
+    }
+    \#BRLastStandDownedContainerWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        bottom: -397;
+    }
+    \#MeatShieldHintMemContainerWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: center;
+        top: 137;
+    }
+    \#CalloutSplashContainer {
+        render-scale-offset: 0.25;
+        horizontal-anchor: right;
+        right: 0;
+    }
+    \#MiscMessagesContainerWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: center;
+        top: 90;
+    }
+    \#KilledByWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        bottom: -72;
+    }
+    \#Inventory {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        bottom: 0;
+    }
+    \#BRArmorHintPopUpWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: center;
+        top: 200;
+    }
+    \#ObjectivesWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#SplashWeaponAltNotifyWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: center;
+        top: 80;
+    }
+    \#ScoreFeedWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: center;
+        center: -125;
+        horizontal-anchor: center;
+        left: 77;
+    }
+    \#LootSplashWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: center;
+        center: -260;
+        horizontal-anchor: center;
+        left: 187;
+    }
+    \#OxygenMeterWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: center;
+        center: 0;
+        horizontal-anchor: center;
+        left: 0;
+    }
+    \#RCDTargetNotifyWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        bottom: -270;
+    }
+    \#BRCashLostWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        bottom: -150;
+    }
+    \#BRSecondChanceOvertimeTimerMemContainerWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: top;
+        top: 56;
+    }
+    .Killstreak-Modal {
+        vertical-anchors: center;
+        horizontal-anchors: right;
+        top: 120;
+        right: -30;
+    }
+    .Hardcore-Streak {
+        vertical-anchors: bottom;
+        horizontal-anchors: right;
+        bottom: -220;
+        right: -30;
+    }
+    .List-Hardcore {
+        vertical-anchors: center;
+        horizontal-anchors: right;
+        top: 120;
+        right: -30;
+    }
+    .Killstreak-List {
+        vertical-anchors: bottom;
+        horizontal-anchors: right;
+        top: -700;
+        left: -650;
+    }
+    \#BRPerksHUDWidgetWrapper {
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        horizontal-anchors: right;
+        top: -60;
+        left: -670;
+    }
+    \#ScorestreakLayerWrapper{
+        render-scale-offset: 0.25;
+        Horizontal-anchors: right;
+        right: 0;
+    }
+    \#PerkViewWrapper{
+        render-scale-offset: 0.25;
+        vertical-anchors: bottom;
+        bottom: -32;
+    }
+    \#BRDangerCircleChaseMeterWrapper {
+		top: 340;
+	}
+    \#PerksSpecialistTrackerWrapper{
+        render-scale-offset: 0.25;
+    }
+    \#BRHUDPlayerInfilControllerDisplayWrapper {
+        render-scale-offset: 0.25;
+        top: -240;
+    }
+    .vehicle-diagram {
+        render-scale-offset: 0.25;
+        top: -300;
+    }
+    .vehicle-instruction {
+        render-scale-offset: 0.25;
+        top: -25;
+    }
+    .vehicle-instruction-left {
+        render-scale-offset: 0.25;
+        left: -280;
+    }
+    .vehicle-instruction-right {
+        render-scale-offset: 0.25;
+        right: 10;
+    }
+    .vehicle-exit-instruction {
+        render-scale-offset: 0.25;
+        top: -50;
+    }
+    \#DartMarkZeroManualToggleWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#TutorialMessageWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#SquadLeadInfoPromptMemContainerWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#OBActivityTrackerWrapper {
+        render-scale-offset: 0.25;
+        left: 60;
+        top:415;
+    }
+    \#CenteredMatchStatusScoresWrapper {
+        render-scale-offset: 0.25;
+    }
+    \#BRLargeInfectedMatchStatsWrapper{
+        render-scale-offset: 0.25;
+        left: 375;
+	}
+	\#BRPlayerAbilitiesWrapper{
+        render-scale-offset: 0.25;
+        top: -350;
+	}
+	\#SharpBonusesWidgetWrapper{
+        render-scale-offset: 0.25;
+	}
+]]

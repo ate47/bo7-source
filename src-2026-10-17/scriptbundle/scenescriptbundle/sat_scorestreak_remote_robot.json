@@ -1,0 +1,76 @@
+{
+    "#objects": [
+        {
+            "#variant_object": {
+                "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                "#xmodelname": "body_c_sat_scorestreak_pl_juggerbot_base",
+                "#animtree": {
+                    "name": "playerasm",
+                    "id": 0
+                },
+                "#xanimset": "playerasm_scenepatch_sat_scorestreak_remote_robot",
+                "#name": "Player 1",
+                "#hash_48fa36b226f2899a": "",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#hash_423dc3e955f2bb2e": true,
+                        "#cameraanimation": "c_sat_mp_scorestreak_remote_robot_fall",
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_sat_mp_scorestreak_remote_robot_fall@sbundle"
+                                }
+                            }
+                        ],
+                        "#xcamfirstperson": false,
+                        "#xcamthirdperson": true,
+                        "#weaponswitch": false,
+                        "#weaponuse": "Keep"
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#hash_423dc3e955f2bb2e": true,
+                        "#cameraanimation": "c_sat_mp_scorestreak_remote_robot_land",
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "ch_sat_mp_scorestreak_remote_robot_land@sbundle"
+                                }
+                            }
+                        ],
+                        "#xcamfirstperson": false,
+                        "#xcamthirdperson": true,
+                        "#weaponswitch": false,
+                        "#weaponuse": "Keep"
+                    }
+                ]
+            },
+            "#variant_type": "Types_Player"
+        }
+    ],
+    "#hash_f5afe1a75546822c": "stream_profile_scene",
+    "#hash_6f8870069a3470b8": true,
+    "#hash_2f4981e3dd60abe4": "None",
+    "#gamemode": "MP",
+    "#shots": [
+        {
+            "#variant_object": {
+                "#name": "shot_010"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "shot_020"
+            },
+            "#variant_type": "Types_Shot"
+        }
+    ]
+}

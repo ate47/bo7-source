@@ -1,0 +1,10 @@
+NAME script_64ee2937f86a1d5c
+VERSION 0
+CHECKSUM 0x1679e453
+######################################################
+####################  DEV BLOCKS  ####################
+######################################################
+# namespace_1674a18ad0564da6::function_151d753a7e697233@1
+DEVBLOCK 0x7ae
+# namespace_1674a18ad0564da6::function_7b253d2a921e4cbd@1
+DEVBLOCK 0x9e5

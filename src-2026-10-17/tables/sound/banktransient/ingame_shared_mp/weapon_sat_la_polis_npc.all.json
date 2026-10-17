@@ -1,0 +1,533 @@
+{
+    "name": "#weapon_sat_la_polis_npc.all",
+    "unk8": "#hash_25cc5846627c5b88",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_la_polis_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_drop_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_inspect_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_inspect_mvmnt1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_inspect_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_inspect_toss.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_inspect_mvmnt2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_inspect_catch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_raise_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_reload_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_reload_unload.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_reload_mvmnt1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_reload_removeround.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_reload_loadround.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_reload_mvmnt2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_reload_lockround.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_polis_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/polis/reloads/fly_plr_la_polis_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7dd8fabd020c86ca",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_8ca684a8740f001b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2bcb3ad8bd5d02bd",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_cbbee849f2c73a3c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5649aecd73f51828",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_d2d450e4e2f70849",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc",
+            "aliases": [
+                {
+                    "name": "#wpn_la_polis_fire_npc_mech",
+                    "sndAsset": "#hash_ba6a056d2e499d3a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_mech",
+                    "sndAsset": "#hash_b037202ac6f44a9d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_mech",
+                    "sndAsset": "#hash_ea1ddd049d721320",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#wpn_la_polis_fire_npc_atmo_int",
+                    "sndAsset": "#hash_e2d2c7b915c68aab",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_atmo_int",
+                    "sndAsset": "#hash_dda6eceac6361116",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_atmo_int",
+                    "sndAsset": "#hash_c3f1ac01d350dcf9",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc_atmo_int",
+            "aliases": [
+                {
+                    "name": "#wpn_la_polis_fire_npc_med_atmo",
+                    "sndAsset": "#hash_b488fbcf02fd3233",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_med_atmo",
+                    "sndAsset": "#hash_d217e464345e849e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_med_atmo",
+                    "sndAsset": "#hash_9e247e47d41ce481",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc_charge",
+            "aliases": [
+                {
+                    "name": "#wpn_la_polis_fire_npc_lfe",
+                    "sndAsset": "#hash_a2e0c04d24953126",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_lfe",
+                    "sndAsset": "#hash_b8e347128f2ea849",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_lfe",
+                    "sndAsset": "#hash_dc4e70a3d08ada5c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc_dist",
+            "aliases": [
+                {
+                    "name": "#wpn_la_polis_fire_npc_dist_int",
+                    "sndAsset": "#hash_8073e8fe530136e2",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_dist_int",
+                    "sndAsset": "#hash_e566e2a3c25d7227",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_dist_int",
+                    "sndAsset": "#hash_f87e650196bb13c8",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc_dist_int",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_d8865e4e73c7ce16",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_ddb2391cc35847ab",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_a87048c1be7be74c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_dd3c07c6d0590585",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc_mech",
+            "aliases": [
+                {
+                    "name": "#hash_e6e86306514f43a6",
+                    "sndAsset": "#sat/wpn/la/polis/plr/wpn_la_polis_fire_plr_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_e6e86306514f43a6",
+                    "sndAsset": "#sat/wpn/la/polis/plr/wpn_la_polis_fire_plr_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_e6e86306514f43a6",
+                    "sndAsset": "#sat/wpn/la/polis/plr/wpn_la_polis_fire_plr_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#wpn_la_polis_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_c3a05be37a0dfd7e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_ecd06188ac24cb93",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_863daaa5509fbd54",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_polis_fire_npc_med_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_8cbc432e831e338a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_b44aa3e64ef9e62f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_a2f2e5b39bfcb430",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e6e86306514f43a6",
+            "aliases": [
+                {
+                    "name": "#wpn_la_polis_fire_npc_lfe",
+                    "sndAsset": "#hash_f2fa4b8aeda03560",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_lfe",
+                    "sndAsset": "#hash_be439e1f220eaf9f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_la_polis_fire_npc_lfe",
+                    "sndAsset": "#hash_f202390a12f8127a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        }
+    ]
+}

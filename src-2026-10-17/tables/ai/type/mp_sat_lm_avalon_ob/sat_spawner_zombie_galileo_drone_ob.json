@@ -1,0 +1,67 @@
+{
+    "name": "#sat_spawner_zombie_galileo_drone_ob",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_galileo_drone",
+    "behaviorTreeAsset": "#zombie_galileo_drone",
+    "footStepsFxTable": "#hash_c2120c4edf2eb929",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_8c2e50443298f0f6",
+    "dismemberment": "#defaultdismemberment_zm",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_zombie_galileo_drone_hvt_ob"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_galileo/zombie_galileo_drone.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_galileo\\zombie_galileo_drone.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_zombie_galileo_drone_hvt_ob"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_galileo_drone",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_galileo_drone",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_galileo_drone",
+        "#health": 50,
+        "#healthbarsettings": "%#hash_1a291d82d5958bdd",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_galileo_drone",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_galileo_drone",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

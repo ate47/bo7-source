@@ -1,0 +1,798 @@
+{
+    "#hash_166a1f1b9449326e": {
+        "#hash_90ed8916f56ef56d": "zombie_diana",
+        "#hash_dc4ad1cfb00a5dac": "scripts/common/ai/aitypes/zombie_diana/zombie_diana_metabones.gsc",
+        "#metabones": [
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "lower_torso_left",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.04,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.025,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "destroyed"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "scarred"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default_during_flight"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "destroyed_during_flight"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#penetrationdist": 1000,
+                        "#tagname": "tag_torso_le_weakpoint",
+                        "#radius": 150
+                    }
+                ]
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "upper_torso_right",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.04,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.025,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "destroyed"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "scarred"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default_during_flight"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "destroyed_during_flight"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#penetrationdist": 1000,
+                        "#tagname": "tag_torso_ri_weakpoint",
+                        "#radius": 150
+                    }
+                ]
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "upper_neck_left",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.04,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.025,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "destroyed"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "scarred"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default_during_flight"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "destroyed_during_flight"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#penetrationdist": 1000,
+                        "#tagname": "tag_neck_le_weakpoint",
+                        "#radius": 150
+                    }
+                ]
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "lower_neck_right",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.04,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.025,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "destroyed"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "scarred"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default_during_flight"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "destroyed_during_flight"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#penetrationdist": 1000,
+                        "#tagname": "tag_neck_ri_weakpoint",
+                        "#radius": 150
+                    }
+                ]
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "wing_left",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.01,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.025,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "destroyed"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "scarred"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default_during_flight"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "destroyed_during_flight"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#penetrationdist": 1000,
+                        "#tagname": "tag_wing_le_weakpoint",
+                        "#radius": 300
+                    }
+                ]
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "wing_right",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.01,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.025,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "destroyed"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "scarred"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default_during_flight"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.8
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "destroyed_during_flight"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#penetrationdist": 1000,
+                        "#tagname": "tag_wing_ri_weakpoint",
+                        "#radius": 300
+                    }
+                ]
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "eye_left",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.3
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "weakspot"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#penetrationdist": 1000,
+                        "#tagname": "tag_eye_le_weakpoint",
+                        "#radius": 40
+                    }
+                ]
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "eye_right",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.3
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "weakspot"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#penetrationdist": 1000,
+                        "#tagname": "tag_eye_ri_weakpoint",
+                        "#radius": 40
+                    }
+                ]
+            }
+        ]
+    },
+    "#hash_4b993019b0722e89": {
+        "#hash_90ed8916f56ef56d": "zombie_orion",
+        "#hash_dc4ad1cfb00a5dac": "scripts/common/ai/aitypes/zombie_orion/zombie_orion_metabones.gsc",
+        "#metabones": [
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "head"
+                    },
+                    {
+                        "#hitlocation": "helmet"
+                    },
+                    {
+                        "#hitlocation": "neck"
+                    }
+                ],
+                "#name": "head_armor",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.15,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.3,
+                                    "#explosivedamagemod": 0.3
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "on"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "torso_upper"
+                    },
+                    {
+                        "#hitlocation": "torso_lower"
+                    }
+                ],
+                "#name": "chest_armor",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.15,
+                                    "#explosivedamagemod": 0.15
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "on"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "left_arm_upper"
+                    }
+                ],
+                "#name": "left_shoulder_armor",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.15,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.4,
+                                    "#explosivedamagemod": 0.4
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "on"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "right_arm_upper"
+                    }
+                ],
+                "#name": "right_shoulder_armor",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.15,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.4,
+                                    "#explosivedamagemod": 0.4
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "on"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "left_arm_lower"
+                    }
+                ],
+                "#name": "left_forearm_armor",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.15,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.4,
+                                    "#explosivedamagemod": 0.4
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "on"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#parts": [],
+                "#metadata": [],
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "right_arm_lower"
+                    }
+                ],
+                "#name": "right_forearm_armor",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#healthcap": -1,
+                                    "#health": 0.15,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.4,
+                                    "#explosivedamagemod": 0.4
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "on"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,372 @@
+{
+    "#hash_1104928afdf3d611": {
+        "#omnvar_handler": "data",
+        "#fields": [
+            "#hash_f4d02a313793f05b": {
+                "#step_increment": 1,
+                "#field_name": "#hash_f4d02a313793f05b",
+                "#max_value": 1
+            }
+        ],
+        "#hash_963e84379d023af2": [],
+        "#fieldgroups": []
+    },
+    "#hash_2c2bb771e711eea7": {
+        "#omnvar_handler": "data",
+        "#archetype_func": "ArchetypeDialogueSpeaker",
+        "#fields": [
+            "#displayname": {
+                "#field_name": "#displayname",
+                "#datasource_only": true
+            },
+            "#dialogue_speaker_asset_index": {
+                "#step_increment": 1,
+                "#field_name": "#dialogue_speaker_asset_index",
+                "#max_value": 127,
+                "#hash_37abaf3b66a16eeb": [
+                    {
+                        "#field_type": "",
+                        "#field_name": "displayName"
+                    },
+                    {
+                        "#field_type": "",
+                        "#field_name": "displayImage"
+                    }
+                ]
+            },
+            "#displayimage": {
+                "#field_name": "#displayimage",
+                "#datasource_only": true
+            }
+        ],
+        "#hash_963e84379d023af2": [],
+        "#fieldgroups": []
+    },
+    "#hash_2fa7197add799996": {
+        "#omnvar_handler": "data",
+        "#fields": [
+            "#max_altitude": {
+                "#step_increment": 1,
+                "#field_name": "#max_altitude",
+                "#max_value": 32767
+            },
+            "#sea_height": {
+                "#step_increment": 1,
+                "#field_name": "#sea_height",
+                "#max_value": 1023
+            }
+        ],
+        "#hash_963e84379d023af2": [],
+        "#fieldgroups": []
+    },
+    "#hash_3962f3c0da453ab2": {
+        "#omnvar_handler": "data",
+        "#fields": [
+            "#asset_index": {
+                "#step_increment": 1,
+                "#field_name": "#asset_index",
+                "#max_value": 255
+            },
+            "#width": {
+                "#step_increment": 1,
+                "#field_name": "#width",
+                "#max_value": 1000
+            }
+        ],
+        "#hash_963e84379d023af2": [],
+        "#fieldgroups": []
+    },
+    "#hash_5e2690edb781689e": {
+        "#omnvar_handler": "data",
+        "#fields": [
+            "#pause_intro": {
+                "#step_increment": 1,
+                "#field_name": "#pause_intro",
+                "#max_value": 1
+            },
+            "#begin_shutdown": {
+                "#step_increment": 1,
+                "#field_name": "#begin_shutdown",
+                "#max_value": 1
+            },
+            "#total_distance": {
+                "#step_increment": 1,
+                "#field_name": "#total_distance",
+                "#max_value": 10240
+            },
+            "#signal_source_entity": {
+                "#step_increment": 1,
+                "#field_name": "#signal_source_entity",
+                "#max_value": 65535
+            }
+        ],
+        "#hash_963e84379d023af2": [],
+        "#fieldgroups": []
+    },
+    "#hash_62c73a79fb846e59": {
+        "#omnvar_handler": "data",
+        "#fields": [
+            "#hash_9159b734f6a6c988": {
+                "#step_increment": 1,
+                "#field_name": "#hash_9159b734f6a6c988",
+                "#filter": "Bool",
+                "#max_value": 1
+            },
+            "#hash_96b8256b22b252ba": {
+                "#step_increment": 1,
+                "#field_name": "#hash_96b8256b22b252ba",
+                "#max_value": 3
+            },
+            "#header_string": {
+                "#step_increment": 1,
+                "#field_name": "#header_string",
+                "#filter": "LocalizedConfigString",
+                "#max_value": 65535
+            }
+        ],
+        "#hash_963e84379d023af2": [
+            "#skill_or_super": {
+                "#variants": [
+                    "#skill": {
+                        "#field_mappings": [
+                            "#splash_icon": {
+                                "#source_field": "iconSmall",
+                                "#projected_field": "splash_icon"
+                            },
+                            "#description": {
+                                "#source_field": "description",
+                                "#projected_field": "description"
+                            },
+                            "#skillcategory": {
+                                "#source_field": "skillCategory",
+                                "#projected_field": "skillCategory"
+                            },
+                            "#categoryicon": {
+                                "#source_field": "categoryIcon",
+                                "#projected_field": "categoryIcon"
+                            },
+                            "#isMinorAbility": {
+                                "#projected_field": "isMinorAbility"
+                            },
+                            "#name": {
+                                "#source_field": "name",
+                                "#projected_field": "name"
+                            },
+                            "#maxSkillLevel": {
+                                "#source_field": "maxSkillLevel",
+                                "#projected_field": "maxSkillLevel"
+                            },
+                            "#categoryname": {
+                                "#source_field": "categoryName",
+                                "#projected_field": "categoryName"
+                            },
+                            "#isMajorAbility": {
+                                "#projected_field": "isMajorAbility"
+                            },
+                            "#icon": {
+                                "#source_field": "icon",
+                                "#projected_field": "icon"
+                            }
+                        ],
+                        "#hash_ef75a235c14174bd": "skill"
+                    },
+                    "#super": {
+                        "#field_mappings": [
+                            "#splash_icon": {
+                                "#source_field": "image",
+                                "#projected_field": "splash_icon"
+                            },
+                            "#description": {
+                                "#source_field": "description",
+                                "#projected_field": "description"
+                            },
+                            "#skillcategory": {
+                                "#projected_field": "skillCategory"
+                            },
+                            "#categoryicon": {
+                                "#projected_field": "categoryIcon"
+                            },
+                            "#isMinorAbility": {
+                                "#source_field": "isMinorAbility",
+                                "#projected_field": "isMinorAbility"
+                            },
+                            "#name": {
+                                "#source_field": "name",
+                                "#projected_field": "name"
+                            },
+                            "#maxSkillLevel": {
+                                "#projected_field": "maxSkillLevel"
+                            },
+                            "#categoryname": {
+                                "#projected_field": "categoryName"
+                            },
+                            "#isMajorAbility": {
+                                "#source_field": "isMajorAbility",
+                                "#projected_field": "isMajorAbility"
+                            },
+                            "#icon": {
+                                "#source_field": "image",
+                                "#projected_field": "icon"
+                            }
+                        ],
+                        "#hash_ef75a235c14174bd": "super"
+                    }
+                ],
+                "#mapping_name": "skill_or_super",
+                "#hash_c42241c80666116a": [
+                    "#splash_icon": {
+                        "#hash_c9e8105711e2fab3": "ui_shared_transparent",
+                        "#field_type": "Image",
+                        "#field_name": "splash_icon"
+                    },
+                    "#description": {
+                        "#field_type": "String",
+                        "#field_name": "description"
+                    },
+                    "#skillcategory": {
+                        "#hash_5c491b0ebc44afe0": "ABILITY",
+                        "#field_type": "String",
+                        "#field_name": "skillCategory"
+                    },
+                    "#categoryicon": {
+                        "#hash_c9e8105711e2fab3": "ui_shared_transparent",
+                        "#field_type": "Image",
+                        "#field_name": "categoryIcon"
+                    },
+                    "#isMinorAbility": {
+                        "#field_type": "Bool",
+                        "#field_name": "isMinorAbility"
+                    },
+                    "#name": {
+                        "#field_type": "String",
+                        "#field_name": "name"
+                    },
+                    "#maxSkillLevel": {
+                        "#field_type": "Number",
+                        "#field_name": "maxSkillLevel",
+                        "#hash_beb5f5482788ed08": 1
+                    },
+                    "#categoryname": {
+                        "#field_type": "String",
+                        "#field_name": "categoryName"
+                    },
+                    "#isMajorAbility": {
+                        "#field_type": "Bool",
+                        "#field_name": "isMajorAbility"
+                    },
+                    "#icon": {
+                        "#hash_c9e8105711e2fab3": "ui_shared_transparent",
+                        "#field_type": "Image",
+                        "#field_name": "icon"
+                    }
+                ]
+            }
+        ],
+        "#fieldgroups": [
+            "#skills": {
+                "#hash_246da7f96dd6bd48": "#hash_96b8256b22b252ba",
+                "#fields": [
+                    "#description": {
+                        "#step_increment": 1,
+                        "#field_name": "#description",
+                        "#filter": "LocalizedConfigString",
+                        "#max_value": 65535
+                    },
+                    "#is_upgrade": {
+                        "#step_increment": 1,
+                        "#field_name": "#is_upgrade",
+                        "#filter": "Bool",
+                        "#max_value": 1
+                    },
+                    "#is_equipped": {
+                        "#step_increment": 1,
+                        "#field_name": "#is_equipped",
+                        "#filter": "Bool",
+                        "#max_value": 1
+                    },
+                    "#hash_55e1c581498f1dca": {
+                        "#hash_900acbdd01a26fbc": "Image",
+                        "#step_increment": 1,
+                        "#field_name": "#hash_55e1c581498f1dca",
+                        "#datasource_only": true
+                    },
+                    "#hash_6fe8ccf5467fec9e": {
+                        "#step_increment": 1,
+                        "#field_name": "#hash_6fe8ccf5467fec9e",
+                        "#datasource_only": true
+                    },
+                    "#hash_7b86d5a2a25923e5": {
+                        "#hash_900acbdd01a26fbc": "Image",
+                        "#step_increment": 1,
+                        "#field_name": "#hash_7b86d5a2a25923e5",
+                        "#datasource_only": true
+                    },
+                    "#hash_90ad70870204e754": {
+                        "#hash_900acbdd01a26fbc": "Image",
+                        "#step_increment": 1,
+                        "#field_name": "#hash_90ad70870204e754",
+                        "#datasource_only": true
+                    },
+                    "#hash_a7da42f63707c89a": {
+                        "#hash_1a035bf61860db35": "skill_or_super",
+                        "#step_increment": 1,
+                        "#field_name": "#hash_a7da42f63707c89a",
+                        "#max_value": 196607
+                    },
+                    "#skill_level": {
+                        "#step_increment": 1,
+                        "#field_name": "#skill_level",
+                        "#max_value": 3
+                    },
+                    "#hash_bea29260541addcb": {
+                        "#step_increment": 1,
+                        "#field_name": "#hash_bea29260541addcb",
+                        "#datasource_only": true
+                    },
+                    "#hash_d98b53f547ba1f2f": {
+                        "#step_increment": 1,
+                        "#field_name": "#hash_d98b53f547ba1f2f",
+                        "#datasource_only": true
+                    },
+                    "#hash_deee07e420d19b8e": {
+                        "#step_increment": 1,
+                        "#field_name": "#hash_deee07e420d19b8e",
+                        "#filter": "Bool",
+                        "#max_value": 1
+                    },
+                    "#hash_f00d86f990cfc827": {
+                        "#step_increment": 1,
+                        "#field_name": "#hash_f00d86f990cfc827",
+                        "#max_value": 3,
+                        "#datasource_only": true
+                    }
+                ],
+                "#group_name": "#skills",
+                "#count": 3,
+                "#hash_2d533fd1858bd4f0": "Widget"
+            }
+        ]
+    },
+    "#hash_6bc77f54fb73db4a": {
+        "#omnvar_handler": "data",
+        "#fields": [
+            "#delay_reveal_chyron_line": {
+                "#step_increment": 0.1,
+                "#field_name": "#delay_reveal_chyron_line",
+                "#max_value": 5
+            },
+            "#delay_hide_chyron": {
+                "#step_increment": 0.1,
+                "#field_name": "#delay_hide_chyron",
+                "#max_value": 10
+            },
+            "#chyron_index": {
+                "#step_increment": 1,
+                "#field_name": "#chyron_index",
+                "#max_value": 5
+            }
+        ],
+        "#hash_963e84379d023af2": [],
+        "#fieldgroups": []
+    }
+}

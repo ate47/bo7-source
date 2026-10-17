@@ -1,0 +1,237 @@
+{
+    "#hash_5cf72e70cd23996e": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#minradius": 200,
+            "#spawnpointselection": "#random",
+            "#maxradius": 400
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#spawnrandom",
+        "#potentialbuckets": [
+            {
+                "#label": "#mangler",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#hunt",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#mangler",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_685e9f3f7adf0530",
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#zombie"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_spawner_zombie_mangler_bongo",
+                "#name": "#mangler"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#unique",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_7d5ea43c26d0856e": true,
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": false,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_75d504ef8db8ba9f": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#heightlimit": 50,
+            "#spawnpointselection": "#random",
+            "#maxradius": 50
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#spawnrandom",
+        "#potentialbuckets": [
+            {
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#medium",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#enemies",
+                                    "#spawncount": 4
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        },
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#bosses",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#cartel"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#saw_bongo_enemy_guild_bot",
+                "#name": "#enemies"
+            },
+            {
+                "#aitype1": "%#sat_dawg_bongo",
+                "#hash_162fe9e0c42408c0": "%#saw_juggerbot_bongo",
+                "#hash_b1534ca7cd2e2f75": 2,
+                "#name": "#bosses"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#medium",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100
+        },
+        "#hash_4252efb37214c5c1": false
+    }
+}

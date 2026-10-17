@@ -1,0 +1,68 @@
+{
+    "name": "#sat_spawner_zombie_disciple_zm",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_disciple",
+    "behaviorTreeAsset": "#zombie_disciple",
+    "aiImpactVFXTable": "#aiimpactvfxtable_zombie_base",
+    "dismemberment": "#defaultdismemberment_zm",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_disciple"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_disciple/zombie_disciple.gsc",
+        "#scripts/mp/zm/systems/aitypes/zm_zombie_disciple.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_disciple\\zombie_disciple.gsc"
+            },
+            {
+                "#scriptfile": "scripts\\mp\\zm\\systems\\aitypes\\zm_zombie_disciple.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_t10_zombie_disciple"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_disciple",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_disciple",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_disciple",
+        "#health": 900,
+        "#healthbarsettings": "%#hash_6fc805aa4459d1f2",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_disciple",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_disciple",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

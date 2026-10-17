@@ -1,0 +1,72 @@
+{
+    "name": "#sat_spawner_zombie_abom_zm",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_abom",
+    "behaviorTreeAsset": "#zombie_abom",
+    "footStepsFxTable": "#hash_f461b9b842c8df30",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#aiimpactvfxtable_zombie_base",
+    "dismemberment": "#defaultdismemberment_zm",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_abom"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/asm/zombie_abom/zombie_abom_asm.gsc",
+        "#scripts/mp/zm/systems/aitypes/zm_zombie_abom.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\asm\\zombie_abom\\zombie_abom_asm.gsc"
+            },
+            {
+                "#scriptfile": "scripts\\mp\\zm\\systems\\aitypes\\zm_zombie_abom.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_t10_zombie_abom"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_abom",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_abom",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_abom",
+        "#health": 600,
+        "#healthbarsettings": "%#hash_197c67d9dae70456",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "",
+        "#hash_61e44fac124dbd73": true,
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_abom",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_abom",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

@@ -1,0 +1,2665 @@
+{
+    "name": "#weapon_sat_pi_timir_npc.all",
+    "unk8": "#weapon_sat_pi_timir_npc",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_pi_timir_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_drop_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_drop_quick_srop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_chamberopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_chamberrattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_chamberclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_regrip3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_regrip4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_empty_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_empty_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_chamberopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_chamberrattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_chamberclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_inspect_ext01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d5473771dbe89492",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d5473871dbe89645",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_inspect_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fb2d301d794f899f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_drop_akimbo_frm0.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_bbc7c95a91ba697d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_drop_quick_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_l_inspect_akimbo_frm177",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_inspect_akimbo_frm177.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_l_inspect_akimbo_frm31",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_inspect_akimbo_frm31.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_l_inspect_akimbo_frm6",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_inspect_akimbo_frm6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_l_inspect_akimbo_frm66",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_inspect_akimbo_frm66.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e3832aa2d90068a8",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_raise_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_l_raise_first_akimbo_frm14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_raise_first_akimbo_frm14.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_l_raise_first_akimbo_frm23",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_raise_first_akimbo_frm23.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_l_raise_first_akimbo_frm6",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_raise_first_akimbo_frm6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c707b6c0b4d3ca9",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_raise_quick_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9185b02985310add",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_akimbo_frm13.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_918f9f298539427f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_akimbo_frm20.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4415210d40dc82",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_akimbo_frm3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_918c9c298537078f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_akimbo_frm37.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_917b9f2985289975",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_akimbo_frm44.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_91821f29852ddea3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_akimbo_frm68.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_81af37e6fa60a85d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_empty_akimbo_frm15.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_81abb3e6fa5d923a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_empty_akimbo_frm29.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_81a522e6fa583029",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_empty_akimbo_frm42.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_afca3a48eaccfd1b",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_empty_akimbo_frm6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_819e37e6fa52352a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_empty_akimbo_frm65.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_819ab4e6fa4f20ba",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_empty_akimbo_frm76.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_819724e6fa4bf633",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_l_reload_empty_akimbo_frm84.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_985361c93b6b30ae",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_drop_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_77cd623dc9d2958a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_drop_quick_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_r_inspect_akimbo_frm1",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_inspect_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_r_inspect_akimbo_frm125",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_inspect_akimbo_frm125.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_r_inspect_akimbo_frm155",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_inspect_akimbo_frm155.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_r_inspect_akimbo_frm171",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_inspect_akimbo_frm171.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_r_inspect_akimbo_frm93",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_inspect_akimbo_frm93.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e3038f577d85210a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_raise_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_r_raise_first_akimbo_frm2",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_raise_first_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_r_raise_first_akimbo_frm22",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_raise_first_akimbo_frm22.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_r_raise_first_akimbo_frm9",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_raise_first_akimbo_frm9.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_1011c5645a792238",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_raise_quick_akimbo_frm0.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_340d563204647a3c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_akimbo_frm12.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_3409d4320461677f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_akimbo_frm26.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_341e58320472f0d5",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_akimbo_frm42.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9624bc171113abff",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_akimbo_frm6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_34176532046ce83e",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_akimbo_frm65.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_68573250d30fe4d8",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_empty_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5c0f6756a401f638",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_empty_akimbo_frm10.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5c195856a40a3140",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_empty_akimbo_frm21.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5c15f256a4074e17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_empty_akimbo_frm33.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5c206456a4106452",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_empty_akimbo_frm41.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5c26f356a415c2fd",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_empty_akimbo_frm62.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5c26e856a415b04c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_empty_akimbo_frm69.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5bf75b56a3ed4ff3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_r_reload_empty_akimbo_frm82.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_raise_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_raise_quick_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext01_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext01_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_regrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_magslam.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_fast01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_fast01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_fast01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_fast01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_empty_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_empty_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext02_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_fast01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_fast01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_fast01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_reload_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_reload_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_01_regrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_ext01_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_ext01_01_regrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_ext01_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_ext01_01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_ext01_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_ext01_02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_ext02_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_ext02_01_regrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_ext02_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_ext02_01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_ext02_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_ext02_02_regrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_233e25feb88eca5e",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_ext02_02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_fast01_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_fast01_01_regrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_fast01_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_fast01_01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_pi_timir_transition_reload_empty_fast01_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/reloads/fly_plr_pi_timir_transition_reload_empty_fast01_02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9a933991494571b9",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_large_01_akimbo_frm13.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b27a94cb5e54594f",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_large_01_akimbo_frm4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_68e98ca65efedd4",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_large_02_akimbo_frm15.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e4b23ec2156ba3d0",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_large_02_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b28bb27123feedb6",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_large_03_akimbo_frm10.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8ade18a182bb20dc",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_large_03_akimbo_frm3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d88700233737bdb8",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_small_01_akimbo_frm10.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_3992b6d810044471",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_small_01_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_134f390813c8a858",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_small_02_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_60813b6065c50448",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_small_03_akimbo_frm12.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_23550f43e656f4f7",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_l_fidget_small_03_akimbo_frm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9951cc2bf7a22ddf",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_large_01_akimbo_frm13.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_afc7cf3de4e8dd95",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_large_01_akimbo_frm4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fecb66b43eac0633",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_large_02_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9fa584467e4e3200",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_large_02_akimbo_frm13.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4d26206e543643a2",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_large_03_akimbo_frm12.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_68476874c71bc218",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_large_03_akimbo_frm5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_323c9be819dc931d",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_small_01_akimbo_frm15.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2580abf2ff78875b",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_small_01_akimbo_frm6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_dc78726785641737",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_small_02_akimbo_frm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_dc786e678564106b",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_small_02_akimbo_frm5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8efa0617c6a4e4e7",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_small_03_akimbo_frm15.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5e3c6079496e79ad",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/pistol/usugar9/reloads/fly_plr_pistol_usugar9_r_fidget_small_03_akimbo_frm6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_pi_timir_fire_npc",
+            "aliases": [
+                {
+                    "name": "#wpn_pi_timir_fire_npc_mech",
+                    "sndAsset": "#sat/wpn/pi/timir/plr/fire/wpn_pi_timir_fire_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_mech",
+                    "sndAsset": "#sat/wpn/pi/timir/plr/fire/wpn_pi_timir_fire_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_mech",
+                    "sndAsset": "#sat/wpn/pi/timir/plr/fire/wpn_pi_timir_fire_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_mech",
+                    "sndAsset": "#hash_d0f1800f10aef24a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_mech",
+                    "sndAsset": "#hash_957faf63c0aa5fad",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_mech",
+                    "sndAsset": "#hash_921feaac29893af0",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_mech",
+                    "sndAsset": "#hash_e4ea1c90cf263d7b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_mech",
+                    "sndAsset": "#hash_8e07fb0968553526",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_mech",
+                    "sndAsset": "#hash_a40a81ced2eeac49",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_pi_timir_fire_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#wpn_pi_timir_fire_npc_atmo_int",
+                    "sndAsset": "#hash_8a87444c8ca178af",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_atmo_int",
+                    "sndAsset": "#hash_e2f8e394c0c5c60a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_atmo_int",
+                    "sndAsset": "#hash_a60b4ad658c5c96d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_atmo_int",
+                    "sndAsset": "#hash_97bcb20ac08327b2",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_atmo_int",
+                    "sndAsset": "#hash_f24db2b924425455",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_atmo_int",
+                    "sndAsset": "#hash_abb18443ee8077d8",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_pi_timir_fire_npc_atmo_int",
+            "aliases": [
+                {
+                    "name": "#wpn_pi_timir_fire_npc_med_atmo",
+                    "sndAsset": "#hash_fd14759b58ef39af",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa615aaf9"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_med_atmo",
+                    "sndAsset": "#hash_d58614e38d13870a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa615aaf9"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_med_atmo",
+                    "sndAsset": "#hash_98987c2525138a6d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa615aaf9"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_pi_timir_fire_npc_dist",
+            "aliases": [
+                {
+                    "name": "#wpn_pi_timir_fire_npc_dist_int",
+                    "sndAsset": "#hash_a38096f4d4ddbdc9",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_dist_int",
+                    "sndAsset": "#hash_c6ebc0861639efdc",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_dist_int",
+                    "sndAsset": "#hash_e46031b6d1154efb",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_dist_int",
+                    "sndAsset": "#hash_8d7e102f6a4446a6",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_dist_int",
+                    "sndAsset": "#hash_94f5c489c299712d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_dist_int",
+                    "sndAsset": "#hash_9195ffd22b784c70",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615a6f1"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_pi_timir_fire_npc_dist_int",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_bac0528d685c2ffb",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615aaf9"
+                },
+                {
+                    "sndAsset": "#hash_e3de3106018b27a6",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615aaf9"
+                },
+                {
+                    "sndAsset": "#hash_f9e0b7cb6c249ec9",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615aaf9"
+                },
+                {
+                    "sndAsset": "#hash_9d4be15cad80d0dc",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615aaf9"
+                },
+                {
+                    "sndAsset": "#hash_ec82e993c229386f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa615aaf9"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_pi_timir_fire_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/pi/timir/lfe/wpn_pi_timir_lfe_01.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_pi_timir_fire_npc_mech",
+            "aliases": [
+                {
+                    "name": "#wpn_pi_timir_fire_npc_lfe",
+                    "sndAsset": "#sat/wpn/pi/timir/plr/mech/wpn_pi_timir_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_lfe",
+                    "sndAsset": "#sat/wpn/pi/timir/plr/mech/wpn_pi_timir_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_lfe",
+                    "sndAsset": "#sat/wpn/pi/timir/plr/mech/wpn_pi_timir_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_lfe",
+                    "sndAsset": "#hash_e409380afe3bc11c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_lfe",
+                    "sndAsset": "#hash_9398d6705a752f3b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_lfe",
+                    "sndAsset": "#hash_d5914fcc523e79e6",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_pi_timir_fire_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#wpn_pi_timir_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_84d409e01e12e178",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_c98f18827d1b87f5",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_d79cfd861210afd2",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_cefb90e2f77727d7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa615a6f1"
+                },
+                {
+                    "name": "#wpn_pi_timir_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_eca884b82e856b44",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa615a6f1"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_pi_timir_fire_npc_med_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_88567953100be463",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa615aaf9"
+                },
+                {
+                    "sndAsset": "#hash_a992c1277bd3098e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa615aaf9"
+                },
+                {
+                    "sndAsset": "#hash_bf569d22e8fbc431",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa615aaf9"
+                }
+            ]
+        }
+    ]
+}

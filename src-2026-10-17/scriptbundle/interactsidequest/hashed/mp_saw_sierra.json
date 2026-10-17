@@ -1,0 +1,248 @@
+{
+    "#hash_204c66032e1ae04d": {
+        "#hash_42e8f205ff738387": 0,
+        "#challengeref": "sierra_sidequest_15",
+        "#hash_69baedaa065b351f": "from_interact",
+        "#hash_6734ad8de1962b51": "evt_ee_shovel_dig",
+        "#completionexploder": "ee_graveyard",
+        "#keyitem": {
+            "#hash_49a4cf2d60ed83ca": "from_interact",
+            "#consumableitem": "wz_consumable_quest_grave_looter",
+            "#usemoney": false,
+            "#keytargets": [
+                {
+                    "#location": "interactsidequest_grave_looter_spawnpoint_0"
+                },
+                {
+                    "#location": "interactsidequest_grave_looter_spawnpoint_1"
+                },
+                {
+                    "#location": "interactsidequest_grave_looter_spawnpoint_2"
+                },
+                {
+                    "#location": "interactsidequest_grave_looter_spawnpoint_3"
+                },
+                {
+                    "#location": "interactsidequest_grave_looter_spawnpoint_4"
+                },
+                {
+                    "#location": "interactsidequest_grave_looter_spawnpoint_5"
+                }
+            ],
+            "#hash_3bd3ce965dd8232c": "&#hash_2e6e38743cd96de6",
+            "#spawnitem": true,
+            "#useitem": true,
+            "#interactcost": 0
+        },
+        "#prompt": "&#mp_br_ingame/unknown",
+        "#lootstruct": [
+            {
+                "#lootquantity": 3,
+                "#itemspawnlist": "wz_sat_br_spawn_list_grave",
+                "#airdroppackages": [],
+                "#lootdroptype": "from_pos",
+                "#hash_c98547865c07f50d": "interactsidequest_grave_loot_spawnpoint"
+            }
+        ],
+        "#hash_915574c32490f60": "from_interact",
+        "#hash_2365022442c4bed": 0,
+        "#lockeddoor": {
+            "#hash_d2472b8f65b52d3": false
+        },
+        "#name": "graveyard",
+        "#scoreeventref": "br_grave_looted",
+        "#keypad": {
+            "#keypadpassword": "#",
+            "#usekeypad": false,
+            "#hash_671f89c114619447": "8"
+        },
+        "#killtrigger": {
+            "#hash_367ff2bebb56c87f": false
+        },
+        "#repeatinteract": false,
+        "#hash_1a3e06bbdeb76db": 1,
+        "#interacttarget": "interactsidequest_grave_interact"
+    },
+    "#hash_39202cde73273103": {
+        "#hash_42e8f205ff738387": 0,
+        "#hash_69baedaa065b351f": "from_interact",
+        "#hash_6734ad8de1962b51": "sfx_keycard_reader_beep",
+        "#keyitem": {
+            "#hash_49a4cf2d60ed83ca": "from_interact",
+            "#consumableitem": "wz_consumable_quest_qwe_storyline_keycard",
+            "#usemoney": false,
+            "#keytargets": [
+                {
+                    "#location": "interactsidequest_qwe_storyline_keycard"
+                }
+            ],
+            "#hash_3bd3ce965dd8232c": "&#hash_1b72a19ac01753f2",
+            "#spawnitem": true,
+            "#hash_2f21232714e2eebc": "sfx_keycard_reader_error_beep",
+            "#useitem": true,
+            "#interactcost": 0
+        },
+        "#prompt": "&#mp_br_ingame/sidequest_qwe_storyline_interact",
+        "#hash_915574c32490f60": "from_interact",
+        "#hash_2365022442c4bed": 0,
+        "#lockeddoor": {
+            "#hash_d2472b8f65b52d3": false
+        },
+        "#hash_80fd27cf385932eb": "sierra_qwe_storyline_keypad_scriptable",
+        "#name": "qwe_storyline",
+        "#scoreeventref": "br_sierra_sidequest_qwe_storyline_interact",
+        "#keypad": {
+            "#keypadpassword": "#",
+            "#usekeypad": false,
+            "#hash_671f89c114619447": "8"
+        },
+        "#killtrigger": {
+            "#hash_367ff2bebb56c87f": true,
+            "#hash_d70bfd44c5336c03": "qwe_lab2_killtrigger"
+        },
+        "#repeatinteract": false,
+        "#hash_1a3e06bbdeb76db": 1,
+        "#interacttarget": "interactsidequest_qwe_storyline_interact"
+    },
+    "#hash_45a1ed4466f4554e": {
+        "#hash_42e8f205ff738387": 0,
+        "#challengeref": "sierra_sidequest_33",
+        "#hash_69baedaa065b351f": "from_interact",
+        "#keyitem": {
+            "#hash_49a4cf2d60ed83ca": "from_interact",
+            "#usemoney": false,
+            "#spawnitem": false,
+            "#useitem": false,
+            "#interactcost": 0
+        },
+        "#prompt": "&#mp_br_ingame/wine_bottle_interact_prompt",
+        "#lootstruct": [
+            {
+                "#lootquantity": 1,
+                "#itemspawnlist": "wz_resurgence_saw_sierra_wine_bottle_loot",
+                "#airdroppackages": [],
+                "#lootdroptype": "from_pos",
+                "#hash_8e487ce9f9d67ca8": 1.2,
+                "#hash_c98547865c07f50d": "interactsidequest_winebottle_loot",
+                "#hash_9ef58196fedeb5e": 0.4
+            }
+        ],
+        "#hash_915574c32490f60": "from_interact",
+        "#hash_2365022442c4bed": 0,
+        "#lockeddoor": {
+            "#hash_d2472b8f65b52d3": false
+        },
+        "#name": "wine_bottle",
+        "#scoreeventref": "br_sierra_sidequest_wine_bottle_completed",
+        "#keypad": {
+            "#keypadpassword": "#",
+            "#usekeypad": false,
+            "#hash_671f89c114619447": "8"
+        },
+        "#killtrigger": {
+            "#hash_367ff2bebb56c87f": false
+        },
+        "#repeatinteract": false,
+        "#hash_1a3e06bbdeb76db": 1,
+        "#interacttarget": "interactsidequest_winebottle_interact"
+    },
+    "#hash_5fa27bae8f8aae0b": {
+        "#hash_42e8f205ff738387": 0,
+        "#challengeref": "sierra_sidequest_11",
+        "#hash_69baedaa065b351f": "from_interact",
+        "#keyitem": {
+            "#hash_49a4cf2d60ed83ca": "from_interact",
+            "#usemoney": false,
+            "#spawnitem": false,
+            "#useitem": false,
+            "#interactcost": 0
+        },
+        "#prompt": "&#mp_br_ingame/map_hint_keypad",
+        "#hash_915574c32490f60": "from_interact",
+        "#hash_2365022442c4bed": 0,
+        "#lockeddoor": {
+            "#doortargetname": "interactsidequest_woodenshed_prison_door",
+            "#hash_d2472b8f65b52d3": true
+        },
+        "#name": "wooden_shed_prison",
+        "#scoreeventref": "br_sierra_sidequest_keypad_completed",
+        "#keypad": {
+            "#keypadpassword": "#hash_482203ab9a7aaa20",
+            "#usekeypad": true,
+            "#hash_671f89c114619447": "8"
+        },
+        "#killtrigger": {
+            "#hash_367ff2bebb56c87f": true,
+            "#hash_d70bfd44c5336c03": "kt_sidequest_11"
+        },
+        "#repeatinteract": false,
+        "#hash_1a3e06bbdeb76db": 1,
+        "#interacttarget": "interactsidequest_woodenshed_prison_interact"
+    },
+    "#hash_614cbf1c06c8108c": {
+        "#hash_42e8f205ff738387": 0,
+        "#challengeref": "sierra_sidequest_13",
+        "#hash_69baedaa065b351f": "from_interact",
+        "#keyitem": {
+            "#hash_49a4cf2d60ed83ca": "from_interact",
+            "#usemoney": false,
+            "#spawnitem": false,
+            "#useitem": false,
+            "#interactcost": 0
+        },
+        "#prompt": "&#mp_br_ingame/map_hint_keypad",
+        "#hash_915574c32490f60": "from_interact",
+        "#hash_2365022442c4bed": 0,
+        "#lockeddoor": {
+            "#doortargetname": "interactsidequest_woodenshed_farm_door",
+            "#hash_d2472b8f65b52d3": true
+        },
+        "#name": "wooden_shed_farm",
+        "#scoreeventref": "br_sierra_sidequest_keypad_completed",
+        "#keypad": {
+            "#keypadpassword": "#hash_90da3066dd579c25",
+            "#usekeypad": true,
+            "#hash_671f89c114619447": "8"
+        },
+        "#killtrigger": {
+            "#hash_367ff2bebb56c87f": true,
+            "#hash_d70bfd44c5336c03": "kt_sidequest_13"
+        },
+        "#repeatinteract": false,
+        "#hash_1a3e06bbdeb76db": 1,
+        "#interacttarget": "interactsidequest_woodenshed_farm_interact"
+    },
+    "#hash_7ba6faf2332d62f6": {
+        "#hash_42e8f205ff738387": 0,
+        "#challengeref": "sierra_sidequest_12",
+        "#hash_69baedaa065b351f": "from_interact",
+        "#keyitem": {
+            "#hash_49a4cf2d60ed83ca": "from_interact",
+            "#usemoney": false,
+            "#spawnitem": false,
+            "#useitem": false,
+            "#interactcost": 0
+        },
+        "#prompt": "&#mp_br_ingame/map_hint_keypad",
+        "#hash_915574c32490f60": "from_interact",
+        "#hash_2365022442c4bed": 0,
+        "#lockeddoor": {
+            "#doortargetname": "interactsidequest_woodenshed_tv_door",
+            "#hash_d2472b8f65b52d3": true
+        },
+        "#name": "wooden_shed_tv",
+        "#scoreeventref": "br_sierra_sidequest_keypad_completed",
+        "#keypad": {
+            "#keypadpassword": "#hash_78f4896c346ac749",
+            "#usekeypad": true,
+            "#hash_671f89c114619447": "8"
+        },
+        "#killtrigger": {
+            "#hash_367ff2bebb56c87f": true,
+            "#hash_d70bfd44c5336c03": "kt_sidequest_12"
+        },
+        "#repeatinteract": false,
+        "#hash_1a3e06bbdeb76db": 1,
+        "#interacttarget": "interactsidequest_woodenshed_tv_interact"
+    }
+}

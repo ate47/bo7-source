@@ -1,0 +1,330 @@
+{
+    "name": "#weapon_iw9_dm_crossbow_npc.all",
+    "unk8": "#hash_6145fbf0cf473b7e",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#hash_d0f38a9fd30cbcee",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/charlie725/weap_charlie725_deadtrigger_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#weap_crossbow_fire_npc",
+            "aliases": [
+                {
+                    "name": "#weap_crossbow_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_fire_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_crossbow_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_fire_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_crossbow_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_fire_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_crossbow_fire_npc_atmo",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/atmo/exterior/dm_crossbow/wpn_crossbow_atmo_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/exterior/dm_crossbow/wpn_crossbow_atmo_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/exterior/dm_crossbow/wpn_crossbow_atmo_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/interior/dm_crossbow/wpn_crossbow_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/interior/dm_crossbow/wpn_crossbow_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/interior/dm_crossbow/wpn_crossbow_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_crossbow_fire_npc_far",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_fire_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_fire_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_fire_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad10b59d9"
+                }
+            ]
+        },
+        {
+            "name": "#weap_crossbow_fire_npc_far_atmo",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/crossbow/weap_crossbow_fire_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/crossbow/weap_crossbow_fire_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/crossbow/weap_crossbow_fire_dist_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/interior/dm_crossbow/wpn_crossbow_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/interior/dm_crossbow/wpn_crossbow_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/interior/dm_crossbow/wpn_crossbow_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_crossbow_fire_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_crossbow_fire_npc_mech",
+            "aliases": [
+                {
+                    "name": "#weap_crossbow_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_crossbow_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_crossbow_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_crossbow_fire_npc_med",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_fire_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_fire_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/dm_crossbow/wpn_crossbow_fire_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                }
+            ]
+        },
+        {
+            "name": "#weap_crossbow_fire_npc_med_atmo",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/atmo/exterior/dm_crossbow/wpn_crossbow_atmo_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/exterior/dm_crossbow/wpn_crossbow_atmo_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/exterior/dm_crossbow/wpn_crossbow_atmo_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/interior/dm_crossbow/wpn_crossbow_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/interior/dm_crossbow/wpn_crossbow_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo/interior/dm_crossbow/wpn_crossbow_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_314483821a5e05bf",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_crossbow/p38_dm_crossbow_reload_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_314484821a5e0772",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_crossbow/p38_dm_crossbow_reload_boltback.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_314485821a5e0925",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_crossbow/p38_dm_crossbow_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_31447e821a5dfd40",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_crossbow/p38_dm_crossbow_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_31447f821a5dfef3",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_crossbow/p38_dm_crossbow_reload_arrowin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        }
+    ]
+}

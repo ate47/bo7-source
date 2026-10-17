@@ -1,0 +1,3999 @@
+{
+    "name": "#weapon_sat_dm_scotia_npc.all",
+    "unk8": "#weapon_sat_dm_scotia_npc",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_dm_scotia_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_drop_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_drop_quick_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0d79485dc5e1b6b",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0d79585dc5e1d1e",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0d79685dc5e1ed1",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_arm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0d79785dc5e2084",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0d79885dc5e2237",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0d79985dc5e23ea",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0d79a85dc5e259d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0d78b85dc5e0c20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_regrip3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0d78c85dc5e0dd3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_regrip4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1985dc613341",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_regrip5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1885dc61318e",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_regrip6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1785dc612fdb",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_maggrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1685dc612e28",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1d85dc613a0d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_slideopen1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1c85dc61385a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_chamberchecks.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1b85dc6136a7",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1a85dc6134f4",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1185dc6125a9",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0db1085dc6123f6",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0de1f85dc63734a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0de2085dc6374fd",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0de1d85dc636fe4",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_rotate3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0de1e85dc637197",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_slideopen2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0de1b85dc636c7e",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_togglerelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0de1c85dc636e31",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_arm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b0de1985dc636918",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515d96b887c1cb62",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515d95b887c1c9af",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515d94b887c1c7fc",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515d93b887c1c649",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515d92b887c1c496",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515d91b887c1c2e3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515d90b887c1c130",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_regrip3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515d9fb887c1daad",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_regrip4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515d9eb887c1d8fa",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a11b887beb38c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_maggrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a12b887beb53f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a13b887beb6f2",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_slideopen1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a14b887beb8a5",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_chamberchecks.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a0db887beacc0",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a0eb887beae73",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a0fb887beb026",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a10b887beb1d9",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a19b887bec124",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_515a1ab887bec2d7",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_rotate3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5164a3b887c80027",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_slideopen2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5164a2b887c7fe74",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_togglerelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_5164a5b887c8038d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7fc716d094b74eb5",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7fc713d094b7499c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext02_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7fc714d094b74b4f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext02_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7fc711d094b74636",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_ext02_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282af5e369fbca65",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282af2e369fbc54c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282af3e369fbc6ff",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282af0e369fbc1e6",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282af1e369fbc399",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282aeee369fbbe80",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282aefe369fbc033",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282afce369fbd64a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_regrip3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282afde369fbd7fd",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_regrip4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e7ae369fee23b",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_maggra2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e79e369fee088",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e7ce369fee5a1",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_chamberchecks.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e7be369fee3ee",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e7ee369fee907",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e7de369fee754",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e80e369feec6d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e7fe369feeaba",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e72e369fed4a3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_rotate3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282e71e369fed2f0",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_slideopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282468e369f66f20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_togglerelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_282469e369f670d3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb035ca2195e152",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb034ca2195df9f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb033ca2195ddec",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb032ca2195dc39",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb031ca2195da86",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb030ca2195d8d3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb02fca2195d720",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb03eca2195f09d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_regrip3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb03dca2195eeea",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_regrip4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacb0ca2192c97c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_regrip5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacb1ca2192cb2f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_regrip6.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacb2ca2192cce2",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_maggrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacb3ca2192ce95",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacacca2192c2b0",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_chamberchecks.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacadca2192c463",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_rotate2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacaeca2192c616",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacafca2192c7c9",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacb8ca2192d714",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdacb9ca2192d8c7",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_regrip7.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb6c2ca219b3c97",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_rotate3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb6c1ca219b3ae4",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_slideopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb6c4ca219b3ffd",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_togglerelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cdb6c3ca219b3e4a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_empty_inspect_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_arm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_regrip3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_regrip4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_regrip5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_maggrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_slideopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_arm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_21",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_drop_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_regrip3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_maggrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b8f1b82a6b3257f2",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b8f1b92a6b3259a5",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b8f1b62a6b32548c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_slideopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b8f1b72a6b32563f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b8f1bc2a6b325ebe",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext02_raise1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext02_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext02_raise2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext02_slideopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b5c2ab7442e51a9d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_slideopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b5c2aa7442e518ea",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b5c2a97442e51737",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_maggrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_regrip3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_regrip4.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_maggrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_rattle3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_inspect_fast02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c216a7bde48a9ad",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c21677bde48a494",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_regrip5.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c21687bde48a647",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c215d7bde489396",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_slideopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c215e7bde489549",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c1ddf7bde4587a5",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_inspect_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_raise_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_raise_quick_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_regrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_arm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_regrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_arm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_regrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_slideopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c18dcff1797469a2",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_regrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_slam.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_regrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc537ed343d1cd8",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc53aed343d21f1",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc539ed343d203e",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc53ced343d2557",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc53bed343d23a4",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc53eed343d28bd",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc53ded343d270a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_boltrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc530ed343d10f3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc52fed343d0f40",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4cc232ed343ade82",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast01_flip_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_arm1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_arm2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_empty_fast02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_boltrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_81a8fbba4e434f68",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_81a8feba4e435481",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_81a8fdba4e4352ce",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_empty_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext01_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_magslam.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast01_flip_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast01_flip_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast02_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast02_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast02_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_reload_fast02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_reload_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_selectsemi_off_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_selectsemi_off_switch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_selectsemi_off_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_selectsemi_off_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_selectsemi_on_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_selectsemi_on_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_selectsemi_on_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_selectsemi_on_switch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_drop_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_drop_quick_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_from_grenade_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_from_grenade_grab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_from_grenade_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_from_grenade_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_inspect_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_inspect_grab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_inspect_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_inspect_canisteropen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_inspect_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_inspect_canisterclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_inspect_rattle3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_raise_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_raise_quick_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_canisteropen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_shellhit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_shellslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_shellin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_canisterslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_canisterclosed.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_reload_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_dm_scotia_ubgl_to_grenade_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/reloads/fly_plr_dm_scotia_ubgl_to_grenade_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_dm_scotia_fire_npc",
+            "aliases": [
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_mech",
+                    "sndAsset": "#sat/wpn/dm/scotia/plr/fire/wpn_dm_scotia_fire_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_mech",
+                    "sndAsset": "#sat/wpn/dm/scotia/plr/fire/wpn_dm_scotia_fire_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_mech",
+                    "sndAsset": "#sat/wpn/dm/scotia/plr/fire/wpn_dm_scotia_fire_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_dm_scotia_fire_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_8bbf9b65f6cb99d1",
+                    "sndAsset": "#hash_ce9db49381542ed6",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#hash_8bbf9b65f6cb99d1",
+                    "sndAsset": "#hash_a89a547d4a807d6b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#hash_8bbf9b65f6cb99d1",
+                    "sndAsset": "#hash_9b219f06c9251f0c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8bbf9b65f6cb99d1",
+            "aliases": [
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_med_atmo",
+                    "sndAsset": "#hash_a0821985020abf72",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_med_atmo",
+                    "sndAsset": "#hash_f700b05c7bb45877",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_med_atmo",
+                    "sndAsset": "#hash_b28bb3d1451e9d98",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_dm_scotia_fire_npc_dist",
+            "aliases": [
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_dist_int",
+                    "sndAsset": "#hash_ff3a51834af583d5",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_dist_int",
+                    "sndAsset": "#hash_b89e230e1533a758",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_dist_int",
+                    "sndAsset": "#hash_c518ef6d11d21037",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_dist_int",
+                    "sndAsset": "#hash_a4a950d4e7365732",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_dist_int",
+                    "sndAsset": "#hash_e89c125d2187ceb1",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_dist_int",
+                    "sndAsset": "#hash_89f029947deafd24",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_dm_scotia_fire_npc_dist_int",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_9e8b1052c25e76f7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_c80c797b48b4ddf2",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_b11baa50fe6afe95",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_da1613c78bc8bc18",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_e71a44684b7484a3",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_d98b544ae17216ce",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_dm_scotia_fire_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/dm/scotia/lfe/wpn_dm_scotia_lfe_01.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_dm_scotia_fire_npc_mech",
+            "aliases": [
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_lfe",
+                    "sndAsset": "#sat/wpn/dm/scotia/plr/mech/wpn_dm_scotia_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_lfe",
+                    "sndAsset": "#sat/wpn/dm/scotia/plr/mech/wpn_dm_scotia_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_lfe",
+                    "sndAsset": "#sat/wpn/dm/scotia/plr/mech/wpn_dm_scotia_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_dm_scotia_fire_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_930f88d8db865bfe",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_bc3f8e7e0d9d2a13",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_d5acd79ab2181bd4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_dm_scotia_fire_npc_med_atmo_int",
+                    "sndAsset": "#hash_8e0508a983a56d61",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_dm_scotia_fire_npc_med_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_cc2f0d09a576ecec",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_cdde4bbd88b6ad19",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_e3fa5bf2feeb97b6",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        }
+    ]
+}

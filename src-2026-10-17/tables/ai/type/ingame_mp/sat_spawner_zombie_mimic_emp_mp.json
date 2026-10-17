@@ -1,0 +1,83 @@
+{
+    "name": "#sat_spawner_zombie_mimic_emp_mp",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d8f91164cd3e0a8",
+    "animationStateMachineAsset": "#zombie_mimic",
+    "behaviorTreeAsset": "#zombie_mimic",
+    "footStepsFxTable": "#hash_c75fcac3e46ae49c",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#aiimpactvfxtable_zombie_base",
+    "dismemberment": "#defaultdismemberment_zm",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_mimic_emp"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_382c3af252183353",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_mimic_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_mimic/zombie_mimic.gsc",
+        "#scripts/common/ai/aitypes/zombie_mimic/mp_zombie_mimic.gsc",
+        "#scripts/common/ai/aitypes/zombie_mimic/zombie_mimic_emp.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_mimic\\zombie_mimic.gsc"
+            },
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_mimic\\mp_zombie_mimic.gsc"
+            },
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_mimic\\zombie_mimic_emp.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_t10_zombie_mimic_emp"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_mimic_emp",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_mimic",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_mimic_emp",
+        "#health": 900,
+        "#healthbarsettings": "%#hash_50536a2160d04747",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_mimic_ranged_attack_mp",
+        "#hash_61e44fac124dbd73": true,
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_mimic",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_mimic",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name": "#sat_ob_enemy_specialist_rusher",
+    "species": "human",
+    "coverSelectorAsset": "#cover_default_cp",
+    "#hash_d1e3f54c868c90eb": "#hash_757b7bec2d18232e",
+    "enemySelectorAsset": "#enemyselector_ob_soldier",
+    "animationStateMachineAsset": "#rusher",
+    "behaviorTreeAsset": "#rusher_jup_ob",
+    "footStepsFxTable": "#hash_9b4a52537e1f3d45",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "scriptbundle": "#hash_a395129465c0d0f2",
+    "unitType": "soldier",
+    "team": "team_190",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_enemy_guild_rusher"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_2da8c3bf7fb879e1",
+            "weapontype": "primary",
+            "weapon": "sat_pi_timir_mp"
+        }
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_enemy_guild_rusher"
+            }
+        ],
+        "#unittype": "soldier",
+        "#subclass": "ob_rusher",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_soldier_base_ob_sat_rusher",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 350,
+        "#healthbarsettings": "%#hash_53072a99c9c0139a",
+        "#aitypesettingsbundle": "aisettings_sat_soldier_specialist",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_sat_default",
+        "#grenadeweapon": "sat_smoke_bomb_rusher_mp",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "rusher",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "rusher_jup_ob",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 2,
+        "#team": "TEAM_HUNDRED_NINETY"
+    }
+}

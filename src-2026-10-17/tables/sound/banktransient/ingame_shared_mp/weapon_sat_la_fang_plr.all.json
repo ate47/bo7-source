@@ -1,0 +1,1874 @@
+{
+    "name": "#weapon_sat_la_fang_plr.all",
+    "unk8": "#weapon_sat_la_fang_plr",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_la_fang_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_drop_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_mvmnt1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_mvmnt2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_mvmnt3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_opencover.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_covermvmnt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_shellout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_shellload.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_coverclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_shoulder.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_mvmnt1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_mvmnt2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_mvmnt3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_shoulder1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_coveropen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_covermvmnt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_shellout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_shellload.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_coverclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_inspect_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_raise_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_lower1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_coveropen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_shellout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_lower2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_shellload.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_mvmnt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_coverclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_la_fang_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d538d729e9420425",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_839e8cff1473ec4d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d538d429e941ff0c",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_c952a85bb0342e42",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d538d529e94200bf",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_de8bd18a8ee545eb",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d538d229e941fba6",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_803d00bb98528b7f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_drop_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_mvmnt1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_mvmnt2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_mvmnt3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_opencover.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_covermvmnt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_shellout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_shellload.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_coverclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_shoulder.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_mvmnt1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_mvmnt2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_mvmnt3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_shoulder1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_coveropen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_lower.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_covermvmnt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_shellout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_shellload.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_coverclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_inspect_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_raise_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_lower1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_coveropen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_shellout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_lower2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_shellload.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_mvmnt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_coverclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/reloads/fly_plr_la_fang_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_transition_reload_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_839e8cff1473ec4d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_transition_reload_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_c952a85bb0342e42",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_transition_reload_01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_de8bd18a8ee545eb",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_la_fang_transition_reload_01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_803d00bb98528b7f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6cc2495e9c9de177",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_mike203_fire_plr_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_fcg",
+            "aliases": [
+                {
+                    "name": "#weap_mike203_fire_plr_shot",
+                    "sndAsset": "#iw9/wpn/br_golf3/weap_golf3_fire_plr_first_fcg_01.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_shot",
+                    "sndAsset": "#iw9/wpn/br_golf3/weap_golf3_fire_plr_first_fcg_02.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_shot",
+                    "sndAsset": "#iw9/wpn/br_golf3/weap_golf3_fire_plr_first_fcg_03.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_shot",
+                    "sndAsset": "#iw9/wpn/br_golf3/weap_golf3_fire_plr_first_fcg_04.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_interrupt",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_golf25/weap_iw9_golf25_fire_plr_interrupt_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_golf25/weap_iw9_golf25_fire_plr_interrupt_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_golf25/weap_iw9_golf25_fire_plr_interrupt_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_golf25/weap_iw9_golf25_fire_plr_interrupt_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_f741f599434085c0",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_aac497a292e65909",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_mech",
+            "aliases": [
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_shot",
+            "aliases": [
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_01.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_02.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_03.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_04.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_05.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_06.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84305245f292e75",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_raise.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84302245f29295c",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_boltback.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84303245f292b0f",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84300245f2925f6",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84301245f2927a9",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f842fe245f292290",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4d179df9198c5bf4",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_branched_reload_02_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4d17a0f9198c610d",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_branched_reload_02_glclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4d179ff9198c5f5a",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_branched_reload_02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_829ce07630416895",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_99e9516fce3e5e41",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_drop_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_34383aabb950c3d5",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_from_grenade.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a446640afe32",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_inspect_lift.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a346640afc7f",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_inspect_open.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a246640afacc",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_inspect_rattle.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a146640af919",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_inspect_close.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a046640af766",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_inspect_rotate.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e49f46640af5b3",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_inspect_end.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cd6ea5b3da343dbe",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8ea518ad5386cc02",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_raise_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca348967682ddd",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca3189676828c4",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca328967682a77",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca2f896768255e",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_insert.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca308967682711",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca2d89676821f8",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcfa2644551aee2",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_fast_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcfa1644551ad2f",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_fast_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcfa0644551ab7c",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_fast_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcf9f644551a9c9",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_insert.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcf9e644551a816",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcf9d644551a663",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_fast_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcf9c644551a4b0",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_fast_shoulder.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2a4f12af91fbee56",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_to_grenade.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#wfoly_plr_ar_mike4_ubgl_transition_reload_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_transition_reload_01.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fe28d5ddba6fc58",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_transition_reload_fast_01.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_fang_fire_plr_atmo",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_e74a81e59cf5783a",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "sndAsset": "#hash_dd179ca335a0259d",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "sndAsset": "#hash_96fe597d0c1dee20",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "sndAsset": "#hash_ff63112f854469ab",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "sndAsset": "#hash_b7e9400bc0edf893",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "sndAsset": "#hash_d15689286568ea54",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "sndAsset": "#hash_89aeba3736f63be1",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_fang_fire_plr_fcg",
+            "aliases": [
+                {
+                    "name": "#wpn_la_fang_fire_plr_shot",
+                    "sndAsset": "#hash_f201ca9471821dd4",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#wpn_la_fang_fire_plr_shot",
+                    "sndAsset": "#hash_d8948177cd072c13",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#wpn_la_fang_fire_plr_shot",
+                    "sndAsset": "#hash_af647bd29af05dfe",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#wpn_la_fang_fire_plr_shot",
+                    "sndAsset": "#hash_a84f1907b03df005",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_fang_fire_plr_interrupt",
+            "aliases": [
+                {
+                    "sndAsset": "#defaultsndasset",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_fang_fire_plr_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/la/fang/lfe/wpn_la_fang_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_f73ef999433e56b5",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_fang_fire_plr_mech",
+            "aliases": [
+                {
+                    "name": "#wpn_la_fang_fire_plr_lfe",
+                    "sndAsset": "#sat/wpn/la/fang/plr/mech/wpn_la_fang_mech_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a01440f567e810b4",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#wpn_la_fang_fire_plr_lfe",
+                    "sndAsset": "#sat/wpn/la/fang/plr/mech/wpn_la_fang_mech_plr_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a01440f567e810b4",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#wpn_la_fang_fire_plr_lfe",
+                    "sndAsset": "#sat/wpn/la/fang/plr/mech/wpn_la_fang_mech_plr_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a01440f567e810b4",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#wpn_la_fang_fire_plr_lfe",
+                    "sndAsset": "#sat/wpn/la/fang/plr/mech/wpn_la_fang_mech_plr_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a01440f567e810b4",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4fb88c6c69c3f16c",
+            "aliases": [
+                {
+                    "name": "#wpn_la_fang_fire_plr_mech",
+                    "sndAsset": "#hash_f04eedc606b20ec0",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#wpn_la_fang_fire_plr_mech",
+                    "sndAsset": "#hash_ddbf7d855847e27f",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#wpn_la_fang_fire_plr_mech",
+                    "sndAsset": "#hash_d9cc3142bf5c33da",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#wpn_la_fang_fire_plr_mech",
+                    "sndAsset": "#hash_cba3b01a77833299",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_la_fang_fire_plr_shot",
+            "aliases": [
+                {
+                    "name": "#hash_4fb88c6c69c3f16c",
+                    "sndAsset": "#sat/wpn/la/fang/plr/shot/wpn_la_fang_shot_plr_01.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e9ada312dbc6ee56",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_4fb88c6c69c3f16c",
+                    "sndAsset": "#sat/wpn/la/fang/plr/shot/wpn_la_fang_shot_plr_02.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e9ada312dbc6ee56",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_4fb88c6c69c3f16c",
+                    "sndAsset": "#sat/wpn/la/fang/plr/shot/wpn_la_fang_shot_plr_03.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e9ada312dbc6ee56",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_4fb88c6c69c3f16c",
+                    "sndAsset": "#sat/wpn/la/fang/plr/shot/wpn_la_fang_shot_plr_04.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e9ada312dbc6ee56",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        }
+    ]
+}

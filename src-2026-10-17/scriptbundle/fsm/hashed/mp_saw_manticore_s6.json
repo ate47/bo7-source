@@ -1,0 +1,428 @@
+{
+    "#hash_5dce9c0a6770e794": {
+        "#graph": {
+            "#connection_list": [
+                {
+                    "#hash_1f7d4774da606629": "w#J/!",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AITransition",
+                                "#m_conditions": [
+                                    {
+                                        "#variant_object": {
+                                            "#hash_55fcc2bfb2972bb8": "yes",
+                                            "#typename": "NCondition_StateFinished"
+                                        },
+                                        "#variant_type": "Types_NCondition_StateFinished"
+                                    }
+                                ]
+                            },
+                            "#variant_type": "Types_AITransition"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "bb&Q0",
+                    "#name": ""
+                },
+                {
+                    "#hash_1f7d4774da606629": "4am=^",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AITransition",
+                                "#m_conditions": [
+                                    {
+                                        "#variant_object": {
+                                            "#hash_55fcc2bfb2972bb8": "yes",
+                                            "#typename": "AICondition_Exiting"
+                                        },
+                                        "#variant_type": "Types_AICondition_Exiting"
+                                    }
+                                ]
+                            },
+                            "#variant_type": "Types_AITransition"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "VcVbY",
+                    "#hash_494d280d4addea9d": "=iL^Y",
+                    "#name": ""
+                },
+                {
+                    "#hash_1f7d4774da606629": "[x:/C",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AITransition",
+                                "#m_conditions": [
+                                    {
+                                        "#variant_object": {
+                                            "#hash_55fcc2bfb2972bb8": "no",
+                                            "#typename": "AICondition_Exiting"
+                                        },
+                                        "#variant_type": "Types_AICondition_Exiting"
+                                    }
+                                ]
+                            },
+                            "#variant_type": "Types_AITransition"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "VcVbY",
+                    "#name": ""
+                },
+                {
+                    "#hash_1f7d4774da606629": "tHDdZ",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AITransition",
+                                "#m_conditions": [
+                                    {
+                                        "#variant_object": {
+                                            "#hash_55fcc2bfb2972bb8": "yes",
+                                            "#typename": "AICondition_Arriving"
+                                        },
+                                        "#variant_type": "Types_AICondition_Arriving"
+                                    }
+                                ]
+                            },
+                            "#variant_type": "Types_AITransition"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "Gv0me",
+                    "#hash_494d280d4addea9d": "=iL^Y",
+                    "#name": ""
+                },
+                {
+                    "#hash_1f7d4774da606629": "xWGD<",
+                    "#transition_list": [
+                        {
+                            "#variant_object": {
+                                "#typename": "AITransition",
+                                "#m_conditions": [
+                                    {
+                                        "#variant_object": {
+                                            "#hash_55fcc2bfb2972bb8": "no",
+                                            "#typename": "AICondition_Arriving"
+                                        },
+                                        "#variant_type": "Types_AICondition_Arriving"
+                                    }
+                                ]
+                            },
+                            "#variant_type": "Types_AITransition"
+                        }
+                    ],
+                    "#hash_ec7898bcc45d1f69": "=iL^Y",
+                    "#hash_494d280d4addea9d": "Gv0me",
+                    "#name": ""
+                }
+            ],
+            "#name": "",
+            "#fsm_list": [
+                {
+                    "#variant_object": {
+                        "#typename": "AIActionFSM"
+                    },
+                    "#variant_type": "Types_AIActionFSM"
+                }
+            ],
+            "#node_list": [
+                {
+                    "#variant_object": {
+                        "#yoffset": -310.3646,
+                        "#statedata": [
+                            {
+                                "#variant_object": {
+                                    "#hash_11b57ab171ff3564": [],
+                                    "#m_flags": "",
+                                    "#typename": "AIMoveState_Strafe_Default",
+                                    "#m_conditions": [],
+                                    "#hash_327be15feca4f262": ""
+                                },
+                                "#variant_type": "Types_AIMoveState_Strafe_Default"
+                            }
+                        ],
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "move_default",
+                        "#property_list": [
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": ")+Prd"
+                                },
+                                "#variant_type": "Types_Property"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": "4am=^"
+                                },
+                                "#variant_type": "Types_Property"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": "tHDdZ"
+                                },
+                                "#variant_type": "Types_Property"
+                            }
+                        ],
+                        "#xoffset": -460.79315,
+                        "#createid": "=iL^Y"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -524.51013,
+                        "#statedata": [
+                            {
+                                "#variant_object": {
+                                    "#hash_11b57ab171ff3564": [],
+                                    "#m_flags": "",
+                                    "#typename": "AIMoveState_Animscripted",
+                                    "#m_conditions": [],
+                                    "#hash_327be15feca4f262": ""
+                                },
+                                "#variant_type": "Types_AIMoveState_Animscripted"
+                            }
+                        ],
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "animscripted",
+                        "#property_list": [
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": "E>go]"
+                                },
+                                "#variant_type": "Types_Property"
+                            }
+                        ],
+                        "#xoffset": -134.27374,
+                        "#createid": "8.pW-"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": 30.887938,
+                        "#statedata": [
+                            {
+                                "#variant_object": {
+                                    "#hash_11b57ab171ff3564": [],
+                                    "#m_flags": "",
+                                    "#typename": "AIMoveState_Traversal_Approach",
+                                    "#m_conditions": [],
+                                    "#hash_327be15feca4f262": ""
+                                },
+                                "#variant_type": "Types_AIMoveState_Traversal_Approach"
+                            }
+                        ],
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "traversal_approach",
+                        "#property_list": [
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": "QDZWA"
+                                },
+                                "#variant_type": "Types_Property"
+                            }
+                        ],
+                        "#xoffset": -481.3569,
+                        "#createid": "yD<-+"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": 454.17523,
+                        "#statedata": [
+                            {
+                                "#variant_object": {
+                                    "#hash_11b57ab171ff3564": [],
+                                    "#m_flags": "",
+                                    "#typename": "AIMoveState_Strafe_Default",
+                                    "#m_conditions": [],
+                                    "#hash_327be15feca4f262": ""
+                                },
+                                "#variant_type": "Types_AIMoveState_Strafe_Default"
+                            }
+                        ],
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "strafe_fallback",
+                        "#property_list": [
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": "C11s%"
+                                },
+                                "#variant_type": "Types_Property"
+                            }
+                        ],
+                        "#xoffset": -299.4729,
+                        "#createid": "hBPLi"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -120.67898,
+                        "#statedata": [
+                            {
+                                "#variant_object": {
+                                    "#hash_11b57ab171ff3564": [],
+                                    "#m_flags": "",
+                                    "#typename": "AIMoveState_Traversal",
+                                    "#m_conditions": [],
+                                    "#hash_327be15feca4f262": ""
+                                },
+                                "#variant_type": "Types_AIMoveState_Traversal"
+                            }
+                        ],
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "traversal",
+                        "#property_list": [
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": "w#J/!"
+                                },
+                                "#variant_type": "Types_Property"
+                            }
+                        ],
+                        "#xoffset": -514.05237,
+                        "#createid": "bb&Q0"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": 176.46457,
+                        "#statedata": [
+                            {
+                                "#variant_object": {
+                                    "#hash_11b57ab171ff3564": [],
+                                    "#hash_c8ad790b03bd0a63": false,
+                                    "#m_flags": "",
+                                    "#typename": "AIMoveState_MaintainFaceMotionPrediction",
+                                    "#m_conditions": [],
+                                    "#hash_327be15feca4f262": ""
+                                },
+                                "#variant_type": "Types_AIMoveState_MaintainFaceMotionPrediction"
+                            }
+                        ],
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "bypass",
+                        "#property_list": [
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": "0NssQ"
+                                },
+                                "#variant_type": "Types_Property"
+                            }
+                        ],
+                        "#xoffset": -456.09305,
+                        "#createid": "NAXwx"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -101.80648,
+                        "#statedata": [
+                            {
+                                "#variant_object": {
+                                    "#hash_11b57ab171ff3564": [],
+                                    "#hash_c8ad790b03bd0a63": false,
+                                    "#m_flags": "",
+                                    "#typename": "AIMoveState_MaintainFaceMotionPrediction",
+                                    "#m_conditions": [],
+                                    "#hash_327be15feca4f262": ""
+                                },
+                                "#variant_type": "Types_AIMoveState_MaintainFaceMotionPrediction"
+                            }
+                        ],
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "arriving",
+                        "#property_list": [
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": "xWGD<"
+                                },
+                                "#variant_type": "Types_Property"
+                            }
+                        ],
+                        "#xoffset": -366.50336,
+                        "#createid": "Gv0me"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -177.82199,
+                        "#statedata": [
+                            {
+                                "#variant_object": {
+                                    "#hash_11b57ab171ff3564": [],
+                                    "#hash_c8ad790b03bd0a63": false,
+                                    "#m_flags": "",
+                                    "#typename": "AIMoveState_MaintainFaceMotionPrediction",
+                                    "#m_conditions": [],
+                                    "#hash_327be15feca4f262": ""
+                                },
+                                "#variant_type": "Types_AIMoveState_MaintainFaceMotionPrediction"
+                            }
+                        ],
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "exiting",
+                        "#property_list": [
+                            {
+                                "#variant_object": {
+                                    "#name": "",
+                                    "#createid": "[x:/C"
+                                },
+                                "#variant_type": "Types_Property"
+                            }
+                        ],
+                        "#xoffset": -377.3627,
+                        "#createid": "VcVbY"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                },
+                {
+                    "#variant_object": {
+                        "#yoffset": -118.49281,
+                        "#statedata": [
+                            {
+                                "#variant_object": {
+                                    "#hash_11b57ab171ff3564": [],
+                                    "#m_flags": "",
+                                    "#typename": "NState_Passthrough",
+                                    "#m_conditions": [],
+                                    "#hash_327be15feca4f262": ""
+                                },
+                                "#variant_type": "Types_NState_Passthrough"
+                            }
+                        ],
+                        "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                        "#name": "strafe_done_pass",
+                        "#property_list": [],
+                        "#xoffset": 1.1504157,
+                        "#createid": "UxZi{"
+                    },
+                    "#variant_type": "Types_PropertyNode"
+                }
+            ]
+        },
+        "#overlays": [
+            {
+                "#hash_1260d3eb22c37961": "%#hash_2abfda0a0506cfd5",
+                "#categoryname": "cornercheck"
+            }
+        ]
+    }
+}

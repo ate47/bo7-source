@@ -1,0 +1,92 @@
+{
+    "#lootcardprompts": [
+        {
+            "#promptasset": "%#hash_450608566e4a6b5e",
+            "#promptcategory": "primary",
+            "#conditionkey": "#equip_super"
+        },
+        {
+            "#promptasset": "%#hash_698ef2812c5d3e1",
+            "#promptcategory": "primary",
+            "#conditionkey": "#swap_super"
+        },
+        {
+            "#promptasset": "%#hash_5128b62df468d97e",
+            "#promptcategory": "secondary",
+            "#conditionkey": "#ping"
+        }
+    ],
+    "#resources": [
+        {
+            "#value": 80,
+            "#printtype": "%#hash_6e170dce54c10304"
+        }
+    ],
+    "#camoref": "",
+    "#pingvo": "%#ping_fieldupgrade_redeploydronebeacon",
+    "#hash_6a53527f8469a346": true,
+    "#lootitemtype": "%#hash_4e37a32ae2542f2d",
+    "#hash_2db3c77ed10a87aa": true,
+    "#maxcount": 1,
+    "#hash_c048a47fe4e742cd": "%#ping_loot_confirm_generic",
+    "#hash_14f5e5b99be6fc2f": true,
+    "#titlestring": "&#super_mp/redeploy_drone_beacon",
+    "#size": "medium",
+    "#hash_b7386e49348ae6a3": 0,
+    "#hash_b30083978786aac7": true,
+    "#autopickupenabled": true,
+    "#hash_f96b9b6aff0b335f": 0,
+    "#rarity": 3,
+    "#hash_aac2785c34c750bd": true,
+    "#ref": "super_redeploy_drone_beacon",
+    "#inventoryslot": "Generic",
+    "#dropsfx": "#fly_drop_generic",
+    "#armorupgrade": {
+        "#hash_160bb77f70ce8c44": true,
+        "#hash_60e53495c3091af9": true,
+        "#hash_2110816f22f3360c": false,
+        "#damagetakenscale": 1
+    },
+    "#gamemoderestrictions": {
+        "#br": true
+    },
+    "#subtype": "",
+    "#backpacksize": 1,
+    "#lootcardalerts": [
+        {
+            "#datasource": "alert_boba_is_transformed",
+            "#lootcardalert": "%#hash_4512d79717dcb9ce"
+        },
+        {
+            "#datasource": "alert_is_zombie",
+            "#lootcardalert": "%#hash_3dc1dbc8f25ec5bb"
+        },
+        {
+            "#datasource": "alert_not_daisy"
+        },
+        {
+            "#datasource": "alert_already_has_field_upgrade",
+            "#lootcardalert": "%#hash_3fc35900ccf4d840"
+        }
+    ],
+    "#hash_b22f7855894dc6a0": "common_unrestricted",
+    "#inventorytype": "Stored",
+    "#hash_8725c0955f9aadd": {
+        "#rewardtype": "ItemSpawnList"
+    },
+    "#tags": [
+        {
+            "#tag": "#noranked"
+        }
+    ],
+    "#icon": "jup_hud_icon_fieldupgrade_redeploy_drone_beacon",
+    "#spawncount": 1,
+    "#sellable": true,
+    "#hash_2d4a8aa1a1c36b31": 0,
+    "#ispingable": true,
+    "#scriptable": "%#brloot_super_redeploy_drone_beacon",
+    "#nonstackable": true,
+    "#pingasset": "%#loot",
+    "#denialsfx": "#fly_pickup_deny",
+    "#typestring": "&#loot_mp/item_type_super"
+}

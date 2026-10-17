@@ -1,0 +1,126 @@
+{
+    "#hash_90ed8916f56ef56d": "zombie_callisto",
+    "#hash_dc4ad1cfb00a5dac": "scripts/common/ai/aitypes/zombie_callisto/zombie_callisto_metabones.gsc",
+    "#metabones": [
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [],
+            "#name": "hive_head",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.035,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        }
+                    ],
+                    "#name": "attached"
+                },
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#additionaldamagemod": 0
+                            },
+                            "#variant_type": "Types_Weakspot"
+                        }
+                    ],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": [
+                {
+                    "#penetrationdist": 35,
+                    "#tagname": "tag_head_weakpoint",
+                    "#radius": 16
+                }
+            ]
+        },
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [],
+            "#name": "hive_shoulder",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.035,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        }
+                    ],
+                    "#name": "attached"
+                },
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#additionaldamagemod": 0
+                            },
+                            "#variant_type": "Types_Weakspot"
+                        }
+                    ],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": [
+                {
+                    "#penetrationdist": 35,
+                    "#tagname": "tag_shoulder_weakpoint",
+                    "#radius": 12
+                }
+            ]
+        },
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [],
+            "#name": "hive_stomach",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 0.035,
+                                "#absolutehealth": false
+                            },
+                            "#variant_type": "Types_Damageable"
+                        }
+                    ],
+                    "#name": "attached"
+                },
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#additionaldamagemod": 0
+                            },
+                            "#variant_type": "Types_Weakspot"
+                        }
+                    ],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": [
+                {
+                    "#penetrationdist": 35,
+                    "#tagname": "tag_spine_weakpoint",
+                    "#radius": 12
+                }
+            ]
+        }
+    ]
+}

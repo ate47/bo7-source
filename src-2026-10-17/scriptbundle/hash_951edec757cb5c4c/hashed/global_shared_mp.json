@@ -1,0 +1,54 @@
+{
+    "#hash_21c7bb051cf907f8": {
+        "#sourcespecs": [
+            {
+                "#hash_60daad6c127cd630": "default",
+                "#angleranges": {
+                    "#focus_relative": {
+                        "#pitch_max": 45,
+                        "#pitch_min": -45
+                    },
+                    "#entity_relative": {
+                        "#pitch_max": 2,
+                        "#pitch_min": -2
+                    }
+                }
+            }
+        ],
+        "#name": "default"
+    },
+    "#hash_3d24a2215167e9d9": {
+        "#sourcespecs": [
+            {
+                "#hash_60daad6c127cd630": "default",
+                "#angleranges": {
+                    "#focus_relative": {
+                        "#pitch_max": 45,
+                        "#pitch_min": -45
+                    },
+                    "#entity_relative": {
+                        "#pitch_max": 2,
+                        "#pitch_min": -2
+                    }
+                },
+                "#sources": "poi_npc",
+                "#maxdistance": 200
+            },
+            {
+                "#hash_60daad6c127cd630": "default",
+                "#angleranges": {
+                    "#focus_relative": {
+                        "#pitch_max": 45,
+                        "#pitch_min": -45
+                    },
+                    "#entity_relative": {
+                        "#pitch_max": 2,
+                        "#pitch_min": -2
+                    }
+                },
+                "#sources": "poi_ai_coordinator,poi_script,poi_nodes,poi_random_directions"
+            }
+        ],
+        "#name": "civ_default"
+    }
+}

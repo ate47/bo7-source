@@ -1,0 +1,46 @@
+NAME script_4449008f177af837
+VERSION 0
+CHECKSUM 0x1a7e4c5e
+######################################################
+####################  DEV BLOCKS  ####################
+######################################################
+# synced_melee_asm::evaluatesyncedmelee@c8
+DEVBLOCK 0x995
+# synced_melee_asm::evaluatesyncedmelee@d9
+DEVBLOCK 0x9a6
+# synced_melee_asm::melee_calcsyncdirection@23
+DEVBLOCK 0xd45
+# synced_melee_asm::melee_calcsyncdirection@3f
+DEVBLOCK 0xd61
+# synced_melee_asm::melee_waitfordroppedweapon@35
+DEVBLOCK 0xe28
+# synced_melee_asm::chooseanim_syncmelee@1d
+DEVBLOCK 0xfaa
+# synced_melee_asm::melee_decide_winner@b
+DEVBLOCK 0xffc
+# synced_melee_asm::melee_decide_winner@1c
+DEVBLOCK 0x100d
+# synced_melee_asm::melee_decide_winner@39
+DEVBLOCK 0x102a
+# synced_melee_asm::melee_decide_winner@58
+DEVBLOCK 0x1049
+# synced_melee_asm::melee_decide_winner@97
+DEVBLOCK 0x1088
+# synced_melee_asm::melee_decide_winner@d0
+DEVBLOCK 0x10c1
+# synced_melee_asm::playmeleeanim_synced@7a
+DEVBLOCK 0x1206
+# synced_melee_asm::playmeleeanim_synced@8b
+DEVBLOCK 0x1217
+# synced_melee_asm::playmeleeanim_synced@35f
+DEVBLOCK 0x14eb
+# synced_melee_asm::playmeleeanim_synced@3ce
+DEVBLOCK 0x155a
+# synced_melee_asm::playmeleeanim_synced_survive@2f
+DEVBLOCK 0x15db
+# synced_melee_asm::playmeleeanim_synced_victim@5a
+DEVBLOCK 0x1795
+# synced_melee_asm::melee_droppedweaponrestore@1
+DEVBLOCK 0x2061
+# synced_melee_asm::melee_droppedweaponrestore@b
+DEVBLOCK 0x206b

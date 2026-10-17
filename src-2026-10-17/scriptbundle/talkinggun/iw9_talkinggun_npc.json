@@ -1,0 +1,408 @@
+{
+    "#dialogevents": [
+        {
+            "#alias": "#dx_mp_gnsc_spwn_npc1_ntro",
+            "#eventname": "#deploy",
+            "#icon": "ui_gunscreen_npc_emoji_deploy"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_amm0_npc1_reld",
+            "#eventname": "#reload_start",
+            "#icon": "ui_gunscreen_npc_emoji_reload_start"
+        },
+        {
+            "#alias": "#hash_467414c0a49cea15",
+            "#eventname": "#knocked_down_enemy",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_plyr_npc1_down",
+            "#delay": 1,
+            "#eventname": "#player_knocked_down",
+            "#icon": "ui_gunscreen_npc_emoji_player_knocked_down"
+        },
+        {
+            "#globalcooldown": 2,
+            "#alias": "#dx_mp_gnsc_kll1_npc1_solo",
+            "#delay": 1,
+            "#eventname": "#killed_enemy",
+            "#icon": "ui_gunscreen_npc_emoji_killed_enemy"
+        },
+        {
+            "#globalcooldown": 2,
+            "#alias": "#dx_mp_gnsc_kll1_npc1_dble",
+            "#delay": 1,
+            "#eventname": "#killed_enemy_double",
+            "#icon": "ui_gunscreen_npc_emoji_killed_enemy_x2"
+        },
+        {
+            "#globalcooldown": 2,
+            "#alias": "#dx_mp_gnsc_kll1_npc1_trpl",
+            "#delay": 1,
+            "#eventname": "#killed_enemy_triple",
+            "#icon": "ui_gunscreen_npc_emoji_killed_enemy_x3"
+        },
+        {
+            "#alias": "#hash_5909c92ce4c5b0d6",
+            "#delay": 1,
+            "#eventname": "#killed_enemy_multi",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_7b990e7e5a078e42",
+            "#delay": 1,
+            "#eventname": "#killed_enemy_5x",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_97e2af145598fc38",
+            "#delay": 1,
+            "#eventname": "#killed_enemy_10x",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_1a38507e22484168",
+            "#delay": 1,
+            "#eventname": "#killed_enemy_15x",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_fcfa9613fe24f99d",
+            "#delay": 1,
+            "#eventname": "#killed_enemy_20x",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_klls_npc1_nuke",
+            "#eventname": "#nuke_earned",
+            "#icon": "ui_gunscreen_npc_emoji_nuke_earned"
+        },
+        {
+            "#alias": "#hash_bc43cd2be3c1bafd",
+            "#eventname": "#enter_exfil_heli",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_plyr_npc1_rvv1",
+            "#eventname": "#player_death_revived_teammate",
+            "#icon": "ui_gunscreen_npc_emoji_player_revived_teammate"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_plyr_npc1_rvvd",
+            "#eventname": "#teammate_death_revived_me",
+            "#icon": "ui_gunscreen_npc_emoji_teammate_revived_me"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_plyr_npc1_rvv1",
+            "#eventname": "#player_laststand_revived_teammate",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_plyr_npc1_rvvd",
+            "#eventname": "#teammate_laststand_revived_me",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_kll1_npc1_hdsh",
+            "#delay": 1,
+            "#eventname": "#headshot_kill",
+            "#icon": "ui_gunscreen_npc_emoji_headshot_kill"
+        },
+        {
+            "#alias": "#hash_961442cb72bd35d",
+            "#delay": 1,
+            "#eventname": "#melee_kill",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_c1042b4fb04931d2",
+            "#delay": 1,
+            "#eventname": "#player_damaged_explosive",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_4688f6790854abbc",
+            "#delay": 1,
+            "#eventname": "#player_damaged_sniper",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_dmge_npc1_bllt",
+            "#delay": 1,
+            "#eventname": "#player_damaged",
+            "#icon": "ui_gunscreen_npc_emoji_player_damaged"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_hlth_npc1_low1",
+            "#delay": 1,
+            "#eventname": "#health_low",
+            "#icon": "ui_gunscreen_npc_emoji_health_low"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_agnt_npc1_k1ll",
+            "#delay": 1,
+            "#eventname": "#player_killed_agent",
+            "#icon": "ui_gunscreen_npc_emoji_player_killed_ai"
+        },
+        {
+            "#alias": "#hash_4d7b457009cae599",
+            "#eventname": "#player_zero_ammo",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_amm0_npc1_low1",
+            "#eventname": "#ammo_reserve_low",
+            "#icon": "ui_gunscreen_npc_emoji_ammo_low"
+        },
+        {
+            "#alias": "#hash_467414c0a49cea15",
+            "#delay": 1,
+            "#eventname": "#enemy_damaged",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_2bedabaeebeb0747",
+            "#delay": 1,
+            "#eventname": "#enemy_damaged_sniper",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_78b7e8a8ceceddfb",
+            "#delay": 1,
+            "#eventname": "#enemy_armor_depleted",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_7520027b7bdfdc75",
+            "#eventname": "#sprint",
+            "#icon": "",
+            "#cooldown": 60
+        },
+        {
+            "#alias": "#dx_mp_gnsc_vhcl_npc1_ram1",
+            "#delay": 1,
+            "#eventname": "#enemy_rammed",
+            "#icon": "ui_gunscreen_npc_emoji_enemy_rammed"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_amm0_npc1_rmb0",
+            "#eventname": "#war_cry",
+            "#icon": "ui_gunscreen_npc_emoji_war_cry"
+        },
+        {
+            "#alias": "#hash_46a999ab71c90570",
+            "#eventname": "#dropped",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_gun1_npc1_nusr",
+            "#eventname": "#no_user_bark",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_2f36f7169a2416ad",
+            "#delay": 1,
+            "#eventname": "#reunited_deploy",
+            "#icon": "",
+            "#cooldown": 80
+        },
+        {
+            "#alias": "#hash_1396830b28c8967e",
+            "#delay": 1,
+            "#eventname": "#stranger_deploy",
+            "#icon": "",
+            "#cooldown": 80
+        },
+        {
+            "#alias": "#hash_5b717a48769d0cd0",
+            "#eventname": "#vehicle_enter",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_e1a91c725f27ea19",
+            "#eventname": "#vehicle_exit",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_l00t_npc1_fnd1",
+            "#delay": 1,
+            "#eventname": "#loot_found",
+            "#icon": "ui_gunscreen_npc_emoji_loot_found",
+            "#cooldown": 60
+        },
+        {
+            "#alias": "#dx_mp_gnsc_gun1_npc1_nspc",
+            "#eventname": "#weapon_inspect",
+            "#icon": "ui_gunscreen_npc_emoji_weapon_inspect"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_mtch_npc1_won1",
+            "#delay": 4,
+            "#eventname": "#round_won",
+            "#icon": "ui_gunscreen_npc_emoji_round_won"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_mtch_npc1_lost",
+            "#delay": 4,
+            "#eventname": "#round_lost",
+            "#icon": "ui_gunscreen_npc_emoji_round_lost"
+        },
+        {
+            "#alias": "#hash_461f25a787ecd93a",
+            "#delay": 8,
+            "#eventname": "#contract_start",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_cntr_npc1_end1",
+            "#delay": 4,
+            "#eventname": "#contract_complete",
+            "#icon": "ui_gunscreen_npc_emoji_contract_failed"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_prk1_npc1_hilr",
+            "#eventname": "#highalert_spotted",
+            "#icon": "ui_gunscreen_npc_emoji_high_alert_spotted"
+        },
+        {
+            "#alias": "#hash_37ea40613f17222a",
+            "#delay": 1,
+            "#eventname": "#throwing_knife_kill",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_hlth_npc1_clsl",
+            "#delay": 1,
+            "#eventname": "#close_call",
+            "#icon": "ui_gunscreen_npc_emoji_close_call"
+        },
+        {
+            "#alias": "#hash_727503c00dfb2c93",
+            "#delay": 0.5,
+            "#eventname": "#player_blinded",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_463afcc0a46cfc06",
+            "#delay": 0.5,
+            "#eventname": "#enemy_blinded",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_f9f60caf3fcfe073",
+            "#delay": 0.5,
+            "#eventname": "#equipment_deployed",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_d5c876c414ff3211",
+            "#eventname": "#grenade_tactical_used",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_lthl_npc1_used",
+            "#eventname": "#grenade_lethal_used",
+            "#icon": "ui_gunscreen_npc_emoji_nuke_earned"
+        },
+        {
+            "#alias": "#hash_58f3471f02a2f1f9",
+            "#delay": 3,
+            "#eventname": "#activate_uav",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_426dd1664663076c",
+            "#delay": 3,
+            "#eventname": "#activate_counter_uav",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_klls_npc1_rrde",
+            "#delay": 3,
+            "#eventname": "#activate_rided",
+            "#icon": "ui_gunscreen_npc_emoji_activate_rided"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_klls_npc1_rgdd",
+            "#delay": 3,
+            "#eventname": "#activate_guided",
+            "#icon": "ui_gunscreen_npc_emoji_activate_guided"
+        },
+        {
+            "#alias": "#hash_10a6b190587b11b3",
+            "#delay": 3,
+            "#eventname": "#activate_drone",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_d793b7cdd5665435",
+            "#delay": 0.5,
+            "#eventname": "#self_apply",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_kll1_npc1_klls",
+            "#delay": 0.5,
+            "#eventname": "#kill_steal",
+            "#icon": "ui_gunscreen_npc_emoji_kill_steal"
+        },
+        {
+            "#alias": "#dx_mp_gnsc_klls_npc1_jugg",
+            "#delay": 1,
+            "#eventname": "#become_juggernaut",
+            "#icon": "ui_gunscreen_npc_emoji_become_jugg"
+        },
+        {
+            "#alias": "#hash_6f37fb749eacf249",
+            "#eventname": "#use_armor",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_4f89603bf8c919a9",
+            "#eventname": "#idle",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_actn_npc1_aimg",
+            "#eventname": "#aiming_idle",
+            "#icon": "ui_gunscreen_npc_emoji_ads_idle"
+        },
+        {
+            "#alias": "#hash_3a7d3401f6d3b484",
+            "#eventname": "#dmz_boss_kill",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_1697e126fd8567e2",
+            "#delay": 1,
+            "#eventname": "#stealth_kill",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_3f008f8abdc17999",
+            "#delay": 0.5,
+            "#eventname": "#obj_capture",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_f4bf261f5ad88a4b",
+            "#delay": 3,
+            "#eventname": "#killstreak_used",
+            "#icon": ""
+        },
+        {
+            "#alias": "#hash_3f34c32548faecd6",
+            "#delay": 1,
+            "#eventname": "#halfway_friendly_score",
+            "#icon": ""
+        },
+        {
+            "#alias": "#dx_mp_gnsc_wrzn_npc1_won1",
+            "#delay": 1,
+            "#eventname": "#warzone_win",
+            "#icon": "ui_gunscreen_npc_emoji_warzone_win"
+        }
+    ],
+    "#omnvarevents": [],
+    "#guntype": "npc"
+}

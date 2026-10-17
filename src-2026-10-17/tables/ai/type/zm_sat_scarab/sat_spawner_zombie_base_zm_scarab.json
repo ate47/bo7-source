@@ -1,0 +1,232 @@
+{
+    "name": "#sat_spawner_zombie_base_zm_scarab",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d8f91164cd3e0a8",
+    "animationStateMachineAsset": "#zombie_base",
+    "behaviorTreeAsset": "#zombie_base",
+    "footStepsFxTable": "#hash_db66910927dc262f",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#aiimpactvfxtable_zombie_base",
+    "dismemberment": "#hash_d81cc250f407388b",
+    "particleSystem1": "#hash_8462c4128bfe943a",
+    "particleSystem2": "#hash_8462c4128bfe943a",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#c_sat_zmb_scarab_zombie_fem_dress"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_fem_dress_rope"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_fem_vest"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male_mask"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male_robed_hood"
+        },
+        {
+            "character": "#c_sat_zmb_dlc1_zombie_charred_shorts"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_fem_vest_green"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male_hood"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male_hood_blue"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male_hood_brown"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male_hood_red"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male_green"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male_shirtless"
+        },
+        {
+            "character": "#c_sat_zmb_scarab_zombie_male_hood_red"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_d475315fad97c80a",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_melee_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_base/zombie_base.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_base\\zombie_base.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "c_sat_zmb_scarab_zombie_fem_dress"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_fem_dress_rope"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_fem_vest"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male_mask"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male_robed_hood"
+            },
+            {
+                "#character": "c_sat_zmb_dlc1_zombie_charred_shorts"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_fem_vest_green"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male_hood"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male_hood_blue"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male_hood_brown"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male_hood_red"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male_green"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male_shirtless"
+            },
+            {
+                "#character": "c_sat_zmb_scarab_zombie_male_hood_red"
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_base",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_base",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_base_sat",
+        "#health": 100,
+        "#healthbarsettings": "%#hash_348992f1945d8f38",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_ranged_attack_mp",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_base",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_base",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

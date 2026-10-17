@@ -1,0 +1,238 @@
+{
+    "#hash_1f8fce297efe3a75": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_b8606483ec8046de": true,
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "zombie_base",
+                        "id": 0
+                    },
+                    "#takedamage": true,
+                    "#lookatstealth": true,
+                    "#hash_f6d9e11e9b6ac243": "scene_actor_sat_cin_ob_gemini_zombie_clawing_wall_01_homestead_halloween_0",
+                    "#name": "Actor 1",
+                    "#aitypename": "sat_spawner_zombie_base_sm_blind_hh",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ai_t9_zm_zombie_base_warzone_door_hit_01_loop_halloween_homestead@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#gamemode": "MP",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "looping_idle"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_6595d3ace24a0fda": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#strictmatching": true,
+                    "#hash_b8606483ec8046de": true,
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "zombie_base",
+                        "id": 0
+                    },
+                    "#takedamage": true,
+                    "#firstframe": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_livingworld",
+                    "#name": "Actor 1",
+                    "#aitypename": "sat_spawner_zombie_base_sm_blind_hh",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#takedamage": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_multi_eating_corpse_zmb1_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#stancebegin": "prone",
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#noanimwait": true,
+                            "#takedamage": true,
+                            "#nospawn": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_multi_eating_corpse_zmb1_react_01@sbundle"
+                                    }
+                                }
+                            ],
+                            "#locomotionstart": "run"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#strictmatching": true,
+                    "#hash_b8606483ec8046de": true,
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "zombie_base",
+                        "id": 0
+                    },
+                    "#takedamage": true,
+                    "#lookatstealth": true,
+                    "#firstframe": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_livingworld",
+                    "#name": "Actor 2",
+                    "#aitypename": "sat_spawner_zombie_base_sm_blind_hh",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#takedamage": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_multi_eating_corpse_zmb2_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#noanimwait": true,
+                            "#takedamage": true,
+                            "#nospawn": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_multi_eating_corpse_zmb2_react_01@sbundle"
+                                    }
+                                }
+                            ],
+                            "#locomotionstart": "run"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#strictmatching": true,
+                    "#hash_b8606483ec8046de": true,
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "zombie_base",
+                        "id": 0
+                    },
+                    "#takedamage": true,
+                    "#lookatstealth": true,
+                    "#firstframe": true,
+                    "#hash_f6d9e11e9b6ac243": "zombie_base_zm_livingworld",
+                    "#name": "Actor 3",
+                    "#aitypename": "sat_spawner_zombie_base_sm_blind_hh",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deathanim": {
+                                "type": "anim",
+                                "name": "ch_cin_zm_vig_living_world_multi_eating_corpse_deadciv_react_01@sbundle"
+                            },
+                            "#takedamage": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_multi_eating_corpse_deadciv_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#noanimwait": true,
+                            "#deathanim": {
+                                "type": "anim",
+                                "name": "ch_cin_zm_vig_living_world_multi_eating_corpse_deadciv_react_01@sbundle"
+                            },
+                            "#nospawn": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_zm_vig_living_world_multi_eating_corpse_deadciv_react_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "looping_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "action"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    }
+}

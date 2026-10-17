@@ -1,0 +1,40 @@
+NAME scripts\mp\maps\mp_sat_ob_gemini\mp_sat_ob_gemini_vo.gsc
+VERSION 0
+CHECKSUM 0x2f51550
+######################################################
+####################  DEV BLOCKS  ####################
+######################################################
+# gemini_vo::function_ad4ff05b329205f@1
+DEVBLOCK 0x3953
+# gemini_vo::function_daad986ef461252b@1
+DEVBLOCK 0x39d8
+# gemini_vo::function_1918e9fdaa06acbb@1
+DEVBLOCK 0x3ee5
+# gemini_vo::function_cab76a66c7c4d170@1
+DEVBLOCK 0x41ea
+# gemini_vo::function_fdb06df3b8e49c7d@1
+DEVBLOCK 0x4a58
+# gemini_vo::function_f9fe59d8e0c5e403@1
+DEVBLOCK 0x4d56
+# gemini_vo::function_ea03555540b057e3@1
+DEVBLOCK 0x5218
+# gemini_vo::function_9b25d908d57a471d@1
+DEVBLOCK 0x568d
+# gemini_vo::function_9d20e76c5a593109@1
+DEVBLOCK 0x5a6a
+# gemini_vo::function_20dedfd1e1b879f7@1
+DEVBLOCK 0x5b9a
+# gemini_vo::function_a1777ba66f571a74@1
+DEVBLOCK 0x5ebb
+# gemini_vo::function_87c639cfcfea728a@1
+DEVBLOCK 0x6e51
+# gemini_vo::function_9f01b4511f2ea85f@1
+DEVBLOCK 0x7289
+# gemini_vo::function_9824f9be89885303@1
+DEVBLOCK 0x73e2
+# gemini_vo::function_7ae4999ff1bf7a44@1
+DEVBLOCK 0x79ba
+# gemini_vo::function_be5a75c1b6ea8d4b@1
+DEVBLOCK 0x7b82
+# gemini_vo::function_4f59e6a5882e5a16@1
+DEVBLOCK 0x7d0e

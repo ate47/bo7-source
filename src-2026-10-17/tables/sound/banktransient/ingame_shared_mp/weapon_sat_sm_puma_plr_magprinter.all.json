@@ -1,0 +1,4621 @@
+{
+    "name": "#weapon_sat_sm_puma_plr_magprinter.all",
+    "unk8": "#hash_7244e948a318b7f0",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_sm_puma_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_drop_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_drop_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_drop_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_drop_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_toss1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_catch1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_toss2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_catch2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_knock1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_knock2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_334067b1d027b70e",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_c7e4d8575c8c84e7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#hash_931a5be52c54be42",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#hash_94646acb4d7b23a5",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#hash_bb3477bd2f155e48",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9d7bb57179149dc3",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_b13162b1aecf8477",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_raise_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_raise_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_raise_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_raise_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_raise_quick_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_raise_quick_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_gunhit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_gunhit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_latchgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_pistolgrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_pistolgrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext01_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_pistolgrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magsmack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_pistolgrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_ext02_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_gunhit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_pistolgrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_empty_fast_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_pistolgrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_pistolgrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magsmack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_gunhit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sm_puma_reload_fast_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_latchgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_02_pistolgrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_branched_reload_empty_02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_branched_reload_empty_02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_drop_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_drop_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_drop_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_drop_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_toss1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_catch1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_toss2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_catch2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_knock1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_knock2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2e171a67b8a2413f",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_c7e4d8575c8c84e7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_931a5be52c54be42",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_94646acb4d7b23a5",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_bb3477bd2f155e48",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_printer_print_last",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_b13162b1aecf8477",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_raise_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_raise_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_raise_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_raise_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_raise_quick_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_raise_quick_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_gunhit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_gunhit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_latchgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_pistolgrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_pistolgrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext01_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_pistolgrip1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_magsmack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_pistolgrip2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_ext02_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_gunhit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_pistolgrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_empty_fast_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_empty_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_pistolgrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_pistolgrip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_magsmack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_gunhit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_magrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_flick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#fly_plr_sm_puma_reload_fast_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/sm/puma/reloads/wfoly_plr_sm_puma_reload_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6cc2495e9c9de177",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/iw8_mike4/weap_mike4_deadtrigger_plr_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_mike203_fire_plr_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_atmo_int",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_fcg",
+            "aliases": [
+                {
+                    "name": "#weap_mike203_fire_plr_shot",
+                    "sndAsset": "#iw9/wpn/br_golf3/weap_golf3_fire_plr_first_fcg_01.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_shot",
+                    "sndAsset": "#iw9/wpn/br_golf3/weap_golf3_fire_plr_first_fcg_02.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_shot",
+                    "sndAsset": "#iw9/wpn/br_golf3/weap_golf3_fire_plr_first_fcg_03.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_shot",
+                    "sndAsset": "#iw9/wpn/br_golf3/weap_golf3_fire_plr_first_fcg_04.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_interrupt",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_golf25/weap_iw9_golf25_fire_plr_interrupt_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_golf25/weap_iw9_golf25_fire_plr_interrupt_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_golf25/weap_iw9_golf25_fire_plr_interrupt_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_golf25/weap_iw9_golf25_fire_plr_interrupt_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_f741f599434085c0",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_aac497a292e65909",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_mech",
+            "aliases": [
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_lfe",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_mech_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_mike203_fire_plr_shot",
+            "aliases": [
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_01.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_02.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_03.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_04.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_05.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#weap_mike203_fire_plr_mech",
+                    "sndAsset": "#iw9/wpn/la_mike203/weap_iw9_mike203_fire_plr_shot_06.tnn.85.48000.all",
+                    "soundSubmix": "#hash_e8a8f3edba467920",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84305245f292e75",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_raise.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84302245f29295c",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_boltback.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84303245f292b0f",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84300245f2925f6",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f84301245f2927a9",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f842fe245f292290",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_schotel/p05_ar_schotel_ubgl_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4d179df9198c5bf4",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_branched_reload_02_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4d17a0f9198c610d",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_branched_reload_02_glclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_4d179ff9198c5f5a",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_branched_reload_02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_829ce07630416895",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_drop.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_99e9516fce3e5e41",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_drop_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_34383aabb950c3d5",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_from_grenade.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a446640afe32",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_inspect_lift.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a346640afc7f",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_inspect_open.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a246640afacc",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_inspect_rattle.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a146640af919",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_inspect_close.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e4a046640af766",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_inspect_rotate.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_30e49f46640af5b3",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_inspect_end.pnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_cd6ea5b3da343dbe",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8ea518ad5386cc02",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_raise_quick.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca348967682ddd",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca3189676828c4",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca328967682a77",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca2f896768255e",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_insert.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca308967682711",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_46ca2d89676821f8",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcfa2644551aee2",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_fast_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcfa1644551ad2f",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_fast_open.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcfa0644551ab7c",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_fast_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcf9f644551a9c9",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_insert.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcf9e644551a816",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_reload_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcf9d644551a663",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_fast_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_efcf9c644551a4b0",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_reload_fast_shoulder.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2a4f12af91fbee56",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_v2_ar_mike4_ubgl_to_grenade.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#wfoly_plr_ar_mike4_ubgl_transition_reload_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_transition_reload_01.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fe28d5ddba6fc58",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_mike4/p01_ar_mike4_ubgl_transition_reload_fast_01.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_93126521bad46afe",
+            "aliases": [
+                {
+                    "name": "#hash_7aade0ecb09ed726",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_01.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_7aade0ecb09ed726",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_02.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_7aade0ecb09ed726",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_03.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_7aade0ecb09ed726",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_04.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_7aade0ecb09ed726",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_05.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_7aade0ecb09ed726",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_06.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f8e8ba86f23617fa",
+            "aliases": [
+                {
+                    "name": "#hash_f0611f9a73c21f90",
+                    "sndAsset": "#hash_c371d84c701c89cc",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#hash_f0611f9a73c21f90",
+                    "sndAsset": "#hash_f8b3c8a774f8ea2b",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#hash_f0611f9a73c21f90",
+                    "sndAsset": "#hash_f387edd925687096",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#hash_f0611f9a73c21f90",
+                    "sndAsset": "#hash_d668541b2554a61d",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#hash_f0611f9a73c21f90",
+                    "sndAsset": "#hash_904f10f4fbd26ea0",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                },
+                {
+                    "name": "#hash_f0611f9a73c21f90",
+                    "sndAsset": "#hash_da1b9b761843cbdf",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a69db"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f0611f9a73c21f90",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_d745eaa57e5e1bc4",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#hash_b0c8386fef096983",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#hash_f30b0706629f232e",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#hash_b42c7e6fccf43875",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#hash_ef716fcd6deb91f8",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                },
+                {
+                    "sndAsset": "#hash_b998f6d0474fd857",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default",
+                    "sndModifier": "#hash_1daa73a77a3"
+                }
+            ]
+        },
+        {
+            "name": "#hash_eb1188b440e63016",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_c76f3e09c023dbd0",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_b2f9bf49030286cf",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_c3558563bd501c2a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_f2a4a78b41565629",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_9d4704853011073c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_c89753ef67cfb25b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_a625df197e628986",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_8023f54fbea61ed5",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_b987c6da88e44258",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_c50d1a0f7f84114e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_e08159085634cb15",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_f7722832a07eaa72",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_cdf0bf0a1a284377",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_d0715e493fa67f64",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_ca1a16ef794b07f1",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_88f10302393be34e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_967ff31fa33e5123",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_a8029ecfa434c710",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_af81ef199f60c94d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#hash_a73c4abc231cb8c7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d719e5a75a5fe864",
+            "aliases": [
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_01.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_02.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_03.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_04.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_05.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_06.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#hash_a49815a15c36f66e",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#hash_d2e9c30718e2b211",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#hash_856cf9407512c604",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_93126521bad46afe",
+                    "sndAsset": "#hash_94ff026eba87b897",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_143d7b04fca0db2e",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/sm_mpapa5/weap_mpapa5_fire_plr_interrupt_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/sm_mpapa5/weap_mpapa5_fire_plr_interrupt_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/sm_mpapa5/weap_mpapa5_fire_plr_interrupt_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_922ecaf275985133",
+            "aliases": [
+                {
+                    "name": "#hash_a6dacc37a27ef659",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_01.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_a6dacc37a27ef659",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_02.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_a6dacc37a27ef659",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_03.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_a6dacc37a27ef659",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_04.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_a6dacc37a27ef659",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_05.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_a6dacc37a27ef659",
+                    "sndAsset": "#sat/wpn/sm/puma/plr/fire/wpn_sm_puma_fire_plr_06.tnn.85.48000.all",
+                    "soundSubmix": "#hash_8d8e242399a4aa99",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6babfdf568afd468",
+            "aliases": [
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_01.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_f3ea97344c876636",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_02.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_f3ea97344c876636",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_03.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_f3ea97344c876636",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_04.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_f3ea97344c876636",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_05.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_f3ea97344c876636",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#t10/wpn/smg/_shared/fcg/wpn_sm_dryfire_plr_06.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_f3ea97344c876636",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#hash_a49815a15c36f66e",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#hash_d2e9c30718e2b211",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#hash_856cf9407512c604",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#hash_94ff026eba87b897",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#hash_9da06f11d5214092",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_922ecaf275985133",
+                    "sndAsset": "#hash_be28c4f2c9751fb5",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a6dacc37a27ef659",
+            "aliases": [
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_d3480d85687127d9",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_aa5d47e1a35a3527",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_69fd53250b718e1c",
+            "aliases": [
+                {
+                    "name": "#hash_eb1188b440e63016",
+                    "sndAsset": "#sat/wpn/sm/puma/lfe/wpn_sm_puma_lfe_plr.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_f741f599434085c0",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_eb1188b440e63016",
+                    "sndAsset": "#sat/wpn/sm/puma/lfe/wpn_sm_puma_lfe_plr.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_aac497a292e65909",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7aade0ecb09ed726",
+            "aliases": [
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_eea8d460faae659b",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_b710e24dcb62e97c",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_b9508558c78bbf69",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_8a0163314385856a",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_ce74dbefa990255d",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_b2c8be3a784c34fa",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_ff0a234f8762d21f",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_69fd53250b718e1c",
+                    "sndAsset": "#hash_e6e49812c740260c",
+                    "soundSpeakerMap": "#hash_a2aeee818425405d",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "#lootcardprompts": [
+        {
+            "#promptasset": "%#hash_afdf8102243696d",
+            "#promptcategory": "primary",
+            "#conditionkey": "#default"
+        },
+        {
+            "#promptasset": "%#hash_5128b62df468d97e",
+            "#promptcategory": "secondary",
+            "#conditionkey": "#ping"
+        }
+    ],
+    "#resources": [],
+    "#camoref": "",
+    "#pingvo": "%#ping_loot_ammo_midcaliber",
+    "#lootitemtype": "%#hash_74fad6536b0590a0",
+    "#hash_2db3c77ed10a87aa": true,
+    "#maxcount": 300,
+    "#hash_c048a47fe4e742cd": "%#ping_loot_confirm_ammo",
+    "#hash_59803d1ed0f20c22": true,
+    "#hash_14f5e5b99be6fc2f": true,
+    "#titlestring": "&#mp/br_ammo_ar_lmg",
+    "#hash_b7386e49348ae6a3": 0,
+    "#hash_b30083978786aac7": true,
+    "#autopickupenabled": true,
+    "#hash_f96b9b6aff0b335f": 0,
+    "#hash_aac2785c34c750bd": true,
+    "#ref": "brloot_ammo_762",
+    "#inventoryslot": "Generic",
+    "#hash_51f149d23464d654": 1,
+    "#dropsfx": "#hash_ea867f4950f8bd71",
+    "#armorupgrade": {
+        "#hash_160bb77f70ce8c44": true,
+        "#hash_60e53495c3091af9": true,
+        "#hash_2110816f22f3360c": false,
+        "#damagetakenscale": 1
+    },
+    "#gamemoderestrictions": {
+        "#br": true
+    },
+    "#subtype": "",
+    "#backpacksize": 180,
+    "#lootcardalerts": [
+        {
+            "#datasource": "alert_ammo_762_full",
+            "#lootcardalert": "%#hash_61d91444930579d1"
+        },
+        {
+            "#datasource": "alert_is_zombie",
+            "#lootcardalert": "%#hash_3dc1dbc8f25ec5bb"
+        }
+    ],
+    "#hash_b22f7855894dc6a0": "common_unrestricted",
+    "#pickupsfx": "#fly_pickup_ammo_ar_br_lmg",
+    "#inventorytype": "Stored",
+    "#hash_8725c0955f9aadd": {
+        "#rewardtype": "ItemSpawnList"
+    },
+    "#tags": [],
+    "#icon": "ui_mp_br_loot_icon_ammo_mid_detail",
+    "#spawncount": 30,
+    "#hash_2d4a8aa1a1c36b31": 0,
+    "#ispingable": true,
+    "#scriptable": "%#brloot_ammo_762",
+    "#pingasset": "%#loot",
+    "#typestring": "&#loot_mp/item_type_ammo"
+}

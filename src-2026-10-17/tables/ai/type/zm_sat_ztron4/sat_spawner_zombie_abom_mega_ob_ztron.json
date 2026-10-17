@@ -1,0 +1,68 @@
+{
+    "name": "#sat_spawner_zombie_abom_mega_ob_ztron",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_7a0a53e614ffd93b",
+    "animationStateMachineAsset": "#zombie_abom",
+    "behaviorTreeAsset": "#zombie_abom_ztron",
+    "footStepsFxTable": "#hash_db4448e89668d63b",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_c50103a093fdce55",
+    "dismemberment": "#defaultdismemberment_zm",
+    "unitType": "zombie",
+    "team": "team_190",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_jup_zombie_abom_mega_ob"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/asm/zombie_abom/zombie_abom_asm.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\asm\\zombie_abom\\zombie_abom_asm.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_jup_zombie_abom_mega_ob"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_abom_mega",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_abom_mega_ob",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_abom_mega_worldboss",
+        "#health": 600,
+        "#healthbarsettings": "%#hash_197c67d9dae70456",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "",
+        "#hash_61e44fac124dbd73": true,
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_abom",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_abom_ztron",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "TEAM_HUNDRED_NINETY"
+    }
+}

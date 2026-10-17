@@ -1,0 +1,366 @@
+{
+    "#hash_1197436bb7d1541b": {
+        "#hash_8e83b15472993439": true,
+        "#packages": [
+            {
+                "#variant_object": {
+                    "#traileffect": "vfx_saw_gameplay_saw_lootdrone_cache_trail",
+                    "#hash_c7f0ae33c8add17e": "#hash_af3772438075f86f",
+                    "#itemspawnentry": "saw_item_camocase",
+                    "#type": "#loot",
+                    "#hash_8297d3fbba03df76": "vfx_saw_gameplay_saw_lootdrone_cache_ground_impact"
+                },
+                "#variant_type": "Types_PackageLoot"
+            }
+        ],
+        "#airdropbehavior": [
+            {
+                "#variant_object": {
+                    "#patrolradius": 1500,
+                    "#patrolmode": true,
+                    "#acceleration": 550,
+                    "#dronehealth": 200,
+                    "#hash_fe3437bbc52ad866": true,
+                    "#neverdrop": true,
+                    "#hash_975fca1eaa4989af": 180,
+                    "#hash_93bcd261a63c2f96": 2000,
+                    "#hoverheight": 2500,
+                    "#droneexplosionradius": 512,
+                    "#hash_41fb6a3d01916f5c": 1,
+                    "#hash_9a4f3f6fb67f8843": 15,
+                    "#hash_a1b2b7b2937cc778": "&#MP_BR_INGAME/SPECIAL_DELIVERY_DRONE",
+                    "#hash_c9812fd06559a36e": 40,
+                    "#hash_b23dd50afb4efe09": 185,
+                    "#hash_1564b16dac510452": 17000,
+                    "#hash_6109d8ca45d6e5da": 15,
+                    "#hash_45aa07a9a3fad2e1": 70,
+                    "#dashspeed": 600,
+                    "#hash_a716abfaa090cb99": 3000,
+                    "#hash_bde4c92c3498277a": 3000,
+                    "#hash_5a56c0c764b7a755": "saw_lootdrone_dummy_camocase",
+                    "#type": "#flee_drone",
+                    "#hash_c19302c2e279c016": 5000,
+                    "#hash_fe7646cc4a5f595d": "black_red",
+                    "#dropheight": 2000,
+                    "#hash_c11f182c49a6ea82": true,
+                    "#hash_e89bbdec27fe1979": -40,
+                    "#hash_3c1bd684f022141b": 800,
+                    "#yawrate": 45,
+                    "#dronemodel": "black_red::veh9_mil_air_drone_redeploy_relocate_small_camo_case",
+                    "#delivertimeout": 180,
+                    "#cruisespeed": 400,
+                    "#hash_3684447841b3ba58": 5,
+                    "#avoidgas": true,
+                    "#hash_9e7626e811447e42": "saw_ui_map_icon_special_delivery_drone",
+                    "#explosionscriptable": "saw_lootdrone_explosion",
+                    "#hash_a3ee243fee8d1cee": 3,
+                    "#avoidwater": true,
+                    "#movetilt": 25,
+                    "#hash_b56e67acf0cc0094": "&#MP_BR_INGAME/SPECIAL_DELIVERY_DRONE",
+                    "#returntolerance": 3000,
+                    "#patrolspeed": 400,
+                    "#hash_e62d1d2635dac87a": true,
+                    "#hash_c86427bd7d0b3189": "#br_deployable_kiosk_damaged"
+                },
+                "#variant_type": "Types_AirdropBehaviorFleeDrone"
+            }
+        ],
+        "#droplocationtype": "random"
+    },
+    "#hash_17b9de336f804c3c": {
+        "#packages": [
+            {
+                "#variant_object": {
+                    "#hash_2d0164ad6e60d442": "veh8_mil_lnd_bromeo_parachute",
+                    "#useparachute": true,
+                    "#hash_bc92f2b225b0cb8a": 100,
+                    "#hash_bcb5fcb225d72940": 200,
+                    "#hash_fd22a4c72bf7eec3": 0,
+                    "#hash_fd459ac72c1e207d": 0,
+                    "#hash_43d2b221d9148ad4": true,
+                    "#hash_6774c2fff36f19c1": 100,
+                    "#hash_49cba12d3aadd38d": 40,
+                    "#type": "#vehicle",
+                    "#hash_6008a308c88c3667": 2,
+                    "#hash_8859346574a0d4a8": 300,
+                    "#hash_c35ae70e1773dd1d": 50,
+                    "#hash_c336f10e174b7863": 30,
+                    "#vehicle": "veh_sat_mil_lnd_scud_truck_cq"
+                },
+                "#variant_type": "Types_PackageVehicle"
+            }
+        ],
+        "#airdropbehavior": [
+            {
+                "#variant_object": {
+                    "#hash_bfe41a56ee5786f4": 1,
+                    "#type": "#instant_drop",
+                    "#dropheightoffset": 5000
+                },
+                "#variant_type": "Types_AirdropBehaviorInstant"
+            }
+        ],
+        "#droplocationtype": "map_center"
+    },
+    "#hash_3af79a9b480a2d56": {
+        "#hash_8e83b15472993439": true,
+        "#packages": [
+            {
+                "#variant_object": {
+                    "#capturestring": "&#mp/generic_loot_crate_capture",
+                    "#exclusiveuse": true,
+                    "#useparachute": true,
+                    "#capturesound": "uin_wz2_loot_container_open_epic",
+                    "#pingonspawn": "team",
+                    "#packagemodel": "military_carepackage_01_br_legendary_classified",
+                    "#hash_72cc9351de30b080": 80,
+                    "#hash_6762343081e284fe": true,
+                    "#parachutemodel": "saw_mil_lnd_parachute_carepackage_br_classified",
+                    "#hash_e378e8cc5a06a8e0": 2.5,
+                    "#type": "#crate",
+                    "#hash_54fc859286c6bbff": true,
+                    "#setonspawn": [],
+                    "#hash_abc6bc2495fb4956": "none",
+                    "#hash_d3dffdadce47691a": true,
+                    "#hash_47b0cac39326a270": "scriptable_airdrop_legendary_contract_smoke_signal"
+                },
+                "#variant_type": "Types_PackageCrate"
+            }
+        ],
+        "#airdropbehavior": [
+            {
+                "#variant_object": {
+                    "#hash_cd41ad1ab85f0baf": "veh_br_c17_flyby",
+                    "#hash_e99a789e113b7ba4": 1,
+                    "#planeheight": 12000,
+                    "#planesound": "veh_br_c17_distant_lp",
+                    "#hash_bc03076cd80bd03f": "delta",
+                    "#planescount": 1,
+                    "#planespeed": 3044,
+                    "#hash_bfe41a56ee5786f4": 1,
+                    "#planemodel": "veh9_mil_air_cargo_plane_wm",
+                    "#planeobjectiveicon": "hud_icon_minimap_vehicle_cargo_plane",
+                    "#type": "#plane"
+                },
+                "#variant_type": "Types_AirdropBehaviorPlane"
+            }
+        ],
+        "#droplocationtype": "map_center"
+    },
+    "#hash_41d6e8cf15469b8e": {
+        "#hash_8e83b15472993439": true,
+        "#packages": [
+            {
+                "#variant_object": {
+                    "#capturestring": "&#BR_ELITE_IRONCLAD/BR_CRATE_ELITE",
+                    "#exclusiveuse": true,
+                    "#useparachute": true,
+                    "#pingonspawn": "none",
+                    "#packagemodel": "military_carepackage_01_elite_chopper",
+                    "#hash_72cc9351de30b080": 80,
+                    "#hash_6762343081e284fe": true,
+                    "#parachutemodel": "veh9_mil_lnd_parachute_carepackage_br",
+                    "#hash_788f3d2c979dee70": "br_elite_ironclad_crate",
+                    "#hash_e378e8cc5a06a8e0": 1.5,
+                    "#type": "#crate",
+                    "#setonspawn": [
+                        {
+                            "#part": "#objective",
+                            "#state": "#active_cq"
+                        }
+                    ],
+                    "#hash_abc6bc2495fb4956": "none",
+                    "#hash_d3dffdadce47691a": true,
+                    "#hash_47b0cac39326a270": "scriptable_airdrop_default_smoke_signal"
+                },
+                "#variant_type": "Types_PackageCrate"
+            }
+        ],
+        "#airdropbehavior": [
+            {
+                "#variant_object": {
+                    "#hash_cd41ad1ab85f0baf": "veh_br_c17_flyby",
+                    "#hash_e99a789e113b7ba4": 1,
+                    "#planeheight": 12000,
+                    "#planesound": "veh_br_c17_distant_lp",
+                    "#hash_bc03076cd80bd03f": "delta",
+                    "#planescount": 1,
+                    "#planespeed": 3044,
+                    "#hash_bfe41a56ee5786f4": 1,
+                    "#planemodel": "veh9_mil_air_cargo_plane_wm",
+                    "#planeobjectiveicon": "hud_icon_minimap_vehicle_cargo_plane",
+                    "#type": "#plane"
+                },
+                "#variant_type": "Types_AirdropBehaviorPlane"
+            }
+        ],
+        "#droplocationtype": "random"
+    },
+    "#hash_4ac9546467fe0197": {
+        "#hash_8e83b15472993439": true,
+        "#packages": [
+            {
+                "#variant_object": {
+                    "#capturestring": "&#mp_br_ingame/supply_crate",
+                    "#exclusiveuse": true,
+                    "#pingonspawn": "none",
+                    "#packagemodel": "military_carepackage_03_bongo_loot",
+                    "#hash_72cc9351de30b080": 80,
+                    "#hash_6762343081e284fe": true,
+                    "#parachutemodel": "veh9_mil_lnd_parachute_carepackage_br",
+                    "#hash_788f3d2c979dee70": "br_bongo_cradle_breach_crate",
+                    "#hash_e378e8cc5a06a8e0": 2,
+                    "#type": "#crate",
+                    "#setonspawn": [],
+                    "#hash_abc6bc2495fb4956": "none",
+                    "#hash_d3dffdadce47691a": true,
+                    "#hash_47b0cac39326a270": "scriptable_airdrop_default_smoke_signal"
+                },
+                "#variant_type": "Types_PackageCrate"
+            }
+        ],
+        "#airdropbehavior": [
+            {
+                "#variant_object": {
+                    "#hash_cae7b1dbaa7b8150": "1 1 0 1",
+                    "#hash_cd41ad1ab85f0baf": "veh_br_c17_flyby",
+                    "#hash_e99a789e113b7ba4": 4,
+                    "#planeheight": 12000,
+                    "#planesound": "veh_br_c17_distant_lp",
+                    "#hash_bc03076cd80bd03f": "delta",
+                    "#planescount": 2,
+                    "#planespeed": 3044,
+                    "#hash_bfe41a56ee5786f4": 1,
+                    "#planemodel": "veh9_mil_air_cargo_plane_wm",
+                    "#planeobjectiveicon": "hud_icon_minimap_vehicle_cargo_plane",
+                    "#type": "#plane"
+                },
+                "#variant_type": "Types_AirdropBehaviorPlane"
+            }
+        ],
+        "#droplocationtype": "map_center"
+    },
+    "#hash_63747fa5b447d21d": {
+        "#packages": [
+            {
+                "#variant_object": {
+                    "#capturestring": "&#mp/br_crate_loadout",
+                    "#exclusiveuse": false,
+                    "#pingonspawn": "none",
+                    "#packagemodel": "military_carepackage_01_br_loadout",
+                    "#hash_72cc9351de30b080": 80,
+                    "#parachutemodel": "veh9_mil_lnd_parachute_carepackage_br",
+                    "#hash_e378e8cc5a06a8e0": 0.5,
+                    "#type": "#crate",
+                    "#setonspawn": [
+                        {
+                            "#part": "#objective",
+                            "#state": "#active_contested"
+                        }
+                    ],
+                    "#hash_abc6bc2495fb4956": "none"
+                },
+                "#variant_type": "Types_PackageCrate"
+            }
+        ],
+        "#airdropbehavior": [
+            {
+                "#variant_object": {
+                    "#hash_cd41ad1ab85f0baf": "veh_br_c17_flyby",
+                    "#hash_e99a789e113b7ba4": 1,
+                    "#planeheight": 12000,
+                    "#planesound": "veh_br_c17_distant_lp",
+                    "#hash_bc03076cd80bd03f": "delta",
+                    "#planescount": 1,
+                    "#planespeed": 3044,
+                    "#hash_bfe41a56ee5786f4": 1,
+                    "#planemodel": "veh9_mil_air_cargo_plane_wm",
+                    "#planeobjectiveicon": "hud_icon_minimap_vehicle_cargo_plane",
+                    "#type": "#plane"
+                },
+                "#variant_type": "Types_AirdropBehaviorPlane"
+            }
+        ],
+        "#droplocationtype": "map_center"
+    },
+    "#hash_6895821e56e397ac": {
+        "#hash_8e83b15472993439": true,
+        "#packages": [
+            {
+                "#variant_object": {
+                    "#hash_a507f358959be27b": 250,
+                    "#capturestring": "&#mp/doublexp_crate_capture",
+                    "#exclusiveuse": true,
+                    "#pingonspawn": "none",
+                    "#packagemodel": "military_carepackage_03_doublexp",
+                    "#hash_72cc9351de30b080": 80,
+                    "#hash_6762343081e284fe": true,
+                    "#capturescoreevent": "#br_pe_doublexp_crate_captured",
+                    "#hash_2124e43e9c927466": 4,
+                    "#parachutemodel": "veh9_mil_lnd_parachute_carepackage_br",
+                    "#hash_788f3d2c979dee70": "br_doublexp_crate",
+                    "#hash_e378e8cc5a06a8e0": 5,
+                    "#type": "#crate",
+                    "#setonspawn": [],
+                    "#hash_abc6bc2495fb4956": "none",
+                    "#hash_20142244521fa24b": 500,
+                    "#hash_d3dffdadce47691a": true,
+                    "#hash_47b0cac39326a270": "scriptable_airdrop_doublexp_smoke_signal"
+                },
+                "#variant_type": "Types_PackageCrate"
+            }
+        ],
+        "#airdropbehavior": [
+            {
+                "#variant_object": {
+                    "#hash_cae7b1dbaa7b8150": "1 1 0 1",
+                    "#hash_cd41ad1ab85f0baf": "veh_br_c17_flyby",
+                    "#hash_e99a789e113b7ba4": 5,
+                    "#planeheight": 12000,
+                    "#planesound": "veh_br_c17_distant_lp",
+                    "#hash_bc03076cd80bd03f": "delta",
+                    "#planescount": 1,
+                    "#planespeed": 3044,
+                    "#hash_bfe41a56ee5786f4": 1,
+                    "#planemodel": "veh9_mil_air_cargo_plane_wm",
+                    "#planeobjectiveicon": "hud_icon_minimap_vehicle_cargo_plane",
+                    "#type": "#plane"
+                },
+                "#variant_type": "Types_AirdropBehaviorPlane"
+            }
+        ],
+        "#droplocationtype": "map_center"
+    },
+    "#hash_738e4257a5dd5eb1": {
+        "#packages": [
+            {
+                "#variant_object": {
+                    "#packagemodel": "sat_storage_lift_bot_01_crate_bongo_anim",
+                    "#type": "#custom"
+                },
+                "#variant_type": "Types_PackageCustom"
+            }
+        ],
+        "#airdropbehavior": [
+            {
+                "#variant_object": {
+                    "#hash_cae7b1dbaa7b8150": "1 0.90193 0.027451 1",
+                    "#hash_cd41ad1ab85f0baf": "veh_br_c17_flyby",
+                    "#hash_e99a789e113b7ba4": 1,
+                    "#planeheight": 7450,
+                    "#planesound": "veh_br_c17_distant_lp",
+                    "#hash_bc03076cd80bd03f": "delta",
+                    "#planescount": 1,
+                    "#planespeed": 3044,
+                    "#hash_bfe41a56ee5786f4": 1,
+                    "#planemodel": "xcomp_veh_sat_mil_air_cargo_wc_supply_drop",
+                    "#planeobjectiveicon": "saw_ui_hud_icon_crade_bomb_plane",
+                    "#type": "#plane",
+                    "#hash_ea019c07729190a8": true
+                },
+                "#variant_type": "Types_AirdropBehaviorPlane"
+            }
+        ],
+        "#droplocationtype": "map_center"
+    }
+}

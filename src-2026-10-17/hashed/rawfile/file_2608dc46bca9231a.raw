@@ -1,0 +1,73 @@
+css = [[
+    \#ArmorHealthWrapper {
+        horizontal-anchors: left;
+        vertical-anchors: top;
+        vertical-pivot: top;
+        top: 245;
+        left: 68;
+        render-scale-offset: -0.29;
+        hud-scale-y-offset-factor: 100;
+    }
+    \#ContextualObjectiveWrapper {
+        horizontal-anchors: left;
+        vertical-anchors: bottom;
+        top: -230;
+        left: 50;
+        hud-scale-y-offset-factor: 0;
+    }
+    \#ContextualPlayerInformationWrapper {
+        horizontal-anchors: left;
+        vertical-anchors: bottom;
+        top: -165;
+        left: 247;
+        render-scale-offset: 0;
+    }
+    \#GlobalPlayerSplashWrapper {
+        horizontal-anchors: left;
+        left: -70;
+        top: 315;
+    }
+    \#KilledMessageWrapper {
+        vertical-anchors: bottom;
+        top: -100;
+    }
+    \#MatchStatusScoresWrapper {
+        horizontal-anchors: left;
+        vertical-anchors: bottom;
+        left: 25;
+        top: -165;
+    }
+    \#ScoreFeedWrapper {
+        horizontal-anchors: center;
+        vertical-anchors: middle;
+        top: -90;
+    }
+    \#RadiationMeterWrapper {
+        top: -192;
+    }
+    \#ObituaryContainerWrapper {
+        vertical-anchors: bottom;
+		top: -379;
+		left: 64;
+    }
+    .mount-hint {
+        top: -235;
+        left: 30;
+        horizontal-anchors: center;
+        vertical-anchors: bottom;
+    }
+    \#MinimapWrapper{
+        horizontal-anchors: left;
+        vertical-anchors: top;
+        top: 50;
+        left: 60;
+        render-scale-offset: -0.1;
+    }
+    \#SharpBonusesWidgetWrapper {
+        horizontal-anchors: left;
+        vertical-anchors: bottom;
+        top: -127;
+        left: 416;
+        hud-scale-y-offset-factor: 0;
+	}
+]],

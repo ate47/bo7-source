@@ -1,0 +1,109 @@
+{
+    "#rendertarget": "None",
+    "#hash_62820937ae750e29": false,
+    "#parameters": [],
+    "#hash_22a6c228fcbc25c9": [],
+    "#hash_2687e4f2cbcf1393": [],
+    "#hash_78b34127ab1edf37": false,
+    "#servermessages": [],
+    "#requirepath": "ui.generated.widgets.ingame.shared.scriptedwidgetdialoguespeaker",
+    "#luafile": "ui/generated/widgets/ingame/shared/scriptedwidgetdialoguespeaker.lua",
+    "#archetype": "%#hash_2c2bb771e711eea7",
+    "#children": [],
+    "#rendertargetheight": 1024,
+    "#presetsettings": {
+        "#gamemodepresets": [],
+        "#gametypepresets": [],
+        "#presetsettings": {
+            "#hudeditor": {
+                "#verticalanchor": "Middle",
+                "#horizontalanchor": "Right",
+                "#hash_37bd97753e68a0f1": true,
+                "#enabled": true,
+                "#y": 0,
+                "#x": 15
+            },
+            "#position": {
+                "#verticalanchor": "Middle",
+                "#horizontalanchor": "Right",
+                "#hash_37bd97753e68a0f1": true,
+                "#enabled": true,
+                "#y": 0,
+                "#x": -128
+            }
+        },
+        "#projectpresets": [
+            "#zul": {
+                "#gamemodepresets": [
+                    "#uv": {
+                        "#gametypepresets": [],
+                        "#presetsettings": {
+                            "#hudeditor": {
+                                "#verticalanchor": "Middle",
+                                "#horizontalanchor": "Center",
+                                "#y": 0,
+                                "#x": 0
+                            },
+                            "#position": {
+                                "#verticalanchor": "Middle",
+                                "#horizontalanchor": "Right",
+                                "#enabled": true,
+                                "#y": 0,
+                                "#x": 0
+                            }
+                        },
+                        "#gamemode": "#uv"
+                    }
+                ],
+                "#gametypepresets": [],
+                "#presetsettings": {
+                    "#hudeditor": {
+                        "#verticalanchor": "Middle",
+                        "#horizontalanchor": "Center",
+                        "#y": 0,
+                        "#x": 0
+                    },
+                    "#position": {
+                        "#verticalanchor": "Middle",
+                        "#horizontalanchor": "Center",
+                        "#enabled": false,
+                        "#y": 0,
+                        "#x": 0
+                    }
+                },
+                "#project": "#zul"
+            }
+        ]
+    },
+    "#hash_5c4d4c8a712b02d1": 1024,
+    "#datasets": [],
+    "#hash_d195d4ddcd19301f": false,
+    "#interactions": [],
+    "#hash_4b1a5b31df97c7a8": false,
+    "#widget": "#scriptedwidgetdialoguespeaker",
+    "#states": [
+        "#enemy": {
+            "#animation": "#enemy",
+            "#name": "#enemy"
+        },
+        "#hide": {
+            "#animation": "#hide",
+            "#name": "#hide"
+        },
+        "#default": {
+            "#animation": "#defaultsequence",
+            "#name": "#default"
+        }
+    ],
+    "#hash_b53f419bce569890": false,
+    "#normalgameplay": true,
+    "#assets": [
+        {
+            "#variant_object": {
+                "#value": "scripts/common/dialogue_speaker.gsc",
+                "#type": "GscObjProperty"
+            },
+            "#variant_type": "Types_GscObjProperty"
+        }
+    ]
+}

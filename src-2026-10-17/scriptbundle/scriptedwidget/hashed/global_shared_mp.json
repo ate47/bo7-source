@@ -1,0 +1,333 @@
+{
+    "#hash_8f83532b15da99b": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [],
+        "#hash_22a6c228fcbc25c9": [],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [],
+        "#requirepath": "ui.generated.widgets.ingame.mp.sensorscannerbox",
+        "#luafile": "ui/generated/widgets/ingame/mp/sensorscannerbox.lua",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#sensorscannerbox",
+        "#states": [
+            "#show": {
+                "#animation": "#show",
+                "#name": "#show"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_b80969be3ae6e09": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [
+            "#default": {
+                "#properties": [
+                    "#height": {
+                        "#variant_object": {
+                            "#property": "#height",
+                            "#value": 80,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#image": {
+                        "#variant_object": {
+                            "#property": "#image",
+                            "#value": "%#icon_waypoint_neutral_marker",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#image_backing_alt": {
+                        "#variant_object": {
+                            "#property": "#image_backing_alt",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#color": {
+                        "#variant_object": {
+                            "#property": "#color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#rotation_arrrow_image": {
+                        "#variant_object": {
+                            "#property": "#rotation_arrrow_image",
+                            "#value": "%#hash_72084c37bac94cd2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hash_b66ff63da31b5d5f": {
+                        "#variant_object": {
+                            "#key": "ALLY_CUSTOM_COLOR",
+                            "#property": "#hash_b66ff63da31b5d5f",
+                            "#enum": "ColorCustomizationColorType",
+                            "#type": "LuaEnumProperty"
+                        },
+                        "#variant_type": "Types_LuaEnumProperty"
+                    },
+                    "#width": {
+                        "#variant_object": {
+                            "#property": "#width",
+                            "#value": 80,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#image_backing": {
+                        "#variant_object": {
+                            "#property": "#image_backing",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#default"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#height": {
+                "#variant_object": {
+                    "#property": "#height",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#image": {
+                "#variant_object": {
+                    "#property": "#image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#image_backing_alt": {
+                "#variant_object": {
+                    "#property": "#image_backing_alt",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#color": {
+                "#variant_object": {
+                    "#property": "#color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#rotation_arrrow_image": {
+                "#variant_object": {
+                    "#property": "#rotation_arrrow_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#hash_b66ff63da31b5d5f": {
+                "#variant_object": {
+                    "#property": "#hash_b66ff63da31b5d5f",
+                    "#type": "LuaEnumProperty"
+                },
+                "#variant_type": "Types_LuaEnumPropertyTemplate"
+            },
+            "#width": {
+                "#variant_object": {
+                    "#property": "#width",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#image_backing": {
+                "#variant_object": {
+                    "#property": "#image_backing",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            }
+        ],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [],
+        "#requirepath": "ui.generated.widgets.ingame.shared.scriptedwidgetinworldmarkerwaypoint",
+        "#luafile": "ui/generated/widgets/ingame/shared/scriptedwidgetinworldmarkerwaypoint.lua",
+        "#archetype": "%#hash_7802261d8c107b42",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#hash_21d33af8587e9089",
+        "#states": [
+            "#show": {
+                "#animation": "#show",
+                "#name": "#show"
+            },
+            "#hide": {
+                "#animation": "#hide",
+                "#name": "#hide"
+            },
+            "#setaltbacking": {
+                "#name": "#setaltbacking"
+            },
+            "#default": {
+                "#animation": "#default",
+                "#name": "#default"
+            },
+            "#removealtbacking": {
+                "#name": "#removealtbacking"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": [
+            {
+                "#variant_object": {
+                    "#value": "ui/utils/inworldmarkerutils.lua",
+                    "#type": "LuaFileProperty"
+                },
+                "#variant_type": "Types_LuaFileProperty"
+            }
+        ]
+    },
+    "#hash_7dd6903e9d45f917": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [],
+        "#hash_22a6c228fcbc25c9": [],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [],
+        "#requirepath": "ui.generated.widgets.ingame.shared.scriptedwidgetgenerictext",
+        "#luafile": "ui/generated/widgets/ingame/shared/scriptedwidgetgenerictext.lua",
+        "#archetype": "%#hash_62129794d51b33b8",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#hash_da66f4ef5ad03a53",
+        "#states": [
+            "#topcenter": {
+                "#animation": "#topcenter",
+                "#name": "#topcenter"
+            },
+            "#bottomright": {
+                "#animation": "#bottomright",
+                "#name": "#bottomright"
+            },
+            "#bottomcenter": {
+                "#animation": "#bottomcenter",
+                "#name": "#bottomcenter"
+            },
+            "#topleft": {
+                "#animation": "#topleft",
+                "#name": "#topleft"
+            },
+            "#middleleft": {
+                "#animation": "#middleleft",
+                "#name": "#middleleft"
+            },
+            "#topright": {
+                "#animation": "#topright",
+                "#name": "#topright"
+            },
+            "#bottomleft": {
+                "#animation": "#bottomleft",
+                "#name": "#bottomleft"
+            },
+            "#hash_e467fff281dc1841": {
+                "#animation": "#hash_e467fff281dc1841",
+                "#name": "#hash_e467fff281dc1841"
+            },
+            "#middleright": {
+                "#animation": "#middleright",
+                "#name": "#middleright"
+            },
+            "#default": {
+                "#animation": "#default",
+                "#name": "#default"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": []
+    }
+}

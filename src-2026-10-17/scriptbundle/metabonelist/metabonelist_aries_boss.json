@@ -1,0 +1,49 @@
+{
+    "#hash_90ed8916f56ef56d": "aries_boss",
+    "#hash_dc4ad1cfb00a5dac": "scripts/common/ai/aitypes/aries_boss/aries_boss_metabones.gsc",
+    "#metabones": [
+        {
+            "#parts": [],
+            "#metadata": [],
+            "#activebydefault": true,
+            "#hitlocations": [
+                {
+                    "#hitlocation": "torso_lower"
+                }
+            ],
+            "#name": "head",
+            "#states": [
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#healthcap": -1,
+                                "#health": 500,
+                                "#absolutehealth": true
+                            },
+                            "#variant_type": "Types_Damageable"
+                        }
+                    ],
+                    "#name": "active"
+                },
+                {
+                    "#metadata": [
+                        {
+                            "#variant_object": {
+                                "#damagemod": 0,
+                                "#explosivedamagemod": 0
+                            },
+                            "#variant_type": "Types_Armor"
+                        }
+                    ],
+                    "#name": "disabled"
+                },
+                {
+                    "#metadata": [],
+                    "#name": "destroyed"
+                }
+            ],
+            "#tags": []
+        }
+    ]
+}

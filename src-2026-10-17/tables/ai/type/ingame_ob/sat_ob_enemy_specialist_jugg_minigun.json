@@ -1,0 +1,72 @@
+{
+    "name": "#sat_ob_enemy_specialist_jugg_minigun",
+    "species": "human",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_757b7bec2d18232e",
+    "enemySelectorAsset": "#enemyselector_default",
+    "animationStateMachineAsset": "#soldier",
+    "behaviorTreeAsset": "#juggernaut_agent_sat_ob",
+    "footStepsFxTable": "#hash_9b4a52537e1f3d45",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "scriptbundle": "#hash_a395129465c0d0f2",
+    "unitType": "juggernaut",
+    "team": "team_190",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_enemy_guild_juggernaut_ob"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_989b2f6d2face773",
+            "weapontype": "primary",
+            "weapon": "sat_lm_deathmachine_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/juggernaut/sat_juggernaut.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts/common/ai/aitypes/juggernaut/sat_juggernaut.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_enemy_guild_juggernaut_ob"
+            }
+        ],
+        "#unittype": "juggernaut",
+        "#subclass": "ob_specialist",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_soldier_base_ob_sat_jugg",
+        "#killicon": "",
+        "#zombieaisetting": "",
+        "#health": 3600,
+        "#healthbarsettings": "%#hash_664be4dd9145def",
+        "#aitypesettingsbundle": "aisettings_sat_soldier_specialist",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_sat_default",
+        "#grenadeweapon": "",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "soldier",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "juggernaut_agent_sat_ob",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "TEAM_HUNDRED_NINETY"
+    }
+}

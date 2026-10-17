@@ -1,0 +1,135 @@
+{
+    "#rendertarget": "None",
+    "#hash_62820937ae750e29": false,
+    "#parameters": [],
+    "#hash_22a6c228fcbc25c9": [],
+    "#hash_2687e4f2cbcf1393": [],
+    "#hash_78b34127ab1edf37": false,
+    "#servermessages": [
+        "#skillselectleft": {
+            "#name": "#skillselectleft",
+            "#script_notify": "SkillSelectLeft"
+        },
+        "#skillselectrightsfx": {
+            "#name": "#skillselectrightsfx",
+            "#script_notify": "SkillSelectRightSFX"
+        },
+        "#skillselectleftsfx": {
+            "#name": "#skillselectleftsfx",
+            "#script_notify": "SkillSelectLeftSFX"
+        },
+        "#skillselectright": {
+            "#name": "#skillselectright",
+            "#script_notify": "SkillSelectRight"
+        }
+    ],
+    "#requirepath": "ui.generated.widgets.ingame.scriptedwidgetobskillselect",
+    "#luafile": "ui/generated/widgets/ingame/scriptedwidgetobskillselect.lua",
+    "#children": [],
+    "#rendertargetheight": 1024,
+    "#presetsettings": {
+        "#gamemodepresets": [],
+        "#gametypepresets": [],
+        "#presetsettings": {
+            "#hudeditor": {
+                "#verticalanchor": "Middle",
+                "#horizontalanchor": "Center",
+                "#y": 0,
+                "#x": 0
+            },
+            "#position": {
+                "#verticalanchor": "Middle",
+                "#horizontalanchor": "Center",
+                "#enabled": false,
+                "#y": 0,
+                "#x": 0
+            }
+        },
+        "#projectpresets": []
+    },
+    "#hash_5c4d4c8a712b02d1": 1024,
+    "#datasets": [],
+    "#hash_d195d4ddcd19301f": false,
+    "#interactions": [
+        {
+            "#consumeinput": true,
+            "#ui_bindings": [],
+            "#hash_21e776937ed3cbf3": false,
+            "#gamepad_buttons": [
+                {
+                    "#button": "#dpadleft"
+                }
+            ],
+            "#bindings": [
+                {
+                    "#hash_f9900555ae6e6995": "KBM",
+                    "#bind": "gobblegum1"
+                }
+            ],
+            "#reference": "#hash_b66ff4655a8fef0d",
+            "#lui_event": "#hash_cfd0199942e7eda",
+            "#kbm_buttons": []
+        },
+        {
+            "#consumeinput": true,
+            "#ui_bindings": [],
+            "#hash_21e776937ed3cbf3": false,
+            "#gamepad_buttons": [
+                {
+                    "#button": "#dpadright"
+                }
+            ],
+            "#bindings": [
+                {
+                    "#hash_f9900555ae6e6995": "KBM",
+                    "#bind": "gobblegum2"
+                }
+            ],
+            "#reference": "#hash_b66ff1655a8fe9f4",
+            "#lui_event": "#hash_cfd0099942e7d27",
+            "#kbm_buttons": []
+        },
+        {
+            "#consumeinput": true,
+            "#ui_bindings": [],
+            "#hash_21e776937ed3cbf3": false,
+            "#gamepad_buttons": [
+                {
+                    "#button": "#dpadleft",
+                    "#down": true
+                }
+            ],
+            "#hideinui": true,
+            "#bindings": [],
+            "#kbm_buttons": []
+        },
+        {
+            "#consumeinput": true,
+            "#ui_bindings": [],
+            "#hash_21e776937ed3cbf3": false,
+            "#gamepad_buttons": [
+                {
+                    "#button": "#dpadright",
+                    "#down": true
+                }
+            ],
+            "#hideinui": true,
+            "#bindings": [],
+            "#kbm_buttons": []
+        }
+    ],
+    "#hash_4b1a5b31df97c7a8": false,
+    "#widget": "#hash_b5917dfe454b98bb",
+    "#states": [],
+    "#hash_b53f419bce569890": false,
+    "#normalgameplay": true,
+    "#assets": [
+        {
+            "#variant_object": {
+                "#value": "scripts/mp/ob/ob_skill_select.gsc",
+                "#type": "GscObjProperty"
+            },
+            "#variant_type": "Types_GscObjProperty"
+        }
+    ]
+}

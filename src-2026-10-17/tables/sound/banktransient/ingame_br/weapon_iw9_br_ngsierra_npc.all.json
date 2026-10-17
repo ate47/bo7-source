@@ -1,0 +1,962 @@
+{
+    "name": "#weapon_iw9_br_ngsierra_npc.all",
+    "unk8": "#hash_bdef352cb7db0ac6",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#weap_ngsierra_fcg_deadtrig_npc",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/iw8_kilo121/weap_kilo121_prefire_npc_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fcg_dryfire_npc",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/lm_ngolf7/weap_ngolf7_fcg_dryfire_npc.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fcg_prefire_npc",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fcg_prefire_npc_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fcg_prefire_npc_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fcg_prefire_npc_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fcg_prefire_npc_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fcg_prefire_npc_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fcg_prefire_npc_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc",
+            "aliases": [
+                {
+                    "name": "#weap_ngsierra_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_07.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_08.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_ngsierra_fire_npc_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/br/weap_br_fire_npc_atmo_int_cls2_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/br/weap_br_fire_npc_atmo_int_cls2_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/br/weap_br_fire_npc_atmo_int_cls2_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/br/weap_br_fire_npc_atmo_int_cls2_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/br/weap_br_fire_npc_atmo_int_cls2_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/br/weap_br_fire_npc_atmo_int_cls2_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/br/weap_br_fire_npc_atmo_int_cls2_07.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/br/weap_br_fire_npc_atmo_int_cls2_08.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_dist",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_dist_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_dist_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_dist_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_dist_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_dist_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_dist_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_ngsierra_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_dist_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_dist_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_dist_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_dist_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_dist_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_dist_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_dist_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_dist1_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_dist1_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_dist1_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_dist1_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_far",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_far_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_far_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_far_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_far_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_far_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_far_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_far_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_ngsierra_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_far_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_far_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_far_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_far_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_far_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_far_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_far_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_far_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_far1_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_far1_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_far1_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_far1_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/lm_ngolf7/weap_ngolf7_fire_plr_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_mech",
+            "aliases": [
+                {
+                    "name": "#weap_ngsierra_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_mech_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_mech_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_mech_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_mech_07.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_mech_08.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_med",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_med_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_med_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_med_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_med_07.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/br_ngsierra/weap_ngsierra_fire_npc_med_08.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#weap_ngsierra_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_med_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_med_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_med_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_med_07.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#weap_ngsierra_fire_npc_med_atmo_int",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/br/weap_br_fire_npc_atmo_ext1_med_08.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_ngsierra_fire_npc_med_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_med1_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_med1_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_med1_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_med1_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_med1_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/lmg/weap_lmg_fire_npc_atmo_int_med1_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7fc14475fa6d8a98",
+            "aliases": [
+                {
+                    "name": "#hash_b6622161b1162ac0",
+                    "sndAsset": "#core/fly/mount/mount_exit_side_falpha_vestlight_plr.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "name": "#hash_b6622161b1162ac0",
+                    "sndAsset": "#core/fly/mount/mount_exit_side_mike4_vestlight_plr.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_b6622161b1162ac0",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw8_mkilo3/wfoly_lm_mkilo3_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw8_mkilo3/wfoly_lm_mkilo3_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ff8bbdb1dacd1ace",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ff8bbcb1dacd191b",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ff8bbbb1dacd1768",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_rotate1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ff8bc2b1dacd234d",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ff8bc1b1dacd219a",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ff8bc0b1dacd1fe7",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ff8bbfb1dacd1e34",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a5c40d9d47f6499c",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_empty_raise.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a5c4109d47f64eb5",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a5c40f9d47f64d02",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_empty_mvmnt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a5c40a9d47f64483",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a5c4099d47f642d0",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a5c40c9d47f647e9",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a5c4169d47f658e7",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_empty_boltrelease.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a5c4159d47f65734",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_ngsierra/p42_ar_ngsierra_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        }
+    ]
+}

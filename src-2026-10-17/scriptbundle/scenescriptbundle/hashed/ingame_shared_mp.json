@@ -1,0 +1,2180 @@
+{
+    "#hash_28ad5418b39b68d": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "body_c_sat_scorestreak_pl_juggerbot_base",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#xanimset": "playerasm_scenepatch_sat_scorestreak_remote_robot",
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_423dc3e955f2bb2e": true,
+                            "#hash_53f05d59f875d63d": -1,
+                            "#hash_53f05c59f875d40a": -1,
+                            "#hash_6d1caa948c9f0eb3": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_mp_juggerbot_death_long@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamfirstperson": false,
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep",
+                            "#hash_2f48c14c4400c4e8": true
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#disablehud": true,
+        "#hash_6f8870069a3470b8": true,
+        "#bool_gameplay": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#gamemode": "MP",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_11b3fe50b35ebe9a": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameraanimation": "c_t10_killstreak_gunboat_fail_cam",
+                            "#hash_b296b7b37154feec": true,
+                            "#deltaanimations": [],
+                            "#xcamfirstperson": false,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomposite_t10_npc_pilot_chopper",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_t10_killstreak_gunboat_fail_pilot@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "body_c_t10_npc_pilot_chopper",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_t10_killstreak_gunboat_fail_player@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_t10_mil_air_gunboat_streak",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 3",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_fail_heli@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_bomb_igc",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 4",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_fail_bomb@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_bomb_sled_igc",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 5",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_fail_sled@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_lever_overhead",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 6",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_fail_lever_o@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_lever_hallway",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 7",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_fail_lever_h@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_flightstick_right",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 8",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_fail_flightstick_r@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_flightstick_left",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 9",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_fail_flightstick_l@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_cockpit",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 10",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_fail_cockpit@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_fcu",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 11",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_fail_fcu@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_1c2d2fe54eb2dffc": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_sat_mil_air_missile_hellstorm_full",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_killstreak_hellstorm_missile@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_missile_drone",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_killstreak_hellstorm_drone@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 6.2,
+                            "#cameraanimation": "sat_killstreak_hellstorm_cam",
+                            "#hash_b296b7b37154feec": true,
+                            "#playerviewarcenabled": false,
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_66e170b4aea88741": "ScriptModelPlayAnimDeltaMotionFromPos",
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_1f19dd1825f9490e": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#cameraanimation": "t10_killstreak_hellstorm_cam",
+                            "#cameratweenout": 1,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_wm_offhand_2h_rcxd_remote_idle@sbundle"
+                                    }
+                                },
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_wm_offhand_2h_rcxd_remote_idle@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_66e170b4aea88741": "ScriptModelPlayAnimDeltaMotionFromPos",
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_233ba8d8efdfca56": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_missile_drone",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#hash_53f05d59f875d63d": -144,
+                    "#hash_53f05c59f875d40a": 122,
+                    "#hash_53f05a59f875cfa4": -16,
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_killstreak_hellstorm_drone@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 0.2,
+                            "#cameraanimation": "t10_killstreak_hellstorm_cam",
+                            "#playerviewarcenabled": false,
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "mp_vehicles_always_loaded",
+                        "id": 0
+                    },
+                    "#vehiclename": "veh_hellstorm_missile_no_pod_sat_mp",
+                    "#name": "Vehicle 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "sat_killstreak_hellstorm_missile@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Vehicle"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_66e170b4aea88741": "ScriptModelPlayAnimDeltaMotionFromPos",
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_46e90689821262e6": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameraanimation": "c_t10_killstreak_gunboat_win_cam",
+                            "#hash_b296b7b37154feec": true,
+                            "#deltaanimations": [],
+                            "#xcamfirstperson": false,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomposite_t10_npc_pilot_chopper",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_t10_killstreak_gunboat_win_pilot@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "body_c_t10_npc_pilot_chopper",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_t10_killstreak_gunboat_win_player@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_t10_mil_air_gunboat_streak",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 3",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_heli@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "jup_urz_military_parachute_green_01_small_rig",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 6",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_para@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_bomb",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 4",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_bomb@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_bomb_sled",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 5",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_sled@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_cockpit",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 7",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_cockpit@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_fcu",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 9",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_fcu@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_flightstick_left",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 8",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_flightstick_l@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_flightstick_right",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 10",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_flightstick_r@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_lever_hallway",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 11",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_lever_h@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_lever_overhead",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 12",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_win_lever_o@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_4d1ff0d1ba0fa247": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameraanimation": "c_t10_killstreak_gunboat_intro_cam",
+                            "#hash_b296b7b37154feec": true,
+                            "#deltaanimations": [],
+                            "#xcamfirstperson": false,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomposite_t10_npc_pilot_chopper",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_t10_killstreak_gunboat_intro_pilot@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "body_c_t10_npc_pilot_chopper",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_t10_killstreak_gunboat_intro_player@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_t10_mil_air_gunboat_streak",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 3",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_intro_heli@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_bomb",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 4",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_intro_bomb@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_bomb_sled",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 5",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_intro_sled@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_cockpit",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 6",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_intro_cockpit@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_fcu",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 7",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_intro_fcu@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_flightstick_left",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 8",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_intro_flightstick_l@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_flightstick_right",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 9",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_intro_flightstick_r@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_lever_hallway",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 10",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_intro_lever_h@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_air_gunboat_interior_lever_overhead",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 11",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "v_t10_killstreak_gunboat_intro_lever_o@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_4fe594af2f9c6c3e": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#strictmatching": true,
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_flyover01_plane_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#strictmatching": true,
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_flyover01_plane_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 3",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_flyover01_plane_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 4",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_flyover01_plane_04@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 5",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_flyover01_plane_05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_5d3755ee15e09515": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "fb_c_t10_usa_pl_bravo_infiltration",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_mstr_mangler_3p_transformation_out@sbundle"
+                                    }
+                                }
+                            ],
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "t10_mstr_mangler_wm_trans_02@sbundle"
+                                    }
+                                }
+                            ],
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_0"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_01"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_7cc175d2920b0279": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 3",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 4",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_04@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 5",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 6",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_06@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 7",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_07@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 8",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_08@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 9",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_09@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "xcomp_veh_sat_mil_air_fighter",
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 10",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.2,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_plane_10@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_eu_air_fighter_missile",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 11",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_missle_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_eu_air_fighter_missile",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 12",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_missle_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_eu_air_fighter_missile",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 13",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_missle_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "veh_t10_mil_eu_air_fighter_missile",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 14",
+                    "#hash_d1335435398e3292": false,
+                    "#hash_da1c2996594b92b9": false,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "veh_t10_killstreak_air_patrol_dogfight_missle_04@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_6f8870069a3470b8": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_7fa3a4447dda2db0": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                    "#xmodelname": "body_c_sat_usa_pl_jack_base",
+                    "#animtree": {
+                        "name": "playerasm",
+                        "id": 0
+                    },
+                    "#xanimset": "playerasm_scenepatch_sat_freeze_tag_player",
+                    "#name": "Player 1",
+                    "#hash_48fa36b226f2899a": "",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_423dc3e955f2bb2e": true,
+                            "#float_blendtime": 5,
+                            "#hash_53f05d59f875d63d": -1,
+                            "#hash_53f05c59f875d40a": -1,
+                            "#hash_6d1caa948c9f0eb3": true,
+                            "#hash_ff1ed4febc62f24e": true,
+                            "#deltaanimations": [
+                                {
+                                    "#alternateanimations": [],
+                                    "#hash_a629058043fe3322": [],
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "iw9_mp_me_fists_stand_idle_01@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamfirstperson": false,
+                            "#weaponswitch": false,
+                            "#hash_d80380fae060f057": -1,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            }
+        ],
+        "#hash_f5afe1a75546822c": "stream_profile_scene",
+        "#hash_53f05c59f875d40a": -1,
+        "#disablehud": true,
+        "#hash_6f8870069a3470b8": true,
+        "#bool_looping": true,
+        "#bool_gameplay": true,
+        "#hash_2f4981e3dd60abe4": "None",
+        "#gamemode": "MP",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    }
+}

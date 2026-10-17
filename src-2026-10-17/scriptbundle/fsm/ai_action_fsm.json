@@ -1,0 +1,3885 @@
+{
+    "#graph": {
+        "#connection_list": [
+            {
+                "#hash_1f7d4774da606629": "v6T2A",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "0L8Cx",
+                "#hash_494d280d4addea9d": "cChnA",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "X3YDF",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "0L8Cx",
+                "#hash_494d280d4addea9d": "8E3CN",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "4ijBs",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "0L8Cx",
+                "#hash_494d280d4addea9d": "/CiDS",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "(U/Gi",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_RunNGunRequirements"
+                                    },
+                                    "#variant_type": "Types_AICondition_RunNGunRequirements"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_MovingCoverToCover"
+                                    },
+                                    "#variant_type": "Types_AICondition_MovingCoverToCover"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_ShortPath",
+                                        "#hash_3a282411d8ef90d9": 300
+                                    },
+                                    "#variant_type": "Types_AICondition_ShortPath"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_938aeca6191b46b0": 400,
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#hash_85e7ecf950b059e1": 1500,
+                                        "#typename": "AICondition_NearTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_NearTarget"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_SpeedReached",
+                                        "#hash_e4f835c147aaf6a3": 15
+                                    },
+                                    "#variant_type": "Types_AICondition_SpeedReached"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "QhS*v",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "a?Puv",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_TimeInState",
+                                        "#m_duration": 8000
+                                    },
+                                    "#variant_type": "Types_AICondition_TimeInState"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "QhS*v",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "w#J/!",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "NCondition_StateFinished"
+                                    },
+                                    "#variant_type": "Types_NCondition_StateFinished"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "bb&Q0",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "NkM=q",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "yCmEX",
+                "#hash_494d280d4addea9d": "8>4SP",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "Jg.40",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#hash_27ac6bb6749ce49": 30,
+                                        "#typename": "AICondition_MovedAtLeast"
+                                    },
+                                    "#variant_type": "Types_AICondition_MovedAtLeast"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "8E3CN",
+                "#hash_494d280d4addea9d": "8>4SP",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "HaCa#",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Arriving"
+                                    },
+                                    "#variant_type": "Types_AICondition_Arriving"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": ")jf$g",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "}*gme",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#m_eventname": "strafe_finished",
+                            "#typename": "AITransition_FSMEvent",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition_FSMEvent"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "TBDoG",
+                "#hash_494d280d4addea9d": "b6(fP",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "zAu2K",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AIMoveTransition_PrepareStrafeTransitionTimeout",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AIMoveTransition_PrepareStrafeTransitionTimeout"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "TBDoG",
+                "#hash_494d280d4addea9d": "b6(fP",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": ".IKr>",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_PlayingSharpTurn"
+                                    },
+                                    "#variant_type": "Types_AICondition_PlayingSharpTurn"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "&F9yh",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "zk&:r",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_PlayingSharpTurn"
+                                    },
+                                    "#variant_type": "Types_AICondition_PlayingSharpTurn"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "&F9yh",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "(#kVk",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Arriving"
+                                    },
+                                    "#variant_type": "Types_AICondition_Arriving"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": ")jf$g",
+                "#hash_494d280d4addea9d": "QhS*v",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "tfr6F",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_Arriving"
+                                    },
+                                    "#variant_type": "Types_AICondition_Arriving"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "]u0jn",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "dJ1D&",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_Arriving"
+                                    },
+                                    "#variant_type": "Types_AICondition_Arriving"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": ")jf$g",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "X/3!L",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "*HSeU",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "Cmo/R",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_PlayingStrafeToForward"
+                                    },
+                                    "#variant_type": "Types_AICondition_PlayingStrafeToForward"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "TBDoG",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": ">[YK5",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_938aeca6191b46b0": 400,
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#hash_85e7ecf950b059e1": 500,
+                                        "#typename": "AICondition_NearTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_NearTarget"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_8cd812e89913fe62": 100,
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_ApproachingTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_ApproachingTarget"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_CanShootTarget"
+                                    },
+                                    "#variant_type": "Types_AICondition_CanShootTarget"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_MayStrafeElectively"
+                                    },
+                                    "#variant_type": "Types_AICondition_MayStrafeElectively"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "/CiDS",
+                "#hash_494d280d4addea9d": ".W&1J",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "JLQ?$",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "8E3CN",
+                "#hash_494d280d4addea9d": "yCmEX",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "(+6tr",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_ShortPath",
+                                        "#hash_3a282411d8ef90d9": 150
+                                    },
+                                    "#variant_type": "Types_AICondition_ShortPath"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "QhS*v",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "At!={",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_OnStairs"
+                                    },
+                                    "#variant_type": "Types_AICondition_OnStairs"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "]bEYF",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "B..p5",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_OnStairs"
+                                    },
+                                    "#variant_type": "Types_AICondition_OnStairs"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "]bEYF",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "oHO<#",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": ":v2}B",
+                "#hash_494d280d4addea9d": "QhS*v",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "n>5Z$",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "QhS*v",
+                "#hash_494d280d4addea9d": ":v2}B",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "*sG7s",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_938aeca6191b46b0": 400,
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#hash_85e7ecf950b059e1": 350,
+                                        "#typename": "AICondition_NearTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_NearTarget"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "cChnA",
+                "#hash_494d280d4addea9d": ".W&1J",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "3>njc",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_DoingReacquire"
+                                    },
+                                    "#variant_type": "Types_AICondition_DoingReacquire"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Sp9F2",
+                "#hash_494d280d4addea9d": "p5Za.",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "eBVyN",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": ".W&1J",
+                "#hash_494d280d4addea9d": "Sp9F2",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "zsypt",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "b6(fP",
+                "#hash_494d280d4addea9d": "Sp9F2",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "q5nj5",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_8cd812e89913fe62": 150,
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_ApproachingTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_ApproachingTarget"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Sp9F2",
+                "#hash_494d280d4addea9d": "/CiDS",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "soIzs",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_938aeca6191b46b0": 400,
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#hash_85e7ecf950b059e1": 1300,
+                                        "#typename": "AICondition_NearTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_NearTarget"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Sp9F2",
+                "#hash_494d280d4addea9d": "/CiDS",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "JONtG",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": ".W&1J",
+                "#hash_494d280d4addea9d": "*UkEx",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "2^+DW",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_938aeca6191b46b0": 400,
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#hash_85e7ecf950b059e1": 420,
+                                        "#typename": "AICondition_NearTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_NearTarget"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Sp9F2",
+                "#hash_494d280d4addea9d": "cChnA",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "8A9<0",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Arriving"
+                                    },
+                                    "#variant_type": "Types_AICondition_Arriving"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "]u0jn",
+                "#hash_494d280d4addea9d": "0L8Cx",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "m.8+h",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_StrafeRequirements"
+                                    },
+                                    "#variant_type": "Types_AICondition_StrafeRequirements"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "0L8Cx",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "gHsq[",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_TimeInState",
+                                        "#m_duration": 750
+                                    },
+                                    "#variant_type": "Types_AICondition_TimeInState"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Sp9F2",
+                "#hash_494d280d4addea9d": "8E3CN",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "Yu?Aa",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_ShortPath",
+                                        "#hash_3a282411d8ef90d9": 350
+                                    },
+                                    "#variant_type": "Types_AICondition_ShortPath"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": ".W&1J",
+                "#hash_494d280d4addea9d": "Lee1D",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": ">%n8:",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_ShortPath",
+                                        "#hash_3a282411d8ef90d9": 200
+                                    },
+                                    "#variant_type": "Types_AICondition_ShortPath"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Lee1D",
+                "#hash_494d280d4addea9d": "Sp9F2",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "M-:%u",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_IsSuppressed"
+                                    },
+                                    "#variant_type": "Types_AICondition_IsSuppressed"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_ShortPath",
+                                        "#hash_3a282411d8ef90d9": 400
+                                    },
+                                    "#variant_type": "Types_AICondition_ShortPath"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_30728b14ac31babb": -1,
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#hash_293dfb2e5b1bda24": "danger_strafe_cooldown",
+                                        "#typename": "NCondition_CheckTimer"
+                                    },
+                                    "#variant_type": "Types_NCondition_CheckTimer"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_MayStrafeElectively"
+                                    },
+                                    "#variant_type": "Types_AICondition_MayStrafeElectively"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "GqAi1",
+                "#hash_494d280d4addea9d": ".W&1J",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "D-Q<0",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "0L8Cx",
+                "#hash_494d280d4addea9d": "GqAi1",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "</&wp",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_TimeInState",
+                                        "#m_duration": 3000
+                                    },
+                                    "#variant_type": "Types_AICondition_TimeInState"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Sp9F2",
+                "#hash_494d280d4addea9d": "GqAi1",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "ReH#9",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_HasShuffleNode"
+                                    },
+                                    "#variant_type": "Types_AICondition_HasShuffleNode"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=2edM",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "5Prpv",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_HasShuffleNode"
+                                    },
+                                    "#variant_type": "Types_AICondition_HasShuffleNode"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "=2edM",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "@Ik/2",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_CanShootTarget"
+                                    },
+                                    "#variant_type": "Types_AICondition_CanShootTarget"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Sp9F2",
+                "#hash_494d280d4addea9d": "/CiDS",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "YAjfs",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_IsInCover"
+                                    },
+                                    "#variant_type": "Types_AICondition_IsInCover"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "[c1*%",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "A0qsE",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_IsInCover"
+                                    },
+                                    "#variant_type": "Types_AICondition_IsInCover"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "[c1*%",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "+wSK/",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_StrafeRequirements"
+                                    },
+                                    "#variant_type": "Types_AICondition_StrafeRequirements"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "*UkEx",
+                "#hash_494d280d4addea9d": ">5cta",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "8HpL7",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": ">5cta",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "fQO1E",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": ">5cta",
+                "#hash_494d280d4addea9d": "[c1*%",
+                "#name": "strafe_exit"
+            },
+            {
+                "#hash_1f7d4774da606629": "-?wLt",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_DoingReacquire"
+                                    },
+                                    "#variant_type": "Types_AICondition_DoingReacquire"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "p5Za.",
+                "#hash_494d280d4addea9d": ">5cta",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "bht{j",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_SpeedReached",
+                                        "#hash_e4f835c147aaf6a3": 15
+                                    },
+                                    "#variant_type": "Types_AICondition_SpeedReached"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "}ZmNK",
+                "#hash_494d280d4addea9d": "*UkEx",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "4k0+/",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_MayStrafeElectively"
+                                    },
+                                    "#variant_type": "Types_AICondition_MayStrafeElectively"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_938aeca6191b46b0": 400,
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#hash_85e7ecf950b059e1": 1500,
+                                        "#typename": "AICondition_NearTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_NearTarget"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_CanShootTarget"
+                                    },
+                                    "#variant_type": "Types_AICondition_CanShootTarget"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "8>4SP",
+                "#hash_494d280d4addea9d": "}ZmNK",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "[*]$G",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_ShortPath",
+                                        "#hash_3a282411d8ef90d9": 200
+                                    },
+                                    "#variant_type": "Types_AICondition_ShortPath"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "m]2l(",
+                "#hash_494d280d4addea9d": "}ZmNK",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "@8e.5",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "<w7).",
+                "#hash_494d280d4addea9d": "m]2l(",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "^nb@I",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Lee1D",
+                "#hash_494d280d4addea9d": "<w7).",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "!L.OP",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_SpeedReached",
+                                        "#hash_e4f835c147aaf6a3": 30
+                                    },
+                                    "#variant_type": "Types_AICondition_SpeedReached"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Lee1D",
+                "#hash_494d280d4addea9d": "m]2l(",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "G2nDp",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Arriving"
+                                    },
+                                    "#variant_type": "Types_AICondition_Arriving"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "]u0jn",
+                "#hash_494d280d4addea9d": "Lee1D",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": ".!+IX",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_ShortPath",
+                                        "#hash_3a282411d8ef90d9": 0
+                                    },
+                                    "#variant_type": "Types_AICondition_ShortPath"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "Lee1D",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "vB.Ud",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_NearCorner",
+                                        "#hash_dc3868946749e7ff": 300
+                                    },
+                                    "#variant_type": "Types_AICondition_NearCorner"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_CanShootTarget"
+                                    },
+                                    "#variant_type": "Types_AICondition_CanShootTarget"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_3b0e47f2269e174b": 0,
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_FacingPathDirection"
+                                    },
+                                    "#variant_type": "Types_AICondition_FacingPathDirection"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "b*@$y",
+                "#hash_494d280d4addea9d": "Qs3m>",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "qr+wh",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_NearCorner",
+                                        "#hash_dc3868946749e7ff": 325
+                                    },
+                                    "#variant_type": "Types_AICondition_NearCorner"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Sp9F2",
+                "#hash_494d280d4addea9d": "b*@$y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "6bjW%",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_ScrambleRequested"
+                                    },
+                                    "#variant_type": "Types_AICondition_ScrambleRequested"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "0t!#^",
+                "#hash_494d280d4addea9d": "}ZmNK",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "XDl4Z",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "zvP}$",
+                "#hash_494d280d4addea9d": "0t!#^",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "ZYE^!",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "none",
+                                        "#hash_27ac6bb6749ce49": 200,
+                                        "#typename": "AICondition_MovedAtLeast"
+                                    },
+                                    "#variant_type": "Types_AICondition_MovedAtLeast"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "r$X^:",
+                "#hash_494d280d4addea9d": "0t!#^",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "c)&mC",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "r$X^:",
+                "#hash_494d280d4addea9d": "zvP}$",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "B%{Vx",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "FIyER",
+                "#hash_494d280d4addea9d": "r$X^:",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "]FZ84",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Arriving"
+                                    },
+                                    "#variant_type": "Types_AICondition_Arriving"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "bq9pF",
+                "#hash_494d280d4addea9d": "FIyER",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "brf0P",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_ScrambleRequested"
+                                    },
+                                    "#variant_type": "Types_AICondition_ScrambleRequested"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "FIyER",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "VmYDe",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_Arriving"
+                                    },
+                                    "#variant_type": "Types_AICondition_Arriving"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "bq9pF",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "OmTL{",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "cc])y",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "0mt9#",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "*HSeU",
+                "#hash_494d280d4addea9d": "cc])y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "}{nT{",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_ScrambleRequested"
+                                    },
+                                    "#variant_type": "Types_AICondition_ScrambleRequested"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_938aeca6191b46b0": 400,
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#hash_85e7ecf950b059e1": 350,
+                                        "#typename": "AICondition_NearTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_NearTarget"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "zvP}$",
+                "#hash_494d280d4addea9d": "cc])y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "0UPe(",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_ScrambleRequested"
+                                    },
+                                    "#variant_type": "Types_AICondition_ScrambleRequested"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "r$X^:",
+                "#hash_494d280d4addea9d": ".W&1J",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "uF/SC",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_WantsMove"
+                                    },
+                                    "#variant_type": "Types_AICondition_WantsMove"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "E+[@/",
+                "#name": "stationary_to_move_default"
+            },
+            {
+                "#hash_1f7d4774da606629": "*#ib@",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_GoalReached"
+                                    },
+                                    "#variant_type": "Types_AICondition_GoalReached"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "E+[@/",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": "move_default_to_stationary"
+            },
+            {
+                "#hash_1f7d4774da606629": "G?FG)",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_938aeca6191b46b0": 400,
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#hash_85e7ecf950b059e1": 350,
+                                        "#typename": "AICondition_NearTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_NearTarget"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "FIyER",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "]i6##",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_ScrambleRequested"
+                                    },
+                                    "#variant_type": "Types_AICondition_ScrambleRequested"
+                                },
+                                {
+                                    "#variant_object": {
+                                        "#hash_938aeca6191b46b0": 400,
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#hash_85e7ecf950b059e1": 350,
+                                        "#typename": "AICondition_NearTarget",
+                                        "#hash_2810365c656db84c": true
+                                    },
+                                    "#variant_type": "Types_AICondition_NearTarget"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "r$X^:",
+                "#hash_494d280d4addea9d": "=iL^Y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "NX2V^",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_StrafeForced"
+                                    },
+                                    "#variant_type": "Types_AICondition_StrafeForced"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "*UkEx",
+                "#hash_494d280d4addea9d": ">5cta",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "+JgMd",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_StrafeForced"
+                                    },
+                                    "#variant_type": "Types_AICondition_StrafeForced"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "K(XzE",
+                "#hash_494d280d4addea9d": "}ZmNK",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "}%Mu?",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_SpeedReached",
+                                        "#hash_e4f835c147aaf6a3": 30
+                                    },
+                                    "#variant_type": "Types_AICondition_SpeedReached"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "i}$JV",
+                "#hash_494d280d4addea9d": "K(XzE",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "d/7$H",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Arriving"
+                                    },
+                                    "#variant_type": "Types_AICondition_Arriving"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "]u0jn",
+                "#hash_494d280d4addea9d": "i}$JV",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "q#er#",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_StrafeForced"
+                                    },
+                                    "#variant_type": "Types_AICondition_StrafeForced"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "=iL^Y",
+                "#hash_494d280d4addea9d": "i}$JV",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "sQ^ko",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_StrafeForced"
+                                    },
+                                    "#variant_type": "Types_AICondition_StrafeForced"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "i}$JV",
+                "#hash_494d280d4addea9d": ".W&1J",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "%lzG?",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "ap{yT",
+                "#hash_494d280d4addea9d": "K(XzE",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "1}&^v",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "no",
+                                        "#typename": "AICondition_Exiting"
+                                    },
+                                    "#variant_type": "Types_AICondition_Exiting"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "i}$JV",
+                "#hash_494d280d4addea9d": "ap{yT",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "r2dts",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": [
+                                {
+                                    "#variant_object": {
+                                        "#hash_55fcc2bfb2972bb8": "yes",
+                                        "#typename": "AICondition_StrafeForced"
+                                    },
+                                    "#variant_type": "Types_AICondition_StrafeForced"
+                                }
+                            ]
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "*UkEx",
+                "#hash_494d280d4addea9d": "0L8Cx",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "n9Nr7",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "0L8Cx",
+                "#hash_494d280d4addea9d": "b*@$y",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "*ZRZW",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Qs3m>",
+                "#hash_494d280d4addea9d": "8E3CN",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "rUi.c",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Qs3m>",
+                "#hash_494d280d4addea9d": "GqAi1",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "qXELb",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Qs3m>",
+                "#hash_494d280d4addea9d": "cChnA",
+                "#name": ""
+            },
+            {
+                "#hash_1f7d4774da606629": "itH0<",
+                "#transition_list": [
+                    {
+                        "#variant_object": {
+                            "#typename": "AITransition",
+                            "#m_conditions": []
+                        },
+                        "#variant_type": "Types_AITransition"
+                    }
+                ],
+                "#hash_ec7898bcc45d1f69": "Qs3m>",
+                "#hash_494d280d4addea9d": "i}$JV",
+                "#name": ""
+            }
+        ],
+        "#name": "",
+        "#fsm_list": [
+            {
+                "#variant_object": {
+                    "#typename": "AIActionFSM"
+                },
+                "#variant_type": "Types_AIActionFSM"
+            }
+        ],
+        "#node_list": [
+            {
+                "#variant_object": {
+                    "#yoffset": -247.62779,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "move_default",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "arriving",
+                                "#createid": "HaCa#"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "in_cover",
+                                "#createid": "YAjfs"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "try_runNGun",
+                                "#createid": "(U/Gi"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "shuffle",
+                                "#createid": "ReH#9"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "corner_approach",
+                                "#createid": "lrw{z"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "sharp_turn",
+                                "#createid": ".IKr>"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "on_stairs",
+                                "#createid": "At!={"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "strafe",
+                                "#createid": "8HpL7"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "exiting",
+                                "#createid": "OmTL{"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "scrambling",
+                                "#createid": "]i6##"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "reached_goal",
+                                "#createid": "*#ib@"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -498.6032,
+                    "#createid": "=iL^Y"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -568.2169,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Animscripted",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Animscripted"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "animscripted",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "E>go]"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -202.40488,
+                    "#createid": "8.pW-"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 36.925602,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Traversal_Approach",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Traversal_Approach"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "traversal_approach",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "QDZWA"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -555.8215,
+                    "#createid": "yD<-+"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 208.55423,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_fallback",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "C11s%"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -582.6692,
+                    "#createid": "hBPLi"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 796.78845,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_PrepareTransition",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_PrepareTransition"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_prepare_transition",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "finished",
+                                "#createid": "}*gme"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "timeout",
+                                "#createid": "zAu2K"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 1100.3351,
+                    "#createid": "b6(fP"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 1081.9875,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_near_target",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "near_target_check_end",
+                                "#createid": "v6T2A"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "too_far",
+                                "#createid": "2^+DW"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "near_corner",
+                                "#createid": "qXELb"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -99.697296,
+                    "#createid": "cChnA"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 684.99536,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_engage_and_turn",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "check_end",
+                                "#createid": "X3YDF"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "engage_time_completed",
+                                "#createid": "gHsq["
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "near_corner",
+                                "#createid": "*ZRZW"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 559.62366,
+                    "#createid": "8E3CN"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 521.6365,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_check_end_pass",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "arriving",
+                                "#createid": "8A9<0"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "forced",
+                                "#createid": "r2dts"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "failed",
+                                "#createid": "m.8+h"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 1192.2546,
+                    "#createid": "0L8Cx"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 788.48145,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_approaching_target",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "check_end",
+                                "#createid": "4ijBs"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "not_approaching",
+                                "#createid": "q5nj5"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "too_far",
+                                "#createid": "soIzs"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "cant_shoot",
+                                "#createid": "@Ik/2"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 122.95573,
+                    "#createid": "/CiDS"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 630.1662,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [
+                                    {
+                                        "#variant_object": {
+                                            "#m_flags": "run_on_state_enter_pre",
+                                            "#typename": "AISnippet_SaveCurrentPos"
+                                        },
+                                        "#variant_type": "Types_AISnippet_SaveCurrentPos"
+                                    }
+                                ],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_from_stationary",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "started_moving",
+                                "#createid": "Jg.40"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "exiting",
+                                "#createid": "NkM=q"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 117.50031,
+                    "#createid": "8>4SP"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 1044.5659,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_short_path",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "arriving",
+                                "#createid": "G2nDp"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "path_not_short",
+                                "#createid": "Yu?Aa"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "no_path",
+                                "#createid": ".!+IX"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 458.27634,
+                    "#createid": "Lee1D"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 305.372,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_reacquiring",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "done",
+                                "#createid": "3>njc"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -317.37137,
+                    "#createid": "p5Za."
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -506.96588,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_RunNGun",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_RunNGun"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "run_n_gun_to_cover",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "exiting",
+                                "#createid": "oHO<#"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "arrive_to_cover",
+                                "#createid": "(#kVk"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "short_path",
+                                "#createid": "(+6tr"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "runNgun_timeout",
+                                "#createid": "a?Puv"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -715.2979,
+                    "#createid": "QhS*v"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -327.9722,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Traversal",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Traversal"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "traversal",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "w#J/!"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -757.5716,
+                    "#createid": "bb&Q0"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 711.27374,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_exiting",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "JLQ?$"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 320.97772,
+                    "#createid": "yCmEX"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 138.04254,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#hash_c8ad790b03bd0a63": false,
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_MaintainFaceMotionPrediction",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_MaintainFaceMotionPrediction"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "bypass",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "txhFp"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -552.1702,
+                    "#createid": "<-93["
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -244.95453,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "arriving",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "dJ1D&"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -760.88354,
+                    "#createid": ")jf$g"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -169.24998,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "exiting",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "X/3!L"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -764.3202,
+                    "#createid": "*HSeU"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 815.8654,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_to_forward",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "not_playing",
+                                "#createid": "Cmo/R"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 1291.6372,
+                    "#createid": "TBDoG"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -83.46689,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "sharp_turn",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "zk&:r"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -764.7874,
+                    "#createid": "&F9yh"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 483.05106,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_arriving",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "tfr6F"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 1515.0046,
+                    "#createid": "]u0jn"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 734.6679,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_mid_move_pass",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "forced",
+                                "#createid": "sQ^ko"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "approaching_target",
+                                "#createid": ">[YK5"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "check_near_target",
+                                "#createid": "*sG7s"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "scramble",
+                                "#createid": "0UPe("
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "danger",
+                                "#createid": "M-:%u"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -122.173805,
+                    "#createid": ".W&1J"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 3.6055245,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "on_stairs",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "B..p5"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -748.76465,
+                    "#createid": "]bEYF"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -582.828,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "run_n_gun_exiting",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "n>5Z$"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -458.1219,
+                    "#createid": ":v2}B"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 626.945,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_speed_pass",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "from_stationary",
+                                "#createid": "bht{j"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "mid_move",
+                                "#createid": "JONtG"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -317.7321,
+                    "#createid": "*UkEx"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 677.8735,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_done_pass",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "short_path",
+                                "#createid": ">%n8:"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "mid_move",
+                                "#createid": "eBVyN"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "prepare_transition",
+                                "#createid": "zsypt"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 947.9222,
+                    "#createid": "Sp9F2"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 916.2124,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [
+                                    {
+                                        "#variant_object": {
+                                            "#m_flags": "run_on_state_exit_post",
+                                            "#m_duration_ms": 3000,
+                                            "#hash_293dfb2e5b1bda24": "danger_strafe_cooldown",
+                                            "#typename": "NSnippet_SetTimer"
+                                        },
+                                        "#variant_type": "Types_NSnippet_SetTimer"
+                                    }
+                                ],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_danger",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "check_end",
+                                "#createid": "D-Q<0"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "engage_time_completed",
+                                "#createid": "</&wp"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "near_corner",
+                                "#createid": "rUi.c"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 124.26514,
+                    "#createid": "GqAi1"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -408.28043,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "shuffle",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "5Prpv"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -753.6952,
+                    "#createid": "=2edM"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 184.38736,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "in_cover",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "forward_exit",
+                                "#createid": "A0qsE"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "fQO1E"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -756.0302,
+                    "#createid": "[c1*%"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 395.896,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_start_passthrough",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "strafe_forced",
+                                "#createid": "NX2V^"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "strafe_reacquiring",
+                                "#createid": "-?wLt"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "try_strafe",
+                                "#createid": "+wSK/"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -526.6623,
+                    "#createid": ">5cta"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 584.60034,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_from_stationary_pass",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "forced",
+                                "#createid": "+JgMd"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "check_near_corner",
+                                "#createid": "gg^^p"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "short_path",
+                                "#createid": "[*]$G"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "scrambling",
+                                "#createid": "6bjW%"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "can_shoot_meet_reqs",
+                                "#createid": "4k0+/"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -119.775536,
+                    "#createid": "}ZmNK"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 543.9181,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_from_stationary_short_path",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "started_moving",
+                                "#createid": "!L.OP"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "exiting",
+                                "#createid": "@8e.5"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 159.54198,
+                    "#createid": "m]2l("
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 579.0289,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_exiting_short_path",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "^nb@I"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 392.27655,
+                    "#createid": "<w7)."
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 1063.3097,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_near_corner_passthrough",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "should_strafe_near_corner",
+                                "#createid": "vB.Ud"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 785.1072,
+                    "#createid": "Qs3m>"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 1096.2489,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_NearCorner",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_NearCorner"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_near_corner",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "check_end",
+                                "#createid": "n9Nr7"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "not_near_corner",
+                                "#createid": "qr+wh"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 1000.9594,
+                    "#createid": "b*@$y"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 396.84137,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "scramble_passthrough",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "can_exit",
+                                "#createid": "XDl4Z"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "start_move",
+                                "#createid": "ZYE^!"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -50.851532,
+                    "#createid": "0t!#^"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 302.73627,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Scrambling",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Scrambling"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "scramble_exiting",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "exit_done",
+                                "#createid": "c)&mC"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 55.689087,
+                    "#createid": "zvP}$"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 385.87128,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Scrambling",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Scrambling"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "scramble_moving",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "check_scramble_end",
+                                "#createid": "B%{Vx"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 164.86497,
+                    "#createid": "r$X^:"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 278.79794,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Scrambling",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Scrambling"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "scramble_arrival",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "arriving",
+                                "#createid": "VmYDe"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 523.31683,
+                    "#createid": "bq9pF"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 306.51917,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "scramble_end_check",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "arriving",
+                                "#createid": "]FZ84"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "very_near_target",
+                                "#createid": "G?FG)"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "failed",
+                                "#createid": "brf0P"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 336.2815,
+                    "#createid": "FIyER"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -77.51393,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "NState_Passthrough",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_NState_Passthrough"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "exit_type_passthrough",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "scrambling",
+                                "#createid": "}{nT{"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "default",
+                                "#createid": "0mt9#"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -498.96457,
+                    "#createid": "cc])y"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": -458.0264,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "disabled",
+                                "#typename": "AIMoveState_Stationary",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Stationary"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "stationary",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "wants_move",
+                                "#createid": "uF/SC"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": -277.33707,
+                    "#createid": "E+[@/"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 474.74734,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_from_stationary_forced",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "exiting",
+                                "#createid": "%lzG?"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "started_moving",
+                                "#createid": "}%Mu?"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 443.1246,
+                    "#createid": "K(XzE"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 491.5049,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_forced",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "arriving",
+                                "#createid": "d/7$H"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "not_forced",
+                                "#createid": "q#er#"
+                            },
+                            "#variant_type": "Types_Property"
+                        },
+                        {
+                            "#variant_object": {
+                                "#name": "near_corner",
+                                "#createid": "itH0<"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 856.5698,
+                    "#createid": "i}$JV"
+                },
+                "#variant_type": "Types_PropertyNode"
+            },
+            {
+                "#variant_object": {
+                    "#yoffset": 588.5178,
+                    "#statedata": [
+                        {
+                            "#variant_object": {
+                                "#hash_11b57ab171ff3564": [],
+                                "#m_flags": "",
+                                "#typename": "AIMoveState_Strafe_Default",
+                                "#m_conditions": [],
+                                "#hash_327be15feca4f262": ""
+                            },
+                            "#variant_type": "Types_AIMoveState_Strafe_Default"
+                        }
+                    ],
+                    "#headercolor": "0.1960784 0.1960784 0.1960784 1",
+                    "#name": "strafe_forced_exiting",
+                    "#property_list": [
+                        {
+                            "#variant_object": {
+                                "#name": "",
+                                "#createid": "1}&^v"
+                            },
+                            "#variant_type": "Types_Property"
+                        }
+                    ],
+                    "#xoffset": 602.2843,
+                    "#createid": "ap{yT"
+                },
+                "#variant_type": "Types_PropertyNode"
+            }
+        ]
+    },
+    "#overlays": [
+        {
+            "#hash_1260d3eb22c37961": "%#hash_2abfda0a0506cfd5",
+            "#categoryname": "cornercheck"
+        }
+    ]
+}

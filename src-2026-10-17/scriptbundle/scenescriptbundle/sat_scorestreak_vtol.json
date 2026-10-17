@@ -1,0 +1,67 @@
+{
+    "#objects": [
+        {
+            "#variant_object": {
+                "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                "#xmodelname": "tag_origin_animate",
+                "#animtree": {
+                    "name": "playerasm",
+                    "id": 0
+                },
+                "#name": "Player 1",
+                "#hash_48fa36b226f2899a": "",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#cameraanimation": "c_sat_mp_scorestreak_vtol",
+                        "#hash_b296b7b37154feec": true,
+                        "#deltaanimations": [],
+                        "#xcamfirstperson": false,
+                        "#weaponswitch": false,
+                        "#weaponuse": "Keep"
+                    }
+                ]
+            },
+            "#variant_type": "Types_Player"
+        },
+        {
+            "#variant_object": {
+                "#disabled": true,
+                "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                "#animtree": {
+                    "name": "mp_vehicles_always_loaded",
+                    "id": 0
+                },
+                "#vehiclename": "veh_sat_vtol_warship_mp",
+                "#name": "VTOL",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "v_sat_mp_scorestreak_vtol@sbundle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "#variant_type": "Types_Vehicle"
+        }
+    ],
+    "#hash_f5afe1a75546822c": "stream_profile_scene",
+    "#hash_6f8870069a3470b8": true,
+    "#hash_2f4981e3dd60abe4": "None",
+    "#shots": [
+        {
+            "#variant_object": {
+                "#name": "shot_010"
+            },
+            "#variant_type": "Types_Shot"
+        }
+    ]
+}

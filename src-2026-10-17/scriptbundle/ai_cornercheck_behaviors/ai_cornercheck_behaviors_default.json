@@ -1,0 +1,1456 @@
+{
+    "#m_specs": [
+        {
+            "#movespecs": [],
+            "#decelwindows": [
+                {
+                    "#speed": 80,
+                    "#minspeedvalid": 75,
+                    "#sources": "",
+                    "#maxdist": 200,
+                    "#maxspeedvalid": 250,
+                    "#types": "shallow",
+                    "#mindist": 75,
+                    "#maxdecel": 400
+                }
+            ],
+            "#combined": [
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0.3,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0.3,
+                        "#hash_ac4746b229ea1b53": 0.3,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 80,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "aim_only",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 90,
+                        "#hash_2f02497f06fa98ef": 90,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0.5,
+                        "#planedistance_clear": 24,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "aim_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 70,
+                        "#hash_2f02497f06fa98ef": 70,
+                        "#hash_919ee88d1cac77f2": 250,
+                        "#hash_bda46812fe9267d5": 300,
+                        "#hash_8737eca3e3b99ec": 60,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 170,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 200,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                },
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 1,
+                        "#hash_e4ddf62ce11d3bd7": 1,
+                        "#hash_427f1fd1a61c6e6e": 0,
+                        "#hash_c70a00d0a48020cc": 1,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0,
+                        "#hash_ac4746b229ea1b53": 0,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 60,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "strafe_only",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 120,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 24,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "strafe_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 200,
+                        "#hash_bda46812fe9267d5": 200,
+                        "#hash_8737eca3e3b99ec": 60,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 170,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 200,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                },
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0.3,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0.3,
+                        "#hash_ac4746b229ea1b53": 0.3,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 49,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 75,
+                        "#types": "shallow",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 24,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "shallow",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "cornercheck_shallow_fast",
+                        "#hash_46ca1db72a9f8c11": 75,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 250,
+                        "#hash_bda46812fe9267d5": 128,
+                        "#hash_8737eca3e3b99ec": 45,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 135,
+                        "#maxspeed": 90,
+                        "#hash_1fef55a1e386d44b": 80,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 75,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 1,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 48
+                    }
+                }
+            ],
+            "#validations": [],
+            "#hash_9b57de8479d1fafa": [],
+            "#animtests": [],
+            "#allowedtypes": "shallow,aim_only,strafe_only",
+            "#hash_c636644531ad6fcc": [
+                {
+                    "#hash_e695cfcf9d85bbf3": 0.8,
+                    "#sources": "",
+                    "#hash_cb369386102f3211": 1500,
+                    "#hash_a71080edb98ee034": 500,
+                    "#hash_e1ba84bda70cd3ff": 0,
+                    "#hash_b26820919df3a6c4": 3000,
+                    "#types": "shallow,strafe_only",
+                    "#minspeed": 0,
+                    "#hash_16034ceb42cb22c": 0
+                }
+            ],
+            "#actions": [],
+            "#query": {
+                "#hash_a9533759c786cef7": 300,
+                "#hash_152a7ed8b562e525": true,
+                "#pathsamples": [
+                    {
+                        "#hash_a6104875d4badc69": 109
+                    },
+                    {
+                        "#hash_a6104875d4badc69": 203
+                    },
+                    {
+                        "#hash_a6104875d4badc69": 304
+                    }
+                ],
+                "#hash_9a7e8752181545f": 300,
+                "#hash_b75bd666b750d506": 130,
+                "#sources": "cover,path",
+                "#hash_3a8798f124412ab2": 500,
+                "#mindisttogoal": 100
+            },
+            "#hash_f2728b4c1a5b5508": 6,
+            "#name": "default"
+        },
+        {
+            "#movespecs": [],
+            "#decelwindows": [
+                {
+                    "#speed": 80,
+                    "#minspeedvalid": 75,
+                    "#sources": "",
+                    "#maxdist": 200,
+                    "#maxspeedvalid": 250,
+                    "#types": "shallow",
+                    "#mindist": 75,
+                    "#maxdecel": 400
+                }
+            ],
+            "#combined": [
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0.3,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0.3,
+                        "#hash_ac4746b229ea1b53": 0.3,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 80,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 90,
+                        "#hash_2f02497f06fa98ef": 90,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0.5,
+                        "#planedistance_clear": 24,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "aim_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 70,
+                        "#hash_2f02497f06fa98ef": 70,
+                        "#hash_919ee88d1cac77f2": 250,
+                        "#hash_bda46812fe9267d5": 300,
+                        "#hash_8737eca3e3b99ec": 60,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 170,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 200,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                },
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 1,
+                        "#hash_e4ddf62ce11d3bd7": 1,
+                        "#hash_427f1fd1a61c6e6e": 0,
+                        "#hash_c70a00d0a48020cc": 1,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0,
+                        "#hash_ac4746b229ea1b53": 0,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 60,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "strafe_only",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 120,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 24,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "strafe_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 200,
+                        "#hash_bda46812fe9267d5": 200,
+                        "#hash_8737eca3e3b99ec": 60,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 170,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 200,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                },
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0.3,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0.3,
+                        "#hash_ac4746b229ea1b53": 0.3,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 49,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 75,
+                        "#types": "shallow",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 24,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "shallow",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "cautious_shallow_corner_check",
+                        "#hash_46ca1db72a9f8c11": 75,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 250,
+                        "#hash_bda46812fe9267d5": 128,
+                        "#hash_8737eca3e3b99ec": 45,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 135,
+                        "#maxspeed": 50,
+                        "#hash_1fef55a1e386d44b": 80,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 1,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 48
+                    }
+                }
+            ],
+            "#validations": [
+                {
+                    "#hash_2c47efd1442c232f": 90,
+                    "#asmstatename": "cornercheck_shallow_fast",
+                    "#hash_46ca1db72a9f8c11": 75,
+                    "#hash_9b8cc820dabefca4": 180,
+                    "#hash_2f02497f06fa98ef": 180,
+                    "#hash_919ee88d1cac77f2": 250,
+                    "#hash_bda46812fe9267d5": 128,
+                    "#hash_8737eca3e3b99ec": 45,
+                    "#hash_8ec4afa3bcfca724": 64,
+                    "#hash_63ab8914f23b2577": 135,
+                    "#maxspeed": 90,
+                    "#hash_1fef55a1e386d44b": 150,
+                    "#sources": "",
+                    "#types": "shallow",
+                    "#hash_73768ab2073ac995": 0,
+                    "#minspeed": 75,
+                    "#requiretarget": false
+                }
+            ],
+            "#hash_9b57de8479d1fafa": [],
+            "#animtests": [],
+            "#allowedtypes": "shallow,aim_only,strafe_only",
+            "#hash_c636644531ad6fcc": [],
+            "#actions": [],
+            "#query": {
+                "#hash_a9533759c786cef7": 300,
+                "#hash_152a7ed8b562e525": true,
+                "#pathsamples": [
+                    {
+                        "#hash_a6104875d4badc69": 64
+                    }
+                ],
+                "#hash_9a7e8752181545f": 300,
+                "#hash_b75bd666b750d506": 130,
+                "#sources": "cover,path",
+                "#hash_3a8798f124412ab2": 400,
+                "#mindisttogoal": 100
+            },
+            "#hash_f2728b4c1a5b5508": 6,
+            "#name": "combat_default"
+        },
+        {
+            "#movespecs": [],
+            "#decelwindows": [],
+            "#combined": [
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0,
+                        "#hash_ac4746b229ea1b53": 0,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 40,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_8ec4afa3bcfca724": 64,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 8,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "strafe_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 1000,
+                        "#hash_bda46812fe9267d5": 1000,
+                        "#hash_8737eca3e3b99ec": 180,
+                        "#hash_8ec4afa3bcfca724": 64,
+                        "#hash_63ab8914f23b2577": 180,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 300,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                }
+            ],
+            "#validations": [],
+            "#hash_9b57de8479d1fafa": [],
+            "#animtests": [],
+            "#allowedtypes": "strafe_only",
+            "#hash_c636644531ad6fcc": [],
+            "#actions": [],
+            "#query": {
+                "#hash_a9533759c786cef7": 300,
+                "#hash_152a7ed8b562e525": false,
+                "#pathsamples": [
+                    {
+                        "#hash_a6104875d4badc69": 64
+                    }
+                ],
+                "#hash_9a7e8752181545f": 300,
+                "#hash_b75bd666b750d506": 180,
+                "#sources": "path",
+                "#hash_3a8798f124412ab2": 400,
+                "#mindisttogoal": 0
+            },
+            "#hash_f2728b4c1a5b5508": 6,
+            "#name": "check_doorways"
+        },
+        {
+            "#movespecs": [],
+            "#decelwindows": [
+                {
+                    "#speed": 80,
+                    "#minspeedvalid": 75,
+                    "#sources": "",
+                    "#maxdist": 200,
+                    "#maxspeedvalid": 250,
+                    "#types": "shallow",
+                    "#mindist": 75,
+                    "#maxdecel": 400
+                }
+            ],
+            "#combined": [
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0,
+                        "#hash_ac4746b229ea1b53": 0,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 40,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_8ec4afa3bcfca724": 0,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 8,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "shallow",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 1000,
+                        "#hash_bda46812fe9267d5": 128,
+                        "#hash_8737eca3e3b99ec": 180,
+                        "#hash_8ec4afa3bcfca724": 0,
+                        "#hash_63ab8914f23b2577": 180,
+                        "#maxspeed": 200,
+                        "#hash_1fef55a1e386d44b": 300,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                }
+            ],
+            "#validations": [
+                {
+                    "#hash_2c47efd1442c232f": 90,
+                    "#asmstatename": "cornercheck_shallow_fast",
+                    "#hash_46ca1db72a9f8c11": 75,
+                    "#hash_9b8cc820dabefca4": 180,
+                    "#hash_2f02497f06fa98ef": 180,
+                    "#hash_919ee88d1cac77f2": 250,
+                    "#hash_bda46812fe9267d5": 128,
+                    "#hash_8737eca3e3b99ec": 45,
+                    "#hash_8ec4afa3bcfca724": 64,
+                    "#hash_63ab8914f23b2577": 135,
+                    "#maxspeed": 90,
+                    "#hash_1fef55a1e386d44b": 150,
+                    "#sources": "",
+                    "#types": "shallow",
+                    "#hash_73768ab2073ac995": 0,
+                    "#minspeed": 75,
+                    "#requiretarget": false
+                }
+            ],
+            "#hash_9b57de8479d1fafa": [],
+            "#animtests": [],
+            "#allowedtypes": "shallow",
+            "#hash_c636644531ad6fcc": [],
+            "#actions": [],
+            "#query": {
+                "#hash_a9533759c786cef7": 300,
+                "#hash_152a7ed8b562e525": false,
+                "#pathsamples": [
+                    {
+                        "#hash_a6104875d4badc69": 64
+                    }
+                ],
+                "#hash_9a7e8752181545f": 300,
+                "#hash_b75bd666b750d506": 180,
+                "#sources": "cover",
+                "#hash_3a8798f124412ab2": 400,
+                "#mindisttogoal": 0
+            },
+            "#hash_f2728b4c1a5b5508": 0,
+            "#name": "elevator_exit"
+        },
+        {
+            "#movespecs": [],
+            "#decelwindows": [
+                {
+                    "#speed": 80,
+                    "#minspeedvalid": 75,
+                    "#sources": "",
+                    "#maxdist": 200,
+                    "#maxspeedvalid": 250,
+                    "#types": "shallow",
+                    "#mindist": 75,
+                    "#maxdecel": 400
+                }
+            ],
+            "#combined": [
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0,
+                        "#hash_ac4746b229ea1b53": 0,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 90,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_8ec4afa3bcfca724": 64,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 8,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "strafe_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 250,
+                        "#hash_bda46812fe9267d5": 1000,
+                        "#hash_8737eca3e3b99ec": 180,
+                        "#hash_8ec4afa3bcfca724": 64,
+                        "#hash_63ab8914f23b2577": 180,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 300,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                }
+            ],
+            "#validations": [
+                {
+                    "#hash_2c47efd1442c232f": 90,
+                    "#asmstatename": "cornercheck_shallow_fast",
+                    "#hash_46ca1db72a9f8c11": 75,
+                    "#hash_9b8cc820dabefca4": 180,
+                    "#hash_2f02497f06fa98ef": 180,
+                    "#hash_919ee88d1cac77f2": 250,
+                    "#hash_bda46812fe9267d5": 128,
+                    "#hash_8737eca3e3b99ec": 45,
+                    "#hash_8ec4afa3bcfca724": 64,
+                    "#hash_63ab8914f23b2577": 135,
+                    "#maxspeed": 90,
+                    "#hash_1fef55a1e386d44b": 150,
+                    "#sources": "",
+                    "#types": "shallow",
+                    "#hash_73768ab2073ac995": 0,
+                    "#minspeed": 75,
+                    "#requiretarget": false
+                }
+            ],
+            "#hash_9b57de8479d1fafa": [],
+            "#animtests": [],
+            "#allowedtypes": "strafe_only",
+            "#hash_c636644531ad6fcc": [],
+            "#actions": [
+                {
+                    "#hash_cb8989ca1cda2f69": 2,
+                    "#hash_9b8cc820dabefca4": 180,
+                    "#hash_2f02497f06fa98ef": 180,
+                    "#hash_8ec4afa3bcfca724": 0,
+                    "#sources": "",
+                    "#hash_f084853170486121": 300,
+                    "#hash_c3853dab8b90925e": 0,
+                    "#planedistance_clear": 8,
+                    "#types": "strafe_only"
+                }
+            ],
+            "#query": {
+                "#hash_a9533759c786cef7": 300,
+                "#hash_152a7ed8b562e525": false,
+                "#pathsamples": [
+                    {
+                        "#hash_a6104875d4badc69": 64
+                    }
+                ],
+                "#hash_9a7e8752181545f": 300,
+                "#hash_b75bd666b750d506": 180,
+                "#sources": "cover",
+                "#hash_3a8798f124412ab2": 400,
+                "#mindisttogoal": 0
+            },
+            "#hash_f2728b4c1a5b5508": 0,
+            "#name": "elevator_exit_strafe"
+        },
+        {
+            "#movespecs": [],
+            "#decelwindows": [],
+            "#combined": [
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0.3,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0.3,
+                        "#hash_ac4746b229ea1b53": 0.3,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 80,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "aim_only",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 93,
+                        "#hash_2f02497f06fa98ef": 90,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0.5,
+                        "#planedistance_clear": 24,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "aim_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 70,
+                        "#hash_2f02497f06fa98ef": 70,
+                        "#hash_919ee88d1cac77f2": 1000,
+                        "#hash_bda46812fe9267d5": 1000,
+                        "#hash_8737eca3e3b99ec": 180,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 170,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 400,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                },
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 1,
+                        "#hash_e4ddf62ce11d3bd7": 1,
+                        "#hash_427f1fd1a61c6e6e": 0,
+                        "#hash_c70a00d0a48020cc": 1,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0,
+                        "#hash_ac4746b229ea1b53": 0,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 60,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "strafe_only",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 120,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#sources": "",
+                        "#hash_f084853170486121": 49,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 12,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "strafe_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 1000,
+                        "#hash_bda46812fe9267d5": 1000,
+                        "#hash_8737eca3e3b99ec": 180,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 170,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 400,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                },
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0.3,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0.3,
+                        "#hash_ac4746b229ea1b53": 0.3,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 49,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 174,
+                        "#maxspeedvalid": 200,
+                        "#types": "shallow",
+                        "#mindist": 0,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_8ec4afa3bcfca724": 0,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 24,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "shallow",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "cautious_shallow_corner_check",
+                        "#hash_46ca1db72a9f8c11": 75,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 1000,
+                        "#hash_bda46812fe9267d5": 1000,
+                        "#hash_8737eca3e3b99ec": 180,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 135,
+                        "#maxspeed": 50,
+                        "#hash_1fef55a1e386d44b": 400,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 1,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 48
+                    }
+                }
+            ],
+            "#validations": [
+                {
+                    "#hash_2c47efd1442c232f": 90,
+                    "#asmstatename": "cornercheck_shallow_fast",
+                    "#hash_46ca1db72a9f8c11": 75,
+                    "#hash_9b8cc820dabefca4": 180,
+                    "#hash_2f02497f06fa98ef": 180,
+                    "#hash_919ee88d1cac77f2": 250,
+                    "#hash_bda46812fe9267d5": 128,
+                    "#hash_8737eca3e3b99ec": 45,
+                    "#hash_8ec4afa3bcfca724": 64,
+                    "#hash_63ab8914f23b2577": 135,
+                    "#maxspeed": 250,
+                    "#hash_1fef55a1e386d44b": 150,
+                    "#sources": "",
+                    "#types": "shallow",
+                    "#hash_73768ab2073ac995": 0,
+                    "#minspeed": 75,
+                    "#requiretarget": false
+                }
+            ],
+            "#hash_9b57de8479d1fafa": [],
+            "#animtests": [],
+            "#allowedtypes": "shallow,aim_only,strafe_only",
+            "#hash_c636644531ad6fcc": [],
+            "#actions": [],
+            "#query": {
+                "#hash_a9533759c786cef7": 300,
+                "#hash_152a7ed8b562e525": true,
+                "#pathsamples": [
+                    {
+                        "#hash_a6104875d4badc69": 64
+                    },
+                    {
+                        "#hash_a6104875d4badc69": 128
+                    },
+                    {
+                        "#hash_a6104875d4badc69": 200
+                    }
+                ],
+                "#hash_9a7e8752181545f": 300,
+                "#hash_b75bd666b750d506": 130,
+                "#sources": "cover,path",
+                "#hash_3a8798f124412ab2": 400,
+                "#mindisttogoal": 100
+            },
+            "#hash_f2728b4c1a5b5508": 0,
+            "#name": "test_everything"
+        },
+        {
+            "#movespecs": [],
+            "#decelwindows": [
+                {
+                    "#speed": 80,
+                    "#minspeedvalid": 75,
+                    "#sources": "",
+                    "#maxdist": 200,
+                    "#maxspeedvalid": 250,
+                    "#types": "shallow",
+                    "#mindist": 75,
+                    "#maxdecel": 400
+                }
+            ],
+            "#combined": [
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0.3,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0.3,
+                        "#hash_ac4746b229ea1b53": 0.3,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 80,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "aim_only",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 90,
+                        "#hash_2f02497f06fa98ef": 90,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0.5,
+                        "#planedistance_clear": 24,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "aim_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 70,
+                        "#hash_2f02497f06fa98ef": 70,
+                        "#hash_919ee88d1cac77f2": 250,
+                        "#hash_bda46812fe9267d5": 300,
+                        "#hash_8737eca3e3b99ec": 60,
+                        "#hash_8ec4afa3bcfca724": 32,
+                        "#hash_63ab8914f23b2577": 170,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 200,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                },
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 0,
+                        "#hash_427f1fd1a61c6e6e": 0.3,
+                        "#hash_c70a00d0a48020cc": 0,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0.3,
+                        "#hash_ac4746b229ea1b53": 0.3,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 90,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_8ec4afa3bcfca724": 64,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 8,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "strafe_only",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 250,
+                        "#hash_bda46812fe9267d5": 128,
+                        "#hash_8737eca3e3b99ec": 45,
+                        "#hash_8ec4afa3bcfca724": 64,
+                        "#hash_63ab8914f23b2577": 180,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 150,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                },
+                {
+                    "#visibility": {
+                        "#hash_b2258f948f524ad7": 0,
+                        "#hash_e4ddf62ce11d3bd7": 1,
+                        "#hash_427f1fd1a61c6e6e": 0.3,
+                        "#hash_c70a00d0a48020cc": 1,
+                        "#sources": "",
+                        "#hash_15ae0e1b5ce70b68": 0.5,
+                        "#hash_ac4746b229ea1b53": 0.5,
+                        "#types": "",
+                        "#hash_ea09440a6381e05d": 6
+                    },
+                    "#decelwindow": {
+                        "#speed": 100,
+                        "#minspeedvalid": 0,
+                        "#sources": "",
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 120,
+                        "#types": "",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    },
+                    "#action": {
+                        "#hash_cb8989ca1cda2f69": 8,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_8ec4afa3bcfca724": 64,
+                        "#sources": "",
+                        "#hash_f084853170486121": 300,
+                        "#hash_c3853dab8b90925e": 0,
+                        "#planedistance_clear": 8,
+                        "#types": ""
+                    },
+                    "#sources": "",
+                    "#movement": {
+                        "#sources": "",
+                        "#circlecorner": false,
+                        "#hash_33523dad1c2cbe33": 80,
+                        "#hash_33523ead1c2cc066": 160,
+                        "#types": ""
+                    },
+                    "#types": "shallow",
+                    "#validation": {
+                        "#hash_2c47efd1442c232f": 90,
+                        "#asmstatename": "",
+                        "#hash_46ca1db72a9f8c11": 0,
+                        "#hash_9b8cc820dabefca4": 180,
+                        "#hash_2f02497f06fa98ef": 180,
+                        "#hash_919ee88d1cac77f2": 250,
+                        "#hash_bda46812fe9267d5": 128,
+                        "#hash_8737eca3e3b99ec": 45,
+                        "#hash_8ec4afa3bcfca724": 64,
+                        "#hash_63ab8914f23b2577": 180,
+                        "#maxspeed": 250,
+                        "#hash_1fef55a1e386d44b": 150,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_73768ab2073ac995": 0,
+                        "#minspeed": 0,
+                        "#requiretarget": false
+                    },
+                    "#animtest": {
+                        "#hash_4f8274eec88ffa26": -0.2,
+                        "#hash_4fa586eec8b66974": 0.2,
+                        "#sources": "",
+                        "#types": "",
+                        "#hash_aad1fb6704dd3e74": 0,
+                        "#hash_6256040b33f46e30": 2,
+                        "#planedistance_max": 25
+                    }
+                }
+            ],
+            "#validations": [
+                {
+                    "#hash_2c47efd1442c232f": 90,
+                    "#asmstatename": "cornercheck_shallow_fast",
+                    "#hash_46ca1db72a9f8c11": 75,
+                    "#hash_9b8cc820dabefca4": 180,
+                    "#hash_2f02497f06fa98ef": 180,
+                    "#hash_919ee88d1cac77f2": 250,
+                    "#hash_bda46812fe9267d5": 128,
+                    "#hash_8737eca3e3b99ec": 45,
+                    "#hash_8ec4afa3bcfca724": 64,
+                    "#hash_63ab8914f23b2577": 135,
+                    "#maxspeed": 90,
+                    "#hash_1fef55a1e386d44b": 150,
+                    "#sources": "",
+                    "#types": "shallow",
+                    "#hash_73768ab2073ac995": 0,
+                    "#minspeed": 75,
+                    "#requiretarget": false
+                }
+            ],
+            "#hash_9b57de8479d1fafa": [],
+            "#animtests": [],
+            "#allowedtypes": "shallow",
+            "#hash_c636644531ad6fcc": [],
+            "#actions": [],
+            "#query": {
+                "#hash_a9533759c786cef7": 300,
+                "#hash_152a7ed8b562e525": true,
+                "#pathsamples": [
+                    {
+                        "#hash_a6104875d4badc69": 64
+                    }
+                ],
+                "#hash_9a7e8752181545f": 300,
+                "#hash_b75bd666b750d506": 130,
+                "#sources": "cover,path",
+                "#hash_3a8798f124412ab2": 400,
+                "#mindisttogoal": 100
+            },
+            "#hash_f2728b4c1a5b5508": 6,
+            "#name": "counterattack_start"
+        }
+    ]
+}

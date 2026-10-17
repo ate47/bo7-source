@@ -1,0 +1,70 @@
+{
+    "name": "#t10_spawner_zombie_triton",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_triton",
+    "behaviorTreeAsset": "#zombie_triton",
+    "footStepsFxTable": "#hash_c3d322dcdf46e631",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_d178c374e02b0fd0",
+    "dismemberment": "#defaultdismemberment",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_t10_zombie_triton"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/mp/zm/systems/aitypes/zm_zombie_triton.gsc",
+        "#scripts/common/ai/aitypes/zombie_triton/zombie_triton.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\mp\\zm\\systems\\aitypes\\zm_zombie_triton.gsc"
+            },
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_triton\\zombie_triton.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_t10_zombie_triton"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_triton",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_triton",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_triton",
+        "#health": 10000,
+        "#healthbarsettings": "%#",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "t10_zombie_triton_lava_bomb_attack_mp",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_triton",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_triton",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": false,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

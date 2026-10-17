@@ -1,0 +1,125 @@
+{
+    "name": "#sat_spawner_zombie_base_zm_lw",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d8f91164cd3e0a8",
+    "animationStateMachineAsset": "#zombie_base",
+    "behaviorTreeAsset": "#zombie_base",
+    "footStepsFxTable": "#hash_db66910927dc262f",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#aiimpactvfxtable_zombie_base",
+    "particleSystem1": "#hash_8462c4128bfe943a",
+    "particleSystem2": "#hash_8462c4128bfe943a",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#c_sat_zmb_farm_zombie_shirtless_male"
+        },
+        {
+            "character": "#c_sat_zmb_cosmo_zombie_technician_vest"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_shirtless_male_3"
+        },
+        {
+            "character": "#c_sat_zmb_zombie_charred_shorts"
+        },
+        {
+            "character": "#c_sat_zmb_farm_zombie_fem_hoodie_blue"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_patron_flannel_blue"
+        },
+        {
+            "character": "#c_sat_zmb_diner_zombie_patron_flannel_green"
+        },
+        {
+            "character": "#c_sat_zmb_zombie_charred_shorts"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_base/zombie_base.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_base\\zombie_base.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": ""
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_shirtless_male"
+            },
+            {
+                "#character": "c_sat_zmb_cosmo_zombie_technician_vest"
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_shirtless_male_3"
+            },
+            {
+                "#character": "c_sat_zmb_zombie_charred_shorts"
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": "c_sat_zmb_farm_zombie_fem_hoodie_blue"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_patron_flannel_blue"
+            },
+            {
+                "#character": "c_sat_zmb_diner_zombie_patron_flannel_green"
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": "c_sat_zmb_zombie_charred_shorts"
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_base",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_base",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_base_sat",
+        "#health": 100,
+        "#healthbarsettings": "%#hash_348992f1945d8f38",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_ranged_attack_mp",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_base",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_base",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

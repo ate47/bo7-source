@@ -1,0 +1,4387 @@
+{
+    "name": "#weapon_t10_sn_hugo_npc.all",
+    "unk8": "#hash_c127b067b8c32f57",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_sn_hugo_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_drop_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_drop_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_drop_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_drop_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8ccde9684d07c5ca",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_hybrid01_off_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8ccde8684d07c417",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_hybrid01_off_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8ccde7684d07c264",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_hybrid01_off_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e6062f02daf3a080",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_hybrid01_on_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e6063202daf3a599",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_hybrid01_on_close.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e6063102daf3a3e6",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_hybrid01_on_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext01_16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6e970e6445790b45",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_ext02_16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast01_16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_empty_fast02_16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_empty_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7581c3cee12f4fd2",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7581c4cee12f5185",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_7581c1cee12f4c6c",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_ext02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a006c4c397ccc082",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_a006c3c397ccbecf",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9416c59e3e726b7d",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9416c49e3e7269ca",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9416c39e3e726817",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_inspect_fast02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_95b884a365d77e8d",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_95b881a365d77974",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_inspect_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_raise_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_raise_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_raise_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_raise_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_raise_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_raise_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_328228e349f40b54",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_raise_quick_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_rechamber_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_rechamber_stat.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_rechamber_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_rechamber_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_rechamber_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_rechamber_bolt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_rechamber_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_rechamber_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_rechamber_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_rechamber_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext01_16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_ext02_16",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast01_15",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_empty_fast02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_empty_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext01_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_ext02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_ext02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast01_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_reload_fast02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_reload_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_02_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_253a1cf17170e177",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_f93312eb1006cbc8",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_03_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_ext01_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext01_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_ext01_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext01_01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_ext01_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext01_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_ext01_02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext01_02_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8a946102741b0f70",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext01_02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e0fa2f0a0f84d6ab",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext01_03_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_ext02_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext02_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_ext02_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext02_01_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_ext02_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext02_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8c1116974c9b769e",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext02_02_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8c1117974c9b7851",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext02_02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_35ab498fb131b116",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_ext02_03_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_fast01_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_fast01_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_fast01_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_fast01_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fdfb17e8f88706f8",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_fast01_02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_26c60eddadacb37c",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_fast01_03_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_fast02_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_fast02_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_sn_hugo_transition_reload_empty_fast02_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_fast02_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_468236e9be18a509",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_fast02_02_lift.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_468235e9be18a356",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_fast02_02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_1d4a3ff5089626a5",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/reloads/fly_plr_sn_hugo_transition_reload_empty_fast02_03_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#weap_hdromeo_dryfire_npc",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_a8fcb60fddcca056",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc",
+            "aliases": [
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_mech",
+                    "sndAsset": "#hash_f43355a978db0394",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_mech",
+                    "sndAsset": "#hash_e591e722b3f178d3",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_mech",
+                    "sndAsset": "#hash_8a063ecfa5340abe",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_mech",
+                    "sndAsset": "#hash_ff89dc04b79cc0c5",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_mech",
+                    "sndAsset": "#hash_c2db51c33e4619c8",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_mech",
+                    "sndAsset": "#hash_afc3cf6569e87827",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc_atmo",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_81e8757b154dcfa1",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_d80e749395b77214",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_939eee4f86c4e6a7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_aeabf4aa1768ab62",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_e364faeed4792f45",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_ef49a876bc8b1a14",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_e0a839eff7a18f53",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_851c919ce8e4213e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_faa02ed1fb4cd745",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_bdf1a49081f63048",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_aada2232ad988ea7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc_dist",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f837a7d79dc07635",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_e85736a3733cbe12",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_b6dacbe4fc5f68f7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_b0b56ce9e4d030fc",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_a2563aa17948d509",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_f468363c1bdc5c66",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc_dist_atmo",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_cafe9420250647ad",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_867064cb750ada4a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_cc2b98538d4f2def",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_fcf4901c78a6c65c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_d989668b374a9449",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_c386dfc5ccb11d26",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_84ee2a2582362549",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_eeeba360179cae26",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_c5cdc4e77e6db67b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_f3039302d8d0b3f0",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_f66357ba6ff1d8ad",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_b1d52865bff66b4a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc_far",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_9dc5df2fe11aea87",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#hash_db42688a154f9ae8",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#hash_bdf0c6f06d42ec45",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#hash_9bd5423700e9f7f6",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#hash_8fd1eb07dcf6f0ab",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#hash_de43b875c01b838c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc_far_atmo",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_b605d4c2a4640103",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_dc8386f833b8b344",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_c2dceba236265851",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_c777ffc61743f7d2",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_bed69322fcaa6fd7",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_f4af0c2023462978",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_fc42db13c1689b22",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_eb4d17600d4fec0d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_ed839d6ffa0ca50c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_919543837da70d4f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_c704c0a1f58fc20e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_aee61adb2c63d439",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#t10/wpn/sniper/hugo/lfe/wpn_sn_hugo_fire_plr_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc_mech",
+            "aliases": [
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_lfe",
+                    "sndAsset": "#hash_becdc7c469121b6e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_lfe",
+                    "sndAsset": "#hash_ed1f752a25bdd711",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_lfe",
+                    "sndAsset": "#hash_9fa2ab6381edeb04",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_lfe",
+                    "sndAsset": "#hash_af34b491c762dd97",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_lfe",
+                    "sndAsset": "#hash_b7d62134e1fc6592",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_sn_hugo_fire_npc_lfe",
+                    "sndAsset": "#hash_d85e7715d65044b5",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc_med",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_ed83df70ef54136d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#hash_91d459e485a7cb0a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#hash_fae3389fd604e48f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#hash_8a836999df7b16b4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#hash_a737eb9ccdd903e1",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#hash_b7659fc455a6ab1e",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_sn_hugo_fire_npc_med_atmo",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_f552ec477182b029",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_a8d423d5ae8ee386",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_cb4598ab97fc0c5b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_ca1d82c5f05035d0",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_aa4108053ae5d80d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_c603ca1fed7c762a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#hash_e0328ef89c6a409b",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_a89a9ce56d1ec47c",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_aada3ff069479a69",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_fb8b1dc8e541606a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_cfe4323f25664a0f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                },
+                {
+                    "sndAsset": "#hash_efa8de347e1f5c10",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe49a5"
+                }
+            ]
+        }
+    ]
+}

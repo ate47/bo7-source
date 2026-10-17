@@ -1,0 +1,2433 @@
+{
+    "#hash_16ded16b45e0c36": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 152,
+            "#fstop": 22,
+            "#targetname": "camera_mp_bundle_preview_riot",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_bundle_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "bundle_preview_riot"
+    },
+    "#hash_2bd96e9c8c7075e": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_character_faction_select_l_detail",
+                "#transitiondata": "%#hash_20dd810161fef5de"
+            },
+            {
+                "#sectionref": "cer_character_faction_select_r",
+                "#transitiondata": "%#hash_32ab3c204776c0b5"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 37,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_6a0ae3717cacbc66",
+        "#basecam": {
+            "#focusdistance": 98,
+            "#fstop": 22,
+            "#targetname": "char_west_b_detail",
+            "#fov": 37
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_faction_select_l"
+    },
+    "#hash_2bda0e9c8c7185c": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_character_faction_select_r_detail",
+                "#transitiondata": "%#hash_3b833d12501e6ba4"
+            },
+            {
+                "#sectionref": "cer_character_faction_select_l",
+                "#transitiondata": "%#hash_56d346305c159612"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 37,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_6a0afd717cace894",
+        "#basecam": {
+            "#focusdistance": 98,
+            "#fstop": 22,
+            "#targetname": "char_east_a_detail",
+            "#fov": 37
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_faction_select_r"
+    },
+    "#hash_302dfc7ab0d3c83": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 16,
+            "#fstop": 21,
+            "#targetname": "camera_mp_gunsmith_preview_charm",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_charm"
+    },
+    "#hash_40fa9aa895cc153": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview_riot",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_customize_riot"
+    },
+    "#hash_498e59416db1753": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 17,
+            "#fstop": 21,
+            "#targetname": "camera_mp_gunsmith_preview_large_charm",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_large_charm"
+    },
+    "#hash_4c1a93dccc89f43": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdatePlayerCharacterShowcase",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {},
+        "#spawnentities": [],
+        "#sectionname": "player_character_showcase"
+    },
+    "#hash_53ab4094a606bbf": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_cer_social",
+                "#transitiondata": "%#hash_32057bbdaa272b3a"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fadeouttime": 0.1,
+            "#fadeintime": 0.15,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 80,
+            "#fstop": 20,
+            "#targetname": "cam_bp_weapon",
+            "#fov": 35
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "bp_weapon_figurine_01",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "battle_pass_weapon"
+    },
+    "#hash_652a94c70c9e40f": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#keepxcam": true,
+            "#callbacktype": "UpdateEntities",
+            "#fadeouttime": 0.025,
+            "#fadeintime": 0.025,
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_5c8f9231ae627907",
+        "#basecam": {
+            "#focusdistance": 51.5,
+            "#fstop": 5,
+            "#targetname": "camera_mp_gunsmith_preview_large",
+            "#fov": 50
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_large"
+    },
+    "#hash_a2bfb40e8c084fc": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_augment_ammomod",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_super",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_perk",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_overview",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_292a041047a30b14",
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 10,
+            "#targetname": "camera_black",
+            "#fov": 50
+        },
+        "#spawnentities": [],
+        "#sectionname": "loadout_augment_research"
+    },
+    "#hash_af5bfde8999abf1": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_social",
+                "#transitiondata": "%#hash_32057bbdaa272b3a"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fadeouttime": 0.1,
+            "#fadeintime": 0.15,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 100,
+            "#fstop": 10,
+            "#fov": 45
+        },
+        "#spawnentities": [],
+        "#sectionname": "battle_pass_items"
+    },
+    "#hash_e231a9419024fea": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_augment_ammomod",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_super",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_perk",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_research",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_6f573ffc8032e7d2",
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 10,
+            "#targetname": "camera_black",
+            "#fov": 50
+        },
+        "#spawnentities": [],
+        "#sectionname": "loadout_augment_overview"
+    },
+    "#hash_10c60d3def0eaf82": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_character_faction_select_r_detail",
+                "#transitiondata": "%#hash_49c6b7adf70cb702"
+            },
+            {
+                "#sectionref": "cer_character_tango",
+                "#transitiondata": "%#hash_49c6b7adf70cb702"
+            },
+            {
+                "#sectionref": "cer_character_faction_select_l",
+                "#transitiondata": "%#hash_1cce517eccf27507"
+            },
+            {
+                "#sectionref": "cer_character_solo",
+                "#transitiondata": "%#hash_49c6b7adf70cb702"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fadeouttime": 0.2,
+            "#fadeintime": 0.2,
+            "#fieldofview": 37,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_5f235a32694d2c8a",
+        "#basecam": {
+            "#focusdistance": 100,
+            "#fstop": 18,
+            "#targetname": "char_west_b",
+            "#fov": 37
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_faction_select_l_detail"
+    },
+    "#hash_10e5aab076bd40fb": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_showcase",
+                "#transitiondata": "%#hash_4ef75f181c6b2fb7"
+            }
+        ],
+        "#defaulttransition": {
+            "#speed": 100,
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Move"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {},
+        "#spawnentities": [],
+        "#sectionname": "barracks"
+    },
+    "#hash_11b24a3a9eaad258": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_customize_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_customize_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_5212338abf673200",
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview_large",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_progression_large"
+    },
+    "#hash_12a0a027bed2ff0d": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_augment_perk",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_super",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_research",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_overview",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_6e5f7b76487e95d5",
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 10,
+            "#targetname": "camera_black",
+            "#fov": 50
+        },
+        "#spawnentities": [],
+        "#sectionname": "loadout_augment_ammomod"
+    },
+    "#hash_14552ee205788078": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 256,
+            "#fstop": 22,
+            "#targetname": "char_tournament_overcam",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_tournaments"
+    },
+    "#hash_159e186709b41acf": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 22,
+            "#targetname": "camera_mp_bundle_preview_large",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_bundle_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "bundle_preview_large"
+    },
+    "#hash_15a9e35c3607fbf7": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#keepxcam": true,
+            "#callbacktype": "UpdateEntities",
+            "#fadeouttime": 0.025,
+            "#fadeintime": 0.025,
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_36de0c317fb8f3ef",
+        "#basecam": {
+            "#focusdistance": 21.5,
+            "#fstop": 8,
+            "#targetname": "camera_mp_gunsmith_preview_secondary",
+            "#fov": 50
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_small"
+    },
+    "#hash_19884a780657e633": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_progression_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_customize_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_customize_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview_large",
+            "#fov": 80
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_preview_large"
+    },
+    "#hash_199cba903264c200": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_customize_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_277bf62b1ac2ffa8",
+        "#basecam": {
+            "#focusdistance": 36,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview_secondary",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_progression_small"
+    },
+    "#hash_1b4d67790b9f2fe8": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 37,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_4c218ce49e5ff10",
+        "#basecam": {
+            "#focusdistance": 98,
+            "#fstop": 22,
+            "#targetname": "char_west_b_detail",
+            "#fov": 37
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_faction_select_l_clone"
+    },
+    "#hash_1cb4b8350fdb960b": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fadeouttime": 0.1,
+            "#fadeintime": 0.15,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 256,
+            "#fstop": 2,
+            "#targetname": "crib_cam_01",
+            "#fov": 65
+        },
+        "#spawnentities": [],
+        "#sectionname": "frontendwalkablescene"
+    },
+    "#hash_1dcbc6a4866b8e91": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_squad_lobby_detail",
+                "#transitiondata": "%#hash_1f4ad814b575aebd"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_ad075e14ac78b49",
+        "#basecam": {
+            "#focusdistance": 100,
+            "#fstop": 3,
+            "#targetname": "char_lobby_detail",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "squad_lobby_dmz"
+    },
+    "#hash_1e1472a74367b03f": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 56,
+            "#fstop": 22,
+            "#targetname": "camera_mp_bundle_preview",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_bundle_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "bundle_preview"
+    },
+    "#hash_223e2ca4d2ff4c68": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_showcase_internal",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_showcase_overview",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_streak_overview",
+                "#transitiondata": "%#hash_59b0c470a840f748"
+            },
+            {
+                "#sectionref": "loadout_streak_select",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#firstxcamindex": 1,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_1d16f9aef8c9df40",
+        "#basecam": {
+            "#focusdistance": 35,
+            "#fstop": 10,
+            "#targetname": "camera_mp_gunsmith_overview",
+            "#fov": 50
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_hq1",
+                "#type": "#clientweapon"
+            },
+            {
+                "#targetname": "weapon_loc_hq2",
+                "#index": 1,
+                "#type": "#clientweapon"
+            },
+            {
+                "#targetname": "weapon_loc_hq3",
+                "#index": 2,
+                "#type": "#clientweapon"
+            },
+            {
+                "#targetname": "weapon_loc_watch",
+                "#index": 3,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_zm"
+    },
+    "#hash_26e40aecfe4c0c61": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 150,
+            "#fstop": 2,
+            "#targetname": "char_social_showcase",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "social_showcase"
+    },
+    "#hash_29a8fd81bd984b3d": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_squad_lobby_detail",
+                "#transitiondata": "%#hash_1f4ad814b575aebd"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_7a27439918a28ae5",
+        "#basecam": {
+            "#targetname": "char_lobby",
+            "#fov": 55
+        },
+        "#spawnentities": [],
+        "#sectionname": "squad_lobby"
+    },
+    "#hash_29aee2c0ca2ece25": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#basecam": {
+            "#focusdistance": 256,
+            "#fstop": 2,
+            "#targetname": "camera_black",
+            "#fov": 45
+        },
+        "#spawnentities": [],
+        "#sectionname": "black_screen"
+    },
+    "#hash_2e177c574531ff86": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_social",
+                "#transitiondata": "%#hash_32057bbdaa272b3a"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fadeouttime": 0.1,
+            "#fadeintime": 0.15,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 170,
+            "#fstop": 20,
+            "#targetname": "cam_bp_character",
+            "#fov": 45
+        },
+        "#spawnentities": [],
+        "#sectionname": "battle_pass_character"
+    },
+    "#hash_3112f56c6e22fafe": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 80,
+            "#fstop": 10,
+            "#targetname": "social_showcase_weapon",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "showcase_weapon"
+    },
+    "#hash_3200f6487e6acb84": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fadeouttime": 0.1,
+            "#fadeintime": 0.15,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 256,
+            "#fstop": 2,
+            "#targetname": "cam_firing_range",
+            "#fov": 65
+        },
+        "#spawnentities": [],
+        "#sectionname": "firingrange"
+    },
+    "#hash_3ab36895f574f676": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_o",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_o_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 152,
+            "#fstop": 16,
+            "#targetname": "camera_mp_gunsmith_preview_riot",
+            "#fov": 80
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_riot"
+    },
+    "#hash_3af4235372a8f40b": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_watch",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 16,
+            "#fstop": 20,
+            "#targetname": "camera_mp_gunsmith_preview_watch",
+            "#fov": 50
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_watch"
+    },
+    "#hash_3dfd9c02ba4e54ab": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_progression_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_customize_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 36,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview_secondary",
+            "#fov": 80
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_preview_small"
+    },
+    "#hash_3f4a00461cec9cd2": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 28,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {},
+        "#spawnentities": [],
+        "#sectionname": "ui_bg_01"
+    },
+    "#hash_416eabded6d6fcd8": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_progression_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_30d004345c03e160",
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview_large",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_customize_large"
+    },
+    "#hash_44a64af6770c0a0a": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 152,
+            "#fstop": 16,
+            "#targetname": "camera_mp_weapon_preview_riot",
+            "#fov": 80
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_preview_riot"
+    },
+    "#hash_46597c0d12fc5780": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_showcase_internal",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_showcase_overview",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_streak_overview",
+                "#transitiondata": "%#hash_59b0c470a840f748"
+            },
+            {
+                "#sectionref": "loadout_streak_select",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#firstxcamindex": 1,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_37746d08075b0d8",
+        "#basecam": {
+            "#focusdistance": 35,
+            "#fstop": 10,
+            "#targetname": "camera_mp_gunsmith_overview",
+            "#fov": 50
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_hq1",
+                "#type": "#clientweapon"
+            },
+            {
+                "#targetname": "weapon_loc_hq2",
+                "#index": 1,
+                "#type": "#clientweapon"
+            },
+            {
+                "#targetname": "weapon_loc_hq3",
+                "#index": 2,
+                "#type": "#clientweapon"
+            },
+            {
+                "#targetname": "weapon_loc_watch",
+                "#index": 3,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase"
+    },
+    "#hash_4799c1604e027afa": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_squad_lobby_detail",
+                "#transitiondata": "%#hash_1f4ad814b575aebd"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_6f85168ad11d6102",
+        "#basecam": {
+            "#focusdistance": 100,
+            "#fstop": 3,
+            "#targetname": "char_lobby_detail",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "squad_lobby_br"
+    },
+    "#hash_49591c346a90ec80": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_progression_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_e5cf2aed1c4008",
+        "#basecam": {
+            "#focusdistance": 36,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview_secondary",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_customize_small"
+    },
+    "#hash_49ca86b5a2386ab7": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 32,
+            "#fstop": 20,
+            "#targetname": "camera_mp_gunsmith_preview_sticker",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_sticker"
+    },
+    "#hash_4d9fe49890b36d87": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_character_faction_select_l_detail",
+                "#transitiondata": "%#hash_17499b7628093c09"
+            },
+            {
+                "#sectionref": "cer_character_faction_select_r_detail",
+                "#transitiondata": "%#hash_17499b7628093c09"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#fadeouttime": 0.2,
+            "#fadeintime": 0.2,
+            "#fieldofview": 28,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_7bfc3bcb4e27ce6f",
+        "#basecam": {
+            "#focusdistance": 140,
+            "#fstop": 12,
+            "#targetname": "char_tango",
+            "#fov": 28
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_solo"
+    },
+    "#hash_4eaabadbca401d44": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_augment_ammomod",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_perk",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_research",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_overview",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_5915c103fc1434fc",
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 10,
+            "#targetname": "camera_black",
+            "#fov": 50
+        },
+        "#spawnentities": [],
+        "#sectionname": "loadout_augment_super"
+    },
+    "#hash_51a213ee9511e089": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_character_faction_select_l_detail",
+                "#transitiondata": "%#hash_17499b7628093c09"
+            },
+            {
+                "#sectionref": "cer_character_faction_select_r_detail",
+                "#transitiondata": "%#hash_17499b7628093c09"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#fadeouttime": 0.2,
+            "#fadeintime": 0.2,
+            "#fieldofview": 28,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_31e11fffa660a611",
+        "#basecam": {
+            "#focusdistance": 140,
+            "#fstop": 12,
+            "#targetname": "char_tango",
+            "#fov": 28
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_tango"
+    },
+    "#hash_577d6668e64f80a8": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_character_faction_select_l_detail",
+                "#transitiondata": "%#hash_107e10d8ee4d8828"
+            },
+            {
+                "#sectionref": "cer_character_tango",
+                "#transitiondata": "%#hash_107e10d8ee4d8828"
+            },
+            {
+                "#sectionref": "cer_character_faction_select_r",
+                "#transitiondata": "%#hash_106019d2c8ef6c9b"
+            },
+            {
+                "#sectionref": "cer_character_solo",
+                "#transitiondata": "%#hash_107e10d8ee4d8828"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fadeouttime": 0.2,
+            "#fadeintime": 0.2,
+            "#fieldofview": 37,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_45f94387f8ecdbe0",
+        "#basecam": {
+            "#focusdistance": 100,
+            "#fstop": 18,
+            "#targetname": "char_east_a",
+            "#fov": 37
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_faction_select_r_detail"
+    },
+    "#hash_57987df506124c8c": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {},
+        "#spawnentities": [],
+        "#sectionname": "weapon_showcase"
+    },
+    "#hash_5b1911ef010d2f39": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 18,
+            "#fstop": 21,
+            "#targetname": "camera_mp_gunsmith_preview_charm_alt4",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_charm_alt4"
+    },
+    "#hash_5b1912ef010d30ec": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 16,
+            "#fstop": 21,
+            "#targetname": "camera_mp_gunsmith_preview_charm_alt3",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_charm_alt3"
+    },
+    "#hash_5b1913ef010d329f": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 16,
+            "#fstop": 21,
+            "#targetname": "camera_mp_gunsmith_preview_charm_alt2",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_charm_alt2"
+    },
+    "#hash_5b1914ef010d3452": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 16,
+            "#fstop": 21,
+            "#targetname": "camera_mp_gunsmith_preview_charm_alt1",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_charm_alt1"
+    },
+    "#hash_5b414e006c644b6d": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_augment_ammomod",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_super",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_research",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            },
+            {
+                "#sectionref": "loadout_augment_overview",
+                "#transitiondata": "%#hash_60c70b29d8c11e88"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_4b45e5e2abd42d85",
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 10,
+            "#targetname": "camera_black",
+            "#fov": 50
+        },
+        "#spawnentities": [],
+        "#sectionname": "loadout_augment_perk"
+    },
+    "#hash_5dfc0bf956764f07": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 32,
+            "#fstop": 20,
+            "#targetname": "camera_mp_gunsmith_preview_large_sticker",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_large_sticker"
+    },
+    "#hash_5fa9d700ef724889": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 150,
+            "#fstop": 3,
+            "#targetname": "char_social_alt",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "aar_performance"
+    },
+    "#hash_60e0e8ef09c72961": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#basecam": {},
+        "#spawnentities": [],
+        "#sectionname": "loadout_showcase_preview_internal"
+    },
+    "#hash_613a80df2abf6045": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_social",
+                "#transitiondata": "%#hash_32057bbdaa272b3a"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fadeouttime": 0.1,
+            "#fadeintime": 0.15,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 150,
+            "#fstop": 20,
+            "#targetname": "cam_bp_vehicle",
+            "#fov": 35
+        },
+        "#spawnentities": [],
+        "#sectionname": "battle_pass_vehicle"
+    },
+    "#hash_6184071d221692b3": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 325,
+            "#fstop": 3,
+            "#targetname": "char_social_wide",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "social_wide"
+    },
+    "#hash_63098550d85eb44c": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_o",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_progression",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_1343fab0bad4e3f4",
+        "#basecam": {
+            "#focusdistance": 56,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_customize"
+    },
+    "#hash_6311411292dd35cc": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_o",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_customize",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_53cd62cbc543554",
+        "#basecam": {
+            "#focusdistance": 56,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_progression"
+    },
+    "#hash_6439472149b3dbeb": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_social",
+                "#transitiondata": "%#hash_613a8c54598826b"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 150,
+            "#fstop": 2,
+            "#targetname": "char_social",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "social"
+    },
+    "#hash_66422129036482e0": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 34,
+            "#fstop": 20,
+            "#targetname": "camera_mp_gunsmith_preview_sticker_alt3",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_sticker_alt3"
+    },
+    "#hash_6642222903648493": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 34,
+            "#fstop": 20,
+            "#targetname": "camera_mp_gunsmith_preview_sticker_alt2",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_sticker_alt2"
+    },
+    "#hash_6642232903648646": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 32,
+            "#fstop": 20,
+            "#targetname": "camera_mp_gunsmith_preview_sticker_alt1",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_sticker_alt1"
+    },
+    "#hash_6642282903648ec5": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_preview_riot",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 34,
+            "#fstop": 20,
+            "#targetname": "camera_mp_gunsmith_preview_sticker_alt4",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_sticker_alt4"
+    },
+    "#hash_67b9944cc18b7cd7": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_showcase_internal",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_showcase",
+                "#transitiondata": "%#hash_59b0c470a840f748"
+            },
+            {
+                "#sectionref": "loadout_showcase_zm",
+                "#transitiondata": "%#hash_59b0c470a840f748"
+            },
+            {
+                "#sectionref": "loadout_showcase_overview",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_streak_select",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#firstxcamindex": 1,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_3ebd0c95dd282bf",
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 10,
+            "#targetname": "camera_black",
+            "#fov": 50
+        },
+        "#spawnentities": [],
+        "#sectionname": "loadout_streak_overview"
+    },
+    "#hash_68976e52dac820ab": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 15,
+            "#fstop": 21,
+            "#targetname": "camera_mp_gunsmith_preview_small_charm",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_small_charm"
+    },
+    "#hash_6afec16b72bb749e": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 100,
+            "#fstop": 10,
+            "#targetname": "social_showcase_character",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "showcase_operator"
+    },
+    "#hash_6e78fbc52044cbb1": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_character_preview_select_detail",
+                "#transitiondata": "%#hash_66e77941c58d9631"
+            },
+            {
+                "#sectionref": "cer_character_preview_select",
+                "#transitiondata": "%#hash_c246c55480e5fcd"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 37,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 60,
+            "#fstop": 22,
+            "#targetname": "char_preview_detail",
+            "#fov": 37
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_preview_select"
+    },
+    "#hash_6f08e58ea83112c8": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_showcase_preview_internal",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#basecam": {},
+        "#spawnentities": [],
+        "#sectionname": "loadout_showcase_internal"
+    },
+    "#hash_70fc45bbaa55c4d3": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_p_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_s",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_o",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_loadout_showcase_preview_large",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_progression",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_weapon_customize",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_social",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            },
+            {
+                "#sectionref": "cer_social_showcase",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 56,
+            "#fstop": 22,
+            "#targetname": "camera_mp_weapon_preview",
+            "#fov": 80
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "weapon_preview"
+    },
+    "#hash_73c0ce00e7ab6b4d": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_social",
+                "#transitiondata": "%#hash_613a8c54598826b"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {},
+        "#spawnentities": [],
+        "#sectionname": "social_detail"
+    },
+    "#hash_73d614835219b28c": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_streak_overview",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_showcase_internal",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_7b97f8f4bfddecc4",
+        "#basecam": {
+            "#focusdistance": 64,
+            "#fstop": 10,
+            "#targetname": "camera_black",
+            "#fov": 50
+        },
+        "#spawnentities": [],
+        "#sectionname": "loadout_streak_select"
+    },
+    "#hash_749525bdc7bc7c7f": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_showcase_internal",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_showcase_preview_internal"
+            },
+            {
+                "#sectionref": "loadout_showcase_overview",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            }
+        ],
+        "#defaulttransition": {
+            "#keepxcam": true,
+            "#callbacktype": "SetXcam",
+            "#fadeouttime": 0.025,
+            "#fadeintime": 0.3,
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_564fac01a3ca7cf7",
+        "#basecam": {
+            "#focusdistance": 41,
+            "#fstop": 7,
+            "#targetname": "camera_mp_gunsmith_preview",
+            "#fov": 50
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview"
+    },
+    "#hash_7529d91b65aaf967": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_squad_lobby",
+                "#transitiondata": "%#hash_1f4ad814b575aebd"
+            },
+            {
+                "#sectionref": "cer_squad_lobby_dmz",
+                "#transitiondata": "%#hash_1f4ad814b575aebd"
+            },
+            {
+                "#sectionref": "cer_squad_lobby_br",
+                "#transitiondata": "%#hash_1f4ad814b575aebd"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 36,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 100,
+            "#fstop": 3,
+            "#targetname": "char_lobby_detail",
+            "#fov": 36
+        },
+        "#spawnentities": [],
+        "#sectionname": "squad_lobby_detail"
+    },
+    "#hash_76e0b3997b2edc7f": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_weapon_preview_small",
+                "#transitiondata": "%#hash_290e74c07755d9a7"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 50,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 22,
+            "#fstop": 16,
+            "#targetname": "camera_mp_gunsmith_preview_small_sticker",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_weapon_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_preview_small_sticker"
+    },
+    "#hash_7ee05271e9d6b0b7": {
+        "#transitions": [],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 36,
+            "#fstop": 22,
+            "#targetname": "camera_mp_bundle_preview_secondary",
+            "#fov": 36
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_bundle_preview",
+                "#index": 6,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "bundle_preview_small"
+    },
+    "#hash_7f759127c87fc45b": {
+        "#transitions": [
+            {
+                "#sectionref": "cer_character_preview_select_detail",
+                "#transitiondata": "%#hash_48f34b22ea88598b"
+            },
+            {
+                "#sectionref": "cer_character_preview_select",
+                "#transitiondata": "%#hash_767c16704b61ffdb"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "UpdateEntitiesAndCamera",
+            "#fieldofview": 37,
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#basecam": {
+            "#focusdistance": 181,
+            "#fstop": 22,
+            "#targetname": "char_preview",
+            "#fov": 37
+        },
+        "#spawnentities": [],
+        "#sectionname": "character_preview_select_detail"
+    },
+    "#hash_7f81489cfafa5c42": {
+        "#transitions": [
+            {
+                "#sectionref": "loadout_showcase_internal",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_showcase",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_showcase_preview_internal",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_streak_select",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            },
+            {
+                "#sectionref": "loadout_streak_overview",
+                "#transitiondata": "%#hash_6c0b0369d5aa73c2"
+            }
+        ],
+        "#defaulttransition": {
+            "#callbacktype": "SetXcam",
+            "#transitiontype": "Teleport"
+        },
+        "#hash_8b733a02ea9e464c": true,
+        "#hash_bab505ce5ab925b9": "%#hash_64e67db1951886ba",
+        "#basecam": {
+            "#focusdistance": 48,
+            "#fstop": 12,
+            "#targetname": "camera_mp_gunsmith",
+            "#fov": 60
+        },
+        "#spawnentities": [
+            {
+                "#targetname": "weapon_loc_hq1",
+                "#type": "#clientweapon"
+            },
+            {
+                "#targetname": "weapon_loc_hq2",
+                "#index": 1,
+                "#type": "#clientweapon"
+            },
+            {
+                "#targetname": "weapon_loc_hq3",
+                "#index": 2,
+                "#type": "#clientweapon"
+            },
+            {
+                "#targetname": "weapon_loc_watch",
+                "#index": 3,
+                "#type": "#clientweapon"
+            }
+        ],
+        "#sectionname": "loadout_showcase_overview"
+    }
+}

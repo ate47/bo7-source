@@ -1,0 +1,1539 @@
+{
+    "#hash_9c70c41ccb41043": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [
+            "#default": {
+                "#properties": [
+                    "#scale": {
+                        "#variant_object": {
+                            "#property": "#scale",
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    }
+                ],
+                "#name": "#default"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#scale": {
+                "#variant_object": {
+                    "#property": "#scale",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            }
+        ],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [],
+        "#requirepath": "ui.generated.widgets.ingame.scriptedwidgetpoweruptimerscontainer",
+        "#outofbounds": true,
+        "#luafile": "ui/generated/widgets/ingame/scriptedwidgetpoweruptimerscontainer.lua",
+        "#children": [
+            "#powerup_timer": {
+                "#miscdata": [],
+                "#widgets": [
+                    "#default": {
+                        "#miscdata": [],
+                        "#scriptedwidget": "%#hash_7b6bd9b88fb8003b",
+                        "#name": "#default"
+                    }
+                ],
+                "#name": "#powerup_timer",
+                "#omnvarsets": [
+                    "#default": {
+                        "#miscdata": [],
+                        "#omnvars": [
+                            "#reset": {
+                                "#variant_object": {
+                                    "#notifylui": true,
+                                    "#ref": "#reset",
+                                    "#type": "BoolOmnvar",
+                                    "#name": "ui_powerup_timer_reset",
+                                    "#networktime": true
+                                },
+                                "#variant_type": "Types_BoolOmnvar"
+                            },
+                            "#time": {
+                                "#variant_object": {
+                                    "#maxvalue": 1000,
+                                    "#notifylui": true,
+                                    "#ref": "#time",
+                                    "#type": "IntOmnvar",
+                                    "#name": "ui_powerup_timer_fill_time",
+                                    "#networktime": true
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            },
+                            "#bundle_index": {
+                                "#variant_object": {
+                                    "#maxvalue": 63,
+                                    "#notifylui": true,
+                                    "#ref": "#bundle_index",
+                                    "#type": "IntOmnvar",
+                                    "#name": "ui_powerup_timer_bundle_index"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            },
+                            "#widget_type_index": {
+                                "#variant_object": {
+                                    "#maxvalue": 3,
+                                    "#notifylui": true,
+                                    "#ref": "#widget_type_index",
+                                    "#type": "IntOmnvar",
+                                    "#name": "ui_powerup_timer_widget_type_index"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            },
+                            "#progress_display_type_index": {
+                                "#variant_object": {
+                                    "#maxvalue": 4,
+                                    "#notifylui": true,
+                                    "#ref": "#progress_display_type_index",
+                                    "#type": "IntOmnvar",
+                                    "#name": "ui_powerup_timer_progress_display_type_index"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            },
+                            "#state": {
+                                "#variant_object": {
+                                    "#maxvalue": 7,
+                                    "#notifylui": true,
+                                    "#ref": "#state",
+                                    "#type": "IntOmnvar",
+                                    "#name": "ui_powerup_timer_state"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            }
+                        ],
+                        "#name": "#default",
+                        "#setnum": 6
+                    }
+                ]
+            },
+            "#powerup_list_alignment": {
+                "#miscdata": [],
+                "#widgets": [],
+                "#name": "#powerup_list_alignment",
+                "#omnvarsets": [
+                    "#default": {
+                        "#miscdata": [],
+                        "#omnvars": [
+                            "#powerup_list_alignment": {
+                                "#variant_object": {
+                                    "#maxvalue": 2,
+                                    "#notifylui": true,
+                                    "#value": 1,
+                                    "#ref": "#powerup_list_alignment",
+                                    "#type": "IntOmnvar",
+                                    "#name": "powerup_list_alignment"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            }
+                        ],
+                        "#name": "#default",
+                        "#setnum": 1
+                    }
+                ]
+            }
+        ],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [
+                "#zm": {
+                    "#gametypepresets": [],
+                    "#presetsettings": {
+                        "#hudeditor": {
+                            "#verticalanchor": "Middle",
+                            "#horizontalanchor": "Right",
+                            "#hash_37bd97753e68a0f1": true,
+                            "#enabled": true,
+                            "#y": -30,
+                            "#x": -90
+                        },
+                        "#position": {
+                            "#verticalanchor": "Bottom",
+                            "#horizontalanchor": "Center",
+                            "#enabled": true,
+                            "#y": -140,
+                            "#x": -30
+                        }
+                    },
+                    "#gamemode": "#zm"
+                }
+            ],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Right",
+                    "#hash_37bd97753e68a0f1": true,
+                    "#y": -30,
+                    "#x": -90
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": true,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#scriptedwidgetpoweruptimerscontainer",
+        "#states": [],
+        "#isvehicledriver": true,
+        "#hash_b53f419bce569890": false,
+        "#hash_d9496694d40497b2": true,
+        "#normalgameplay": true,
+        "#assets": [],
+        "#usingremoterobot": true
+    },
+    "#hash_43cba95dff4fd4ca": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [
+            "#respawn_icon": {
+                "#properties": [
+                    "#height": {
+                        "#variant_object": {
+                            "#property": "#height",
+                            "#value": 10,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#image": {
+                        "#variant_object": {
+                            "#property": "#image",
+                            "#value": "%#hash_39a67c2433cf8ece",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#color": {
+                        "#variant_object": {
+                            "#property": "#color",
+                            "#value": "0.384314 0.835279 0.945098 1",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#width": {
+                        "#variant_object": {
+                            "#property": "#width",
+                            "#value": 12,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#image_backing": {
+                        "#variant_object": {
+                            "#property": "#image_backing",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#respawn_icon"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#height": {
+                "#variant_object": {
+                    "#property": "#height",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#image": {
+                "#variant_object": {
+                    "#property": "#image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#color": {
+                "#variant_object": {
+                    "#property": "#color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#width": {
+                "#variant_object": {
+                    "#property": "#width",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#image_backing": {
+                "#variant_object": {
+                    "#property": "#image_backing",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            }
+        ],
+        "#skirmishcam": true,
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [],
+        "#requirepath": "ui.generated.widgets.ingame.shared.scriptedwidgetgenericicon",
+        "#luafile": "ui/generated/widgets/ingame/shared/scriptedwidgetgenericicon.lua",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#scriptedwidgetgenericicon",
+        "#states": [
+            "#blink": {
+                "#animation": "#blink",
+                "#name": "#blink"
+            },
+            "#fadeout": {
+                "#animation": "#fadeout",
+                "#name": "#fadeout"
+            },
+            "#hide": {
+                "#animation": "#hide",
+                "#name": "#hide"
+            },
+            "#fadein": {
+                "#animation": "#fadein",
+                "#name": "#fadein"
+            },
+            "#default": {
+                "#animation": "#defaultsequence",
+                "#name": "#default"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_571c138f8ec95937": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [
+            "#ability_crate_hint": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#assettype": "#hintobject",
+                            "#property": "#object_data",
+                            "#value": "%#hash_22da8fe737d2e94a",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#ability_crate_hint"
+            },
+            "#skills_tut_hint": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#value": "0.529412 0.654902 0.709804 1",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#assettype": "#hintobject",
+                            "#property": "#object_data",
+                            "#value": "%#hash_18f9d49018416ab8",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#skills_tut_hint"
+            },
+            "#hash_a89d56232bdb87ae": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#assettype": "#hintobject",
+                            "#property": "#object_data",
+                            "#value": "%#hash_488ce1a3379b11d6",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#hash_a89d56232bdb87ae"
+            },
+            "#jailbreak_hint": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#assettype": "#hintobject",
+                            "#property": "#object_data",
+                            "#value": "%#hash_64f5e2a8b00922bf",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#jailbreak_hint"
+            },
+            "#zones_tut_hint": {
+                "#properties": [
+                    "#hint_background_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_background_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_color": {
+                        "#variant_object": {
+                            "#property": "#hint_background_color",
+                            "#value": "0.529412 0.654902 0.709804 1",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_hide_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_hide_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#object_data": {
+                        "#variant_object": {
+                            "#assettype": "#hintobject",
+                            "#property": "#object_data",
+                            "#value": "%#hash_1f57c46d68dec59d",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    "#hint_separator_line": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_line",
+                            "#value": "%#ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_background_image": {
+                        "#variant_object": {
+                            "#property": "#hint_background_image",
+                            "#value": "%#hash_7a2748051ac44e5f",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_separator_alpha": {
+                        "#variant_object": {
+                            "#property": "#hint_separator_alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    },
+                    "#hint_highlight_color": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_color",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#hint_show_sfx_alias": {
+                        "#variant_object": {
+                            "#property": "#hint_show_sfx_alias",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#hint_highlight_image1": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image1",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    "#hint_highlight_image2": {
+                        "#variant_object": {
+                            "#property": "#hint_highlight_image2",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#zones_tut_hint"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#hint_background_alpha": {
+                "#variant_object": {
+                    "#property": "#hint_background_alpha",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#hint_background_color": {
+                "#variant_object": {
+                    "#property": "#hint_background_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#hint_hide_sfx_alias": {
+                "#variant_object": {
+                    "#property": "#hint_hide_sfx_alias",
+                    "#type": "RawStringProperty"
+                },
+                "#variant_type": "Types_RawStringPropertyTemplate"
+            },
+            "#object_data": {
+                "#variant_object": {
+                    "#property": "#object_data",
+                    "#type": "AssetProperty"
+                },
+                "#variant_type": "Types_AssetPropertyTemplate"
+            },
+            "#hint_separator_line": {
+                "#variant_object": {
+                    "#property": "#hint_separator_line",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#hint_highlight_alpha": {
+                "#variant_object": {
+                    "#property": "#hint_highlight_alpha",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#hint_background_image": {
+                "#variant_object": {
+                    "#property": "#hint_background_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#hint_separator_alpha": {
+                "#variant_object": {
+                    "#property": "#hint_separator_alpha",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            },
+            "#hint_highlight_color": {
+                "#variant_object": {
+                    "#property": "#hint_highlight_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#hint_show_sfx_alias": {
+                "#variant_object": {
+                    "#property": "#hint_show_sfx_alias",
+                    "#type": "RawStringProperty"
+                },
+                "#variant_type": "Types_RawStringPropertyTemplate"
+            },
+            "#hint_highlight_image1": {
+                "#variant_object": {
+                    "#property": "#hint_highlight_image1",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            "#hint_highlight_image2": {
+                "#variant_object": {
+                    "#property": "#hint_highlight_image2",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            }
+        ],
+        "#hash_b7ae79d01418b389": true,
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [
+            "#hash_1fafe9289295be21": {
+                "#name": "#hash_1fafe9289295be21",
+                "#script_notify": "hint_close_anim_complete"
+            },
+            "#hintclose": {
+                "#name": "#hintclose",
+                "#script_notify": "hint_close_request"
+            }
+        ],
+        "#requirepath": "ui.generated.widgets.ingame.sp.scriptedwidgethintcontainer",
+        "#luafile": "ui/generated/widgets/ingame/sp/scriptedwidgethintcontainer.lua",
+        "#archetype": "%#hash_44286ee2bc975be",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [
+            {
+                "#consumeinput": true,
+                "#ui_bindings": [],
+                "#hash_21e776937ed3cbf3": false,
+                "#gamepad_buttons": [
+                    {
+                        "#button": "#secondary",
+                        "#down": true
+                    }
+                ],
+                "#hideinui": true,
+                "#bindings": [],
+                "#script_notify": "hint_close_request",
+                "#kbm_buttons": [
+                    {
+                        "#button": "#escape",
+                        "#down": true
+                    }
+                ]
+            }
+        ],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#scriptedwidgethintcontainer",
+        "#states": [
+            "#show": {
+                "#animation": "#show",
+                "#name": "#show"
+            },
+            "#hide": {
+                "#animation": "#hide",
+                "#name": "#hide"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#assets": [
+            {
+                "#variant_object": {
+                    "#value": "scripts/common/hints.gsc",
+                    "#type": "GscObjProperty"
+                },
+                "#variant_type": "Types_GscObjProperty"
+            }
+        ]
+    },
+    "#hash_64f8ff4dc2f4830c": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [
+            "#hash_77f369c9d5eac2e4": {
+                "#properties": [
+                    "#icon": {
+                        "#variant_object": {
+                            "#property": "#icon",
+                            "#value": "%#hash_4f77a5ccfce4d286",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#hash_77f369c9d5eac2e4"
+            },
+            "#deadwire": {
+                "#properties": [
+                    "#icon": {
+                        "#variant_object": {
+                            "#property": "#icon",
+                            "#value": "%#hash_1aeb33ad75af9728",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#deadwire"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#icon": {
+                "#variant_object": {
+                    "#property": "#icon",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            }
+        ],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [],
+        "#requirepath": "ui.generated.widgets.scriptedwidgets.scriptedwidgetclashopsammomod",
+        "#luafile": "ui/generated/widgets/scriptedwidgets/scriptedwidgetclashopsammomod.lua",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Bottom",
+                    "#horizontalanchor": "Right",
+                    "#hash_37bd97753e68a0f1": true,
+                    "#enabled": true,
+                    "#y": -85,
+                    "#x": -500
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#hash_ea5da7680b80b8ea",
+        "#states": [],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_6fef1951d1433241": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#hash_3f48f17d7810b084": [
+            "#normalgameplay": {
+                "#enabled": true,
+                "#condition": "#normalgameplay",
+                "#state": "Inherit"
+            }
+        ],
+        "#parameters": [
+            "#default": {
+                "#properties": [
+                    "#hint_text": {
+                        "#variant_object": {
+                            "#property": "#hint_text",
+                            "#value": "&#hash_236c6faa73a3cfa0",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    "#icon_color": {
+                        "#variant_object": {
+                            "#property": "#icon_color",
+                            "#value": "0.952941 0.619608 0.0666667 1",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    "#icon": {
+                        "#variant_object": {
+                            "#property": "#icon",
+                            "#value": "%#hash_80814e69086e702",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    }
+                ],
+                "#name": "#default"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#hint_text": {
+                "#variant_object": {
+                    "#property": "#hint_text",
+                    "#type": "StringProperty"
+                },
+                "#variant_type": "Types_StringPropertyTemplate"
+            },
+            "#icon_color": {
+                "#variant_object": {
+                    "#property": "#icon_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            "#icon": {
+                "#variant_object": {
+                    "#property": "#icon",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            }
+        ],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [],
+        "#requirepath": "ui.generated.widgets.scriptedwidgets.scriptedwidgetfreerunevograpplegunhint",
+        "#luafile": "ui/generated/widgets/scriptedwidgets/scriptedwidgetfreerunevograpplegunhint.lua",
+        "#hash_8a07682afe8dbed9": [
+            "#normalgameplay": {
+                "#condition": "#normalgameplay",
+                "#state": "Show"
+            }
+        ],
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Left",
+                    "#hash_37bd97753e68a0f1": true,
+                    "#enabled": true,
+                    "#y": 0,
+                    "#x": 105
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#hash_3f03fbb04af20aac",
+        "#states": [
+            "#show": {
+                "#animation": "#show",
+                "#name": "#show"
+            },
+            "#hide": {
+                "#animation": "#hide",
+                "#name": "#hide"
+            },
+            "#default": {
+                "#animation": "#defaultsequence",
+                "#name": "#default",
+                "#state": "#defaultstate"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_7a69b4336d653799": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [],
+        "#hash_22a6c228fcbc25c9": [],
+        "#skirmishcam": true,
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [],
+        "#requirepath": "ui.generated.widgets.ingame.mp.skirmish.skirmishrespawncontainer",
+        "#luafile": "ui/generated/widgets/ingame/mp/skirmish/skirmishrespawncontainer.lua",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hidehud": true,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [
+            {
+                "#consumeinput": true,
+                "#ui_bindings": [
+                    {
+                        "#hash_f9900555ae6e6995": "KBM",
+                        "#uibind": "#hash_25eadfa1889d3c5e",
+                        "#down": true
+                    }
+                ],
+                "#hash_21e776937ed3cbf3": false,
+                "#gamepad_buttons": [],
+                "#hideinui": true,
+                "#bindings": [],
+                "#lui_event": "#nav_right",
+                "#kbm_buttons": []
+            },
+            {
+                "#consumeinput": true,
+                "#ui_bindings": [
+                    {
+                        "#hash_f9900555ae6e6995": "KBM",
+                        "#uibind": "#hash_5226f59474ffddf6",
+                        "#down": true
+                    }
+                ],
+                "#hash_21e776937ed3cbf3": false,
+                "#gamepad_buttons": [],
+                "#hideinui": true,
+                "#bindings": [],
+                "#lui_event": "#nav_left",
+                "#kbm_buttons": []
+            },
+            {
+                "#consumeinput": true,
+                "#ui_bindings": [
+                    {
+                        "#hash_f9900555ae6e6995": "None",
+                        "#uibind": "#hash_d0388f0d9daa8b92",
+                        "#down": true
+                    }
+                ],
+                "#hash_21e776937ed3cbf3": false,
+                "#gamepad_buttons": [],
+                "#hideinui": true,
+                "#bindings": [],
+                "#lui_event": "#menu_confirm",
+                "#kbm_buttons": []
+            },
+            {
+                "#consumeinput": true,
+                "#ui_bindings": [],
+                "#hash_21e776937ed3cbf3": false,
+                "#gamepad_buttons": [],
+                "#hideinui": true,
+                "#bindings": [],
+                "#lui_event": "#menu_confirm",
+                "#kbm_buttons": [
+                    {
+                        "#button": "#enter",
+                        "#down": true
+                    }
+                ]
+            },
+            {
+                "#consumeinput": true,
+                "#ui_bindings": [],
+                "#hash_21e776937ed3cbf3": false,
+                "#gamepad_buttons": [
+                    {
+                        "#button": "#primary",
+                        "#down": true
+                    }
+                ],
+                "#hideinui": true,
+                "#bindings": [],
+                "#kbm_buttons": []
+            },
+            {
+                "#consumeinput": true,
+                "#ui_bindings": [],
+                "#hash_21e776937ed3cbf3": false,
+                "#gamepad_buttons": [],
+                "#hideinui": true,
+                "#bindings": [],
+                "#kbm_buttons": [
+                    {
+                        "#button": "#hash_47fbb017f7eb9ca5",
+                        "#down": true
+                    }
+                ]
+            },
+            {
+                "#consumeinput": true,
+                "#ui_bindings": [
+                    {
+                        "#hash_f9900555ae6e6995": "None",
+                        "#uibind": "#hash_1eff69cff3f1de3a",
+                        "#down": true
+                    }
+                ],
+                "#hash_21e776937ed3cbf3": false,
+                "#gamepad_buttons": [
+                    {
+                        "#button": "#hash_aedc53f4bda8611",
+                        "#down": true
+                    }
+                ],
+                "#hideinui": true,
+                "#bindings": [],
+                "#lui_event": "#menu_nav_left",
+                "#kbm_buttons": []
+            },
+            {
+                "#consumeinput": true,
+                "#ui_bindings": [
+                    {
+                        "#hash_f9900555ae6e6995": "None",
+                        "#uibind": "#hash_ab43a01317662aa7",
+                        "#down": true
+                    }
+                ],
+                "#hash_21e776937ed3cbf3": false,
+                "#gamepad_buttons": [
+                    {
+                        "#button": "#hash_9f92f0b7e316aaf2",
+                        "#down": true
+                    }
+                ],
+                "#hideinui": true,
+                "#bindings": [],
+                "#lui_event": "#menu_nav_right",
+                "#kbm_buttons": []
+            }
+        ],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#skirmishrespawncontainer",
+        "#states": [],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_7b6bd9b88fb8003b": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [],
+        "#hash_22a6c228fcbc25c9": [],
+        "#hash_d3f153f8eec3d389": true,
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#hash_b0917bef25f7faac": true,
+        "#servermessages": [],
+        "#requirepath": "ui.generated.widgets.ingame.zm.zmpoweruptimer",
+        "#spectatinghardcore": true,
+        "#luafile": "ui/generated/widgets/ingame/zm/zmpoweruptimer.lua",
+        "#hash_7716c01b619c7c60": true,
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#zmpoweruptimer",
+        "#states": [
+            "#blink": {
+                "#animation": "#blink",
+                "#name": "#blink"
+            },
+            "#show": {
+                "#animation": "#show",
+                "#name": "#show"
+            },
+            "#hide": {
+                "#animation": "#hide",
+                "#name": "#hide"
+            },
+            "#blinkfast": {
+                "#animation": "#blinkfast",
+                "#name": "#blinkfast"
+            },
+            "#static": {
+                "#animation": "#static",
+                "#name": "#static"
+            },
+            "#default": {
+                "#animation": "#defaultsequence",
+                "#name": "#default"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#spectating": true,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_7e4caf73da302d34": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [
+            "#default": {
+                "#properties": [
+                    "#hash_ecc3ba4c8c074268": {
+                        "#variant_object": {
+                            "#property": "#hash_ecc3ba4c8c074268",
+                            "#value": "An SFX alias to play on each tick of the countdown timer",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    }
+                ],
+                "#name": "#default"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#hash_ecc3ba4c8c074268": {
+                "#variant_object": {
+                    "#property": "#hash_ecc3ba4c8c074268",
+                    "#type": "RawStringProperty"
+                },
+                "#variant_type": "Types_RawStringPropertyTemplate"
+            }
+        ],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [
+            "#NotificationAnimFinished": {
+                "#name": "#NotificationAnimFinished"
+            }
+        ],
+        "#requirepath": "ui.generated.widgets.ingame.scriptedwidgetcountdownbanner",
+        "#luafile": "ui/generated/widgets/ingame/scriptedwidgetcountdownbanner.lua",
+        "#archetype": "%#hash_477140a801198563",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Top",
+                    "#horizontalanchor": "Center",
+                    "#hash_37bd97753e68a0f1": true,
+                    "#enabled": true,
+                    "#y": 50,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#hash_19a7ac2f47dfbfb8",
+        "#states": [],
+        "#hash_b65fab94de3a82d5": true,
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": [
+            {
+                "#variant_object": {
+                    "#value": "scripts/mp/ob/systems/countdown_timer.gsc",
+                    "#type": "GscObjProperty"
+                },
+                "#variant_type": "Types_GscObjProperty"
+            }
+        ]
+    }
+}

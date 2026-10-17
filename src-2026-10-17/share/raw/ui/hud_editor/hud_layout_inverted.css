@@ -1,0 +1,251 @@
+css = [[
+    \#ArmorHealthWrapper {
+        horizontal-anchors: right;
+        left: -400;
+        horizontal-pivot: right;
+    }
+    \#ContextualObjectiveWrapper {
+        horizontal-anchors: right;
+        left: -295;
+        hud-scale-y-offset-factor: 199;
+    }    
+    \#ContextualPlayerInformationWrapper {
+		horizontal-anchors: right;
+		left: -196;
+        horizontal-pivot: right;
+        hud-scale-x-offset-factor: -233;
+        hud-scale-y-offset-factor: 99;
+    }
+    \#MinimapWrapper {
+        horizontal-anchors: right;
+        left: -302;
+        horizontal-pivot: right;
+        hud-scale-x-offset-factor: 0;
+    }
+    \#MPPerceptiveIndicatorWrapper {
+        horizontal-anchors: right;
+        vertical-anchors: top;
+        left: -400;
+        top: 245;
+        horizontal-pivot: right;
+    }
+    \#MatchStatusScoresWrapper {
+        horizontal-anchors: right;
+        left: -335;
+        horizontal-pivot: right;
+        hud-scale-x-offset-factor: 33;
+        hud-scale-y-offset-factor: 99;
+    }
+    \#ProgressionUnlockSplashWrapper{
+        horizontal-anchors: left;
+        vertical-anchors: top;
+        horizontal-pivot: left;
+        top: 64;
+    }
+    \#CarriedItemWrapper {
+        horizontal-pivot: left;
+        vertical-pivot: bottom;
+		hud-scale-x-offset-factor: 400;
+    }
+    \#BRSquadInfoContainerWrapper {
+        horizontal-anchors: right;
+        horizontal-pivot: right;
+        left: -400;
+    }
+    .Team-Cash{
+        horizontal-anchors: right;
+        horizontal-pivot: right;
+        right: 1000;
+    }
+    \#WeaponStatusInfoWrapper {
+        horizontal-anchors: left;
+        horizontal-pivot: left;
+        left: 250;
+    }
+    \#BRAltimeterDisplayWrapper {
+        horizontal-anchors: left;
+        vertical-anchors: middle;
+        horizontal-pivot: left;
+        left: 50;
+        top: -226;
+        bottom: 274;
+    }
+    \#BRRoundCountTimerMemContainerWrapper {
+        vertical-anchors: top;
+        top: 305;
+    }
+    \#BRRedeploymentMessageWrapper {
+        horizontal-anchors: right;
+        vertical-anchors: top;
+        horizontal-pivot: right;
+        left: -151;
+        top: 300;
+    }
+    \#GobbleGumLayer {
+        horizontal-anchors: left;
+    }
+    \#HUDLoadoutWidgetWrapper {
+        horizontal-anchors: left;
+        horizontal-pivot: left;
+        left: 95;
+    }
+    \#CarriedItemWrapper {
+		horizontal-anchors: left;
+        horizontal-pivot: left;
+		left: 533;
+	}
+    \#ObituaryContainerWrapper {
+        horizontal-anchors: left;
+        horizontal-pivot: left;
+    }
+    \#MatchStatusInfoBrWrapper {
+        horizontal-anchors: left;
+        left: 0;
+    }
+    \#BRLoadoutFlyOutWrapper {
+        horizontal-anchors: left;
+        left: 118;
+    }
+    \#CombatDetailsWrapperWrapper {
+        horizontal-anchors: left;
+        left: 5;
+    }
+    \#HUDNotification {
+        horizontal-anchors: right;
+        left: -620;
+    }
+    \#BRRoundCountTimerMemContainerWrapper {
+        horizontal-anchors: right;
+        vertical-anchors: top;
+        left: -271;
+    }
+    \#PerkContainerWrapper {
+        anim: CenterAlign;
+        onShowEvent: managed_widget_updated;
+    }
+    \#RadiationMeterWrapper {
+        horizontal-anchors: right;
+        horizontal-pivot: right;
+        left: -639;
+    }
+    \#PublicEventGameplayTimerMemContainerWrapper {
+        horizontal-anchors: right;
+        left: -550;
+    }
+    \#StreakListWrapper {
+        hud-scale-x-offset-factor: 350;
+        hud-scale-y-offset-factor: -40;
+    }
+    \#BRMissionTrackerMemContainerWrapper {
+        horizontal-anchors: right;
+        left: -300;
+        anim: MoveTacMapPromptBelow;
+        onShowEvent: managed_widget_updated;
+    }
+    \#NetGraphIconContainerWrapper {
+        horizontal-anchors: right;
+        vertical-anchors: top;
+        top: 30;
+        left: -555;
+    }
+    \#GlobalPlayerSplashWrapper {
+        horizontal-anchors: left;
+        left: -90;
+    }
+    \#ScorestreakLayerWrapper {
+        hud-scale-y-offset-factor: -100;
+    }
+    .Killstreak-Modal {
+        horizontal-anchors: left;
+        left: -200;
+    }
+    .Hardcore-Streak {
+        horizontal-anchors: left;
+        left: -20;
+    }
+    .List-Hardcore {
+        horizontal-anchors: left;
+        left: -200;
+    }
+    .Killstreak-List {
+        horizontal-anchors: left;
+        left: -267;
+    }
+    .Player-Status {
+        horizontal-anchors: right;
+        left: -450;
+    }
+    .Up-Next {
+        horizontal-anchors: right;
+        left: -500;
+    }
+    .Gulag-Loadout-Flyout {
+        horizontal-anchors: left;
+        left: 100;
+    }
+    .Prim-Weapon {
+        horizontal-anchors: left;
+        left: 300;
+    }
+    .Sec-Weapon {
+        horizontal-anchors: left;
+        left: 300;
+    }
+    .Pri-Equipment {
+        horizontal-anchors: left;
+        left: 300;
+    }
+    .Sec-Equipment {
+        horizontal-anchors: left;
+        left: 300;
+    }
+    \#CalloutSplashContainer{
+        horizontal-anchors: left;
+        left: 0;
+    }
+    \#BRPerksHUDWidgetWrapper {
+        horizontal-anchors: left;
+        left: 162;
+    }
+    \#SATOBTimerWrapper {
+        horizontal-anchors: right;
+        left: -172;
+    }
+    \#RegionDifficultyContainerWrapper {
+        horizontal-anchors: right;
+        left: -290;
+    }
+    \#SharpBonusesWidgetWrapper {
+        horizontal-anchors: right;
+        left: -383;
+        top: -175;
+        horizontal-pivot: right;
+	}
+    \#EventCollectionCountWrapper {
+        horizontal-anchors: left;
+		left: 350;
+		top: -344;
+    }
+]],
+infected_css = [[
+    \#ContextualPlayerInformationWrapper {
+        left: -196;
+    }
+    \#MatchStatusScoresWrapper {
+        left: -420;
+    }    
+]],
+ob_css = [[
+    \#WCHUDLoadoutWidgetWrapper {
+        horizontal-anchors: left;
+        horizontal-pivot: left;
+        left: 95;
+    }
+    \#SATOBTimerWrapper {
+        horizontal-anchors: right;
+    }
+    \#BRSquadInfoContainerWrapper {
+        horizontal-anchors: right;
+        left: -555;
+    }
+]],

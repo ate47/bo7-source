@@ -1,0 +1,681 @@
+{
+    "name": "#weapon_iw9_la_juliet_npc.all",
+    "unk8": "#hash_2a5e0bd49ae0c115",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#hash_c49909f7d55d90e6",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/iw8_ak/weap_akilo47_deadtrigger_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc",
+            "aliases": [
+                {
+                    "name": "#weap_juliet_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_juliet_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_juliet_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_juliet_fire_npc_mech",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_1bcb4e73e9c6a0b7",
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_1bcb4e73e9c6a0b7",
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_1bcb4e73e9c6a0b7",
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_1bcb4e73e9c6a0b7",
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_1bcb4e73e9c6a0b7",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc_dist",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_dist_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_dist_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_dist_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_dist_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc_dist_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_13fb2ce95c4405e6",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_dist_atmo_ext_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_13fb2ce95c4405e6",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_dist_atmo_ext_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_13fb2ce95c4405e6",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_dist_atmo_ext_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_13fb2ce95c4405e6",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_dist_atmo_ext_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_13fb2ce95c4405e6",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_dist_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_dist_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_dist_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_dist_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_dist",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc_far",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_far_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_far_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_far_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_far_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad10b59d9"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc_far_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_c822a75d4f41387d",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_far_atmo_ext_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_c822a75d4f41387d",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_far_atmo_ext_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_c822a75d4f41387d",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_far_atmo_ext_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_c822a75d4f41387d",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_far_atmo_ext_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c822a75d4f41387d",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_far_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_far_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_far_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_far_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_far",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/lockon/weap_lockon_fire_plr_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc_mech",
+            "aliases": [
+                {
+                    "name": "#weap_juliet_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_mech_npc_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_juliet_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_mech_npc_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_juliet_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_mech_npc_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#weap_juliet_fire_npc_lfe",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_mech_npc_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc_med",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_med_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_med_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_med_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_med_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad10b6501"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_fire_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_e523b260675096e0",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_med_atmo_ext_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_e523b260675096e0",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_med_atmo_ext_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_e523b260675096e0",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_med_atmo_ext_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "name": "#hash_e523b260675096e0",
+                    "sndAsset": "#iw9/wpn/atmo_npc/exterior/launcher/weap_mike203_fire_npc_med_atmo_ext_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e523b260675096e0",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_med_atmo_int_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_med_atmo_int_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_med_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/atmo_npc/interior/launcher/weap_mike203_fire_npc_med_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1dad0fe486d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e84e6f25a2e7ba8f",
+            "aliases": [
+                {
+                    "name": "#hash_9f5e9dba9028be65",
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad06f8235"
+                },
+                {
+                    "name": "#hash_9f5e9dba9028be65",
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad06f8235"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9f5e9dba9028be65",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_int_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad06f971d"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_launch_atmo_int_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1dad06f971d"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8c6d4d5ea72b5293",
+            "aliases": [
+                {
+                    "name": "#hash_79c40abd5326585b",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#hash_79c40abd5326585b",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_npc_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_e6c0156cc574fe7f",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#hash_ac6178ca19eceba9",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/lockon/weap_lockon_fire_plr_lfe.tnn.100.48000.all",
+                    "soundSpeakerMap": "#hash_aac497a292e65909",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#hash_79c40abd5326585b",
+            "aliases": [
+                {
+                    "name": "#hash_ac6178ca19eceba9",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_mech_npc_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_f3ea97344c876636",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                },
+                {
+                    "name": "#hash_ac6178ca19eceba9",
+                    "sndAsset": "#iw9/wpn/juliet/npc/weap_juliet_launch_mech_npc_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#hash_f3ea97344c876636",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#default"
+                }
+            ]
+        },
+        {
+            "name": "#weap_juliet_prefire_npc",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_prefire_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_prefire_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_prefire_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_prefire_mech_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_prefire_mech_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_mid"
+                }
+            ]
+        },
+        {
+            "name": "#hash_bc02bcfbb4a2f18a",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_prefire_mech_04.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid"
+                },
+                {
+                    "sndAsset": "#iw9/wpn/juliet/weap_juliet_prefire_mech_05.tnn.85.48000.all",
+                    "soundSubmix": "#player_weapon_fcg",
+                    "soundSpeakerMap": "#hash_a010b4f567e4ecf9",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid"
+                }
+            ]
+        },
+        {
+            "name": "#hash_d7f4fdb05593034e",
+            "aliases": [
+                {
+                    "name": "#hash_e2eaefc02987f4f6",
+                    "sndAsset": "#core/fly/mount/mount_exit_side_falpha_vestlight_plr.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                },
+                {
+                    "name": "#hash_e2eaefc02987f4f6",
+                    "sndAsset": "#core/fly/mount/mount_exit_side_mike4_vestlight_plr.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_e2eaefc02987f4f6",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_juliet/npc/vm_p29_la_juliet_reload_end_mech_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8de4b9ed1a3ebfcc",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_juliet/npc/vm_p29_la_juliet_reload_grab_shell_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8de4bced1a3ec4e5",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_juliet/npc/vm_p29_la_juliet_reload_end_shell_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_8de4bbed1a3ec332",
+            "aliases": [
+                {
+                    "sndAsset": "#iw9/wpn/reloads/iw9_juliet/npc/vm_p29_la_juliet_reload_end_mech_npc.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        }
+    ]
+}

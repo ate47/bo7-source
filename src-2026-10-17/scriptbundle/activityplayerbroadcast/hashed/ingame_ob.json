@@ -1,0 +1,201 @@
+{
+    "#hash_1651fc64eec539c7": {
+        "#sharingoptions": [
+            {
+                "#variant_object": {
+                    "#hash_2f39334fecc740c7": true,
+                    "#activitycategory": "Contract"
+                },
+                "#variant_type": "Types_ShareWithActivitiesOfSpecificCategoryType"
+            }
+        ],
+        "#activityplayerbroadcasts": [
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Multiple",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#broadcasttype": "Music",
+                                "#dynamicdata": [],
+                                "#musicreference": "activity_accept"
+                            },
+                            "#variant_type": "Types_Music"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activitymoment": "ActivityBegin"
+                            },
+                            "#variant_type": "Types_ActivityMoment_ActivityBegin"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Instance"
+                            },
+                            "#variant_type": "Types_AllActivityParticipants"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_ActivityPlayerBroadcast"
+            },
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Multiple",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#broadcasttype": "Music",
+                                "#dynamicdata": [],
+                                "#musicreference": "activity_loop"
+                            },
+                            "#variant_type": "Types_Music"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activitymoment": "ActivationName",
+                                "#activationname": "MUSIC_CONTRACT_ACTION_LOOP"
+                            },
+                            "#variant_type": "Types_ActivityMoment_ActivationName"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Instance"
+                            },
+                            "#variant_type": "Types_AllActivityParticipants"
+                        }
+                    ],
+                    "#deactivationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activitymoment": "ActivityEnd"
+                            },
+                            "#variant_type": "Types_ActivityMoment_ActivityEnd"
+                        }
+                    ],
+                    "#hash_8efdce03c52f7421": true,
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_ActivityPlayerBroadcast"
+            },
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Multiple",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#broadcasttype": "Music",
+                                "#dynamicdata": [],
+                                "#musicreference": "activity_abandon"
+                            },
+                            "#variant_type": "Types_Music"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activitymoment": "PlayerAbandon"
+                            },
+                            "#variant_type": "Types_ActivityMoment_PlayerAbandon"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "PlayerList"
+                            },
+                            "#variant_type": "Types_PlayerList"
+                        }
+                    ],
+                    "#deactivationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activitymoment": "None"
+                            },
+                            "#variant_type": "Types_ActivityMoment_None"
+                        }
+                    ],
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_ActivityPlayerBroadcast"
+            },
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Multiple",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#broadcasttype": "Music",
+                                "#dynamicdata": [],
+                                "#musicreference": "activity_success"
+                            },
+                            "#variant_type": "Types_Music"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activitymoment": "ActivitySuccess"
+                            },
+                            "#variant_type": "Types_ActivityMoment_ActivitySuccess"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Instance"
+                            },
+                            "#variant_type": "Types_AllActivityParticipants"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_ActivityPlayerBroadcast"
+            },
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Multiple",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#broadcasttype": "Music",
+                                "#dynamicdata": [],
+                                "#musicreference": "activity_failure"
+                            },
+                            "#variant_type": "Types_Music"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activitymoment": "ActivityFailure"
+                            },
+                            "#variant_type": "Types_ActivityMoment_ActivityFailure"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Instance"
+                            },
+                            "#variant_type": "Types_AllActivityParticipants"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_ActivityPlayerBroadcast"
+            }
+        ]
+    }
+}

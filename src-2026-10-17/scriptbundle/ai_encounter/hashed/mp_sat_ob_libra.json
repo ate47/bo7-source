@@ -1,0 +1,4514 @@
+{
+    "#hash_e8ec19c5d0b8259": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_b722bbf0f3929fc",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 2,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_vermin",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_base_zombies",
+                                    "#spawncount": 4
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#hash_d35c607125332635",
+                                    "#spawncount": 2
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob",
+                "#name": "#sat_ob_base_zombies"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_vermin_ob",
+                "#name": "#sat_ob_vermin"
+            },
+            {
+                "#aitype1": "%#sat_spawner_zombie_parasite_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#name": "#hash_d35c607125332635"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300,
+            "#hash_5d9e0c208480845c": true
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [
+            {
+                "#tag": "#squad_size_large"
+            }
+        ],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 60,
+            "#hash_1066c6dd8c8d58b6": 18,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_15f8b1d310fa33b6": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#cradle",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_75400021e0c441cf"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#small"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_2c5912f523523bda",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#zombie",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_a0f7819006166f42"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#zombie",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#zombie"
+            },
+            {
+                "#label": "#guild",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_5f04bc9266b14703"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#guild",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_e033f1ee76c5bf9",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype2": "%#sat_spawner_zombie_base_toxic_ob",
+                "#aitype1": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob",
+                "#hash_b1534ca7cd2e2f75": 2,
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#name": "#zombie"
+            },
+            {
+                "#aitype4": "%#sat_ob_enemy_specialist_rusher",
+                "#aitype3": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype2": "%#sat_ob_enemy_specialist_rocketeer",
+                "#aitype1": "%#sat_ob_enemy_basic_soldier",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#hash_b1534ca7cd2e2f75": 3,
+                "#hash_b15347a7cd2e2476": 2,
+                "#name": "#guild"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_specialist_rusher_cradle",
+                "#aitype1": "%#sat_ob_enemy_cradle_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier",
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#hash_b15349a7cd2e28dc": 2,
+                "#name": "#cradle"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#spawnlocation",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100,
+            "#hash_1b6af29158f4b5d9": true,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_1643899b295773cb": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 1,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 4,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 4
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_sg",
+                                    "#spawncount": 2,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_heavy",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_374b2456faa790e3",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype1": "%#sat_ob_enemy_guild_bot",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier_long",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier_sg",
+                "#name": "#sat_ob_sg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot_advanced",
+                "#name": "#sat_ob_heavy"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300,
+            "#hash_5d9e0c208480845c": true
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [
+            {
+                "#tag": "#squad_size_large"
+            }
+        ],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 60,
+            "#hash_1066c6dd8c8d58b6": 20,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_1648e22c583ed2db": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_e6244393f434bcbc",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 5,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_lmg",
+                                    "#spawncount": 2,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_lmg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_grunt",
+                                    "#spawncount": 1,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#intro_guys"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_heavytactician",
+                "#name": "#sat_ob_lmg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt",
+                "#name": "#sat_ob_grunt"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#hash_c52d809247ef5fe5": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 8
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#currentlocation",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_7d5ea43c26d0856e": true,
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": false,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_1f75e6dc483eba7f": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#cradle",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_75400021e0c441cf"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#small"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_2c5912f523523bda",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#zombie",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_a0f7819006166f42"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#zombie",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#zombie"
+            },
+            {
+                "#label": "#guild",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_5f04bc9266b14703"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#guild",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_e033f1ee76c5bf9",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype2": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype1": "%#sat_ob_enemy_guild_bot",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob_scorpio",
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#name": "#zombie"
+            },
+            {
+                "#aitype4": "%#sat_ob_enemy_specialist_rusher",
+                "#aitype3": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype2": "%#sat_ob_enemy_specialist_rocketeer",
+                "#aitype1": "%#sat_ob_enemy_basic_soldier",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#hash_b1534ca7cd2e2f75": 3,
+                "#hash_b15347a7cd2e2476": 2,
+                "#name": "#guild"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_specialist_rusher_cradle",
+                "#aitype1": "%#sat_ob_enemy_cradle_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier",
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#hash_b15349a7cd2e28dc": 2,
+                "#name": "#cradle"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#spawnlocation",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100,
+            "#hash_1b6af29158f4b5d9": true,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_22a029dedde2cf4a": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_654256f42ba18af6",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 1,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 2,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#shotgunner",
+                                    "#spawncount": 2
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#guild_bot",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#large_squad",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 1,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#squad_size_large"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 2
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#guild_bot",
+                                    "#spawncount": 2
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#advanced_bot",
+                                    "#spawncount": 1
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#shotgunner",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#name": "#guild_bot"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_sg",
+                "#name": "#shotgunner"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot_advanced",
+                "#name": "#advanced_bot"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#checklos": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 100
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 15,
+            "#hash_1066c6dd8c8d58b6": 10,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_27af55ca0c4b2b17": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_scientist",
+                                    "#spawncount": 2,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 2
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_soldier_long",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_scientist",
+                "#name": "#sat_ob_scientist"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#hash_c52d809247ef5fe5": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 1
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#spawnduration": 60,
+            "#hash_5e8b1e84657da904": 15,
+            "#hash_1066c6dd8c8d58b6": 10
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_30dabc202db0d10d": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#cradle",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_75400021e0c441cf"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#small"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_2c5912f523523bda",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#zombie",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_a0f7819006166f42"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#zombie",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#zombie"
+            },
+            {
+                "#label": "#guild",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_5f04bc9266b14703"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#guild",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_e033f1ee76c5bf9",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype2": "%#sat_spawner_zombie_base_toxic_ob",
+                "#aitype1": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob",
+                "#hash_b1534ca7cd2e2f75": 2,
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#name": "#zombie"
+            },
+            {
+                "#aitype4": "%#sat_ob_enemy_specialist_rusher",
+                "#aitype3": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype2": "%#sat_ob_enemy_specialist_rocketeer",
+                "#aitype1": "%#sat_ob_enemy_basic_soldier",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#hash_b1534ca7cd2e2f75": 3,
+                "#hash_b15347a7cd2e2476": 2,
+                "#name": "#guild"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_specialist_rusher_cradle",
+                "#aitype1": "%#sat_ob_enemy_cradle_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier",
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#hash_b15349a7cd2e28dc": 2,
+                "#name": "#cradle"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#spawnlocation",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100,
+            "#hash_1b6af29158f4b5d9": true,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_3163b27ec8bce451": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#cradle",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_75400021e0c441cf"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#small"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_2c5912f523523bda",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#zombie",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_a0f7819006166f42"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#zombie",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#zombie"
+            },
+            {
+                "#label": "#guild",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_5f04bc9266b14703"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#guild",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_e033f1ee76c5bf9",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype1": "%#sat_ob_enemy_specialist_sniper",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob_scorpio",
+                "#hash_b1534ca7cd2e2f75": 5,
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#name": "#zombie"
+            },
+            {
+                "#aitype4": "%#sat_ob_enemy_specialist_rusher",
+                "#aitype3": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype2": "%#sat_ob_enemy_specialist_rocketeer",
+                "#aitype1": "%#sat_ob_enemy_basic_soldier",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#hash_b1534ca7cd2e2f75": 3,
+                "#hash_b15347a7cd2e2476": 2,
+                "#name": "#guild"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_specialist_rusher_cradle",
+                "#aitype1": "%#sat_ob_enemy_cradle_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier",
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#hash_b15349a7cd2e28dc": 2,
+                "#name": "#cradle"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#spawnlocation",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100,
+            "#hash_1b6af29158f4b5d9": true,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_349a6f974d8c3c8f": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_3b4222f292f79ab3",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#aicount",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 5,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            },
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#script",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [
+                                    {
+                                        "#tag": "#squad_size_small"
+                                    }
+                                ],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_bot",
+                                                "#spawncount": 2,
+                                                "#hash_bcb69843ef31ea4c": "#reinforcements"
+                                            },
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_rusher",
+                                                "#spawncount": 1
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#infilvfx": "#none"
+                                    }
+                                ],
+                                "#requiredalltags": true,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ],
+                        "#hash_fa9acac35f4d787f": true
+                    },
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#script",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            },
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#aicount",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 4,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [
+                                    {
+                                        "#tag": "#squad_size_small"
+                                    }
+                                ],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_bot",
+                                                "#spawncount": 2,
+                                                "#hash_bcb69843ef31ea4c": "#reinforcements"
+                                            },
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_smg",
+                                                "#spawncount": 1,
+                                                "#hash_bcb69843ef31ea4c": "#reinforcements"
+                                            },
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_rusher",
+                                                "#spawncount": 1
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#infilvfx": "#none"
+                                    }
+                                ],
+                                "#requiredalltags": true,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ],
+                        "#hash_fa9acac35f4d787f": true
+                    }
+                ],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#squad_size_small"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 1
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_rocket",
+                                    "#spawncount": 1,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sniper"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_bot",
+                                    "#spawncount": 4,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_bot"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": true,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#hash_cbbc11574d626c3b",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#aicount",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 8,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            },
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#script",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [
+                                    {
+                                        "#tag": "#squad_size_large"
+                                    }
+                                ],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_smg",
+                                                "#spawncount": 3,
+                                                "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                            },
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_bot",
+                                                "#spawncount": 4
+                                            },
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_rusher",
+                                                "#spawncount": 2
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#infilvfx": "#none"
+                                    }
+                                ],
+                                "#requiredalltags": true,
+                                "#hash_5d22516693d1182f": "#combat"
+                            }
+                        ],
+                        "#hash_fa9acac35f4d787f": true
+                    },
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#aicount",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 6,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            },
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#script",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [
+                                    {
+                                        "#tag": "#squad_size_large"
+                                    }
+                                ],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_smg",
+                                                "#spawncount": 2,
+                                                "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                            },
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_bot",
+                                                "#spawncount": 3
+                                            },
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_ob_rusher",
+                                                "#spawncount": 2
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#infilvfx": "#none"
+                                    }
+                                ],
+                                "#requiredalltags": true,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ],
+                        "#hash_fa9acac35f4d787f": true
+                    }
+                ],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#squad_size_large"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 5,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 1
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_sn",
+                                    "#spawncount": 1,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sniper"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_bot",
+                                    "#spawncount": 5,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_bot"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_rocket",
+                                    "#spawncount": 1,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sniper"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#infilvfx": "#none"
+                        }
+                    ],
+                    "#requiredalltags": true,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_soldier_long",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_sg",
+                "#name": "#sat_ob_sg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_sniper",
+                "#name": "#sat_ob_sn"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_heavytactician",
+                "#name": "#sat_ob_lmg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#name": "#sat_ob_bot"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt",
+                "#name": "#sat_ob_grunt"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rocketeer",
+                "#name": "#sat_ob_rocket"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rusher",
+                "#name": "#sat_ob_rusher"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#checklos": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 8
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_37f321ba1963361e": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#cradle",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_75400021e0c441cf"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#small"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_2c5912f523523bda",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#zombie",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_a0f7819006166f42"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#zombie",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#zombie"
+            },
+            {
+                "#label": "#guild",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_5f04bc9266b14703"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#guild",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_e033f1ee76c5bf9",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype2": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype1": "%#sat_ob_enemy_guild_bot",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob_scorpio",
+                "#hash_b1534ca7cd2e2f75": 2,
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#name": "#zombie"
+            },
+            {
+                "#aitype4": "%#sat_ob_enemy_specialist_rusher",
+                "#aitype3": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype2": "%#sat_ob_enemy_specialist_rocketeer",
+                "#aitype1": "%#sat_ob_enemy_basic_soldier",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#hash_b1534ca7cd2e2f75": 3,
+                "#hash_b15347a7cd2e2476": 2,
+                "#name": "#guild"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_specialist_rusher_cradle",
+                "#aitype1": "%#sat_ob_enemy_cradle_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier",
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#hash_b15349a7cd2e28dc": 2,
+                "#name": "#cradle"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#spawnlocation",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100,
+            "#hash_1b6af29158f4b5d9": true,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_3f7ac17f888a2df5": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#pre_cradle",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 1,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_e6047e1718b6a685"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 3
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_special",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sg"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#post_cradle",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 1,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#pump_post_cradle"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle_smg",
+                                    "#spawncount": 3
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle_ar",
+                                    "#spawncount": 3
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle_special",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": true,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#aitype3": "%#sat_ob_enemy_guild_bot_advanced_short",
+                "#aitype2": "%#sat_ob_enemy_specialist_heavytactician",
+                "#aitype1": "%#sat_ob_enemy_specialist_rusher",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_shielded",
+                "#name": "#sat_ob_special"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_cradle_short",
+                "#name": "#cradle_smg"
+            },
+            {
+                "#aitype3": "%#sat_ob_enemy_guild_bot_advanced_short",
+                "#aitype2": "%#sat_ob_enemy_specialist_heavytactician",
+                "#aitype1": "%#sat_ob_enemy_cradle_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rusher_cradle",
+                "#name": "#cradle_special"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_guild_bot_cradle",
+                "#aitype1": "%#sat_ob_enemy_cradle_soldier_long",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#name": "#cradle_ar"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#checklos": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 100
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [
+            {
+                "#tag": "#squad_size_large"
+            }
+        ],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 30,
+            "#hash_1066c6dd8c8d58b6": 14,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_3faa619095c53ce6": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 1,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 3
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_rusher",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_soldier_long",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_shielded",
+                "#name": "#sat_ob_shield"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rusher",
+                "#name": "#sat_ob_rusher"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#checklos": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 100
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [
+            {
+                "#tag": "#squad_size_large"
+            }
+        ],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 50,
+            "#hash_1066c6dd8c8d58b6": 10,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_3fee8bd3e1263038": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_8543aad131fa2dee",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 1,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_e6047e1718b6a685"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 3
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_special",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sg"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": true,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#post_cradle_grunts",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 1,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#pump_post_cradle"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle_smg",
+                                    "#spawncount": 3
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 3
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle_special",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": true,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_specialist_heavytactician",
+                "#aitype1": "%#sat_ob_enemy_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rusher",
+                "#name": "#sat_ob_special"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_cradle_short",
+                "#name": "#cradle_smg"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_specialist_heavytactician",
+                "#aitype1": "%#sat_ob_enemy_cradle_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rusher_cradle",
+                "#name": "#cradle_special"
+            },
+            {
+                "#aitype1": "%#sat_ob_enemy_cradle_soldier_long",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#name": "#cradle_ar"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#checklos": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 100
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 30,
+            "#hash_1066c6dd8c8d58b6": 14,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_3fee8cd3e12631eb": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 1,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 2,
+                                    "#hash_bcb69843ef31ea4c": "#sniper"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_47bd442d9231009d": true,
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sniper",
+                                    "#spawncount": 1,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#sniper"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_soldier_long",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rusher",
+                "#name": "#sat_ob_sg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rocketeer",
+                "#name": "#sniper"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#checklos": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 100
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 50,
+            "#hash_1066c6dd8c8d58b6": 8,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_3fee8dd3e126339e": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_long",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_soldier_long",
+                "#name": "#sat_ob_long"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_heavytactician",
+                "#name": "#sat_ob_lmg"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#checklos": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 100
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#spawnduration": 20,
+            "#hash_5e8b1e84657da904": 30,
+            "#hash_1066c6dd8c8d58b6": 8
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_488efb0793ea5534": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 2,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_soldier_long",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rusher",
+                "#name": "#sat_ob_rusher"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#checklos": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 100
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#spawnduration": 30,
+            "#hash_5e8b1e84657da904": 20,
+            "#hash_1066c6dd8c8d58b6": 8
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_4e7e1905eaf64f24": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_b722bbf0f3929fc",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 2,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_vermin",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_base_zombies",
+                                    "#spawncount": 4
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#hash_d35c607125332635",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob",
+                "#name": "#sat_ob_base_zombies"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_vermin_ob",
+                "#name": "#sat_ob_vermin"
+            },
+            {
+                "#aitype1": "%#sat_spawner_zombie_parasite_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#name": "#hash_d35c607125332635"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300,
+            "#hash_5d9e0c208480845c": true
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 60,
+            "#hash_1066c6dd8c8d58b6": 16,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_4e7e1a05eaf650d7": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 2,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#grunt",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#soldier",
+                                    "#spawncount": 4
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#heavy",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sg"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_374b2456faa790e3",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype1": "%#sat_ob_enemy_basic_grunt_cradle",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob",
+                "#name": "#grunt"
+            },
+            {
+                "#aitype1": "%#sat_ob_enemy_guild_bot",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier_short",
+                "#name": "#soldier"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype1": "%#sat_ob_enemy_cradle_soldier_sg",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#name": "#heavy"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300,
+            "#hash_5d9e0c208480845c": true
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 60,
+            "#hash_1066c6dd8c8d58b6": 16,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_4e7e1b05eaf6528a": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 2,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 3
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_sg",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sg"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_374b2456faa790e3",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype1": "%#sat_ob_enemy_guild_bot",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier_long",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier_sg",
+                "#name": "#sat_ob_sg"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300,
+            "#hash_5d9e0c208480845c": true
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 60,
+            "#hash_1066c6dd8c8d58b6": 14,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_6152520b5e0de528": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_e48bf27e51fae153",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#squad_size_small"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 1
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_sg",
+                                    "#spawncount": 1,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_scientist",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_scientist"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#hash_3c97fd931a19e292",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#squad_size_large"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#large_ar"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_sg",
+                                    "#spawncount": 1,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 1,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#large_ar"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 1,
+                                    "#hash_e570babd9c1d883a": true,
+                                    "#hash_bcb69843ef31ea4c": "#large_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_scientist",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_scientist"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_soldier_long",
+                "#hash_b1534ba7cd2e2d42": 0.25,
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_sg",
+                "#name": "#sat_ob_sg"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_scientist",
+                "#name": "#sat_ob_scientist"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#hash_c52d809247ef5fe5": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#currentlocation",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_69a6c52038203de9": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_smg",
+                                    "#spawncount": 3,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_ar",
+                                    "#spawncount": 2
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype1": "%#sat_ob_enemy_guild_bot",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_soldier_long",
+                "#name": "#sat_ob_ar"
+            },
+            {
+                "#aitype1": "%#sat_ob_enemy_basic_grunt_sg",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_basic_grunt_short",
+                "#name": "#sat_ob_smg"
+            },
+            {
+                "#aitype1": "%#sat_ob_enemy_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_specialist_rusher",
+                "#name": "#sat_ob_rusher"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#checklos": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 100
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [
+            {
+                "#tag": "#squad_size_large"
+            }
+        ],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#spawnduration": 30,
+            "#hash_5e8b1e84657da904": 20,
+            "#hash_1066c6dd8c8d58b6": 12
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_6be62f872f4a073a": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_5cc0d0fd04ca6169",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 2,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#high",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#grunt",
+                                    "#spawncount": 4,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_smg"
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#soldier",
+                                    "#spawncount": 4
+                                },
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#heavy",
+                                    "#spawncount": 2,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_sg"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_374b2456faa790e3",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype1": "%#sat_ob_enemy_basic_grunt_cradle",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob",
+                "#name": "#grunt"
+            },
+            {
+                "#aitype1": "%#sat_ob_enemy_guild_bot",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier_short",
+                "#name": "#soldier"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype1": "%#sat_ob_enemy_cradle_soldier_sg",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#name": "#heavy"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300,
+            "#hash_5d9e0c208480845c": true
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [
+            {
+                "#tag": "#squad_size_large"
+            }
+        ],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_5e8b1e84657da904": 60,
+            "#hash_1066c6dd8c8d58b6": 20,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_75472358326908a3": {
+        "#encountertype": "#floodfill",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#cradle",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_5e8b1e84657da904": 0.5,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#always",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_75400021e0c441cf"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#cradle",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#small"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_2c5912f523523bda",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#zombie",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_a0f7819006166f42"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#zombie",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#zombie"
+            },
+            {
+                "#label": "#guild",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#combat",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_5f04bc9266b14703"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#guild",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilasset": "%#hash_e033f1ee76c5bf9",
+                            "#infilvfx": "#custom",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#aitype2": "%#sat_spawner_zombie_base_toxic_ob",
+                "#aitype1": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob",
+                "#hash_b1534ca7cd2e2f75": 2,
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#name": "#zombie"
+            },
+            {
+                "#aitype4": "%#sat_ob_enemy_specialist_rusher",
+                "#aitype3": "%#sat_ob_enemy_guild_bot_advanced",
+                "#aitype2": "%#sat_ob_enemy_specialist_rocketeer",
+                "#aitype1": "%#sat_ob_enemy_basic_soldier",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#hash_b1534ca7cd2e2f75": 3,
+                "#hash_b15347a7cd2e2476": 2,
+                "#name": "#guild"
+            },
+            {
+                "#aitype2": "%#sat_ob_enemy_specialist_rusher_cradle",
+                "#aitype1": "%#sat_ob_enemy_cradle_specialist_shielded",
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_cradle_soldier",
+                "#hash_b1534ba7cd2e2d42": 4,
+                "#hash_b15349a7cd2e28dc": 2,
+                "#name": "#cradle"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#spawnlocation",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100,
+            "#hash_1b6af29158f4b5d9": true,
+            "#hash_3c1f6df534666924": true
+        },
+        "#hash_4252efb37214c5c1": false
+    },
+    "#hash_757729fbca647808": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 300,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#directorcontrolled",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_aba355bcd0289bc7",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#custom",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_ob_bot",
+                                    "#spawncount": 1,
+                                    "#hash_bcb69843ef31ea4c": "#enemy_bot"
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_ob_enemy_guild_bot",
+                "#name": "#sat_ob_bot"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": false,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#hash_c52d809247ef5fe5": true,
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": false,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#always",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#spawn_points",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": false,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100
+        },
+        "#hash_4252efb37214c5c1": false
+    }
+}

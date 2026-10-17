@@ -1,0 +1,65 @@
+{
+    "name": "#sat_spawner_zombie_wither_zm",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_78a2002df456e3c0",
+    "animationStateMachineAsset": "#zombie_wither_skull",
+    "behaviorTreeAsset": "#zombie_wither",
+    "footStepsFxTable": "#hash_9663747c07c6f02e",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_ea7d0cca83f13fa2",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_zombie_wither"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/mp/zm/systems/aitypes/zm_zombie_wither.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\mp\\zm\\systems\\aitypes\\zm_zombie_wither.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_zombie_wither"
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_wither",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_wither",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_wither",
+        "#health": 100,
+        "#healthbarsettings": "%#hash_55a8c1df790cd668",
+        "#aitypesettingsbundle": "",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "",
+        "#grenadeweapon": "",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_wither_skull",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_wither",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}

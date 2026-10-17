@@ -1,0 +1,481 @@
+{
+    "#hash_1f651dc573f317db": {
+        "#prematchperiod": true,
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#hash_3f48f17d7810b084": [
+            "#hash_36312a4ad88f61c8": {
+                "#enabled": true,
+                "#condition": "#hash_36312a4ad88f61c8",
+                "#state": "Inherit"
+            },
+            "#spectatinghardcore": {
+                "#enabled": true,
+                "#condition": "#spectatinghardcore",
+                "#state": "Inherit"
+            },
+            "#hash_4fe0d891c5f25c4f": {
+                "#enabled": true,
+                "#condition": "#hash_4fe0d891c5f25c4f",
+                "#state": "Inherit"
+            },
+            "#hidehud": {
+                "#enabled": true,
+                "#condition": "#hidehud",
+                "#state": "Inherit"
+            },
+            "#hash_de3aff052fa1a0fd": {
+                "#enabled": true,
+                "#condition": "#hash_de3aff052fa1a0fd",
+                "#state": "Inherit"
+            },
+            "#spectating": {
+                "#enabled": true,
+                "#condition": "#spectating",
+                "#state": "Inherit"
+            },
+            "#normalgameplay": {
+                "#enabled": true,
+                "#condition": "#normalgameplay",
+                "#state": "Inherit"
+            }
+        ],
+        "#parameters": [
+            "#hash_669e8c59b571128": {
+                "#properties": [
+                    "#hash_eaf88e725dba94b2": {
+                        "#variant_object": {
+                            "#template": "#hash_eaf88e725dba94b2",
+                            "#property": "#hash_eaf88e725dba94b2",
+                            "#type": "DataSetProperty",
+                            "#dataset": "#hash_5d4c7b8a2118afb4"
+                        },
+                        "#variant_type": "Types_DataSetProperty"
+                    }
+                ],
+                "#name": "#hash_669e8c59b571128"
+            },
+            "#hash_54e95df6bb5c87ff": {
+                "#properties": [
+                    "#hash_eaf88e725dba94b2": {
+                        "#variant_object": {
+                            "#template": "#hash_eaf88e725dba94b2",
+                            "#property": "#hash_eaf88e725dba94b2",
+                            "#type": "DataSetProperty",
+                            "#dataset": "#hash_d6fd18518ba4870b"
+                        },
+                        "#variant_type": "Types_DataSetProperty"
+                    }
+                ],
+                "#name": "#hash_54e95df6bb5c87ff"
+            },
+            "#hash_9df54a5e448b9680": {
+                "#properties": [
+                    "#hash_eaf88e725dba94b2": {
+                        "#variant_object": {
+                            "#template": "#hash_eaf88e725dba94b2",
+                            "#property": "#hash_eaf88e725dba94b2",
+                            "#type": "DataSetProperty",
+                            "#dataset": "#hash_ac8e9474e5a3abb4"
+                        },
+                        "#variant_type": "Types_DataSetProperty"
+                    }
+                ],
+                "#name": "#hash_9df54a5e448b9680"
+            },
+            "#hash_b84923f56a9d3b8b": {
+                "#properties": [
+                    "#hash_eaf88e725dba94b2": {
+                        "#variant_object": {
+                            "#template": "#hash_eaf88e725dba94b2",
+                            "#property": "#hash_eaf88e725dba94b2",
+                            "#type": "DataSetProperty",
+                            "#dataset": "#hash_dc4b77acc987a04f"
+                        },
+                        "#variant_type": "Types_DataSetProperty"
+                    }
+                ],
+                "#name": "#hash_b84923f56a9d3b8b"
+            }
+        ],
+        "#hash_22a6c228fcbc25c9": [
+            "#hash_eaf88e725dba94b2": {
+                "#variant_object": {
+                    "#template": "#hash_eaf88e725dba94b2",
+                    "#property": "#hash_eaf88e725dba94b2",
+                    "#type": "DataSetProperty",
+                    "#dataset": "#hash_d6fd18518ba4870b"
+                },
+                "#variant_type": "Types_DataSetPropertyTemplate"
+            }
+        ],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [
+            "#animfinished": {
+                "#name": "#animfinished",
+                "#script_notify": "vds_animation_complete"
+            }
+        ],
+        "#requirepath": "ui.generated.widgets.ingame.scriptedwidgetvictorydefeatscreenbongo",
+        "#luafile": "ui/generated/widgets/ingame/scriptedwidgetvictorydefeatscreenbongo.lua",
+        "#archetype": "%#hash_39d887d6c0005364",
+        "#hash_8a07682afe8dbed9": [
+            "#hash_36312a4ad88f61c8": {
+                "#condition": "#hash_36312a4ad88f61c8",
+                "#state": "Show"
+            },
+            "#hash_4fe0d891c5f25c4f": {
+                "#condition": "#hash_4fe0d891c5f25c4f",
+                "#state": "Show"
+            },
+            "#hidehud": {
+                "#condition": "#hidehud",
+                "#state": "Show"
+            },
+            "#normalgameplay": {
+                "#condition": "#normalgameplay",
+                "#state": "Show"
+            }
+        ],
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hidehud": true,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": true,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [
+            "#hash_5d4c7b8a2118afb4": {
+                "#template": "#hash_eaf88e725dba94b2",
+                "#hash_47e384bb4d49c4ec": true,
+                "#data": [
+                    "#sound_alias": {
+                        "#variant_object": {
+                            "#property": "#sound_alias",
+                            "#value": "uin_saw_bongo_defeat_slam",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#title_text": {
+                        "#variant_object": {
+                            "#property": "#title_text",
+                            "#value": "&#hash_1f508210244d4484",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    "#hash_9a2ea935f7bc8f62": {
+                        "#variant_object": {
+                            "#property": "#hash_9a2ea935f7bc8f62",
+                            "#category": "#palette_semantic",
+                            "#color": "#buttonprompt",
+                            "#type": "SwatchProperty",
+                            "#project": "Current",
+                            "#game_mode": ""
+                        },
+                        "#variant_type": "Types_SwatchProperty"
+                    },
+                    "#hash_b5ac62320935c74d": {
+                        "#variant_object": {
+                            "#property": "#hash_b5ac62320935c74d",
+                            "#value": "saw_warzone_tie",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    }
+                ],
+                "#name": "#hash_5d4c7b8a2118afb4",
+                "#tags": []
+            },
+            "#hash_ac8e9474e5a3abb4": {
+                "#template": "#hash_eaf88e725dba94b2",
+                "#hash_47e384bb4d49c4ec": true,
+                "#data": [
+                    "#hash_52a9aa2e6bb615e5": {
+                        "#variant_object": {
+                            "#property": "#hash_52a9aa2e6bb615e5",
+                            "#value": "&#hash_1fd3bb270af99217",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    "#sound_alias": {
+                        "#variant_object": {
+                            "#property": "#sound_alias",
+                            "#value": "uin_saw_bongo_defeat_slam",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#title_text": {
+                        "#variant_object": {
+                            "#property": "#title_text",
+                            "#value": "&#mp/defeat",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    "#hash_9a2ea935f7bc8f62": {
+                        "#variant_object": {
+                            "#property": "#hash_9a2ea935f7bc8f62",
+                            "#category": "#palette_semantic",
+                            "#color": "#negative500_base",
+                            "#type": "SwatchProperty",
+                            "#project": "Current",
+                            "#game_mode": ""
+                        },
+                        "#variant_type": "Types_SwatchProperty"
+                    },
+                    "#hash_b5ac62320935c74d": {
+                        "#variant_object": {
+                            "#property": "#hash_b5ac62320935c74d",
+                            "#value": "saw_warzone_bongo_defeat",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    }
+                ],
+                "#name": "#hash_ac8e9474e5a3abb4",
+                "#tags": []
+            },
+            "#hash_d6fd18518ba4870b": {
+                "#template": "#hash_eaf88e725dba94b2",
+                "#hash_47e384bb4d49c4ec": true,
+                "#data": [
+                    "#hash_52a9aa2e6bb615e5": {
+                        "#variant_object": {
+                            "#property": "#hash_52a9aa2e6bb615e5",
+                            "#value": "&#hash_1fd3ba270af99064",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    "#sound_alias": {
+                        "#variant_object": {
+                            "#property": "#sound_alias",
+                            "#value": "uin_saw_bongo_victory_slam",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#title_text": {
+                        "#variant_object": {
+                            "#property": "#title_text",
+                            "#value": "&#mp/victory",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    "#hash_9a2ea935f7bc8f62": {
+                        "#variant_object": {
+                            "#property": "#hash_9a2ea935f7bc8f62",
+                            "#category": "#hash_df01504d5eb8601e",
+                            "#color": "#hash_2f30da4ea89649a",
+                            "#type": "SwatchProperty",
+                            "#project": "Current",
+                            "#game_mode": ""
+                        },
+                        "#variant_type": "Types_SwatchProperty"
+                    },
+                    "#hash_b5ac62320935c74d": {
+                        "#variant_object": {
+                            "#property": "#hash_b5ac62320935c74d",
+                            "#value": "saw_warzone_bongo_victory",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    }
+                ],
+                "#name": "#hash_d6fd18518ba4870b",
+                "#tags": []
+            },
+            "#hash_dc4b77acc987a04f": {
+                "#template": "#hash_eaf88e725dba94b2",
+                "#hash_47e384bb4d49c4ec": true,
+                "#data": [
+                    "#hash_52a9aa2e6bb615e5": {
+                        "#variant_object": {
+                            "#property": "#hash_52a9aa2e6bb615e5",
+                            "#value": "&#hash_1fd3bb270af99217",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    "#sound_alias": {
+                        "#variant_object": {
+                            "#property": "#sound_alias",
+                            "#value": "uin_saw_bongo_defeat_slam",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    },
+                    "#title_text": {
+                        "#variant_object": {
+                            "#property": "#title_text",
+                            "#value": "&#mp/tie",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    "#hash_9a2ea935f7bc8f62": {
+                        "#variant_object": {
+                            "#property": "#hash_9a2ea935f7bc8f62",
+                            "#category": "#palette_semantic",
+                            "#color": "#negative500_base",
+                            "#type": "SwatchProperty",
+                            "#project": "Current",
+                            "#game_mode": ""
+                        },
+                        "#variant_type": "Types_SwatchProperty"
+                    },
+                    "#hash_b5ac62320935c74d": {
+                        "#variant_object": {
+                            "#property": "#hash_b5ac62320935c74d",
+                            "#value": "saw_warzone_bongo_defeat",
+                            "#type": "RawStringProperty"
+                        },
+                        "#variant_type": "Types_RawStringProperty"
+                    }
+                ],
+                "#name": "#hash_dc4b77acc987a04f",
+                "#tags": []
+            }
+        ],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#hash_7793fadbab469c9d",
+        "#states": [
+            "#hash_669e8c59b571128": {
+                "#name": "#hash_669e8c59b571128",
+                "#state": "#hash_1c4f337dd1409cea"
+            },
+            "#hash_54e95df6bb5c87ff": {
+                "#name": "#hash_54e95df6bb5c87ff",
+                "#state": "#hash_a73225a9c3664866"
+            },
+            "#hash_9df54a5e448b9680": {
+                "#name": "#hash_9df54a5e448b9680",
+                "#state": "#defeatstate"
+            },
+            "#default": {
+                "#name": "#default",
+                "#state": "#hash_a73225a9c3664866"
+            }
+        ],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": [
+            {
+                "#variant_object": {
+                    "#value": "ui/utils/victorydefeatscreenutils.lua",
+                    "#type": "LuaFileProperty"
+                },
+                "#variant_type": "Types_LuaFileProperty"
+            },
+            {
+                "#variant_object": {
+                    "#assettype": "#movie",
+                    "#value": "saw_warzone_bongo_victory",
+                    "#type": "AssetProperty"
+                },
+                "#variant_type": "Types_AssetProperty"
+            },
+            {
+                "#variant_object": {
+                    "#assettype": "#movie",
+                    "#value": "saw_warzone_bongo_defeat",
+                    "#type": "AssetProperty"
+                },
+                "#variant_type": "Types_AssetProperty"
+            },
+            {
+                "#variant_object": {
+                    "#assettype": "#movie",
+                    "#value": "saw_warzone_tie",
+                    "#type": "AssetProperty"
+                },
+                "#variant_type": "Types_AssetProperty"
+            }
+        ]
+    },
+    "#hash_677d746e31774bcd": {
+        "#rendertarget": "None",
+        "#hash_62820937ae750e29": false,
+        "#parameters": [],
+        "#hash_22a6c228fcbc25c9": [],
+        "#hash_2687e4f2cbcf1393": [],
+        "#hash_78b34127ab1edf37": false,
+        "#servermessages": [
+            "#upgradesplashhide": {
+                "#name": "#upgradesplashhide",
+                "#script_notify": "UpgradeSplashHide"
+            },
+            "#upgradesplashshow": {
+                "#name": "#upgradesplashshow",
+                "#script_notify": "UpgradeSplashShow"
+            }
+        ],
+        "#requirepath": "ui.generated.widgets.ingame.ScriptedWidgetBRUpgradeSplash",
+        "#luafile": "ui/generated/widgets/ingame/scriptedwidgetbrupgradesplash.lua",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#presetsettings": {
+            "#gamemodepresets": [],
+            "#gametypepresets": [],
+            "#presetsettings": {
+                "#hudeditor": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#y": 0,
+                    "#x": 0
+                },
+                "#position": {
+                    "#verticalanchor": "Middle",
+                    "#horizontalanchor": "Center",
+                    "#enabled": false,
+                    "#y": 0,
+                    "#x": 0
+                }
+            },
+            "#projectpresets": []
+        },
+        "#hash_5c4d4c8a712b02d1": 1024,
+        "#datasets": [],
+        "#hash_d195d4ddcd19301f": false,
+        "#interactions": [],
+        "#hash_4b1a5b31df97c7a8": false,
+        "#widget": "#hash_ab2383299e105b3a",
+        "#states": [],
+        "#hash_b53f419bce569890": false,
+        "#normalgameplay": true,
+        "#assets": [
+            {
+                "#variant_object": {
+                    "#value": "scripts/mp/br/br_upgrade_splash.gsc",
+                    "#type": "GscObjProperty"
+                },
+                "#variant_type": "Types_GscObjProperty"
+            }
+        ]
+    }
+}

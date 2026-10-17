@@ -1,0 +1,50 @@
+{
+    "#packages": [
+        {
+            "#variant_object": {
+                "#capturestring": "&#mp_br_ingame/deployable_kiosk",
+                "#exclusiveuse": false,
+                "#pingonspawn": "none",
+                "#packagemodel": "military_deployable_buystation",
+                "#hash_72cc9351de30b080": 80,
+                "#parachutemodel": "veh9_mil_lnd_parachute_carepackage_br",
+                "#hash_e378e8cc5a06a8e0": 5,
+                "#type": "#crate",
+                "#hasnointeraction": true,
+                "#hash_54fc859286c6bbff": true,
+                "#setonspawn": [],
+                "#hash_abc6bc2495fb4956": "none",
+                "#hash_d3dffdadce47691a": true
+            },
+            "#variant_type": "Types_PackageCrate"
+        }
+    ],
+    "#airdropbehavior": [
+        {
+            "#variant_object": {
+                "#dronehealth": 200,
+                "#hash_fe3437bbc52ad866": true,
+                "#hash_975fca1eaa4989af": 180,
+                "#droneexplosionradius": 512,
+                "#hash_32bd400d23eac6e2": "ui_map_icon_buystation_drone_enemy",
+                "#hash_41fb6a3d01916f5c": 1,
+                "#hash_c9812fd06559a36e": 40,
+                "#hash_b23dd50afb4efe09": 85,
+                "#hash_45aa07a9a3fad2e1": 50,
+                "#hash_bde4c92c3498277a": 6700,
+                "#type": "#drone",
+                "#hash_c19302c2e279c016": 9000,
+                "#dropheight": 1300,
+                "#hash_c11f182c49a6ea82": true,
+                "#dronemodel": "veh9_mil_air_drone_supply_sweep",
+                "#hash_9e7626e811447e42": "ui_map_icon_buystation_drone",
+                "#explosionscriptable": "scriptable_redeploy_drone_explosion",
+                "#hash_ce8365a343fe648d": "#br_deployable_kiosk_destroyed",
+                "#hash_b56e67acf0cc0094": "&#equipment/deployable_kiosk_marker",
+                "#hash_c86427bd7d0b3189": "#br_deployable_kiosk_damaged"
+            },
+            "#variant_type": "Types_AirdropBehaviorDrone"
+        }
+    ],
+    "#droplocationtype": "random"
+}

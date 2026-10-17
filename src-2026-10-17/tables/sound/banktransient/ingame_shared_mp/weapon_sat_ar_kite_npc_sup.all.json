@@ -1,0 +1,4209 @@
+{
+    "name": "#weapon_sat_ar_kite_npc_sup.all",
+    "unk8": "#hash_fbf4f30b0a58955d",
+    "language": "#eng",
+    "type": "#all",
+    "aliases": [
+        {
+            "name": "#fly_npc_ar_kite_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_drop_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_drop_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_maginspect.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_drumlook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_druminspect.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_drumdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_drum_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_drum_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_maginspect.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_boltgrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_boltcycle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_boltgrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_21",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_22",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_23",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_drumlook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_druminspect.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_drumdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_boltgrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_boltcycle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_boltgrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_drum_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c540649c2c6c694",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c540949c2c6cbad",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c540849c2c6c9fa",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_drum_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_324b6652a12b18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_324e6652a13031",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_324d6652a12e7e",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_32506652a13397",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_324f6652a131e4",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_32526652a136fd",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_32516652a1354a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_32446652a11f33",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_maginspect.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_32436652a11d80",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4666529eecc2",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4766529eee75",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4466529ee95c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4566529eeb0f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4266529ee5f6",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4366529ee7a9",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4066529ee290",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_boltgrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4166529ee443",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_boltcycle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4e66529efa5a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_boltgrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2f4f66529efc0d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2bc066529bd339",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2bbf66529bd186",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2bbe66529bcfd3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2bbd66529bce20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_maginspect.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_boltgrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_boltcycle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_boltgrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_empty_flip_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fbb57fe0fb875fa1",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fbb57ce0fb875a88",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_empty_flip_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ead80bef689ea02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ead7fbef689e84f",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ead7ebef689e69c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ead7dbef689e4e9",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ead7cbef689e336",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ead7bbef689e183",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ead7abef689dfd0",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ead89bef689f94d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_maginspect.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ead88bef689f79a",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ea9fbbef686d22c",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ea9fcbef686d3df",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ea9fdbef686d592",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ea9febef686d745",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ea9f7bef686cb60",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ea9f8bef686cd13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ea9f9bef686cec6",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2ea9fabef686d079",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2eaa03bef686dfc4",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2eaa04bef686e177",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_2eb40dbef68f4547",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_dip.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_maglook.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_maginspect.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_magdown.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_boltopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_18",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_boltclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_19",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_inspect_flip_20",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_c0d2bf5e5e966e03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_inspect_flip_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_raise_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_raise_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_raise_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_raise_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_raise_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_raise_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_raise_quick_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_raise_quick_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_drum_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_drum_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_magclack.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_magtoss.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_16",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_17",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_drum_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_drum_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_15",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_boltgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_charge.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_empty_fast02_flip_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_empty_fast02_flip_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_maggrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_magout.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_maghit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_maghit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_maghit3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_magslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_magin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_reload_fast02_flip_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_reload_fast02_flip_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_selectsemi_off_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_selectsemi_off_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_selectsemi_off_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_selectsemi_off_switch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_selectsemi_off_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_selectsemi_off_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_selectsemi_on_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_selectsemi_on_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_selectsemi_on_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_selectsemi_on_switch.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_selectsemi_on_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_selectsemi_on_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_transition_reload_empty_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_transition_reload_empty_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_01_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9551bb8448112338",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_01_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_9551c28448112f1d",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_01_maghit.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_transition_reload_empty_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_98bc28cc9696200b",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_drum_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_98bc29cc969621be",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_drum_01_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_6e3e30d7dffedd54",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_drum_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_66e5bc6253d852d9",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_fast_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_66e5b96253d84dc0",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_fast_01_settle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_db0fc490c872c66",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_fast_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_db0fb490c872ab3",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_fast_02_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_transition_reload_empty_fast02_flip_01_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_fast02_flip_01_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_transition_reload_empty_fast02_flip_01_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_fast02_flip_01_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_transition_reload_empty_fast02_flip_02_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_transition_reload_empty_fast02_flip_02_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_drop_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_drop_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_drop_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_drop_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_from_grenade_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_from_grenade_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_from_grenade_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_from_grenade_grab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_from_grenade_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_from_grenade_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_ubglgrab.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_ubglopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_rattle1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_ubglclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_rotate.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_rattle2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_rattle3.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_inspect_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_31d62f4394f6517b",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_inspect_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_raise_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_raise_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_raise_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_raise_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_raise_quick_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_raise_quick_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fc1fab827f0ecd2b",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_raise_quick_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_ubglgrab1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_03",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_ubglopen.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_04",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_rattle.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_05",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_arm.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_06",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_shellhit1.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_07",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_shellhit2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_08",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_shellslide.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_09",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_shellin.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_10",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_ubglgrab2.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_11",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_ubglclose.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_12",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_tilt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_13",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_mvmt.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_reload_14",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_reload_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_to_grenade_01",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_to_grenade_start.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#fly_npc_ar_kite_ubgl_to_grenade_02",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/reloads/wfoly_plr_ar_kite_ubgl_to_grenade_end.tnn.75.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#foley"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_ar_kite_sup_npc",
+            "aliases": [
+                {
+                    "name": "#wpn_ar_kite_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/ar/kite/plr/sup/wpn_ar_kite_sup_plr_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/ar/kite/plr/sup/wpn_ar_kite_sup_plr_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/ar/kite/plr/sup/wpn_ar_kite_sup_plr_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/ar/kite/plr/sup/wpn_ar_kite_sup_plr_04.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/ar/kite/plr/sup/wpn_ar_kite_sup_plr_05.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_mech",
+                    "sndAsset": "#sat/wpn/ar/kite/plr/sup/wpn_ar_kite_sup_plr_06.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_ar_kite_sup_npc_atmo",
+            "aliases": [
+                {
+                    "name": "#hash_fb178fdee70939e7",
+                    "sndAsset": "#hash_a96966b854251e00",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#hash_fb178fdee70939e7",
+                    "sndAsset": "#hash_a93e16c9d2ceadfd",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#hash_fb178fdee70939e7",
+                    "sndAsset": "#hash_e606aa3021ef221a",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#hash_fb178fdee70939e7",
+            "aliases": [
+                {
+                    "name": "#wpn_ar_kite_sup_npc_med_atmo",
+                    "sndAsset": "#hash_f0567e8dc0d9da50",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_med_atmo",
+                    "sndAsset": "#hash_d07a03cd0b6f7c8d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_med_atmo",
+                    "sndAsset": "#hash_ec3cc5e7be061aaa",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_91fd292fff9d080c",
+                    "sndOcclusionSetting": "#weapon_close",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_ar_kite_sup_npc_lfe",
+            "aliases": [
+                {
+                    "sndAsset": "#sat/wpn/ar/kite/lfe/wpn_ar_kite_fire_plr_lfe_01.tnn.100.48000.all",
+                    "soundSpeakerMap": "#lfe_only",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_ar_kite_sup_npc_mech",
+            "aliases": [
+                {
+                    "name": "#wpn_ar_kite_sup_npc_lfe",
+                    "sndAsset": "#sat/wpn/ar/kite/plr/mech/wpn_ar_kite_fire_plr_mech_01.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_lfe",
+                    "sndAsset": "#sat/wpn/ar/kite/plr/mech/wpn_ar_kite_fire_plr_mech_02.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_lfe",
+                    "sndAsset": "#sat/wpn/ar/kite/plr/mech/wpn_ar_kite_fire_plr_mech_03.tnn.85.48000.all",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#hash_e95026f101137b6c",
+                    "sndOcclusionSetting": "#weapon_close"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_ar_kite_sup_npc_med_atmo",
+            "aliases": [
+                {
+                    "name": "#wpn_ar_kite_sup_npc_med_atmo_int",
+                    "sndAsset": "#hash_d8030daf93a71d2d",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_med_atmo_int",
+                    "sndAsset": "#hash_d4a348f7fc85f870",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                },
+                {
+                    "name": "#wpn_ar_kite_sup_npc_med_atmo_int",
+                    "sndAsset": "#hash_d93011e2fbf0036f",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa7516bcb"
+                }
+            ]
+        },
+        {
+            "name": "#wpn_ar_kite_sup_npc_med_atmo_int",
+            "aliases": [
+                {
+                    "sndAsset": "#hash_ed6b362b2f90c3d1",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_8711d1812d231ec4",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                },
+                {
+                    "sndAsset": "#hash_e0941f4b9dce6c83",
+                    "soundSpeakerMap": "#default",
+                    "soundCone": "#default",
+                    "sndOcclusionSetting": "#weapon_mid",
+                    "sndModifier": "#hash_1daa75170f3"
+                }
+            ]
+        }
+    ]
+}

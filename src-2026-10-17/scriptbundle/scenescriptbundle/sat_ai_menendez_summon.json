@@ -1,0 +1,98 @@
+{
+    "#objects": [
+        {
+            "#variant_object": {
+                "#hash_922e0ab6cb29ffbd": "zonealias_common_operator",
+                "#hash_b1188d6a6c31ca63": true,
+                "#deletetype": "None",
+                "#animtree": {
+                    "name": "generic_human",
+                    "id": 0
+                },
+                "#takedamage": true,
+                "#lookatstealth": true,
+                "#hash_f6d9e11e9b6ac243": "scene_actor_sat_ai_menendez_summon_0",
+                "#name": "menendez",
+                "#aitypename": "sat_ob_enemy_menendez",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.37,
+                        "#blendcurve": "ease_in_quad",
+                        "#demeanorend": "combat",
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "sat_ai_menendez_summon_enter_01@sbundle"
+                                }
+                            }
+                        ],
+                        "#demeanorstart": "combat"
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.37,
+                        "#blendcurve": "ease_in_quad",
+                        "#demeanorend": "combat",
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "sat_ai_menendez_summon_loop_01@sbundle"
+                                }
+                            }
+                        ],
+                        "#demeanorstart": "combat"
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 0.6,
+                        "#blendcurve": "ease_in_quad",
+                        "#demeanorend": "combat",
+                        "#deltaanimations": [
+                            {
+                                "#alternateanimations": [],
+                                "#hash_a629058043fe3322": [],
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "sat_ai_menendez_summon_exit_01@sbundle"
+                                }
+                            }
+                        ],
+                        "#demeanorstart": "combat"
+                    }
+                ]
+            },
+            "#variant_type": "Types_Actor"
+        }
+    ],
+    "#hash_f5afe1a75546822c": "stream_profile_scene",
+    "#hash_6f8870069a3470b8": true,
+    "#hash_2f4981e3dd60abe4": "None",
+    "#gamemode": "MP",
+    "#shots": [
+        {
+            "#variant_object": {
+                "#name": "enter"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "loop"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "exit"
+            },
+            "#variant_type": "Types_Shot"
+        }
+    ]
+}

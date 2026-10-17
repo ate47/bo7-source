@@ -1,0 +1,62 @@
+{
+    "#hash_5f97da188cc7b7e5": {
+        "#omnvar_handler": "data",
+        "#archetype_func": "ArchetypeProgressBool",
+        "#fields": [
+            "#current_pct": {
+                "#step_increment": 0.01,
+                "#field_name": "#current_pct",
+                "#max_value": 1
+            },
+            "#bool": {
+                "#step_increment": 1,
+                "#field_name": "#bool",
+                "#max_value": 1
+            }
+        ],
+        "#widget_func_required": true,
+        "#widget_func": "SetProgressBool",
+        "#hash_963e84379d023af2": [],
+        "#fieldgroups": []
+    },
+    "#hash_7802261d8c107b42": {
+        "#omnvar_handler": "data",
+        "#archetype_func": "ArchetypeInWorldMarker",
+        "#fields": [
+            "#locstring_index": {
+                "#step_increment": 1,
+                "#field_name": "#locstring_index",
+                "#filter": "LocalizedConfigString",
+                "#max_value": 65535
+            },
+            "#hash_5c066c18f1b06a4e": {
+                "#step_increment": 1,
+                "#field_name": "#hash_5c066c18f1b06a4e",
+                "#filter": "Bool",
+                "#max_value": 1,
+                "#datasource_only": true
+            },
+            "#show_distance": {
+                "#step_increment": 1,
+                "#field_name": "#show_distance",
+                "#filter": "Bool",
+                "#max_value": 1
+            },
+            "#is_obstructed": {
+                "#step_increment": 1,
+                "#field_name": "#is_obstructed",
+                "#filter": "Bool",
+                "#datasource_only": true
+            },
+            "#hash_b2625fe2f25c582c": {
+                "#step_increment": 1,
+                "#field_name": "#hash_b2625fe2f25c582c",
+                "#filter": "Bool",
+                "#max_value": 1,
+                "#datasource_only": true
+            }
+        ],
+        "#hash_963e84379d023af2": [],
+        "#fieldgroups": []
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "#lootcardprompts": [
+        {
+            "#promptasset": "%#hash_450608566e4a6b5e",
+            "#promptcategory": "primary",
+            "#conditionkey": "#default"
+        },
+        {
+            "#promptasset": "%#hash_5128b62df468d97e",
+            "#promptcategory": "secondary",
+            "#conditionkey": "#ping"
+        }
+    ],
+    "#resources": [],
+    "#camoref": "",
+    "#droponground": true,
+    "#pingvo": "%#ping_loot_armorpouch",
+    "#hash_6a53527f8469a346": true,
+    "#lootitemtype": "%#hash_654b722f4a10c320",
+    "#hash_2db3c77ed10a87aa": true,
+    "#maxcount": 1,
+    "#hash_c048a47fe4e742cd": "%#ping_loot_confirm_armorpouch",
+    "#hash_9f512e71af74e61d": [
+        {
+            "#hash_65859501bbd1e73f": true,
+            "#value": 3,
+            "#loottype": "%#hash_6def3406ddfccc04",
+            "#initialgrant": 8
+        }
+    ],
+    "#hash_14f5e5b99be6fc2f": true,
+    "#titlestring": "&#mp_br_ingame/satchel_armor",
+    "#size": "large",
+    "#hash_b7386e49348ae6a3": 0,
+    "#hash_f96b9b6aff0b335f": 0,
+    "#rarity": 4,
+    "#hash_d4d12443a6764642": true,
+    "#descstring": "&#hash_7f4cff77a721f297",
+    "#hash_aac2785c34c750bd": true,
+    "#ref": "wz_consumable_satchel_armor",
+    "#inventoryslot": "Generic",
+    "#dropsfx": "#hash_f80c55c7d50df43c",
+    "#armorupgrade": {
+        "#hash_160bb77f70ce8c44": true,
+        "#hash_60e53495c3091af9": true,
+        "#hash_2110816f22f3360c": false,
+        "#damagetakenscale": 1
+    },
+    "#hash_72a3280ab4220602": "&#hash_7f4cff77a721f297",
+    "#gamemoderestrictions": {
+        "#br": true
+    },
+    "#subtype": "armor",
+    "#lootcardalerts": [
+        {
+            "#datasource": "alert_has_satchel",
+            "#lootcardalert": "%#hash_3fc35900ccf4d840"
+        },
+        {
+            "#datasource": "alert_not_daisy"
+        }
+    ],
+    "#hash_b22f7855894dc6a0": "common_unrestricted",
+    "#pickupsfx": "#fly_br_legendary_loot_pickup",
+    "#inventorytype": "Upgrade",
+    "#hash_8725c0955f9aadd": {
+        "#rewardtype": "ItemSpawnList"
+    },
+    "#tags": [],
+    "#icon": "hud_icon_loot_vest_armor",
+    "#spawncount": 1,
+    "#hash_2d4a8aa1a1c36b31": 0,
+    "#ispingable": true,
+    "#scriptable": "%#brloot_satchel_armor",
+    "#hash_597137438370ed5e": true,
+    "#nonstackable": true,
+    "#pingasset": "%#loot",
+    "#typestring": "&#hash_38cf14a5710b5e9c"
+}

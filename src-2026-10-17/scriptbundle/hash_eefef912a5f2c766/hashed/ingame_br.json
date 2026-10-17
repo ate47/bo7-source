@@ -1,0 +1,109 @@
+{
+    "#hash_2cdfe868094f29d9": {
+        "#hash_489e63aebc178a45": 1,
+        "#cooldownseconds": 0.5,
+        "#charge": {
+            "#variant_object": {},
+            "#variant_type": "Types_AbilityChargeBase"
+        },
+        "#hash_ef48b42b77ce382b": "&#hash_792b908956060b61",
+        "#tunables": {
+            "#variant": {
+                "#variant_object": {
+                    "#abilitytype": "guts_throw",
+                    "#equipment": "equip_guts"
+                },
+                "#variant_type": "Types_GutsThrowTunables"
+            }
+        },
+        "#hudicon": "sat_ui_icon_zm_haunting_ability_gut_throw",
+        "#promptstring": "&#hash_792b908956060b61",
+        "#title": "&#hash_1660c1b77602e165"
+    },
+    "#hash_48a711e90f9bb7a1": {
+        "#hash_489e63aebc178a45": 3,
+        "#cooldownseconds": 6,
+        "#charge": {
+            "#variant_object": {
+                "#chargeseconds": 1,
+                "#hash_c3ca9df87ea0117e": 1,
+                "#hash_78d4469306b298a6": -1,
+                "#hash_560e0db3a1c87896": 0.25
+            },
+            "#variant_type": "Types_HoldCharge"
+        },
+        "#hash_ef48b42b77ce382b": "&#hash_241adde36c626954",
+        "#tunables": {
+            "#variant": {
+                "#variant_object": {
+                    "#hash_40edc9cf40dd760e": "evt_blight_charge_jump_full",
+                    "#hash_45ee2c02a46286": 1200,
+                    "#aircontrol": 400,
+                    "#airgesture": "%#ges_zombie_superjump",
+                    "#hash_65c2e7a5633884d9": 0.3,
+                    "#maxvelocity": 1100,
+                    "#hash_66ef276c83bd435b": true,
+                    "#groundwaittime": 0.2,
+                    "#hash_26ecee79452f87df": "zxp_superjump_sfx_npc",
+                    "#chargegesture": "%#ges_zombie_superjumpcharge",
+                    "#abilitytype": "power_jump",
+                    "#hash_40a43ef9a8d4551d": "evt_blight_charge_jump_start",
+                    "#hash_adf499feca9413a": "zxp_superjump_land_vo_npc",
+                    "#hash_fab79c3da75c54c3": 20,
+                    "#hash_fab79d3da75c56f6": 30,
+                    "#landingwaittime": 0.2,
+                    "#hash_17f4d6d63f8aa27c": "zxp_superjump_sfx"
+                },
+                "#variant_type": "Types_PowerJumpTunables"
+            }
+        },
+        "#hudicon": "sat_ui_icon_zm_haunting_ability_super_jump",
+        "#anim": "Jump",
+        "#promptstring": "&#hash_603d8fb70f549441",
+        "#title": "&#hash_606542417ab85315"
+    },
+    "#hash_7121ab2f6b741a4a": {
+        "#hash_489e63aebc178a45": 2,
+        "#cooldownseconds": 6,
+        "#charge": {
+            "#variant_object": {},
+            "#variant_type": "Types_AbilityChargeBase"
+        },
+        "#hash_ef48b42b77ce382b": "&#hash_71b80de9bb8044c7",
+        "#tunables": {
+            "#variant": {
+                "#variant_object": {
+                    "#soundself": "zxp_emp_fire_plr",
+                    "#hash_8dbf206e6d5dff82": true,
+                    "#soundarea": "eqp_sat_emp_grenade_charge_up",
+                    "#hash_f58636374540bda7": true,
+                    "#hash_8ee7df6428ef69cf": 0.1,
+                    "#hash_b234668552a0c38": 5,
+                    "#gesture": "ges_zombie_shout",
+                    "#hash_233e00715dcd7754": 3.5,
+                    "#hash_d887c07cd8f9dbca": 5,
+                    "#vfx": "vfx_sat_core_equip_emp_grenade_explo",
+                    "#hash_9aadc32670e41b57": 5,
+                    "#shockasset": "%#hash_7086cdd1816e7832",
+                    "#hash_c3a05fefd5c0434e": 0.2,
+                    "#weapon": "emp_grenade_mp",
+                    "#radius": 450,
+                    "#abilitytype": "emp_blast",
+                    "#hash_7c0233bdd0956f4b": 0.1,
+                    "#hash_c2c169d43ef8e530": 0.1,
+                    "#hash_d6e060f32c9e4875": 5,
+                    "#debuffseconds": 2.5,
+                    "#hash_7378ca6c7945ffd0": 0.5,
+                    "#hash_7b5ea13fdad02f3e": "zxp_emp_impact_plr",
+                    "#castseconds": 1,
+                    "#hash_c690c44994da87fc": 5
+                },
+                "#variant_type": "Types_EmpBlastTunables"
+            }
+        },
+        "#hudicon": "sat_ui_icon_zm_haunting_ability_emp_blast",
+        "#anim": "Shout",
+        "#promptstring": "&#hash_71b80de9bb8044c7",
+        "#title": "&#hash_73ae0d8e95ae0ab3"
+    }
+}

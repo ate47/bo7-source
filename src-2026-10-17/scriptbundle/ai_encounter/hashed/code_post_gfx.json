@@ -1,0 +1,963 @@
+{
+    "#hash_58b7bab92d555df4": {
+        "#encountertype": "#standard",
+        "#usetags": true,
+        "#hash_31a1ee059f1a66de": {
+            "#heightlimit": 1,
+            "#spawnpointselection": "#random"
+        },
+        "#respawntime": 180,
+        "#hash_e4186ede5fc32bfb": {
+            "#spawnpointselection": "#vehicle"
+        },
+        "#bucketselection": "#spawnrandom",
+        "#potentialbuckets": [
+            {
+                "#label": "#hash_20e26592b8d2960f",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.9,
+                                "#triggertype": "#influence",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            },
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#hash_9b02ab80d56b8f3",
+                                "#hash_c460e51daa26cb4a": 1,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#zombie",
+                                                "#spawncount": 3
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#droptoground": true,
+                                        "#infilvfx": "#none",
+                                        "#hash_5ce2f10e1d0ff94d": true,
+                                        "#useinteractions": true
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#difficulty_easy"
+                        },
+                        {
+                            "#tag": "#aftermath"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#basic",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": true,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#hash_4ecd2216c89604da",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.9,
+                                "#triggertype": "#influence",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            },
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#hash_9b02ab80d56b8f3",
+                                "#hash_c460e51daa26cb4a": 1,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#basic",
+                                                "#spawncount": 4
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#droptoground": true,
+                                        "#infilvfx": "#none",
+                                        "#hash_5ce2f10e1d0ff94d": true,
+                                        "#useinteractions": true
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#difficulty_normal"
+                        },
+                        {
+                            "#tag": "#aftermath"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#special_normal",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": true,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#hard",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.7,
+                                "#triggertype": "#influence",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            },
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#hash_9b02ab80d56b8f3",
+                                "#hash_c460e51daa26cb4a": 1,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#zombie",
+                                                "#spawncount": 6
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#droptoground": true,
+                                        "#infilvfx": "#none",
+                                        "#hash_5ce2f10e1d0ff94d": true,
+                                        "#useinteractions": true
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#difficulty_hard"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#special_hard",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        },
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#basic",
+                                    "#spawncount": 4
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#darkaether",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.7,
+                                "#triggertype": "#influence",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            },
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#hash_9b02ab80d56b8f3",
+                                "#hash_c460e51daa26cb4a": 1,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#basic",
+                                                "#spawncount": 6
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#droptoground": true,
+                                        "#infilvfx": "#none",
+                                        "#hash_5ce2f10e1d0ff94d": true,
+                                        "#useinteractions": true
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ]
+                    },
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#killedcount",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 2
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#basic",
+                                                "#spawncount": 5
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#droptoground": true,
+                                        "#infilvfx": "#none",
+                                        "#hash_5ce2f10e1d0ff94d": true,
+                                        "#useinteractions": true
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ]
+                    },
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 4,
+                                "#triggertype": "#influence",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#sum",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#basic",
+                                                "#spawncount": 5
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#droptoground": true,
+                                        "#infilvfx": "#none",
+                                        "#hash_5ce2f10e1d0ff94d": true,
+                                        "#useinteractions": true
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ],
+                        "#hash_fa9acac35f4d787f": true
+                    }
+                ],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#difficulty_darkaether"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#sat_spawner_zombie_base_armored_heavy_ob",
+                                    "#spawncount": 6
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        },
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#special_darkaether",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            },
+            {
+                "#label": "#hash_38727046df68333f",
+                "#hash_481210e52fd75e0f": false,
+                "#hash_61254fb252d54ac8": [
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.7,
+                                "#triggertype": "#influence",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            },
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#hash_9b02ab80d56b8f3",
+                                "#hash_c460e51daa26cb4a": 1,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_spawner_zombie_base_armored_heavy_ob",
+                                                "#spawncount": 6
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#droptoground": true,
+                                        "#infilvfx": "#none",
+                                        "#hash_5ce2f10e1d0ff94d": true,
+                                        "#useinteractions": true
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ]
+                    },
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 0.4,
+                                "#triggertype": "#killedcount",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#max",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 2
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_spawner_zombie_base_armored_heavy_ob",
+                                                "#spawncount": 5
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#droptoground": true,
+                                        "#infilvfx": "#none",
+                                        "#hash_5ce2f10e1d0ff94d": true,
+                                        "#useinteractions": true
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ]
+                    },
+                    {
+                        "#reinforcementtriggers": [
+                            {
+                                "#hash_90470cced9951da6": 4,
+                                "#triggertype": "#influence",
+                                "#hash_c460e51daa26cb4a": 3,
+                                "#hash_faa23bf264ec87eb": 3,
+                                "#hash_574c7e0186222951": "#sum",
+                                "#hash_506030ce405c204a": 60,
+                                "#hash_d4b998a249323e5a": 3
+                            }
+                        ],
+                        "#reinforcementwaves": [
+                            {
+                                "#requiredtags": [],
+                                "#spawngroups": [
+                                    {
+                                        "#groundvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#hash_f846236aedfaa25a": "#none",
+                                        "#airvehicle": {
+                                            "#spawnfilter": "#none",
+                                            "#vehicle": ""
+                                        },
+                                        "#parachute": {
+                                            "#vehicle": ""
+                                        },
+                                        "#aitypelist": [
+                                            {
+                                                "#hash_d03000dd66267116": "systemic",
+                                                "#spawnfilter": "#none",
+                                                "#hash_7a192130d490374": [],
+                                                "#spawnsetname": "#sat_spawner_zombie_base_armored_heavy_ob",
+                                                "#spawncount": 5
+                                            }
+                                        ],
+                                        "#infiltype": "#default",
+                                        "#droptoground": true,
+                                        "#infilvfx": "#none",
+                                        "#hash_5ce2f10e1d0ff94d": true,
+                                        "#useinteractions": true
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_5d22516693d1182f": "#idle"
+                            }
+                        ],
+                        "#hash_fa9acac35f4d787f": true
+                    }
+                ],
+                "#hash_5d22516693d1182f": "#idle",
+                "#bucketpriority": "#filler",
+                "#faction": "#",
+                "#spawnwave": {
+                    "#requiredtags": [
+                        {
+                            "#tag": "#hash_38727046df68333f"
+                        }
+                    ],
+                    "#spawngroups": [
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#hash_e5e93723beebb762",
+                                    "#spawncount": 6
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        },
+                        {
+                            "#groundvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#hash_f846236aedfaa25a": "#none",
+                            "#airvehicle": {
+                                "#spawnfilter": "#none",
+                                "#vehicle": ""
+                            },
+                            "#parachute": {
+                                "#vehicle": ""
+                            },
+                            "#aitypelist": [
+                                {
+                                    "#hash_d03000dd66267116": "systemic",
+                                    "#spawnfilter": "#none",
+                                    "#hash_7a192130d490374": [],
+                                    "#spawnsetname": "#hash_4970895494f24ec7",
+                                    "#spawncount": 1
+                                }
+                            ],
+                            "#infiltype": "#default",
+                            "#droptoground": true,
+                            "#infilvfx": "#none",
+                            "#hash_5ce2f10e1d0ff94d": true,
+                            "#useinteractions": true
+                        }
+                    ],
+                    "#requiredalltags": false,
+                    "#hash_5d22516693d1182f": "#idle"
+                },
+                "#team": "#omega"
+            }
+        ],
+        "#spawnsets": [
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob",
+                "#name": "#zombie"
+            },
+            {
+                "#aitype2": "%#sat_spawner_zombie_vermin_ob",
+                "#aitype1": "%#sat_spawner_zombie_base_toxic_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_ob",
+                "#hash_b1534ca7cd2e2f75": 0.1,
+                "#hash_b1534ba7cd2e2d42": 0.8,
+                "#hash_b15349a7cd2e28dc": 0.1,
+                "#name": "#basic"
+            },
+            {
+                "#aitype3": "%#sat_spawner_zombie_base_armored_light_ob",
+                "#aitype2": "%#sat_spawner_zombie_parasite_ob",
+                "#aitype1": "%#sat_spawner_zombie_mangler_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_mimic_ob",
+                "#hash_b1534ca7cd2e2f75": 0.2,
+                "#hash_b1534ba7cd2e2d42": 0.2,
+                "#hash_b1534aa7cd2e2b0f": 0.3,
+                "#hash_b15349a7cd2e28dc": 0.3,
+                "#name": "#special_normal"
+            },
+            {
+                "#aitype4": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#aitype3": "%#sat_spawner_zombie_disciple_skoll_ob",
+                "#aitype2": "%#sat_spawner_zombie_ghoul_ob",
+                "#aitype1": "%#sat_spawner_zombie_mangler_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_mimic_ob",
+                "#hash_b1534ca7cd2e2f75": 0.2,
+                "#hash_b1534ba7cd2e2d42": 0.1,
+                "#hash_b1534aa7cd2e2b0f": 0.1,
+                "#hash_b15349a7cd2e28dc": 0.1,
+                "#name": "#special_hard"
+            },
+            {
+                "#aitype4": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#aitype3": "%#sat_spawner_zombie_disciple_skoll_ob",
+                "#aitype2": "%#sat_spawner_zombie_amalgam_ob",
+                "#aitype1": "%#sat_spawner_zombie_mangler_hvt_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_mimic_hvt_ob",
+                "#hash_b1534ca7cd2e2f75": 0.2,
+                "#hash_b1534ba7cd2e2d42": 0.1,
+                "#hash_b1534aa7cd2e2b0f": 0.1,
+                "#hash_b15349a7cd2e28dc": 0.1,
+                "#hash_b15347a7cd2e2476": 0.7,
+                "#name": "#special_darkaether"
+            },
+            {
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#name": "#sat_spawner_zombie_base_armored_heavy_ob"
+            },
+            {
+                "#aitype4": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#aitype3": "%#sat_spawner_zombie_disciple_skoll_ob",
+                "#aitype2": "%#sat_spawner_zombie_amalgam_ob",
+                "#aitype1": "%#sat_spawner_zombie_mangler_hvt_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_mimic_hvt_ob",
+                "#hash_b1534ca7cd2e2f75": 0.1,
+                "#hash_b1534ba7cd2e2d42": 0.1,
+                "#hash_b1534aa7cd2e2b0f": 0.1,
+                "#hash_b15349a7cd2e28dc": 0.1,
+                "#name": "#hash_4970895494f24ec7"
+            },
+            {
+                "#aitype2": "%#sat_spawner_zombie_vermin_ob",
+                "#aitype1": "%#sat_spawner_zombie_base_toxic_ob",
+                "#hash_162fe9e0c42408c0": "%#sat_spawner_zombie_base_armored_heavy_ob",
+                "#hash_b1534ca7cd2e2f75": 0.05,
+                "#hash_b1534ba7cd2e2d42": 0.9,
+                "#hash_b15349a7cd2e28dc": 0.05,
+                "#name": "#hash_e5e93723beebb762"
+            }
+        ],
+        "#hash_5d4f71dc6f782763": true,
+        "#hash_d87e625ec065d455": "#none",
+        "#hash_6be8c977ffcc787d": {
+            "#spawnpointselection": "#spawn_points",
+            "#spawndistance": 300
+        },
+        "#usereinforcements": true,
+        "#requiredtags": [
+            {
+                "#tag": "#hash_4a88e5e47b8a259c"
+            }
+        ],
+        "#hash_9e2a54290269688f": false,
+        "#requiredalltags": true,
+        "#respawnbehavior": "#directorcontrolled",
+        "#encounterpriority": "#filler",
+        "#hash_5f6eaefe5a5e8812": "#none",
+        "#hash_36a179726356ede": {
+            "#spawnpointselection": "#location"
+        },
+        "#savestate": "#restart",
+        "#factionnetwork": "",
+        "#hash_98312520738c090": {
+            "#spawnradius": 300,
+            "#spawnpointselection": "#players",
+            "#spawndistance": 750,
+            "#hash_7d1df658638c76e2": "#in_front"
+        },
+        "#hash_9ed373886ced8cc5": "#random",
+        "#useinfils": true,
+        "#hash_52dec7cde5b67d70": true,
+        "#bucketassets": [],
+        "#hash_7b2aa28c2ff2b328": true,
+        "#overridechance": true,
+        "#spawnrules": {
+            "#hash_1066c6dd8c8d58b6": 100
+        },
+        "#hash_4252efb37214c5c1": false
+    }
+}

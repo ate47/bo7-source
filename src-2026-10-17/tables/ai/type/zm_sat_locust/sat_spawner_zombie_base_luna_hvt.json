@@ -1,0 +1,93 @@
+{
+    "name": "#sat_spawner_zombie_base_luna_hvt",
+    "typeSuffix": "_zombie",
+    "species": "zombie",
+    "coverSelectorAsset": "#cover_default",
+    "#hash_d1e3f54c868c90eb": "#hash_55b663c0d875e10e",
+    "enemySelectorAsset": "#hash_2d8f91164cd3e0a8",
+    "animationStateMachineAsset": "#zombie_base",
+    "behaviorTreeAsset": "#zombie_base",
+    "footStepsFxTable": "#hash_bb628b8ef6720010",
+    "foliagesFXTable": "#hash_e9617933dda9a3ae",
+    "handPlantsFXTable": "#defaulthandplantsfxtable_npc",
+    "aiImpactVFXTable": "#hash_d88975d4a357ce40",
+    "dismemberment": "#hash_d9aba0c017bbcb66",
+    "scriptbundle": "#hash_c578cb054bb614b5",
+    "particleSystem1": "#hash_8462c4128bfe943a",
+    "particleSystem2": "#hash_8462c4128bfe943a",
+    "unitType": "zombie",
+    "team": "axis",
+    "characters.unk10": "#default",
+    "characterTypes": [
+        {
+            "character": "#character_sat_zombie_base_luna_king"
+        }
+    ],
+    "weaponlist": [
+        {
+            "weaponhash": "#hash_d475315fad97c80a",
+            "weapontype": "primary",
+            "weapon": "sat_me_zombie_melee_mp"
+        }
+    ],
+    "scriptFiles": [
+        "#scripts/common/ai/aitypes/zombie_base/zombie_base.gsc",
+        "#scripts/common/ai/aitypes/zombie_base_luna/zombie_HVT_luna.gsc"
+    ],
+    "bundleData": {
+        "#staggerthreshold": 0,
+        "#validmode": "MP",
+        "#hash_8ad2ffa7e69c9641": [],
+        "#hash_803656a6025b3c4b": [
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_base\\zombie_base.gsc"
+            },
+            {
+                "#scriptfile": "scripts\\common\\ai\\aitypes\\zombie_base_luna\\zombie_HVT_luna.gsc"
+            }
+        ],
+        "#staggerdecay": 0,
+        "#charactertypes": [
+            {
+                "#character": "character_sat_zombie_base_luna_king"
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            },
+            {
+                "#character": ""
+            }
+        ],
+        "#unittype": "zombie",
+        "#subclass": "zombie_base_luna_hvt",
+        "#hash_a90c7de92a84bf4a": false,
+        "#aisettingsbundle": "aisettings_zombie_base_luna_hvt",
+        "#killicon": "",
+        "#zombieaisetting": "settings_zombie_base_luna_sat_hvt",
+        "#health": 100,
+        "#healthbarsettings": "%#hash_1fc60d2887f14774",
+        "#aitypesettingsbundle": "aisettings_sat_zombie_base_luna",
+        "#nameplateicon": "",
+        "#scriptedweaponclassprimary": "none",
+        "#hash_383c189719f73ccf": "ai_shoot_styles_default",
+        "#grenadeweapon": "sat_zombie_ranged_attack_mp",
+        "#hash_fad83652ff229574": [],
+        "#damagefiltering": false,
+        "#animationstatemachine": "zombie_base",
+        "#action_fsm": "ai_action_fsm",
+        "#behaviortreeasset": "zombie_base",
+        "#characterlists": [],
+        "#squadtype": "none",
+        "#ispingable": true,
+        "#usescriptedweapon": false,
+        "#pingasset": "",
+        "#grenadeammo": 0,
+        "#team": "axis"
+    }
+}
